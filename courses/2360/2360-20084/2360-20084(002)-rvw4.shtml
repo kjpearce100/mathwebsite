@@ -1,0 +1,210 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 2360-20084(002)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 2360-20084(002)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 2360">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 2360<br>
+Linear Algebra<br>
+Summer II 2008</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Leon, Steven J<br>
+Linear Algebra<br>
+Pearson</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam IV</span>
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Scalar product of vectors in R<sup>n</sup>
+	<li>Length of a vector in in R<sup>n</sup>
+	<li>Distance between two vectors in in R<sup>n</sup>
+	<li>Angle between two vectors in R<sup>n</sup>
+	<li>Cauchy-Schwarz Inequality
+	<li>Definition of orthogonality for vectors in R<sup>n</sup>
+	<li>Projections
+	<ul>
+		<li>Vector projection of <b>x</b> onto <b>y</b>
+		<li>Scalar rojection of <b>x</b> onto <b>y</b>
+	</ul>
+</ul>
+
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 13, 
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Orthogonal subspaces
+	<li>Orthogonal complement of a subspace
+	<li>Theorem 5.2.1  Fundamental Subspaces Theorem
+	<li>Direct sum of subspaces
+	<li>Theorem 5.2.3 
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 4, 5, 
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Least Square Problem for A<b>x</b> = <b>b</b>
+	<li>Theorem 5.3.1
+	<li>Normal Equations for Least Squares Problem
+	<li>Theorem 5.3.2 Least squares soluton for matrix A with rank n
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1a, 1b, 2
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.5
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Orthogonal set
+	<li>Orthonormal set
+	<li>Theorem 5.5.1
+	<li>Theorem 5.5.2 Coordinates computations for orthonormal bases
+	<li>Orthogonal matrix
+	<li>Properties of orthogonal matrices
+	<li>Theorem 5.5.7 Projection onto a subspace with an orthonormal basis
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 3, 21
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.6
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Theorem 5.6.1 Gram-Schmidt Orthogonalization Process
+	<li>Theorem 5.6.2 Gram-Schmidt QR Factorization
+	<li>Theorem 5.6.3 Least squares solution for matrix A with rank n via QR factorizaton
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 3, 5, 8
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 6.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Eigenvector
+	<li>Eignenvalue
+	<li>Characteristic polynomial
+	<li>Complex eigenvalues and eigenvectors of real matrices
+	<li>Compute eigenvalues and eigenvectors
+	<li>Product and sum of eigenvalues
+	<li>Eigenvalues of upper triangular matrix
+	<li>Eigenvalues of similar matrices
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 11
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 6.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Diagonalizable
+	<li>Theorem 6.3.2 
+	<li>Arithmetic Multiplicity vs Geometric Multiplicity
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2
+</td>
+</tr>
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="2360-20084(002)-rvw4.shtml"-->
+</div>
+
+</body>
+</html> 

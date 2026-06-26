@@ -1,0 +1,238 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 2360-20084(002)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 2360-20084(002)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 2360">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 2360<br>
+Linear Algebra<br>
+Summer II 2008</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Leon, Steven J<br>
+Linear Algebra<br>
+Pearson</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam II</span>
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 2.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>adjoint of an <i>n</i>x<i>n</i> matrix
+<li>Cramer's Rule
+</ul>
+
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 6
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>vector space (linear space)
+<ul>
+      <li>binary operation addition 
+      <ul>
+            <li>commutative
+            <li>associative
+            <li>existence of an additive identity (called 0)
+            <li>existence of additive inverse for each a (called -a)
+      </ul>
+      <li>scalar multiplication
+      <ul>
+            <li>distributive property i
+            <li>distributive property ii
+            <li>associativity of scalar multiplication
+            <li>unity property of scalar multiplication
+      </ul>
+</ul>
+<li>Example: R<sup><i>n</i></sup>
+<ul>
+      <li>addition = component-wise addition
+      <li>scalar multiplication = component-wise scalar multiplication
+      <li>R<sup>2</sup>, R<sup>3</sup>
+      <ul>
+            <li>vectors identified with "directed line segments"
+            <li>component-wise addition identified with geometry of parallolegram rule
+            <li>scalar multiplication identified with geometric scaling of vector
+            <li>length of vector given by Pathagorean rule
+      </ul>
+</ul>
+<li>Example: R<sup><i>n</i>x<i>m</i></sup>
+<ul>
+      <li>addition = matrix addition
+      <li>scalar multiplication = scalar multiplication on matrices    
+</ul
+<li>Example: P<sub><i>n</i></sub>
+<ul>
+      <li>addition = polynomial addition
+      <li>scalar multiplicaiton = multiplication of scalars on polynomials
+</ul>
+<li>Example: C[a,b}
+<ul>
+      <li>addition = function addition
+      <li>scalar multiplicaiton = multiplication of scalars on functions
+</ul>
+<li>Theorem 3.1.1 (Additional Properties of Vector Spaces)
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+4, 6, 8, 9, 10, 11, 12
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>definition of a subspace
+<li>examples for R<sup>2</sup>
+<li>examples for R<sup>2x2</sup>
+<li>examples for P<sub>3</sub>
+<li>null space of a matrix N(A)
+<li>span of a set of vectors
+<li>Theorem 3.2.1
+<li>spanning set for a vector space V
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 3, 5, 7, 9, 10, 11, 14, 17
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>linear independence
+<li>linear dependence
+<li>linear independence of two vectors
+<li>Theorem 3.3.1 Linear independence of <i>n</i> vectors in R<sup><i>n</i></sup>
+<li>Theorem 3.3.2
+<li>Linear Independence Conditions/Criteria
+<ul>
+      <li>R<sup><i>n</i></sup>
+      <li>P<sub><i>n</i></sub>
+      <li>R<sup><i>n</i>x<i>m</i></sup>
+      <li>C<sup><i>n</i>-1</sup>[a,b]
+      <ul>
+            <li>Wronskian
+            <li>Theorem 3.3.3
+      </ul>
+</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 6, 7, 11
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.4
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>basis
+<li>Examples
+<ul>
+      <li>R<sup>2</sup>
+      <li>R<sup>3</sup>
+      <li>R<sup>2x2</sup>
+      <li>P<sub>3</sub>
+</ul>
+<li>Theorem 3.4.1
+<li>Corolary 3.4.2
+<li>dimension
+<ul>
+      <li>finite dimensional vector space
+      <ul>
+            <li>examples
+      </ul>
+      <li>infinite dimensional vector space
+      <ul>
+            <li>examples
+      </ul>
+<li>Theorem 3.4.3
+<li>Standard Bases
+</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 3, 5, 7, 10, 11, 14
+</td>
+</tr>
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="2360-20084(002)-rvw3.shtml"-->
+</div>
+
+</body>
+</html> 

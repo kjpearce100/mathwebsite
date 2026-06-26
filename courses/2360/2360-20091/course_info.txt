@@ -1,0 +1,11 @@
+<b>Welcome to Math 2360-001, Fall 2009</b><br><br>
+
+The following course support materials are available:<br><br>
+
+<a href=http://www.math.ttu.edu/~pearce/courses/2360-20091(001)-syl.pdf>Syllabus</a><br>
+<a href=http://www.math.ttu.edu/~pearce/courses/2360-20091(001)-cal.pdf>Calendar/Schedule</a><br><br>
+
+Additionally, the following support materials for WebWork are available:<br><br>
+
+<a href=http://www.math.ttu.edu/~pearce/webwork/intro_for_students.html>Introduction for Students</a><br>
+<a href=http://www.math.ttu.edu/~pearce/webwork/how_to_enter_answers.html>How to Enter Answers</a><br>

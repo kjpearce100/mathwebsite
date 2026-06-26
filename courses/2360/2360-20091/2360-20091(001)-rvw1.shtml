@@ -1,0 +1,258 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 2360-20091(001)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 2360-20091(001)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 2360">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 2360<br>
+Linear Algebra<br>
+Fall 2009</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Leon, Steven J<br>
+Linear Algebra<br>
+Pearson</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam I</span>
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 1.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>linear equation in <i>n</i> variables
+<li>system of <i>m</i> linear equations in <i>n</i> variables
+<li>solution of system of <i>m</i> linear equations in <i>n</i> variables
+<li>solution set of system of <i>m</i> linear equations in <i>n</i> variables
+<li>three types of solutions sets
+<ul>
+      <li>solution sets with cardinality one (unique solution)
+      <li>solution sets with infinite cardinality (infinitely many solutions)
+      <li>solution sets with cardinality zero (no solutions -- inconsistent)
+</ul>
+<li>equivalent systems of <i>m</i> linear equations in <i>n</i> variables
+<li>strict triangular system of <i>m</i> linear equations in <i>n</i> variables
+<li>back substitution
+<li>coefficient matrix of a system of <i>m</i> linear equations in <i>n</i> variables
+<li>elementary row operations
+<ul>
+      <li>interchange two rows
+      <li>multiply a row by a non-zero number
+      <li>add a multiple of one row to a second row and replace the second row
+</ul>
+<li>pivotal row, pivotal element
+</ul>
+
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 5, 6
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 1.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>row echelon form
+<li>Gaussian elimination
+<li>types of systems
+<ul>
+      <li> overdetermined
+      <li> undetermined
+</ul>
+<li>reduced row echelon form
+<li>application #1: traffic flow
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 3, 5, 7, 8, 13, 
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 1.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>matrix notation
+<li>vectors
+<li>definition of equality for two matrices
+<li>definition of sum for two matrices
+<li>definition of scalar multiplication for a scalar and a matrix
+<li>algebraic properties of matrix addition
+<li>definition of matrix product for a row vector and a column vector
+<li>definition of product for two matrics
+<li>algebraic properties of matrix multiplication
+<li>differences between algebraic properties of real multiplication and matrix multipication
+<ul>
+      <li>non-commutativity of multiplication
+      <li>non-cancellation of multiplication in equations
+</ul>
+<li>powers of matrices (<i>n</i>x<i>n</i>)
+<li>matrix equation representation of a system of <i>m</i> linear equations in <i>n</i> variables
+<li>definition of a linear combination
+<li>Consistency Theorem for Systems of Linear Equations (pg 37)
+<li>invertible (non-singular) matrix
+<li>Theorem 1.3.3 (pg 49)
+<li>transpose of a matrix
+<li>algebraic properties of transposes
+<li>symetric matrix
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 4, 10, 13, 22, 23, 25
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 1.4
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>elementary matrices
+<ul>
+      <li>type I:   interchanges two rows upon multiplication (on the left)
+      <li>type II:  multiplies a row by a non-zero constant upon multiplication (on the left)
+      <li>type III: adds a multiple of one row to a second row and replaces the second row with the sum upon multiplication (on the left)
+</ul>
+<li>multiplication of elementary matrix on the right induces action on the columns
+<li>row equivalance of matrices
+<li>Theorem Equivalent conditions for Non-singularity (pg 65)
+<li>construction of matrix inverse via row reduction of the maxtrix augmented with the identity
+<li>triangular matrices
+<li>diagonal matrices
+<li>Theorem: Triangular matrix is non-singular if trace is non-zero
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 3, 4, 5, 6, 10, 13, 23
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 2.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>determinant of 2x2 matrix
+<li>definition of the determinant of a matrix
+<li>Theorem 2.1.1 (pg 95)<br.
+<li>properties of determinants
+<ul>
+      <li> determinant of A<sup>T</sup>
+      <li> determinant of triangular matrix
+      <li> determinant of A if A has a zero row (column)
+      <li> determinant of A if A has two identical rows (columns)
+</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 3, 5-6, 11
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 2.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Theorem 2.2.1 (pg 98)
+<li>determinants of elementary matrices E and determinants of multiplication (on the left) by E
+<ul>
+      <li>type I:   det(E) = -1;  det(EA) = -det(A)
+      <li>type II:  det(E) = alpha; det(EA) = alpha det(A)
+      <li>type III: det(E) = 1; det(EA) = det(A)
+</ul>
+<li>Theorem 2.2.2 A is non-singular iff det(A) not equal 0
+<li>computation (simplificiations) of determinants via reductions (eliminations) by elementary matrix operations
+<li>Theorem 2.2.3 det(AB) = det(A) det(B)
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+2a, 3, 4, 6, 7, 9
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 2.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>adjoint of an <i>n</i>x<i>n</i> matrix
+<li>Cramer's Rule
+</ul>
+
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 6
+</td>
+</tr>
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="2360-20091(001)-rvw1.shtml"-->
+</div>
+
+</body>
+</html> 

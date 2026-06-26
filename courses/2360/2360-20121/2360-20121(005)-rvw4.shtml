@@ -1,0 +1,207 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 2360-20121(005)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 2360-20121(005)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 3350">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 2360<br>
+Linear Algebra<br>
+Fall 2012</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Larson, Ron<br>
+Linear Algebra<br>
+Cengage</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Final Exam</span>
+
+<p>
+
+<a href=http://www.math.ttu.edu/courses/2360-20121(005)-rvw1.shtml>Review from Exam I</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=http://www.math.ttu.edu/courses/2360-20121(005)-rvw2.shtml>Review from Exam II</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=http://www.math.ttu.edu/courses/2360-20121(005)-rvw3.shtml>Review from Exam III</a><br>
+
+<p>
+
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 6.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Terminology
+		<ul>
+			<li>Map, Function, Transformation
+			<li>Domain, Codomain, Image, Range, Preimage
+		</ul>
+	<li>Definition of Linear Transformation
+	<li>Examples
+		<ul>
+			<li>Linear Transformations defined bia Matrix Multiplication
+		</ul>
+	<li>Theorem 6.1 Properties of Linear Transformations
+	<li>Linear Transformation Determined by Its Action on a Basis
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Pages 300-300<br>
+3, 6, 10, 11, 14, 16, 21, 22, 25, 27, 2934, 37
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 6.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Kernel of a Linear Transformation T
+<li>Theorem 6.3 Ker(T) is a Subspace of the Domain of T
+	<ul>
+			<li>If Tx = Ax for some matrix A, then Ker(T) = N(A)
+	</ul>
+<li>Range of Linear Transformation T
+<li>Theorem 6.4 Range of T is a Subspace of the Codomain of T
+	<ul>
+			<li>If Tx = Ax for some matrix A, then Ker(T) = Column Space of A
+	</ul>
+<li>Definition of Rank and Nullity of a Linear Transformation T
+<li>Theorem 6.5 Rank-Nullity Theorem
+	<ul>
+			<li>If Tx = Ax for some matrix A, then Rank(T) = Rank(A) and Nullity(T) = dim(N(A))
+	</ul>
+<li>Definition of One-to-One and Definition of Onto
+<li>Theorem 6.6
+<li>Theorem 6.7
+<li>Theorem 6.8
+<li>Definition of Isomorphism
+<li>Theorem 6.9
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Pages 312-313<br>
+2-3, 6, 10, 13-14, 19-21, 31-34, 39-42, 52
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 6.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Standard Matrix for a Linear Transformation
+<li>Composition of Linear Transformations
+	<ul>
+		<li>Standard Matrix for a Composition is given by Matrix Multiplication of the Matrices of Component Transformations
+	</ul>
+<li>Definition of an Inverse Linear Transformation
+<li>Existence of an Inverse Transformation
+<li>Transformation Matrix w.r.t. Non-standard Bases
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Pages 322-323<br>
+1, 3, 5, 8, 10, 25, 26, 37, 38
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 6.4
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Finding the Matrix for Linear Transformation
+<li>Definition of Similar Matrices
+<li>Theorem 6.13 Properties of Similar matrices
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Pages 328-329<br>
+1, 3, 5, 7
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Eigenvalue Problem
+<li>Definition of Eigenvalues and Eigenvectors
+<li>Theorem 7.1 Eigenspace of a Matrix forms a Subspace
+<li>Characteristic Polynomial of a Matrix
+<li>Procedure for Finding Eigenvalues and Eigenvectors of a Matrix
+<li>Eigenvalues of Triangular Matrices
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Pages 350-352<br>
+11, 13, 17, 18, 19, 21, 22, 39, 40
+</td>
+</tr>
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="2360-20121(005)-rvw4.shtml"-->
+</div>
+
+</body>
+</html> 

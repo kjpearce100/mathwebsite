@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 2360-20084(002)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 2360-20084(002)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 2360">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 2360<br>
+Linear Algebra<br>
+Summer II 2008</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Leon, Steven J<br>
+Linear Algebra<br>
+Pearson</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam III</span>
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.5
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>R<sup>n</sup>
+<ul>
+      <li>Standard Basis for R<sup>n</sup>
+      <li>Ordered Basis in R<sup>n</sup>
+            <ul>
+                  Coordinates w.r.t Ordered Basis
+            </ul>
+      <li>Problem
+            <ul>
+                  <li>1. Given coordinates in standard basis find coordinates in ordered basis
+                  <li>2. Given coordinates in ordered basis find coordinates in standard basis
+            </ul>
+      <li>Solution
+            <ul>
+                  <li>Problem 2: Transition Matrix from Ordered Basis to Standard Basis <i>U</i>
+                  <li>Problem 1: Transition Matrix from Standard Basis to Ordered Basis <i>U</i><sup>-1</sup>
+            </ul>
+      <li>Transition Matrix S from Ordered Basis F to Ordered Basis E 
+</ul>
+<li>General Finite Dimensional Vector Space
+<ul>
+      <li>Ordered Basis</sup>
+            <ul>
+                  Coordinates w.r.t Ordered Basis
+            </ul>
+      <li>Problem
+            <ul>
+                  <li>Given coordinates in ordered basis E find coordinates in ordered basis F
+            </ul>
+      <li>Solution
+            <ul>
+                  <li>Problem 2: Transition Matrix S from Ordered Basis F to Ordered Basis E 
+            </ul>
+</ul>
+</ul>
+
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 3, 5, 6, 10
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.6
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>vector space (linear space)
+<ul>
+<li>Row Space of A
+<li>Column Space of A
+<li>Theorem:  Two row equivalent matrices have the same row space
+<li>Theorem 3.6.2  Consistency Theorem for Linear Systems
+<li>Theorem: A (nxn) is non-singular iff the column space of A = R<sup>n</sup>
+<li>Rank of A
+<li>Nullity of A
+<li>Theorem 3.6.5. Rank-Nullity Theorem
+<li>Meta-Theorem:  Two row equivalent matrices have different column spaces, but the same column dependency relationships
+<li>Theorem 3.6.6 dim(row space of A) = dim(col space of A)
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 4, 7, 8, 10, 11, 12
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Examples
+      <ul>
+            <li>Matrix Multiplication
+      </ul>
+<li>Properties
+      <ul>
+            <li>L(0<sub>V</sub>) = 0<sub>W</sub>
+            <li>L(-x) = -L(x)
+            <li>Linear combinations
+      </ul>
+<li>Kernel of L
+<li>Image of a Subspace under L
+<li>Range of L
+<li>Theorem 4.1.1
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 4, 5, 6, 7, 9, 11, 17, 19
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Theorem 4.2.1 Matrix representation of Linear Transformation from R<sup>n</sup> to R<sup>m</sup>
+<li>Theorem 4.2.2 Matrix representation of Linear Transformation from V to W
+<li>Theorem 4.3.3 Construction of Matrix A for case of V = R<sup>n</sup> and W = R<sup>m</sup> in Theorem 4.2.2
+<li>Corollary Above construction via row equivalent transformation of an augmented matrix
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 3, 4, 6, 14, 18
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Linear Operator
+<li>Theorem 4.3.1
+<li>Similarity
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 3, 4, 5
+</td>
+</tr>
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="2360-20084(002)-rvw3.shtml"-->
+</div>
+
+</body>
+</html> 

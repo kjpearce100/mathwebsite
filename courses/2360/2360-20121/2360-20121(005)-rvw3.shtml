@@ -1,0 +1,231 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 2360-20121(005)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 2360-20121(005)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 2360">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 2360<br>
+Linear Algebra<br>
+Fall 2012</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Larson, Ron<br>
+Linear Algebra<br>
+Cengage</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam III</span>
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.7
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Coordinate of a vector with respect to a basis
+	<ul>
+		<li>Coordinate matrix
+		<li>Notation [<b><i>x</i></b>]<sub><i>B</i></sub>
+	</ul>
+<li>Change of basis in <i>R<sup>n</sup><i>
+<li>Transition matrix from basis <i>B'</i> to <i>B</i>
+<li>Inverse of a transition matrix
+<li>Theorem 4.21 Transition matrix from basis <i>B</i> to <i>B'</i>
+<li>Coordinate representation in general vector space V
+</ul>	
+</td>
+<td valign=top width=25% align=left class=text12>
+Pages 210-211<br>
+5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 35, 37
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.8
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Linear differential equation
+	<li>Wronskian of a set of functions
+	<li>Wronskian test for linear independence
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Pages 219-223<br>
+13, 14, 17, 20, 21
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Length or norm of a vector in <i>R<sup>n</sup></i>
+<li>Length of a scalar multiple
+<li>Unit vector
+<li>Distance between two vectors in <i>R<sup>n</sup></i>
+<li>Dot product of two vectors in <i>R<sup>n</sup></i>
+<li>Properties of the dot product
+<li>Cauchy-Schwarz inequality
+<li>Angle between two non-zero vectors in <i>R<sup>n</sup></i> via dot product
+<li>Definition of orthogonal
+<li>Triangle Inequality in <i>R<sup>n</sup></i>
+<li>Pythagorean Theorem in <i>R<sup>n</sup></i>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Pages 235-236<br>
+7-8, 11-12, 20-21, 25-26, 41-42, 48-51
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Definition of inner product on a vector space
+	<li>Examples of inner products for <i>R<sup>n</sup></i>, <i>M<sub>m,n</sub></i>, <i>C</i>[<i>a,b</i>]
+	<li>Properties of inner products
+	<li>Definitions of length, distance and angle
+	<li>Cauchy-Schwarz inequality
+	<li>Triangle Inequality
+	<li>Pythagorean Theorem
+	<li>Orthogonal Projection of a vector <b>u</b> on to a vector <b>v</b>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Pages 245-247<br>
+17, 19, 21, 23, 29, 35, 39, 41, 47-49, 73, 75, 78-79
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Orthogonal sets
+	<li>Orthonormal sets
+	<li>Orthogonal basis, Orthonormal basis
+  <li>Theorem 5.10 Orthogonal sets is linearly independent
+  <li>Corollary to Theorem 5.10, Page 251
+  <li>Theorem 5.11 Coordinates of vector with respect to an orthogonal basis
+  <li>Theorem 5.12 Gram-Schmidt Orthogonalization Process
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Pages 257-258<br>
+1, 4, 7, 10, 13, 21, 25, 27, 31, 35, 39, 41
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.4
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Least Square Regression Line
+	<li>Least Squares Problem
+	<li>Orthogonal Subspaces
+	<li>Orthogonal Complement
+	<li>Direct Sum
+	<li>Properties of Orthogonal Subspaces
+	<li>Projection onto a Subspace which is the span of an orthogonal basis
+	<li>Theorem 5.15 Orthogonal Projection and Distance
+	<li>Fundamental subspaces of a matrix
+	<li>Theorem 5.16 Fundamental Subspaces of a Matrix
+	<li>Solution of the Least Squares Problem
+	<li>Normal equation of the least squares problem
+	<li>Orthogonal projections onto a subspace
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Pages 269-270<br>
+5-7, 15-17, 19-21, 23-25, 29-31, 33-35
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.5
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+	<li>Least squares approximations in calculus
+	<li>Definition of least squares approximation
+	<li>Theorem 5.19 Least squares approximating function
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Pages 282-283<br>
+63-65, 69-71
+</td>
+</tr>
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="2360-20121(005)-rvw3.shtml"-->
+</div>
+
+</body>
+</html> 
