@@ -1,0 +1,246 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 18 
+267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 18 278 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"" 0 256 1 {CSTYLE "" -1 -1 "" 0 1 101 101 58 0 0 0 0 0 0 0 0 0 0 1 }
+3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 257 1 {CSTYLE "" -1 -1 "
+" 0 1 0 0 70 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 258 1 {CSTYLE "" -1 -1 "" 0 1 16 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 259 1 {CSTYLE "" -1 
+-1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "" 0 260 1 {CSTYLE "" -1 -1 "" 0 1 114 115 96 0 0 0 0 0 0 
+0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 261 1 
+{CSTYLE "" -1 -1 "" 0 1 16 0 224 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 
+-1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 262 1 {CSTYLE "" -1 -1 "" 0 1 55 
+136 1 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"" 11 263 1 {CSTYLE "" -1 -1 "" 0 1 32 106 117 0 0 0 0 0 0 0 0 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 264 1 {CSTYLE "" -1 -1 
+"" 0 1 54 136 1 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "" 0 265 1 {CSTYLE "" -1 -1 "" 0 1 32 32 52 0 0 0 0 0 0 0 
+0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 266 1 {CSTYLE 
+"" -1 -1 "" 0 1 16 0 0 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 
+0 0 -1 0 }{PSTYLE "" 0 267 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 268 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "" 11 269 1 {CSTYLE "" -1 -1 "" 0 1 32 106 
+117 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "
+" 11 270 1 {CSTYLE "" -1 -1 "" 0 1 32 106 117 0 0 0 0 0 0 0 0 0 0 1 }
+1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 271 1 {CSTYLE "" -1 -1 
+"" 0 1 32 106 117 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 
+-1 0 }{PSTYLE "" 0 272 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 25 "MAPLE Worksheet Number 11" }}
+{PARA 257 "" 0 "" {TEXT -1 47 "Linear Algebra:  Elementary Matrix Mani
+pulation" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+157 "Now we will explore topics from Linear Algebra (stuff covered in \+
+MATH 2360 at TTU).  To begin we will need to load the linear algebra p
+ackage. The command is" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "wi
+th(linalg);" }}}{PARA 0 "" 0 "" {TEXT -1 207 "There's lots of stuff he
+re, let's hope we won't have to use it all. The first thing we need to
+ know is how to enter a given matrix.  One way is to list each row as \+
+a vector.  For example to enter the matrix " }}{PARA 258 "" 0 "" 
+{TEXT -1 9 "    M =  " }{XPPEDIT 18 0 "MATRIX([[1, 0, 1], [2, 1, 0], [
+0, 1, 1]])" "6#-%'MATRIXG6#7%7%\"\"\"\"\"!F(7%\"\"#F(F)7%F)F(F(" }}
+{PARA 0 "" 0 "" {TEXT -1 21 "use the MAPLE command" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 37 "M:=matrix([[1,0,1],[2,1,0],[0,1,1]]);" }}}
+{PARA 0 "" 0 "" {TEXT -1 122 "Another way is to give the row-column si
+ze of the matrix and then list all the elements.  For example to enter
+ the matrix " }}{PARA 259 "" 0 "" {TEXT -1 3 "N= " }{XPPEDIT 18 0 "MAT
+RIX([[0, 1], [2, -1], [3, -2]])" "6#-%'MATRIXG6#7%7$\"\"!\"\"\"7$\"\"#
+,$F)!\"\"7$\"\"$,$F+F-" }{TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 
+21 "try the MAPLE command" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 
+"N:=matrix(3,2,[0,1,2,-1,3,-2]);" }}}{PARA 0 "" 0 "" {TEXT -1 142 "In \+
+general you can use either command you wish.  You should practice usin
+g both to see the benefits of each.  Now enter the following matrices
+" }}{PARA 260 "" 0 "" {XPPEDIT 18 0 "P := MATRIX([[0, 1, 1], [1, 1, 0]
+, [1, 0, 1]])" "6#>%\"PG-%'MATRIXG6#7%7%\"\"!\"\"\"F+7%F+F+F*7%F+F*F+
+" }{TEXT -1 7 "   ,   " }{XPPEDIT 18 0 "R := MATRIX([[1/2, 0, 1], [0, \+
+1, 1]])" "6#>%\"RG-%'MATRIXG6#7$7%*&\"\"\"F+\"\"#!\"\"\"\"!F+7%F.F+F+
+" }{TEXT -1 8 "  ,and  " }{XPPEDIT 18 0 "Q := MATRIX([[2, 0], [0, 1]])
+" "6#>%\"QG-%'MATRIXG6#7$7$\"\"#\"\"!7$F+\"\"\"" }}{PARA 0 "" 0 "" 
+{TEXT -1 129 "It seems to me the latter method is the easiest to use f
+or entering a one column matrix (column vector). For example the comma
+nds" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "C:=matrix(4,1,[1,2,3,
+4]);C:=matrix([[1],[2],[3],[4]]);" }}}{PARA 0 "" 0 "" {TEXT -1 27 "def
+ine the same 4x1 matrix." }}{PARA 0 "" 0 "" {TEXT -1 60 "To view a pre
+viously defined matrix, say M, try the command " }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 2 "M;" }}}{PARA 0 "" 0 "" {TEXT -1 64 "This isn't \+
+terribly enlightning.  To \"see\" \010M we use the command" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalm(M);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 137 "I would guess that evalm is short for evaluate the matrix. Nex
+t we might want to add two matrices.  Try adding M and P in the obviou
+s way" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "M+P;" }}}{PARA 0 "" 
+0 "" {TEXT -1 110 "Again we have to use evalm to see the result. Actua
+lly to compute and view it is nice to include both commands" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "M+P=evalm(M+P);" }}}{PARA 0 "" 0 "
+" {TEXT -1 30 "Try adding N+P, P+Q, and N+R. " }{TEXT 257 21 " Explain
+ the results." }}{PARA 0 "" 0 "" {TEXT -1 72 "Next try squaring P in t
+he obvious way and use evalm to see the results." }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 15 "P^2=evalm(P^2);" }}}{PARA 0 "" 0 "" {TEXT -1 
+43 "Just for the heck of it compute and view   " }{XPPEDIT 18 0 "P^20
+" "6#*$%\"PG\"#?" }{TEXT -1 56 "  . That's not a calculation I would w
+ant to do by hand." }}{PARA 261 "" 1 "" {TEXT -1 40 "Try squaring N an
+d viewing the result.  " }{TEXT 258 19 "Explain the result." }}{PARA 
+0 "" 0 "" {TEXT -1 69 "Try multiplying M and P in the \"obvious\" way \+
+and viewing the result. " }{TEXT 259 14 " What happens?" }{TEXT -1 2 "
+  " }}{PARA 0 "" 0 "" {TEXT -1 110 "For some strange reason we have to
+ use &*  for the matrix multiplication operator. Now compute and view \+
+ MP.  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "MP=evalm(M&*P);" }
+}}{PARA 0 "" 0 "" {TEXT 260 12 "Does MP=PM ?" }{TEXT -1 1 " " }}{PARA 
+0 "" 0 "" {TEXT 261 11 "Demonstrate" }{TEXT -1 1 "." }}{PARA 0 "" 0 "
+" {TEXT -1 21 "Compute and view MN. " }{TEXT 262 25 " Why can't we com
+pute NM?" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 89 "Perform and \+
+view all possible products of any two of the five matrices M, N, P, R,
+ and Q." }}{PARA 0 "" 0 "" {TEXT 263 78 "Explain why the following MAP
+LE calculation is very misleading, in fact wrong." }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 16 "expand((M+P)^2);" }}}{PARA 268 "" 0 "" {TEXT 
+-1 62 "For general matrices M and P, what is the correct formula for \+
+" }{XPPEDIT 18 0 "(M+P)^2" "6#*$,&%\"MG\"\"\"%\"PGF&\"\"#" }{TEXT -1 
+3 "  ?" }}{PARA 262 "" 1 "" {TEXT -1 76 "Scalar multiplcation works ju
+st the way you would expect.  Compute and view " }{XPPEDIT 18 0 "2*M" 
+"6#*&\"\"#\"\"\"%\"MGF%" }{TEXT -1 5 "  ,  " }{XPPEDIT 18 0 "-4*N" "6#
+,$*&\"\"%\"\"\"%\"NGF&!\"\"" }{TEXT -1 6 "   ,  " }{XPPEDIT 18 0 "a*R
+" "6#*&%\"aG\"\"\"%\"RGF%" }{TEXT -1 2 "  " }}{PARA 263 "" 1 "" {TEXT 
+-1 198 "The command for finding a particular entry in the  ith row and
+ jth column for a matrix K is K[i,j]. Use it to find the entry in the \+
+2nd row, 3rd column of M; now the 3rd row, 1st column entry of N. " }}
+{PARA 269 "" 0 "" {TEXT 264 56 "What would you expect if you tryed the
+ command N[1,3]?  " }}{PARA 270 "" 0 "" {TEXT 265 5 "Why? " }}{PARA 
+263 "" 0 "" {TEXT -1 22 "Next compute and view " }{XPPEDIT 18 0 "M^(-1
+)" "6#)%\"MG,$\"\"\"!\"\"" }{TEXT -1 61 " .Symbolically speaking this \+
+notation should be the same as  " }{XPPEDIT 18 0 "1/M" "6#*&\"\"\"F$%
+\"MG!\"\"" }{TEXT -1 51 " , however since M is a matrix it isn't clear
+ what " }{XPPEDIT 18 0 "1/M" "6#*&\"\"\"F$%\"MG!\"\"" }{TEXT -1 40 " e
+ven means.  Whatever it means though, " }{XPPEDIT 18 0 "M*(1/M)" "6#*&
+%\"MG\"\"\"*&F%F%F$!\"\"F%" }{TEXT -1 154 " should equal 1.  But again
+ we are working with matrices  and two of them multiplied together sho
+uld yield another matrix, so the \"1\" should be a matrix. " }{TEXT 
+266 90 "What matrix should the number 1 represent and what do we call \+
+the matrix represented by   " }{XPPEDIT 267 0 "1/M" "6#*&\"\"\"F$%\"MG
+!\"\"" }{TEXT 268 4 "  ? " }}{PARA 271 "" 0 "" {TEXT -1 65 "To answer \+
+these questions perform the following command sequence:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "M^(-1);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 12 "L:=evalm(%);" }}}{PARA 11 "" 1 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "evalm(M&*L);evalm(L&*M);" }}
+}{PARA 264 "" 1 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 14 "K:=inverse(M);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "M
+&*K=evalm(M&*K);" }}}{PARA 0 "" 0 "" {TEXT 269 46 "Try computing the i
+nverse of N, what happens? " }}{PARA 0 "" 0 "" {TEXT -1 157 "See if MA
+PLE knows the general formula for the inverse of a 2x2 matrix.  In oth
+er words define the genreral matrix GM as below and then compute it's \+
+inverse." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "GM:=matrix([[a,b],[c,d]]);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 12 "inverse(GM);" }}}{PARA 0 "" 0 "" {TEXT -1 94 "Now \+
+in similar fashion see if MAPLE knows the formula for the inverse of a
+ general 3x3 matrix." }}{PARA 0 "" 0 "" {TEXT -1 47 "Ask MAPLE to comp
+ute the inverse of the matrix " }}{PARA 265 "" 0 "" {TEXT -1 5 "T =  \+
+" }{XPPEDIT 18 0 "MATRIX([[1, 0, 1], [1, 1, 0], [0, 1, -1]])" "6#-%'MA
+TRIXG6#7%7%\"\"\"\"\"!F(7%F(F(F)7%F)F(,$F(!\"\"" }{TEXT -1 1 " " }}
+{PARA 0 "" 0 "" {TEXT 270 38 "What is the resulting error message?  " 
+}}{PARA 0 "" 0 "" {TEXT 271 20 "What does this mean?" }}{PARA 0 "" 0 "
+" {TEXT -1 65 "The MAPLE command for computing the determinate of a ma
+trix is   " }{TEXT 256 21 " det(name_of_matrix);" }{TEXT -1 107 "  Use
+ it to compute the determinate of T.  Next compute det(M),  det(P) ,  \+
+ det(Q),   det(N),  and det(R) ." }}{PARA 0 "" 0 "" {TEXT 272 20 "What
+ do you observe?" }}{PARA 0 "" 0 "" {TEXT -1 83 "Compute  det(GM)  to \+
+see the general formula for the determinate of a 2x2 matrix.  " }}
+{PARA 0 "" 0 "" {TEXT 273 56 "Where does this determinate occur in the
+ inverse of GM? " }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 47 "Compu
+te the general formula for a 3x3 matrix.  " }}{PARA 0 "" 0 "" {TEXT 
+274 48 "Where does its determinate occur in the inverse?" }}{PARA 0 "
+" 0 "" {TEXT -1 13 "Next compute " }{XPPEDIT 18 0 "det(M^(-1))" "6#-%$
+detG6#)%\"MG,$\"\"\"!\"\"" }{TEXT -1 10 "   and    " }{XPPEDIT 18 0 "d
+et(P^(-1))" "6#-%$detG6#)%\"PG,$\"\"\"!\"\"" }{TEXT -1 4 "  . " }}
+{PARA 0 "" 0 "" {TEXT 275 91 "What is the apparent relation between th
+e determinate of a matrix and that of its' inverse?" }}{PARA 0 "" 0 "
+" {TEXT -1 27 "Compute the determinate of " }{XPPEDIT 18 0 "M*P" "6#*&
+%\"MG\"\"\"%\"PGF%" }{TEXT -1 3 ".  " }}{PARA 0 "" 0 "" {TEXT 276 56 "
+How does it compare to the product of det(M) and det(P)?" }}{PARA 0 "
+" 0 "" {TEXT 277 28 "How does the determinate of " }{XPPEDIT 278 0 "M^
+2" "6#*$%\"MG\"\"#" }{TEXT 279 24 " compare with that of M?" }{TEXT 
+-1 2 "  " }}{PARA 272 "" 0 "" {TEXT -1 30 "How does the determinate of
+   " }{XPPEDIT 18 0 "M^20" "6#*$%\"MG\"#?" }{TEXT -1 24 " compare with
+ that of M?" }}{PARA 0 "" 0 "" {TEXT -1 39 "Perform the following comm
+and sequence:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "inverse(M)&
+*inverse(P);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalm(%);" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "inverse(P&*M);" }}}{PARA 
+0 "" 0 "" {TEXT -1 76 "This suggests the following identity for genera
+l invertable matrices M and P" }}{PARA 267 "" 0 "" {XPPEDIT 18 0 "(P*M
+)^(-1)=M^(-1)*P^(-1)" "6#/)*&%\"PG\"\"\"%\"MGF',$F'!\"\"*&)F(,$F'F*F')
+F&,$F'F*F'" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT 280 71 "Is this \+
+identity always true for any two invertable matrices M and P?  " }}
+{PARA 0 "" 0 "" {TEXT 281 8 "Explain." }}{PARA 0 "" 0 "" {TEXT -1 218 
+"Another basic matrix operation is \"transpose\".  Experiment with the
+ command  transpose to see what it does to a matrix.  Compute and view
+ transpose(R) times transpose(N) and compare the resulting matrix with
+ transpose(" }{XPPEDIT 18 0 "N*R" "6#*&%\"NG\"\"\"%\"RGF%" }{TEXT -1 
+4 ").  " }}{PARA 0 "" 0 "" {TEXT 282 40 "What general identity does th
+is suggest?" }}{PARA 266 "" 1 "" {TEXT -1 135 "We'll finish this intro
+duction to basic matrix manipulation by looking at some ways we can en
+ter special types of matrices with MAPLE. " }}{PARA 0 "" 0 "" {TEXT 
+-1 28 "A matrix with constant rows:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 34 "matrix([[a$4],[b$4],[c$4],[d$4]]);" }}}{PARA 0 "" 0 "
+" {TEXT -1 18 "A diagonal matrix:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "diag(e,e,e,e);" }}}{PARA 0 "" 0 "" {TEXT -1 20 "The i
+dentity matrix:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "array(ide
+ntity,1..4,1..4);diag(1,1,1,1);" }}}{PARA 0 "" 0 "" {TEXT -1 16 "Const
+ant matrix:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "matrix(3,4,8)
+;" }}}{PARA 0 "" 0 "" {TEXT -1 16 "Variable matrix:" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 14 "matrix(2,5,a);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 29 "Mixed variable and constants:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 32 "a(1,2):=5;a(2,2):=-2;a(2,5):=Pi;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 14 "matrix(2,5,a);" }}}{PARA 0 "" 0 "" {TEXT -1 
+32 "In terms of row/column position:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "h:=(i,j)->1/(i+j-x);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "matrix(4,3,h);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 28 "matrix(3,6,(i,j)->max(i,j));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 28 "matrix(3,6,(i,j)->min(i,j));" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 30 "matrix(3,6,(i,j)->x^max(i,j));" }}}{PARA 0 "" 0 
+"" {TEXT -1 21 "Vandermonde matrices:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "vandermonde([x,y,z]);" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "vandermonde([1,2
+,3]);" }}}{PARA 0 "" 0 "" {TEXT -1 17 "Hilbert matrices:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "hilbert(6);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 16 "Random matrices:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 16 "randmatrix(3,4);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "r
+andmatrix(3,4);" }}}{PARA 0 "" 0 "" {TEXT -1 12 "Row vectors:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "vector([1,v,4]);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "randvector(9);" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 17 "vector(4,i->x^i);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 25 "Combinations of matrices:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 13 "augment(M,N);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 94 "##
+# WARNING: calling sequence has changed; see help page for details\nbl
+ockmatrix(2,2,M,N,P,N);" }}}{PARA 0 "" 0 "" {TEXT -1 31 "Taking from a
+n existing matrix:" }}{PARA 11 "" 1 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 9 "evalm(M);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "submatrix(M,2..3,1..2);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}{MARK "124 0 0" 21 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

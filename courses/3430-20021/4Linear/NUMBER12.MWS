@@ -1,0 +1,119 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "" 0 256 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 257 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 16 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 
+-1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 258 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 
+259 1 {CSTYLE "" -1 -1 "" 0 1 58 136 149 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 260 1 {CSTYLE "" -1 -1 "" 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 11 261 1 {CSTYLE "" -1 -1 "" 0 1 16 0 0 0 0 0 0 0 0 0 0 0 
+0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 25 "MAPLE Worksheet Number 12" }}
+{PARA 256 "" 0 "" {TEXT -1 27 "Matrices and Linear Systems" }}{PARA 0 
+"" 0 "" {TEXT -1 132 "One of the first places we usually encounter mat
+rices is in studying linear systems.  Suppose we want to solve the fol
+lowing system:" }}{PARA 257 "" 0 "" {XPPEDIT 18 0 "2*x[1]+x[2]+4*x[3]=
+41/4" "6#/,(*&\"\"#\"\"\"&%\"xG6#F'F'F'&F)6#F&F'*&\"\"%F'&F)6#\"\"$F'F
+'*&\"#TF'F.!\"\"" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "3*x[1]+(3/2)*x[2]
++(34/5)*x[3]=41/12" "6#/,(*&\"\"$\"\"\"&%\"xG6#F'F'F'*(F&F'\"\"#!\"\"&
+F)6#F,F'F'*(\"#MF'\"\"&F-&F)6#F&F'F'*&\"#TF'\"#7F-" }}{PARA 259 "" 0 "
+" {XPPEDIT 18 0 "x[1]+2/3*x[2]+5*x[3] = 35/4" "6#/,(&%\"xG6#\"\"\"F(*(
+\"\"#F(\"\"$!\"\"&F&6#F*F(F(*&\"\"&F(&F&6#F+F(F(*&\"#NF(\"\"%F," }}
+{PARA 0 "" 0 "" {TEXT -1 106 "One way would be to use the solve comman
+d on the three linear equations.  Execute the following sequence.:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "L[1]:=2*x[1]+x[2]+4*x[3] = 4
+1/4;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "L[2]:=3*x[1]+3/2*x[
+2]+34/5*x[3] = 41/12;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "L[
+3]:=x[1]+2/3*x[2]+5*x[3] = 35/4;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 41 "solve(\{L[1],L[2],L[3]\},\{x[1],x[2],x[3]\});" }}}
+{PARA 0 "" 0 "" {TEXT -1 136 "Another approach to solving the system i
+s to convert it into matrix form and perform matrix operations.  Execu
+te the following sequence." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+13 "with(linalg):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 73 "L:=mat
+rix([[coeffs(lhs(L[1]))],[coeffs(lhs(L[2]))],[coeffs(lhs(L[3]))]]);" }
+}}{PARA 260 "" 1 "" {TEXT -1 102 "This gives the matrix associated wit
+h the lhs of the linear system.  Define the column vector V to be " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "V:=matrix(3,1,[x[1],x[2],x[3
+]]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "L&*V;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalm(%);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 25 "Define the column matrix " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 33 "B:=matrix(3,1,[41/4,41/12,35/4]);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 42 "So the matrix form of our linear system is" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 7 "L&*V=B;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 14 "Meq:=evalm(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "L
+^(-1)&*lhs(Meq)=L^(-1)&*rhs(Meq);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "evalm(%);" }}}{PARA 0 "" 0 "" {TEXT -1 309 "Of course \+
+this is the same solution obtained above.  A third approach the solvin
+g the original system involves manipulating the \"augmented matrix\" f
+or the original system.  This involves relegating everything to a matr
+ix manipulation devoid of any variable expressions.  The augmented mat
+rix for the system is" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "ALB
+:=augment(L,B);" }}}{PARA 0 "" 0 "" {TEXT -1 57 "Notice the first thre
+e columns give the coefficients of  " }{XPPEDIT 18 0 "x[1]" "6#&%\"xG6
+#\"\"\"" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "x[2]" "6#&%\"xG6#\"\"#" }
+{TEXT -1 6 ", and " }{XPPEDIT 18 0 "x[3]" "6#&%\"xG6#\"\"$" }{TEXT -1 
+502 " respectively. The idea is to preform \"row operations\" which re
+duce the matrix to one repesenting a system for which the solution is \+
+obvious.  This technique is based on the principle that \"equal action
+s on equal objects produce equal results.\" Preform the following comm
+and sequence, after each command say, on the worksheet, what each comm
+and did to the previous matrix, what actions it corresponds to on the \+
+corresponding system and why that action is valid (meaning it doesn't \+
+affect the solution)." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "ALB
+1:=swaprow(ALB,1,3);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 256 7 "A
+ction:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "mulrow(ALB1,2,1/3)
+;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 257 7 "Action:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "ALB2:=mulrow(%,3,1/2);" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }{TEXT 258 7 "Action:" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 17 "addrow(%,1,2,-1);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }{TEXT 259 7 "Action:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "A
+LB3:=addrow(%,1,3,-1);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 260 7 
+"Action:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "addrow(ALB3,2,3,
+-1);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 261 7 "Action:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "mulrow(%,2,-6);" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }{TEXT 262 7 "Action:" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 24 "ALB4:=mulrow(%,3,-15/4);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }{TEXT 263 7 "Action:" }}{PARA 0 "" 0 "" {TEXT -1 76 "Use the \+
+submatrix command to obtain the linear system corresponding to ALB4." 
+}}{PARA 11 "" 1 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 55 "submatrix(ALB4,1..3,1..3)&*V=submatrix(ALB4,1..3,4..4);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 264 7 "Action:" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 9 "evalm(%);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}{TEXT 265 7 "Action:" }}{PARA 0 "" 0 "" {TEXT -1 66 "The solution is \+
+obvious by \"backward substitution\" beginning with " }{XPPEDIT 18 0 "
+x[3]" "6#&%\"xG6#\"\"$" }{TEXT -1 27 " , in MAPLE the command is " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "soln:=backsub(ALB4);" }}}
+{PARA 0 "" 0 "" {TEXT -1 146 "The technique to arrive at ABL4 is calle
+d \"Gaussean Elimination\" and could have been sort-of achieved immedi
+ately in this example with the command" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "gausselim(ALB);" }}}{PARA 0 "" 0 "" {TEXT -1 159 "We \+
+say \"sort-of\" because this row echelon form is not unique, as we see
+ from the above two examples.  However the solution obtained is the sa
+me in either case." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "backsu
+b(%);" }}}{PARA 0 "" 0 "" {TEXT -1 227 "Continued use of row operation
+s on this matrix could produce the uniquely determined \"row reduced e
+chelon form\" for ALB4.  There are two commands for producing this for
+m of a matrix directly from ALB, the easiest to remember is" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "rref(ALB);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 12 "The other is" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 
+"gaussjord(ALB);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 261 "" 1 "" {TEXT -1 90 "This co
+rresponds to a linear system that even a Texas A&M student could solve
+. What is it?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{MARK "65" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

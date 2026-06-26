@@ -1,0 +1,312 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 54 136 4 0 0 0 2 0 0 
+0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 152 0 0 0 0 0 0 0 0 0 
+0 1 }{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 72 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 1 134 4 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 50 
+136 14 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 256 1 {CSTYLE "" -1 -1 "" 0 1 0 0 92 0 0 0 0 0 0 0 0 0 0 
+1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 257 1 {CSTYLE "" -1 
+-1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "" 0 258 1 {CSTYLE "" -1 -1 "" 0 1 0 0 104 0 0 0 0 0 0 0 0 
+0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 259 1 {CSTYLE "" 
+-1 -1 "" 0 1 78 101 119 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 
+0 0 -1 0 }{PSTYLE "" 0 260 1 {CSTYLE "" -1 -1 "" 0 1 0 0 49 0 0 0 0 0 
+0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 261 1 
+{CSTYLE "" -1 -1 "" 0 1 32 101 105 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 
+-1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 262 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 
+263 1 {CSTYLE "" -1 -1 "" 0 1 101 32 100 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 264 1 {CSTYLE "" -1 -1 "" 0 1 
+16 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 265 1 {CSTYLE "" -1 -1 "" 0 1 16 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 24 "MAPLE Worksheet Number14" }}
+{PARA 257 "" 0 "" {TEXT -1 28 "Eigenvalues and Eigenvectors" }}{PARA 
+0 "" 0 "" {TEXT -1 100 "Recall that a non-zero vector V is an \"eigenv
+ector for the matrix M corresponding to the eigenvalue " }{XPPEDIT 18 
+0 "lambda" "6#%'lambdaG" }{TEXT -1 18 "  (lambda)\" means " }}{PARA 
+258 "" 0 "" {TEXT -1 3 "   " }{XPPEDIT 18 0 "M*V=(lambda)*V" "6#/*&%\"
+MG\"\"\"%\"VGF&*&%'lambdaGF&F'F&" }{TEXT -1 2 ". " }}{PARA 0 "" 0 "" 
+{TEXT -1 227 "This means that multiplication by M sends V to a vector \+
+parallel to V.  Why do we require that V be a non-zero vector?  Since \+
+the number of columns of M must equal the number of components in V, a
+nd the number of components in " }{XPPEDIT 18 0 "M*V" "6#*&%\"MG\"\"\"
+%\"VGF%" }{TEXT -1 203 " must equal the number of rows of M,  the abov
+e identity implies that M is a square matrix. So the terms \"eigenvect
+or\" and \"eigenvalue\" apply only to square matrices.  The above equa
+tion is equivalent to" }}{PARA 259 "" 0 "" {XPPEDIT 18 0 "(M-(lambda)*
+I)*V" "6#*&,&%\"MG\"\"\"*&%'lambdaGF&%\"IGF&!\"\"F&%\"VGF&" }{TEXT -1 
+6 "=[0]  " }}{PARA 0 "" 0 "" {TEXT -1 88 "where I is the identity and \+
+[0] is the zero vector, each of the appropriate size.  Thus " }
+{XPPEDIT 18 0 "V[0]" "6#&%\"VG6#\"\"!" }{TEXT -1 48 " is an eigenvecto
+r corresponding to eigenvalue  " }{XPPEDIT 18 0 "lambda[0]" "6#&%'lamb
+daG6#\"\"!" }{TEXT -1 17 "  if and only if " }{XPPEDIT 18 0 "V[0]" "6#
+&%\"VG6#\"\"!" }{TEXT -1 26 " is in the null space of  " }{XPPEDIT 18 
+0 "M-(lambda[0])*I" "6#,&%\"MG\"\"\"*&&%'lambdaG6#\"\"!F%%\"IGF%!\"\"
+" }{TEXT -1 52 " . It follows that any vector in the null space of  " 
+}{XPPEDIT 18 0 "M-lambda[0]*I" "6#,&%\"MG\"\"\"*&&%'lambdaG6#\"\"!F%%
+\"IGF%!\"\"" }{TEXT -1 35 " is an eigenvector associated with " }
+{XPPEDIT 18 0 "lambda[0]" "6#&%'lambdaG6#\"\"!" }{TEXT -1 47 " . For t
+his reason we call the null space of   " }{XPPEDIT 18 0 "M-(lambda[0])
+*I" "6#,&%\"MG\"\"\"*&&%'lambdaG6#\"\"!F%%\"IGF%!\"\"" }{TEXT -1 23 " \+
+the \"eigenspace\" of   " }{XPPEDIT 18 0 "lambda[0]" "6#&%'lambdaG6#\"
+\"!" }{TEXT -1 29 " .  Finally we observe that  " }{XPPEDIT 18 0 "lamb
+da[0]" "6#&%'lambdaG6#\"\"!" }{TEXT -1 42 "  is an eigenvalue for M if
+ and only if   " }{XPPEDIT 18 0 "M-(lambda[0])*I" "6#,&%\"MG\"\"\"*&&%
+'lambdaG6#\"\"!F%%\"IGF%!\"\"" }{TEXT -1 36 " is singular, which is eq
+uivalent to" }}{PARA 260 "" 0 "" {XPPEDIT 18 0 "det(M-(lambda[0])*I)=0
+" "6#/-%$detG6#,&%\"MG\"\"\"*&&%'lambdaG6#\"\"!F)%\"IGF)!\"\"F." }
+{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 11 "The matrix " }
+{XPPEDIT 18 0 "(M-lambda*I)" "6#,&%\"MG\"\"\"*&%'lambdaGF%%\"IGF%!\"\"
+" }{TEXT -1 64 " is called the \"characteristic matrix\" of M, and the
+ polynomial " }}{PARA 261 "" 0 "" {XPPEDIT 18 0 "p(lambda)=det(M-lambd
+a*I)" "6#/-%\"pG6#%'lambdaG-%$detG6#,&%\"MG\"\"\"*&F'F-%\"IGF-!\"\"" }
+}{PARA 0 "" 0 "" {TEXT -1 134 "is called the \"characteristic polynomi
+al\" of M.  So the eigenvalues of M are exactly the roots of the chara
+cteristic polynomial of M. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 166 "Use the above definitions and previously learn
+ed MAPLE commands to find the characteristic matrix, the characteristi
+c polynomial, and all eigenvalues for the matrix  " }}{PARA 262 "" 0 "
+" {XPPEDIT 18 0 "K := MATRIX([[3, 2], [2, 0]])" "6#>%\"KG-%'MATRIXG6#7
+$7$\"\"$\"\"#7$F+\"\"!" }}{PARA 0 "" 0 "" {TEXT -1 80 "Find an orthono
+rmal basis for the eigenspace associated to each eigenvalue of K." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 223 "MAPLE ha
+s commands in the linalg package for computing each of these things di
+rectly.  Try the following command seqence and compare each result wit
+h that you obtained above. In each case explain what you asked MAPLE t
+o do." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "with(linalg):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "K:=matrix([[3, 2], [2, 0]]);
+" }}}{PARA 0 "" 0 "" {TEXT 259 12 "Explanation:" }{TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "charmat(K,lambda);" }}}
+{PARA 0 "" 0 "" {TEXT 260 12 "Explanation:" }{TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "charp
+oly(K,lambda);" }}}{PARA 0 "" 0 "" {TEXT 261 12 "Explanation:" }{TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "factor(%);" }}}
+{PARA 0 "" 0 "" {TEXT 262 12 "Explanation:" }{TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "eigenvals(K);" }}}{PARA 0 "" 0 "" 
+{TEXT 263 12 "Explanation:" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+25 "To find eigenvectors for " }{XPPEDIT 18 0 "lambda = -1" "6#/%'lamb
+daG,$\"\"\"!\"\"" }{TEXT -1 41 "  we need to compute the null space of
+   " }{XPPEDIT 18 0 "K-(-1)*I" "6#,&%\"KG\"\"\"*&,$F%!\"\"F%%\"IGF%F(
+" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "nullspac
+e(K+1);" }}}{PARA 0 "" 0 "" {TEXT 264 12 "Explanation:" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 29 "To check this result compute " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "evalm(K&*[1,-2]);-1*[1,-2];
+" }}}{PARA 0 "" 0 "" {TEXT 265 12 "Explanation:" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 23 "Now for the eigenvalue " }{XPPEDIT 18 0 "
+lambda=4" "6#/%'lambdaG\"\"%" }{TEXT -1 2 "  " }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 15 "nullspace(K-4);" }}}{PARA 0 "" 0 "" {TEXT 266 
+12 "Explanation:" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 29 "To che
+ck  this result compute" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "e
+valm(K&*[2,1]);4*[2,1];" }}}{PARA 0 "" 0 "" {TEXT 267 12 "Explanation:
+" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 109 "MAPLE has a command t
+hat computes eigenvectors directly. It is (well \"duh\")  eigenvects(m
+atrix). Try it on K." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "eige
+nvects(K);" }}}{PARA 0 "" 0 "" {TEXT -1 383 "Let's see if we can figur
+e out what the heck this means.  The -1 and 4 are the eigenvalues and \+
+the [1,-2] and [2,1] are the respective eigenvectors, but what are the
+ 1 and 1 supposed to represent? Let's look at some more examples, and \+
+try to figure out what the \"brilliant programers\" intended to be rep
+resented by these extra numbers in the above expressions for the eigen
+vectors.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 428 "Compute the eigenvectors and corresponding eigenspaces for the
+ following matrices. Remember, we are trying to figure out what the re
+sponse to the eigenvects command represents!  (Some day, maybe, I'll t
+ell you how I came up with these.)  Also, in each matrix, for each eig
+envalue, determine the dimension of the corresponding eigenspace. (Be \+
+sure to name each of these suckers, you sure don't want to enter them \+
+more than once.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 9 "1.       " }{XPPEDIT 18 0 "MATRIX([[0, 0, 3], [1, 0, -7], \+
+[0, 1, 5]])" "6#-%'MATRIXG6#7%7%\"\"!F(\"\"$7%\"\"\"F(,$\"\"(!\"\"7%F(
+F+\"\"&" }{TEXT -1 16 "         2.     " }{XPPEDIT 18 0 "MATRIX([[1/2,
+ 1/2, 0, 0, 0], [1, 0, 0, 0, 0], [0, 1, 0, 0, 3], [0, 0, 1, 0, 5], [0,
+ 0, 0, 1, 1]])" "6#-%'MATRIXG6#7'7'*&\"\"\"F)\"\"#!\"\"*&F)F)F*F+\"\"!
+F-F-7'F)F-F-F-F-7'F-F)F-F-\"\"$7'F-F-F)F-\"\"&7'F-F-F-F)F)" }{TEXT -1 
+11 "       3.  " }{XPPEDIT 18 0 "MATRIX([[0, 0, 0, 0, 0, 0, 0, -2, -6]
+, [1, 0, 0, 0, 0, 0, 0, 0, 0], [0, 1, 0, 0, 0, 0, 0, 0, 0], [0, 0, 1, \+
+0, 0, 0, 0, 0, 0], [0, 0, 0, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 1, 0, 0, \+
+0, 0], [0, 0, 0, 0, 0, 1, 0, 0, 3], [0, 0, 0, 0, 0, 0, 1, 0, -1], [0, \+
+0, 0, 0, 0, 0, 0, 1, 3]])" "6#-%'MATRIXG6#7+7+\"\"!F(F(F(F(F(F(,$\"\"#
+!\"\",$\"\"'F+7+\"\"\"F(F(F(F(F(F(F(F(7+F(F/F(F(F(F(F(F(F(7+F(F(F/F(F(
+F(F(F(F(7+F(F(F(F/F(F(F(F(F(7+F(F(F(F(F/F(F(F(F(7+F(F(F(F(F(F/F(F(\"\"
+$7+F(F(F(F(F(F(F/F(,$F/F+7+F(F(F(F(F(F(F(F/F5" }}{PARA 0 "" 0 "" 
+{TEXT -1 8 "4.      " }{XPPEDIT 18 0 "MATRIX([[2, -3, 1], [1, -2, 1], \+
+[1, -3, 2]])" "6#-%'MATRIXG6#7%7%\"\"#,$\"\"$!\"\"\"\"\"7%F,,$F(F+F,7%
+F,,$F*F+F(" }{TEXT -1 12 "         5. " }{XPPEDIT 18 0 "MATRIX([[1, 0,
+ 0, 0, 0], [0, 1, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 3, 0], [0, 0, 0
+, 0, 2]])" "6#-%'MATRIXG6#7'7'\"\"\"\"\"!F)F)F)7'F)F(F)F)F)7'F)F)F)F)F
+)7'F)F)F)\"\"$F)7'F)F)F)F)\"\"#" }{TEXT -1 14 "         6.   " }
+{XPPEDIT 18 0 "MATRIX([[2, 2], [2, 0]])" "6#-%'MATRIXG6#7$7$\"\"#F(7$F
+(\"\"!" }{TEXT -1 10 "     7.   " }{XPPEDIT 18 0 "MATRIX([[4, -1, 1], \+
+[-1, 4, -1], [1, -1, 4]])" "6#-%'MATRIXG6#7%7%\"\"%,$\"\"\"!\"\"F*7%,$
+F*F+F(,$F*F+7%F*,$F*F+F(" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 64 "There are several importa
+nt theorems about matrices, one is the " }}{PARA 0 "" 0 "" {TEXT 256 
+22 "Caley-Hamilton Theorem" }{TEXT -1 69 ":  If P is the characteristi
+c polynomial of a matrix A, then P(A)=0. " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "Verify the Caley-Hamilton Theorem \+
+for each of the above matrices. " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 103 "Another important result is that the product of the ei
+genvalues equals the determinate of the matrix.  " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 142 "Verify this theorem for \+
+each of the above matrices. (Notice that a matrix has an eigenvalue of
+ 0 if and only if it is singular to start with.)" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 181 "Another result is that the dimension of the eigen
+space of a particular eigenvector is no more than the multiplicity of \+
+that eigenvector as a root of the characteristic polynomial.  " }}
+{PARA 0 "" 0 "" {TEXT 268 42 "Is this consistent with the above result
+s?" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT 269 8 "Explain." }}{PARA 
+0 "" 0 "" {TEXT -1 229 "The \"trace\" of a matrix is the sum of the di
+agonal elements and the MAPLE command for finding it is trace(matrix).
+  It is a fact that the trace equals the sum of the eigenvalues.  Veri
+fy this fact for each of the above matrices. " }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 33 "Another theorem is the following:" }}{PARA 0 "" 0 "" 
+{TEXT -1 3 "If " }{XPPEDIT 18 0 "lambda[1]" "6#&%'lambdaG6#\"\"\"" }
+{TEXT -1 5 ",...," }{XPPEDIT 18 0 "lambda[k]" "6#&%'lambdaG6#%\"kG" }
+{TEXT -1 83 "  are the distinct eigenvalues of  an nxn matrix A with c
+orresponding eigenvectors " }{XPPEDIT 18 0 "x[1]" "6#&%\"xG6#\"\"\"" }
+{TEXT -1 4 ",..," }{XPPEDIT 18 0 "x[k]" "6#&%\"xG6#%\"kG" }{TEXT -1 3 
+",  " }}{PARA 0 "" 0 "" {TEXT -1 5 "then " }{XPPEDIT 18 0 "x[1]" "6#&%
+\"xG6#\"\"\"" }{TEXT -1 4 ",..," }{XPPEDIT 18 0 "x[k]" "6#&%\"xG6#%\"k
+G" }{TEXT -1 77 " are linearly independent. Verify this result for eac
+h of the above matrices." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{PARA 0 "" 0 "" {TEXT -1 83 "A matrix M is called \"diagonalizabl
+e\" if there is an invertable matrix X such that " }{XPPEDIT 18 0 "X^(
+-1)*M*X=D" "6#/*()%\"XG,$\"\"\"!\"\"F(%\"MGF(F&F(%\"DG" }{TEXT -1 26 "
+  for a diagonal matrix D." }}{PARA 0 "" 0 "" {TEXT -1 33 "A \"mega-re
+sult\" is the following:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 257 90 "An nxn matrix M is diagonalizable if and only if \+
+M has n linearly independent eigenvectors" }{TEXT -1 2 ". " }{TEXT 
+258 113 "Moreover, the diagonal matrix is composed of the eigenvalues,
+ and the matrix X has the eigenvectors for columns. " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 115 "The reason for this is
+ actually quite straight forward.  Let's consider one direction for a \+
+general 4x4 matrix M.  " }}{PARA 0 "" 0 "" {TEXT -1 8 "Suppose " }
+{XPPEDIT 18 0 "lambda[1]" "6#&%'lambdaG6#\"\"\"" }{TEXT -1 2 ", " }
+{XPPEDIT 18 0 "lambda[2]" "6#&%'lambdaG6#\"\"#" }{TEXT -1 2 ", " }
+{XPPEDIT 18 0 "lambda[3]" "6#&%'lambdaG6#\"\"$" }{TEXT -1 2 ", " }
+{XPPEDIT 18 0 "lambda[4]" "6#&%'lambdaG6#\"\"%" }{TEXT -1 57 " are the
+ eigenvalues (not necessarily distinct) of M and " }{XPPEDIT 18 0 "v[1
+]" "6#&%\"vG6#\"\"\"" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "v[2]" "6#&%\"v
+G6#\"\"#" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "v[3]" "6#&%\"vG6#\"\"$" }
+{TEXT -1 2 ", " }{XPPEDIT 18 0 "v[4]" "6#&%\"vG6#\"\"%" }{TEXT -1 93 "
+ are corresponding linearly independent eigenvectors.  Let V be the ma
+trix whose columns are " }{XPPEDIT 18 0 "v[1]" "6#&%\"vG6#\"\"\"" }
+{TEXT -1 3 " , " }{XPPEDIT 18 0 "v[2]" "6#&%\"vG6#\"\"#" }{TEXT -1 2 "
+, " }{XPPEDIT 18 0 "v[3]" "6#&%\"vG6#\"\"$" }{TEXT -1 2 ", " }
+{XPPEDIT 18 0 "v[4]" "6#&%\"vG6#\"\"%" }{TEXT -1 4 " .  " }}{PARA 265 
+"" 0 "" {TEXT -1 18 "            So V=[" }{XPPEDIT 18 0 "v[1]" "6#&%\"
+vG6#\"\"\"" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "v[2]" "6#&%\"vG6#\"\"#" 
+}{TEXT -1 2 ", " }{XPPEDIT 18 0 "v[3]" "6#&%\"vG6#\"\"$" }{TEXT -1 2 "
+, " }{XPPEDIT 18 0 "v[4]" "6#&%\"vG6#\"\"%" }{TEXT -1 7 "]  and " }
+{XPPEDIT 18 0 "M*V" "6#*&%\"MG\"\"\"%\"VGF%" }{TEXT -1 2 "=[" }
+{XPPEDIT 18 0 "lambda[1]*v[1]" "6#*&&%'lambdaG6#\"\"\"F'&%\"vG6#F'F'" 
+}{TEXT -1 1 "," }{XPPEDIT 18 0 "lambda[2]*v[2]" "6#*&&%'lambdaG6#\"\"#
+\"\"\"&%\"vG6#F'F(" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "lambda[3]*v[3]" "
+6#*&&%'lambdaG6#\"\"$\"\"\"&%\"vG6#F'F(" }{TEXT -1 2 ", " }{XPPEDIT 
+18 0 "lambda[4]*v[4]" "6#*&&%'lambdaG6#\"\"%\"\"\"&%\"vG6#F'F(" }
+{TEXT -1 3 "] ," }}{PARA 0 "" 0 "" {TEXT -1 20 "which is the same as" 
+}}{PARA 263 "" 0 "" {XPPEDIT 18 0 "M*V" "6#*&%\"MG\"\"\"%\"VGF%" }
+{TEXT -1 2 "= " }{XPPEDIT 18 0 "V*MATRIX([[lambda[1], 0, 0, 0], [0, la
+mbda[2], 0, 0], [0, 0, lambda[3], 0], [0, 0, 0, lambda[4]]])" "6#*&%\"
+VG\"\"\"-%'MATRIXG6#7&7&&%'lambdaG6#F%\"\"!F.F.7&F.&F,6#\"\"#F.F.7&F.F
+.&F,6#\"\"$F.7&F.F.F.&F,6#\"\"%F%" }{TEXT -1 2 " ," }}{PARA 0 "" 0 "" 
+{TEXT -1 44 "which, since V is invertible, is the same as" }}{PARA 
+264 "" 0 "" {XPPEDIT 18 0 "(V^(-1))*M*V" "6#*()%\"VG,$\"\"\"!\"\"F'%\"
+MGF'F%F'" }{TEXT -1 4 "  = " }{XPPEDIT 18 0 "MATRIX([[lambda[1], 0, 0,
+ 0], [0, lambda[2], 0, 0], [0, 0, lambda[3], 0], [0, 0, 0, lambda[4]]]
+)" "6#-%'MATRIXG6#7&7&&%'lambdaG6#\"\"\"\"\"!F,F,7&F,&F)6#\"\"#F,F,7&F
+,F,&F)6#\"\"$F,7&F,F,F,&F)6#\"\"%" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" 
+{TEXT -1 169 "The same reasoning could be applied to any size square m
+atrix as long as the corresponding V were invertible, which is equival
+ent to the eigenvalues being independent.  " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "Notice what happens when we com
+pute the power of the diagonal." }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "DM:=diag(lambda[1],lambda[2],lambda[3],lambda[4]);" "6#>%#DMG-%%
+diagG6&&%'lambdaG6#\"\"\"&F)6#\"\"#&F)6#\"\"$&F)6#\"\"%" }}}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "DM^10;" "6#*$%#DMG\"#5" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalm(%);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 9 "or even  " }{XPPEDIT 18 0 "exp(DM)" "6#-%$expG6#%#DMG" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "exp(DM);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 9 "evalm(%);" }}}{PARA 0 "" 0 "" {TEXT -1 44 "It follow
+ that if M is diagonalizable then  " }{XPPEDIT 18 0 "M=V*D*(V^(-1))" "
+6#/%\"MG*(%\"VG\"\"\"%\"DGF')F&,$F'!\"\"F'" }{TEXT -1 34 "  where D is
+ the diagonal matrix. " }}{PARA 0 "" 0 "" {TEXT -1 4 " So " }{XPPEDIT 
+18 0 "M^n" "6#)%\"MG%\"nG" }{TEXT -1 1 "=" }{XPPEDIT 18 0 "V*(D^n)*(V^
+(-1))" "6#*(%\"VG\"\"\")%\"DG%\"nGF%)F$,$F%!\"\"F%" }{TEXT -1 5 "and  \+
+" }{XPPEDIT 18 0 "exp(M) = V*exp(D)*(V^(-1))" "6#/-%$expG6#%\"MG*(%\"V
+G\"\"\"-F%6#%\"DGF*)F),$F*!\"\"F*" }{TEXT -1 6 ". But " }{XPPEDIT 18 
+0 "D^n " "6#)%\"DG%\"nG" }{TEXT -1 4 "ahd " }{XPPEDIT 18 0 "exp(D)" "6
+#-%$expG6#%\"DG" }{TEXT -1 43 "  are easily computable as indicated ab
+ove." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 107 "
+Work through the following sample diagonalization problem. In each cas
+e explain what you asked MAPLE to do." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 30 "Let B be the 5x5 matrix with  " }
+{XPPEDIT 18 0 "a[i,j]" "6#&%\"aG6$%\"iG%\"jG" }{TEXT -1 1 "=" }
+{XPPEDIT 18 0 "piecewise(i=j,i+j-1,i+j+1)" "6#-%*piecewiseG6%/%\"iG%\"
+jG,(F'\"\"\"F(F*F*!\"\",(F'F*F(F*F*F*" }{TEXT -1 43 " .  Find all eige
+nvalues and corresponding " }}{PARA 0 "" 0 "" {TEXT -1 128 "eigenvecto
+rs of B. Determine whether B is diagonalizable and, if so, find a diag
+onalizing matrix P and use it to diagonalize B. " }}{PARA 0 "" 0 "" 
+{TEXT -1 9 "Solution:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "B:=
+matrix(5,5,(i,j)->piecewise(i=j,i+j-1,i+j+1));" }}}{PARA 0 "" 0 "" 
+{TEXT 270 12 "Explanation:" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "P:=charpoly(B,lambda);" }}}{PARA 0 "" 0 "" {TEXT 271 
+12 "Explanation:" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 29 "EB:=fsolve(P,lambda,complex);" }}}{PARA 0 "" 0 "" {TEXT 272 
+12 "Explanation:" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 19 "EVB:=eigenvects(B);" }}}{PARA 0 "" 0 "" {TEXT 273 12 "Explanat
+ion:" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 262 "The following com
+mand depends on the order in which MAPLE chose to list the eigenvector
+s and will probably need to be adjusted so that the indices are consis
+tent with the order of your set of eigenvectors.  You'll have to figur
+e out what is right for your case. " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 79 "MB:=matrix([EVB[1][3][1],EVB[2][3][1],EVB[3][3][1],EV
+B[3][3][2],EVB[3][3][3]]);" }}}{PARA 0 "" 0 "" {TEXT -1 120 "Now we ha
+ve to make the eigenvectors the columns of the diagonalizing matrix an
+d perform the appropriate multiplication." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 37 "transpose(MB)^(-1)&*B&*transpose(MB);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "map(simplify,evalm(%));" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "139 1" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

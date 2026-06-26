@@ -1,0 +1,19 @@
+{VERSION 3 0 "IBM INTEL NT" "3.0" }
+{USTYLETAB {CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 111 32 98 0 0 0 0 0 0 
+0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 256 1 {CSTYLE "
+" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 
+-1 0 }{PSTYLE "" 0 257 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 21 "MAPLE Practice Quiz 9" }}{PARA 
+0 "" 0 "" {TEXT -1 130 "Which matrices (1-7) in worksheet 13 are diago
+nalizable? For each one that is diagonalizable find the corresponding \+
+V and compute " }}{PARA 257 "" 0 "" {TEXT -1 2 "D=" }{XPPEDIT 18 0 "(V
+^(-1))*M*V" "6#*()%\"VG,$\"\"\"!\"\"\"\"\"%\"MGF)F%F)" }{TEXT -1 1 ".
+" }}{PARA 0 "" 0 "" {TEXT -1 13 "Then compute " }{XPPEDIT 18 0 "D^10" 
+"6#*$%\"DG\"#5" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "M^10" "6#*$%\"MG\"
+#5" }{TEXT -1 8 "  and   " }{XPPEDIT 18 0 "V*(D^10)*V^(-1))" "6#*(%\"V
+G\"\"\"*$%\"DG\"#5F%)F$,$\"\"\"!\"\"F%" }{TEXT -1 42 ", and the simila
+r exponential calculation." }}}{MARK "0 0" 6 }{VIEWOPTS 1 1 0 1 1 
+1803 }
