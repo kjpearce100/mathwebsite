@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent &amp; Judy Pearce -- Family Web Site</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent &amp; Judy Pearce -- Family Web Site">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent &amp; Judy Pearce Family Web Site">
+
+<META http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen false comment "RSACi North America Server"  r (n 0 s 0 v 0 l 0))'> 
+
+<LINK REL="stylesheet" HREF="styles/style_informal.css">
+
+
+
+<center>
+
+<div class=text18red>Kent &amp; Judy Pearce</div>
+<div class=text14blue>Family Web Site</div>
+
+<p>
+
+<table width=80%><tr valign=top>
+<td width = 50%>
+     <UL>
+          <LI><A target=main href="family.html">Family</a>
+          </LI>
+          <LI><A target=_top href="http://www.lds.org/">Church</a>
+             <ul>
+                 <li><a target=main href="dbm/index.html">Das Buch Mormon</a>
+            
+                 <li><a target=main href="temple/index.html">Lubbock Temple</a>
+            </ul>
+		</LI>
+          </LI>
+          <LI><A target=main HREF="iris/index.html">Iris</A>
+          </LI>
+          <LI>Board Games
+          </LI>
+          <LI>Computing
+          </LI>
+    </UL>
+</td>
+<td width=30% align=center>
+
+<applet code="AnFade.class" width=130 height=180>
+<param name=credits value="Applet by Fabio Ciucci (www.anfyjava.com)">
+<param name=regcode value="NO">
+<param name=regnewframe value="YES">
+<param name=regframename value="_blank">
+<param name=res value="1">
+<param name=image1 value="photos/kip.jpg">
+<param name=image2 value="photos/mrp.jpg">
+<param name=image3 value="photos/kali.jpg">
+<param name=image4 value="photos/qdp.jpg">
+<param name=image5 value="photos/mck.jpg">
+<param name=link1 value="NO">
+<param name=link2 value="NO">
+<param name=link3 value="NO">
+<param name=link4 value="NO">
+<param name=link5 value="NO">
+<param name=statusmsg1 value="Kip">
+<param name=statusmsg2 value="Micah">
+<param name=statusmsg3 value="Kali">
+<param name=statusmsg4 value="Quinn">
+<param name=statusmsg5 value="McKenzie">
+<param name=speed value="8">
+<param name=pause value="2000">
+<param name=progressivefade value="YES">
+<param name=overimg value="NO">
+<param name=overimgX value="0">
+<param name=overimgY value="0">
+<param name=memdelay value="1000">
+<param name=priority value="3">
+<param name=MinSYNC value="10">
+<param name=steps value="24">
+Sorry, your browser doesn't support Java.
+</applet>
+
+</td>
+
+</td></table>
+
+</center>
+
+
+<p>
+
+<font size=-1>
+Last modified on: <!--#flastmod file="personal.html"-->
+</font>
+
+
+</body> 
+
+</html> 
