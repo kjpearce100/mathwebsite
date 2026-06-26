@@ -1,0 +1,67 @@
+#########################################################
+#               Instructions for Installing             #
+#         PHP Random Quote Generator - Version 3.1      #
+#              http://www.clarksco.com/blog             #
+#########################################################
+
+Thank you for downloading and installing the PHP Random Quote Generator version 3.1, which uses a flat file database.  As you can see, there are a number of steps to configure the script.  I have tried to detail these steps as best I can.  If you have any questions, please email me at comm@clarksco.com.
+
+If you would like a more specialized version of this script to fit your personal needs, I am happy to assist you.  My rates are very reasonable and I can typically get the work done quickly.  Email me at comm@clarksco.com.
+
+Resources:
+This package contains:
+	1.)quotes.php - This script picks the random quote.
+	2.)func.php - This script contains the functions which write the HTML.
+	3.)del_cookie.php - This script deletes the cookie stored by quotes.php. Only necessary for testing purposes.
+	4.)religious.db - A flat file database of some biblical quotes.
+	5.)politics.db - A flat file database of some political quotes.
+	6.)installation_instructions.txt - This file. :-)
+
+Installation Instructions:
+
+## Step One:
+Collect all of the quotes you want to use.  Take a look at the quote databases contained in this package as an example.
+
+## Step Two:
+Open QUOTES.DB in a text editor.  Use NotePad or a product like the TextPad (Win) <http://www.textpad.com/> or BBEdit/TextWrangler (Mac) <http://www.barebones.com/index.shtml>
+
+Do not open the script in WordPad, Microsoft Word or another rich text editor as they will alter the text and stop the script from running properly.
+
+## Step Three:
+Once the script is open do the following. Replace the existing quotes with your quotes as follows: (Using two colons "::" as the separator.)
+
+Format - QUOTE::REFERENCE::LINK
+
+Example - To be or not to be.::William Shakespeare::http://www.link.com
+
+The QUOTE is the actual text of the quotation.
+The REFERENCE is the person who is credited with the saying.
+The LINK is the url to more information. It must begin with "http://"
+
+## Step Four:
+Once you have all the quotes entered into your database file, save it and upload it to the web server.  Place it in which ever directory you choose, however, keep in mind that you will need to reference it so you need to know where it is in relationship to the page on which the quotes will be displayed.
+
+## Step Five:
+Open QUOTES.PHP in your text editor.  There are a number of variables in this file that need your attention.  This version of the PHP Random Quote Generator offers a number of options, which are configurable.  You can have multiple quote databases from which the script will randomly pick.  You can set the script to display a random quote every time the page is loaded, a new quote every hour, a new quote every 24 hours, etc.  There are instructions within the quotes.php file, which will help you with the configuration.
+
+## Step Six:
+You will notice that the output function at the bottom of the script is just a call to the func.php file.  Step seven will better explain why.
+
+Save quotes.php and upload to your web server.
+
+## Step Seven:
+It is at this step that things can get a little tricky.  I have included a function page that produces the HTML.  You will want to do most of the aesthetic work here.  Open FUNC.PHP in your text editor.  I have setup two functions.
+
+The first "outputLine" just outputs the quote in a line of text that is centered on the page.
+
+The second "outputTable" outputs the quote inside of a table that currently has a gray background and a table border set to 1.
+
+With that said, let me explain a little in case you are not too familiar with PHP.  I wrote the functions so that you could replace my HTML with yours.  However, you will need to put the variables in the right places.  In PHP you open a PHP call with <?php and you close PHP with ?>  you print the results of a process to the browser using the command "echo". For example <?php echo $theQuote; ?> will print the quote to the browser.  Use my HTML as a guide and create your own.  If you have a question email at comm@clarksco.com.
+
+You will also notice that I have two calls, one to each function, in QUOTES.PHP.  The use of the double forward slash is to comment out a single line.  If you want to use the outputTable function simply comment out the outputLine call and remove the comments from outputTable.
+
+## Step Eight:
+Celebrate the fact that it works! Give thanks and praise to God!
+
+## Step Nine:
+Email comm@clarksco.com to let me know the URL of the page(s) on which you use the script.  It gives me great joy to know when and where someone is using my work, so please email me when it is live.  You can also email this address with any questions, feature requests, or concerns you have.
