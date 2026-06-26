@@ -1,0 +1,81 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 99 116 111 0 0 0 2 0 
+0 0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 158 0 0 0 0 0 0 0 0 
+0 0 1 }{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" 
+-1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 20 "Practice Quize 2 Key" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 45 "1.  Find all th
+e zeros of the polynomial   p=" }{XPPEDIT 18 0 "x^6+2*x^5+x^4+x^3+2*x^
+2+2*x+1" "6#,0*$%\"xG\"\"'\"\"\"*&\"\"#F'*$F%\"\"&F'F'*$F%\"\"%F'*$F%
+\"\"$F'*&F)F'*$F%F)F'F'*&F)F'F%F'F'F'F'" }}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "p:=x^6+2*x^5+x^4+x^3+2*x^2+2*x+1;" "6#>%\"pG,0*$%\"xG\"
+\"'\"\"\"*&\"\"#F)*$F'\"\"&F)F)*$F'\"\"%F)*$F'\"\"$F)*&F+F)*$F'F+F)F)*
+&F+F)F'F)F)F)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "fsolve(p
+,x,complex);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 73 "2.  Include a  graph of   y=p(x) which clearly exhibits t
+he x-intercepts." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "plot(p,x
+=-2..2,y=-2..2);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 44 "3.  Factor p completely into linear factors." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "factor(p,complex);" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 39 "4.  Let f be the rat
+ional function     " }{XPPEDIT 18 0 "(x^3-4*x^2+5*x-2)/(x^4-5*x^2+4)" 
+"6#*&,**$%\"xG\"\"$\"\"\"*&\"\"%F(*$F&\"\"#F(!\"\"*&\"\"&F(F&F(F(F,F-F
+(,(*$F&F*F(*&F/F(*$F&F,F(F-F*F(F-" }{TEXT -1 3 "   " }}{EXCHG {PARA 0 
+"> " 0 "" {XPPEDIT 19 1 "f:=(x^3-4*x^2+5*x-2)/(x^4-5*x^2+4);" "6#>%\"f
+G*&,**$%\"xG\"\"$\"\"\"*&\"\"%F**$F(\"\"#F*!\"\"*&\"\"&F*F(F*F*F.F/F*,
+(*$F(F,F**&F1F**$F(F.F*F/F,F*F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 20 "n:=factor(numer(f));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 21 "d:=factor(denom(f));;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 52 "    a.  Wha
+t is the y-intercept of the graph of f?  " }{TEXT 256 0 "" }{TEXT 257 
+14 "At x=0 we get " }{XPPEDIT 18 0 "f=-1/2" "6#/%\"fG,$*&\"\"\"F'\"\"#
+!\"\"F)" }}{PARA 0 "" 0 "" {TEXT -1 54 "    b.  What are the x-interce
+pts of the graph of f?  " }{TEXT 258 0 "" }{TEXT 259 65 "All roots of \+
+n are also roots of d, so there are no x-intercepts." }}{PARA 0 "" 0 "
+" {TEXT -1 61 "    c.. What are the vertical asymptotes of the graph o
+f f?  " }{TEXT 260 81 "d = 0 at x= -1 and -2.  These are vertical asym
+ptotes since n does not = 0 there." }}{PARA 0 "" 0 "" {TEXT -1 61 "   \+
+ d.  What is the horizontal asymptote of the graph of f?  " }{TEXT 
+261 0 "" }{TEXT 262 93 "y=0 is the horizontal asymptote since the degr
+ee of d is larger than the degree of n, so the " }{XPPEDIT 18 0 "limit
+(f,x = infinity);" "6#-%&limitG6$%\"fG/%\"xG%)infinityG" }{TEXT 263 5 
+" = 0." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+100 "5.  Explain why   f   has only 2 vertical asymptotes even though \+
+the donominator of f has 4 zeros.  " }{TEXT 264 0 "" }{TEXT 265 42 "Th
+e zeros x=1 and x=2 are also zeros of n." }}{PARA 0 "" 0 "" {TEXT -1 
+14 "6.  Compute   " }{XPPEDIT 18 0 "limit(f,x=r)" "6#-%&limitG6$%\"fG/
+%\"xG%\"rG" }{TEXT -1 55 "      for r equal to each zero of the denomi
+nator of f." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "Limit(f,x=1)=
+limit(f,x=1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "Limit(f,x=
+2)=limit(f,x=2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "Limit(f
+,x=-1)=limit(f,x=-1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "Li
+mit(f,x=-2)=limit(f,x=-2);" }}}{PARA 0 "" 0 "" {TEXT -1 58 "7.  List a
+ll the values of x for which f is NOT DEFINED.  " }{TEXT 266 0 "" }
+{TEXT 267 27 "The zeros of d, x=1,2,-1,-2" }}{PARA 0 "" 0 "" {TEXT -1 
+76 "8.  Include a graph of f which clearly shows all the revelant beha
+vior of f." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "plot(f,x=-8..3
+,y=-4..2);" }{TEXT -1 0 "" }{TEXT 268 0 "" }{TEXT 269 142 "To see what
+ goes on between -2 and -1 as well as the limiting value at x=1 we rea
+lly should include another picture with a bigger range for y." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "plot(f,x=-5..1,y=-10..20);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "      " }}}{MARK "41" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

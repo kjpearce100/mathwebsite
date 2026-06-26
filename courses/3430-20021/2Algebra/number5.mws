@@ -1,0 +1,185 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" 
+-1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}{PSTYLE "Maple Plot" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 
+259 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 260 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 19 "Basics of Graphing " }}{PARA 
+260 "" 0 "" {TEXT -1 13 "(number5.mws)" }}{PARA 0 "" 0 "" {TEXT -1 56 
+"We have already used the basic plotting command sequence" }}{PARA 
+257 "" 0 "" {TEXT -1 91 "      plot(expression,x=a..b,optional stuff i
+ncluding the range on the dependent variable);" }}{PARA 0 "" 0 "" 
+{TEXT -1 436 "We have already seen that sometimes the key to getting a
+ nice graph involves analyzing the expression to determine the appropr
+iate range of values for x and y.  Here we explore some more of MAPLE'
+s plotting features.  First we see how to plot multiple graphs on the \+
+same axes.  The key thing to remember is that \"curly braces\", \{    \+
+\},  are used to denote a set of objects (without regard to the orderi
+ng of the objects).  For example, " }{XPPEDIT 18 0 "\{x^2, x, -x^3\}" 
+"6#<%*$%\"xG\"\"#F%,$*$F%\"\"$!\"\"" }{TEXT -1 7 "       " }}{PARA 0 "
+" 0 "" {TEXT -1 42 "denotes the set containging the functions " }
+{XPPEDIT 18 0 "x^2 , x, -x^3" "6%*$%\"xG\"\"#F$,$*$F$\"\"$!\"\"" }
+{TEXT -1 26 ".    Try the MAPLE command" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 48 "plot(\{x^2-2,x^2-1,x^2, x^2+1\},x=-5..5,y=-5..25);" }
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 102 "You ju
+st asked MAPLE to plot the set of all 4 functions all at once. Of cour
+se we could name the set M" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+28 "M:=\{x^2-2,x^2-1,x^2, x^2+1\};" }}}{PARA 0 "" 0 "" {TEXT -1 23 "an
+d then simply plot M." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "plo
+t(M,x=-5..5,y=-5..25);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 86 "MAPLE has a sequence generator command that will com
+e in handy.  Try the MAPLE command" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "seq(x^2+i,i=-2..1);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 97 "Use this \+
+with the above plot command to obtain the same 4 graphs. (Note, you ca
+n copy and paste.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 44 "plot(\{seq(x^2+i,i=-2..1)\},x=-5..5,y=-5..25
+);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "1. \+
+ " }{TEXT 256 61 "Why dose the seqence need to be included in the curl
+y braces?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+27 "Note that the graph of     " }{XPPEDIT 18 0 "x^2+i" "6#,&*$%\"xG\"
+\"#\"\"\"%\"iGF'" }{TEXT -1 68 "   eventually is entirely above the x-
+axis.  Plot the graphs of     " }{XPPEDIT 18 0 "5*x^3-5*x+i" "6#,(*&\"
+\"&\"\"\"*$%\"xG\"\"$F&F&*&F%F&F(F&!\"\"%\"iGF&" }{TEXT -1 49 "   for \+
+the values of i = -3, -2, -1, 0, 1,2,3 .  " }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 67 "2.  Is it possible
+ to find any value of i so that the graph of     " }{XPPEDIT 18 0 "5*x
+^3-5*x+i" "6#,(*&\"\"&\"\"\"*$%\"xG\"\"$F&F&*&F%F&F(F&!\"\"%\"iGF&" }
+{TEXT -1 35 "   is entirely above the x-axis?   " }{TEXT 257 20 "Expla
+in your answer." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 24 "Sketch the graph of     " }{XPPEDIT 18 0 "(x^2-1)/(2*x^3+
+3*x-2)" "6#*&,&*$%\"xG\"\"#\"\"\"F(!\"\"F(,(*&F'F(*$F&\"\"$F(F(*&F-F(F
+&F(F(F'F)F)" }{TEXT -1 8 "    .   " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 4 "3.  " }{TEXT 258 34 "
+Where are the vertical asymptotes?" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "
+" {TEXT -1 4 "4.  " }{TEXT 259 58 "Is the vertical line really a part \+
+of the graph?  Explain." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 438 "\"Click\" in the vicinity of the graph to frame the
+ graph and to obtain a set of \"buttons\" associated with the \"style
+\" of the graph.  Experiment with these \"bottons\" to see how they ch
+ange the style of the graph.  In the case of our above rational functi
+on, plotting only the data points might be appropriate.  Include the g
+raph of the same function plotted in this \"points only\" style. (Reme
+mber, you can copy and paste the MAPLE command.)" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 70 "In each case below, graph the given set of functio
+ns on the same axes." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 24 "\{k*sin(x), k = -3 .. 3\};" }}}{PARA 0 "
+" 0 "" {TEXT -1 5 "5.   " }{TEXT 260 60 "Explain the effect of changin
+g the parameter k on the graph " }{TEXT -1 3 "of " }{XPPEDIT 18 0 "y=k
+*sin(x)" "6#/%\"yG*&%\"kG\"\"\"-%$sinG6#%\"xGF'" }{TEXT -1 3 "  ." }}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "\{sin(k*x), k = 1 .. 4\};" "6#
+<$-%$sinG6#*&%\"kG\"\"\"%\"xGF)/F(;F)\"\"%" }}}{PARA 0 "" 0 "" {TEXT 
+-1 5 "6.   " }{TEXT 261 62 "Explain the effect of changing the paramet
+er k on the graph of" }{TEXT -1 2 "  " }{XPPEDIT 18 0 "y=sin(k*x)" "6#
+/%\"yG-%$sinG6#*&%\"kG\"\"\"%\"xGF*" }{TEXT -1 3 "  ." }}{EXCHG {PARA 
+0 "> " 0 "" {XPPEDIT 19 1 "\{sin(x), sin(x+Pi/2), sin(x+Pi)\};" "6#<%-
+%$sinG6#%\"xG-F%6#,&F'\"\"\"*&%#PiGF+\"\"#!\"\"F+-F%6#,&F'F+F-F+" }}}
+{PARA 0 "" 0 "" {TEXT -1 5 "7.   " }{TEXT 262 62 "Explain the effect o
+f changing the parameter k on the graph of" }{TEXT -1 2 "  " }
+{XPPEDIT 18 0 "y=sin(x+k)" "6#/%\"yG-%$sinG6#,&%\"xG\"\"\"%\"kGF*" }
+{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 47 "Sketch the graphs of th
+e following functions:  " }{XPPEDIT 18 0 "exp(x)*sin(x) " "6#*&-%$expG
+6#%\"xG\"\"\"-%$sinG6#F'F(" }{TEXT -1 4 " ,  " }{XPPEDIT 18 0 "sin(ln(
+x)) " "6#-%$sinG6#-%#lnG6#%\"xG" }{TEXT -1 4 " ,  " }{XPPEDIT 18 0 " l
+n(sin(x" "6#-%#lnG6#-%$sinG6#%\"xG" }{TEXT -1 2 ")." }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 93 "8.   In a, b, c, and d plot the graph of the fu
+nction and explain what the function is doing." }}{PARA 0 "" 0 "" 
+{TEXT -1 17 "   a.  y=abs(x) ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 263 12 "Explanation:" }
+}{PARA 0 "" 0 "" {TEXT -1 10 "   b.  y= " }{XPPEDIT 18 0 "floor(x)" "6
+#-%&floorG6#%\"xG" }{TEXT -1 4 " .  " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 264 12 "Expl
+anation:" }}{PARA 0 "" 0 "" {TEXT -1 10 "   c.  y= " }{XPPEDIT 18 0 "H
+eaviside(t-5)" "6#-%*HeavisideG6#,&%\"tG\"\"\"\"\"&!\"\"" }{TEXT -1 3 
+".  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 265 12 "Explanation:" }}{PARA 0 "" 0 "" {TEXT -1 
+10 "   d.  y= " }{XPPEDIT 18 0 "piecewise(x<=1,x^2,x-1)" "6#-%*piecewi
+seG6%1%\"xG\"\"\"*$F'\"\"#,&F'F(F(!\"\"" }{TEXT -1 3 ".  " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 266 12 "Explanation:" }}{PARA 258 "" 1 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 135 "We'll finish by considering some more sofistic
+ated plotting procedures contained in a special plotting package loade
+d using the command" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "with(
+plots);" }}}{PARA 0 "" 0 "" {TEXT -1 103 "Notice all the various comma
+nds contained in this package.  Many of them should \"ring a bell\" wi
+th you." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+82 "The command for graphing implicit relations (the conic sections fo
+r example) is   " }}{PARA 259 "" 0 "" {TEXT -1 64 "implicitplot(relati
+on in x and y, x=a..b,y=c..d, optional stuff)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 65 "9.  On the same axes plot
+ the graphs of the following conics     " }{XPPEDIT 18 0 "x^2+i*y^2 = \+
+1;" "6#/,&*$%\"xG\"\"#\"\"\"*&%\"iGF(*$%\"yGF'F(F(F(" }{TEXT -1 69 "  \+
+ for i = -3, -2, -1, 0, 1, 2, 3. View the graph in 1-1 perspective." }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 67 "10.   On the same axes plot the graphs of the following circles
+    " }{XPPEDIT 18 0 "(x+k)^2+y^2 = 1;" "6#/,&*$,&%\"xG\"\"\"%\"kGF(\"
+\"#F(*$%\"yGF*F(F(" }{TEXT -1 60 "   for i = -3, -2, -1, 0, 1, 2, 3. V
+iew in 1-1 perspective. " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{PARA 0 "" 0 "" {TEXT 267 65 "What is the effect on these circles
+ of changing the parameter k? " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 145 "For the remainder of the exercises you m
+ust use the \"on line\" help with its accompanying examples to figure \+
+out how to sketch the desired graphs." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 219 "11.  Sketch the 3-d plot, the 2-d co
+ntour plot, and the 3-d contour plot of each of the following function
+s (each on its own axes). You can \"click\" on the graph, \"drag\" it \+
+arround.  Experiment to get the \"best\" picture." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "x^2+2*y^2;" "6
+#,&*$%\"xG\"\"#\"\"\"*&F&F'*$%\"yGF&F'F'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "x^2-2*y^2;" "6#,&*$%\"xG\"\"#\"\"\"*&F&F'*$%\"yGF&F'!\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "cos(x^2+y^2);" "6#-%$co
+sG6#,&*$%\"xG\"\"#\"\"\"*$%\"yGF)F*" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 182 "12.  P
+lot the graphs of the following 3-d implicit relations. Rotate as nece
+ssary to get a good view of the graph. (Choose reasonable values for t
+he ranges of the x and y variables!)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "x^2+y^2+2*z^2=1;" "6#/,(*$%
+\"xG\"\"#\"\"\"*$%\"yGF'F(*&F'F(*$%\"zGF'F(F(F(" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {XPPEDIT 19 1 "x^2+y^2-2*z^2 = 1;" "6#/,(*$%\"xG\"\"#\"\"\"*$%
+\"yGF'F(*&F'F(*$%\"zGF'F(!\"\"F(" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "x^2+y^2=1;" "6#/,&*$%\"xG\"\"#\"\"\"*$%\"yGF'F(F(" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 58 "13.  Plot
+ the following polar graphs in polar coordinates." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "r=sin(t);" "6#
+/%\"rG-%$sinG6#%\"tG" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "r=t;
+" "6#/%\"rG%\"tG" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "r=i*sin(t
+);" "6#/%\"rG*&%\"iG\"\"\"-%$sinG6#%\"tGF'" }{TEXT -1 35 " for i = 1..
+4 all on the same axis." }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "r=
+sin(i*t);" "6#/%\"rG-%$sinG6#*&%\"iG\"\"\"%\"tGF*" }{TEXT -1 35 " for \+
+i = 1..4 all on the same axis." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 73 "14.  G
+raph the following parametric equations in rectangular coordinates." }
+}{PARA 0 "" 0 "" {TEXT -1 107 "       (This one is tricky.  Use the ap
+propriate plot command (2-d or 3-d) to plot the \"vector\" [x(t),y(t)]
+" }}{PARA 0 "" 0 "" {TEXT -1 37 "         or [x(t,s),y(t,s),z(t,s)] .)
+" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "x=t,y=t^2;" "6$/%\"xG%\"tG
+/%\"yG*$F%\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "x=sin(t),y
+=cos(t),z=t;" "6%/%\"xG-%$sinG6#%\"tG/%\"yG-%$cosG6#F(/%\"zGF(" }}}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "x=s+t,y=s^2,z=t^2+s;" "6%/%\"x
+G,&%\"sG\"\"\"%\"tGF'/%\"yG*$F&\"\"#/%\"zG,&*$F(F,F'F&F'" }{TEXT -1 2 
+"  " }}{PARA 0 "" 0 "" {TEXT -1 35 "This graph is called a \"surface\"
+.  " }{TEXT 268 44 "Does it look to you like a \"smooth surface?\"" }}
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "102" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

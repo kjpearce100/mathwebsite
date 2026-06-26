@@ -1,0 +1,271 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"" -1 257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 
+256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 18 "Elementary Algebra" }}{PARA 
+257 "" 0 "" {TEXT -1 13 "(number4.mws)" }}{PARA 0 "" 0 "" {TEXT -1 
+203 "     In this exericse we study the basic properties of polynomial
+s and rational functions.  Some revelant MAPLE commands will be    fac
+tor, expand, solve, fsolve, denom, numer, simplify, subs,   ........" 
+}}{PARA 0 "" 0 "" {TEXT -1 320 "     The first thing we need to learn \+
+is how to define a function.  There are two ways, each with its own ad
+vantages and disadvantages.  First define the polynomial p1 as a symbo
+lic expression in x in the following way:        p1:=x^2-1;  (Note the
+ colon before the =, this is always required when defining something.)
+  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 105 "     Now define the same polynomial as an operation on t
+he variable x in the following way: p2:=x->x^2-1;" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 258 "" 1 "" {TEXT -1 190 "Try the f
+ollowing command sequences to see some of the differences in how MAPLE
+  treats these two definitions.  As always record your observations an
+d comments on the worksheet in text mode." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "p1;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 3 "p2;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 6 "p2(x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "p2(t-3);" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "p2(u^3-u^2+2);" }}}{PARA 
+0 "" 0 "" {TEXT -1 5 "     " }}{PARA 0 "" 0 "" {TEXT -1 255 "     This
+ works just like we expect substitution to work because p2 is an opera
+tion on whatever is in the (  ).  However since p1 is a symbolic expre
+ssion we have some difficulties with substituting into it directly.   \+
+Try the following command sequences." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "p1(x);" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 8 "p1(t-3);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "p1(u^3-u^2+2);" }}}{PARA 0 "" 0 "" {TEXT -1 148 "    \+
+  Notice the extra x in front.  This is curious and not very reassurin
+g.  To substitute into a symbolic expression we must use the subs comm
+and." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "subs(x=t-3,p1);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "subs(x=6,p1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 6 "p2(6);" }}}{PARA 0 "" 0 "" {TEXT -1 4 "    " }}{PARA 0 "" 0 "" 
+{TEXT -1 75 "     Now let's do some simple operations on this polynomi
+al.  In each case " }{TEXT 257 46 "Explain what the command appears to
+ have done." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 11 "factor(p1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 11 "factor(p2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "fact
+or(p2(x));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expand(%);" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "solve(%=0);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "fsolve(%%=0);" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 12 "solve(p2=0);" }}}{PARA 11 "" 1 "" {TEXT -1 0 
+"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "solve(p2(x)=0);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "solve(p1=0);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "solve(p1=2);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 13 "fsolve(p1=2);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "solve(p2=2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 15 "solve(p2(x)=2);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "p3:=a*x^2+b*x+c;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 12 "solve(p3=0);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "solve(p3=0,x);" }}
+}{PARA 0 "" 0 "" {TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 4 "1.  " 
+}{TEXT 258 88 "Why did we need to include the ,x in the solve command \+
+in order to find the roots of p3?" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" 
+{TEXT -1 107 "Use the solve command replacing x with a, b, c respectiv
+ely.  You should be able to anticipate the results." }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 4 "2.  " }{TEXT 259 58 "What's the famous formula we get when
+ we solve p3=0 for x?" }}{PARA 0 "" 0 "" {TEXT -1 115 "Of course we co
+uld have done the same exercise with the polynomial defined as an oper
+ation.  Execute the following:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 19 "p4:=x->a*x^2+b*x+c;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 
+"p4(x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "solve(p4(t)=0,t)
+;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 60 "   \+
+  Expand , then factor each of the following expressions:" }}{PARA 0 "
+" 0 "" {TEXT -1 10 "(x-3)(x+3)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 12 "(ax+1)(bx+1)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 10 "(x+I)(x-I)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 
+0 "" 0 "" {TEXT -1 4 "3.  " }{TEXT 260 72 "Look at the last result and
+ determine what number I represents in MAPLE." }}{PARA 0 "" 0 "" 
+{TEXT -1 172 "4.   See if MAPLE knows a general formula for solving ge
+neral cubic polynomials, i.e. Is there a 3rd order formula comparable \+
+to the quadratic formula?  If so, exhibit it. " }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "5.  " }{TEXT 261 111 "Why do you think high school student
+s are never asked to remember the general formula for the roots of a c
+ubic?" }}{PARA 0 "" 0 "" {TEXT -1 24 "6.  For the polynomials " }
+{XPPEDIT 18 0 "p[5]" "6#&%\"pG6#\"\"&" }{TEXT -1 9 " through " }
+{XPPEDIT 18 0 "p[18]" "6#&%\"pG6#\"#=" }{TEXT -1 237 ", solve for all \+
+exact roots whereever possible, find all approximate roots to 10 decim
+al places, factor each into linear factors.  You will need to click on
+  [> in the toolbar to obtain new execution lines just below the curso
+r position." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "
+" {XPPEDIT 19 1 "p[5] := x^2-2;" "6#>&%\"pG6#\"\"&,&*$%\"xG\"\"#\"\"\"
+F+!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "p[6] := x^2+2;" "6
+#>&%\"pG6#\"\"',&*$%\"xG\"\"#\"\"\"F+F," }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "p[7] := 2*x^2+3*x-2;" "6#>&%\"pG6#\"\"(,(*&\"\"#\"\"\"*
+$%\"xGF*F+F+*&\"\"$F+F-F+F+F*!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "p[8] := x^2+x+1;" "6#>&%\"pG6#\"\"),(*$%\"xG\"\"#\"\"\"
+F*F,F,F," }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "p[9] := x^2+(sqrt
+(2)-2)*x-2*sqrt(2);" "6#>&%\"pG6#\"\"*,(*$%\"xG\"\"#\"\"\"*&,&-%%sqrtG
+6#F+F,F+!\"\"F,F*F,F,*&F+F,-F06#F+F,F2" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "p[10] := x^2+(1-Pi)*x-Pi;" "6#>&%\"pG6#\"#5,(*$%\"xG\"
+\"#\"\"\"*&,&F,F,%#PiG!\"\"F,F*F,F,F/F0" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "p[11] := x^2+(a+b)*x+a*b;" "6#>&%\"pG6#\"#6,(*$%\"xG\"
+\"#\"\"\"*&,&%\"aGF,%\"bGF,F,F*F,F,*&F/F,F0F,F," }}}{PARA 0 "" 0 "" 
+{TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "p[12] := x^3-
+x^2-2*x;" "6#>&%\"pG6#\"#7,(*$%\"xG\"\"$\"\"\"*$F*\"\"#!\"\"*&F.F,F*F,
+F/" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "p[13] := 6*x^3+11*x^2+6
+*x+1;" "6#>&%\"pG6#\"#8,**&\"\"'\"\"\"*$%\"xG\"\"$F+F+*&\"#6F+*$F-\"\"
+#F+F+*&F*F+F-F+F+F+F+" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "p[14
+] := x^3+x^2+x+1;" "6#>&%\"pG6#\"#9,**$%\"xG\"\"$\"\"\"*$F*\"\"#F,F*F,
+F,F," }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "p[15] := x^4-1;" "6#>
+&%\"pG6#\"#:,&*$%\"xG\"\"%\"\"\"F,!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "p[16] := x^4+1;" "6#>&%\"pG6#\"#;,&*$%\"xG\"\"%\"\"\"F,
+F," }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "p[17] := 3*x^4+13*x^3+7
+*x^2-17*x-6;" "6#>&%\"pG6#\"#<,,*&\"\"$\"\"\"*$%\"xG\"\"%F+F+*&\"#8F+*
+$F-F*F+F+*&\"\"(F+*$F-\"\"#F+F+*&F'F+F-F+!\"\"\"\"'F7" }}}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "p[18] := 6*x^5-5*x^4+4*x^3-4*x^2-2*x+
+1;" "6#>&%\"pG6#\"#=,.*&\"\"'\"\"\"*$%\"xG\"\"&F+F+*&F.F+*$F-\"\"%F+!
+\"\"*&F1F+*$F-\"\"$F+F+*&F1F+*$F-\"\"#F+F2*&F8F+F-F+F2F+F+" }}}{PARA 
+0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 5 "7.   " }{TEXT 
+262 136 "Explain why every odd degree polynomial must have at least on
+e real root, while an even degree polynomial can have no real roots at
+ all." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 78 "
+     Perform the following MAPLE command sequence.  Comment where appr
+opriate." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "p:=x->5*x^3-5*x+1;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "r:=solve(p(x)=0);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 5 "r[1];" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "si
+mplify(r[1]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "evalf(r[1]
+);evalf(r[2]);evalf(r[3]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+24 "p(r[1]);p(r[2]);p(r[3]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 54 "simplify(p(r[1]));simplify(p(r[2]));simplify(p(r[3]));" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 250 "     So \+
+these are the roots of p.  However when we evalf them to get reasonabl
+e numbers that are all complex. This seems to contradict our statement
+ about all odd degree polynomials having at least one real root. Try a
+pproximating the roots directly." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "fsolve(p(x)=0);" }}}{PARA 
+11 "" 1 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 40 "     Now we se
+em to have 3 real roots.  " }}{PARA 0 "" 0 "" {TEXT -1 4 "8.  " }
+{TEXT 263 30 "What appears to be going on?  " }}{PARA 0 "" 0 "" {TEXT 
+-1 181 "Maybe drawing the graph will help.  Plot  the graph of p with \+
+appropriate choices for the range of x-values and the range of y-value
+s.  The MAPLE plot command is a \"no brainer\"     " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "plot(express
+ion,x=a..b,y=c..d);" "6#-%%plotG6%%+expressionG/%\"xG;%\"aG%\"bG/%\"yG
+;%\"cG%\"dG" }{TEXT -1 146 "  where the choice of the y-range is optio
+nal.  We could also include the optional command     title=`name of th
+e graph`     to label our graph.  " }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 44 "9.  Find all the zeros of the polynomial   2" }{XPPEDIT 
+18 0 "x^4+x^3+x^2+1" "6#,**$%\"xG\"\"%\"\"\"*$F%\"\"$F'*$F%\"\"#F'F'F'
+" }{TEXT -1 2 " ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 32 "10.  Factor the polynomial     2" }
+{XPPEDIT 18 0 "x^4+x^3+x^2+1" "6#,**$%\"xG\"\"%\"\"\"*$F%\"\"$F'*$F%\"
+\"#F'F'F'" }{TEXT -1 24 "    into linear factors." }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 63 "11.  What ar
+e the x-intercepts of the graph of the polynomial 2" }{XPPEDIT 18 0 "x
+^4+x^3+x^2+1" "6#,**$%\"xG\"\"%\"\"\"*$F%\"\"$F'*$F%\"\"#F'F'F'" }
+{TEXT -1 12 " ?          " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{PARA 11 "" 1 "" {TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 112 "
+A \"rational function\" is defined to be the quotient of two polynomia
+ls.  Define the following rational function:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "f := (2*x^5+5*x^4+6*
+x^3+6*x^2+4*x+1)/(4*x^5+18*x^4+24*x^3+24*x^2+20*x+6);" "6#>%\"fG*&,.*&
+\"\"#\"\"\"*$%\"xG\"\"&F)F)*&F,F)*$F+\"\"%F)F)*&\"\"'F)*$F+\"\"$F)F)*&
+F1F)*$F+F(F)F)*&F/F)F+F)F)F)F)F),.*&F/F)*$F+F,F)F)*&\"#=F)*$F+F/F)F)*&
+\"#CF)*$F+F3F)F)*&F>F)*$F+F(F)F)*&\"#?F)F+F)F)F1F)!\"\"" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 110 "     Some importr
+ant features of a rational function are its x and y intercepts and its
+ vertical asymptotes.  " }}{PARA 0 "" 0 "" {TEXT -1 5 "12.  " }{TEXT 
+264 35 "What determines the x-intercepts?  " }}{PARA 0 "" 0 "" {TEXT 
+-1 4 "13. " }{TEXT 265 44 " What determinres the vertical asymptotes? \+
+ " }}{PARA 0 "" 0 "" {TEXT -1 45 "Execute the following MAPLE command \+
+sequence:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "n:=numer(f);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 12 "d:=denom(f);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "facto
+r(n);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "factor(d);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "14.  " }
+{TEXT 266 32 "What are the x-intercepts of f? " }{TEXT -1 1 " " }}
+{PARA 0 "" 0 "" {TEXT -1 5 "15.  " }{TEXT 267 31 "What is the y-interc
+ept of f?  " }}{PARA 0 "" 0 "" {TEXT -1 5 "16.  " }{TEXT 268 40 "What \+
+are the vertical asymptotes of f?  " }{TEXT -1 42 "(Try plotting the g
+raph of f to see this.)" }}{PARA 0 "" 0 "" {TEXT -1 5 "17.  " }{TEXT 
+269 82 "Why does f have only one vertical asymptote when its denominat
+or has 3 real roots?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 10 "factor(f);" }}}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 83 " Note that factoring a rational fu
+nction automatically simplifies it if possible.  " }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "18.  " }{TEXT 270 41 "What is the horizontal asymptote for
+ f?  " }{TEXT -1 39 "( Try to see this from the graph of f.)" }}{PARA 
+0 "" 0 "" {TEXT -1 40 " Execute the following command sequence." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "Limit(f,x=-1)=limit(f,x=-1);
+\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "subs(x=-1,f);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "19.  " }
+{TEXT 271 50 "Explain the results of the above command sequence." }}
+{PARA 0 "" 0 "" {TEXT -1 5 "20.  " }{TEXT 272 51 "Use your brain to co
+mpute the gcd(n,d) and lcm(n,d)" }{TEXT -1 122 ".  (Hint:  look at the
+ir factors.)  Check your answer with MAPLE. (You may wish to use facto
+r to compare  your answers.)  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+137 "     MAPLE can preform some neat operations on polynomials and ra
+tional functions.  For some examples try the following command sequenc
+e:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "degree(d,x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 13 "coeff(d,x,3);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "coef
+fs(d,x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "nops(d);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "op(4,d);" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 6 "op(d);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "f;" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 2 "d;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "n;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "q:=quo(n,d,x);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "r:=rem(n,d,x);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "d*q+r;" }}}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "21.   " }{TEXT 273 41 "How does thi
+s last result compare to n?  " }}{PARA 0 "" 0 "" {TEXT -1 5 "22.  " }
+{TEXT 274 51 "What do you think quo and rem are abreviations for?" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+26 "pff:=convert(f,parfrac,x);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 89 
+"This is really just another way to write f.  To see that this equals \+
+f try the following." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "f-pff;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "23.  " }{TEXT 275 49 
+"What do you think parfrac is an abreviation for? " }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "24.  " }{TEXT 276 26 "Look at pff and determine " }{TEXT 
+-1 3 "   " }{XPPEDIT 18 0 "limit(f,x=infinity)" "6#-%&limitG6$%\"fG/%
+\"xG%)infinityG" }{TEXT -1 4 "   ." }}{PARA 0 "" 0 "" {TEXT -1 36 "25.
+  Use MAPLE to verify the result." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 107 "For demonstration purposes it is very handy to be able t
+o construct polynomials with predetermined roots.  " }}{PARA 0 "" 0 "
+" {TEXT -1 73 "26.  Use the expand command to construct a polynomial w
+ith roots   1,2,2," }{XPPEDIT 18 0 "-1/2" "6#,$*&\"\"\"F%\"\"#!\"\"F'
+" }{TEXT -1 71 ", 1+I, and  1-I.  (Here the \"2,2\" indicates that 2 i
+s a \"double root\".)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{PARA 0 "" 0 "" {TEXT -1 74 "27.  Experiment with MAPLE to determine \+
+what number is represented by I.  " }{TEXT 277 11 "What is it?" }}
+{PARA 0 "" 0 "" {TEXT -1 5 "28.  " }{TEXT 278 69 "What was the effect \+
+of having both the numbers 1+I and 1-I as roots? " }{TEXT -1 50 " (See
+ what happens if only one of them is a root.)" }}{PARA 0 "" 0 "" 
+{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "188" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

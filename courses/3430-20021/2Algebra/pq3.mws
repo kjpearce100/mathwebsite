@@ -1,0 +1,43 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "2D Math" -1 2 "Times" 0 1 101 101 58 0 0 0 2 0 0 
+0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 97 136 14 0 0 0 0 0 0 0 0 
+0 0 1 }{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 16 "Practice Quize 3" }}{PARA 0 "" 
+0 "" {TEXT -1 125 "1.  Use the graphing feature of MAPLE to demonstrat
+e that the graph of an odd degree polynomial must always cross the x-a
+xis." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 31 "2
+.  Find the value of M so that" }}{PARA 0 "" 0 "" {TEXT -1 22 "     If
+  m>M then     " }{XPPEDIT 18 0 "r=2*x^2+5*x+m" "6#/%\"rG,(*&\"\"#\"\"
+\"*$%\"xGF'F(F(*&\"\"&F(F*F(F(%\"mGF(" }{TEXT -1 21 "   has no real ro
+ots." }}{PARA 0 "" 0 "" {TEXT -1 21 "     If m=M then     " }{XPPEDIT 
+18 0 "r=2*x^2+5*x+m" "6#/%\"rG,(*&\"\"#\"\"\"*$%\"xGF'F(F(*&\"\"&F(F*F
+(F(%\"mGF(" }{TEXT -1 22 "    has one real root." }}{PARA 0 "" 0 "" 
+{TEXT -1 21 "     If m<M then     " }{XPPEDIT 18 0 "r=2*x^2+5*x+m" "6#
+/%\"rG,(*&\"\"#\"\"\"*$%\"xGF'F(F(*&\"\"&F(F*F(F(%\"mGF(" }{TEXT -1 
+22 "   has two real roots." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 66 "3.  Provide a nice smooth looking graph for each \+
+of the following:" }}{PARA 0 "" 0 "" {TEXT -1 2 "a." }}{EXCHG {PARA 0 
+"> " 0 "" {XPPEDIT 19 1 "f1:=(1+cos(10*sqrt(x^2+y^2)))*exp(-x^2-y^2); \+
+ " "6#>%#f1G*&,&\"\"\"F'-%$cosG6#*&\"#5F'-%%sqrtG6#,&*$%\"xG\"\"#F'*$%
+\"yGF3F'F'F'F'-%$expG6#,&*$F2F3!\"\"*$F5F3F;F'" }}}{PARA 0 "" 0 "" 
+{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 14 "b.            " }}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 " -x^2+2*y^2+z^2 = 1;" "6#/,(*$
+%\"xG\"\"#!\"\"*&F'\"\"\"*$%\"yGF'F*F**$%\"zGF'F*F*" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 36 "4.  Provide a graph, or
+ graphs, of  " }{XPPEDIT 18 0 "f= (2*x^4+5*x^3-5*x^2-20*x-12)/(x^3-2*x
+^2-x+2)" "6#/%\"fG*&,,*&\"\"#\"\"\"*$%\"xG\"\"%F)F)*&\"\"&F)*$F+\"\"$F
+)F)*&F.F)*$F+F(F)!\"\"*&\"#?F)F+F)F3\"#7F3F),**$F+F0F)*&F(F)*$F+F(F)F3
+F+F3F(F)F3" }{TEXT -1 100 "        which clearly displays, or display,
+ all the intercepts and all the asymptotic behavior of f." }}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "f:=(2*x^4+5*x^3-5*x^2-20*x-12)/(x^3-2
+*x^2-x+2);" "6#>%\"fG*&,,*&\"\"#\"\"\"*$%\"xG\"\"%F)F)*&\"\"&F)*$F+\"
+\"$F)F)*&F.F)*$F+F(F)!\"\"*&\"#?F)F+F)F3\"#7F3F),**$F+F0F)*&F(F)*$F+F(
+F)F3F+F3F(F)F3" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 41 "5.  Find the slant asymptote in f in # 4." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}{PARA 0 "" 0 "
+" {TEXT -1 5 "     " }}}{MARK "13 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 
+1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

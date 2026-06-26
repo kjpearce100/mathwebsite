@@ -1,0 +1,73 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 101 101 58 0 0 0 2 0 
+0 0 0 0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 97 136 14 0 0 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 
+}{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 
+2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 16 "Practice Quize 3" }}{PARA 0 "" 
+0 "" {TEXT -1 125 "1.  Use the graphing feature of MAPLE to demonstrat
+e that the graph of an odd degree polynomial must always cross the x-a
+xis." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "plot(\{seq(x^5-x^4+x
+^3-x^2+x+i,i=-4..10)\},x=-infinity..infinity);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 31 "2.  Find the value of M s
+o that" }}{PARA 0 "" 0 "" {TEXT -1 22 "     If  m>M then     " }
+{XPPEDIT 18 0 "r=2*x^2+5*x+m" "6#/%\"rG,(*&\"\"#\"\"\"*$%\"xGF'F(F(*&
+\"\"&F(F*F(F(%\"mGF(" }{TEXT -1 21 "   has no real roots." }}{PARA 0 "
+" 0 "" {TEXT -1 21 "     If m=M then     " }{XPPEDIT 18 0 "r=2*x^2+5*x
++m" "6#/%\"rG,(*&\"\"#\"\"\"*$%\"xGF'F(F(*&\"\"&F(F*F(F(%\"mGF(" }
+{TEXT -1 22 "    has one real root." }}{PARA 0 "" 0 "" {TEXT -1 21 "  \+
+   If m<M then     " }{XPPEDIT 18 0 "r=2*x^2+5*x+m" "6#/%\"rG,(*&\"\"#
+\"\"\"*$%\"xGF'F(F(*&\"\"&F(F*F(F(%\"mGF(" }{TEXT -1 22 "   has two re
+al roots." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "plot(2*x^2+5*x,
+x=-4..2);" }}}{PARA 0 "" 0 "" {TEXT -1 57 "The minimum value of r occu
+rs half way between the roots." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 19 "solve(2*x^2+5*x=0);" }}}{PARA 0 "" 0 "" {TEXT -1 44 "So minimum \+
+occurs at -5/4 and the minimum is" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "subs(x=-5/4,2*x^2+5*x);" }}}{PARA 257 "" 0 "" {TEXT 
+-1 0 "" }{TEXT 256 35 "So m=25/8,  we can test graphically" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "plot(2*x^2+5*x+25/8,x=-4..4);" }}}
+{PARA 0 "" 0 "" {TEXT -1 66 "3.  Provide a nice smooth looking graph f
+or each of the following:" }}{PARA 0 "" 0 "" {TEXT -1 2 "a." }}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "f1:=(1+cos(10*sqrt(x^2+y^2)))*exp(-x^
+2-y^2);  " "6#>%#f1G*&,&\"\"\"F'-%$cosG6#*&\"#5F'-%%sqrtG6#,&*$%\"xG\"
+\"#F'*$%\"yGF3F'F'F'F'-%$expG6#,&*$F2F3!\"\"*$F5F3F;F'" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "plot3d(f1,x=-1/2..1/2,y=-1/2..1/2);
+" }}}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 14 "b. \+
+           " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "r:= -x^2+2*y^
+2+z^2 = 1;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 12 "with(plots):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 42 "implicitplot3d(r,x=-2..2,y=-2..2,z=-2..2);" }}}{PARA 0 "" 0 "
+" {TEXT -1 36 "4.  Provide a graph, or graphs, of  " }{XPPEDIT 18 0 "f
+= (2*x^4+5*x^3-5*x^2-20*x-12)/(x^3-2*x^2-x+2)" "6#/%\"fG*&,,*&\"\"#\"
+\"\"*$%\"xG\"\"%F)F)*&\"\"&F)*$F+\"\"$F)F)*&F.F)*$F+F(F)!\"\"*&\"#?F)F
++F)F3\"#7F3F),**$F+F0F)*&F(F)*$F+F(F)F3F+F3F(F)F3" }{TEXT -1 100 "    \+
+    which clearly displays, or display, all the intercepts and all the
+ asymptotic behavior of f." }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "
+f:=(2*x^4+5*x^3-5*x^2-20*x-12)/(x^3-2*x^2-x+2);" "6#>%\"fG*&,,*&\"\"#
+\"\"\"*$%\"xG\"\"%F)F)*&\"\"&F)*$F+\"\"$F)F)*&F.F)*$F+F(F)!\"\"*&\"#?F
+)F+F)F3\"#7F3F),**$F+F0F)*&F(F)*$F+F(F)F3F+F3F(F)F3" }}}{PARA 0 "" 0 "
+" {TEXT -1 127 "First we find the values of x where f might have inter
+esting features, and make sure to include these in our range of x valu
+es." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "factor(numer(f));" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "factor(denom(f));" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "plot(f,x=-10..10,y=-30..40);
+" }{TEXT -1 142 "This picture shows the asymptotic behaviour and the y
+-intercept ok but not the x intercepts at -2 and -3/2.  For that we us
+e another picture. " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "plot
+(f,x=-3..0,y=-1/2..1/2);" }{TEXT -1 28 "This shows the x-intercepts." 
+}}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 41 "5.  Find the slant asymptote in f in # 4." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "\"f\"=convert(f,parfrac,x);" }}}
+{PARA 0 "" 0 "" {TEXT -1 107 "Letting x->infinity we see that f approa
+ches    y=2x+9. Just for fun we add it to the first plot of f above" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "plot(\{f,2*x+9\},x=-10..10,
+y=-30..40);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}{PARA 0 "" 
+0 "" {TEXT -1 5 "     " }}}{MARK "42" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 
+1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
