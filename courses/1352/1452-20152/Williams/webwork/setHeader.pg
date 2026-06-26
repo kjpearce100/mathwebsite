@@ -1,0 +1,72 @@
+DOCUMENT();
+
+loadMacros(
+	"PG.pl",
+	"PGbasicmacros.pl",
+	
+);
+
+
+####################################################
+#
+# The item below printed out only when a hardcopy is made.
+#
+####################################################
+
+TEXT($BEGIN_ONE_COLUMN);
+
+TEXT(MODES(TeX =>EV3(<<'END_TEXT'),HTML=>""));
+
+\noindent {\large \bf $studentName}
+\hfill
+\noindent {\large \bf \{protect_underbar($courseName)\}  
+$sectionNumber   }
+\par
+
+END_TEXT
+
+##########################################################
+# 
+# Items printed both to the screen when a hardcopy is made.
+#
+# You can insert a url pointing to your course's home page 
+# a few lines below.  Remove the comment (#) symbol from the line
+# to make it active.
+#
+##########################################################
+
+BEGIN_TEXT
+
+$BBOLD WeBWorK  assignment number \{ protect_underbar($setNumber) \}  is due :  $formattedDueDate. $EBOLD
+
+$PAR
+
+$PAR
+
+END_TEXT
+###########################################################
+#
+# This is a good place to issue instructions or give comments
+# for this problem set.
+#
+# EDIT BELOW 'BEGIN_TEXT'
+###########################################################
+
+###########################################################
+# EDIT ABOVE 'END_TEXT'
+###########################################################
+
+###########################################################
+#
+# The item below will be printed for both the screen version and the
+# hardcopy version.
+#
+###########################################################
+BEGIN_TEXT
+
+
+END_TEXT
+
+TEXT($END_ONE_COLUMN);
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
