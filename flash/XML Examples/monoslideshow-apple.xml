@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+	Monoslideshow configuration file
+	Please visit http://www.monoslideshow.com for more info
+-->
+
+<slideshow>
+
+	<preferences
+
+		backgroundColor = "000000"
+		font = "unibody"
+		startWith = "photos"
+		randomizeAlbums = "false"
+		showLoadingIcon = "true"
+		showAlbumsButton = "true"
+		showThumbnailsButton = "true"
+		showControls = "true"
+		showImageInfo = "always"
+		showMuteButton = "false"
+		showPreviousButton = "true"
+		showPauseButton = "true"
+		showNextButton = "true"
+		imageScaleMode = "downscaleToFit"
+		imageTransition = "noTransition"
+		imageTransitionTime = "0.5"
+		imagePause = "3"
+		imageMarginX = "0"
+		imageMarginY = "0"
+		imageAlign = "center"
+		randomizeImages = "false"
+		kenBurnsMode = "none"
+		kenBurnsTime = "5"
+		kenBurnsVariationPercent = "25"
+		imageInfoColor = "FFFFFF"
+		imageInfoAlpha = "100"
+		imageInfoRoundedCorners = "0"
+		imageInfoShadowSize = "2"
+		imageInfoShadowColor = "000000"
+		imageInfoShadowAlpha = "100"
+		imageInfoLineWidth = "0"
+		imageInfoLineColor = "FFFFFF"
+		imageInfoAlign = "bottomRight"
+		imageInfoMarginX = "0"
+		imageInfoMarginY = "20"
+		imageInfoTransitionTime = "0.5"
+		imageInfoWidth = "200"
+		imageInfoMaxSize = "false"
+		imageInfoPadding = "10"
+		imageInfoTextAlign = "left"
+		imageInfoTitleSize = "8"
+		imageInfoTitleColor = "FF0070"
+		imageInfoTitleContainsNumber = "true"
+		imageInfoTitleMaxCharacters = "-1"
+		imageInfoDisplayNoTitle = "untitled"
+		imageInfoDescriptionSize = "8"
+		imageInfoDescriptionColor = "000000"
+		imageInfoDescriptionMaxCharacters = "-1"
+		imageInfoDisplayNoDescription = "no description"
+		imageInfoDescriptionMargin = "2"
+		thumbnailBackgroundColor = "000000"
+		thumbnailBackgroundAlpha = "0"
+		thumbnailWindowColor = "FFFFFF"
+		thumbnailWindowAlpha = "100"
+		thumbnailWindowShadowSize = "2"
+		thumbnailWindowShadowColor = "000000"
+		thumbnailWindowShadowAlpha = "100"
+		thumbnailWindowLineWidth = "0"
+		thumbnailWindowLineColor = "FFFFFF"
+		thumbnailWindowAlign = "leftCenter"
+		thumbnailWindowMarginX = "0"
+		thumbnailWindowMarginY = "10"
+		thumbnailWindowRows = "4"
+		thumbnailWindowColumns = "4"
+		thumbnailWindowAutoSize = "false"
+		thumbnailWindowRoundedCorners = "0"
+		thumbnailWindowPadding = "10"
+		thumbnailWindowIconSize = "10"
+		thumbnailWindowIconSpacing = "10"
+		thumbnailWindowIconColor = "FF0070"
+		thumbnailWindowIconDimColor = "B6AFAC"
+		thumbnailWindowIconRollOverColor = "FF91C0"
+		thumbnailWindowInfoSize = "8"
+		thumbnailWindowInfoColor = "000000"
+		thumbnailWindowIconMargin = "5"
+		thumbnailWidth = "40"
+		thumbnailHeight = "40"
+		thumbnailRoundedCorners = "0"
+		thumbnailSpacing = "2"
+		thumbnailShadowSize = "0"
+		thumbnailShadowColor = "000000"
+		thumbnailShadowAlpha = "0"
+		thumbnailHoverDistance = "0"
+		thumbnailHoverShadowSize = "0"
+		thumbnailBrightnessAdjustment = "0"
+		thumbnailHoverBrightnessAdjustment = "-50"
+		albumBackgroundColor = "000000"
+		albumBackgroundAlpha = "0"
+		albumWindowColor = "FFFFFF"
+		albumWindowAlpha = "100"
+		albumWindowShadowSize = "2"
+		albumWindowShadowColor = "000000"
+		albumWindowShadowAlpha = "100"
+		albumWindowLineWidth = "0"
+		albumWindowLineColor = "FFFFFF"
+		albumWindowAlign = "leftCenter"
+		albumWindowMarginX = "0"
+		albumWindowMarginY = "0"
+		albumWindowRows = "3"
+		albumWindowColumns = "1"
+		albumWindowAutoSize = "false"
+		albumWindowRoundedCorners = "0"
+		albumWindowPadding = "10"
+		albumWindowIconSpacing = "10"
+		albumWindowIconSize = "10"
+		albumWindowIconColor = "FF0070"
+		albumWindowIconDimColor = "B6AFAC"
+		albumWindowIconRollOverColor = "FF91C0"
+		albumWindowInfoSize = "8"
+		albumWindowInfoColor = "000000"
+		albumWindowIconMargin = "5"
+		albumWidth = "50"
+		albumHeight = "50"
+		albumRoundedCorners = "0"
+		albumSpacing = "2"
+		albumShadowSize = "0"
+		albumShadowColor = "000000"
+		albumShadowAlpha = "0"
+		albumBrightnessAdjustment = "0"
+		albumHoverBrightnessAdjustment = "-50"
+		albumInfoWidth = "120"
+		albumInfoHeight = "50"
+		albumInfoMargin = "4"
+		albumInfoPadding = "5"
+		albumInfoRoundedCorners = "0"
+		albumInfoColor = "CFCBC8"
+		albumInfoAlpha = "100"
+		albumInfoShadowSize = "0"
+		albumInfoShadowColor = "000000"
+		albumInfoShadowAlpha = "0"
+		albumInfoTextAlign = "left"
+		albumInfoTitleSize = "8"
+		albumInfoTitleColor = "FF0070"
+		albumInfoTitleContainsNumber = "false"
+		albumInfoTitleMaxCharacters = "-1"
+		albumInfoDisplayNoTitle = "untitled"
+		albumInfoDescriptionSize = "8"
+		albumInfoDescriptionColor = "5A5553"
+		albumInfoDescriptionMaxCharacters = "-1"
+		albumInfoDisplayNoDescription = "no description"
+		albumInfoDescriptionMargin = "0"
+		controlAlign = "topLeft"
+		controlMarginX = "0"
+		controlMarginY = "20"
+		controlTransitionHorizontal = "true"
+		controlRoundedCorners = "0"
+		controlAutoHide = "false"
+		controlShowOnStartDelay = "3"
+		controlColor = "FFFFFF"
+		controlAlpha = "100"
+		controlLineWidth = "0"
+		controlLineColor = "000000"
+		controlShadowSize = "3"
+		controlShadowColor = "000000"
+		controlShadowAlpha = "100"
+		controlIconColor = "FF0070"
+		controlIconRollOverColor = "FF91C0"
+		controlPadding = "10"
+		controlIconSize = "10"
+		controlIconSpacing = "8"
+		controlDelay = "2"
+		autoPlay = "true"
+		autoPause = "true"
+		loadingIconSize = "100"
+		loadingIconAlign = "center"
+		loadingIconMarginX = "15"
+		loadingIconMarginY = "15"
+		loadingIconBackgroundColor = "FF0070"
+		loadingIconColor = "000000"
+		loadingIconAlpha = "100"
+		loadingIconShadowSize = "2"
+		loadingIconShadowColor = "000000"
+		loadingIconShadowAlpha = "100"
+		loadingIconLineWidth = "2"
+		loadingIconLineColor = "FFFFFF"
+		markAlign = "topLeft"
+		markMarginX = "0"
+		markMarginY = "0"
+		markTransitionTime = "0"
+
+	/>
+
+		<!-- 
+      albumInfoDescriptionFont = "" 
+		albumInfoTitleFont = ""
+		albumWindowInfoFont = ""
+		thumbnailWindowInfoFont = ""
+		thumbnailWindowTrack = "true"
+		thumbnailWindowAlwaysOn = "false"
+		imageInfoDescriptionFont = ""
+		imageInfoTitleFont = ""
+		viewport = "0,0,0,0"
+      -->
+
+	<album title="artbyneil" description="Work examples" imagePath="images/slideshow" >
+		<img src="01.jpg" title="Image 1" description="Example description 1"/>
+		<img src="02.jpg" title="Image 2" description="Example description 2"/>
+		<img src="03.jpg" title="Image 3" description="Example description 3"/>
+		<img src="04.jpg" title="Image 1" description="Example description 1"/>
+		<img src="05.jpg" title="Image 2" description="Example description 2"/>
+		<img src="06.jpg" title="Image 3" description="Example description 3"/>
+		<img src="07.jpg" title="Image 1" description="Example description 1"/>
+		<img src="08.jpg" title="Image 2" description="Example description 2"/>
+		<img src="09.jpg" title="Image 3" description="Example description 3"/>
+	</album>	
+
+	<!-- ******** START OF EXAMPLES ********
+
+	<album thumbnail="path-to-thumbnail.jpg" title="insert title of album 1" description="insert description of album 1" imagePath="path-to-all-images" thumbnailPath="path-to-all-thumbnails">
+
+		<img src="image-file1.jpg" title="insert title of image 1" description="insert description of image 1" />
+		<img src="image-file2.jpg" title="insert title of image 2" description="insert description of image 2" />
+		<img src="image-file3.jpg" title="insert title of image 3" description="insert description of image 3" />
+
+		(etc., etc. ... insert more images here)
+
+	</album>
+
+	<album thumbnail="path-to-thumbnail.jpg" title="insert title of album 2" description="insert description of album 2" imagePath="path-to-all-images" thumbnailPath="path-to-all-thumbnails">
+
+		<img src="image-file4.jpg" title="insert title of image 4" description="insert description of image 4" />
+		<img src="image-file5.jpg" title="insert title of image 5" description="insert description of image 5" />
+		<img src="image-file6.jpg" title="insert title of image 6" description="insert description of image 6" />
+
+		(etc., etc. ... insert more images here)
+
+	</album>
+
+	(etc., etc. ... insert more albums here)
+
+
+
+	Example use of Flickr .RSS feeds:
+
+	<album size="medium">
+
+		<flickr><![CDATA[url-of-rss-feed]]></flickr>
+
+	</album>
+
+	******** END OF EXAMPLES ******** -->
+
+</slideshow>

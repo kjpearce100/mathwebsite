@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<slideshow>
+	
+	<preferences
+		loadingIconAlign="center"
+		loadingIconMarginX="0"
+		loadingIconMarginY="0"
+		loadingIconShadowSize="2"
+		imagePause="5"
+		randomizeImages = "true"
+		imageTransition="fadeInOut"
+		kenBurnsMode = "randomPan"
+		kenBurnsTime = "5"
+		kenBurnsVariationPercent = "10"
+		showAlbumsButton="false"
+		showThumbnailsButton="false"
+		thumbnailWindowRoundedCorners="0"
+		thumbnailRoundedCorners="0"
+		thumbnailWindowIconRollOverColor="00BBEE"
+		thumbnailHoverDistance="1"
+		thumbnailHoverShadowSize="4"
+		showImageInfo="never"
+		showControls="false"
+		imageInfoRoundedCorners="0"
+		controlAlign="bottomCenter"
+		controlAutoHide="true"
+		controlRoundedCorners="3"
+		controlIconRollOverColor="00BBEE"
+		controlShadowSize="2"
+	/>
+
+	<album title="artbyneil" description="Work examples" imagePath="images/slideshow" >
+		<img src="01.jpg" title="Image 1" description="Example description 1"/>
+		<img src="02.jpg" title="Image 2" description="Example description 2"/>
+		<img src="03.jpg" title="Image 3" description="Example description 3"/>
+		<img src="04.jpg" title="Image 1" description="Example description 1"/>
+		<img src="05.jpg" title="Image 2" description="Example description 2"/>
+		<img src="06.jpg" title="Image 3" description="Example description 3"/>
+		<img src="07.jpg" title="Image 1" description="Example description 1"/>
+		<img src="08.jpg" title="Image 2" description="Example description 2"/>
+		<img src="09.jpg" title="Image 3" description="Example description 3"/>
+	</album>	
+	
+	
+</slideshow>
