@@ -1,0 +1,266 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Homework: Math 1352-20082(008)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Homework: Math 1352-20082(008)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 1352">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<div class=text18red>Homework</div>
+
+<table width=80%>
+<tr >
+<td valign=top width=40% align=left>
+<span class=text14blue>Math 1352-008<br>
+Calculus II<br>
+Spring 2008</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text14blue>Strauss, Bradley, Smith<br>
+Calculus, 5th Ed.<br>
+Prentice Hall</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<table width=90% border=1>
+<tr >
+<td valign=top width=40% align=center>
+<span class=text12blue>Homework Assignments</span>
+</td>
+<td valign=top width=40% align=center>
+<span class=text12red>WebWork Assignments</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+&nbsp;</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 00</span> <span class=text>Due Jan 14, 11:00 pm<p>
+Section 6.1:  2, 4, 8, 10, 16, 20</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue><span class=text12blue>HW 01</span> <span class=text>Due Jan 18, 5:00 pm<p>
+Section 6.1:  multiples of 3: 3-24; 28, 30<br>
+Section 6.2:  multiples of 3: 3-30; 36, 39</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 01</span> <span class=text>Due Jan 23, 11:00 pm<p>
+Section 6.2:  2, 4, 14, 16, 42, 44<br>
+Section 6.3:  4, 22</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 02</span> <span class=text>Due Jan 28, 5:00 pm<p>
+Section 6.3:  multiples of 3: 6-33; 42, 45, 48<br>
+Section 6.4:  multiples of 3: 3-15</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 02</span> <span class=text>Due Jan 30, 11:00 pm<p>
+Section 6.3:  28, 34, 44<br>
+Section 6.4:  2, 4, 8, 14, 20</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 03</span> <span class=text>Due Feb 04, 5:00 pm<p>
+Section 6.4:  18, 21, 24, 30<br>
+Section 6.5:  9, 10, 15, 17, 20, 23, 24, 28, 34, 37, 42</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 03</span> <span class=text>Due Feb 06, 11:00 pm<p>
+Section 6.5:  6, 8, 22, 24, centroid<br>
+Section 7.1: 4, 8, 12</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 04</span> <span class=text>Due Feb 13, 5:00 pm<p>
+Section 7.1: eoe: 2-38; 43, 47, 59<br>
+Section 7.2: eoe: 2-18; 30, 38, 39<br>
+N.B. eoe = every other even (4k+2)</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 04</span> <span class=text>Due Feb 15, 11:00 pm<p>
+Section 7.1: 28, 52<br>
+Section 7.2: 4, 8, 12, 22, 24, 26<br>
+Section 7.3: 6, 8, 14, 18, 26, 36, 38, 48</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 05</span> <span class=text>Due Feb 20, 5:00 pm<p>
+Section 7.3: multiples of 5: 5-50; 56<br>
+Section 7.4: multiples of 5: 5-50</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 05</span> <span class=text>Due Feb 22, 11:00 pm<p>
+Section 7.4: 2, 4, 6, 8, 12, 34<br>
+Section 7.5: 2, 6, 14, 18, 28, 36, 66
+</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 06</span> <span class=text>Due Feb 27, 5:00 pm<p>
+Section 7.5: multiples of 5: 5-70<br>
+Section 7.6: 3, 6, 10, 12, 24, 43<br>
+Section 7.7: 3, 8, 10, 14, 17</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 06</span> <span class=text>Due Feb 29, 11:00 pm<p>
+Section 7.6: 2, 4, 8<br>
+Section 7.7: 4, 6, 12, 16, 18, 20, 24, 34, 36, 44</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 07</span> <span class=text>Due Mar 05, 5:00 pm<p>
+Section 7.7: 25, 28, 32, 33, 39, 42, 53<br>
+Section 7.8: eoe: 2-42; 48<br>
+Section 8.1: multiples of 3: 3-15</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 07</span> <span class=text>Due Mar 10, 11:00 pm<p>
+Section 7.8: none<br>
+Section 8.1: 14, 16, 20, 26, 28<br>
+Section 8.2: 4, 12, 16</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 08</span> <span class=text>Due Mar 14, 5:00 pm<p>
+Section 8.1: multiples of 3: 18-39<br>
+Section 8.2: eoe: 2-38; 48<br>
+Section 8.3: multiples of 5: 5-25</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 08</span> <span class=text>Due Mar 26, 11:00 pm<p>
+Section 8.2: 24<br>
+Section 8.3: 4, 6, 8, 12, 22, 24, var(28-50)<br>
+Section 8.4: var(14-52)</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 09</span> <span class=text>Due Apr 02, 5:00 pm<p>
+Section 8.3: multiples of 5: 30-50<br>
+Section 8.4: multiples of 5: 5-50<br>
+Section 8.5: multiples of 3: 3-39</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 09</span> <span class=text>Due Apr 04, 11:00 pm<p>
+Section 8.4: var(external)<br>
+Section 8.5: 4, 8, 14, 16, 22, 26, 32, 34, 44<br>
+Section 8.6: var(4-16), var(18-30), 34, var(external)</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 10</span> <span class=text>Due Apr 09, 5:00 pm<p>
+Section 8.6: multiples of 4: 4-44<br>
+Section 8.7: multiples of 4: 4-40</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 10</span> <span class=text>Due Apr 11, 11:00 pm<p>
+Section 8.7: 2, 6, 10, 14, 30, var(external)<br>
+Section 8.8: var(4-28), 34, var(external)</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 11</span> <span class=text>Due Apr 18, 5:00 pm<p>
+Section 8.8: eoe: 6-30; 31, 35, 38, 43, 44<br>
+Section 9.1: multiples of 5: 5-40<br>
+Section 9.2: multiples of 5: 5-45</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 11</span> <span class=text>Due Apr 21, 11:00 pm<p>
+Section 9.1: 16, 18, 22, 34, 36, var(external)<br>
+Section 9.2: 2, 14, 18, 22, 28, 36<br>
+Section 9.3: 4, 6, 12, 14, 16, 22, 26, 32, var(external)</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 12</span> <span class=text>Due Apr 25, 5:00 pm<p>
+Section 9.3: multiples of 5: 5-40<br>
+Section 9.4: multiples of 5: 5-30<br>
+Section 9.5: multiples of 5: 5-45</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 12</span> <span class=text>Due Apr 28, 11:00 pm<p>
+Section 9.4: 4, 6, 12, 14, 16, 18, 22, 24, 32, var(external)<br>
+Section 9.5: 4, 6, 8, 12<br>
+Section 9.6: None</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 13</span> <p>
+<span class=text>Section 9.6: multiples of 5: 5-35<br>
+Section 9.7: multiples of 5: 5-35</span>
+</td>
+<td valign=top width=40% align=left>
+&nbsp;</span>
+</td>
+</tr>
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="1352-20082(008)-hwk.shtml"-->
+</div>
+
+</body>
+</html> 

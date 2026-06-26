@@ -1,0 +1,156 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Homework: Math 1352-20082(008)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Homework: Math 1352-20082(008)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 1352">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+
+<table width=80%>
+<tr >
+<td valign=top width=40% align=left class=text12>
+<span class=text14blue>Math 1352<br>
+Calculus II<br>
+Spring 2008</span>
+</td>
+<td valign=top width=40% align=left class=text12>
+<span class=text14blue>Strauss, Bradley, Smith<br>
+Calculus 5th<br>
+Prentice Hall</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam I</span>
+
+<table width=60% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=40% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=35% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+
+Section 6.1
+</td>
+<td valign=top width=40% align=left class=text12>
+area between curves, area
+using vertical strips, area using
+horizontal strips
+</td>
+<td valign=top width=35% align=left class=text12>
+1, 4, 6, 14, 25
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+
+Section 6.2
+</td>
+<td valign=top width=40% align=left class=text12>
+method of cross sections,
+method of disks and washers,
+method of cylindrical shells
+</td>
+<td valign=top width=35% align=left class=text12>
+3, 15, 19, 22, 30, 37
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+
+Section 6.3
+</td>
+<td valign=top width=40% align=left class=text12>
+polar coordinates, polar
+graphs, intersection of polar
+curves, area for polar
+coordinates
+</td>
+<td valign=top width=35% align=left class=text12>
+3, 10, 12, 27, 31, 42, 45
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+
+Section 6.4
+</td>
+<td valign=top width=40% align=left class=text12>
+arc length of a curve, area of
+a surface of rotation, polar arc
+length and surface area
+</td>
+<td valign=top width=35% align=left class=text12>
+5, 6, 11, 14, 18, 24, 29
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+
+Section 6.5
+</td>
+<td valign=top width=40% align=left class=text12>
+work, fluid pressure and force,
+centroids and moments in the
+plane, theorem of Pappus
+</td>
+<td valign=top width=35% align=left class=text12>
+9, 10, 11, 15, 17, 21, 24, 34, 37
+</td>
+</tr>
+
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="1352-20082(008)-rvw1.shtml"-->
+</div>
+
+</body>
+</html> 
