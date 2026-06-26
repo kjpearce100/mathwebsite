@@ -1,0 +1,106 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'max min increas decreas etc')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl",
+"extraAnswerEvaluators.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e = exp(1);
+
+BEGIN_TEXT 
+$BR
+This is problem 15 Section 4.3 page 215. $BR $BR
+
+ Given \(\displaystyle  f(x) =  x^3+35x^2 -125x-9375 \)
+$BR $BR
+(a)  Find all critical numbers. If there are no such real \(x\), type DNE in the answer blank.  If there is more that one real \(x\), give a comma separated list
+(e.g. 1,2). MAKE SURE TO ENTER THE NUMBERS IN INCREASING ORDER.$BR$BR
+
+ANSWER (critical points) : $SPACE \{ans_rule(20) \}
+  
+$BR
+
+(b) Find where the function is increasing and decreasing. 
+
+
+$BR
+$BBOLD Note: $EBOLD Express the answer using interval notation.
+If the answer includes more than one interval write the intervals separated by
+the "union" symbol, U. If needed enter \(\infty \) as $BITALIC infinity $EITALIC and \(-\infty \) as $BITALIC -infinity $EITALIC .
+$BR
+
+ ANSWER (Increasing) : $SPACE  \{ans_rule(20) \}    
+$BR
+ ANSWER (Decreasing) : $SPACE  \{ans_rule(20) \}    
+$BR
+
+(c) Find where the function is concave up and concave down. 
+
+
+$BR
+$BBOLD Note: $EBOLD Express the answer using interval notation.
+If the answer includes more than one interval write the intervals separated by
+the "union" symbol, U. If needed enter \(\infty \) as $BITALIC infinity $EITALIC and \(-\infty \) as $BITALIC -infinity $EITALIC .
+$BR
+
+ ANSWER (concave up): $SPACE  \{ans_rule(20) \}    
+$BR
+ ANSWER (concave down): $SPACE  \{ans_rule(20) \} 
+$BR
+
+(d)  Find the \(x\) coordinate   all points of inflection. If there are no such real \(x\), type DNE in the answer blank.  If there is more that one real \(x\), give a comma separated list
+(e.g. 1,2). MAKE SURE TO ENTER THE NUMBERS IN INCREASING ORDER. $BR$BR
+
+ANSWER (inflection points): $SPACE \{ans_rule(20) \}
+
+ 
+$PAR
+END_TEXT
+
+$ansa = "-25, 5/3";
+
+&ANS(number_list_cmp($ansa));
+
+$ansb1 = "(-infinity,-25)U(5/3,infinity)";
+
+&ANS(interval_cmp($ansb1)); 
+
+$ansb2 = "(-25,5/3)";
+
+&ANS(interval_cmp($ansb2)); 
+
+
+$ansc1 = "(-35/3,infinity)";
+
+&ANS(interval_cmp($ansc1)); 
+
+$ansc2 = "(-infinity,-35/3)";
+
+&ANS(interval_cmp($ansc2)); 
+
+
+$ansd = "-35/3";
+
+&ANS(number_list_cmp($ansd));
+
+
+
+   
+
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

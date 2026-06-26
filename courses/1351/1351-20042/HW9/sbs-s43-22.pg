@@ -1,0 +1,89 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'max min increas decreas etc')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl",
+"extraAnswerEvaluators.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e = exp(1);
+
+BEGIN_TEXT 
+$BR
+This is problem 22 Section 4.3 page 215. $BR $BR
+
+ Given \(\displaystyle  f(u) =  3u^4-2u^3-12u^2+18u-5 \)
+$BR $BR
+ 
+(a) Determine  where the function is increasing and decreasing. 
+
+
+$BR
+$BBOLD Note: $EBOLD Express the answer using interval notation.
+If the answer includes more than one interval write the intervals separated by
+the "union" symbol, U. If needed enter \(\infty \) as $BITALIC infinity $EITALIC and \(-\infty \) as $BITALIC -infinity $EITALIC .
+$BR
+
+ ANSWER (Increasing) : $SPACE  \{ans_rule(20) \}    
+$BR
+ ANSWER (Decreasing) : $SPACE  \{ans_rule(20) \}    
+$BR
+
+$BR
+
+(b) Determine  where the function is concave up and concave down. 
+
+
+$BR
+$BBOLD Note: $EBOLD Express the answer using interval notation.
+If the answer includes more than one interval write the intervals separated by
+the "union" symbol, U. If needed enter \(\infty \) as $BITALIC infinity $EITALIC and \(-\infty \) as $BITALIC -infinity $EITALIC .
+$BR
+
+ ANSWER (concave up): $SPACE  \{ans_rule(20) \}    
+$BR
+ ANSWER (concave down): $SPACE  \{ans_rule(20) \} 
+$BR
+
+  
+$PAR
+END_TEXT
+
+ 
+$ansa1 = "(-3/2,infinity)";
+
+&ANS(interval_cmp($ansa1)); 
+
+$ansa2 = "(-infinity,-3/2)";
+
+&ANS(interval_cmp($ansa2)); 
+
+
+$ansb1 = "(-infinity,-2/3)U(1,infinity)";
+
+&ANS(interval_cmp($ansb1)); 
+
+$ansb2 = "(-2/3,1)";
+
+&ANS(interval_cmp($ansb2)); 
+
+
+ 
+   
+
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

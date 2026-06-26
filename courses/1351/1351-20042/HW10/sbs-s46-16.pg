@@ -1,0 +1,60 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('limits')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 16 Section 4.6 page 246. $BR $BR
+
+A closed box with square base is to be built to house an ant colony. The bottom of the box and all four sides are to be made of material costing \( 1 \) dollar/sq ft, and the top is to be constructed of glass costing 
+\( 5 \) dollar/sq ft. What are the dimensions of the box of greatest volume that can be constructed for \( 72 \) dollars?
+
+  
+
+
+$PAR
+NOTE:  Let \(x\) denote  the length of the side  of the base and \(y\) denote the height of the box. 
+$BR
+
+
+
+$BR side of base  \(x = \)  \{ans_rule(30) \} $BITALIC ft $EITALIC
+$BR$BR height  \(y = \)  \{ans_rule(30) \} $BITALIC ft $EITALIC
+
+
+$PAR
+END_TEXT
+
+
+$ans1 = 2;
+&ANS(std_num_cmp($ans1));
+
+
+$ans2 = 6;
+&ANS(std_num_cmp($ans2));
+
+
+#&ANS(fun_cmp($ans1,var => 'R'));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

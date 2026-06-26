@@ -1,0 +1,50 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 25 Section 3.8 page 173. $BR  $BR
+
+You measure the radius of a sphere to be \( 6 \) inches. Use the formula $SPACE \( V=(4/3)\pi r^3\) $SPACE to calculate the volume. If your measurement of the radius is accurate to within \( 1 \) percent, how accurate (to the nearest percent) is your measurement for the volume?  
+
+ 
+$BR$BR
+
+
+  
+$PAR
+ \(\displaystyle  \left|\frac{dV}{V}\right| \times 100  = \) 
+\{ans_rule(10) \} percent.
+$PAR
+$BR$BR
+ 
+
+ 
+END_TEXT
+
+ 
+$ans1 = 3;
+&ANS(std_num_cmp($ans1));
+
+
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

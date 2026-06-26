@@ -1,0 +1,46 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 34 Section 3.7 page 163. $BR $BR
+
+ 
+Model a water tank by a cone  \(40\) $BITALIC ft $EITALIC high with a circular base of radius \(20\) $BITALIC feet $EITALIC at the top.  Water is flowing into the tank at a constant rate of  \(80\) $BITALIC cubic ft/min $EITALIC . How fast is the water level rising when the water is \(12\) $BITALIC ft $EITALIC deep? 
+$BR
+ (Let \(x(t)\) denote the  radius of the top circle of water at time \(t\) and \(y(t)\) denote the height of the water at time \(t\).)
+ 
+$PAR
+ \( dy/dt  = \) \{ans_rule(10) \} $BITALIC ft/min $EITALIC.
+$PAR
+
+ 
+END_TEXT
+
+$ans1 = 80/(36*$pi);
+
+&ANS(std_num_cmp($ans1));
+
+ 
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

@@ -1,0 +1,41 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('limits')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+ 
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 22 Section 4.4 page 227. $BR $BR
+
+Evaluate the limit
+\[ \lim_{ x \rightarrow +\infty } \frac {\ln(\sqrt[3]{x})} {\sin(x)}  \]
+$BR \{ans_rule(25) \}
+$BR
+In this exercise, if the limit does not exist but 
+is \(+\infty \) then enter $BITALIC INF $EITALIC, if it is \(-\infty \) enter  $BITALIC -INF $EITALIC and if the limit does not exist and is neither of these two cases enter 
+$BITALIC DNE $EITALIC.
+$PAR
+END_TEXT
+
+$ans = "DNE";
+&ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

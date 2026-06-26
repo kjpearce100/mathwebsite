@@ -1,0 +1,43 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 14 Section 3.7 page 162. $BR $BR
+
+ 
+A rock is dropped into a lake and an expanding circular ripple results. When the radius of the ripple is \(8\) $BITALIC in. $EITALIC, the radius is increasing at a rate of \(3\) $BITALIC in./sec. $EITALIC. At what rate is the area enclosed by the ripple changing at this time?
+
+
+ 
+ 
+$PAR
+ \( dA/dt  = \) \{ans_rule(10) \} $BITALIC sq. in./sec $EITALIC.
+$PAR
+END_TEXT
+
+$ans = 48*$pi;
+
+&ANS(std_num_cmp($ans));
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

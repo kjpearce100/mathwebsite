@@ -1,0 +1,50 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 44 Section 3.7 page 164. $BR $BR
+
+ 
+A swimming pool is   \(60\) $BITALIC ft $EITALIC  long and  \(25\) $BITALIC ft $EITALIC wide. Its depth varies uniformly from  \(3\) $BITALIC ft $EITALIC at the shallow end to  \(15\) $BITALIC ft $EITALIC at the deep end (see figure 3.56 in the book).  Suppose the pool is being filled with water at the rate of  \(800\) $BITALIC cubic ft/min $EITALIC . At what rate is the depth of the water increasing when it is  \(5\) $BITALIC ft $EITALIC 
+deep at that end?
+
+
+ 
+$BR
+(Let \(y(t)\) denote the  depth of the water at the deep end at time \(t\) and \(25\) by \(x\) the dimensions of the horizontal rectangular surface at time  \(t\))
+ 
+$PAR
+ \( dy/dt  = \) \{ans_rule(10) \} $BITALIC ft/min $EITALIC.
+$PAR
+
+ 
+END_TEXT
+
+$ans1 = 32/25;
+
+&ANS(std_num_cmp($ans1));
+
+ 
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

@@ -1,0 +1,29 @@
+setNumber=4
+openDate = 3/1/04 at 12:00pm
+dueDate = 3/8/04 at 12:00pm
+answerDate = 3/9/04 at 6:00am
+paperHeaderFile = HW7/paperHeaderFile.pg
+screenHeaderFile = HW7/screenHeaderFile.pg
+problemList =
+HW7/sbs-s37-2.pg, 1 
+HW7/sbs-s37-4.pg, 1
+HW7/sbs-s37-6.pg, 1
+HW7/sbs-s37-14.pg, 1
+HW7/sbs-s37-18.pg, 1
+HW7/sbs-s37-23.pg, 1
+HW7/sbs-s37-26.pg, 1
+HW7/sbs-s37-28.pg, 1
+HW7/sbs-s37-32.pg, 1
+HW7/sbs-s37-34.pg, 1
+HW7/sbs-s37-40.pg, 1
+HW7/sbs-s37-44.pg, 1
+HW7/sbs-s38-2.pg, 1
+HW7/sbs-s38-6.pg, 1
+HW7/sbs-s38-12.pg, 1
+HW7/sbs-s38-14.pg, 1
+HW7/sbs-s38-19.pg, 1
+HW7/sbs-s38-31.pg, 1
+HW7/sbs-s38-32.pg, 1
+HW7/sbs-s38-34.pg, 1
+HW7/sbs-s38-42.pg, 1
+HW7/sbs-s38-44.pg, 1

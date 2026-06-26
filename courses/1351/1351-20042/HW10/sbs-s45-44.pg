@@ -1,0 +1,45 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('limits')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 44 Section 4.5 page 236. $BR $BR
+
+Evaluate the limit
+$BR$BR
+\(\displaystyle \lim_{ x \rightarrow 0^+ } \left(e^x-1 \right)^{1/\ln(x)} =\)
+  \{ans_rule(25) \}
+$BR$BR
+In this exercise, if the limit does not exist but 
+is \(+\infty \) then enter $BITALIC INF $EITALIC, if it is \(-\infty \) enter  $BITALIC -INF $EITALIC and if the limit does not exist and is neither of these two cases enter 
+$BITALIC DNE $EITALIC
+
+$PAR
+END_TEXT
+
+$ans = $e;
+&ANS(std_num_cmp($ans));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

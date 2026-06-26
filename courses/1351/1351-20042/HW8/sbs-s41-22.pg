@@ -1,0 +1,65 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e = exp(1);
+
+BEGIN_TEXT 
+$BR
+This is problem 22 Section 4.1 page 194. $BR $BR
+
+ 
+Find the absolute maximum and absolute minimum of \(\displaystyle f(x)=\dfrac{8}{3}x^3-5x^2+8x-5\) on the interval \([-4,4]\).
+  
+$BR
+ 
+ 
+$BR
+$PAR
+Absolute Maximum: \( x  = \) \{ans_rule(10) \}  $SPACE \( f(x) =  \)  \{ans_rule(10) \} 
+$BR
+$PAR
+Absolute Minimum:  \( x  = \) \{ans_rule(10) \}  $SPACE  \( f(x) =  \) \{ans_rule(10) \}
+$BR
+ 
+$PAR
+END_TEXT
+
+$ans1 = 4;
+
+&ANS(std_num_cmp($ans1));
+
+ 
+$ans2 = 353/3;
+
+&ANS(std_num_cmp($ans2));
+
+$ans3 = -4;
+
+&ANS(std_num_cmp($ans3));
+
+ 
+$ans4 = -863/3;
+
+&ANS(std_num_cmp($ans4));
+
+
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

@@ -1,0 +1,43 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 6 Section 3.8 page 173. $BR  $BR
+
+ Find the differential $BR
+  
+$PAR
+ \( d(x\sin(2x))  = \) \{ans_rule(40) \} \(dx\)   .
+$PAR
+
+ 
+END_TEXT
+
+$ans1 = "2*x*cos(2*x)+sin(2*x)";
+
+&ANS(function_cmp($ans1));
+
+ 
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

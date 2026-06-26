@@ -1,0 +1,55 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('limits')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 20 Section 4.6 page 246. $BR $BR
+
+
+Two towns A and B are  \(12\) miles apart and are located \(5\) and \(3\) miles, respectively, from a long, straight highway (see figure 4.62 page 246). $BR
+$PAR
+
+
+A construction company has a contact to build a road from A to the highway and then to B. Analyze a model to determine the length (to the nearest tenth of a mile) of the $BITALIC shortest $EITALIC road that meets these requirements.
+
+
+$BR   Minimum distance:  \{ans_rule(30) \} $BITALIC mi $EITALIC
+ 
+
+
+$PAR
+END_TEXT
+
+
+$ans1 = 14.3;
+&ANS(std_num_cmp($ans1));
+
+
+ 
+
+
+#&ANS(fun_cmp($ans1,var => 'R'));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

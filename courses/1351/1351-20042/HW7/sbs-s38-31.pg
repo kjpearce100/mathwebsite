@@ -1,0 +1,50 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 31 Section 3.8 page 174. $BR  $BR
+
+A soccer ball made of leather \(1/8 \) $BITALIC in  $EITALIC thick has an inner diameter of \(8.5\) $BITALIC in  $EITALIC. Use the formula \(V=(4/3)\pi r^3\) to calculate the volume. Model the ball as a hollow sphere and estimate the volume of its leather shell. $BR 
+
+ 
+$BR$BR
+
+
+  
+$PAR
+ \(\displaystyle   dV   = \) \{ans_rule(20) \} \(\text{in}^3\)  .
+$PAR
+$BR$BR
+ 
+
+ 
+END_TEXT
+
+ 
+$ans1 = 4*$pi*(4.25)**2*(1/8);
+&ANS(std_num_cmp($ans1));
+
+
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

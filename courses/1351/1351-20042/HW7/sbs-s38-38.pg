@@ -1,0 +1,51 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 38 Section 3.8 page 174. $BR  $BR
+
+The period of a pendulum, as a function of its length,  is given by the formula
+\[T(L) = 2\pi \sqrt{\frac{L}{g}} \]
+where \(L\) is the length of the pendulum in feet, \(g = 32 \text{ ft./}\text{sec}^2\) is the acceleration due to gravity, and \(T\) is time in seconds. If the pendulum has been heated enough to increase its length by \(4 \) percent, what is the approximate percentage change in its period?
+
+
+ 
+ 
+ 
+$PAR
+ \(\displaystyle   \frac{\Delta T}{T}\times 100   \approx \) \{ans_rule(10) \} percent.
+$PAR
+$BR$BR
+ 
+
+ 
+END_TEXT
+
+ 
+$ans1 = .2;
+&ANS(std_num_cmp($ans1));
+
+
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

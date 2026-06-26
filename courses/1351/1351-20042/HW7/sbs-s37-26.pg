@@ -1,0 +1,43 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 26 Section 3.7 page 163. $BR $BR
+
+ 
+A car  traveling north at \(40\)  $BITALIC mph $EITALIC and a truck traveling east at ?
+\(30\)  $BITALIC mph $EITALIC leave an intersection at the same time. At what rate will the distance between them be changing \(3\) $BITALIC hours $EITALIC later? (Let \(D(t)\) denote the distance between them at time \(t\) .)
+
+ 
+ 
+$PAR
+ \( dD/dt  = \) \{ans_rule(10) \} $BITALIC mph $EITALIC.
+$PAR
+END_TEXT
+
+$ans = 50;
+
+&ANS(std_num_cmp($ans));
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

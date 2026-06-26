@@ -1,0 +1,55 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 32 Section 3.7 page 163. $BR $BR
+
+ 
+Consider a piece of ice in the shape of a sphere that is melting at the rate of  \(5\) $BITALIC cubic in./min $EITALIC .  Model the volume of ice by a function of the radius \(r\). How  fast is the radius changing at the instant when the radius is \(4\) $BITALIC inches $EITALIC
+
+ 
+$PAR
+ \( dr/dt  = \) \{ans_rule(10) \} $BITALIC in/min $EITALIC.
+$PAR
+
+$BR$BR
+
+How fast is the surface area of the sphere changing at the same instant?
+
+$PAR
+ \( dS/dt  = \) \{ans_rule(10) \} $BITALIC sq. in/min $EITALIC.
+$PAR
+
+END_TEXT
+
+$ans1 = -5/(64*$pi);
+
+&ANS(std_num_cmp($ans1));
+
+$ans2 = -2.5;
+
+&ANS(std_num_cmp($ans2));
+
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

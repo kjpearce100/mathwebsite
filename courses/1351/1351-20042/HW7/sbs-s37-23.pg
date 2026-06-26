@@ -1,0 +1,43 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 23 Section 3.7 page 162. $BR $BR
+
+ 
+The surface area of a sphere is decreasing at the constant rate of \(3\pi\) $BITALIC sq. cm/sec $EITALIC. At what rate is the volume of the sphere decreasing at the instant its radius is \(2\) $BITALIC cm $EITALIC ?
+
+
+ 
+ 
+$PAR
+ \( dV/dt  = \) \{ans_rule(10) \} $BITALIC cubic cm/sec $EITALIC.
+$PAR
+END_TEXT
+
+$ans = -3*$pi;
+
+&ANS(std_num_cmp($ans));
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

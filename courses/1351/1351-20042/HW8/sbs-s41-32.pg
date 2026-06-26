@@ -1,0 +1,49 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e = exp(1);
+
+BEGIN_TEXT 
+$BR
+This is problem 32 Section 4.1 page 194. $BR $BR
+
+ 
+Find the smallest value of \(\displaystyle f(x) = \dfrac{(x^2-1)}{(x^2+1)} \) on the interval \([-1,1]\).
+  
+$BR
+If the smallest value on this interval does not exist then simply write $BITALIC DNE $EITALIC.
+ 
+$BR
+$PAR
+The smallest value is \{ans_rule(10) \} 
+$BR
+  
+$PAR
+END_TEXT
+
+$ans1 = -1;
+
+&ANS(std_num_cmp($ans1));
+
+ 
+ 
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

@@ -1,0 +1,28 @@
+setNumber=10
+openDate = 3/29/04 at 12:00pm
+dueDate = 4/5/04 at 12:00pm
+answerDate = 4/6/04 at 6:00pm
+paperHeaderFile = HW10/paperHeaderFile.pg
+screenHeaderFile = HW10/screenHeaderFile.pg
+problemList =
+HW10/sbs-s45-3.pg, 1
+HW10/sbs-s45-6.pg, 1
+HW10/sbs-s45-8.pg, 1
+HW10/sbs-s45-10.pg, 1
+HW10/sbs-s45-12.pg, 1
+HW10/sbs-s45-18.pg, 1
+HW10/sbs-s45-20.pg, 1
+HW10/sbs-s45-24.pg, 1
+HW10/sbs-s45-28.pg, 1
+HW10/sbs-s45-30.pg, 1
+HW10/sbs-s45-32.pg, 1
+HW10/sbs-s45-38.pg, 1
+HW10/sbs-s45-44.pg, 1
+HW10/sbs-s45-47.pg, 1
+HW10/sbs-s46-7.pg, 1
+HW10/sbs-s46-13.pg, 1
+HW10/sbs-s46-16.pg, 1
+HW10/sbs-s46-18.pg, 1
+HW10/sbs-s46-20.pg, 1
+HW10/sbs-s46-21.pg, 1
+HW10/sbs-s46-24.pg, 1

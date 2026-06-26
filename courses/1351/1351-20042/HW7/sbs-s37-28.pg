@@ -1,0 +1,44 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 28 Section 3.7 page 163. $BR $BR
+
+ 
+One end of a rope is fastened to a boat and the other end is wound around a windlass located on a dock at a point  \(4\) $BITALIC meters $EITALIC above the level of the boat. (see picture in the book) If the boat  is drifting away from the dock at the rate of \(2\) $BITALIC meters/min $EITALIC , how fast is the rope unwinding at the instant when the length of the rope is \(5\) $BITALIC meters $EITALIC . 
+
+ (Let \(D(t)\) denote the length of rope at time \(t\) .)
+
+ 
+ 
+$PAR
+ \( dD/dt  = \) \{ans_rule(10) \} $BITALIC meters/min $EITALIC.
+$PAR
+END_TEXT
+
+$ans = 1.2;
+
+&ANS(std_num_cmp($ans));
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

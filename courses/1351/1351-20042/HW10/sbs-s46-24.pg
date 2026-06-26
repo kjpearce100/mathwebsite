@@ -1,0 +1,57 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('limits')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+$th=2*$pi*(1-sqrt(6)/3);
+$V=1/3*$pi*(10-5*$th/$pi)**2*sqrt(100*$th/$pi-25*$th**2/$pi**2);
+
+BEGIN_TEXT 
+$BR
+This is problem 24 Section 4.6 page 247. $BR $BR
+
+
+A storage bin is to be constructed by removing a sector with angle \(\theta\) from a circular piece of tin of radius \(10\) feet and folding the remainder of the tin to form a cone (see figure 4.64 on page 247). What is the maximum volume of a storage bin formed in this fashion? 
+
+
+$BR   angle \(\theta\):  \{ans_rule(30) \} $BITALIC radians $EITALIC 
+
+
+$BR   Maximum volume:  \{ans_rule(30) \} $BITALIC cubic feet $EITALIC
+ 
+
+
+$PAR
+END_TEXT
+
+
+$ans1 = 2*$pi/3*(3-sqrt(6));
+&ANS(std_num_cmp($ans1));
+
+
+#$ans2 = 403.1;
+$ans2 = $V;
+&ANS(std_num_cmp($ans2));
+
+
+#&ANS(fun_cmp($ans1,var => 'R'));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

@@ -1,0 +1,57 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e = exp(1);
+
+BEGIN_TEXT 
+$BR
+This is problem 26 Section 4.2 page 200. $BR $BR
+
+ Decide whether Rolle's Theorem can be applied to   the function \(f\)   on the given interval \([a,b]\).  
+
+$BR$BR
+
+\[ f(x) = \frac{1}{x-2},\ \ \ \text{  on  } [-1,1] \] 
+  
+$BR
+
+ For this problem, enter  $BITALIC YES $EITALIC if Rolle's theorem is applicable and $BITALIC NO $EITALIC if it is not.
+ 
+$BR
+$PAR
+YES or NO :  \{ans_rule(10) \}   
+$BR
+ 
+$PAR
+END_TEXT
+ 
+$ans1 = "NO";
+
+&ANS(std_str_cmp($ans1));
+
+ 
+
+ 
+ 
+
+
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

@@ -1,0 +1,47 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 40 Section 3.7 page 164. $BR $BR
+
+ 
+A person  \(6\) $BITALIC ft $EITALIC tall is watching a streetlight \(18\) $BITALIC ft $EITALIC high while walking toward it at a speed of \(5\) $BITALIC ft/sec $EITALIC (see figure 3.53 in the book).   At what rate is the angle of elevation of the person's line of sight changing with respect to time when the person is \(9\) $BITALIC ft $EITALIC from the base of the light?
+
+$BR
+(Let \(x(t)\) denote the  distance from the lamp at time \(t\) and \(\theta\) the angle of elevation at time \(t\))
+ 
+$PAR
+ \( d\theta/dt  = \) \{ans_rule(10) \} $BITALIC radians/sec $EITALIC.
+$PAR
+
+ 
+END_TEXT
+
+$ans1 = 4/15;
+
+&ANS(std_num_cmp($ans1));
+
+ 
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

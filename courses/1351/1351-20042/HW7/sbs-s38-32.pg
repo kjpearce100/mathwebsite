@@ -1,0 +1,58 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 32 Section 3.8 page 174. $BR  $BR
+
+A cubical box is to be constructed from three kinds of building materials. The material used in the four sides of the box costs \(2\) $BITALIC cents/sq.in.  $EITALIC, the material for the bottom costs \(3\) $BITALIC cents/sq.in.  $EITALIC, and the material for the lid costs \(4\) $BITALIC cents/sq.in.  $EITALIC. Estimate the additional cost of all the building materials if the length of a side is increased from \(20\) $BITALIC  in.  $EITALIC to \(21\) $BITALIC  in.  $EITALIC.
+
+ 
+$BR$BR
+Let \(C(x)\) denote the total cost (in cents) for materials when the side has length \(x\). 
+$BR$BR
+  
+$PAR
+ \(\displaystyle   \Delta C   \approx \) \{ans_rule(20) \} cents .
+$PAR
+$BR$BR
+ 
+Find the actual change in cost$BR$BR
+
+$PAR
+ \(\displaystyle    C(21)-C(20) =    \) \{ans_rule(20) \} cents .
+$PAR
+
+ 
+END_TEXT
+
+ 
+$ans1 = 600;
+&ANS(std_num_cmp($ans1));
+
+$ans2 = 615;
+&ANS(std_num_cmp($ans2));
+
+
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

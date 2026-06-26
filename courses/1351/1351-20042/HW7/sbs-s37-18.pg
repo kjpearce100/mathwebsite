@@ -1,0 +1,43 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 18 Section 3.7 page 162. $BR $BR
+
+ 
+Hospital officials estimate that approximately  \( N(p) =p^2+5p+900 \) people will seek treatment in an emergency room each year if the population  of the community is \(p\) thousand.  The population is currently \(20,000\) and is growing at the rate of \(1,200\) per year.  At what rate is the number of people seeking emergency room treatment increasing?
+
+
+ 
+ 
+$PAR
+ \( dN/dt  = \) \{ans_rule(10) \} $BITALIC people/yr $EITALIC.
+$PAR
+END_TEXT
+
+$ans = 54;
+
+&ANS(std_num_cmp($ans));
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

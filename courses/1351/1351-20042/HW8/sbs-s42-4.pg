@@ -1,0 +1,78 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e = exp(1);
+
+BEGIN_TEXT 
+$BR
+This is problem 4 Section 4.2 page 199. $BR $BR
+
+ 
+Verify that the function \(f\) satisfies the hypotheses of the MVT on the given interval \([a,b]\). Then find all numbers \(c\) between \(a\) and \(b\) for which $BR
+\[\frac{f(b)-f(a)}{b-a} = f'(c) .\]
+
+$BR$BR
+
+\[ f(x) = -x^2+4,\ \ \ \text{  on  } [-1,0] \] 
+  
+$BR
+
+To do this problem you will be asked to carry out some intermediate steps:
+$BR$BR
+
+(1) Find \( f'(x) = \)$SPACE  \{ans_rule(30) \}  
+
+$BR$BR
+
+(2) Find \(\displaystyle \frac{f(b)-f(a)}{b-a} = \) $SPACE \{ans_rule(10) \} 
+ 
+$BR$BR
+
+(3) There is one value of \(c\) :
+ 
+$BR
+$PAR
+ \( c  = \) \{ans_rule(10) \}   
+$BR
+ $BR
+ 
+$PAR
+END_TEXT
+
+$ans1 = "-2*x";
+
+&ANS(function_cmp($ans1));
+
+ 
+$ans2 = 1;
+
+&ANS(std_num_cmp($ans2));
+
+$ans3 = -1/2;
+
+&ANS(std_num_cmp($ans3));
+
+ 
+ 
+
+
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

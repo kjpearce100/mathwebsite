@@ -1,0 +1,75 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+
+
+BEGIN_TEXT 
+$BR
+This is problem 44 Section 3.8 page 175. $BR  $BR
+
+Suppose the total cost (in dollars) of producing \(x\) units of a particular commodity is modeled by 
+\[C(x) = \frac{1}{7}x^2+4x+100 \]
+ and that each unit of the commodity can be sold for 
+\[ p(x) =\frac{1}{4}(80-x)\]
+dollars. 
+$BR  $BR
+ $PAR
+
+(a) What is the marginal cost?.     (See page 170.) $SPACE 
+ \(\displaystyle  C'(x) =  \) \{ans_rule(20) \}  dollars.
+$PAR
+$BR$BR
+
+ (b) What is the price when the marginal cost is \(10\) dollars?
+ $SPACE  \(\displaystyle p =  \) \{ans_rule(20) \}.
+$PAR
+ $BR$BR
+
+ (c) Estimate the cost of producing the \(11\)th unit.
+$SPACE 
+ \(\displaystyle C =  \) \{ans_rule(20) \}.
+$PAR
+ $BR$BR
+
+ (d) Find the actual  cost of producing the \(11\)th unit.
+$SPACE 
+ \(\displaystyle C(11)-C(10)  =  \) \{ans_rule(20) \}.
+$PAR
+
+ 
+
+ 
+END_TEXT
+
+ 
+$ans1 = "2/7*x+4";
+&ANS(function_cmp($ans1));
+
+$ans2 = 14.75;
+&ANS(std_num_cmp($ans2));
+
+$ans3 = 6.86;
+&ANS(std_num_cmp($ans3));
+
+$ans4 = 7;
+&ANS(std_num_cmp($ans4));
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

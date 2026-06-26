@@ -1,0 +1,71 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'related rates')
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e = exp(1);
+
+BEGIN_TEXT 
+$BR
+This is problem 28 Section 4.1 page 194. $BR $BR
+
+ 
+Find the absolute maximum and absolute minimum of \(\displaystyle f(x) = \begin{cases} 9-4x& \text{ for } x<1\\ -x^2+6x& \text{ for } x\geq 1\end{cases} \) on the interval \([0,4]\).
+  
+$BR
+ 
+ NOTE: For this problem the maximum occurs at two \(x\) values, \(x_1 < x_2\).
+$BR$BR
+$PAR
+Absolute Maximum: \( x_1  = \) \{ans_rule(10) \}, $SPACE \( x_2  = \) \{ans_rule(10) \}   $SPACE \( f(x) =  \)  \{ans_rule(10) \} 
+$BR
+
+
+$PAR
+Absolute Minimum:  \( x  = \) \{ans_rule(10) \}  $SPACE  \( f(x) =  \) \{ans_rule(10) \}
+$BR
+ 
+$PAR
+END_TEXT
+
+$ans1 =0;
+
+&ANS(std_num_cmp($ans1));
+
+$ans1b =3;
+
+&ANS(std_num_cmp($ans1b));
+
+ 
+$ans2 = 9;
+
+&ANS(std_num_cmp($ans2));
+
+$ans3 = 1;
+
+&ANS(std_num_cmp($ans3));
+
+ 
+$ans4 = 5;
+
+&ANS(std_num_cmp($ans4));
+
+
+ 
+#&ANS(function_cmp($ans, vars=>['x','y']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+
