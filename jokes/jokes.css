@@ -1,0 +1,33 @@
+.jokeColor {
+	font-size: 12px;
+	font-weight: plain;
+	color: black;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+a.joke:link  {
+	text-decoration: underline;
+	color: white;
+}
+
+a.joke:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+a.joke:visited {
+	text-decoration: underline;
+	color: silver;
+}
+
+a:active {
+	text-decoration: underline;
+	color: silver;
+}
+
+.jokeTitle {
+	font-size: 12px;
+	font-weight: plain;
+	color: red;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
