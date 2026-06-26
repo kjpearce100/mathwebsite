@@ -1,0 +1,177 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"" 0 21 "" 0 1 0 0 0 1 0 0 0 0 2 0 0 0 0 1 }{CSTYLE "" -1 256 "" 0 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 
+1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 
+0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 25 "MAPLE Worksheet Number 10" }}
+{PARA 256 "" 0 "" {TEXT -1 20 "Sequences and Series" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {MPLTEXT 0 21 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 135 "Students often confuse the terms \"sequence\" and \"se
+ries.\"  \"Sequence\" refers to an ordered, usually infinitely long, l
+ist of numbers   " }}{PARA 256 "" 0 "" {TEXT -1 3 " \{ " }{XPPEDIT 18 
+0 "a[1]" "6#&%\"aG6#\"\"\"" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "a[2]" "6
+#&%\"aG6#\"\"#" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "a[3]" "6#&%\"aG6#\"
+\"$" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "a[4]" "6#&%\"aG6#\"\"%" }{TEXT 
+-1 3 " , " }{XPPEDIT 18 0 "a[5]" "6#&%\"aG6#\"\"&" }{TEXT -1 10 " ,...
+..,  " }{XPPEDIT 18 0 "a[i]" "6#&%\"aG6#%\"iG" }{TEXT -1 19 " , . . . \+
+. . . \}  ." }}{PARA 0 "" 0 "" {TEXT -1 85 "As we saw before, the MAPL
+E command for generating a finite portion of a sequence  is" }}{PARA 
+256 "" 0 "" {TEXT -1 91 "seq(expression in terms of some index, index=
+starting integer value..ending integer value);" }}{PARA 0 "" 0 "" 
+{TEXT -1 96 "Use this command to generate the first 20 numbers in the \+
+following sequences beginning with i=1." }}{PARA 257 "" 0 "" {TEXT -1 
+3 "a. " }{XPPEDIT 18 0 "\{1/i\}" "6#<#*&\"\"\"F%%\"iG!\"\"" }{TEXT -1 
+9 "         " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 
+257 "" 0 "" {TEXT -1 4 "b.  " }{XPPEDIT 18 0 "\{(1/i)^2\}" "6#<#*$*&\"
+\"\"F&%\"iG!\"\"\"\"#" }{TEXT -1 5 "     " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 257 "" 0 "" {TEXT -1 4 "c.  " }{XPPEDIT 18 
+0 "\{(1/2)^i\}" "6#<#)*&\"\"\"F&\"\"#!\"\"%\"iG" }{TEXT -1 7 "       \+
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 67 "\"Series\" refers to the sum of a sequence and the notati
+on used is  " }{XPPEDIT 18 0 "sum(a[i],i=i[0]..infinity)" "6#-%$sumG6$
+&%\"aG6#%\"iG/F);&F)6#\"\"!%)infinityG" }{TEXT -1 205 ".  Of course we
+ can't add infinitely many numbers together so we do what we always do
+ in Caluclus, we add more and more finitely many of the numbers togeth
+er and hope for a limit.  To this end we call     " }{XPPEDIT 18 0 "S[
+n]=sum(a[i],i=i[0]..n)" "6#/&%\"SG6#%\"nG-%$sumG6$&%\"aG6#%\"iG/F.;&F.
+6#\"\"!F'" }{TEXT -1 34 "   the n-th partial sum and define" }}{PARA 
+256 "" 0 "" {TEXT -1 3 "   " }{XPPEDIT 18 0 "sum(a[i],i=i[0]..infinity
+)" "6#-%$sumG6$&%\"aG6#%\"iG/F);&F)6#\"\"!%)infinityG" }{TEXT -1 3 " =
+ " }{XPPEDIT 18 0 "limit(S[n],n=infinity)" "6#-%&limitG6$&%\"SG6#%\"nG
+/F)%)infinityG" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 49 "The M
+APLE command for generating a partial sum is" }}{PARA 256 "" 0 "" 
+{TEXT -1 92 "sum(expression in terms of some index, index=beginning in
+teger value..ending integer value);" }}{PARA 0 "" 0 "" {TEXT -1 225 "U
+se this command to generate the 20-th partial sums for a, b, and c abo
+ve.  Using cap S will display the notation. For example to display the
+ notation and compute the sum of the first 20 terms of (a) use the com
+mand sequence " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "Sum(1/i,i=
+1..20)=sum(1/i,i=1..20);" }}}{PARA 0 "" 0 "" {TEXT -1 25 "Now do the s
+ame thing for" }}{PARA 0 "" 0 "" {TEXT -1 4 " b) " }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 4 "and " }}
+{PARA 0 "" 0 "" {TEXT -1 2 "c)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 13 "The series   " }{XPPEDIT 18 0 "
+sum(1/i,i=1..infinity)" "6#-%$sumG6$*&\"\"\"F'%\"iG!\"\"/F(;F'%)infini
+tyG" }{TEXT -1 50 "  is called the \"harmonic\" series.   The series  \+
+ " }{XPPEDIT 18 0 "sum(r^i, i=0..infinity)" "6#-%$sumG6$)%\"rG%\"iG/F(
+;\"\"!%)infinityG" }{TEXT -1 65 "  is called the \"geometric series wi
+th ratio r\"  and the series  " }{XPPEDIT 18 0 "sum((1/i^p),i=1..infin
+ity)" "6#-%$sumG6$*&\"\"\"F')%\"iG%\"pG!\"\"/F);F'%)infinityG" }{TEXT 
+-1 126 "   is called a \"p-series.\"  The series in (b) is a p-series \+
+with p=2 and the series in (c) is a gerometric series with ratio  " }
+{XPPEDIT 18 0 "1/2" "6#*&\"\"\"F$\"\"#!\"\"" }{TEXT -1 4 "  . " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 10 " A series
+ " }{XPPEDIT 18 0 "sum(a[i],i=i[0]..infinity)" "6#-%$sumG6$&%\"aG6#%\"
+iG/F);&F)6#\"\"!%)infinityG" }{TEXT -1 44 "   is called \"convergent w
+ith limit S\" if   " }{XPPEDIT 18 0 "limit(S[n],n=infinity) =S" "6#/-%
+&limitG6$&%\"SG6#%\"nG/F*%)infinityGF(" }{TEXT -1 27 "  and we use the
+ notation  " }{XPPEDIT 18 0 "sum(a[i],i=i[0]..infinity)=S" "6#/-%$sumG
+6$&%\"aG6#%\"iG/F*;&F*6#\"\"!%)infinityG%\"SG" }{TEXT -1 4 "  , " }}
+{PARA 0 "" 0 "" {TEXT -1 217 "otherwise it is said to \"diverge.\"  Fo
+r each of the harmonic, p-series, and geometric series above, determin
+e if the series diverges or converges by computing first the n-th part
+ial sum then taking its' limit as n -> " }{XPPEDIT 18 0 "infinity" "6#
+%)infinityG" }{TEXT -1 47 " by performing the following command sequen
+ces:" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "Sa[n]:=sum(1/i,i=1..n)
+;" "6#>&%#SaG6#%\"nG-%$sumG6$*&\"\"\"F,%\"iG!\"\"/F-;F,F'" }}}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(Sa[n],n=infinity);" "6#-%&limit
+G6$&%#SaG6#%\"nG/F)%)infinityG" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 256 28 "Does it converge or diverge?" }}{EXCHG {PARA 0 "> " 0 "
+" {XPPEDIT 19 1 "Sb[n]:=sum(1/i^2,i=1..n);" "6#>&%#SbG6#%\"nG-%$sumG6$
+*&\"\"\"F,*$%\"iG\"\"#!\"\"/F.;F,F'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "limit(Sb[n],n=infinity);" "6#-%&limitG6$&%#SbG6#%\"nG/F
+)%)infinityG" }}}{PARA 0 "" 0 "" {TEXT 257 28 "Does it converge or div
+erge?" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "Sc[n]:
+=sum((1/2)^i,i=0..n);" "6#>&%#ScG6#%\"nG-%$sumG6$)*&\"\"\"F-\"\"#!\"\"
+%\"iG/F0;\"\"!F'" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(Sc[
+n],n=infinity);" "6#-%&limitG6$&%#ScG6#%\"nG/F)%)infinityG" }}}{PARA 
+0 "" 0 "" {TEXT 258 28 "Does it converge or diverge?" }{TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 12 "Now define  " }{XPPEDIT 18 0 "Sp[n]" "6#
+&%#SpG6#%\"nG" }{TEXT -1 69 "   to be the n-th partial sum for a gener
+al p-series.  In other words" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 
+1 "Sp[n]:=sum(1/i^p,i=1..n);" "6#>&%#SpG6#%\"nG-%$sumG6$*&\"\"\"F,)%\"
+iG%\"pG!\"\"/F.;F,F'" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 221 "Experiment by substituting various values of p into t
+his expression and computing the limit, to determine for what values o
+f p does the p-series converge, and for what values does it diverge.  \+
+For example to compute with " }{XPPEDIT 18 0 "p=1/3" "6#/%\"pG*&\"\"\"
+F&\"\"$!\"\"" }{TEXT -1 40 " perform the following command sequence:" 
+}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "subs(p=1/3,Sp[n]);" "6#-%%su
+bsG6$/%\"pG*&\"\"\"F)\"\"$!\"\"&%#SpG6#%\"nG" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 20 "limit(%,n=infinity);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }{TEXT 259 24 "What is your conclusion?" }}{PARA 0 "" 0 "" 
+{TEXT -1 59 "Show sufficiently many examples to support your conclusio
+n." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 170 "Similarily experiment with different values of r \+
+in the geometric series to determine for what values of r the geometri
+c series converges and for what values it diverges." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }{TEXT 260 24 "What is your conclusion?" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "Let's try
+ to use MAPLE to \"prove\" our conclusion." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "with(student):" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "Int(1/x^p,x)=int(1/x^p,x);
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "Int(1/x^p,x=1..n)=int(1
+/x^p,x=1..n);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "Int(1/x^p,x=1..infini
+ty)=limit(rhs(%),n=infinity);" }}}{PARA 258 "" 1 "" {TEXT -1 92 "Notic
+e that this expression goes to infinity if the \"effect\" of n is in t
+he numerator, i.e. " }{XPPEDIT 18 0 "1-p>0" "6#2\"\"!,&\"\"\"F&%\"pG!
+\"\"" }{TEXT -1 14 ", and goes to " }{XPPEDIT 18 0 "1/(p-1)" "6#*&\"\"
+\"F$,&%\"pGF$F$!\"\"F'" }{TEXT -1 53 "   when the effect of n is in th
+e denominator, i.e.  " }{XPPEDIT 18 0 "1-p<0" "6#2,&\"\"\"F%%\"pG!\"\"
+\"\"!" }{TEXT -1 78 " .  What does this have to do with a p series?  W
+ell if we graph the function " }{XPPEDIT 18 0 "x^(-p)" "6#)%\"xG,$%\"p
+G!\"\"" }{TEXT -1 523 " from x=0 to x=n we observe that the n rightbox
+es are always under the graph while for x=1..n+1 the n left boxes are \+
+always above the graph. But the sum of the n rightboxes from 0 to n is
+ the n-th partial sum of the p-series and the sum of the n leftboxes f
+rom 1 to n+1 are the n-th partial sum of the p-series. Thus the limit \+
+of the integral is infinite or finite if and only if the p-series is c
+orrespondingly infinite and finite.  To illustrate this observation do
+ the appropriate left and right box plots and sums  for " }{XPPEDIT 
+18 0 "x^(1/2)" "6#)%\"xG*&\"\"\"F&\"\"#!\"\"" }{TEXT -1 109 " using 10
+ boxes and observe the relationship between the area under the graph a
+nd that included in the boxes." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 31 "rightbox(1/x^(1/2),x=0..10,10);" }}}{PARA 0 "" 0 "" {TEXT -1 48 
+"Notice it is obvious from this picture that if  " }}{PARA 0 "" 0 "" 
+{XPPEDIT 18 0 "int(1/x^(1/2),x=1..infinity)" "6#-%$intG6$*&\"\"\"F')%
+\"xG*&F'F'\"\"#!\"\"F,/F);F'%)infinityG" }{TEXT -1 16 " is finite then
+ " }{XPPEDIT 18 0 "sum(1/i^(1/2),i=1..infinity)" "6#-%$sumG6$*&\"\"\"F
+')%\"iG*&F'F'\"\"#!\"\"F,/F);F'%)infinityG" }{TEXT -1 16 " is also fin
+ite." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 75 "Int(1/(x^(1/2)),x = \+
+1 .. infinity)=Limit(Int(1/x^(1/2),x=1..n),n=infinity);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "Int(1/x^(1/2),x=1..n)=int(1/x^(1/2)
+,x=1..n);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 80 "Limit(Int(1/x^
+(1/2),x=1..n),n=infinity)=limit(int(1/x^(1/2),x=1..n),n=infinity);" }}
+}{PARA 0 "" 0 "" {TEXT -1 49 "Thus we have no information about whethe
+r or not " }{XPPEDIT 18 0 "sum(1/(i^(1/2)),i = 1 .. infinity)" "6#-%$s
+umG6$*&\"\"\"F')%\"iG*&F'F'\"\"#!\"\"F,/F);F'%)infinityG" }{TEXT -1 
+55 "   is finite or infinite.  Continue with the following:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "leftbox(1/x^(1/2),x=1..11,10);" }}}
+{PARA 0 "" 0 "" {TEXT -1 39 "From this picture it follows that if   " 
+}{XPPEDIT 18 0 "int(1/(x^(1/2)),x = 1 .. infinity)" "6#-%$intG6$*&\"\"
+\"F')%\"xG*&F'F'\"\"#!\"\"F,/F);F'%)infinityG" }{TEXT -1 20 "  is infi
+nite  then " }{XPPEDIT 18 0 "sum(1/(i^(1/2)),i = 1 .. infinity)" "6#-%
+$sumG6$*&\"\"\"F')%\"iG*&F'F'\"\"#!\"\"F,/F);F'%)infinityG" }{TEXT -1 
+114 " is also infinite. Thus the sum is infinite from above.  Of cours
+e MAPLE can arrive at either conclusion directly:" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 58 "Int(1/x^(1/2),x=1..infinity)=int(1/x^(1/2),x=
+1..infinity);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "Sum(1/i^(1
+/2),i=1..infinity)=sum(1/i^(1/2),i=1..infinity);" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "56 0" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

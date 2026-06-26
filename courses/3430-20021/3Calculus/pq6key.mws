@@ -1,0 +1,79 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 2 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 21 "MAPLE Practice Quiz 6" }}{PARA 
+0 "" 0 "" {TEXT -1 4 "    " }}{PARA 0 "" 0 "" {TEXT -1 114 "Find antid
+erivatives for each of the following functions.  Use differentiation t
+o show your answers to be correct." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "with(student):" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "f:=sqrt(1-x^2)*arcsin(x);" "6#>%\"fG*&-%%sqrtG6#,&\"\"\"F**$%\"x
+G\"\"#!\"\"F*-%'arcsinG6#F,F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"f
+G*&-%%sqrtG6#,&\"\"\"F**$)%\"xG\"\"#F*!\"\"F*-%'arcsinG6#F-F*" }}}
+{PARA 0 "" 0 "" {TEXT -1 2 "1." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 9 "int(f,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$intG6$*&-%%sqrtG6
+#,&\"\"\"F+*$)%\"xG\"\"#F+!\"\"F+-%'arcsinG6#F.F+F." }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 34 "changevar(arcsin(x)=u,Int(f,x),u);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$IntG6$*&,&\"\"\"F(*$)-%$sinG6#%\"uG
+\"\"#F(!\"\"F(F.F(F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "valu
+e(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*$)%\"uG\"\"#\"\"\"#\"\"$\"
+\"%*&F&F(,&*&-%$cosG6#F&F(-%$sinGF1F(#!\"\"F'*&#F(F'F(F&F(F(F(F5*&#F(F
++F(*$)F2F'F(F(F5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "subs(u=
+arcsin(x),%);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,(*$)-%'arcsinG6#%\"x
+G\"\"#\"\"\"#\"\"$\"\"%*&F&F+,&*&-%$cosG6#F&F+-%$sinGF4F+#!\"\"F**&#F+
+F*F+F&F+F+F+F8*&#F+F.F+*$)F5F*F+F+F8" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "diff(%,x);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,**&-%'
+arcsinG6#%\"xG\"\"\"*$-%%sqrtG6#,&F)F)*$)F(\"\"#F)!\"\"F)F2#\"\"$F1*&,
+&*&-F,6#F.F)F(F)#F2F1*&#F)F1F)F%F)F)F)*$-F,6#F.F)F2F2*&F%F),(*&*$F0F)F
+)*$-F,6#F.F)F2F<*&#F)F1F)*$F8F)F)F2*&F<F)*$-F,6#F.F)F2F)F)F2*&#F)F1F)F
+(F)F2" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&-%%sqrtG6#,&\"\"\"F(*$)%\"xG\"\"#F(!
+\"\"F(-%'arcsinG6#F+F(" }}}{PARA 0 "" 0 "" {TEXT -1 2 "2." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "restart:with(student):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "g := x/sqrt(1+sqrt(1+x^2));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"gG*&%\"xG\"\"\"*$-%%sqrtG6#,&F'F'*
+$-F*6#,&F'F'*$)F&\"\"#F'F'F'F'F'!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "int(g,x);" "6#-%$intG6$%\"gG%\"xG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$*(-%%sqrtG6#\"\"#\"\"\")%\"xGF(F)-%*hypergeomG6%7%F)#
+F)\"\"%#\"\"$F17$F(#F3F(,$*$F*F)!\"\"F)F0" }}}{EXCHG {PARA 12 "" 1 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "changevar(u^2
+=1+sqrt(1+x^2),Int(g,x),u);" "6#-%*changevarG6%/*$%\"uG\"\"#,&\"\"\"F+
+-%%sqrtG6#,&F+F+*$%\"xGF)F+F+-%$IntG6$%\"gGF1F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$IntG6$,$*&*&%\"uG\"\"\"-%%sqrtG6#,(*$)F)\"\"%F*F**&
+\"\"#F*)F)F3F*!\"\"F*F*F*F**$-F,6#,&F*F**$F+F*F*F*F5F3F)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value(%);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#,$*&*&-%%sqrtG6#,&\"\"\"F**$-F'6#*$),&*$)%\"uG\"\"#F*F*
+F*!\"\"F4F*F*F*F*,**$)F3\"\"%F*F**&F4F*F2F*F5F*F**&F4F*F,F*F5F*F*F0F5#
+F4\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "subs(u=sqrt(1+sq
+rt(1+x^2)),%);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,$*&*&-%%sqrtG6#,&\"
+\"\"F**$-F'6#,&F*F**$)%\"xG\"\"#F*F*F*F*F*,(*$)F)F2F*F*F*!\"\"*&\"\"%F
+*F,F*F6F*F**$-F'6#F.F*F6#F2\"\"$" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "diff(%,x);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,(*&*&,
+(*$),&\"\"\"F**$-%%sqrtG6#,&F*F**$)%\"xG\"\"#F*F*F*F*F3F*F*F*!\"\"*&\"
+\"%F*F,F*F4F*F2F*F**&-F-6#F)F*F/F*F4#F*\"\"$*&*(#F3F;F*-F-6#F)F*,&*&*&
+F)F*F2F*F**$-F-6#F/F*F4F3*&*&F6F*F2F*F**$-F-6#F/F*F4F4F*F**$-F-6#F/F*F
+4F**&#F3F;F**&*(F?F*F&F*F2F*F**$)F/#F;F3F*F4F*F4" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#*&%\"xG\"\"\"*$-%%sqrtG6#,&F%F%*$-F(6#,&F%F%*$)F$\"\"#F%F%F%F%F%!\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 2 "3." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 19 "h := x^3*arctan(x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"hG*&)%\"xG\"\"$\"\"\"-%'arctanG6#F'F)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "int(h,x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,**&)%\"xG\"\"%\"\"\"-%'arctanG6#F&F(#F(F'*&#F(\"#7F(*$
+)F&\"\"$F(F(!\"\"*&F,F(F&F(F(*&#F(F'F(F)F(F3" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 10 "diff(%,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,,
+*&)%\"xG\"\"$\"\"\"-%'arctanG6#F&F(F(*&*&#F(\"\"%F()F&F/F(F(,&F(F(*$)F
+&\"\"#F(F(!\"\"F(*&#F(F/F(F2F(F5F.F(*&#F(F/F(*&F(F(F1F5F(F5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#*&)%\"xG\"\"$\"\"\"-%'arctanG6#F%F'" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "20 1 0" 0 }{VIEWOPTS 1 
+1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
