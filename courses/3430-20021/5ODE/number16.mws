@@ -1,0 +1,61 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}{PSTYLE "Maple Plot" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot
+" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+1 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 30 "16. Direction Fields and Flows
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 177 "Let'
+s look at various ways to graphically view the solutions to differenti
+al equations, direction fields and flow lines. We begin with the syste
+m considered in Worksheet # 15:  " }{XPPEDIT 18 0 "\{diff(x(t),t) = x(
+t)+3*y, diff(y(t),t) = x(t)-y(t)\};" "6#<$/-%%diffG6$-%\"xG6#%\"tGF+,&
+-F)6#F+\"\"\"*&\"\"$F/%\"yGF/F//-F&6$-F26#F+F+,&-F)6#F+F/-F26#F+!\"\"
+" }}{PARA 0 "" 0 "" {TEXT -1 62 "We restart for good measure and then \+
+load the DEtools package." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 
+"restart:with(DEtools):" }}}{PARA 0 "" 0 "" {TEXT -1 29 "Then define o
+ur set of ODE's " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "deqns:= \+
+\{diff(x(t),t) = x(t)+3*y , diff(y(t),t) = x(t)-y(t) \};" }}}{PARA 0 "
+" 0 "" {TEXT -1 83 "We will now use the command    DEplot    the synta
+x, copied from the help menue, is" }}{PARA 256 "" 0 "" {TEXT 256 49 "D
+Eplot(deqns, vars, trange, yrange, xrange, eqns)" }}{PARA 0 "" 0 "" 
+{TEXT -1 6 "where " }{TEXT 259 4 "eqns" }{TEXT -1 50 " is optional.  B
+elow we use the optional command a" }{TEXT 260 11 "rrows=large" }
+{TEXT -1 39 " for the sake of your instructor sight." }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 63 "DEplot(deqns,\{x(t),y(t)\},t=-5..5,x=-5..
+5,y=-5..5,arrows=large);" }}}{PARA 0 "" 0 "" {TEXT -1 75 "Now let's ex
+periment with some initial conditions, say x(0)=0 and y(0)=1.  " }
+{TEXT 257 90 "Can you look at the above plot and see what the flow wil
+l be for these initial conditions?" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 81 "DEplot(deqns,[x(t),y(t)],t=-5..5,x=-5..5,y=-5..5,[[y(
+0)=1,x(0)=0]],arrows=large);" }}}{PARA 0 "" 0 "" {TEXT -1 58 "Let's ad
+d a second initial condition:  x(0)=0 and y(0)=-1." }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 98 "DEplot(deqns,[x(t),y(t)],t=-5..5,x=-5..5,y=-
+5..5,[[y(0)=1,x(0)=0],[y(0)=-1,x(0)=0]],arrows=large);" }}}{PARA 0 "" 
+0 "" {TEXT -1 65 "The following picture sort of tells it all about the
+se equations:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 131 "DEplot(deq
+ns,[x(t),y(t)],t=-5..5,x=-5..5,y=-5..5,[[y(0)=1,x(0)=0],[y(0)=-1,x(0)=
+0],[y(0)=0,x(0)=2],[y(0)=0,x(0)=-2]],arrows=large);" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 258 57 "What happens if we initial condition   x(0)=0 and y(0)=0
+?" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 81 "DEplot(deqns,[x(t),y(t)
+],t=-5..5,x=-5..5,y=-5..5,[[y(0)=0,x(0)=0]],arrows=large);" }}}{PARA 
+257 "" 1 "" {TEXT -1 35 "What happens if x(0)=-1 and y(0)=1?" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 82 "DEplot(deqns,[x(t),y(t)],t=-
+5..5,x=-5..5,y=-5..5,[[y(0)=1,x(0)=-1]],arrows=large);" }}}{PARA 258 "
+" 0 "" {TEXT 261 107 "Plot the direction fields and interesting flow l
+ines for each of the systems we considered in Worksheet 15." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "28" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
