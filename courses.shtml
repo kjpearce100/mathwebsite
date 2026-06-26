@@ -13,11 +13,11 @@
 
 <META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Courses Syllabi Homework Exams">
 
-<!-- ***************************  Start of Jekyll Include  ****************************** -->
+<!-- **********************  Start of Jekyll Include head.shtml ************************** -->
 
 {% include head.shtml %}
 
-<!-- ****************************  End of Jekyll Include  ******************************* -->
+<!-- ***********************  End of Jekyll Include head.shtml *************************** -->
 
 <center>
 	<div class=text18red>Courses (Syllabi, Homework, Exams)</div>
@@ -2184,11 +2184,11 @@ Final Exam
 
 A PDF reader, available from <a href="http://www.adobe.com">Adobe</a>, is required to view some of the formated files.
 
-<!-- ***************************  Start of Jekyll Include  ****************************** -->
+<!-- **********************  Start of Jekyll Include tail.shtml ************************** -->
 
 {% include tail.shtml %}
 
-<!-- ****************************  End of Jekyll Include  ******************************* -->
+<!-- ***********************  End of Jekyll Include tail.shtml *************************** -->
 
 <p>
 
