@@ -1,0 +1,146 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"" -1 256 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 257 "" 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 1 0 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 257 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }
+}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 39 " Getting Started With Basic Cal
+culation" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+312 "Save your current worksheet as number1.mws.  Remember to save fre
+quently in case of system shut downs in the middle of a work session! \+
+In the text mode (click on the cap T button) place your name(s) and da
+te at the top of your worksheet.  At the end of this session you will \+
+print out and turn in your worksheet." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 245 "We begin by experimenting with some \+
+very basic calculations.  The intent is to learn some basic MAPLE synt
+ax, while observing some of the neat features of a Computer Algebra Sy
+stem (CAS).  We will also review some basic concepts from arithmetic.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 842 "Perf
+orm the following calculations with MAPLE.  As you do these exercises \+
+enter notes and comments onto your worksheet in text mode.  In particu
+lar, the author of these worksheets sometimes purposefully leaves off \+
+certain required MAPLE syntax.  He is either sadistic or he is trying \+
+to make a point.  Let's assume the latter for now. The first example i
+s in the first problem below.  A CAS requires some syntaxual thing to \+
+tell it when you are through giving it instructions on what you want i
+t to do and ready for it to do them.  Try the first calculation just a
+s indicated, look at the error message and see if you can figure out w
+hat syntax is required by MAPLE to tell it that you are ready for it t
+o do its thing. (Place the cursor on the execution line indicated by t
+he symbol [> and type in your MAPLE instructions, a. k. a. \"input.\")
+" }}{PARA 0 "" 0 "" {TEXT -1 7 "1.  6+2" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 117 "Another example of \+
+\"omitted\" required MAPLE syntax is in the next problem.  It's more s
+ubtle and you may have to ask." }}{PARA 0 "" 0 "" {TEXT -1 10 "2.  2(3
++5)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 362 "Can you figure out just what MAPLE was doing to come up \+
+with the answer it gave for #2?  In other words \"How did MAPLE interp
+ret the operation  2(3+5)?\"  To answer this try some more examples li
+ke 2(34), 2(x-6), 2(t). (You can always get a new execution line by cl
+icking on [> from the toolbar and ALL QUESTIONS/STATEMENTS IN BOLD FAC
+E REQUIRE WRITTEN RESPONSE.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+262 7 "ANSWER:" }}{PARA 0 "" 0 "" {TEXT -1 41 "Continue with the follo
+wing calculations:" }}{PARA 0 "" 0 "" {TEXT -1 4 "3.  " }{XPPEDIT 18 
+0 "(1/5)^2+2" "6#,&*$*&\"\"\"F&\"\"&!\"\"\"\"#F&F)F&" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 44 "Note the
+ effect of the next execution line. " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "evalf(%);" }}}{PARA 0 "" 0 "" {TEXT 264 15 "What did i
+t do?" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "4.  " }{XPPEDIT 
+18 0 "(13-7)/7" "6#*&,&\"#8\"\"\"\"\"(!\"\"F&F'F(" }{TEXT -1 2 "  " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 30 "Again try the evalf() command." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "evalf(%);" }}}{PARA 0 "" 0 "" {TEXT -1 4 "5.  " }
+{XPPEDIT 18 0 "((8^2-3^3)*(5-22))/(8-4^2)" "6#*(,&*$\"\")\"\"#\"\"\"*$
+\"\"$F*!\"\"F(,&\"\"&F(\"#AF+F(,&F&F(*$\"\"%F'F+F+" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 30 "Again try t
+he evalf() command." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(
+%);" }}}{PARA 0 "" 0 "" {TEXT -1 4 "6.  " }{XPPEDIT 18 0 "(27!)/(10!*1
+7!)" "6#*&-%*factorialG6#\"#F\"\"\"*&-F%6#\"#5F(-F%6#\"#<F(!\"\"" }
+{TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 
+0 "" 0 "" {TEXT -1 37 "Note how this compares with the next " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "binomial(27,10);" }}}{PARA 
+0 "" 0 "" {TEXT -1 43 "7.  Try the MAPLE command binomial(100,50);" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 38 "8.  Compute the corresponding  number " }{XPPEDIT 18 0 "100!/(5
+0!*50!) " "6#*&-%*factorialG6#\"$+\"\"\"\"*&-F%6#\"#]F(-F%6#F,F(!\"\"
+" }{TEXT -1 2 " ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 6 "      " }
+{TEXT 257 116 "This expression is called the \"binomial coefficient\" \+
+and sometimes referred to as \"100 choose 50.\"  Do you know why?" }}
+{PARA 0 "" 0 "" {TEXT -1 143 "9.  Execute the following command sequen
+ce and record any relevant observations about what the commands do, au
+tomatic features of MAPLE, etc.  " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "1+2/3;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "ev
+alf(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "1/2+1/3+1/4;" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 8 "2/(3*4);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+11 "Digits:=50;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "sqrt(1/8
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "(2/3)*(6/7);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "Digits:=10;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 10 "sqrt(2)/3;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%)
+;" }}}{PARA 0 "" 0 "" {TEXT -1 7 "       " }}{PARA 0 "" 0 "" {TEXT -1 
+10 "          " }{TEXT 258 90 "If eval is short for \"evaluate\" what \+
+do you think the \"f\" in the command evalf stands for?" }}{PARA 0 "" 
+0 "" {TEXT -1 85 "10.  Execute the following command sequence and agai
+n record relevant observations.  " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 5 "200!;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "200
+!+1;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "100!/2;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "1/6!;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 
+"10/6!;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "100/6!;" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "1000/6!;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "
+evalf(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "1/50!;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "1/50!+1;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "Digits:=100;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 15 "evalf(1/50!+1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "Di
+gits:=10;" }}}{PARA 0 "" 0 "" {TEXT -1 4 "    " }}{PARA 0 "" 0 "" 
+{TEXT -1 6 "11.   " }{TEXT 259 61 "Explain the meaning of the term \"f
+loating point arithematic.\"" }}{PARA 0 "" 0 "" {TEXT -1 80 "12.  Exec
+ute the following command sequence and record any relevant observation
+s" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "convert(.3333333333333333
+333,fraction);" "6#-%(convertG6$$\"4LLLLLLLLL$!#>%)fractionG" }}}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "convert(sqrt(2),fraction);" "6
+#-%(convertG6$-%%sqrtG6#\"\"#%)fractionG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "convert(evalf(sqrt(2)),fraction);" "6#-%(convertG6$-%&e
+valfG6#-%%sqrtG6#\"\"#%)fractionG" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 5 "12.  " }{TEXT 260 46 "This last response i
+s very misleading.  Why?  " }}{PARA 0 "" 0 "" {TEXT -1 58 "13.  Experi
+ment with several examples to determine if the " }{TEXT 256 7 "command
+" }{TEXT 261 29 " convert(expression,fraction)" }{TEXT -1 68 "  is an \+
+\"exact operation\" or some sort of \"approximate operation.\"  " }
+{TEXT 265 13 "Which is it? " }{TEXT -1 25 "     Show your examples ." 
+}}{PARA 0 "" 0 "" {TEXT -1 24 "14.  Continue as before." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "Pi;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "Digits:=100;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 10 "evalf(Pi);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "convert
+(%,fraction);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "convert(%%
+,fraction,exact);" }}}{PARA 0 "" 0 "" {TEXT -1 126 "     Change the ab
+ove number of digits to 10 and reexecute the last three commands. Fina
+lly, change to 4 digits and reexecute." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 100 "15.  Pi is the nume
+rical quantity and pi is the greek letter.  The following sequence exp
+loits this." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "pi=Pi;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 10 "evalf(pi);" }}}{PARA 0 "" 0 "" {TEXT -1 
+132 "In this last command we asked MAPLE to find a floating point eval
+uation to the greek symbol pi , not to the numerical expression Pi." }
+}}{MARK "68 0 0" 8 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }

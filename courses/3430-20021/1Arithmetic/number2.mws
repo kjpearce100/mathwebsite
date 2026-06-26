@@ -1,0 +1,143 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 97 110 100 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 97 110 100 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+270 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 256 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 26 "  Elementary Number Theory" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 312 "Save you
+r current worksheet as number2.mws.  Remember to save frequently in ca
+se of system shut downs in the middle of a work session! In the text m
+ode (click on the cap T button) place your name(s) and date at the top
+ of your worksheet.  At the end of this session you will print out and
+ turn in your worksheet." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 255 "We continue by experimenting with some more very \+
+basic calculations.  Again the intent is to learn some basic MAPLE syn
+tax, while observing more neat features of a Computer Algebra System (
+CAS).  We will also review some basic concepts from number theory." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 200 "Preform \+
+the following calculations with MAPLE.  As you do these exercises ente
+r notes and comments onto your worksheet in text mode. As always quest
+ions/comments in bold face require written response." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "gcd(6,8);" "
+6#-%$gcdG6$\"\"'\"\")" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}
+{PARA 0 "" 0 "" {TEXT -1 4 "1.  " }{TEXT 257 31 "What is gcd an abrevi
+ation for?" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "lcm(6,8);" "6#-%
+$lcmG6$\"\"'\"\")" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#C" }}}{PARA 0 
+"" 0 "" {TEXT -1 4 "2.  " }{TEXT 258 31 "What is lcm an abreviation fo
+r?" }}{PARA 0 "" 0 "" {TEXT -1 29 "3.  Compute gcd(6,8)lcm(6,8)." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 39 "Execute the following command sequence:" }}{EXCHG {PARA 0 "> " 
+0 "" {XPPEDIT 19 1 "gcd(140,958);" "6#-%$gcdG6$\"$S\"\"$e*" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "lcm(140,958);" "6#-%$lcmG6$\"$S\"\"$e*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"&gq'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "%*%
+%;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"'?T8" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "140*958;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"'?T
+8" }}}{PARA 0 "" 0 "" {TEXT -1 6 " 4.   " }{TEXT 259 59 "What general \+
+formula is suggested by these calculations?   " }{TEXT -1 56 " Test th
+e formula with several more pairs of integers.  " }}{PARA 0 "" 0 "" 
+{TEXT -1 24 " Execute the following:." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "gcd(101+45,36^2);" "6#-%$g
+cdG6$,&\"$,\"\"\"\"\"#XF(*$\"#O\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "lcm(5*(1+4^3),2^5)
+;" "6#-%$lcmG6$*&\"\"&\"\"\",&F(F(*$\"\"%\"\"$F(F(*$\"\"#F'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"&+/\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "36/gcd(36,16);" "6#*&\"#O\"\"\"-%$gcdG6$F$\"#;!\"\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "lcm(38,100)/gcd(38,100);" "6#*&-%$lcmG6$\"#Q\"$+\"\"\"
+\"-%$gcdG6$F'F(!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$]*" }}}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "lcm(1524,5587);" "6#-%$lcmG6$
+\"%C:\"%(e&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"()e9&)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "lcm(1524,5588);" "6#-%$lcmG6$\"%C:\"%
+)e&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"&kn\"" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 260 60 "Do bigger integers neces
+sarily yield bigger lcm's?  Explain." }}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "gcd(14^6,15^20);" "6#-%$gcdG6$*$\"#9\"\"'*$\"#:\"#?" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{PARA 0 "" 0 "" {TEXT 261 
+0 "" }{TEXT -1 95 "     Two integers are \"relatively prime\" if the b
+iggest integer that divides both of them is 1." }}{PARA 0 "" 0 "" 
+{TEXT -1 81 "5.  List all the pairs of integers from 100 to 110 that a
+re relatively prime.   (" }{TEXT 256 109 "Here you might want to look \+
+at the MAPLE Programming Supplement to learn how to do \"for\" and \"i
+f\" programs.) " }{TEXT 262 1 " " }}{PARA 0 "" 0 "" {TEXT -1 5 "     \+
+" }}{PARA 0 "" 0 "" {TEXT -1 74 "     An integer is called \"prime\" i
+f its only divisors are 1 and itself.  " }}{PARA 0 "" 0 "" {TEXT -1 
+86 "     The MAPLE command \"isprime\" determines whether or not a giv
+en integer is prime.  " }}{PARA 0 "" 0 "" {TEXT -1 108 "6.  Use isprim
+e it to see if the following numbers are prime:  29,  35,  1537,  your
+ ss#,   10!+1,  329891. " }}{PARA 0 "" 0 "" {TEXT -1 46 "7.  List the \+
+prime numbers between 1 and 100. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 139 "     The FUNDAMENTAL THEOREM OF ARITHEMA
+TIC states that every integer can be factored in a unique way into a p
+roduct of powers of primes.  " }}{PARA 0 "" 0 "" {TEXT -1 99 "8.  Use \+
+paper and pencil to factor the following into their prime decompositio
+ns:  10! ,  340704.  " }}{PARA 0 "" 0 "" {TEXT -1 3 "   " }{TEXT 264 
+8 "ANSWERS:" }}{PARA 0 "" 0 "" {TEXT -1 59 "     The MAPLE command \"i
+factor\" does this automatically.  " }}{PARA 0 "" 0 "" {TEXT -1 106 "9
+.  Use ifactor to verify your results from above.  Now factor the foll
+owing numbers:  10!+1 ,  your ss#. " }}{PARA 0 "" 0 "" {TEXT -1 2 "  \+
+" }}{PARA 0 "" 0 "" {TEXT -1 39 "Execute the following command sequenc
+e:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "2744280=ifactor(274428
+0);\n267300=ifactor(267300);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 39 "2744280*267300=ifactor(2744280*267300);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 49 "gcd(2744280,267300)=ifactor(gcd(2744280,267300))
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "lcm(2744280,267300)=if
+actor(lcm(2744280,267300));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+89 "lcm(2744280,267300)*gcd(2744280,267300)=ifactor(lcm(2744280,267300
+)*gcd(2744280,267300));" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 125 " 10.  Using the FUNDAMENTAL THEOREM OF ARITHEMATI
+C, provide a written argument to verify the formula gcd(m,n)lcm(m,n) =
+ mn.  " }{TEXT 266 9 "ARGUMENT:" }}{PARA 0 "" 0 "" {TEXT -1 125 "Demon
+strate your argument with two sufficiently interesting integers (diffe
+rent from above) and the ifactor command in MAPLE." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 95 "     For two integers m &
+ n  with  n > or = m we say the \"remainder of n divided by m\" is r i
+f " }}{PARA 0 "" 0 "" {TEXT -1 58 "n = qm + r, for integers q >0 & r w
+ith 0 < or = r <  m.   " }}{PARA 0 "" 0 "" {TEXT -1 159 "11.  With pap
+er and pencil compute the following remainders and include your answer
+s:  24 divided by 5,  156 divided by 7,  32 divided by 2,  57 divided \+
+by 4. " }{TEXT 267 8 "ANSWERS:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 93 "      In MAPLE this remainder is denoted \+
+by \"n mod m.\" Verify the above answers with MAPLE.  " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 39 " 12.  Compute the fo
+llowing remainders:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {XPPEDIT 19 1 "13200 mod 134;" "6#-%$modG6$\"&+K\"\"$M\"" }}
+}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "(12^3+53) mod 26;" "6#-%$modG
+6$,&*$\"#7\"\"$\"\"\"\"#`F*\"#E" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 14 "400*23 mod 19;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "1
+321 mod (5*7);" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "45^16 mod 4
+;" "6#-%$modG6$*$\"#X\"#;\"\"%" }}}{PARA 0 "" 0 "" {TEXT -1 5 "     " 
+}}{PARA 0 "" 0 "" {TEXT -1 5 "     " }}{PARA 0 "" 0 "" {TEXT -1 93 "13
+.   Explain why an integer n is \"even\" exactly when n mod 2 = 0, and
+ is \"odd\" exactly when " }}{PARA 0 "" 0 "" {TEXT -1 13 "n mod 2 = 1.
+ " }{TEXT 269 11 "EXPLANATION" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 147 "14.   Explain why every product of two o
+dd integers must be an odd integer and every product of an even intege
+r with another integer must be even. " }{TEXT 270 12 "EXPLANATION:" }}
+{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 73 "15.  Do \+
+the following calculations in your head and record the answers.  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 271 8 "ANSWERS:" }}{PARA 0 "" 0 "
+" {TEXT -1 29 "Check the results with MAPLE." }}{EXCHG {PARA 0 "> " 0 
+"" {XPPEDIT 19 1 "1342 mod 2;" "6#-%$modG6$\"%U8\"\"#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "(10!+1) mod 2;" "6#-%$modG6$,&-%*fact
+orialG6#\"#5\"\"\"F+F+\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 
+1 "18^11 mod 2;" "6#-%$modG6$*$\"#=\"#6\"\"#" }}}{EXCHG {PARA 0 "> " 
+0 "" {XPPEDIT 19 1 "`mod`(23^10,2);" "6#-%$modG6$*$\"#B\"#5\"\"#" }}}}
+{MARK "59 0" 93 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 
+33 1 1 }

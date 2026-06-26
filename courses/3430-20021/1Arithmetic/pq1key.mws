@@ -1,0 +1,73 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" 
+-1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 15 "Practice Quiz 1" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 80 "1.  State the Fundam
+ental Theorem of Arithmatic and use MAPLE to demonstrate it." }{TEXT 
+256 0 "" }{TEXT 257 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 258 0 
+"" }{TEXT 259 195 "The Fundamental Theorem of Arithmatic states that a
+ny positive integer can be written, uniquely up to order, as a product
+ of powers of prime integers.  To demonstrate with MAPLE we can factor
+ 37!" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "\"37!\"=ifactor(37!)
+;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 63 "2. \+
+ State the Binomial Theorem and use MAPLE to demonstrate it." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }{TEXT 260 0 "" }{TEXT 261 81 "The Binomial Th
+eorem provides a foumula for the coefficients in the expansion of " }
+{XPPEDIT 18 0 "(a+b)^n" "6#),&%\"aG\"\"\"%\"bGF&%\"nG" }{TEXT 262 35 "
+ for any positive integer n. It is " }{XPPEDIT 18 0 "(a+b)^n" "6#),&%
+\"aG\"\"\"%\"bGF&%\"nG" }{TEXT 264 3 " = " }{XPPEDIT 18 0 "sum(n!/((n-
+k)!*k!)*a^k*b^(n-k) " "6#-%$sumG6#**-%*factorialG6#%\"nG\"\"\"*&-F(6#,
+&F*F+%\"kG!\"\"F+-F(6#F0F+F1)%\"aGF0F+)%\"bG,&F*F+F0F1F+" }{TEXT 263 
+80 ". We can demonstrate with MAPLE either with an example or a genera
+l calculation." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "expand((a+
+b)^9);\nseq(binomial(9,i),i=0..9);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 265 0 "" }{TEXT 266 17 "Or for general n:" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 71 "Sum(n!/((n-k)!*k!)*a^k*b^(n-k))=sum(n!/((n-k)!
+*k!)*a^k*b^(n-k),k=0..n);" }}}{PARA 0 "" 0 "" {TEXT -1 88 "3.  Explain
+ in complete detail why every power of an odd integer must be an odd i
+nteger." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 267 0 "" }{TEXT 268 
+157 "The Fundamental Theorem of Arithmatic tells us that an integer is
+ odd iff and only if there is a factor of 2 in its prime expansion.  T
+he prime expansion of " }{XPPEDIT 18 0 "n^p" "6#)%\"nG%\"pG" }{TEXT 
+269 186 " for any positive integers n and p  contains only the prime f
+actors in the original expansion for n, thus if there is no 2 in the e
+xpansion for n then there is no 2 in the expansion for " }{XPPEDIT 18 
+0 "n^p" "6#)%\"nG%\"pG" }{TEXT 270 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 74 "4.  Provide an example which  clea
+rly demonstrates that the MAPLE command " }}{PARA 0 "" 0 "" {TEXT -1 
+74 "     convert(decimal expression , fraction)   is not an \"exact al
+gorithm.\"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "convert(.33333
+3333333333,fraction);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "co
+nvert(.33333333333399,fraction);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 271 0 "" }{TEXT 272 37 "Clearly the 2 decimals are not equal." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "5.  How \+
+many ways can this class be divided into groups of 2?" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }{TEXT 273 0 "" }{TEXT 274 93 "There are 24 student o
+n the roll in this class, so we have 24 choose 2 ways of grouping them
+." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "binomial(24,2);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 51 "6.  Provi
+de the first 10 rows of Pascal's triangle." }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 59 "for i from 0 to 9\n  do\n    seq(binomial(i,j),j=0.
+.i);\n  od;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "
+3 2" 194 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 
+}
