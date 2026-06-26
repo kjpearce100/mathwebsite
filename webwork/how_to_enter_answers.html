@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0105)http://www.math.dartmouth.edu/webwork_system_html/docs/techdescription/pglanguage/availableFunctions.html -->
+<HTML><HEAD><TITLE>How to Enter Answers in WeBWorK</TITLE>
+
+<BODY bgColor=#ffffff>
+
+<center>
+<H1>How to Enter Answers in WeBWorK</H1>
+</center>
+<hr>
+<P>
+<font color=green size="+1">Suggestion: bookmark, save, or print this page!</font>
+<P>
+
+<ol>
+<li><strong>Mathematical Symbols Available in WeBWorK</strong>
+  <p>
+  <UL>
+    <LI>+ &nbsp;Addition
+    <LI>- &nbsp;Subtraction
+    <LI>* &nbsp;Multiplication. Multiplication may also be indicated 
+      by a space or juxtaposition, that 
+      is, just writing symbols next to each other, e.g. 2x, 2 x or 2*x, also 
+      2(3+4). You can use the latter form, without a space, only provided
+      no misunderstanding is possible. For example,
+      you wouldn't enter 34 for 3*4. To be on the safe side, you should always use * for
+      multiplication.
+    <LI>/ &nbsp; Division
+    <LI>^ or ** &nbsp;Denotes powers. (2^3 and 2**3 are the same to WeBWorK)
+    <LI> All kinds of  brackets and paretheses: (...), [...], {...}
+  </UL>
+
+<P>
+<li><strong>Syntax for entering expressions</strong>
+<P>
+<UL>
+  <LI>Be careful entering expressions just as you would be careful entering 
+  expressions in a calculator. 
+    <p>
+  <LI>Sometimes using the * symbol to indicate multiplication makes things 
+  easier to read. For example (1+2)*(3+4) and (1+2)(3+4) are both valid. So are 
+  3*4 and 3&nbsp;4 (3 space 4, not 34) but using a * makes things clearer. 
+    <p>
+  <LI>Use ('s and )'s to make your meaning clear. You can also use ['s and ]'s 
+  and {'s and }'s. 
+    <p>
+  <LI>Don't enter 2/4+5 (which is 5.5) when you really want 2/(4+5) (which is 
+  2/9). 
+    <p>
+  <LI>Don't enter 2/3*4 (which is 8/3) when you really want 2/(3*4) (which is 
+  2/12). 
+    <p>
+  <LI>Entering big quotients with square brackets, e.g. [1+2+3+4]/[5+6+7+8], is 
+  a good practice. 
+    <p>
+  <LI>Be careful when entering functions. It's always good practice to use 
+  parentheses when entering functions. Write sin(t) instead of sint or sin t. 
+  But WeBWorK is smart enough to accept sin t or even sint. But sin 2t is really 
+  sin(2)t, i.e. (sin(2))*t. Be careful. 
+    <p>
+  <LI>Be careful entering powers of trigonometric, and other, functions. 
+    You write (sin(t))^2
+   for the square of sin(t), and <I>never</I> sin^2t. 
+    <p>
+  <LI>For example, 2+3sin^2(4x) is wrong. You should enter:
+   2+3*(sin(4*x))^2. Why does the last expression work? Because 
+    things in parentheses are always done first [ i.e. (4*x), and then (sin(4*x))], 
+    next all exponents 
+    are taken, giving (sin(4*x))^2, next all multiplications and divisions are 
+    performed, giving 3*(sin(4*x))^2. Finally, all additions and subtractions 
+    are performed, giving 2+3*(sin(4*x))^2.
+    <p>
+    You could have entered 2+3sin(4x)^2. (Indeed, things in parentheses
+    go first, giving (4x), next functions are evaluated, giving sin(4x), next
+    all exponents are taken giving sin(4x)^2, next all multiplications and divisions
+    are performed, giving 3sin(4x)^2. Finally, all additions and subtractions are
+    done, leading to 2+3sin(4x)^2.) However, isn't 2+3*(sin(4*x))^2 much clearer than
+    2+3sin(4x)^2? Why not be clear?
+    <p>
+   <li>Remember that multiplication and division have the same precedence
+   and there are no universal rules as to which should be done first in the
+   absence of paretheses. WeBWorK and many computers read things from left to
+   right, so 2/3*4 means (2/3)*4=8/3. But some other computers will read
+   2/3*4 as 2/(3*4)=1/6. The same lack of consistent rules concerns powers,
+   expressions like 2^3^4. 
+  <br>
+  <FONT COLOR="red"><B> The only way to make sure
+   that you are entering what you want to enter is the use of
+   parentheses!!!</B></FONT> 
+    <p>
+  <LI>Use the "Preview Button" to see exactly how your entry looks. E.g. to tell 
+  the difference between 1+2/3+4 and [1+2]/[3+4] click the "Preview Button".
+    <p>
+  <li>If a problem calls for a decimal answer, give at least four decimal
+   digits,
+   or as many as the problem specifies.
+   For example, write 2.3453 instead of 2.34.
+  </UL>
+
+<p>
+
+<li><strong>Intervals in WeBWorK</strong>
+<p>
+  <ul>
+  <li>What is the domain of f(x)=sqrt(x)?  On answer is x&gt;=0 (x is greater than or equal to 0).
+      The way to enter this in WeBWorK is in interval notation: [0,infinity).
+  <li>Other intervals:  
+     <ul>
+     <li>(2,3] is the set 2&lt;x&lt;=3.
+     <li>(-infinity,5) is the set x&lt;5.
+     <li>(-infinity, infinity) is the set of all real numbers.
+     <li>(2,3]U[4,5) is the set 2&lt;x&lt;=3 or 4&lt;=x&lt;5.
+         (This is a union of two intervals and can be very important.)
+     </ul>
+  </ul>
+
+<p>
+
+<li><strong>Mathematical Constants Available In WeBWorK</strong>
+<P>
+<UL>
+  <LI>pi This gives 3.14159265358979, e.g. cos(pi) is -1 
+  <LI>e This gives 2.71828182845905, e.g. ln(e*2) is 1 + ln(2)
+</uL>
+
+<p>
+
+<li><strong>Scientific Notation Available In WeBWorK</strong>
+<p>
+  <UL>
+  <LI>2.1E2 gives 210 
+  <LI>2.1E-2 gives .021
+  </ul>
+
+<P>
+
+<li><strong>Cube roots and such</strong>
+<p>
+  <ul>
+  <li>x^(1/3) gives the cube root of x
+  <li>Other roots are also done with fractional exponents.
+  </ul>
+
+<p>
+
+<li><strong>Mathematical Functions Available In WeBWorK</strong>
+<P>
+  <UL>
+    <LI>abs( ) The absolute value 
+    <LI>cos( ) Note: cos( ) uses radian measure 
+    <LI>sin( ) Note: sin( ) uses radian measure 
+    <LI>tan( ) Note: tan( ) uses radian measure 
+    <LI>sec( ) Note: sec( ) uses radian measure 
+    <LI>exp( ) The same function as e^x 
+    <LI>log( ) The natural log 
+    <LI>ln( ) Another name for the natural log 
+    <LI>logten( ) The log to the base 10 
+    <LI>arcsin( ) 
+    <LI>asin( ) Another name for arcsin 
+    <LI>arccos( ) 
+    <LI>acos( ) Another name for arccos 
+    <LI>arctan( ) 
+    <LI>atan( ) Another name for arctan 
+    <LI>sinh( ) 
+    <LI>cosh( ) 
+    <LI>tanh( ) 
+    <LI>sech( ) 
+    <LI>sqrt( ) 
+    <LI>sgn( ) The sign function, either -1, 0, or 1 
+    <LI>step( ) The step function (0 if x &lt; 0, 1 if x &gt;= 0) 
+    <LI>fact( ) The factorial function (defined only for non negative integers) 
+    </ul>
+
+</ul>
+
+</BODY></HTML>
