@@ -1,0 +1,789 @@
+\documentclass{cmft}
+
+\usepackage{amsmath,amssymb,latexsym,amsthm}
+\usepackage{graphicx}
+
+\newcommand{\infinity}{\infty}
+\newcommand{\dsp}{\displaystyle}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\T}{\mathbb{T}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\AB}{\widehat{AB}}
+\newcommand{\AC}{\widehat{AC}}
+\newcommand{\del}{\partial}
+\newcommand{\e}{\epsilon}
+\newcommand{\al}{\alpha}
+\newcommand{\abs}[1]{\lvert#1\rvert}
+
+\DeclareMathOperator{\re}{Re}
+
+
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{notations}{Notations}[section]
+\newtheorem{notation}{Notation}[section]
+\newtheorem{assumption}{Assumption}[section]
+\newtheorem{remark}{Remark}[section]
+\newtheorem{problem}{Problem}[section]
+
+
+
+\title{Three Extremal Problems for Hyperbolically Convex Functions}
+
+
+\begin{document}
+
+%%%%%    Information for first author
+\author{Roger W. Barnard } 
+
+\address{Department of Mathematics and Statistics,
+Texas Tech University, Lubbock, TX 79409} \email{barnard@math.ttu.edu}
+
+%%%%%    Information for second author
+\author{Kent Pearce } 
+
+\address{Department of Mathematics and Statistics, Texas
+Tech University, Lubbock, TX 79409} \email{pearce@math.ttu.edu}
+
+%%%%%    Information for third author
+\author{G. Brock Williams } 
+
+\address{Department of Mathematics and Statistics, Texas
+Tech University, Lubbock, TX 79409} \email{williams@math.ttu.edu}
+
+%%%%%    General info
+\subjclass{Primary 30C70}
+%{Primary 30C, 30E}
+
+\date{\today}
+
+
+\keywords{Hyperbolically convex functions, Julia variation}
+\dedicatory{Dedicated to the memory of Walter Hengartner.}
+
+\maketitle
+
+\begin{abstract}
+In this paper we apply a variational method
+ to three extremal problems for hyperbolically convex
+functions posed by Ma and Minda and Pommerenke~\cite{MM94,pomm1}.   
+We first consider the problem of extremizing $\re
+\frac{f (z)}{z}$.  We determine the minimal value and
+give a new proof of the  maximal value previously determined by
+Ma and Minda.  We also describe the geometry of the hyperbolically
+convex  functions $f(z)=\al z+a_2 z^2 + a_3 z^3+\dots$
+which maximize $\re a_3$.
+
+\end{abstract}
+
+
+\pagestyle{myheadings} \thispagestyle{plain} \markboth{R.W. Barnard, K. Pearce,
+B. Williams}{Three Extremal Problems for Hyperbolically Convex Functions}
+
+\section{Introduction}
+ 
+
+A classical problem in Geometric Function Theory is to maximize the value of a
+given functional over a given class of analytic functions.  Recent papers have
+extended this problem and its study to functionals on hyperbolically convex
+functions.  In particular, these functions were studied by Beardon in
+\cite{aB83}, Ma and Minda in \cite{MM94,MM99}, Solynin in \cite{aS98,aS99},
+Mej{\'{\i}}a and Pommerenke in
+\cite{PM00,MP00b,MP01,MP02,MP00} and Mej{\'{\i}}a, Pommerenke, and Vasil$^\prime$ev
+ in \cite{MPV01}.  This flurry of activity has produced
+a number of open problems and conjectures.
+
+Recently, in \cite{bcpw,bop} we developed a variational technique
+ for hyperbolically convex functions based on
+Julia's variational formula
+and applied it to several of these problems and conjectures.
+
+For $z \in \C$, let $\re\{z\} =$ real part $z$ and 
+let $\D = \{ z \in \C : |z| < 1 \}$. 
+With the metric ${\lambda(z)|dz| =
+\frac{2|dz|}{1 - |z|^2}}$, $\D$ forms the Poincar\'e model of the hyperbolic
+plane.
+In this model, hyperbolic geodesics in $\D$ are
+subarcs of Euclidean circles which intersect $\partial \D$
+ orthogonally.  A set
+$S \subset \D$ is {\it hyperbolically convex} if for any two points $z_1$ and
+$z_2$ in $S$, the hyperbolic geodesic connecting $z_1$ to $z_2$ lies entirely
+inside of $S$.
+Important examples of hyperbolically convex regions
+are the fundamental domains of Fuchsian groups.
+
+We will say that a function $f : \D \rightarrow \D$ is {\it hyperbolically
+convex} if $f$ is analytic and univalent on $\D$ and if $f(\D)$ is hyperbolically
+convex.  The set of all hyperbolically convex functions $f$ which satisfy $f(0) =
+0, f'(0) > 0$ will be denoted by $H$. 
+
+
+A {\it hyperbolic polygon} is a simply connected subset of $\D$, which contains
+the origin and which is bounded by a Jordan curve consisting of a finite
+collection of hyperbolic geodesics  and arcs of the unit circle.  The 
+bounding geodesics  will be referred to as {\it proper sides}.  We will let
+$H^{poly}$ denote the subset of $H$ of all functions mapping $\D$ onto hyperbolic
+polygons.  Further, we will let $H^n$ denote the subclass of $H^{poly}$ of all
+functions mapping $\D$ onto polygons with at most $n$ proper sides.  It 
+can be shown that
+ $H^{poly}$ is dense in $H$.  Moreover, $H \cup \{0\}$ and $H^n \cup
+\{0\}$, for each $n$, are compact.
+
+Each function $f \in H$ satisfies Schwarz's Lemma and, hence, $f'(0) \le
+1$.  For $0 < \al \le 1$, let $H_{\al} = \{f \in H : f(z) = \al z + a_2z^2 +
+a_3z^3 + \cdots \}$.  
+As an aside, we note that $H_1$ consists only of the identity map.
+
+Ma and Minda~\cite{MM94,MM99} and  Mej\'ia and Pommerenke~\cite{PM00}
+ describe the
+geometry of the function
+$$k_{\al}(z) \equiv \frac{2\al z}{(1-z)+ \sqrt{(1-z)^2 + 4\al^2z}}$$ which
+belongs to $H_{\al}$ and which maps $\D$ to a hyperbolic polygon bounded by
+exactly one proper side. As a consequence of the normalizations, it can 
+easily be
+seen that $H_{\al} \cap H^1$ consists solely of $k_{\al}$ and its rotations.
+
+\vspace{0.1in}
+
+Ma and Minda~\cite{MM94} and Pommerenke~\cite{pomm1} 
+posed the following three problems for  
+hyperbolically convex functions, whose solutions did not follow from
+the techniques in~\cite{PM00,MM94,MM99,MP01,MP02,MP00} .
+
+\vspace{0.1in}
+
+\textbf{Problem 1.}
+ Fix $\ 0 < \al < 1$ and let $f \in H_{\al}$.  For $z \in \D\setminus
+\{0\}$ , find
+\begin{equation}\label{prob1}
+\min_{f \in H_{\al}} \re\, \frac{f(z)}{z}.
+\end{equation}
+
+\textbf{Problem 2.}
+ Fix $\ 0 < \al < 1$ and let $f \in H_\al$ with $f(z) = \al z + a_2z^2 +
+a_3z^3 + \cdots$.  Find
+\begin{equation}\label{prob2}
+\max_{f \in H_{\al}} \re \; a_3.
+\end{equation}
+
+\textbf{Problem 3.}
+ Let $f \in H$ with $f(z) = \al z + a_2z^2 + a_3z^3 + \cdots$.  Find
+\begin{equation}\label{prob3}
+\max_{f \in H} \re \; a_3.
+\end{equation}
+
+Applying the variational methods developed in \cite{bcpw,bop}, we have the
+following resolutions  for Problems 1, 2 and 3.
+
+\begin{theorem}
+For any $z \in \D \setminus \{0\}$ and 
+fixed  $0 < \al < 1$, let $f \in H_{\al}$ be
+extremal for ${\dsp L(f) = \re\frac{f(z)}{z} }$ over $H_{\al}$.  Then the
+extremal value (maximum or minimum) for $L$ over $H_{\al}$ can be obtained from a
+hyperbolically convex function $f$ which maps $\D$ onto a hyperbolic polygon with
+exactly one proper side.  Specifically, for $z \in \D \setminus \{0\}$ and $0 <
+\al < 1$
+$$\max_{f \in H_{\al}} \re\frac{f(z)}{z} = \frac{k_{\al}(r)}{r},\ r= |z|$$ and
+$$\min_{f \in H_{\al}} \re\frac{f(z)}{z} = \frac{k_{\al}(-r)}{-r},\ r= |z|.$$
+\end{theorem}
+
+\begin{theorem}\label{T:2}
+Fix $0 < \al < 1$. Then the maximal value for $\dsp L(f)=\re a_3$
+over $H_{\al}$ is obtained by a hyperbolically convex function $f(z)=
+ \al z + a_2z^2 + a_3z^3 + \cdots$ which
+maps $\D$ onto a hyperbolic polygon with at most two proper sides.
+\end{theorem}
+
+\begin{theorem}
+The maximal value for $\dsp L(f)=\re a_3$ over $H$ is obtained by a hyperbolically
+convex function $f(z)= \al z + a_2z^2 +
+a_3z^3 + \cdots$ which maps $\D$ onto a hyperbolic polygon with at most
+two proper sides.
+%Let $f(z) = \al(z + a_2z^2 + a_3z^3 + \cdots) \in H$ be extremal for ${\dsp L(f)
+%= \re a_3}$ over $H$.  Then, the extremal value for $L$ over $H$ can be obtained
+%from a hyperbolically convex function $f$ which maps $\D$ onto a hyperbolic
+%polygon with a most two proper sides.
+\end{theorem}
+
+\begin{remark} 
+The maximum value of $\re \frac{f(z)}{z}$ for hyperbolically convex functions
+was first given using different methods by  Ma and Minda~\cite{MM94}. 
+Minda and Ma also observed in \cite{MM94} that $k_{\al}$
+cannot be extremal for (\ref{prob2}) when  $\al = 1/2$.  Hence, the reduction in
+Theorem 1.2 of the extremal function to a hyperbolically convex function with 
+two proper sides is best possible.
+\end{remark}
+
+\section{Variations for $H^{poly}$}
+As our primary tool for solving these three 
+problems, we will modify an extension of
+the Julia variation as developed by the first author and
+J. Lewis~\cite{BS84,BL75}.
+
+Let $\Omega$ be a region bounded by a piecewise analytic curve $\Gamma$ and
+$\phi(w)$ be a positive piecewise $C^1$ function on $\Gamma$, vanishing where
+$\Gamma$ is not analytic.  Denote the outward pointing unit normal vector at each
+point $w$ where $\Gamma$ is smooth by $n(w)$.  For $\e$ near $0$, construct a new
+curve
+\[
+\Gamma_\e=\{w+\e\phi(w)n(w):\: w\in\Gamma\}
+\]
+and let $\Omega_\e$ be the new region bounded by $\Gamma_\e$.
+
+
+Notice that if $\e$ is sufficiently small and $\e >0$, then $\Gamma$ is ``pushed
+outside'' the domain, while if $\e < 0$, then $\Gamma$ is ``pushed inside'' the
+domain.  With the above notation, we state Julia's modification of the Hadamard
+variational formula; see~\cite{BS84} for details.
+
+\begin{lemma}\label{L:julia}
+Let $f$ be a conformal map from $\D$ onto $\Omega$ with $f(0)=0$, and suppose $f$
+has a continuous extension to $\partial\D$, which we also denote by $f$. Then, a
+similarly normalized conformal map from $\D$ onto $\Omega_\e$ is given by
+\begin{align}\label{E:julia}
+f_{\e}(z)= f(z)+\frac{\e z f'(z)}{2\pi}\int_{\partial \D}
+ \frac{1+\xi z}{1-\xi z}\,d\Psi +
+o(\e),
+\end{align}
+where $d\Psi=\frac{\phi(f(\xi))}{\abs{f'(\xi)}}d\theta$, $\xi=e^{i\theta}$,
+and the $o(\e)$ term is continuously differentiable in $\e$ for each
+$z\in\D$. Furthermore, the change in mapping radius between $f_{\e}$ and $f$ is
+given by
+\begin{equation}\label{E:mr}
+\Delta mr(f_{\e},f) = \frac{\e f^\prime(0)}
+{2\pi}\int_{\partial \D} \,d\Psi + o(\e).
+\end{equation}
+
+\end{lemma}
+
+Notice the restriction that $\phi$ vanish at the points of non-smoothness of
+$\partial \Omega$ is a strong one.  It implies, for example, that while we can
+vary the sides of a hyperbolic polygon, we cannot move any of the vertices.
+However, it follows from the work of the first author and J. Lewis~\cite{BL75}
+that such an extended version of the Julia variation is possible (except at
+internal cusps, ie., where two sides meet at an angle of measure $2\pi$,
+which do not occur for hyperbolically convex polygons).
+Moreover, they showed that the resulting function will agree with the Julia
+variational formula up to $o(\e)$ terms.  
+
+
+\begin{figure}
+\begin{center}\scalebox{0.7}{
+\includegraphics{julia-out} }
+\caption{The variation produced by ``pushing out'' a side.}
+\label{F:julia-out}
+\end{center}
+\end{figure}
+
+ In \cite{bcpw,bop}, we proved the following two lemmas which
+describe  variations for functions in $H^{poly}$ which preserve
+hyperbolic convexity.   First, if $f$ maps onto
+a hyperbolically convex polygon $\Omega$ with a side $\Gamma$, we can ``push''
+$\Gamma$ to a nearby geodesic $\Gamma_\e$ in such a way that the varied function
+$f_\e$ will still be hyperbolically convex. 
+Although the control $\phi$ can depend on $\epsilon$, it was 
+shown in~\cite{bcpw} that the variation in 
+$\phi$ can be absorbed into the $o(\epsilon)$ terms. 
+See Figure~\ref{F:julia-out}.
+
+
+\begin{lemma} \label{L:push-side}
+Suppose $f\in H^n$ and $f$ is not constant.  If
+$\,\Gamma=f(\gamma)$ is a proper side of $\Omega=f(\D)$, then for $\e$ sufficiently
+small there exists a variation $f_\e\in H^n$ which ``pushes'' $\Gamma$ 
+either in or out to a
+nearby geodesic $\Gamma_\e$,
+% That is, $f_\e(\D)$ 
+%s a hyperbolic polygon whose sides are the same as those of $f$, except that
+%$\Gamma$ has been replaced by $\Gamma_\e$, 
+where $\Gamma_\e\to\Gamma$ as $\e\to 0$.
+% is a geodesic through $m+\e n(m)$ and $m$ is the euclidean midpoint
+% of $\Gamma$.
+Moreover, $f_\e$ agrees with the Julia Variational Formula up to $o(\e)$ terms.
+\end{lemma}
+
+
+If $\Gamma$ intersects another side $\Gamma^*$ at $z^*$, and $z_0\in\Gamma$, then
+we can vary $f$ so as to replace the portion of $\Gamma$ between $z_0$ and $z^*$
+with a new geodesic between $z_0$ and some $z^*_\e\in\Gamma^*$.  See
+Figure~\ref{F:kick-in}.   
+
+
+\begin{lemma} \label{L:kick-in}
+Suppose $f\in H^n$, $f$ is not constant, and
+$\Gamma=f(\gamma)$ is a proper side of $f(\D)$ meeting a side $\Gamma^*$.  Then,
+there exists a variation $f_\e\in H_{n+1}$ which adds a side to $f(\D)$ by
+pushing one end of $\Gamma$ to a nearby side $\Gamma_\e$.  That is, $f_\e(\D)$ is
+a hyperbolic polygon whose sides are the same as those of $f$, except that one
+end of $\Gamma$ has been replaced by $\Gamma_\e$ and $\Gamma^*$ has been
+shortened.  Moreover, $f_\e$ agrees with the Julia Variational Formula up to
+$o(\e)$ terms.
+\end{lemma}
+
+
+\begin{figure}
+\begin{center}\scalebox{0.65}{
+\includegraphics{julia-kick-in} }
+\caption{The variation produced by pushing in one end of a side.}
+\label{F:kick-in}
+\end{center}
+\end{figure}
+
+\begin{remark}\label{R:end}
+Notice that in order to maintain hyperbolic convexity, we can only push in the
+``end'' of a side, that is, a subarc that ends at a vertex of the polygon.
+However, we can choose this subarc to be as long, or more importantly, as short,
+as we choose.
+\end{remark}
+
+ 
+
+\section{Proofs}
+
+
+\subsection{Proof of Theorem 1.1}
+Choose a point $z\in\D\setminus\{0\}$.
+We will consider explicitly the problem
+of minimizing $\re\left\{ \frac{f(z)}{z} \right\}$ 
+over $H_{\al}$.  The case for maximizing
+$\re\left\{ \frac{f(z)}{z} \right\}$ over $H_{\al}$ is analogous.
+
+Let $H_{\al}^n = H_{\al} \cap H^n$.  Suppose that $f \in H_{\al}^n $ is extremal
+for (\ref{prob1}) over $H_{\al}^n $ for some $n \ge 3$ and that $f(\D)$ has at
+least three proper sides, say $\Gamma_j, \ j=1,2,3$.  Let $\gamma_j =
+f^{-1}(\Gamma_j), \ j= 1,2,3$.  For each side $\Gamma_j$, apply the variation
+described in Lemma \ref{L:push-side} to $\Gamma_j$, with control $\e_j = \e
+\lambda_j$.  Let $f_{\e}$ be the varied function obtained by varying each of the
+three sides $\Gamma_j, \ j= 1,2,3,$ of $f$.  From Lemma \ref{L:julia}, we have
+
+$$ \frac{f_\e(z)}{z}= \frac{f(z)}{z}+ \e \sum_{j=1}^3
+\frac{\lambda_j}{2\pi}\int_{\gamma_j} f'(z) \frac{1+\xi z}{1-\xi z}\,d\Psi +
+o(\e)
+$$
+
+and
+
+$$ \Delta mr(f_{\e},f) = \e \sum_{j=1}^3 \frac{\lambda_j \al}{2\pi}\int_{\gamma_j}
+\,d\Psi + o(\e)
+$$
+
+
+\noindent Hence, we can write
+
+\begin{eqnarray*}
+L(f_{\e}) = L(f) + \e \re \left \{\sum_{j=1}^3 \frac{\lambda_j
+}{2\pi}\int_{\gamma_j} f'(z) \frac{1+\xi z}{1-\xi z}\,d\Psi + o(\e) \right \}.
+\end{eqnarray*}
+
+If $\frac{\partial \Delta mr(f_{\e},f)}{\Delta \e} \big \vert_{\e = 0} =0$, then 
+$f_\epsilon$ will also lie in $H_\al^n$ for $\epsilon$ sufficiently small.
+  If in addition,
+$\frac{\partial L(f_{\e})} {\partial \e} \big \vert_{\e = 0}$
+ is non-zero, then the value of
+$L(f_{\e})$ can be made smaller than the value of $L(f)$ for some $\epsilon$
+near $0$.
+Thus  $f$ cannot be extremal for (\ref{prob1}) in
+$H_{\al}^n$.  Using the above representations for $L(f_{\e})$ and $\Delta
+mr(f_{\e},f)$ we obtain
+
+\begin{equation}\label{E:func1}
+\frac{\del L(f_{\e})}{\del \e}\biggr\vert_{\e = 0} = \re \left \{\sum_{j=1}^3
+\frac{\lambda_j }{2\pi}\int_{\gamma_j} f'(z) \frac{1+\xi z}{1-\xi z}\,d\Psi
+\right \}
+\end{equation}
+
+and
+
+\begin{equation}\label{E:maprad}
+\frac{\partial \Delta mr(f_{\e},f)}{\partial\e} \biggr\vert_{\e = 0} =
+\sum_{j=1}^3 \frac{\lambda_j \alpha
+}{2\pi}\int_{\gamma_j} \,d\Psi .
+\end{equation}
+
+\noindent Let $Q(\xi) = f'(z)\frac{1+\xi z}{1-\xi z}$. As $d\Psi$ is real valued,
+we can apply the mean value theorem for integrals and rewrite (\ref{E:func1}) as
+
+\begin{equation}\label{E:func2}
+\frac{\del L(f_{\e})}{\del \e}\biggr\vert_{\e = 0} = \left \{\sum_{j=1}^3 \frac{\lambda_j
+}{2\pi} \re Q(\xi_j) \int_{\gamma_j} d\Psi \right \}
+\end{equation}
+
+\noindent where $\xi_j$ belongs to the interior of the arc $\gamma_j$.
+
+Since the kernel $Q$ of our integral is bilinear in $\xi$, it maps $\partial \D$
+ to a
+circle $\Lambda$.  Hence, for $\abs{z}<1$, 
+not all three of the points $Q(\xi_j),\ j=1,2,3,$ can
+have the same real part.  Without loss 
+of generality suppose that $\re Q(\xi_1) > \re
+Q(\xi_2)$.  Then, we can push $\Gamma_1$ in, $\Gamma_2$ out (and not vary
+$\Gamma_3$) so as to decrease the value of $L(f_{\e})$ from the value of $L(f)$
+within the class $H_{\al}^n$.  Specifically, choose $\lambda_1 < 0 < \lambda_2$
+(and $\lambda_3 = 0$) so that $\frac{\partial \Delta mr(f_{\e},f)}{\e} 
+\big \vert_{\e = 0}
+= 0$ in (\ref{E:maprad}).  Then, we have from (\ref{E:func2})
+
+\begin{eqnarray}\label{E:func3}
+\frac{\del L(f_{\e})}{\del \e}\biggr\vert_{\e = 0} &=& \re Q(\xi_1) \frac{\lambda_1}{2\pi}
+\int_{\gamma_1} d\Psi + \re Q(\xi_2) \frac{\lambda_2}{2\pi} \int_{\gamma_2} d\Psi
+\\ \nonumber &<& \re Q(\xi_1) \left(\frac{\lambda_1}{2\pi} \int_{\gamma_1} d\Psi +
+\frac{\lambda_2}{2\pi} \int_{\gamma_2} d\Psi \right) \\ \nonumber &=& 0 .\nonumber
+\end{eqnarray}
+
+
+Thus, $f$ is not extremal for $L$ in $H_{\al}^n$.  Consequently, if $f$ is
+extremal in $H_{\al}^n,\, n\geq 3,$ then $f\in H_{\al}^2 \subset H_{\al}^n$,
+that is,  the extremal $f$ can have at most two proper sides.  
+
+We will now
+argue that $f$ can actually have at most one side using an argument 
+similar to the 
+\emph{Step Down Lemma} in~\cite{bcpw}.  
+Consider $H_{\al}^n,\, n \ge 3$, and let $f$ be
+extremal in $H_{\al}^n$ for (\ref{prob1}).  By the above argument, $f(\D)$ can
+have at most two sides.  Suppose $f(\D)$ has exactly two proper sides, say
+$\Gamma_j, \ j=1,2$. As above, for each side $\Gamma_j$, apply the variation
+described in Lemma \ref{L:push-side} to $\Gamma_j$, with control $\e_j = \e
+\lambda_j$.  Let $f_{\e}$ be the varied function obtained by varying each of the
+two sides $\Gamma_j, \ j= 1,2,$ of $f$.  If in the formulation for
+$\frac{\partial L(f_{\e})} {\partial \e} \big\vert_{\e = 0}$ in~\eqref{E:func2}, 
+suitably modified to
+reflect only moving two sides, $\re Q(\xi_1) \ne \re Q(\xi_2)$, then the same
+argument used above
+eliminates $f$ from being extremal.  So we conclude that $\re
+Q(\xi_1) = \re Q(\xi_2)= x_0$.  Thus, for each proper side $\Gamma_j, \ j=1,2,$
+of $f(\D)$, we must have that the image under the kernel $Q$ of the preimage of
+one endpoint of $\Gamma_j$ lies to the left of the vertical line $l$ 
+determined by $x=x_0$ and the image under the
+kernel $Q$ of the preimage of other endpoint $\Gamma_j$ lies to 
+the right of $l$. See Figure~\ref{F:kick-right}.
+
+
+\begin{figure}
+\begin{center}\scalebox{0.5}{
+\epsfig{file=kick-right}}
+\caption{The endpoints of $Q(\gamma_j)$, $j=1,2$, must lie on opposite sides of the
+  line $l$ determined by $x=x_0=\re Q(\xi_1)=\re Q(\xi_2)$.}
+\label{F:kick-right}
+\end{center}
+\end{figure}
+
+We consider the 
+ vertex $z_0\in\Gamma_1$ whose image under $Q\circ f^{-1}$ lies to the right of
+$l$. Apply the variation described in Lemma \ref{L:kick-in} at the vertex
+$z_0$ to add another side to $f(\D)$, making sure the added side is 
+short enough that its image under $Q\circ f^{-1}$ 
+still lies completely to the right of $l$.  
+At the same time, push the entire side $\Gamma_2$ out so that the mapping
+radius is preserved and $f_\epsilon\in H_\al^2$.
+
+By the above variational
+argument, the newly varied function has a smaller value for $L$.  But this means
+$f$ cannot be extremal.  Thus, the extremal function for $L$ in $H_{\al}^n,\,
+n\geq 3,$ cannot have two proper sides.  It follows therefore that the extremal
+function in $H_{\al}^n$ can have at most one proper side.
+
+Since $H_{\al}^2 \subset H_{\al}^n$ for all $n \geq 3$, if $f$ is extremal in
+$H_{\al}^n$ and is an element of $H_{\al}^2$, it must be extremal in $H_{\al}^2$
+as well.  Thus, the extremal element in $H_{\al}^2$ has at most one proper side.
+As a result,
+the extremal value for $L$ in each $H_{\al}^n$ is achieved by the region
+with at most one proper side and hence the extremal value for $\dsp{H_{\al} =
+\overline{ \cup_{n\in \N} H_{\al}^n}}$ is achieved by a region with at most one
+proper side.
+
+Finally, it is clear that the range of $k_{\al}(z)/z$ is symmetric about the real
+axis.  It can be shown for fixed $r, \ 0 < r < 1$, that $\re \{k_{\al}(re^{i
+\theta})/re^{i \theta} \}$ is a monotonically decreasing function of $\theta, \ 0
+< \theta < \pi$.  Hence, the minimum value of $L$ over
+$H_{\al}$ is achieved at $-k_{\al}(-r)/r$, $r=|z|$.
+A similar argument shows that the maximum occurs at $k_\al(r)/r$.
+
+%\vspace{0.25in}
+
+%\begin{figure}[ht]
+%\begin{center}
+%\scalebox{.4}{\includegraphics[angle=270]{figure-6}}
+%\caption{Image of $Q$ for $|z|=.70$}\label{Fi:f3_2}
+%\end{center}
+%\end{figure}
+
+
+\subsection{Proof of Theorem 1.2}
+
+Next we fix $0<\al\leq 1$ and employ a similar argument to show that the 
+maximum value
+of 
+\[
+L(f)=\re \;a_3
+\]
+ for a function $f(z)=\al z+a_2 z^2+a_3 z^3+\dots$ in $H_\al$
+is obtained by a function mapping onto a domain with at most two sides.
+Suppose first that $f\in H_n^\al$ is extremal over $H_n^\al$ for some
+$n\ge 5$ and $f(\D)$ has at least five proper sides $\Gamma_j$, 
+$j=1,\dots, 5$.
+Let $\gamma_j$ be the preimage in $\partial \D$ of $\Gamma_j$, $j=1,\dots, 5$.
+
+If we apply the variation of Lemma~\ref{L:push-side} to each $\Gamma_j$ with
+control $\epsilon_j=\epsilon \lambda_j$, then we produce a hyperbolically
+convex function defined by
+\[
+f_\epsilon(z)=f(z) + \epsilon z f^\prime(z) 
+\sum_{j=1}^5 \frac{\lambda_j}{2\pi} 
+\int_{\gamma_j} \frac{1 +\xi z}{1- \xi z} \,d\Psi + o(\epsilon).
+\] 
+
+  Expanding $\frac{1+\xi z}{1-\xi z}$ as a 
+series, we see
+\[
+f_\epsilon(z)= f(z) + \epsilon z f^\prime(z) \sum_{j=1}^5 \frac{\lambda_j}{2\pi} 
+\int_{\gamma_j} (1+2 \xi z+2 \xi^2 z^2 +2 \xi^3 z^2 +\dots)\, d\Psi+o(\epsilon).
+\]
+
+Now since $zf'(z)=\alpha z+2a_2 z^2 + 3 a_3 z^3 +\dots$, we have
+\begin{align}\notag
+f_\epsilon(z) = 
+% &f(z) + \frac{\epsilon}{2\pi} 
+% \int_\gamma \alpha(z+2a_2 z^2 + 3 a_3 z^3 +\dots) \\\notag
+% &(1+2 \xi z+2 \xi^2 z^2 +2 \xi^3 z^2 +\dots)\, d\Psi+o(\epsilon)\\\notag = 
+& f(z)+ \epsilon  \sum_{j=1}^5 \frac{\lambda_j}{2\pi} \int_{\gamma_j} 
+(\al z + 2(a_2 + \al\xi) z^2 + (3a_3 + 4a_2 \xi +2\al\xi^2)z^3 +\dots) \, d\Psi +
+o(\epsilon).
+\end{align}
+
+
+Finally, gathering the powers of $z$, we arrive at
+\begin{align}\label{E:fepsilon}
+f_\epsilon(z)=\alpha &
+\biggl(1+ \epsilon  \sum_{j=1}^5 \frac{\lambda_j}{2\pi} \int_{\gamma_j}
+\, d\Psi\biggr) z+
+ \biggl(a_2+ \epsilon  \sum_{j=1}^5 \frac{\lambda_j}{2\pi} \int_{\gamma_j}
+ 2(a_2+\al\xi)\, d\Psi\biggr)z^2\\\notag
+& +
+\left(a_3+ \epsilon  \sum_{j=1}^5 \frac{\lambda_j}{2\pi} \int_{\gamma_j}
+ (3a_3+4a_2\xi+2\al\xi^2) \, d\Psi\right)z^3
++ \dots +o(\epsilon).
+\end{align}
+
+
+Consequently,
+\begin{equation}\label{E:kernel2}
+\frac{\partial}{\partial \epsilon} \re L(f_\epsilon)\biggr \vert_{\epsilon=0} =
+\re \; \sum_{j=1}^5 \frac{\lambda_j}{2\pi} \int_{\gamma_j}
+ (3a_3+4a_2\xi+2\al\xi^2) \, d\Psi
+\end{equation}
+and
+\begin{equation}
+\frac{\partial\Delta mr (f_\epsilon,f)}{\partial\epsilon}\Biggr\vert_{\epsilon=0}
+=  \sum_{j=1}^5 \frac{\alpha \lambda_j}{2\pi} \int_{\gamma_j} d\Psi.
+\end{equation}
+
+
+\begin{figure}
+\begin{center}\scalebox{0.2}{
+\epsfig{file=Q-1-1,angle=-90} \hspace{.5in}
+\epsfig{file=Q-0-5,angle=-90} \hspace{.5in}
+\epsfig{file=Q-0-25,angle=-90}}
+\caption{The cardioids resulting from $a_2=1.1$ (left), $0.5$ (center), and $0.25$ (right).}
+\label{F:kernel2}
+\end{center}
+\end{figure}
+
+Now notice that the kernel $Q(\xi)=3a_3+4a_2\xi+2\al\xi^2$ of the integral
+in~\eqref{E:kernel2} maps the unit circle $\partial\D$ onto a cardioid.
+See Figure~\ref{F:kernel2}.  The shape of the cardioid depends on $a_2$ and $\al$,
+but a simple argument shows 
+that  no vertical line intersects the cardioid more than four
+times.  Thus if we apply the Mean Value Theorem to each of the integrals
+$\int_{\gamma_j}  (3a_3+4a_2\xi+2\al\xi^2) \, d\Psi$, we have
+\[
+\re \frac{\lambda_j}{2\pi} \int_{\gamma_j}
+ (3a_3+4a_2\xi+2\al\xi^2) \, d\Psi = \re \frac{ \lambda_j Q(\xi_j)}{2\pi}
+\int_{\gamma_j} d\Psi
+\]
+for some $\xi_j\in\gamma_j$, $j=1,\dots,5$.
+
+Suppose the values of $\re Q(\xi_j)$ are not the same for all $j$, say
+$\re Q(\xi_1) <\re Q(\xi_2)$.
+ Then just as in the proof of Theorem 1.1, we can push $\Gamma_1$
+in and $\Gamma_2$ out, preserving the mapping radius to produce a new map
+$f_\epsilon\in H_n^\al$ with 
+\[
+\frac{\partial}{\partial \epsilon} L(f_\epsilon)\biggr \vert_{\epsilon=0} >0.
+\]
+Consequently, since $f$ is extremal, then $\re Q(\xi_1)=\dots= \re Q(\xi_5)$.
+But that means the vertical line $l$ determined by 
+$x=x_0=\re Q(\xi_1)=\dots= \re Q(\xi_5)$ intersects the cardioid 
+$Q(\partial\D)$ in five distinct points.  This contradiction
+implies $f$ can have at most four sides.
+
+Now notice that if $f$ is an extremal function with exactly four sides, then
+as above,  
+$\re Q(\xi_j)=x_0$ for each $j=1,\dots,4$, as otherwise we could vary two  sides
+and increase the value of $L(f)$.  Geometrically, this means that
+each curve $Q(\gamma_j)$ must cross the vertical line $l$.  
+See Figure~\ref{F:4-sides}.
+
+
+
+\begin{figure}
+\begin{center}\scalebox{0.4}{
+\epsfig {file=4sides-axes} }
+\caption{If the extremal function has four sides, then each curve $Q(\gamma_j)$
+  must cross the vertical line $l$  given by $x=x_0=\re Q(\xi_j)$, $j=1,\dots,4$.}
+\label{F:4-sides}
+\end{center}
+\end{figure}
+
+As a result, one endpoint of each curve $Q(\gamma_j)$ must lie to the left
+of $l$, 
+and we can use the variation described in Lemma~\ref{L:kick-in}
+to add a new side $\Gamma_\epsilon$ at the end of one of the current sides.
+  If $\Gamma_\epsilon$ is sufficiently short and $\gamma_\epsilon
+=f^{-1}(\Gamma_\e)$,
+then  $Q(\gamma_\e)$ will lie
+completely to the left of $l$.  Thus there exists $\xi_\e$ so that
+\[
+\re \int_{\gamma_\e} Q(\xi)\,d\Psi =\re Q(\xi_\e) \int_{\gamma_\e} d\Psi
+\]
+and
+\[
+\re Q(\xi_\e)<x_0. 
+\]
+Then arguing as above, we
+produce a new function $f_\epsilon \in H_\al^5$ with five sides and
+$L(f_\epsilon)>L(f)$.
+
+But the extremal function in $H_\al^5$ has at most four sides.  This
+contradiction means the extremal function in $H_\al^n$, $n\ge 3$ can
+have at most three sides.
+
+However, notice that if the extremal function has three sides, then
+we must still have 
+one endpoint of $Q(\gamma_j)$ on the left of the line $l$ for some $j=1,2,3$.
+Thus the argument above can be repeated to show that $f$ can have at
+most two sides.  
+
+On the other hand, if $f$ has two sides, it is certainly
+possible for all four endpoints of $Q(\gamma_j)$, $j=1,2$ to lie to the
+right of $l$, precluding the reduction to only one side.
+ See Figure~\ref{F:2-sides}. This is entirely to be expected, of course,
+as Ma and Minda have shown the extremal domain for $\al=1/2$ 
+has more than one side~\cite{MM94}. 
+
+Since the extremal function in $H_\al^n$ for each $n\geq 2$
+has at most two sides and $\cup_n H_\al^n$ is dense in $H_\al$, the
+maximum value of $L(f)$ is obtained by function mapping onto a domain
+with at most two proper sides.
+
+
+\begin{figure}
+\begin{center}\scalebox{0.4}{
+\epsfig{file=2-sides-axes}}
+\caption{For a function with two sides, all four endpoints of $Q(\gamma_j)$ may
+  lie on the same side of the line $l$ determined by 
+$x=x_0=\re Q(\gamma_1)=\re Q(\gamma_2)$.}
+\label{F:2-sides}
+\end{center}
+\end{figure}
+
+
+\subsection{Proof of Theorem 1.3}
+
+In Theorem 1.3 we consider the same functional as in Theorem 1.2, but
+we maximize not only over all $f\in H_\al$, but also over all $\alpha$.
+The arguments used in the proof above still apply, only 
+we no longer need to ensure
+\[
+\frac{\partial\Delta mr (f_\epsilon,f)}{\partial\epsilon}\Biggr\vert_{\epsilon=0}
+=  \sum_{j=1}^5 \frac{\lambda_j\al}{2\pi} \int_{\gamma_j} d\Psi=0
+\]
+when we perform a variation.  In any case, we see there is an extremal 
+function mapping onto a region with at most two sides.
+
+
+
+
+
+
+
+
+\begin{thebibliography}{1000}
+\bibitem{bl} Roger W. Barnard and John L. Lewis.  Subordination theorems for some
+classes of starlike functions.  \emph{Pacific J. Math.}, 56(2):333-366, 1975.
+
+\bibitem{bcpw} Roger W. Barnard, Leah B. Cole, Kent Pearce, and G. Brock
+Williams.  Sharp bounds for the Schwarzian derivative for hyperbolically convex
+functions. \emph{Preprint}, 2003.
+
+\bibitem{BL75} Roger Barnard and John~L. Lewis, \emph{Subordination theorems for
+some classes of starlike functions}, Pacific J. Math. \textbf{56} (1975), no.~2,
+333--366.  MR{52 \#721}
+
+\bibitem{bop} Roger W. Barnard, G. Lenny Ornas, and Kent Pearce. A variational
+method for hyperbolically convex functions. \emph{Preprint}, 2003.
+
+\bibitem{BS84} Roger~W. Barnard and Glenn Schober, \emph{M\"obius transformations
+of convex mappings}, Complex Variables Theory Appl. \textbf{3} (1984), no.~1-3,
+55--69.  MR{85j:30012}
+
+\bibitem{aB83} A.~Beardon, \emph{Geometry of discrete groups}, Springer-Verlag,
+Berlin, 1983.
+
+\bibitem{MM94} William Ma and David Minda, Hyperbolically convex functions,
+\emph{Ann. Polon.  Math.} \textbf{60} (1994), no.~1,
+81--100. MR\textbf{95k}:30037
+
+\bibitem{MM99} William Ma and David Minda, Hyperbolically convex functions. {II},
+\emph{Ann. Polon. Math.}  \textbf{71} (1999), no.~3,
+273--285. MR\textbf{2000j}:30020
+
+\bibitem{PM00} Diego Mej\'ia and Christian Pommerenke, On hyperbolically convex
+functions, \emph{J. Geom. Anal.} \textbf{10} (2000), no.~2, 365--378.
+
+\bibitem{MP00b} Diego Mej\'ia and Christian Pommerenke, On spherically convex
+univalent functions, \emph{Michigan Math. J.}  \textbf{47} (2000), no.~1,
+163--172. MR\textbf{2001a}:30013
+
+\bibitem{MP01} Diego Mej\'ia and Christian Pommerenke, Sobre la derivada
+{Schawarziana} de aplicaciones conformes hiperb\'olicamente, \emph{Revista
+Colombiana de Matem\'aticas} \textbf{35} (2001), no.~2, 51--60.
+
+\bibitem{MP02} Diego Mej\'ia and Christian Pommerenke, Hyperbolically convex
+functions, dimension and capacity, \emph{Complex Var. Theory Appl.} \textbf{47}
+(2002), no.~9, 803--814.  MR\textbf{2003f}:30017
+
+\bibitem{MP00} Diego Mej\'ia and Christian Pommerenke, On the derivative of
+hyperbolically convex functions, \emph{Ann.  Acad. Sci. Fenn. Math.} \textbf{27}
+(2002), no.~1, 47--56.
+
+\bibitem{MPV01} Diego Mej\'ia, Christian Pommerenke, and Alexander 
+Vasil$^\prime$ev,
+Distortion theorems for hyperbolically convex functions, \emph{Complex Variables
+Theory Appl.} \textbf{44} (2001), no.~2, 117--130. MR\textbf{2003e}:30025
+
+\bibitem{MPS00} Michalska, Malgorzata, Dmitri V. Prokhorov, and Jan Szynal, 
+ The compositions of hyperbolic triangle mappings, \emph{Complex Variables
+Theory Appl.} \textbf{43} (2000), no.~2, 179-186. MR \textbf{2001m}:30008
+
+\bibitem{pomm1} Christian Pommerenke, private communication.
+
+\bibitem{aS98} A.~Yu. Solynin, Some extremal problems on the hyperbolic polygons,
+\emph{Complex Variables Theory Appl.} \textbf{36} (1998), no.~3, 207--231.
+MR\textbf{99j}:30030
+
+\bibitem{aS99} A.~Yu. Solynin, Moduli and extremal metric problems, \emph{Algebra
+i Analiz} \textbf{11} (1999), no.~1, 3--86, translation in \emph{St. Petersburg
+Math. J.}  \textbf{11} (2000), no. 1, 1--65. MR\textbf{2001b}:30058
+
+
+\end{thebibliography}
+\setcounter{equation}{0} %\bibliography{dissbib} \end{document}
+
+\end{document}

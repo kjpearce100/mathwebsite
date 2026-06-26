@@ -1,0 +1,613 @@
+\documentclass[final]{siamltex}
+
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+
+\newcommand{\infinity}{\infty}
+\newcommand{\dsp}{\displaystyle}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\T}{\mathbb{T}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\D}{\mathbb{D}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\AB}{\widehat{AB}}
+\newcommand{\AC}{\widehat{AC}}
+\newcommand{\eps}{\epsilon}
+
+\newcommand{\del}{\partial}
+
+
+
+\title{\large A Variational Method for Hyperbolically Convex Functions}
+
+
+\begin{document}
+
+
+\author{Roger W. Barnard, Kent Pearce \thanks{Department of 
+Mathematics and Statistics,  Texas Tech University, 
+Lubbock, Texas  79409 
+({\tt roger.w.barnard@ttu.edu, kent.pearce@ttu.edu}) }
+\and G. Lenny Ornas\thanks {Department of Mathematics, Computer Science and Statistics, McNeese State University, Lake Charles, LA  70609
+({\tt gornas@mail.mcneese.edu}) }
+}
+
+
+%%%%%    General info
+
+
+\maketitle 
+
+\begin{abstract}
+In this paper we recall our variational method, based on Julia's formula for the Hadamard variation, for hyperbolically convex polygons.  We use this variational method to prove a general theorem for solving extremal problems for hyperbolically convex functions.  Special cases of this theorem provide independent proofs for controlling growth and distortion for hyperbolically convex functions.
+\end{abstract}
+
+\begin{keywords} 
+hyperbolically convex functions, Julia variation
+\end{keywords}
+
+\begin{AMS}
+30C, 30E\end{AMS}
+
+\pagestyle{myheadings}
+\thispagestyle{plain}
+\markboth{R.W. Barnard, G.L. Ornas, K. Pearce}{A Variational Method for Hyperbolically Convex Functions}
+
+\section{Introduction} 
+
+A classical problem in Geometric Function Theory is to maximize the value of a given functional over a given class of analytic functions.  Recent papers have extended this problem and its study to functionals on hyperbolically convex functions.  In particular, these functions were studied by Beardon in \cite{aB83}, Ma and Minda in \cite{MM94,MM99} and Solynin in \cite{aS98,aS99}.  More recently, they have been studied by Mej{\'{\i}}a and Pommerenke in \cite{PM00,MP00b,MP01,MP02,MP00} and Mej{\'{\i}}a, Pommerenke, and Vasil'ev in \cite{MPV01}.  There have been a number of open problems and conjectures in these papers.  A critical obstacle to these studies had been the lack of a suitable variational method for this class.  
+
+In this paper, we recall our variational technique developed in \cite{bw03}, based on Julia's formula for the Hadamard variation,  that was used to overcome this obstacle and to resolve a number of these problems and conjectures.  We then use this variational method here to prove a fairly general theorem, which includes as special cases a number of the results refered to in the referenced papers in the introductory paragraph.
+
+Let $\D = \{ z \in \C : |z| < 1 \}$ denote the unit disk in $\C$ and let $\T = \partial \D$.  The hyperbolic plane can be viewed as $\D$ with the imposed hyperbolic metric ${\lambda(z)|dz| = \frac{2|dz|}{1 - |z|^2}}$.  Under this metric, hyperbolic geodesics in $\D$ are connected subarcs of Euclidean circles which intersect $\T$ orthogonally.  A set  $S \subset \D$ is {\it hyperbolically convex} if for any two points $z_1$ and $z_2$ in $S$, the hyperbolic geodesic connecting $z_1$ to $z_2$ lies entirely inside of $S$.
+
+We say that a function $f : \D \rightarrow \D$ is {\it hyperbolically convex} if $f$ is analytic and univalent on $\D$ and if $f(\D)$ is hyperbolically convex.  The set of all hyperbolically convex functions $f$ which satisfy $f(0) = 0$ will be denoted by $H$.  Interesting examples are the normal fundamental domains of Fuchsian groups in $\D$.
+
+A {\it hyperbolic polygon} is a simply connected subset of $\D$, which contains the origin and which is bounded by a Jordan curve consisting of a finite collection of hyperbolic segments and arcs of the unit circle.  The hyperbolic segments internal to $\D$ will be referred to as {\it proper sides}.  We let $H^{poly}$ denote the subset of $H$ of all functions mapping $\D$ onto hyperbolic polygons. Further, we let $H^n$ denote the subclass of $H^{poly}$ of all functions mapping $\D$ onto polygons with at most $n$ proper sides. It is easily seen that $H^{poly}$ is dense in $H$ .  Furthermore, $H \cup \{0\}$ and $H^n \cup \{0\}$, for each $n$, are compact.
+
+Each function $f \in H$ satisfies Schwarz's Lemma and, hence, $|f'(0)| \le
+1$.  For $0 < \alpha \le 1$, let $H_{\alpha} = \{f \in H : f(z) = \alpha z + a_2z^2 +
+a_3z^3 + \cdots \}$.  As an aside, we note that $H_1$ consists only of the identity map.
+
+An important example of a hyperbolically convex function is given by, up to rotation, 
+\begin{equation}\label{kalpha}
+f(z) = k_{\alpha}(z) \equiv \frac{2\alpha z}{(1-z)+ \sqrt{(1-z)^2 + 4\alpha^2z}}
+\end{equation}
+
+\noindent The function $k_{\alpha}$ maps $\D$ to a hyperbolic polygon bounded by exactly one proper side.  Ma and Minda \cite{MM94, MM99} and Mej\'ia and Pommerenke \cite{PM00} have given detailed descriptions of the properties of $k_{\alpha}$.  
+
+Let $\Re\{z\} = $ real part $z$.  Our main theorem, which combines the cases $H$ and $H_{\alpha}$, is, 
+
+\vspace{0.1in}
+
+\begin{theorem}
+Let $\Phi$ be 
+%real 
+entire. For $z \in \D \setminus \{0\}$ and $a_k \in \R, k=0 \dots n$, let 
+
+\begin{equation}
+\label{eqnF}
+{\dsp F(f,z) = \sum_{k=0}^n a_k \log {f^{(k)}(z)}}
+\end{equation}
+
+\noindent and let 
+
+\begin{equation}
+\label{eqnQ}
+{\dsp Q(\zeta) = \sum_{k=0}^n a_k \left ( \frac{G^{(k)}(\zeta,z)}{f^{(k)}(z)} \right )},
+\end{equation}
+
+\noindent where
+
+\begin{equation}
+\label{eqnG}
+{\dsp G^{(k)}(\zeta,z) = \frac{\partial^{(k)} \left (zf'(z)\frac{\zeta +z}{\zeta - z} \right )}{\partial z^{(k)}}}.
+\end{equation}
+
+\noindent Let $f \in H$ ($f \in H_{\alpha}$) be extremal for 
+
+\begin{equation}
+\label{funcL}
+L(f) = \Re \left\{ \Phi \circ F(f,z) \right\}
+\end{equation}
+over $H$ (over $H_{\alpha}$) such that 
+\begin{enumerate}
+\item $\xi  = \Phi ' \circ F(f,z) \ne  0 $,
+
+\item $\xi Q$ maps $\T$ to a curve $\Lambda$ such that $\Lambda$ traversely crosses the imaginary axis (every vertical line) at most twice.
+\end{enumerate}
+
+\noindent Then, the extremal value for $L$ over $H$ (over $H_{\alpha}$) can be obtained from a hyperbolically convex function which maps $\D$ onto a hyperbolic polygon with at most one proper side.
+
+\end{theorem}
+
+\vspace{0.1in}
+
+The proofs of the following corollaries will be discussed in Section 3.
+
+\vspace{0.1in}
+
+\begin{corollary}\label{cor1}
+Let $z \in \D \setminus \{0\}$ and let $f \in H_{\alpha}$, $0 < \alpha < 1$, be extremal over $H_{\alpha}$ for ${\dsp L(f) = |{f(z)}|}$, a continuous functional on $H_{\alpha}$.  Then, the extremal value for $L$ over $H_{\alpha}$ can be obtained from the hyperbolically convex function $k_{\alpha}$ in (\ref{kalpha}) which maps $\D$ onto a hyperbolic polygon with at exactly one proper side.
+\end{corollary}
+
+\newpage
+
+\begin{corollary}\label{cor2}
+Let $z \in \D \setminus \{0\}$ and let $f \in H$ be maximal over $H$ for ${\dsp L(f) = |{f'(z)}|}$, a continuous functional on $H$.  Then, the maximal value for $L$ over $H$ can be obtained from a hyperbolically convex function which maps $\D$ onto a hyperbolic polygon with at most one proper side.
+\end{corollary}
+
+\vspace{0.1in} 
+
+\noindent \textbf{Remark} The scope of Theorem 1.1 can be extended in the following fashion:  if the second of the itemized hypotheses (the hypothesis which describes the geometry of the image of $\T$ under the kernel $\xi Q\,$) is generalized to 
+
+\vspace{0.1in} 
+
+{\em
+(2) $\xi Q$ maps $\T$ to a curve $\Lambda$ such that $\Lambda$ traversely crosses the imaginary axis (every vertical line) at most $\,2N$ times.
+}
+\vspace{0.1in} 
+
+\noindent then the conclusion of the theorem generalizes to
+
+\vspace{0.1in} 
+
+{\em
+Then, the extremal value for $L$ over $H$ (over $H_{\alpha}$) can be obtained from a hyperbolically convex function which maps $\D$ onto a hyperbolic polygon with at most $N$ proper sides.
+}
+\vspace{0.1in} 
+
+Using that generalization we have the following corollaries 
+
+\vspace{0.1in}
+
+\begin{corollary}\label{cor3}
+Let $z \in \D \setminus \{0\}$ and let $f \in H_{\alpha}$, $0 < \alpha < 1$,  be extremal over $H_{\alpha}$ for ${\dsp L(f) = |{f'(z)}|}$, a continuous functional on $H_{\alpha}$.  Then, the extremal value for $L$ over $H_{\alpha}$ can be obtained from a hyperbolically convex function which maps $\D$ onto a hyperbolic polygon with at most two proper sides.  If $|z| < \frac{1}{2}$, then the maximal value for $L$ over $H_{\alpha}$ can be obtained from the hyperbolically convex function $k_{\alpha}$ in (\ref{kalpha}) which maps $\D$ onto a hyperbolic polygon with exactly one proper side.
+\end{corollary}
+
+\vspace{0.1in}
+
+\begin{corollary}\label{cor4}
+Let $z \in \D \setminus \{0\}$ and let $f \in H_{\alpha}$ be extremal over $H_{\alpha}$, $0 < \alpha < 1$,  for ${\dsp L(f) = \arg f'(z)}$, a continuous functional on $H_{\alpha}$.   Then, the extremal value for $L$ over $H_{\alpha}$ can be obtained from a hyperbolically convex function which maps $\D$ onto a hyperbolic polygon with at most two proper sides.  If $|z| < 2-\sqrt{3}$, then the extremal value for $L$ over $H_{\alpha}$ can be obtained from the hyperbolically convex function $k_{\alpha}$ in (\ref{kalpha}) which maps $\D$ onto a hyperbolic polygon with exactly one proper side.
+\end{corollary}
+
+%\vspace{0.1in} 
+
+%We note that Corollary 1.1 can be used to give the standard growth, covering and early coefficient 
+%theorems obtained by Ma and Minda \cite{MM94,MM99}.  Corollary 1.3 gives a new independent proof of 
+%the frequently stated open problem \cite{MM99,PM00,MP01,MP00} recently solved by Mej{\'{\i}}a, 
+%Pommerenke, and Vasil'ev \cite{MPV01}, which required other methods.
+
+\vspace{0.1in}   
+
+\noindent \textbf{Remark on Corollary \ref{cor3}} The function $k_{\alpha}$ in (\ref{kalpha}) cannot be the extremal function in Corollary \ref{cor3} for $|f'(z)|$ over $H_{\alpha}$ for all values of $z \in \D \setminus\{0\}$.  To see this, we refer the reader to the cusp domains created in \cite{MP00} or, alternately, to the following construction: In \cite{MM99}, Ma and Minda noted that $k_{\alpha}(\D) = \D \setminus \{w : |w + \frac{1}{\alpha}| \le \frac{1}{\alpha}\sqrt{1-\alpha^2}\}$.  For $|z|$ near $1$, the maximum growth of $k'_{\alpha}$ occurs for $z$ near $\zeta$, the pre-image under $k_{\alpha}$ of the corner of $k_{\alpha}(\D)$ in the second quadrant.  Near $\zeta$, we have $k'_{\alpha}(z)= O(\frac{1}{|\zeta - z|^{1/2}})$.  Let $\D(\alpha^{*},\beta) = \{z : |z| < \alpha^{*}\} \cup \Gamma \cup T(\alpha^{*},\beta)$, where $T(\alpha^{*},\beta)$ is the hyperbolic triangle which is symmetric about the real axis, bounded on the left side by the circle $|z| = \alpha^{*}$ and which has  vertex $\beta > \alpha^{*}$ and symmetric sides $\gamma_1$ and $\gamma_2$ which are geodesics which pass through $\beta$ and are tangent to the circle $|z| = \alpha^{*}$ and where $\Gamma$ is the open arc on the circle $|z| = \alpha^{*}$ bounded between the disc $\{z : |z|< \alpha^{*}\}$ and the triangle $T(\alpha^{*},\beta)$.  For $\alpha^{*}$ near $\alpha$, $0 < \alpha^{*} < \alpha$, there is (by subordination) a choice of $\beta$ so that the mapping radius of $\D(\alpha^{*},\beta)$ = $\alpha$.  Let $f(\alpha^{*},\beta;.)$ be the normalized map in $H_{\alpha}$ which maps $\D$ to $\D(\alpha^{*},\beta)$ such that $f(\alpha^{*},\beta;1) = \beta$.  For $z$ near $1$, the maximum growth of $f'(\alpha^{*},\beta;.)$ occurs for $z$ near $1$.  Near $1$, we have $f'(\alpha^{*},\beta;z)=O(\frac{1}{|z-1|^{1-\delta}})$ where $\delta\pi$ is the interior angle between $\gamma_1$ and $\gamma_2$ at $\beta$.  Since $\delta$ can be made arbitrarily close to $0$ by choosing $\beta$ sufficiently close to $1$, then for $|z|$ sufficiently close to $1$ we have the maximum of $|f'(\alpha^{*},\beta;z)|$ will exceed the maximum of $|k'_{\alpha}(z)|$.  
+
+We note that in addition to the above limiting case argument that for fixed $\alpha$ the function $k_{\alpha}$ in (\ref{kalpha}) cannot be extremal for $|f'(z)|$ over $H_{\alpha}$ for all values of $z \in \D \setminus\{0\}$, numerical examples can be computed which show for fixed $\alpha$ that for $|z|$ near $1$ there are two-sided (real-axis symmetric) hyperbolically convex polygons $f \in H_{\alpha}$ for which $|f'(z)|$ exceeds the maximum of $|k'_{\alpha}(z)|$.  
+
+As an aside, corollaries similiar in nature to Corollary \ref{cor3} could be stated for the problems of extremizing the functionals $\text{Re} f'(z)$ and $\text{Im} f'(z)$ over $H_{\alpha}$.  Here again, for fixed $\alpha$, the function $k_{\alpha}$ in (\ref{kalpha}) cannot be extremal for $\text{Re} f'(z)$ over $H_{\alpha}$ for all values of $z \in \D \setminus\{0\}$ nor for $\text{Im} f'(z)$ over $H_{\alpha}$ for all values of $z \in \D \setminus\{0\}$.  Numerical examples can be computed which show for fixed $\alpha$ that for $|z|$ near $1$, there are two-sided (real-axis symmetric) hyperbolically convex polygons $f \in H_{\alpha}$ for which $\text{Re}\  f'(z)$ exceeds the maximum (minimum) of $\text{Re}\  k'_{\alpha}(z)$ and others for which $\text{Im}\  f'(z)$ exceeds the maximum (minimum) of $\text{Im}\  k'_{\alpha}(z)$. 
+
+
+
+
+\vspace{0.1in}   
+
+\noindent \textbf{Remark on Corollary \ref{cor4}} In contrast to the previous remark, where it was observed that the conclusion of Corollary \ref{cor3} is best possible, i.e., that for fixed $\alpha$,  there are cases where the extremal function for $|f'(z)|$ over $H_{\alpha}$ will have two proper sides, numerical evidence tends to suggest for fixed $\alpha$ that $k_{\alpha}$ is the only extremal function for $\arg f'(z)$ over $H_{\alpha}$, even for $|z|$ near $1$.  Given the numerical evidence, we conjecture that, in fact, for fixed $\alpha$ and for $z \in \D \setminus \{0\}$ that $k_{\alpha}$ is the only extremal function for $\arg f'(z)$ over $H_{\alpha}$. 
+
+\vspace{0.1in}   
+
+\section{Variations for $H^{poly}$}
+
+For completeness and to help with referencing, we include the following summary of variations for $H^{poly}$ which were introduced in \cite{bw03}.  The Julia variational formula is developed as follows:  Let $f \in H^{poly}$ map $\D \to \Omega \subseteq \D$ such that $\del \Omega$ is piecewise analytic with right and left tangents at all points.  For $w\in \del \Omega$, let $n(w)$ be the outward unit normal where it exists and the zero vector where it does not.  Let $\phi$ be a piecewise differentiable function, $\phi$:$\del \Omega \to \R$ with $\phi(w_j)= 0$ where $\left\{ w_j \right\}$ is the collection of points at which $\del \Omega$ is not analytic. We define a new curve $\del {\Omega_{\eps}}$ pointwise by letting ${w_{\eps}} = w + \eps \lambda \phi(w) n(w)$, where the control $\lambda$ is a fixed real parameter.  By choosing $\eps$ sufficiently small, $\del {\Omega_{\eps}}$ is a Jordan curve.  We now define ${\Omega_{\eps}}$ to be the region bounded by $\del {\Omega_{\eps}}$.  Let ${f_{\eps}}$ to be the Riemann map sending $\D$ onto  ${\Omega_{\eps}}$ such that ${f_{\eps}}(0)=0$. 
+
+Julia's result (which was really a generalization of Hadamard's work with Green's functions) was that we can write ${f_{\eps}}$ as a variation of our original $f$. In particular,
+
+\begin{equation}
+\label{Julia} {f_{\eps}}(z) = f(z) + \frac{\eps  \lambda zf'(z)}{2\pi i}\int\frac{\zeta + z}{\zeta -z} \frac{\phi (w) n(w)}{\left[ \zeta f'( \zeta ) \right]^2}dw + o(\eps),
+\end{equation}
+
+\noindent where $w = f(\zeta)$ for $\zeta = e^{i\theta},\, 0\leq \theta < 2\pi$,and $o(\eps)= o(z,\eps)$ is analytic in $z$, piecewise differentiable in $\eps$ and converges uniformly on compact subsets of $\D$. 
+
+Since, the normal to the boundary of $f(\D)$, where the boundary can be parameterized as $w = f(\zeta)$, can be written as $n(w) = \frac{\zeta f'(\zeta)}{|\zeta f'(\zeta)|}$, then equation (\ref{Julia}) can be rewritten as 
+
+\begin{equation}
+\label{Julia1} {f_{\eps}}(z) = f(z) + \eps \lambda \int zf'(z)\frac{\zeta + z}{\zeta -z} d\Psi + o(\eps)
+\end{equation}
+
+\noindent where ${\dsp d\Psi = \frac{\phi(w)}{2\,\pi} \frac{d\theta}{|\zeta f'(\zeta)|}}$ is a non-negative measure on $\T$.  Furthermore, the change in mapping radius between $f_{\eps}$ and $f$ is given by
+
+\begin{equation}\label{changemr}
+\Delta mr(f_{\eps},f) =
+ \eps \lambda f'(0) \int \,d\Psi  +o(\eps).
+\end{equation}
+
+
+The problem encountered in using the method of Julia variations with hyperbolically convex functions is  the difficulty in finding variations on the sides of the approximating polygons that leave the varied functions in the original class.  We describe two basic types of variations which preserve the class $H^{poly}$.  One of these will preserve the number of sides in the varied polygon.  The other will increase it by one.   
+
+For each type of variation, there are three cases with which we need to consider, depending on the angles at the ends of the sides being varied.  The first case is when a single side meets the boundary of the unit circle at an angle of $\pi/2.$  The next case is the one in which two sides meet on the interior of the disk at an angle lying beytween $0$ and $\pi$.  Finally, we deal with the case in which the two sides meet on the boundary of the disk at a zero angle.  This case must be subdivided into two variations, one in which the side is pushed out thus turning the cusp into two right angles and one in which the meeting of the two sides is moved into the disk and the angle is increased to a positive angle. 
+
+We first introduce the class preserving variations for $H^n$, i.e., variations which for $f$ in $H^n$ will produce varied functions $f_{\eps}$ which again are in $H^n$.  We use these in the proof of Theorem 1.1 to reduce the number of sides in the extremal domain to at most two.  After the class preserving variations, we define the variations which increase the number of sides, i.e., variations which for $f$ in $H^n$ will produce varied functions $f_{\eps}$ which are in $H^{n+1}$.    These we use, in the manner described by Barnard, Cole, Pearce, and Williams \cite{bw03}, to reduce the possible extremal domains from polygons with at most two sides to those having at most one side.
+
+The analyses of the first two cases are similar, so we discuss those concurrently.  We illustrate by varying a side meeting the boundary of the disk on one side with an angle of  $\pi / 2$ and meeting internally another side with an angle of $\theta$ with $0 < \theta < \pi$ on the other (although the analysis works identically with any permutation of the two sorts of corners).  See Figure \ref{Fi:f2_1} below.
+
+\begin{figure}[ht]
+\begin{center}
+\scalebox{.25}{\includegraphics[angle=0]{figure-1}}
+\caption{Variation at an Internal Angle}\label{Fi:f2_1}
+\end{center}
+\end{figure}
+
+We consider side $\AB$ of our hyperbolically convex polygon $\Omega$.  We label the point on the geodesic continuation of $\AB$ to $\T$ as the point $C$, allowing for the possiblility that $B=C$.  To perform our variation we take the midpoint of $\AC$ and call it $M$.  Our variation will consist of moving $M$ radially by a fixed small distance $\eps \phi (M)$ for constant $\phi (M)$.  This $\phi(M)$ is chosen sufficiently small to assure that the varied polygon retains the same number of sides as the original.  This will give us the new point $M' = M + \eps \phi(M)n(M)$.  Having defined the variation at $M$, we now define the variation $\phi(w)$ for all other $w$ on $\AB$.  
+
+For a given $\eps$ we define a new curve $\widehat{A'B'}$ which is the arc of the unique hyperbolic geodesic through $M'$ having $M'$ as the midpoint of the extension $\widehat{A'C'}$ and connecting $A'$ to $B'$ the resulting endpoints on $\del \Omega_{\eps}$ in the interior variation or the necessary extension of the original connecting sides of $\del \Omega$ in the exterior case.  We then define the variation $\phi(w) = \phi(w,\eps)$ to be the distance to the point on $\widehat{A'B'}$ which is on the line extended along the normal $n(w)$.
+
+\newpage
+
+\begin{lemma}
+For $\eps$ small, expanding $\phi(w,\eps)$ linearly at $\eps = 0$ gives 
+
+$$
+\phi(w,\eps) = \frac{\del \phi(w,0)}{\del \eps} \eps + o(\eps)
+$$
+
+\noindent with $\frac{\del \phi(w,0)}{\del \eps} \neq 0$.
+\end{lemma}
+
+\vspace{0.1in}
+
+\noindent \textbf{Proof}:  Without loss of generality, we consider only the case when $\eps < 0$.  To simplify constructions and descriptions we also assume that $M$ and $M'$ are both real and negative.  We start by considering the circle $\Lambda_0$ in the plane concentric with our original geodesic through the point $M'$.  We define $\tilde{\phi}(w)$ to be the radial distance from $w$ to $\Lambda_0$.  Note that clearly we have 
+
+$$
+\tilde{\phi}(w) = \eps \phi(M). 
+$$
+
+Our strategy is to show that for each $w \in \AB$, we have that $\phi(w) > \tilde{\phi}(w)$.  Since $\phi(w)$ is sufficiently smooth, we may expand it as a first order Taylor polynomial.  Suppose that $\frac{\del \phi(w,0)}{\del \eps} = 0$.  Then, on expanding as a function of $\eps$ we get that $\phi (w,\eps) = o(\eps)$. 
+
+So  if we divide $\phi(w,\,\eps)$ by $\tilde{\phi}(w)$ and take the limit as $\eps$ goes to zero from below, we get zero, by the definition of $o(\eps)$.  However, as we show $\phi(w) > \tilde{\phi}(w)$, the quotient must be greater than one for every sufficiently small $\eps$.  Thus, the limit, if it exists at all, must be greater than or equal to one.  Hence, we have a contradiction.  The assumption that $\frac{\del \phi(w,0)}{\del \eps} = 0$ must fail and we have our result.
+
+Showing that  $\tilde{\phi}(w) < \phi(w)$ comes from a simple geometric construction.  We note that except at $M'$, the curve $\widehat{A'B'}$ will lie outside of $\Lambda_0$.  Since $\AB$ lies inside of $\Lambda_0$, see Figure \ref{Fi:lastfig}, the distance from $w$ to $\Lambda_0$ is less than the distance to $\widehat{A'B'}$ and we are done.  $_{\blacksquare}$
+
+\begin{figure}[ht]
+\begin{center}
+\scalebox{.25}{\includegraphics[angle=0]{figure-2}}
+\caption{Construction of $\AB$, $\Lambda_0$, and $\widehat{A'B'}$}\label{Fi:lastfig}
+\end{center}
+\end{figure}
+
+ 
+With this, we can now write our varied point $w'$ from $w$ as 
+
+$$
+w' = w + \frac{\del \phi(w,0)}{\del \eps}\eta(w)\eps + o(\eps).
+$$
+
+\noindent We can then absorb the $o(\eps)$ term into the error term in the Julia Variation formula.  Although the variations necessary to produce domains that are in the original class are not always strictly normal, it was shown by Barnard and Lewis \cite{bl}, that  the error introduced for small $\eps$ is of order $o(\eps)$ and thus may also be absorbed into the  $o(\eps)$ term in the variational formula.
+
+As the previous analysis dealt with both the first two cases, we are left only with the case in which the two sides meet at a cusp.  This in turn will be dealt with in two steps.  In the first case, we take $\eps > 0$ and move the arc of the circle outwards. The second case, of course, is that we take $\eps < 0$ and move the arc of the circle towards the middle of $\D$ (see Figure \ref{Fi:f2_2}).
+
+\begin{figure}[ht]
+\begin{center}
+\scalebox{.2}{\includegraphics[angle=0]{figure-3}}
+\caption{Variations at a Cusp}\label{Fi:f2_2}
+\end{center}
+\end{figure}
+
+In the first case, $\eps > 0$, we are actually removing the cusp and turning it into two separate right angles at $A$ and $A_1$.  Note that this does not increase the number of new sides, as the new ``side'' lies on $\T$ and thus does not count as a proper side of the polygon.  Since this variation can be done normally without moving the vertex at the cusp, the previous arguments hold. In the second case,  we pull the side slightly into the disk.  The arguments of Barnard and Lewis for controlling the error rates are valid in this case also (where we have a bounded cusp with zero opening).  Thus, we have a valid application of the Julia Variation Formula for all of our class preserving variations of various angles in our polygons.
+
+We end this section with a final variation we can apply with all three types of intersection.  We add a new small side to our polygon ``cutting off'' a vertex $z_0$.  This variation, unlike those previously described, will not preserve the class $H^n$ but will leave the varied function in $H^{n+1}$.  We choose a point $z_1$ on the side of the polygon we are varying, some fixed small (Euclidean) distance $\delta$ from $z_0$.  (See Figure \ref{Fi:f2_3}).  Then, choose a point $z_2$ on either the next side (if the vertex occured at a cusp or in the interior of $\D$) or along the arc of $\T$ (if the vertex was a right angle on the boundary).  Choose $z_2$ some small distance $\eps$ from $z_0$ along the new side.  Finally join $z_1$ with $z_2$ with a hyperbolic geodesic. The variation will ``pivot''the new side $\widehat{z_1z_2}$ about $z_1$ into the polygonal domain.  The analysis of the error for these variations follows very much the same path as for the previous cases.  
+
+\begin{figure}[ht]
+\begin{center}
+\scalebox{.2}{\includegraphics{figure-4}}
+\caption{Side Adding Variation (Right Angle Illustrated)}\label{Fi:f2_3}
+\end{center}
+\end{figure}
+
+
+\section{Proofs}
+
+\noindent \textbf{Proof of Theorem 1.1}  First, consider the case of extremizing $L$ over $H$.  Suppose that $f \in H^n$ is extremal for (\ref{funcL}) over $H^n$ for some $n \ge 3$ and that $f(\D)$ has at least $3$ proper sides.  Choose one of the proper sides of $f(\D)$, say $\Gamma$, and let $\gamma = f^{-1}(\Gamma)$.  We apply one of the class preserving variations described in the previous section to $\Gamma$.  From equations (\ref{eqnG}) and (\ref{Julia1}), we have for each $k, 0 \le k \le n$, 
+
+$$
+f_{\eps}^{(k)}(z) = f^{(k)}(z) + \eps \lambda \int_{\gamma} G^{(k)}(\zeta,z)  d\Psi  + o(\eps)
+$$
+
+\noindent which can be rewritten as
+
+$$
+f_{\eps}^{(k)}(z) = f^{(k)}(z)\left \{ 1 + \eps \lambda \int_{\gamma}  \frac{G^{(k)}(\zeta,z)}{f^{(k)}(z)}  d\Psi \right \} + o(\eps).
+$$
+
+
+Using this last equation, we can write
+
+\begin{equation}
+\label{logeq}
+\log {f_{\eps}^{(k)}(z)} =
+\log {f^{(k)}(z)} +
+\log \left \{ 1 + \eps \lambda \int_{\gamma}  \frac{G^{(k)}(\zeta,z)}{f^{(k)}(z) }  d\Psi \right \} + o(\eps).
+\end{equation}
+\noindent Expanding the right hand side of (\ref{logeq}) linearly in $\eps$, for sufficiently small values of $\eps$, gives 
+  
+$$
+\log {f_{\eps}^{(k)}(z)} =
+\log {f^{(k)}(z)} +
+\eps \lambda \int_{\gamma}  \left (\frac{G^{(k)}(\zeta,z)}{f^{(k)}(z)} \right )  d\Psi + o(\eps).
+$$
+
+\noindent Hence, we can write using (\ref{eqnF}), (\ref{eqnQ}) and (\ref{funcL})
+
+$$
+L(f_{\eps}) = \Re \left \{\Phi \circ \left (F(f,z) + \eps \lambda \int_{\gamma} Q(\zeta) d\Psi  + o(\eps) \right)\right\}.
+$$
+
+If $\frac{\partial L(f_{\eps})} {\partial \eps} \vert_{\eps = 0}$ is non-zero, then the value of $L(f_{\eps})$ can be made larger (or smaller) than the value of $L(f)$, which will imply that $f$ cannot be extremal for (\ref{funcL}) in $H^n$.  Using the above representation for $L(f_{\eps})$ and the fact that $\Phi$ is entire, we can differentiate $L(f_{\eps})$ as a function of $\eps$ and obtain
+
+$$
+\frac{\del L(f_{\eps})}{\del \eps} \big \vert_{\eps = 0} =
+\Re \left\{ \lambda \int_{\gamma}  \Phi' \circ F(f,z) \  Q(\zeta)\  d\Psi \right\}.
+$$
+
+\noindent By hypothesis we have that the first term, $\xi =\Phi' \circ F(f,z)$ is nonzero. We can pass the $\Re$ operator through the integral as $d\Psi$ is a real measure.  Thus, for the derivative to be zero, we must have $\int_{\gamma} \Re \left\{\xi Q(\zeta)\right\} d\Psi$ to be zero.  As $d\Psi$ is real valued, we have a real-valued integrand and a real-valued measure.  
+
+We are assuming that $f$ is extremal for (\ref{funcL}) in $H^n$ and considering the case where $f$ has at least three proper sides, say $\Gamma_j, j=1,2,3$.  We now observe that we can vary each side $\Gamma_j$ separately.  Let $\gamma_j$ be the arc $\left[ e^{i\alpha_j}, e^{i\beta_j} \right]$, the preimage of $\Gamma_j$ under $f$, $j=1,2,3$.  Applying the class-preserving variation to each side $\Gamma_j$ yields the requirement, under the supposition that $f$ is extremal in $H^n$,
+
+$$
+\int_{\gamma_j} \Re \{\xi Q(\zeta)\} d\Psi = \int_{\left[ e^{i\alpha_j}, e^{i\beta_j} \right]} \Re \{\xi Q(\zeta)\} d\Psi(e^{i\theta}) = 0, \ \ j=1,2,3.
+$$
+
+Applying the mean value theorem for integrals we obtain
+
+$$
+\int_{\left[ e^{i\alpha_j}, e^{i\beta_j} \right]}\Re\left\{\xi Q(\zeta) \right\}d\Psi(e^{i\theta}) =\Re \left\{\xi Q(\zeta(\theta)\}\right)|_{\theta=\theta_j}\int_{\left[ e^{i\alpha_j}, e^{i\beta_j} \right]} d\Psi
+$$
+
+\noindent where $\alpha_j< \theta_j < \beta_j$.  Note that as $\alpha_j \neq \beta_j$, we have $\int_{\left[ e^{i\alpha_j}, e^{i\beta_j} \right]} d\Psi > 0$.  Thus, the only way our integral can be zero is for $ \Re \left\{\xi Q(\zeta(\theta))\right\}|_{\theta=\theta_j} $ to be zero.  
+
+Since we can perform the appropriate class preserving variation described above on each proper side $\Gamma_j, j=1,2,3$, we must have
+
+\begin{equation}\label{lasteq}
+\frac{\del L(f_{\eps})}{\del \eps} \big \vert_{\eps = 0} = \Re \{\xi Q(e^{i\theta_j})\} \lambda \int_{\left[  e^{i\alpha_j}, e^{i\beta_j} \right ]}d\Psi = 0, \ \  j=1,2,3
+\end{equation}
+
+
+\noindent where $\theta_j$ lies in the interval  $\left( \alpha_j, \, \beta_j \right)$.  Thus, $\frac{\partial L(f_{\eps})} {\partial \eps} |_{\eps = 0}$ can only be zero at a root of $\Re\{\xi Q(\zeta)\}=0$.  By hypothesis $\xi Q$ maps $\T$ to a curve $\Lambda$ such that $\Lambda$ intersects the imaginary axis only twice.  Since $\Re \{\xi Q(e^{i\theta_j})\}$ can equal $0$ for only two of our three sides, there exists a third side we can push either in or out and increase (or decrease) the value of $L$ for some function $f_{\eps}$ near $f$, using our variational argument.  Thus, $f$ is not extremal for $L$, i.e., if $f$ is extremal in $H^n,\, n\geq 3,$ then $f\in H^2 \subset H^n$. 
+
+
+We now have that the extremal $f$ can have at most two proper sides.  We now argue that $f$ can actually have at most one, using an argument from Barnard \emph{et al.} \cite{bw03}.  Consider $H^n,\, n \ge 3$, and let $f$ be extremal in $H^n$ for (\ref{funcL}).  By the above argument, $f(\D)$ can have at most two sides.  Suppose $f(\D)$ has exactly two proper sides. If the image under the map $\xi Q$ of the preimage of either side is entirely on one side or the other of the imaginary axis, then by our previous arguments, we can increase (or decrease) the value achieved by $L(f_{\eps})$ and hence $f$ is not extremal.  So we conclude that both images intersect the imaginary axis.  Thus, for each proper side $\Gamma$ of $f(\D)$, we must have that the image under the map $\xi Q$ of the preimage of one endpoint of $\Gamma$ lies in the left-half plane and the image under the map $\xi Q$ of the preimage of other endpoint $\Gamma$ lies in the right-half plane. 
+
+Suppose the problem we are considering is to maximize $L$.  We consider a vertex $z_0$ whose image under $\xi Q$ is in the left half plane. Apply the variation at the vertex $z_0$ described above which adds another side to $f(\D)$, 
+making sure to keep the entire image of the new side under $\xi Q$ in the left 
+half-plane.  We now have the derivative (\ref{lasteq}) taken over our 
+newly created side is positive.  By our basic variational argument, the newly varied 
+function has a greater value for $L$.  But this means $f$ cannot 
+be extremal.  A similar argument works if the problem we are considering is to minimize $L$. Thus, the extremal function for $L$ in $H^n,\, n\geq 3,$ cannot have two proper sides.  It follows therefore that the extremal function in $H^n$ can have at most one proper side.  
+
+Since $H^2 \subset H^n$ for all $n \geq 3$, if $f$ is extremal in $H^n$ and is an element of $H^2$, it must be extremal in $H^2$ as well.  Thus, the extremal element in $H^2$ has at most one proper side.  Thus, the extremal value for $L$ in each $H^n$ is achieved by the region with at most one proper side and hence the extremal value for $\dsp{H = \overline{ \cup_{n\in \N} H^n}}$ is achieved by a region with at most one proper side.  This completes the case for extremizing $L$ over $H$.
+
+We now consider the problem of extremizing $L$ over $H_{\alpha}$.  Let $H^n_{\alpha} = H^n \cap H_{\alpha}$.  Suppose that $f \in H^n_{\alpha}$ is maximal for (\ref{funcL}) over $H^n_{\alpha}$ for some $n \ge 3$ and that $f(\D)$ has at least $3$ proper sides, say $\Gamma_j, j=1,2,3$.  Let $\gamma_j$ be the arc $\left[ e^{i\alpha_j}, e^{i\beta_j} \right]$, the preimage of $\Gamma_j$ under $f$, $j=1,2,3$.  
+
+Applying the class-preserving variation to each side $\Gamma_j$,  with control $\lambda_j$, yields the requirement, under the supposition that $f$ is extremal in $H^n_{\alpha}$,
+\begin{equation}\label{lasteq1}
+\frac{\del L(f_{\eps})}{\del \eps} \big \vert_{\eps = 0} = \sum^3_{j=1} \lambda_j \Re \{\xi Q(e^{i\theta_j})\}\int_{\left[  e^{i\alpha_j}, e^{i\beta_j} \right ]}d\Psi = 0
+\end{equation}
+
+\noindent subject to the constraint 
+
+\begin{equation}\label{lasteq2}
+\frac{\partial \Delta mr(f_{\eps},f)}{\partial\eps} \big \vert_{\eps = 0} =
+\sum_{j=1}^3 \lambda_j \alpha \int_{\gamma_j} \,d\Psi  = 0,
+\end{equation}
+
+\noindent where again each $\theta_j$ lies in the interval  $\left( \alpha_j, \, \beta_j \right)$.  
+
+
+By hypothesis, $\xi Q$ maps $\T$ to a curve $\Lambda$ such that no vertical line intersects $\Lambda$ more than twice. Hence, 
+not all three of the points $\xi Q(e^{i\theta_j}),\ j=1,2,3,$ can
+have the same real part.  Without loss 
+of generality suppose that $\Re \xi Q(e^{i\theta_1}) > \Re \xi Q(e^{i\theta_2})$.  
+Then, we can push $\Gamma_1$ out, $\Gamma_2$ in (and not vary
+$\Gamma_3$) so as to increase the value of $L(f_{\eps})$ from the value of $L(f)$
+within the class $H_{\alpha}^n$.  Specifically, choose $\lambda_1 > 0 > \lambda_2$
+(and $\lambda_3 = 0$) so that $\frac{\partial \Delta mr(f_{\eps},f)}{\eps} \vert_{\eps = 0}
+= 0$ in (\ref{lasteq2}).  Then, we have from (\ref{lasteq1})
+
+\begin{eqnarray}\label{lasteq3}
+\frac{\partial L(f_{\eps})}{\partial \eps} \big \vert_{\eps = 0} &=& \Re \xi Q(e^{i\theta_1}) {\lambda_1}
+\int_{\gamma_1} d\Psi + \Re \xi Q(e^{i\theta_2}) {\lambda_2} \int_{\gamma_2} d\Psi
+\\ \nonumber &>& \Re \xi Q(e^{i\theta_2}) \left({\lambda_1} \int_{\gamma_1} d\Psi +
+{\lambda_2} \int_{\gamma_2} d\Psi \right) \\ \nonumber &=& 0 .\nonumber
+\end{eqnarray}
+
+
+Thus, $f$ is not extremal for $L$ in $H_{\alpha}^n$.  Consequently, if $f$ is
+extremal in $H_{\alpha}^n,\, n\geq 3,$ then $f\in H_{\alpha}^2 \subset H_{\alpha}^n$,
+that is,  the extremal $f$ can have at most two proper sides.  A similar argument works if the problem we are considering is to minimize $L$. 
+
+We now argue that the extremal $f$ can have at most one side in an analogous way to the preceding argument (for the case extremizing $L$ over $H$).  We suppose that $f(\D)$ has exactly two proper sides, $\Gamma_j, \ j=1,2$. Then, the only difference in the argument is that role of the imaginary axis is replaced by that of a fixed vertical line which would necessarily intersect the images under $\xi Q$ of the preimages of the sides $\Gamma_j, \ j=1,2$ and the change in the mapping radius can be controlled if there are two available sides to move.  This completes the proof of Theorem 1.1. $_\blacksquare$
+
+
+\vspace{0.1in}   
+
+\noindent \textbf{Proof of Corollary \ref{cor1}}  In this case, extremizing $|f(z)|$ over $H_{\alpha}$ is equivalent to extremizing $\log |f(z)|$ over $H_{\alpha}$.  For this latter problem, we take $\Phi$ in Theorem 1.1 to be the identity function and  $L(f) =  \Re \left\{ \Phi \circ \log f(z) \right\} = \log |f(z)|$.  In this case, $\xi = 1$ and $\xi Q$ is a bilinear mapping.  Hence, the hypotheses of Theorem 1.1 are satisfied. $_\blacksquare$
+
+\vspace{0.1in}   
+
+\noindent \textbf{Proof of Corollary \ref{cor2}} Although, $H$ is not compact, $H \cup \{0\}$ is compact.  If $\{f_n\}$ is a sequence in $H \cup \{0\}$ for which $\{f_n\}$ converges to $0$, then $\{|f'_{n}(z)|\}$ will converge to $0$, which is not the maximal value for the functional $|f'(z)|$ over $H\cup \{0\}$ .  Hence, we may suppose that the maximal function for $|f'(z)|$ over $H\cup \{0\}$  belongs to $H$.  In this case, extremizing $|f'(z)|$ over $H$ is equivalent to extremizing $\log |f'(z)|$ over $H$.  For this problem, we take $\Phi$ in Theorem 1.1 to be the identity function and  $L(f) =  \Re \left\{ \Phi \circ \log f'(z) \right\} = \log |f'(z)|$.  Here again $\xi = 1$.  Now consider 
+
+\begin{align*}
+Q(\zeta) &= A \frac{\zeta +z}{\zeta-z} + z\left( \frac{\zeta +z}{\zeta-z} \right ) '\\
+&=\frac{ A (\zeta^2 - z^2 ) + 2 \zeta z }{(\zeta - z)^2}.
+\end{align*}
+
+\noindent where ${\dsp A = \frac{z (zf'(z))'}{zf'(z)}}$.
+
+By Jack's lemma, we have that $A$ is real.  Next we multiply through by $\dsp{1 = \left( \frac{\bar{\zeta}}{\bar{\zeta}} \right) ^2}$ to obtain
+
+$$
+Q(\zeta) = \frac{ A (|\zeta|^4 - (\bar{\zeta}z)^2 ) + 2 |\zeta|^2 \bar{\zeta} z }{(|\zeta|^2 - \bar{\zeta}z)^2}. 
+$$
+
+\noindent Define
+
+\begin{equation}\label{eqref}
+\tilde{Q}(w) = \frac{A (1 - w^2) + 2w }{(1-w)^2}.
+\end{equation}
+
+\noindent Then, we have for $w =\bar{\zeta}z$ that $\tilde{Q}(w) =Q(\zeta)$.  We substitute $w = r e^{i\theta} $into $\tilde{Q}$ and obtain 
+
+$$
+{\frac {A \left( 1-{r}^{2} \left( {e^{i\theta}} \right) ^{2} \right) +
+2\,r{e^{i\theta}}}{ \left( 1-r{e
+^{i\theta}} \right) ^{2}}}.
+$$
+
+We then expand the above rational function, multiply through by the conjugate of the denominator, make the substitution $re^{i\theta} = r \left(\cos(\theta) + i\sin(\theta) \right)$, and collect the real parts.  What is left in the numerator is:
+
+\begin{align*}
+R = & \left( 2\,A{r}^{3} -2\, Ar + 2\,{r}^{3} + 2\,r \right) \cos \left( \theta \right)\\ 
+ & + A -4\,{r}^{2}- A{r}^{4}.
+\end{align*}
+
+Since $R$ is linear in $\cos(\theta)$, we have at most 2 values of $\theta$ which can be roots for $\tilde{Q}$.  
+%Geometrically, this means the ``dimple'' in the graph of $Q(\zeta)$ will always lie to the left of  the imaginary axis (see Figure \ref{Fi:f3_2}).  
+Hence, $Q$ maps $\T$ to a curve $\Lambda$ which intersects the imaginary axis at most twice.  
+(See, for example, Figure \ref{Fi:f3_2}.)  
+
+\begin{figure}[ht]
+\begin{center}
+\scalebox{.4}{\includegraphics[angle=270]{figure-6}}
+\caption{Image of $Q$ for $|z|=.70$}\label{Fi:f3_2}
+\end{center}
+\end{figure}
+
+\noindent $_\blacksquare$
+
+\vspace{0.1in}   
+
+\noindent \textbf{Proof of Corollary \ref{cor3}}  In this case, extremizing $|f'(z)|$ over $H_{\alpha}$ is equivalent to extremizing $\log |f'(z)|$ over $H_{\alpha}$.  For this problem, we take $\Phi$ in Theorem 1.1 to be the identity function and  $L(f) =  \Re \left\{ \Phi \circ \log f'(z) \right\} = \log |f'(z)|$.  Here again $\xi = 1$.  Now consider 
+
+
+\begin{align*}
+\xi Q(\zeta) &= (A \frac{\zeta +z}{\zeta-z} + z\left( \frac{\zeta +z}{\zeta-z} \right ) ' )\\
+&= \frac{ A (\zeta^2 - z^2 ) + 2 \zeta z }{(\zeta - z)^2}.
+\end{align*}
+
+\noindent where ${\dsp A = \frac{z (zf'(z))'}{zf'(z)}}$ real.
+
+Preceding as above in the proof of Corollary \ref{cor2}, we examine the related the rational function 
+
+\begin{align*}
+\xi \tilde{Q}(w) &= \frac{A (1 - w^2) + 2w }{(1-w)^2} \\
+                 &= A +  2(1+A)\frac{w - \frac{A}{1+A}w^2}{(1-w)^2} .
+\end{align*}
+
+Hence, $\xi \tilde{Q}(w)$ maps $\D$ to the complement of a half-line. (See \cite{d83}, p. 72.) Consequently, $\xi Q$ maps $\T$ to a curve $\Lambda$ which intersects every vertical line at most $4$ times.  If the problem is to maximize $L$ and if $|z| < \frac{1}{2}$, then $A \ge 1$ and $\xi \tilde{Q}(w)$ is convex and hence, $\xi Q$ maps $\T$ to a curve $\Lambda$ which intersects every vertical line at most twice. $_\blacksquare$
+
+
+\vspace{0.1in}   
+
+\noindent \textbf{Proof of Corollary \ref{cor4}}  In this case, we take $\Phi$ in Theorem 1.1 to be $\Phi (w) = -i w$.  Hence, $L(f) =  \Re \left\{ \Phi \circ \log f'(z) \right\} = \arg f'(z)$.  Now consider
+
+\begin{align*}
+\xi Q(\zeta) &= -i(A \frac{\zeta +z}{\zeta-z} + z\left( \frac{\zeta +z}{\zeta-z} \right ) ' )\\
+&=-i \frac{ A (\zeta^2 - z^2 ) + 2 \zeta z }{(\zeta - z)^2}.
+\end{align*}
+
+\noindent where ${\dsp A = \frac{z (zf'(z))'}{zf'(z)}}$ is pure imaginary.
+
+Preceding as above in the proof of Corollary \ref{cor2}, we examine the related the rational function (which is the analog of (\ref{eqref}))
+
+\begin{align*}
+\xi \tilde{Q}(w) &= -i \frac{A (1 - w^2) + 2w }{(1-w)^2} \\
+                 &= -i \left (  A +  2(1+A)\frac{w - \frac{A}{1+A}w^2}{(1-w)^2} \right ).
+\end{align*}
+
+Hence, $\xi \tilde{Q}(w)$ maps $\D$ to the complement of a half-line. Consequently, $\xi Q$ maps $\T$ to a curve $\Lambda$ which intersects every vertical line at most $4$ times.  If $|z| < 2 - \sqrt{3}$, then $\xi \tilde{Q}(w)$ is convex (see \cite{d83}, p. 44) and hence, $\xi Q$ maps $\T$ to a curve $\Lambda$ which intersects every vertical line at most twice. $_\blacksquare$
+
+
+\vspace{0.1in}
+
+\noindent \textbf{Remark} The techniques introduced in this paper have been used in \cite{bw03} to determine the sharp bound for the Schwarzian derivative for functions in $H$.
+
+\vspace{0.1in} 
+
+\noindent \textbf{Thanks} The authors would like to thank the referee for his helpful comments and suggestions which have substantially enhanced the paper.
+
+
+
+\begin{thebibliography}{1000}
+\bibitem{bl} Roger W. Barnard and John L. Lewis.  Subordination theorems for some classes of starlike functions.  \emph{Pac. J. Math.}, 56(2):333-366, 1975.
+
+\bibitem{bw03} Roger W. Barnard, Leah B. Cole, Kent Pearce, and G. Brock Williams.  Sharp bounds for the Schwarzian derivative for hyperbolically convex functions. \emph{Proc. London Math. Soc.} (Accepted).
+
+\bibitem{aB83} A.~Beardon, \emph{The geometry of discrete groups}, Springer-Verlag, Berlin, 1983.
+
+\bibitem{d83} P.L.~Duren, \emph{Univalent Functions}, Springer-Verlag, New York, 1983.
+
+\bibitem{MM94}
+William Ma and David Minda, Hyperbolically convex functions, \emph{Ann. Polon.
+  Math.} \textbf{60} (1994), no.~1, 81--100. MR\textbf{95k}:30037
+
+\bibitem{MM99}
+William Ma and David Minda, Hyperbolically convex functions. {II}, \emph{Ann. Polon. Math.}
+  \textbf{71} (1999), no.~3, 273--285. MR\textbf{2000j}:30020
+
+\bibitem{PM00}
+Diego Mej\'ia and Christian Pommerenke, On hyperbolically convex
+  functions, \emph{J. Geom. Anal.} \textbf{10} (2000), no.~2, 365--378.
+
+\bibitem{MP00b}
+Diego Mej\'ia and Christian Pommerenke, On spherically convex univalent functions, \emph{Michigan Math. J.}
+  \textbf{47} (2000), no.~1, 163--172. MR\textbf{2001a}:30013
+
+\bibitem{MP01}
+Diego Mej\'ia and Christian Pommerenke, Sobre la derivada {Schawarziana} de aplicaciones conformes
+  hiperb\'olicamente, \emph{Revista Colombiana de Matem\'aticas} \textbf{35} (2001),
+  no.~2, 51--60.
+
+\bibitem{MP02}
+Diego Mej\'ia and Christian Pommerenke, Hyperbolically convex functions, dimension and capacity,
+  \emph{Complex Variables, Theory Appl.} \textbf{47} (2002), no.~9, 803--814.
+  MR\textbf{2003f}:30017
+
+\bibitem{MP00}
+Diego Mej\'ia and Christian Pommerenke, On the derivative of hyperbolically convex functions, \emph{Ann.
+  Acad. Sci. Fenn. Math.} \textbf{27} (2002), no.~1, 47--56.
+
+\bibitem{MPV01}
+Diego Mej\'ia, Christian Pommerenke, and Alexander Vasil'ev,
+  Distortion theorems for hyperbolically convex functions, \emph{Complex
+  Variables, Theory Appl.} \textbf{44} (2001), no.~2, 117--130. MR\textbf{2003e}:30025
+
+\bibitem{aS98}
+A.~Yu. Solynin, Some extremal problems on the hyperbolic polygons,
+  \emph{Complex Variables, Theory Appl.} \textbf{36} (1998), no.~3, 207--231.
+  MR\textbf{99j}:30030
+
+\bibitem{aS99}
+A.~Yu. Solynin, Moduli and extremal metric problems, \emph{Algebra i Analiz}
+  \textbf{11} (1999), no.~1, 3--86, translation in \emph{St. Petersburg Math. J.}
+  \textbf{11} (2000), no. 1, 1--65. MR\textbf{2001b}:30058
+
+
+\end{thebibliography}
+\setcounter{equation}{0}
+%\bibliography{dissbib}
+\end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

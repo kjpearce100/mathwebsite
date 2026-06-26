@@ -1,0 +1,669 @@
+\documentclass[11pt]{pjm}
+
+\usepackage{graphicx}
+
+
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+%\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{xca}[theorem]{Exercise}
+%\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+%\numberwithin{equation}{section}
+
+%    Absolute value notation
+\newcommand{\abs}[1]{\lvert#1\rvert}
+
+%    Blank box placeholder for figures (to avoid requiring any
+%    particular graphics capabilities for printing this document).
+\newcommand{\blankbox}[2]{%
+  \parbox{\columnwidth}{\centering
+%    Set fboxsep to 0 so that the actual size of the box will match the
+%    given measurements more closely.
+    \setlength{\fboxsep}{0pt}%
+    \fbox{\raisebox{0pt}[#2]{\hspace{#1}}}%
+  }%
+}
+
+%%%%%%%%%%%  begin/ends  %%%%%%%%%%%%
+\newcommand{\be}{\begin{equation}}
+\newcommand{\eeq}{\end{equation}}
+\newcommand{\bl}{\begin{lemma}}
+\newcommand{\el}{\end{lemma}}
+\newcommand{\bt}{\begin{theorem}}
+\newcommand{\et}{\end{theorem}}
+\newcommand{\bcor}{\begin{corollary}}
+\newcommand{\ecor}{\end{corollary}}
+\newcommand{\pf}{\begin{proof}}
+\newcommand{\epf}{\end{proof}}
+
+%\newcommand{\T}{{\Bbb{T}}}
+\newcommand{\N}{{\Bbb{N}}}
+\newcommand{\E}{{\bf{E}}}
+\newcommand{\K}{{\bf{K}}}
+\newcommand{\F}{{\bf{F}}}
+
+\newcommand{\Om}{\Omega}
+\newcommand{\om}{\omega}
+\newcommand{\var}{\varphi}
+\newcommand{\al}{\alpha}
+
+
+\newcommand{\meas}{{\rm meas}\,}
+\newcommand{\area}{{\rm area}\,}
+\newcommand{\diam}{{\rm diam}\,}
+\newcommand{\CAP}{{\rm cap}\,}
+\newcommand{\len}{{\rm length}\,}
+\newcommand{\width}{{\rm width}\,}
+\newcommand{\length}{{\rm length}\,}
+\newcommand{\proj}{{\rm proj}_0\,}
+\newcommand{\projth}{{\rm proj}_\theta\,}
+\newcommand{\projthp}{{\rm proj}_{\theta'}\,}
+
+%%%%%%%%%%%  formatting  %%%%%%%%%%%%
+\newcommand{\R}{{\mathbb R}}
+\newcommand{\T}{{\mathbb T}}
+\newcommand{\ar}{{\rm Area}\,}
+\newcommand{\C}{{\mathbb{C}}}
+\newcommand{\UH}{{\mathbb{H}}}
+\newcommand{\U}{{\mathbb{U}}}
+\newcommand{\CU}{\overline{\mathbb{U}}}
+\newcommand{\e}{\varepsilon}
+
+\newcommand{\CC}{\overline{\C}}
+\newcommand{\ep}{\varepsilon}
+%\newcommand{\e}{\varepsilon}
+\newcommand{\va}{\varphi}
+\newcommand{\ph}{\varphi}
+\newcommand{\varph}{\varphi}
+
+
+\begin{document}
+
+
+
+\title{Area, width, and logarithmic capacity of~convex~sets}
+
+%%%%%    Information for first author
+\author{Roger W. Barnard}
+\address{Department of Mathematics and Statistics, Texas Tech University, Lubbock, TX 79409}
+\email{barnard@math.ttu.edu}
+
+%%%%%    Information for second author
+\author{Kent Pearce}
+\address{Department of Mathematics and Statistics, Texas Tech University, Lubbock, TX 79409}
+\email{pearce@math.ttu.edu}
+
+%%%%%    Information for third author
+\author{Alexander Yu. Solynin}
+\address{Steklov Institute of Mathematics at St. Petersburg, Russian Academy of Sciences, Fontanka 27, St.Petersburg, 191011, Russia}
+\curraddr{Department of Mathematics and Statistics, Texas Tech University, Lubbock, TX 79409}
+\email{solynin@pdmi.ras.ru}
+\thanks{
+%This paper was written during the third author's visit to Texas Tech University, Fall 2001/Spring 2002. 
+%This author thanks the Department of Mathematics and Statistics at Texas Tech for the wonderful atmosphere 
+%and working conditions during his stay in Lubbock.  
+The research of the third author was supported in part by Russian Fund for Fundamental Research, grant no. 00-01-00118a.}
+
+%%%%%    General info
+\subjclass{Primary 30C, 30E}
+
+\date{\today}
+
+\dedicatory{}
+
+\keywords{Logarithmic capacity, omitted area problem, univalent function, local variation, symmetrization}
+
+
+\begin{abstract}
+For a planar convex compact set $E$, we describe the mutual range of its area, 
+%length of its orthogonal projection onto a fixed axis, 
+width, and logarithmic capacity. This result will follow from a more general theorem describing the mutual
+range of area, logarithmic capacity, and length of orthogonal projection onto a given axis of an arbitrary compact set,
+connected or not.
+%~\footnote{Key words: logarithmic capacity,  omitted area
+%problem,  univalent function,  local variation, symmetrization}
+\end{abstract}
+
+
+\maketitle
+
+
+
+
+
+\section{Introduction}
+For a planar  convex compact set $E$, let $A(E)$, $w(E)$, and $\CAP E$ denote the area, width, and logarithmic 
+capacity of $E$ respectively. The width $w(E)$ is the minimal orthogonal projection of $E$, i.e.
+$$
+w(E)=\min_{0\le\theta\le \pi} \projth E,
+$$
+where $\projth E$ denotes the length of the orthogonal projection of $E$ onto the line $l_\theta=\{z=te^{i\theta}:\,-\infty<t<\infty\}$.  The logarithmic 
+capacity $\CAP E$ of a compact set $E$ is defined
+by
+$$
+-\log \CAP E=\lim_{z\to \infty}(g(z)-\log |z|),
+$$
+where $g(z)$ denotes Green's function of the unbounded component  $\Omega(E)$ of $\CC\setminus E$ having singularity at $z=\infty$.
+This notion combines several characteristics of a compact set such as transfinite diameter, Chebyshev's constant, and outer radius, see 
+\cite{D,Du,H,J,PS,P}.
+
+\medskip
+
+How large can the area of $E$ be if the width and logarithmic capacity of $E$ are prescribed ? --- For convex sets, the answer
+to this question is given by 
+
+\bt
+For a planar convex compact set $E$, let $2h=w(E)/\CAP E$. Then $0\le h=h(E)\le 1$ and
+\be
+ A(E)\le  \CAP^2E\left( \pi \beta^2 +4h\beta' \E(\beta',{\beta'}^{-1}) \right),
+\eeq
+%$$
+% + \left. 2h( {\beta'}^2 \F(\beta^{-1},\beta)-\E(\beta^{-1},\beta)-{\beta'}^2(1+\K(\beta))+\E(\beta)\right),
+%$$
+where  $\E$ denotes the elliptic integral of the second kind, $\beta'=\sqrt{1-\beta^2}$, 
+and  $\beta=\beta(h)$ is a solution to the equation 
+\be
+h=\beta \E (\beta,\beta^{-1})
+\eeq
+unique in the interval $0<\beta<1$. In addition, for a fixed $\CAP E=c$, the right hand side of (1.1) strictly increases
+from $0$ to $\pi c^2$ as $h$ runs from $0$ to $1$.
+
+Equality occurs in (1.1) if and only if $E$ coincides up to a linear transformation with the set $E^h$,  symmetric w.r.t.
+the coordinate axes,  complementary to the image $f(\U^*)$ of  $\U^*=\{z:\,|z|>1\}$ under a univalent conformal mapping 
+$w=f(z)$ with $f=g\circ \tau$, where 
+\be
+g(\tau)=h+ \frac12 \int_2^\tau \frac{\tau+\sqrt{\tau^2-4\beta^2}}{\sqrt{\tau^2-4}}\,d\tau, \quad \tau=(1/2)(z+\sqrt{z^2-4})
+\eeq
+with the principal branches of the radicals. 
+\et
+
+Figure 1 displays  extremal configurations  for some typical values of $h$.
+
+
+
+\begin{figure}[ht]
+$$\includegraphics[scale=.25]{cvx0p15} \hspace{0.2in}\includegraphics[scale=.25]{cvx0p50} \hspace{0.2in}
+\includegraphics[scale=.25]{cvx0p85}$$
+\caption{Typical extremal confugurations }
+\end{figure}
+
+
+
+Let  $A(h) = \max A(E)$, where the maximum  is taken among all convex
+compact sets $E$ such that $\CAP E=1$, $w(E)=2h$. Then by Theorem~1.1, $A(h)$ equals the right hand side of (1.1).
+The graph of $A(h)$ coincides with a part, for $0\le h\le 1$, of the graph  in Figure 2, which shows the maximal area among all
+compact sets with logarithmic capacity $1$ and prescribed projection onto the real axis, as it is explained in Theorem~1.2. 
+
+
+\begin{figure}[ht]
+$$\includegraphics*[scale=.5]{cvx_area_2}$$
+\caption{Graph of $A(h)$}
+\end{figure}
+
+
+
+
+%The proof of Theorem 1 is given in Section~3.  In Section~2, we apply symmetrization and local variations developed in \cite{BS}
+%to prove some important qualitative properties of extremal functions and extremal domains. This allows us to identify
+%in Lemma~2.4  the closed form for the extremal functions. In Section~4, we prove two monotonicity results needed
+%to justify the uniqueness assertions of Theorem~1.
+
+The proof of Theorem~1.1 given in Section~3 actually leads to a more general result: inequality (1.1) holds true with
+the same uniqueness assertion for all compact sets $E$ (connected or not) such that $0\le h(E)\le 1$.
+However, we prefer to speak about convex sets since the inequalities $0\le h(E)\le 1$ give the whole range of $h(E)$ over the family of all
+such sets  with equalities $h(E)=0$ and $h(E)=1$ only for rectilinear segments and disks, respectively. This
+follows from the well-known isoperimetric inequalities:
+$$
+w(E)\le \frac1\pi \int_0^\pi \proj E\,d\theta = \frac1\pi \length (\partial E),
+$$
+$$
+\frac{1}{2\pi}\length (\partial E)\le \left(\frac{\area E}{\pi}\right)^{1/2} \le \CAP E,
+$$
+cf. \cite[pp. 8,164]{PS}.
+
+In contrast, the range of $h(E)$ over the set of all continua ($=$ connected compact sets) 
+$E$ is not known. There is an open question, first referenced by Erd\"os, Herzog and Piranian 
+\cite{EHP}, and later commented on by Ch.~Pommerenke \cite{P1} to find ${\rm max}\  h(E)$.  Erd\"os, et. al.,  
+conjectured that ${\rm max}\  h(E)$ would be $1$; however, Pommerenke gave an counterexample, $E_6$, the symmetric star with six rays, 
+for which $h(E_6) > 1$.
+An easy computation shows that for $E_3$, the symmetric star with three rays, that $h(E_3) > h(E_6)$.  
+However, counter to intuition, there are intermediate stars (between $E_3$ and $E_6$) which show that $E_3$ cannot be the
+extremal configuration for ${\rm max}\  h(E)$.
+This remark points out that the problem on the maximal area of $E$ among all continua $E$ with
+prescribed $h(E)>1$ is potentially quite difficult.
+
+
+
+A characteristic of a compact set $E$, dual to the width, is the diameter of $E$ which can be defined as 
+$$
+\diam E=\max_{0\le \theta\le \pi} \projth E.
+$$
+In \cite[Theorem~2]{BPS}, we found the maximal area $A(d)= \max A(E)$ among all continua $E$ such that $\CAP E=1$, $\diam E=2d$.
+The range of $d=d(E)$, if $E$ is connected and $\CAP E=1$, is given by the classical inequalities $1\le d\le 2$. The first of them is due to G.~P\'{o}lya
+\cite{Po} and the second one is due to G.~Faber \cite{F}. The upper bound for $d$  shows that the range of the length of projection of $E$ onto a fixed
+axis, say on $\R$, is
+$$
+0\le \proj E\le 4.
+$$
+
+For a half of this range, when the projection is between $0$ and $2$, the arguments used to prove Theorem~1.1 show also that 
+ (1.1) holds true with the same uniqueness assertion for all compact
+sets $E$ such that $\CAP E=1$ and $0\le \proj E\le 2$. This result combined with Theorem~2 in \cite{BPS} gives
+\bt
+Let $E$ be a compact set in $\C$ such that $\CAP E=1$ and $\proj E=2h$, where $0\le h \le 2$. Then
+\be
+A(E)\le \left\{
+\begin{array}{ll} 
+ \pi \beta^2 +4h\beta' \E(\beta',{\beta'}^{-1}),
+ & {\mbox{if}} \quad 0\le h \le 1,\\
+{}&{}\\
+\pi\beta^2-2\pi h(\beta-1) ,& {\mbox{if}} \quad 1\le h \le 2,
+\end{array}
+\right.
+\eeq
+where $\beta=\beta(h)$, $0\le \beta \le 1$ is defined by (1.2) in the first case and $1\le \beta\le 2$ is the unique solution to the equation
+$h=\beta -(\beta-1)\log (\beta-1)$ in the second case. In addition,  the right hand side of (1.4) strictly increases
+from $0$ to $\pi$ as $h$ runs from $0$ to $1$ and strictly decreases from $\pi$ to $0$ as $h$ runs from $1$ to $2$.
+
+
+
+For $0\le h\le 1$, extremal configurations are described in Theorem~1.1. For $1\le h\le 2$, equality occurs in (1.4) if and only if $E$ coincides
+up to a linear transformation with the complement to the image $f(\U^*)$ of $\U^*$ under a conformal mapping $f(z)=h+\int_1^z \varphi(z;h)\,dz$,
+where $\varphi$ maps $\U^*$ conformally onto the complement of the ``double anchor''  
+$
+F(\beta,\psi)=[-i\beta,i\beta] \cup \{\beta e^{it}:\,\frac\pi2-\psi\le t \le \frac\pi2+\psi\}
+ \cup \{\beta e^{it}:\,\frac{3\pi}{2}-\psi\le t \le \frac{3\pi}{2}+\psi\}
+$
+with $\psi=(1/2)\cos^{-1}(8\beta^{-1}-8\beta^{-2}-1)$.
+\et
+
+For the right hand side of (1.4) we will keep notation $A(h)$, where now $0\le h \le 2$; in context of Theorem~1.1, 
+$A(h)$ was defined only for $0\le h \le 1$. 
+
+\section{Geometry and closed form of the extremals}
+\setcounter{equation}{0}
+
+
+
+In Lemma~2.1 we summarize  well known symmetrization results necessary for our main proofs, see \cite{D,H,BS,BPS}. 
+%It reduses the problem
+%to the case of continua  ($=$ connected compact sets), possessing a double symmetry w.r.t. the coordinate axes. 
+
+\bl
+For any compact set $E$, let $E^{**}$ be the result of successive Steiner symmetrizations
+of $E$ w.r.t. the real and imaginary axes, respectively. Then
+\be
+A(E^{**})=A(E),\quad    \proj E^{**}= \proj E,\quad   \CAP E^{**}\le \CAP E
+\eeq
+with the sign of equality in the third relation if and only if $E^{**}$ coincides with $E$ a.e. up to shifts in the 
+directions of the coordinate axes.
+\el
+
+
+It follows from (2.1) that in proving Theorem~1.2 we may restrict ourselves with continua possessing double
+Steiner symmetry w.r.t. the coordinate axes. Furthermore, since $\CAP E$, $w(E)$, $\projth E$, and $(A(E))^{1/2}$ all change
+linearly w.r.t. scaling,  we may assume in what follows that $\CAP E=1$. Then, $w(E)$ in Theorem~1.1  may vary in 
+between $0$ and $2$,  and $\proj E$ in Theorem~1.2  varies in between $0$ and $4$.
+
+\medskip
+
+If $E$ is connected and Steiner symmetric, then $\Omega_E=\CC\setminus E$ is a simply connected domain
+containing the point $z=\infty$. Let $f$ be a conformal mapping from $\U^*$ onto $\Omega_E$. If $\CAP E=1$, we can normalize $f$ such that
+\be
+f(\zeta)=\zeta +a_0(f)+a_1(f)\zeta^{-1}+\ldots
+\eeq
+The set of all analytic functions univalent in $\U^*$ and normalized by (2.2) constitute the standard class $\Sigma$, see \cite{D,Du,J}.
+
+For $f\in \Sigma$, let $D_f=f(\U^*)$ and $E_f=\C\setminus D_f$.
+Our previous considerations show that the problem in Theorem~1.2  is equivalent to the problem on the maximal omitted
+area for the class $\Sigma$ under the additional constraint
+$$
+\proj E_f =2h,
+$$
+$0\le h \le 2$. The set of functions $f\in \Sigma$ such that
+$0\in E_f$ and projection of $E_f$ onto $\R$ coincides with the segment $[-h,h]$ will be denoted by $\Sigma^h$. 
+The omitted area $A_f=A(E_f)$ can be computed as
+$$
+A_f=\pi \left(1-\sum_{n=1}^\infty n |a_n(f)|^2\right).
+$$
+
+Let $A_\Sigma(h)=\sup_{f\in \Sigma^h} A_f.$ 
+Since the area functional  $A_f$ is lower semi-continuous, the existence of an 
+extremal function, at least one   for each $h$, easily follows from the compactness of the class $\Sigma^h$.
+Thus, the proof of Lemma~2.2 is standard (see \cite{BPS, BS}) and left to the reader.
+
+\bl
+For every $0\le h\le 2$, there exists $f \in \Sigma^h$ such that $A_f = A_\Sigma(h)$.  In addition, $A_\Sigma(h)$ is continuous  in $0\le h\le 2$.
+\el
+
+
+
+
+
+\medskip
+
+Let $f$ be an extremal function in $\Sigma^h$, $0<h<2$. By Lemma~2.1, we may assume that 
+$E_f$ possesses Steiner symmetry w.r.t. the 
+coordinate axes. This implies that the boundary $L_f=\partial E_f$
+contains  two ``free'' parts $L_{fr}^+=\{z\in \partial E_f:\,\Im z>0, |\Re z|<h\}$ and $L_{fr}^-=\{z:\, \bar z\in L_{fr}^+\}$.
+% and two vertical segments $I^{\pm}=\{z\in \partial E: \  \Re z =\pm h\}$, possibly degenerated. 
+The double symmetry of $E_f$ and a standard subordination argument
+easily imply that $L_{fr}^+$ is Jordan rectifiable, see similar considerations in \cite{BPS}.
+
+For the ``non-free'' part of $L_f$ there are two possibilities: either it consists of two vertical segments (possibly degenerate)
+$I^{\pm}=\{w=\pm h +is:\, |s|\le s_f\}$, $0\le s_f\le 2$, or it consists of two horizontal  segments $I_{\pm}=\{w=\pm t:\, h_f\le t\le h\}$,
+$0\le h_f\le h$.
+
+
+Let $l^+_{fr} = \{ e^{i\theta}: \theta_0<\theta<\pi-\theta_0\}$  and $l^-_{fr}=\{e^{i\theta}:\, e^{-i\theta}\in l^+_{fr}\}$
+be the "free arcs", i.e. $l^{\pm}_{fr}$ are the preimages of $L^{\pm}_{fr}$ under the mapping $f$.
+Similarly, let   $l_{nf}^{\pm}=f^{-1}(I^{\pm})$ if the non-free boundary is vertical and $l_{nf}^{\pm}=f^{-1}(I_{\pm})$ if it is horizontal. 
+
+
+
+%The following lemma describes the most important geometric properties of extremal domains.
+% $E_f$ associated with the extremals $f$ guaranteed by the previous lemma:
+
+
+
+\bl
+For a fixed $h$, $0\le h\le 2$, let $f\in \Sigma^h$ be  extremal for $A_\Sigma(h)$ possessing Steiner symmetry w.r.t. the coordinate axes
+and having a vertical non-free boundary. 
+Then:
+  ($i$) $\abs{f'(z)} = \beta$  with some $0<\beta <1$ for all  $z \in l^{\pm}_{fr}$; 
+($ii$) $\abs{f'(e^{ i\theta})}$  strictly decreases from $\rho=|f'(1)|$ to $\beta$ as $\theta$ runs from $0$ to $\theta_0$.
+%In addition, $f'$ is univalent on $\U$.
+\el
+
+\pf
+First, we show that $|f'(z)|$ is constant a.e. on $l^+_{fr}$.
+Since $L^+_{fr}$ is Jordan  rectifiable it follows that the nonzero finite limit
+\be
+f'(\zeta)=\lim_{z\to\zeta,\  z\in {\overline {\U^*}}} \frac{f(z)-f(\zeta)}{z-\zeta}\not= 0,\infty
+\eeq
+exists  a.e. on $l_{fr}$. This easily follows from  \cite[Theorem 6.8]{P} applied to the univalent function $1/f(1/z)$.
+Assume that
+\be
+0<\beta_1=|f'(e^{i\theta_1})|<|f'(e^{i\theta_2})|=\beta_2<\infty
+\eeq
+for $e^{i\theta_1}, e^{i\theta_2}\in l^+_{fr}$. Note that (2.3), (2.4) allow us to
+apply the two point variational formulas  of Lemma~5 in \cite{BPS}, see also \cite[Lemma~10]{BS} for similar variational formulas 
+for analytic functions univalent in the unit disk $\U=\{z:\,|z|<1\}$.
+Namely, for fixed positive  $k_1$, $k_2$ such that 
+$ 0<k_1<1<k_2$ and $k_1\beta_1^{-1}>k_2\beta_2^{-1}$ 
+and  fixed
+$\varphi>0$ small enough, we   consider the two point variation $\tilde
+D$ of $D_f$ centered at $w_1=f(e^{i\theta_1})$ and
+$w_2=f(e^{i\theta_2})$ with inclinations $\varphi$ and radii
+$\e_1=k_1 \e$, $\e_2=k_2 \e$ respectively, see Section~2 in \cite{BPS}.
+Computing the change in the area by formula (2.11) \cite{BPS}, we find
+\be
+{\rm{Area}}\,(\C\setminus\tilde D)- {\rm{Area}}\,(\C \setminus D_f)=\frac{2\pi\varphi-\sin 2\pi\varphi}{2\sin^2
+\pi\varphi}\e^2(k_2^2-k_1^2)+o(\e^2)>0
+\eeq
+for all $\e>0$ small enough. Similarly, applying formula (2.10) \cite{BPS}, we
+get
+\be
+\log\frac{R(\tilde D,\infty)}{R(D_f,\infty)}=\left[\frac{\varphi(2+\varphi)}{6(1+\varphi)^2}\frac{k_1^2}{\beta_1^2}-
+\frac{\varphi(2-\varphi)}{6(1-\varphi)^2}\frac{k_2^2}{\beta_2^2}\right]
+\e^2+o(\e^2)>0
+\eeq
+for all $\e>0$ small enough and $\varphi$
+chosen such that the expression in the brackets is positive.
+
+Inequalities (2.5) and (2.6), via a standard subordination argument, lead to a contradiction with the extremality of $f$ for $A_\Sigma(h)$.
+  Thus $|f'(e^{i\theta})|=\beta$ a.e. on $l^{\pm}_{fr}$ with some $\beta>0$. 
+
+\smallskip
+
+Since $E_f$ is Steiner symmetric w.r.t. $\R$, the strict monotonicity of $|f'(e^{i\theta})|$ in $0\le \theta <\theta_0$
+follows from Lemma~3 \cite{BPS}.
+To prove that $|f'(e^{i\theta})|>\beta$ for all $e^{i\theta}\in
+l^+_{nf}$, we assume that
+$\beta=|f'(e^{i\theta_1})|>|f'(e^{i\theta_2})|=\beta_2$ with
+$e^{i\theta_1}\in l^+_{fr}$ and some $e^{i\theta_2}\in l^+_{nf}$.  Then
+applying the two point variation as above, we get inequalities
+(2.5), (2.6), again, via a subordination argument,  contradicting the extremality of $f$ for $A_\Sigma(h)$.
+Hence, $|f'(e^{i\theta})|\ge \beta$ for all
+$e^{i\theta}\in l^{\pm}_{nf}$, which combined with the strict monotonicity
+property of $|f'|$  leads to the  strict inequality $|f'(e^{i\theta})|>\beta$ for $e^{i\theta}\in l^{\pm}_{nf}$.
+
+To prove that $|f'|=\beta$ everywhere on $l^+_{fr}$, we consider the function $g(z)=1/f(1/z)$.
+The double symmetry property of Lemma~2.1 implies that $D_g=g(\U)$ is Jordan rectifiable and starlike w.r.t. $w=0$.
+Therefore, it is a Smirnov domain, see \cite[p. 163]{P}. 
+This implies that $\log|g'(z)|=\log|f'(1/z)|-2\log|zf(1/z)|$, and therefore $\log|f'(1/z)|$, 
+can be represented by the Poisson integral
+\be
+\log|f'(1/z)|=\frac{1}{2\pi}\int_0^{2\pi}P(r,\theta-t)\log|f'(e^{-it})|\,dt
+\eeq
+with boundary values defined a.e. on $\T=\{z:\,|z|=1\}$, see \cite[p. 155]{P}. 
+Equation (2.7) along with relations $|f'|=\beta$ a.e. on $l^{\pm}_{fr}$ and $|f'|>\beta$ everywhere on $l^{\pm}_{nf}$
+shows that $1=|f'(\infty)|\ge \beta$ with
+ equality only for the function $f(z) \equiv z$.
+
+If $l^+_n=\emptyset$ or consists of a single point, then the previous arguments 
+ show that $|f'|=\beta$ identically on $\U^*$. Therefore, $f(z)\equiv z$, which can happen only for $h=1$. 
+Hence, $l^+_n\not=\emptyset$ and therefore $0<\theta_0<\pi/2$ if $h\not=1$. 
+ Let $v$ be a bounded harmonic function on $\U$
+with boundary values $\log(\beta)$ on $l^{\pm}_{fr}$ and $\log |f'(e^{-i\theta})|$ on $l^{\pm}_{nf}$. Then $v(z)-\log |f'(1/z)|$ 
+has nontangential limit $0$ a.e. on $\T$. Therefore,
+$v(z)-\log |f'(1/z)| \equiv 0$ on $\CU$. Hence, $|f'|=\beta$ everywhere on $l^{\pm}_{fr}$.
+
+
+
+To show that $f'$ is continuous at $\pm e^{\pm i\theta_0}$, we note that by the reflection principle, $f$ can be
+continued analytically through $l^+_{nf}$ and $f'$ can be continued analytically through $l^+_{fr}$. This implies that $f$ can 
+be considered as a function analytic in a slit disk $\{z:\, |z-e^{i\theta_0}|<\varepsilon\} \setminus [(1-\varepsilon)e^{i\theta_0},e^{\theta_0}]$ with
+$\varepsilon>0$ small enough.
+
+Using the Julia-Wolff lemma, see \cite[Proposition~4.13]{P}, boundedness of $\log f'$, and well-known properties of the angular derivatives,
+see \cite[Propositions 4.7, 4.9]{P}, one can prove that $f'$ has a finite limit $f'(e^{i\theta_0})$, $|f'(e^{i\theta_0})|=\beta$, along any
+path in $\overline{\U^*}$ ending at $e^{i\theta_0}$ and by double symmetry at $- e^{\pm i\theta_0}$ and $e^{-i \theta}$. 
+The details of this proof are similar to the arguments in Lemma~13 in \cite{BS}.
+
+Since $|f'|$ takes its minimal values on $\T$, it follows that $|f'(z)|>\beta$ for all $z\in \U^*$. In particular, $\beta<|f'(\infty)|=1$. The proof is complete.
+\epf
+
+%%%%%%%%%%%%%%%%%%
+%\section{Closed form for extremal functions}
+%\setcounter{equation}{0}
+%%%%%%%%%%%%%%%%%%
+
+%Lemma 2 establishes that the identity function is extremal for the case of bounded extremal domains.  
+%For unbounded extremal domains, we construct the extremal functions using the properties of $\varphi(z) = zf'(z)$.  
+%From Lemma 3, it is evident that $\varphi$ maps $l_f$ onto an arc of the circle about the origin of radius $\beta$; 
+%by Lemma 2, this arc is symmetric about the real axis.  In addition, $\varphi$ maps each of $l_{nf}^{\pm}$ onto $[\beta, \infty)$.  
+%This motivates the following:  define the `fork' domain $F_{(\beta, \psi)}$ to be the complement of the `fork' given 
+%by $\{\beta e^{i\theta}: -\psi \leq \theta \leq \psi\} \cup \{x: \beta \leq x \}$, then
+
+Summing up the  results of this section we can prove the following lemma, which allows us to find a closed form for  extremal
+functions.
+
+\bl
+Let $f\in \Sigma^h$, $0\le h\le 2$,  be  extremal for $A_\Sigma(h)$ having the vertical non-free boundary. 
+Then $\varphi(z)= zf'(z)$ 
+maps $\U^*$ univalently onto a  domain  $\Omega(\beta, \rho)=\CC\setminus \{\CU_\beta\cup [-\rho,\rho]\}$
+with  $\rho= 1+\sqrt{1-\beta^2}$ and some $\beta=\beta(h)\in (0,1)$.
+\el
+
+\pf
+Considering boundary values of $\varphi$, we have $\arg\,\varphi(e^{i\theta})=0$ for $0\le\theta \le\theta_0$ since $\Re\,f(e^{i\theta})$ is constant
+for such $\theta$. Since $|\varphi(e^{i\theta})|=|f'(e^{i\theta})|$ strictly increases in $0< \theta<\theta_0$, $\varphi$ maps the arc $\{e^{i\theta}:\,0\le
+\theta \le \theta_0\}$ 
+continuously and one-to-one onto the segment $\{w=t:\, \beta \le t \le \rho\}$ with $\rho=|f'(1)|$.
+
+For $\theta_0\le \theta\le \pi-\theta_0$, $|\varphi(e^{i\theta})|=\beta$.  Since $|\varphi(z)|>\beta$
+for all $z\in \U^*$ it follows that $\varphi'(e^{i\theta})\not=0$ for $\theta_0<\theta<\pi-\theta_0$. 
+Hence $\varphi$ is locally univalent on $l^+_{fr}$ and therefore $\arg \varphi(e^{i\theta})$ strictly increases when $\theta$ runs from
+$\theta_0$ to $\pi-\theta_0$. 
+
+Let $\vec n(\theta)$ be the inner unit normal to $L^+_{fr}$ at $f(e^{i\theta})$. Then $0\le \arg \vec n(\theta)\le \pi$ for $\theta_0\le \theta\le \pi-\theta_0$
+since $E_f$ is Steiner symmetric. Since $\arg \vec n(\theta)=\theta +\arg f'(r^{i\theta})=\arg \varphi (e^{i\theta})$,
+the total variation of $\arg \varphi(e^{i\theta})$ on $l^+_{fr}$ is $<\ \pi$. This together with the equalities $\arg \varphi(e^{i\theta_0})=0$ and
+$\arg \varphi(-e^{-i\theta_0})=\pi$ shows that $\varphi$ maps $l^+_{fr}$ continuously and one-to-one onto the upper semicircle
+$\{\beta e^{i\psi}:\,0<\psi<\pi\}$.
+
+Since $E_f$ possesses double symmetry w.r.t. the coordinate axes it follows that $\varphi$ maps $\T$ continuously
+and one-to-one in the sense of boundary correspondence onto the boundary of $\Omega(\beta,\rho)$. Now by the argument principle,
+$\varphi$ maps $\U^*$ conformally and one-to-one onto $\Omega(\beta,\rho)$. Since $\varphi'(\infty)=f'(\infty)=1$, 
+an easy computation shows that $\rho=1+\sqrt{1-\beta^2}$. The lemma is proved.
+\epf
+
+
+
+
+
+\section{Proof of the Theorems}
+\setcounter{equation}{0}
+
+
+\pf[Proof of Theorem~1.2]
+By Lemma~2.1, we may restrict ourselves to connected compact sets, which are Steiner symmetric w.r.t. the coordinate axes.
+Let $E$ be such a  continuum  extremal for $A_\Sigma(h)$, $0\le h\le 2$ 
+and let $f\in \Sigma^h$ map $\U^*$ onto $\Om(E)$. 
+
+First we consider the case when the non-free boundary is vertical. By Lemma~2.4, $\va=zf'$ maps
+$\U^*$ conformally onto $\Omega(\beta,\rho)$ with $\rho=1+\sqrt{1-\beta^2}$ and some $0<\beta<1$. The function $\va$ can be represented
+ as $\va=\beta(g^{-1}(\beta^{-1}g(z))$, where
+$g(z)=z+1/z$
+is  Joukowski's function. Therefore,
+$$
+f(z)=h+ \beta\int _1^z z^{-1}g^{-1}(\beta^{-1}g(z))\, dz.
+$$
+Changing the variable of integration $\tau=g(z)$, we get
+\be
+f(z)=h+ \frac12 \int_2^\tau \frac{\tau+\sqrt{\tau^2-4\beta^2}}{\sqrt{\tau^2-4}}\,d\tau,
+\eeq
+which gives (1.3).
+Since $\Re f(i)=0$ and $\tau(i)=0$, we find from (3.1),
+\be
+h=\frac12 \Re \int_0^2\frac{\tau +\sqrt{\tau^2-4\beta^2}}{\sqrt{\tau^2-4}}\,d\tau =
+%\frac12 \int_0^{2\beta}\sqrt{\frac{4\beta^2-\tau^2}{4-\tau^2}}\,d\tau=
+\beta\int_0^\beta\sqrt{\frac{1-\beta^{-2}x^2}{1-x^2}}\,dx,
+\eeq
+which is equivalent to (1.2). 
+From (3.2) it is clear that $\beta\E(\beta,\beta^{-1})$ strictly increases in $\beta$. 
+Since
+$$
+\lim_{\beta\to 0^+} \beta\E(\beta,\beta^{-1})=0 \quad {\mbox{and}} \quad \left. \beta\E(\beta,\beta^{-1})\right|_{\beta=1}=1,
+$$
+it follows that  for every fixed $0\le h\le 1$, (1.2) has exactly one solution in $0\le \beta\le 1$.
+Moreover, this shows that for $1<h\le 2$, (1.2) has no solutions and therefore extremal continua with the vertical non-free
+boundary can exist only for $0\le h\le 1$.
+
+The case of extremal continua with horizontal non-free boundary was studied in \cite[Theorem~2]{BPS}, which proves (1.4)
+for $1\le h\le 2$ and shows, in particular, that extremal continua with horizontal non-free boundary can exist only
+for $1\le h\le 2$. In addition, in case $h=1$ the unit disk $\CU$ is the unique extremal configuration of the problem under consideration.
+
+\medskip
+In case $1\le h \le 2$, the maximal area $A(h)$ was found in \cite[Theorem~2]{BPS}. To compute $A(h)$ for $0\le h\le 1$,
+we consider the function $f\in \Sigma^h$, such that $E_f$ is extremal for the problem under consideration and symmetric w.r.t.
+the coordinate axes. Applying the standard line integral formula to compute $A(h)=A(E_f)$, we get
+$$
+A(E_f)=\frac12 \Im\,\int_{\partial E_f} \bar w\,dw =\frac12 \Im\, \int_{L_{nf}}\bar w\,dw +\frac12 \Im\, \int_{L_{fr}}\bar w\,dw =2hv_0+\frac12 \Im\, \int_{L_{fr}}\bar w\,dw ,
+$$
+where
+$$
+v_0=\Im f(e^{i\theta_0})=\frac12 \Im \int_2^{2\beta} \frac{\tau+\sqrt{\tau^2-4\beta^2}}{\sqrt{\tau^2-4}}\,d\tau = \int_{\beta}^1 
+\frac{x+\sqrt{x^2-\beta^2}}{\sqrt{1-x^2}}\,dx.
+$$
+%or $$v_0=\beta'(1+\E(\beta',{\beta'}^{-1})). $$
+
+Now, taking the condition $|f'(z)|=\beta$ for $z\in l_{fr}$ into account, we find the integral over the free boundary:
+$$
+\frac12 \Im\, \int_{L_{fr}}\bar w\,dw = \frac12 \Re \int_{l_{fr}} f(e^{i\theta})e^{-i\theta} {\overline{f'(e^{i\theta})}}\,d\theta=
+ \frac{\beta^2}{2}\Re\,\int _{-\pi}^{\pi}\frac{f(e^{i\theta})e^{i\theta}}{e^{2i\theta}f'(e^{i\theta})}\,d\theta -
+$$
+$$
+\frac{\beta^2}{2}
+\Re \int_{l_{nf}}\frac{f(e^{i\theta})}{e^{i\theta}f'(e^{i\theta})}\,d\theta=
+\frac{\beta^2}{2} \Im\int_{\T}\frac{f(z)}{z^2 f'(z)}\,dz-2\beta^2 h \int_0^{\theta_0}\frac{d\theta}{|f'(e^{i\theta})|} =
+$$
+$$
+\frac{\beta^2}{2} \Im \,{\rm{Res}}\,\left[ \frac{f(z)}{z^2f'(z)},\infty\right] -2\beta^2 h \int_0^{\theta_0}\frac{d\theta}{|f'(e^{i\theta})|}=
+\pi \beta^2-2\beta^2 h \int_0^{\theta_0}\frac{d\theta}{|f'(e^{i\theta})|}.
+$$
+
+To find  $\int_0^{\theta_0}\frac{d\theta}{|f'(e^{i\theta})|}$, we change the variable of integration $z=(1/2)(\tau +\sqrt{\tau^2-4})$,
+then we get
+$$
+\int_0^{\theta_0}\frac{d\theta}{|f'(e^{i\theta})|}=2\int_{2\beta}^2 \frac{d\tau}{\sqrt{4-\tau^2}(\tau+\sqrt{\tau^2-4\beta^2})}=
+ \beta^{-2} \int_\beta^1\frac{x-\sqrt{x^2-\beta^2}}{\sqrt{1-x^2}}\,dx.
+$$
+
+Combining all these computations,  we obtain 
+$$
+A(h)=\pi \beta^2+4h\int_\beta^1 \frac{\sqrt{x^2-\beta^2}}{\sqrt{1-x^2}}\,dx=\pi\beta^2+4h\beta'\E(\beta',{\beta'}^{-1}),
+$$
+which proves (1.4) for $0\le h\le 1$.
+
+\medskip
+
+The monotonicity of $A(h)$ for $1\le h\le 2$ was established in \cite{BPS}. To prove that $A(h)$ is monotone in $0\le h\le 1$, 
+one can show by direct computation that $A'(h)>0$ for $0< h <1$. Here we prefer another argument of a general nature.  
+Since $\CAP E=1$, $\diam E \ge 2>2h$. 
+Since $\partial E^h$ is smooth, it follows that for every $h'$, $h<h'\le 1$ there is $\theta'=\theta'(h')$, $0<\theta' <\pi$, such that 
+$\projthp E^h=2h'$. This implies that the continuum $E^{h,\theta'}=\{z:\,e^{i\theta'} z \in E^h\}$ is admissible for the problem on $A_\Sigma(h')$
+but not extremal since $E^{h,\theta'}$ clearly does not have Steiner symmetry w.r.t. $\R$. Therefore $A_\Sigma(h')>A(E^{h,\theta'})=A_\Sigma(h)$.
+The proof of Theorem~1.2 is complete.
+\epf
+
+\medskip
+
+\pf[Proof of Theorem~1.1] 
+Let $E$ be a compact set such that $\CAP E=1$ and $w(E)=2h$, $0< h<1$ and let $E^h$ be the continuum from the proof of Theorem~1.2
+extremal for $A_\Sigma(h)$.
+It follows from Theorem~1.2 that $A(E)\le A(E^h)$ with the sign of equality only if $E$ coincides a.e. with $E^h$
+up to a linear transformation. Note that $w(E^h)=2h$. Indeed, if $w(E^h)=2h'<2h$, then $A(h)=A(E^h)\le A(h')$ contradicting the strict
+monotonicity property of $A(h)$. This shows that $E^h$ has the maximal area among all compact sets, connected or not, 
+with logarithmic capacity
+$1$ and prescribed width $2h$. 
+
+To complete the proof of Theorem~1.1, we consider the function $f\in \Sigma^h$, which maps $U^*$ onto $\Omega(E^h)$.
+By Lemma~2.4, $\varphi=zf'$ maps $\U^*$ onto $\Omega(\beta,\rho)$ with certain $\rho\ge \beta \ge 0$. Since $\C\setminus \Omega(\beta,\rho)$
+is starlike w.r.t. the origin, it follows from the classical Alexander's theorem, see \cite[p.43]{Du}, that $L_f$ is convex. Thus, $E^h$ is a unique
+up to a linear transformation convex compact set, which maximizes the area among all such sets with $\CAP E=1$ and prescribed width 
+$w(E)=2h$.
+\epf
+
+\begin{thebibliography}{aaaa}
+\bibitem {BPS} R. W. Barnard, K. Pearce, and A. Yu. Solynin, \textit{An isoperimetric inequality for logarithmic capacity.} 
+ Annales Academi\ae\  Scientiarum Fennic\ae. Mathematica,
+to appear.
+
+\bibitem {BS} R.~W. Barnard and A. Yu. Solynin, \textit{Local variations and minimal area problem for Caratheodory functions.}  Submitted.
+
+\bibitem {D} V. N. Dubinin, \textit{Symmetrization in geometric theory of functions of a complex variable.} 
+ Uspehi Mat. Nauk \textbf{49} (1994), 3-76 (in Russian); English translation in Russian Math. Surveys \textbf{49}: 1 (1994), 1-79.
+
+\bibitem{Du} P.~L.~Duren,  \textit{Univalent Functions.}  Springer-Verlag New York Inc., 1983.
+
+\bibitem{EHP} P. Erd\"os, F. Herzog and G. Peranian, \textit{Metric properties of polynomials.}  J. Analyse Math. \textbf{6} (1958), 123-148.
+
+\bibitem{F} G. Faber, \textit{Neuer Beweis eines Koebe-Bieberbachschen Satzes {\" u}ber konforme Abbildung. } 
+Sitzgsber.  Math.-phys. Kl. bayer. Akad. Wiss. M{\"u}nchen  (1916), 39-42.
+
+
+\bibitem {H} W. K. Hayman, \textit{Multivalent Functions.}  Cambridge Univ. Press, Cambridge, 1958.
+
+\bibitem {J} J. A. Jenkins, \textit{Univalent functions and conformal mappings.} (2nd ed.) Springer, Berlin 1965.
+
+
+\bibitem{Po} G. P{\' o}lya, \textit{Beitrag zur Verallgemeinerung des Verzerrungssatzes auf maehrfach 
+zusammenh{\" a}ngende Gebiete.}   S.-B. Preuss. Akad. (1928), 280-282.
+
+
+\bibitem{PS} G.~P\'{o}lya and G.~Szeg\"{o}, \text{Isoperimetric Inequalities in Mathematical Physics.} 
+Princeton University Press, Princeton, N.J., 1951.
+
+\bibitem{P1} Ch. Pommerenke, \textit{On metric properties of complex polynomials.}  Michigan Math. J. {\bf 8} (1961), 97--115.
+
+\bibitem{P} Ch. Pommerenke, \textit{Boundary Behaviour of Conformal Maps.} Springer-Verlag, 1992.
+
+\end{thebibliography}
+\end{document}
+ 

@@ -1,0 +1,545 @@
+\documentstyle[12pt,newsymb]{article}
+\newcommand\eref[1]{(\ref{#1})}
+\def\a{\alpha}
+\def\d{\delta}
+\def\i{\infty}
+\def\t{\theta}
+
+\begin{document}
+
+\title{On a Coefficient Conjecture of Brannan}
+\author{Roger W.\ Barnard, Kent Pearce, and William Wheeler}
+\date{}
+\maketitle
+
+\begin{abstract}
+In 1972, D.A.\ Brannan conjectured that all of the odd coefficients,
+$a_{2n+1}$, of the power series $(1+xz)^\a/(1-z)$ were dominated by
+those of the series $(1+z)^\a/(1-z)$ for the parameter range
+$0<\a<1$, after having shown that this was not true for the even
+coefficients.  He verified the case when $2n+1=3$.  The case when
+$2n+1=5$ was verified in the mid-eighties by J.G.\ Milcetich.  In
+this paper, we verify the case when $2n+1=7$ using classical Sturm
+sequence arguments and some computer algebra.
+\end{abstract}
+
+1980 AMS Subject Classification: 30C50\\
+
+Keywords: coefficient conjecture, computer algebra
+
+\newpage
+
+\baselineskip=18pt
+
+\noindent{\bf Introduction.}
+
+For $k\geq 2$ let $V_k$ denote the class of locally univalent
+analytic functions
+\begin{equation}
+\label{1}
+f(z)=z+a_2z^2+a_3z^3+\cdots
+\end{equation}
+which map $|z|<1$ conformally onto a domain whose boundary rotation is
+at most $k\pi$.  (See [Pa] for the definition and basic properties of
+the class $V_k$.)
+
+The function
+$$
+f_k(z)=\frac{1}{k}\left[\left(\frac{1+z}{1-z}\right)^{\frac{k}{2}}
+-1\right]=\sum^\i_{n=1}A_nz^n
+$$
+belongs to $V_k$.  The coefficient conjecture for the class $V_k$ was
+that for a function (1) in $V_k$ that
+\begin{equation}
+\label{2}
+|a_n|\leq A_n,\;\; (n\geq 1).
+\end{equation}
+This conjecture was verified for $n=2$ by Pick (see [Le]), for $n=3$
+by Lehto [Le] in 1952 and for $n=4$ by Schiffer and Tammi [ScTa] in
+1967, Lonka and Tammi [LoTa] in 1968 and Brannan [Br1] in 1969.
+
+Using extreme point theory arguments, Brannan, Clunie and Kirwan
+[BrClKi] showed in 1973 that (2) can be reduced to showing that for
+$$
+\Phi(\a,x;z)=\left(\frac{1+xz}{1-z}\right)^\a=
+\sum^\i_{n=1}B_n(\a,x)z^n
+$$
+that
+\begin{equation}
+\label{3}
+|B_n(\a,x)|\leq B_n(\a,1),\;\; (n\geq 1)
+\end{equation}
+for $\a\geq 1$, $|x|=1$.  Brannan, Clunie and Kirwan showed that (3)
+holds for $1\leq n\leq 13$, which implies (2) for $2\leq n\leq 14$.
+
+In 1972 Aharonov and Friedland [AhFr] considered a related
+coefficient inequality.  Let
+$$
+\Psi(\a,x;z)=\frac{(1+xz)^\a}{1-z}=\sum^\i_{n=1}A_n(\a,x)z^n.
+$$
+In [AhFr] it was shown, by a long technical argument, that
+\begin{equation}
+\label{4}
+|A_n(\a,x)|\leq A_n(\a,1),\;\; (n\geq 1)
+\end{equation}
+for $\a\geq 1,|x|=1$, which implies (3) and, hence, by the work in
+[BrClKi], also implies (2).  Later, in 1973 Brannan [Br2] gave a
+short, elegant proof that (4) holds for $\a\geq 1$, $|x|=1$.
+
+In [Br2] Brannan also considered the question about whether (4) holds
+for $0<\a<1$, $|x|=1$.  He showed there the unexpected result that
+for each $\a$, $0<\a<1$, there exists an $n_\a$ such that
+\begin{equation}
+\label{5}
+\max_{|x|=1}{Re}\; A_{2n}(\a,x)>A_{2n}(\a,1)
+\end{equation}
+for $n>n_\a$, that is, that (4) fails for even coefficients when
+$0<\a<1$.
+
+Brannan showed, using an inequality for quadratic trigonometric
+polynomials, that
+$$
+|A_3(\a,x)|\leq A_3(\a,1)
+$$
+for $0<\a<1$ and he conjectured, based on numerical data, that\\
+
+\noindent{\bf Brannan's Conjecture}
+\begin{equation}
+\label{6}
+|A_{2n+1}(\a,x)|\leq A_{2n+1}(\a,1),\;\; (n\geq 1)
+\end{equation}
+for $0<\a<1$, $|x|=1$.
+
+Brannan's conjecture has been verified for $n=2$, that is, for
+$2n+1=5$, by Milcetich [Mi], who employed a lengthy argument based
+on a result of Brown and Hewitt [BrHe] for positive trigonometric
+sums.
+
+In this paper, we will establish Brannan's conjecture for $n=3$, that
+is, for $2n+1=7$.  The method we will employ is based largely on (i)
+a judicious rearrangement of the coefficients $A_n(\a,x)$ over
+carefully chosen subintervals of (0,1), the domain of $\a$, (ii) an
+application of Sturm sequences to verify the nonnegativity of those
+rearrangements and (iii) using a computer algebra program (in this
+case Maple) to generate the coefficients $A_n(\a,x)$ and the Sturm
+sequences.\\
+
+\noindent{\bf Section 1.}\\
+
+Brannan's coefficient inequality (6) is equivalent to
+\begin{equation}
+\label{7}
+A^2_{2n+1}(\a,1)-|A_{2n+1}(\a,x)|^2\geq 0
+\end{equation}
+for $0<\a<1$, $|x|=1$.  We will let $F_{2n+1}(\a,x)$ denote the
+left-hand side of (7) and we will show for $2{n+1}=7$ that
+$F_{2n+1}(\a,x)\geq 0$.
+
+We note that
+\begin{eqnarray*}
+& \displaystyle{\frac{(1+xz)^\a}{(1-z)}} & =\sum^\i_{n=0} 
+\frac{(-\a)_n(-1)^nx^n}{n!}z^n\sum^\i_{n=0}z^n\\[1ex]
+&& =\sum^\i_{n=0}\sum^n_{k=0}\frac{(-\a)_k(-1)^kx^k}{k!}z^n\\[1ex]
+&& =\sum^\i_{n=0}A_n(\a,x)z^n,
+\end{eqnarray*}
+where $(a)_k$ denotes the Pockhammer symbol, which is defined as
+$$
+(a)_k=\left\{ \begin{array}{cl} 1 & k=0\\[1ex] a(a+1)\cdots(a+k-1) &
+k>0\end{array}\right. .
+$$
+Hence, we can write $F_N(\a,x)$ as
+\begin{eqnarray*}
+F_N(\a,x)\indent & = & \sum^N_{k=0}\; \frac{(-\a)_k(-1)^k}{k!}\;
+\sum^N_{k=0}\; \frac{(-\a)_k(-1)^k}{k!}\; -\\[1ex]
+&& \sum^N_{k=0}\; \frac{(-\a)_k(-1)^kx^k}{k!}\; \sum^N_{k=0}\; 
+\frac{(-\a)_k(-1)^k\bar{x}^k}{k!}
+\end{eqnarray*}
+
+\newpage
+
+\begin{eqnarray*}
+& = & \sum^{2*N}_{k=0}\; \sum^k_{j=0}\; 
+\frac{(-\a)_j(-\a)_{k-j}(-1)^k\d_j\d_{k-j}}{k!(k-j)!}\; -\\[1ex]
+&& \sum^{2*N}_{k=0}\; \sum^k_{j=0}\;
+\frac{(-\a)_j(-\a)_{k-j}(-1)^k\d_j\d_{k-j}x^{2*j-k}}{k!(k-j)!}
+\end{eqnarray*}
+where
+$$
+\d_j=\left\{ \begin{array}{lc} 1 & 0\leq j\leq N\\[1ex] 
+0 & N+1\leq j\leq 2*N\end{array}\right.
+$$
+Since $F_N(\a,x)$ is real, we can write, setting $x=e^{i\t}$, 
+\begin{eqnarray}
+\nonumber
+F_N(\a,x) & = & \sum^{2*N}_{k=0}\; \sum^k_{j=0}\; 
+\frac{(-\a)_j(-\a)_{k-j}(-1)^k\d_j\d_{k-j}}{k!(k-j)!}\; -\\[1ex]
+\label{8}
+&& \sum^{2*N}_{k=0}\; \sum^k_{j=0}\;
+\frac{(-\a)_j(-\a)_{k-j}(-1)^k\d_j\d_{k-j}\cos((2*j-k)\t)}{k!(k-j)!}
+\end{eqnarray}
+
+The following Maple Procedure can be used to generate the
+coefficients of $F_N(\a,x)$, where $x=e^{i\t}$,
+\vspace{8pt}
+
+\begin{center} Procedure 1 \end{center}
+\vspace{8pt}
+
+{\sf \begin{tabular}{l}
+F:=proc(N)\\
+local i, j, a, csum, dsum, temp;\\
+global c;\\
+\indent a[0]:=1;\\
+\indent for i from 1 to N do a[i]:=a[i-1]*(-alpha+i-1)*(-1)/i od;\\
+\indent for i from N+1 to 2*N do a[i]:=0 od;\\
+\indent csum:=0; dsum:=0;\\
+\indent for i from 0 to N do csum:= csum+a[i] od;\\
+\end{tabular}}
+
+{\sf \begin{tabular}{l}
+\indent for i from 0 to 2*N do\\
+\indent for j from 0 to i do\\
+\indent \indent dsum:= dsum + a[j]*a[i-j]* cos ((2*j-i)*theta);\\
+\indent od;\\
+\indent od;\\
+\indent temp:= collect(csum*csum-dsum,alpha);\\
+\indent for i from 0 to (2*N-1) do c[i]:= coeff(temp,alpha,i) od;\\
+\indent temp;\\
+end;\\
+\end{tabular}}\\
+
+Using Procedure 1, we obtain for $N=7$ that $F_7(\a,x)=
+\displaystyle{\sum^{13}_{k=1}}c_k(\t)\a^k$ where each $c_k(\t)$ is a
+trigonometric polynomial of the form $c_k(\t)=\displaystyle{
+\sum^7_{j=0}}a_{kj}\cos(j\t)$ with rational coefficients $a_{kj}$.
+We will show that $F_7(\a,x)\geq 0$ for $0<\a<1$ by subdividing the
+domain of $\a$ into subintervals $0<\a\leq t_0$ and $t_0<\a<1$, where
+$t_0=2/5$.  We will show that $F_7(\a,x)\geq 0$ on each subinterval.
+
+First for the case $0<\a\leq t_0$ we will show the following:
+$$ 
+c_1(\t)\geq 0,\;\; \frac{7}{10} c_1(\t)+c_2(\t) t_0\geq 0,
+\eqno{(9.1)}
+$$
+$$
+\frac{1}{10} c_1(\t)+c_3(\t)t^2_0\geq 0,\;\; \frac{1}{10}
+c_1(\t)+c_3(\t)t^2_0+c_4(\t)t^3_0\geq 0, \eqno{(9.2)}
+$$
+$$
+\frac{1}{5} c_1(\t)+c_5(\t)t^4_0\geq 0,\;\; \frac{1}{5}
+c_1(\t)+c_5(\t)t^4_0+c_6(\t)t^5_0\geq 0, \eqno{(9.3)}
+$$
+$$
+c_7(\t)\geq 0,\;\; c_7(\t)+c_8(\t)t_0\geq 0, \eqno{(9.4)}
+$$
+$$
+c_9(\t)\geq 0,\;\; c_9(\t)+c_{10}(\t)t_0\geq 0, \eqno{(9.5)}
+$$
+$$
+c_{11}(\t)\geq 0,\;\; c_{11}(\t)+c_{12}(\t)t_0\geq 0, \eqno{(9.6)}
+$$
+$$
+c_{13}(\t)\geq 0.  \eqno{(9.7)}
+$$
+It will follow then that for $0<\a\leq t_0$ we have
+
+\setcounter{equation}{9}
+
+\begin{equation}
+\label{10}
+\begin{array}{ll} F_7(\a,x) 
+& =\left[\frac{7}{10} c_1(\t)+c_2(\t)\a\right]
+\a+\left[\frac{1}{10}c_1(\t)+c_3(\t)\a^2+c_4(\t)\a^3 \right]\a\\[1ex]
+& \mbox{} + \left[\frac{1}{5}c_1(\t)+c_5(\t)\a^4+c_6(\t)\a^5\right]
+\a+\left[c_7(\t)+c_8(\t)\a\right]\a^7\\[1ex] 
+& \mbox{} + \left[c_9(\t)+c_{10}(\t)\a\right]\a^9+
+\left[c_{11}(\t)+c_{12}(\t)\a\right]\a^{11}\\[1ex] 
+& \mbox{} + c_{13}(\t)\a^{13}\geq 0\end{array}
+\end{equation}
+
+The inequalities (9) imply (10) because they imply that each of the
+terms in brackets in (10) are non-negative.  The non-negativity of
+the bracketed terms of the form $[c_i(\t)+c_{i+1}(\t)\a]$ follows
+from (9.1), (9.4), (9.5) and (9.6) because the terms are linear in
+$\a$ and, hence they take their minimum at either $\a=0$ or else at
+$\a=t_0$.
+
+Since $[c_3(\t)+c_4(\t)\a]$ is linear in $\a$, it takes its minimum
+at either $\a=0$ or else at $\a=t_0$.  Thus, we have
+\begin{equation}
+\label{11}
+\frac{1}{10} c_1(\t) + (c_3(\t)+c_4(\t)\a) \a^2 \geq \frac{1}{10}
+c_1(\t) + \min_{0<s\leq t_0} \{c_3(\t)+c_4(\t)s\} \a^2.
+\end{equation}
+The right-hand side of (11) is linear in $\a^2$, and hence takes its
+minimum at either $\a=0$ or else at $\a=t_0$.  Therefore, the
+right-hand side of (11) is non-negative by (9.2).
+
+Similarly, since $[c_5(\t)+c_6(\t)\a]$ is linear in $\a$, it takes
+its minimum at either $\a=0$ or else at $\a=t_0$.  Thus, we have 
+\begin{equation}
+\label{12}
+\frac{1}{5} c_1(\t) + (c_5(\t)+c_6(\t)\a) \a^4 \geq \frac{1}{5}
+c_1(\t) + \min_{0<s\leq t_0} \{c_5(\t)+c_6(\t)s\} \a^4.
+\end{equation}
+The right-hand side of (12) is linear in $\a^4$, and hence takes its
+minimum at either $\a=0$ or else at $\a=t_0$.  Therefore, the
+right-hand side of (12) is non-negative by (9.3).
+
+Thus, to complete the case $0<\a\leq t_0$ we will need to establish
+(9).  We will transform each of the trigonometric coefficients
+$c_i(\t)$, which are polynomials in $\cos(n\t)$, to polynomials in
+$\cos\t$ and then by a change of variable to polynomials $e_i(x)$,
+$-1\leq x\leq 1$.  To verify the non-negativity of the linear
+combinations of trigonometric coefficients $c_i(\t)$ specified in
+(9), we will establish the non-negativity of the same linear
+combinations of polynomials $e_i(x)$.
+
+The following two Maple procedures can be used to: (i) transform the
+trigonometric coefficients $c_i(\t)$ to the polynomials $e_i(x)$; and
+(ii) compute the number of roots of a polynomial {\sf p} on the interval
+$(-1,1]$ via a Sturm sequence argument.
+\vspace{8pt}
+
+\begin{center} Procedure 2 \end{center}
+\vspace{8pt}
+
+{\sf \begin{tabular}{l}
+G:=proc(N)\\
+local i, t, temp;\\
+global c, e;\\
+\indent for i from 0 to 2*N - 1 do\\
+\indent\indent t[i] := expand(c[i]);\\
+\indent\indent e[i] := subs(cos(theta) = x, t[i]);\\
+\indent od;\\
+\indent temp;\\
+end;\\
+\end{tabular}}\\
+
+\noindent Here {\sf N} is chosen the same as in Procedure 1.\\
+
+\begin{center} Procedure 3 \end{center}
+\vspace{8pt}
+
+{\sf \begin{tabular}{l}
+H := proc(p)\\
+local s;\\
+global lc, nr;\\
+\indent lc := roots(p, x);\\
+\indent s := sturmseq(p, x);\\
+\indent nr := sturm(s, x, -1, 1)\\
+end;\\
+\end{tabular}}\\
+
+\noindent The library call {\em readlib(sturm)} must be loaded prior
+to applying the procedure.\\
+
+If the polynomial $e(x)$, created from linear combinations of the
+$e_i(x)$ after applying Procedure 2, is assigned to the variable {\sf
+p}, then Procedure 3 will compute both the number of roots of $e(x)$
+on the interval $(-1,1]$ and the location of the rational roots of
+$e(x)$.  We will see that the conclusion of this application of
+Procedure 3 is that the polynomial $e(x)$ is non-negative on $[-1,1]$
+with $e(x)=0$ only for $x=1$.  This check can be confirmed for each
+of the polynomials $e(x)$ which arise as linear combinations of the
+polynomials $e_i(x)$, where the linear combinations are specified as
+in (9), and, thus, complete the case $0<\a\leq t_0$.
+
+To illustrate the utility of using computer algebra software to
+establish the inequalities in (9) we will explicitly demonstrate the
+process for the inequality (9.1).  Applying Procedure 1 to compute
+the trigonometric coefficients $c_i(\t)$ of $F_7(\a,x)$, we obtain
+\begin{eqnarray*}
+& c_1(\t) & = - \frac{2}{5} \cos(5\t) + \cos(2 \t) - \frac{2}{3}
+\cos(3\t) + \frac{1}{3} \cos(6\t)\\[1ex]
+&& \mbox{} + \frac{1}{2} \cos(4\t) - 2\cos(\t) - \frac{2}{7} 
+\cos(7\t) + \frac{319}{210}
+\end{eqnarray*}
+From Procedure 2 we obtain
+\begin{eqnarray*}
+& e(x) & = e_1(x) = \frac{128}{5}x^5-\frac{32}{3}x^3+4\;x^2+ 
+\frac{24}{35}\\[1ex]
+&& \mbox{} + \frac{32}{3}x^6-12\;x^4-\frac{128}{7}x^7.
+\end{eqnarray*}
+Then, Procedure 3 yields
+$$
+\begin{array}{lccc} >{\sf H(p)};\\[1ex] &&& 1\\[1ex] >{\sf lc}\\[1ex]
+&&& [[1,1]]\end{array}
+$$
+The value returned by the procedure call {\sf H(p)} is the number of
+roots of {\sf p} on $(-1,1]$ and the value returned by {\sf lc} is
+the interval location of the rational roots of {\sf p}.
+
+For the second half of (9.1), we have
+\begin{eqnarray*}
+& \frac{7}{10}c_1(\t)+c_2(\t)t_0 & = \frac{128}{525} \cos(5\t) - 
+\frac{37}{210} \cos(2\t) + \frac{451}{1575} \cos(3\t)\\[1ex]
+&& \mbox{}-\frac{292}{1575}\cos(60)-\frac{197}{700}\cos(4\t)- 
+\frac{5}{7}\cos(\t)+\frac{2}{25}\cos(7\t)+\frac{523}{700}
+\end{eqnarray*}
+From Procedure 2 we obtain
+\begin{eqnarray*}
+& e(x)=\frac{7}{10}e_1(x)+e_2(x)t_0 & =-\frac{2656}{525}x^5+ 
+\frac{236}{315}x^3-\frac{151}{105}x^2\\[1ex]
+&& \mbox{} +\frac{1303}{1575}-\frac{9344}{1575}x^6+ 
+\frac{698}{105}x^4+\frac{128}{25}x^7-\frac{32}{35}x
+\end{eqnarray*}
+Then, Procedure 3 yields
+$$
+\begin{array}{lccc} >{\sf H(p)};\\[1ex] &&& 1;\\[1ex] 
+>{\sf lc}\\[1ex] &&& [[1,1]]\end{array}
+$$
+
+We have that each linear combination $e(x)$ has only one root on
+$(-1,1]$ and that root is at $x=1$.  Since we can explicitly observe
+that each $e(0)>0$, we can conclude that each $e(x)$ is non-negative
+on $[-1,1]$.  Therefore, we have that (9.1) holds.
+
+For the case $t_0<\a<1$ we make the substitution $\a=\beta+t_0$.
+Then, we have $F_7(\a,x)=G_7(\beta,x)=\sum^{13}_{k=0}d_k(\t)\beta^k$
+where each $d_k(\t)$ is a trigonometric polynomial of the form
+$d_k(\t)=\sum^7_{j=0}b_{kj}\cos(j\t)$ and $0<\beta<t_1=3/5$.  It
+will suffice to show for this case that
+$$ 
+d_0(\t)\geq 0,\;\;d_0(\t)+d_2(\t)t^2_1\geq 0 \eqno{(13.1)}
+$$
+$$
+d_1(\t)\geq 0,\;\;\frac{2}{3}d_1(\t)+d_5(\t)t^4_1\geq 0\eqno{(13.2)}
+$$
+$$
+\frac{1}{3}d_1(\t)+d_6(\t)t^5_1\geq 0,\;\;\frac{1}{3}d_1(\t)+ 
+d_6(\t)t^5_1+d_8(\t)t^7_1\geq 0 \eqno{(13.3)}
+$$
+$$
+d_3(\t)\geq 0,d_3(\t)+d_4(\t)t_1\geq 0 \eqno{(13.4)}
+$$
+$$
+d_7(\t)\geq 0 \eqno{(13.5)}
+$$
+$$
+d_9(\t)\geq 0,\;\; d_9(\t)+d_{10}(\t)t_1\geq 0, \eqno{(13.6)}
+$$
+$$
+d_{11}(\t)\geq 0,\;\; d_{11}(\t)+d_{12}(\t)t_1\geq 0, \eqno{(13.7)}
+$$
+$$
+d_{13}(\t)\geq 0.  \eqno{(13.8)}
+$$
+For then, it will follow that for $0<\beta<t_1$ we have
+
+\setcounter{equation}{13}
+
+\begin{equation}
+\label{14}
+\begin{array}{ll} G_7(\beta,x) 
+& =\left[d_0(\t)+d_2(\t)\beta^2\right] + 
+\left[\frac{2}{3}d_1(\t)+d_5(\t)\beta^4\right]\beta\\[1ex]
+& \mbox{} + \left[\frac{1}{3}d_1(\t)+d_6(\t)\beta^5+d_8(\t)
+\beta^7\right]\beta+\left[d_3(t)+d_4(\t)\beta\right]\beta^3\\[1ex]
+& \mbox{} + d_7(\t)\beta^7+\left[d_9(\t)+d_{10}(\t)\beta\right]
+\beta^9+\left[d_{11}(\t)+d_{12}(\t)\beta\right]\beta^{11}\\[1ex]
+& \mbox{} + d_{13}(\t)\beta^{13}\geq 0\end{array}
+\end{equation}
+
+The inequalities (13) imply (14) because they imply that each of the
+bracketed terms in (14) are non-negative for $0<\beta<t_1$.
+Procedure 2 can be adapted (by changing the global variable {\sf c}
+to {\sf d}) so that it can be applied to each of the trigonometric
+coefficients $d_i(\t)$ to generate new polynomials $e_i(x)$.  Then,
+Procedure 3 can be applied to each of the (transformed) linear
+combinations specified in (13) to verify (14) and thus, complete the
+case $0<\beta<t_1$.\\
+
+\noindent{\bf Remarks.}\\
+
+1.  We have verified the above constructions alternately using
+Mathematica for the computer algebra component of the construction.
+
+2.  The above process can be applied to $F_3(\a,x)$ and $F_5(\a,x)$
+to give relatively straight-forward proofs of two cases of Brannan's
+conjecture (6), specifically, the cases $2n+1=3$ and $2n+1=5$.  In
+the latter case, the proof subdivides the interval $0<\a<1$ into two
+cases $0<\a\leq 2/5$ and $2/5<\a<1$.  The argument here is
+substantially simpler than Milcetich's proof.
+
+3.  This technique for verifying Brannan's conjecture (6) for the
+case $2n+1=7$ can be applied to an alternate, but closely related
+coefficient inequality.  If in the series representation for
+$F_N(\a,x)$ in (8) the summation is extended to infinity, that is, if
+we write
+\begin{eqnarray}
+\nonumber
+& F_N(\a,x)= & \sum^\i_{k=0} \sum^k_{j=0} \frac{(-\a)_j (-\a)_{k-j} 
+(-1)^k \d_j \d_{k-j}}{k!(k-j)!}-\\[1ex]
+\label{15}
+&& \sum^\i_{k=0} \sum^k_{j=0} \frac{(-\a)_j (-\a)_{k-j} (-1)^k \d_j 
+\d_{k-j} \cos((2*j-k)\t)}{k!(k-j)!}
+\end{eqnarray}
+and where again
+$$
+\d_j=\left\{ \begin{array}{ll}1&0\leq j\leq N\\[1ex] 
+0&N+1\leq j\end{array}\right. ,
+$$
+then one can define the partial sums
+\begin{eqnarray*}
+& F^m_N(\a,x)= & \sum^m_{k=0}\sum^k_{j=0}\frac{(-\a)_j(-\a)_{k-j}
+(-1)^k\d_j\d_{k-j}}{k!(k-j)!}-\\[1ex]
+&& \sum^m_{k=0}\sum^k_{j=0}\frac{(-\a)_j(-\a)_{k-j}(-1)^k\d_j\d_{k-j}
+\cos((2*j-k)\t)}{k!(k-j)!}
+\end{eqnarray*}
+Wheeler [Wh] considered the partial sums $F^m_N(\a,x)$.  He showed
+that these partial sums have many properties which are analogous to
+the coefficient sums $F_N(\a,x)$.  Specifically, he showed there that
+for each $\a$, $0<\a<1$, there exists an $m_\a$ such that
+$$
+\max_{|x|=1}F^{2*m}_N(\a,x)<0
+$$
+for $m>m_\a$.  Furthermore, he devised the computer algebra technique
+described above, and applied it to show that for $m=$ 1, 3, 5 and 7, 
+$$
+F^m_N(\a,x)\geq 0
+$$
+for $0<\a<1$.
+
+\begin{thebibliography}{99}
+\bibitem[AhFr]{1} D.\ Aharonov and S.\ Friedland, {\em On an
+inequality connected with the coefficient conjecture for functions of
+bounded boundary rotation}, Ann.\ Acad.\ Sci.\ Fenn.\ Ser.\ A 1
+Math.\ {\bf 542} (1972), 14 pp.
+\bibitem[Br1]{2} D.A.\ Brannan, {\em On functions of bounded boundary
+rotation II}, Bull.\ London Math Soc.\ {\bf 1} (1969), 321--322.
+\bibitem[Br2]{3} D.A.\ Brannan, {\em On coefficient problems for certain
+power series}, Symposium on Complex Analysis, Canterbury, (1973)
+eds.\ J.G.\ Clunie \& W.K.\ Hayman.  London Math.\ Soc.\ Lecture Note
+Series {\bf 12} (1974), 17-27.
+\bibitem[BrClKi]{4} D.A.\ Brannan, J.G.\ Clunie and W.E.\ Kirwan,
+{\em On the coefficient problem for functions of bounded rotation},
+Ann.\ Acad.\ Sci.\ Fenn.\ Ser.\ A 1 Math.\ {\bf 543} (1973), 18 pp.
+\bibitem[BrHe]{5} G.\ Brown and E.\ Hewitt, {\em A class of positive
+trigonometric sums}, Math.\ Ann.\ {\bf 268} (1984), 91--122.
+\bibitem[Le]{6} O.\ Lehto, {\em On the distortion of conformal
+mappings with bounded boundary rotation}, Ann.\ Acad.\ Sci.\ Fenn.\
+Ser.\ A 1 Math.\ Phys.\ {\bf 124} (1952), 14 pp.
+\bibitem[LoTa]{7} H.\ Lonka and H.\ Tammi, {\em On the use of
+step-functions in extremal problems of the class with bounded
+boundary rotation}, Ann.\ Acad.\ Sci.\ Fenn.\ Ser.\ A 1 {\bf 418}
+(1968), 18 pp.
+\bibitem[Mi]{8} J.G.\ Milcetich, {\em On a coefficient conjecture of
+Brannan}, J.\ Math.\ Anal.\ Appl.\ {\bf 139} (1989), 515-522.
+\bibitem[Pa]{9} V.\ Paatero, {\em \"{U}ber die konforme Abbildung 
+von Gebieten deren R\"{a}nder von beschr\"{a}nkter Drehung sind},
+Ann.\ Acad.\ Sci.\ Fenn.\ Ser.\ A {\bf 33} (1931), 77 pp.
+\bibitem[ScTa]{10} M.\ Schiffer and O.\ Tammi, {\em On the fourth
+coefficient of univalent functions with bounded boundary rotation},
+Ann.\ Acad.\ Sci.\ Fenn.\ Ser.\ A {\bf 396} (1967), 26 pp.
+\bibitem[Wh]{11} W.\ Wheeler, {\em Properties of partial sums of
+certain special functions in complex variables}, Thesis, Texas Tech
+University, 1995.
+\end{thebibliography}
+
+\noindent Department of Mathematics, Texas Tech University, Lubbock,
+TX 79409\\
+\noindent E-mail: barnard@math.ttu.edu, pearce@math.ttu.edu, 
+bwheeler@math.ttu.edu.
+
+\end{document}

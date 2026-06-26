@@ -1,0 +1,1343 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[11pt]{article}
+\usepackage{amssymb,amsmath,enumerate,graphics,graphicx,color,amsfonts,latexsym,bbm} 
+\usepackage{amsthm, amscd}
+\usepackage{lineno}
+%\usepackage{tikz-cd}
+\usepackage{booktabs, multirow}
+\textheight=9.3in \advance\hoffset by -.77truein\relax
+\textwidth=6.4in \topmargin=-0.75in
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\E}{\mathbb{E}}
+\newcommand{\R}{{\mathbb R}}
+\newcommand{\D}{{\mathbb D}}
+\newcommand{\cA}{{\cal{A}}}
+\newcommand{\are}{{\text{ARE}}}
+\newcommand{\cR}{{\cal{R}}}
+\newcommand{\cU}{{\cal{U}}}
+\newcommand{\ds}{\displaystyle}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bes}{\begin{equation*}}
+\newcommand{\ees}{\end{equation*}}
+\newcommand{\ba}{\begin{eqnarray}}
+\newcommand{\ea}{\end{eqnarray}}
+\newcommand{\bas}{\begin{eqnarray*}}
+\newcommand{\eas}{\end{eqnarray*}}
+\newcommand{\indicator}[1]{\mathbbm{1}_{{#1}}}
+\newcommand{\etal}{et al.}
+\newcommand{\dist}{distribution}
+\newcommand{\prob}{probability}
+\newcommand{\varalph}{\ensuremath{\xi_{\alpha}}}
+\newcommand{\var}{\ensuremath{\xi_{\beta}}}
+\newcommand{\B}{\ensuremath{\xi_{\beta}}}
+\newcommand{\cvar}{\ensuremath{\mu_{\beta}}}
+\newcommand{\hvar}{\ensuremath{\hat{\xi}_{\beta}}}
+\newcommand{\hvaralph}{\ensuremath{\hat{\xi}_{\alpha}}}
+\newcommand{\hcvar}{\ensuremath{\hat{\mu}_{\beta}}}
+\newcommand{\al}{\ensuremath{\beta}}
+%\newcommand{\ax}{\ensuremath{\upsilon(x)}}
+\newcommand{\ax}{\ensuremath{\ell(x)}}
+\newcommand{\ka}{\ensuremath{k_{\beta}}}
+\newcommand{\rc}{\color{red}}
+\newcommand{\cb}{\color{blue}}
+%\newcommand{\cb}{\normalcolor}
+\newcommand{\nc}{\normalcolor}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newtheorem{lemma}{Lemma}%[section]
+\newtheorem{theorem}{Theorem}%[section]
+\newtheorem{conj}{Conjecture}%[section]
+\newtheorem{remk}{Remark}%[section]
+\newtheorem{defn}{Definition}%[section]
+\newtheorem{lemma}[theorem]{Lemma}
+
+%\title{\cb Tail Mean Estimation is More Efficient than Tail Median: Evidence From
+%    the Exponential Power Distribution and Implications for Quantitative
+% Risk Management\nc}
+
+\title{When is Tail Mean Estimation More Efficient Than Tail Median? Answers and Implications for Quantitative
+ Risk Management}
+
+\author{Roger W.~Barnard\thanks{Texas Tech University, Department of Mathematics \&
+Statistics, Lubbock, U.S.A.} \and Kent Pearce\thanks{Texas Tech University, Department of Mathematics \&
+Statistics, Lubbock, U.S.A.} \and A.~Alexandre
+  Trindade\thanks{Texas Tech University, Department of Mathematics \&
+Statistics, Lubbock, TX 79409-1042, U.S.A. Phone: 806-834-6164; Fax: 806-742-1112;
+E-mail: alex.trindade@ttu.edu. (Corresponding Author.)}}
+\begin{document}
+
+%\linenumbers 
+\maketitle
+\begin{abstract}
+We investigate the relative efficiency of the empirical
+``tail median'' vs.~''tail mean'' as estimators of location when the
+data can be modeled by an
+exponential power distribution (EPD), a flexible family of
+light-tailed densities. By considering appropriate probabilities so
+that the quantile of the untruncated EPD (tail median) and
+mean of the left-truncated EPD (tail mean) coincide, limiting results are established
+concerning the ratio of asymptotic variances of the corresponding
+estimators.  The most remarkable finding is that in
+the limit of the right tail, the asymptotic variance of the tail
+median estimate is approximately 36\% larger
+than that of the tail mean, irrespective of the EPD shape
+parameter. This discovery has important repercussions for quantitative
+ risk management practice, where the tail median and tail mean
+correspond to \emph{value-at-risk} and \emph{expected shortfall}, respectively. 
+To this effect, a methodology for choosing between the two risk
+measures that maximizes the precision of the estimate is
+proposed. From an extreme value theory perspective, analogous results
+and procedures are
+discussed also for the case when the data appear to be heavy-tailed.
+\end{abstract}
+%\vspace{0.4in}
+\nc
+
+\noindent\textbf{Keywords:} value-at-risk; expected shortfall; generalized quantile function;
+exponential power distribution; extreme value theory; asymptotic relative efficiency; rate of convergence.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Introduction}
+The quantification of \emph{risk} is an increasingly important exercise
+carried out by
+risk management professionals in a variety of
+disciplines. These may range from assessing
+the likelihood of structural failure in machined parts, and catastrophic
+floods in hydrology and storm management, to predicting economic loss in insurance,
+portfolio management, and credit lending companies. In the area of
+(financial) quantitative
+ risk management (QRM), increasing demand by regulatory bodies such as the Basel
+Committee on Banking Supervision\footnote{[http://www.bis.org/bcbs/]: A forum for regular
+  cooperation on worldwide banking supervisory matters based in Basel (Switzerland).} to
+implement methodically sound credit risk assessment practices, has fostered much recent research
+into measures of risk. See McNeil \etal{} (2005) for a classic
+treatment of QRM, and Embrechts and Hofert (2014) and Embrechts \etal{} (2014) for recent surveys
+on QRM and risk measures relating
+to the Basel documents, respectively. 
+
+As the term \emph{risk} is synonymous
+with \emph{extreme event}, it is naturally desirable to determine or
+estimate high percentiles of the (often potential) distribution of
+losses. To be useful in quick decision making, a single number is
+required, and two common measures in use by credit lenders include  \emph{Value-at-Risk} (VaR), and \emph{Conditional
+Value-at-Risk} (CVaR), along with percentiles typically in excess
+of the 95th (Basel III, 2013).
+The term CVaR was coined by Rockafellar and
+Uryasev (2000), but synonyms (and closely related variants) for it also in common usage include: ``expected shortfall'' (Acerbi
+and Tasche, 2002), ``tail-conditional expectation'' (Artzner~\etal{},
+1999), and ``average Value-at-Risk'' (Chun~\etal{},
+2012), or simply ``tail mean''. 
+Since the term \emph{expected
+shortfall} (ES) appears to have become the most prevalent synonym for CVaR, we
+will adhere to the term ES.\nc
+
+VaR and ES  are widely used to measure and manage risk in the financial
+industry (Jorion, 2003; Duffie and Singleton, 2003). With the random
+variable $X$ representing the distribution of losses, given a probability level $0<\al<1$,
+VaR$_{\al}$ is simply the $\al$ quantile of $X$, and hence is the
+value beyond which higher losses only occur with probability
+$1-\al$. Using similar notation, ES$_{\al}$ is the average of
+this $1-\al$ fraction of worst losses. To define these precisely, let $X$ be a continuous real-valued random variable defined
+on some probability space $(\Omega,\mathcal{A},P)$, with cumulative
+  distribution function (CDF) $F(\cdot)$ and probability density
+function (PDF) $f(\cdot)$. The quantities $\mu$ and
+  $\sigma^2$ will denote, respectively, the mean and variance of
+  $X$, and both are assumed to be finite. The
+VaR and ES of $X$ at probability level $\al$ are then defined as follows.
+\begin{defn}[VaR al level $\al$]
+\begin{equation}\label{var_d}
+\mathrm{VaR}_{\al}(X)\equiv\var(X) = F^{-1}(\al). 
+\end{equation}
+\end{defn}
+%
+\begin{defn}[ES at level $\al$]
+\begin{equation}\label{cvar_d}
+\mathrm{ES}_{\al}(X)\equiv\cvar(X) = \E(X|X\geq \var)= \frac{1}{1-\al}\int_{\var}^\infty xf(x)dx = \frac{1}{1-\al}\int_{\al}^1 F^{-1}(u)du.
+\end{equation}
+\end{defn}
+%
+
+When no ambiguity arises we write simply $\var$ and $\cvar$. Note that
+although the
+quantile function $F^{-1}(\cdot)$ is well-defined here due to the assumed
+strict monotonicity on $F(\cdot)$, in general $\var$ has to be defined
+through the  \emph{generalized quantile function} $F^{-}(\cdot)$ (Embrechts and Hofert, 2013).
+In addition, the definition of $\cvar$ implicitly assumes the
+existence of the first absolute moment, $\E|X|$.
+
+There has been much debate
+and research over the past decade over which of these two measures
+should be the industry standard\footnote{See for example
+  [http://gloria-mundi.com/], a website
+  serving as a resource for  Value-at-Risk and more generally
+  financial risk management.}. Some of the issues at stake concern
+trade-offs between conceptual simplicity (VaR), versus better 
+axiomatic adherence and mathematical
+properties (ES), since these measures are often used in
+intricate optimization schemes; see e.g., Follmer and Schied (2011),
+and Pflug and Romisch (2007). While there is a general consensus that
+ES is more easily optimized  (primarily due to convexity), Yamai and Yoshiba (2002, 2005) report
+that ``...expected shortfall needs a larger size of sample than VaR for
+the same level of accuracy.''.  This basic fact is echoed in the review paper of Embrechts
+and Hofert (2014) when comparing confidence
+limits for VaR vs.~ES based on extreme value theory (EVT). This an
+expected consequence of their definition that ensures $\var\leq\cvar$, and
+as such we would point out that it is not an entirely fair
+comparison since for a given $\al$ the two measures are in effect
+measuring different parts of the tail of $X$.
+
+A fairer comparison of the estimation ``accuracy'' of VaR versus ES
+would result if the two measures were forced to coincide, a study that
+to the best of our knowledge has not yet been undertaken. This
+situation is depicted in Figure~\ref{fig:var-cvar}, which shows the
+relative positions of the quantiles $\var$ and
+  $\xi_{\alpha}$ for a PDF with $\beta<\alpha$ so that
+  $\cvar=\xi_{\alpha}$. This implicitly assumes the existence of a
+  function $g(\cdot)$, such that 
+\be\label{g-fun}
+\alpha = g(\al)\equiv g_{\al}.
+\ee
+Loosely speaking, we then have the ``tail
+  mean'' ($\cvar$) coinciding with the ``tail median''
+  ($\xi_{\alpha}$), where the usage of these terms is meant to convey
+  that $\cvar$ is a ``mean-like'' quantity and $\xi_{\alpha}$ a
+  ``median-like'' quantity. Note that we are effectively adjusting
+  the probability levels so that the mean of the left-truncated PDF at
+  $\xi_{\al}$ coincides with the untruncated $\alpha$-quantile.
+%%%%%%%%%%%%%
+\begin{figure}[htb!]
+\caption{Illustration of relative positions of $VaR_{\al}=\var$ and
+  $VaR_{\alpha}=\xi_{\alpha}$ in the right tail of a PDF, so that $ES_{\al}=\cvar$ coincides
+  with $VaR_{\alpha}$.}%
+\label{fig:var-cvar}
+\begin{center}
+\includegraphics[scale=0.9]{Plots/var-cvar}
+\end{center}
+\end{figure}
+%%%%%%%%%%%%%
+
+The primary
+aim of this paper is to shed light on this matter, by considering the
+asymptotic relative efficiencies of the  empirical (or
+nonparametric) estimators. 
+When a random sample of size $n$ with order
+statistics $X_{(1)}\leq\cdots\leq X_{(n)}$ is available, consistent estimators of VaR and ES are respectively,
+\begin{equation}\label{var-cvar-npes}
+\hvar = X_{(\ka)}, \qquad\text{and}\qquad\hcvar = \frac{1}{n-\ka+1}\sum_{r=\ka}^n X_{(r)}, 
+\end{equation}
+where $\ka=[n\al]$ can denote either of the two integers closest to
+$n\al$ (or any interpolant thereof). In the process
+we will also generalize the age-old statistical quandary of which of
+the sample median or sample mean is the ``best'' estimator of
+centrality, since these estimators are obtained in the limit as
+$\al\rightarrow 0$ in (\ref{var-cvar-npes}).  Nowadays the accepted
+solution to this quandary is to use either an \emph{M-estimator} or an
+\emph{L-statistic}, the key idea being to combine elements of the efficiency of the mean
+with the robustness of the median (Maronna, 2011). However, these
+solutions involve subjective choices, and are therefore not as
+``clean'' as the simple mean or median.\nc
+
+To effect this comparison, we will consider sampling from the
+\emph{exponential power \dist{}} (EPD); a flexible model for
+distributions with exponentially declining tails. The EPD is also variously called
+  Subbotin, Generalized Error Distribution (Mineo and Ruggieri,
+  2005), and Generalized Normal Distribution (Nadarajah,
+  2005), with slight differences in the parametrizations. The version
+  we  adopt here is similar to the EPD of Gomez \etal{} (1998), but
+  following the simpler parametrization of Sherman (1997). This means
+  the standard member of the family has mean and median zero, with a PDF\footnote{The PDF, CDF, quantiles, and random
+values from the standard EPD in (\ref{expow-pdf}) can be obtained with
+the ``PE2'' function from the
+R package \texttt{gamlss.dist}.} given by
+\be\label{expow-pdf}
+f(x;p) = \frac{p}{2\Gamma(1/p)}\exp\{-|x|^p\}, \qquad p\in (0,\infty).
+\ee
+
+
+\begin{remk}\label{rmk:why-std-gpd}
+As we shall see later, there is no loss of generality by restricting
+attention to the standard
+member of the EPD family. This is because both VaR and ES satisfy the
+properties of \emph{translation invariance} and \emph{positive
+  homogeneity} (Pflug, 2007), whereby, for $X$ the standard member,
+$a\in\R$ and $b>0$ with $Y=a+bX$, we have that
+$\var(Y)=a+b\var(X)$ and  $\cvar(Y)=a+b\cvar(X)$. These properties
+transfer also to the empirical estimators in (\ref{var-cvar-npes}),
+since they are L-statistics. From this it follows that the ratio of
+their variances, they key metric we will be looking at through
+equation (\ref{are-var-cvar}), is invariant to location-scale shifts.
+\end{remk}
+\nc
+
+The EPD has finite moments of all orders, and is hence
+``light-tailed'' in EVT parlance. Parameter $p$ controls the shape, so that we obtain for $p=2$ a
+normal with variance $1/2$, and for  $p=1$ a
+classical Laplace with variance $2$. For $p<2$ and $p>2$ we obtain
+respectively, leptokurtic (heavier than Gaussian) and platikurtic (lighter than Gaussian) tail characteristics. In the limit 
+as $p\rightarrow\infty$ the EPD becomes $\mathcal{U}[-1,1]$, a uniform distribution on
+$[-1,1]$. As $p\rightarrow 0$ the limit is degenerate, as the PDF converges to zero
+everywhere on the real line. 
+
+
+The non-Gaussian members of the \emph{elliptical} family of
+distributions (which includes EPD) have recently been
+investigated by Landsman and Valdez  (2003) as providing, from a QRM perspective, a more
+realistic model than the Gaussian. However, the elliptical family
+covers a wide range of distributions all the way from light-tailed
+(e.g., EPD) to heavy-tailed (e.g., Student $t$), and thus have to
+be used with caution if appropriate moments are to exist. Rather, an
+EVT-based approach has recently guided much recent research with
+regard to the type of VaR
+vs.~ES comparisons we are proposing. Recall that a distribution with
+CDF $F(x)$ is said to be \emph{heavy-tailed}\footnote{When discussing tail characteristics, we will reserve
+  the term ``heavy'' for the
+  EVT sense  according to (\ref{evt-heavy-tailed}) when $\theta>0$,
+  and ``leptokurtic/platikurtic'' to distinguish between grades of
+  heaviness in relation to the Gaussian among the light-tailed
+  distributions ($\theta=0$).} if 
+\be \label{evt-heavy-tailed}
+\lim_{t\rightarrow\infty}\frac{1-F(tx)}{1-F(t)}=x^{-\theta}, 
+\ee
+for some $\theta>0$ known as the \emph{tail index}. (Light-tailed
+distributions correspond to $\theta=0$.)
+From the Basel III (2013) accord,
+it has become apparent that for light-tailed distributions,
+$\text{VaR}_{0.99}\approx\text{ES}_{0.975}$, a fact which can be
+generalized to $\text{VaR}_{1-s}\approx\text{ES}_{1-es}$, for small
+$s$ (Danielsson and Zhou, 2016). This suggests that for high
+quantiles from light-tailed distributions, an
+approximation to the function in (\ref{g-fun}) is 
+\begin{equation}\label{general-basel-3}
+\alpha=g(\beta)\approx\frac{e-1+\beta}{e}, \qquad\text{for large }\beta.
+\end{equation}
+%A plot of this (Basel III) function is shown as the upper solid line in Figure~\ref{fig:g-fun}.
+
+An illuminating plot of $\beta$ vs.~$g(\beta)$ is
+displayed in Figure~\ref{fig:g-fun}, where
+$g(\beta)\equiv g(\beta,p)$ is given by (\ref{gb}) for the EPD. Naturally, we have
+$\lim_{\beta\rightarrow 0}g(\beta,p)=0.5$ for all $p$, so that the
+mean ($\mu_{0}$) coincides with the median ($\xi_{0.5}$) for the
+symmetric EPD family. The upper solid line in the plot corresponds to the
+Basel III function (\ref{general-basel-3}), whereas the lower solid line represents the
+limiting $\mathcal{U}[-1,1]$ distribution when $p=\infty$. As
+expected, $g(\beta,p)$ converges to the Basel III line  as
+$\beta\rightarrow 1$.
+%%%%%%%%%%%%%
+\begin{figure}[htb!]
+\caption{Plot of the $g(\beta,p)$ function defined in (\ref{gb})
+  vs.~$\beta$, for select values of $p$. The upper solid line is the Basel
+  III $g(\beta)$ function defined in (\ref{general-basel-3}), and the lower solid line the
+limiting uniform distribution when $p=\infty$.}%
+\label{fig:g-fun}
+\begin{center}
+\includegraphics[scale=0.9]{Plots/g-fun}
+\end{center}
+\end{figure}
+%%%%%%%%%%%%%
+\nc
+
+%Note also that the Laplace rendering of
+%the EPD ($p=1$) does coincide with Gumbel-like behavior far out in the
+%right tail (large $x$); the Gumbel being an important case in an
+%EVT-based analysis. 
+
+The basic questions we are posing
+concerning the relative efficiency of estimators of VaR vs.~ES, or tail median
+vs.~tail mean, are interesting
+also from a purely academic point of view, and to statistical
+inference in general. As will be seen later, the central message of this paper is that for sufficiently ``light''
+tails the tail mean is more efficient than the tail median, when the population
+quantiles that they are estimating coincide. This appears to remain true whether
+one is in a light-tailed ($\theta=0$) or heavy-tailed ($\theta>0$) regime. To
+obtain more details about the relative efficiency, it seems
+inevitable that one
+has to dive into a particular parametric family. The EPD was therefore
+chosen for reasons of
+tractability and flexibility in modeling the light-tailed portion of
+this spectrum of tail characteristics. To replicate this study for the
+heavy-tailed portion would at present appear to pose serious
+analytical challenges.
+\nc
+
+The rest of the paper is organized as follows. Notation and necessary
+preliminary results are established in
+Section~\ref{sec:prelim}. This is followed in Section \ref{sec:main} by  statements of the main theorems and
+perspectives on their meaning. A discussion concerning the
+implications of these results for QRM practice is presented in
+Section \ref{sec:discuss}.  The proofs of
+the theorems appear in Appendix Sections \ref{app:lims-theom-beta}
+and~\ref{app:lims-theom-p}. 
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Preliminary Results}\label{sec:prelim}
+In this section we  derive some  preliminary results
+that will be useful in subsequent sections.  Many results will rely on
+variants of the Gamma function. Let $\gamma(a,x)$ and $\Gamma(a,x)$ denote the incomplete Gamma
+functions defined by
+%
+\be\label{uG}
+\gamma(a,x) = \int_0^x e^{-t}t^{a-1} dt, \qquad\text{and}\qquad  
+\Gamma(a,x) = \int_x^{\infty} e^{-t}t^{a-1} dt,
+\ee
+%
+and note that $\gamma(a,x) + \Gamma(a,x) = \Gamma(a)$, the usual
+(complete) Gamma function. The properties of these functions are
+extensively documented in e.g., Abramowitz and Stegun (1972).
+\nc
+
+For notational convenience, define for $f(x)$ the EPD PDF in
+(\ref{expow-pdf}) and $n=0,1,2,\ldots$, 
+\be
+\label{FGA1} F_n(x) = \int_{-\infty}^x t^n f(t) dt , \qquad 
+ G_n(x) = \int_x^{\infty} t^n f(t) dt , \qquad 
+ A_n = \int_{-\infty}^{\infty} t^n f(t) dt.
+\ee
+Using this notation, the EPD CDF satisfies $F \equiv F_0$, and consequently $A_0 = 1$.  We note that for all $x$ we have 
+\be \label{FGA2}
+F_n(x) + G_n(x) = A_n
+\ee
+Now, for $n$ odd or even, we can, by making the change of variable $t^p = u$, use (\ref{uG}) to rewrite $G_n$ as
+\be \label{G_n+}
+G_n(x) = \frac{1}{2\Gamma(1/p)} \Gamma\left(\frac{n+1}{p},x^p\right), \qquad \mbox{\rm{  for  }} x > 0,
+\ee
+and note that  $G_n(0) = [2\Gamma(1/p)]^{-1}\Gamma((n+1)/p)$.
+For the case that $n$ is odd, the integrand in (\ref{FGA1}) is odd, and hence, we have
+\be \label{G_n-}
+G_n(x) = \int_x^{-x} t^n f(t) dt + G_n(-x) = \frac{1}{2\Gamma(1/p)} \Gamma\left(\frac{n+1}{p},|x|^p\right), \qquad \mbox{\rm{  for  }} x < 0.
+\ee
+For the case that $n$ is even, the integrand in (\ref{FGA1}) is even,
+and hence $G_n(0) = \frac{1}{2}A_n$. Now, using (\ref{FGA2}) and (\ref{G_n+}) yields
+\ba
+F_n(x) &=& 
+\begin{cases}
+G_n(-x), & \text{for all $x$}; \\
+A_n - G_n(x) = \frac{\Gamma(\frac{n+1}{p})}{\Gamma(1/p)}-
+\frac{1}{2\Gamma(1/p)} \Gamma\left(\frac{n+1}{p},x^p\right), & \text{for $x > 0$}; \\
+G_n(-x) = \frac{1}{2\Gamma(1/p)}\Gamma\left(\frac{n+1}{p},|x|^p\right), & \text{for $x < 0$}, \\
+\end{cases} \label{Fn_function}
+\\
+G_n(x) &=& A_n - F_n(x) = \frac{\Gamma\left(\frac{n+1}{p}\right)}{\Gamma(1/p)}- \frac{1}{2\Gamma(1/p)} \Gamma\left(\frac{n+1}{p},|x|^p\right), \qquad \mbox{\rm{  for  }} x < 0. 
+\ea
+Consequently, and noting that $F_0(\B) = \beta$, we can,  by making the change of variable $u = F_0(t)$,  rewrite
+$\mu_{\beta}$ defined in (\ref{cvar_d}) as \nc
+\be \label{mu_beta}
+\mu_{\beta} = \frac{1}{1-F_0(\B)}G_1(\B) = \frac{G_1(\B)}{G_0(\B)},
+\ee
+whence the functional relationship between $\alpha$ and $\beta$ in
+(\ref{g-fun}) can be written in closed form as
+\be \label{gb}
+\alpha = g(\beta,p)= F_0(\mu_{\beta}) = F_0\left(\frac{G_1(\B)}{G_0(\B)}\right).
+\ee
+Notational expediency will often prompt us to write $g_{\beta}\equiv g(\beta,p)$. 
+
+Denote by $\indicator{A}(x)$ the indicator function for
+set $A$, which takes on the value 1 if $x\in A$, and 0 otherwise.
+Define now the random variable obtained by upper tail truncation of
+$X$ at $\var$, 
+$Y_\al\equiv X\mid X\geq\var$,
+and note that $\mu_{\beta}$ in (\ref{mu_beta}) is in fact the mean
+of $Y_\al$, since its PDF is $f_{Y_\al}(y)=(1 -
+\beta)^{-1}f(y)\indicator{[\var,\infty)}(y)$. \nc 
+The  variance of $Y_\al$, which will appear in subsequent sections, is
+then given by 
+\be\label{cvar-variance} 
+\sigma^2_{\beta} = \frac{1}{1-\beta} \int_{\B}^{\infty} \left(x -
+  \mu_{\beta}\right)^2f(x) dx = \frac{1}{1-\beta} \int_{\beta}^1
+[F^{-1}(u)-\mu_{\beta}]^2 du,
+\ee 
+and using (\ref{mu_beta}), (\ref{gb}),  and (\ref{FGA1}), \nc we can rewrite it as
+\be \label{sb2}
+\sigma_{\beta}^2  = \frac{1}{G_0(\B)} \int_{\B}^{\infty}
+\left(x -  \frac{G_1(\B)}{G_0(\B)}\right)^2f(x) dx = \left(\frac{G_2(\B)}{G_0(\B)}\right) -\left(\frac{G_1(\B)}{G_0(\B)}\right)^2.
+\ee
+Defining for $n=1,2$,
+\be\label{helper-hn}
+ h_n = \frac{G_n(\B)}{G_0(\B)},
+\ee 
+leads to notationally simpler expressions for several of the above equations.
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Asymptotic Efficiency of VaR Relative to ES}\label{sec:main}
+Appealing to well-known results for order statistics (David and
+Nagaraja, 2003) we  obtain asymptotic normality for $\hvaralph$ in
+the \emph{central} (or \emph{quantile}) case of interest here  ($k_{\alpha}/n\rightarrow\alpha$ as
+$n\rightarrow\infty$).  One way to state this result is that for large
+$n$, $\sqrt{n}(\hvaralph-\varalph)$ is approximately Gaussian with mean zero and
+variance  $\alpha(1-\alpha)/f^2(\varalph)$, the \emph{asymptotic variance}.
+A corresponding result holds for $\sqrt{n}(\hcvar-\cvar)$  (Trindade
+\etal{}, 2007) with the asymptotic variance given by the
+inverse of the second
+fraction on the right of (\ref{are-var-cvar}). \nc (See also Giurcanu and
+Trindade (2007) for joint asymptotic normality of
+$(\hvar,\hcvar)$.) Appealing to these results we obtain the \emph{asymptotic relative efficiency} (ARE) of the
+empirical estimator of VaR$_{\alpha}$ with respect to that of ES$_{\al}$, as
+\be\label{are-var-cvar}
+\are(\hvaralph,\hcvar) \nc = \frac{\text{asymptotic variance of }\hvaralph}{\text{asymptotic variance of }\hcvar} = \frac{\alpha(1-\alpha)}{f^2(\varalph)}\cdot \frac{1-\beta}{\sigma_{\beta}^2 + \beta(\mu_{\beta} - \var)^2},
+\ee
+where $\sigma^2_{\beta}$ is as defined in
+(\ref{cvar-variance}). 
+
+%Choosing $\alpha=g_{\al}$ as in (\ref{g-fun})
+%to force VaR$_{\alpha}$ and ES$_{\al}$ to coincide, and defining \cb
+%$\are(\hvaralph,\hcvar)\equiv H(\beta,p)$, where the function $H:(0,1)\times
+%(0,\infty)\mapsto\R$ highlights the fact that the ARE is ultimately
+%dependent on just these two parameters, \nc leads to the following closed form expression under random sampling from the EPD.
+
+For the purpose of simplifying subsequent discussions, we define
+$\are(\hvaralph,\hcvar)\equiv H(\beta,p)$, where the function
+$H:\mathcal{D}\mapsto\R$ highlights the fact that the ARE is ultimately
+dependent on just these two parameters, and its domain is given by:
+\be\label{domain-of-H}
+\mathcal{D} = (0,1)\times (0,\infty).
+\ee  
+\nc
+Then, choosing $\alpha=g_{\al}$ as in (\ref{g-fun})
+to force VaR$_{\alpha}$ and ES$_{\al}$ to coincide, leads to the
+following closed form expression for the ARE  under random sampling
+from the EPD. 
+%
+\begin{lemma}\label{lemma:H-fun} 
+If $\alpha=g_{\al}$ is as in (\ref{gb}),
+then the ARE of $\hvaralph$ with respect to $\hcvar$ as given in (\ref{are-var-cvar})
+ is
+\be \label{H_2}
+\are(\hvaralph,\hcvar) \equiv H(\beta,p)\nc = \frac{F_0(h_1)G_0(h_1)} {\left(\frac{p}{2\Gamma(1/p)}\right)^2\exp\{-2\left(h_1\right)^p\}} 
+\cdot \frac{G_0(\B)}{h_2 -\left(h_1\right)^2 + F_0(\B)\left(h_1 -\B \right)^2}.
+\ee
+\end{lemma}
+\begin{proof}
+%This follows  by carefully combining (\ref{Fn_function}), \nc (\ref{mu_beta}), (\ref{gb}), and
+%(\ref{sb2}), using the notational simplification of (\ref{helper-hn}).
+See Appendix Section~\ref{app:lemma}.
+\nc
+\end{proof}
+
+Several interesting questions now arise, but primarily, when is $H(\beta,p)>1$
+so that ES is a more efficient estimator than VaR? Figure~\ref{fig:H-fun} shows a plot of $H(\beta,p)$ as a function of $0<\al<1$,
+for different values of $p$. Although neither estimator is
+uniformly better, we do see that for $p$ greater than about 1.4 (solid
+line), ES is uniformly more efficient. 
+%
+%%%%%%%%%%%%%
+\begin{figure}[htb!]
+\caption{Plot of the $H(\beta,p)$ function defined in Lemma~\ref{lemma:H-fun}
+  vs.~$\beta$, for select values of $p$.}%
+\label{fig:H-fun}
+\begin{center}
+\includegraphics[scale=0.9]{Plots/H-fun}
+\end{center}
+\end{figure}
+%%%%%%%%%%%%%
+%
+This uniformity is difficult to establish rigorously; but we can make
+concrete statements  by investigating the limiting values of
+$H(\beta,p)$ separately for each variable while holding the other
+fixed. Consider first the cases  $\beta
+\rightarrow 0$ and $\beta \rightarrow 1$, for fixed $p$. This yields
+the interesting results of the following theorem.
+%%%%%%%%%%%%%%%%%%%
+\begin{theorem}[Limiting behavior of the ARE in $\al$]\label{theom:lim-ARE-beta}
+With  $H(\beta,p)$ as defined in Lemma~\ref{lemma:H-fun}, and for $p \in (0,
+  \infty)$, we have that:
+\[
+\lim_{\beta \rightarrow 0} H(\beta,p) \equiv H(0,p) =
+\frac{3\Gamma^3(1+1/p)}{\Gamma(1+3/p)}, \qquad\text{and}\qquad \lim_{\beta \rightarrow 1} H(\beta,p) \equiv H(1,p) =\frac{e}{2}.
+\]  
+\end{theorem} 
+\begin{proof}
+See Appendix Section~\ref{app:lims-theom-beta}.
+\end{proof}
+%%%%%%%%%%%%%%%%%%%
+The result for $H(0,p)$ agrees with Sherman (1997), where his
+$\text{eff}(\bar{x},\tilde{x})$ corresponding to the ARE of the sample
+mean relative to the sample median, is our $1/H(0,p)$. We also note
+(as did Sherman, 1997)
+that
+$H(0,p)$  is an increasing function of $p$ which maps the interval
+$(0,\infty)$ onto the interval $(0,3)$. Consequently, there exists a
+unique $p^{\ast} \approx 1.4074$ such that for $p < p^{\ast}$, $H(0,p)
+< 1$ and for $p > p^{\ast}$, $H(0,p) > 1$. Thus, for leptokurtic (platikurtic)
+distributions, the median (mean) is a more efficient estimator,
+where the boundary between these two is exactly
+$p=p^{\ast}$. 
+%Furthermore, Figure~\ref{fig:H-fun} suggests this result
+%holds more generally for the tail median  and tail mean, regardless of $\al$.
+
+On the other hand, the result $H(1,p) =e/2\approx 1.36$ is
+remarkable! It says that in the limit of the right tail, the
+asymptotic variance of the tail median (VaR) is approximately 36\% larger
+than that of the tail mean (ES); a result that holds uniformly
+for all $p$. Equating ``efficiency'' with ``reduction in
+variance'', this translates equivalently into the tail mean being approximately 26\% more
+efficient than the tail median. The implications of
+this finding are clear: ES is a more efficient estimator than VaR
+for the typically high quantiles $\al$ that are used in practice. 
+
+Although not as interesting from a practical standpoint, \cb the next
+set of results considers also the cases  $p
+\rightarrow 0$ and $p \rightarrow \infty$, for fixed $\beta$. In the
+latter case, we are able to establish the following theorem.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{theorem}[Limiting behavior of the ARE as $p\rightarrow\infty$]\label{theom:lim-ARE-p}
+With  $H(\beta,p)$ as defined in Lemma~\ref{lemma:H-fun}, and for $\beta \in (0,
+  1)$, we have that:
+\[
+\lim_{p \rightarrow \infty} H(\beta,p) \equiv H(\beta,\infty) =\frac{1+\beta}{1/3+\beta}.
+\]  
+\end{theorem} 
+\begin{proof}
+See Appendix Section~\ref{app:lims-theom-p}.
+\end{proof}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+In the former case, we are unable to rigorously prove the particular
+result in question, but the arguments and graphical evidence presented in Case 3
+of Appendix Section~\ref{app:lims-theom-p} strongly suggest that the
+following conjecture holds.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{conj}[Limiting behavior of the ARE as $p\rightarrow 0$]\label{conj:lim-ARE-p}
+With  $H(\beta,p)$ as defined in Lemma~\ref{lemma:H-fun}, and for $\beta \in (0,
+  1)$, we conjecture that:
+\[
+\lim_{p \rightarrow 0} H(\beta,p) \equiv H(\beta,0) =0.
+\]  
+\end{conj} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\nc
+
+Interestingly, and in parallel with the second result of Theorem~\ref{theom:lim-ARE-beta},
+the limiting expression for $H(\beta,0)$ also appears to be independent of the
+other parameter ($\beta$). Note that the expression for
+$H(\beta,\infty)$ is a decreasing function of $\beta$  mapping the
+interval $(0,1)$ onto the interval $(3/2,3)$. Thus, for the limiting
+$\mathcal{U}[-1,1]$ distribution obtained when $p \rightarrow\infty$,
+the tail mean would be the (uniformly) preferred measure for all
+$\beta$.  Table \ref{tab:H-fun} summarizes the limiting values of
+$H(\beta,p)$ along the 4 edges defined by $\{(\beta,p):
+\beta=0,1\text{ and } p=0,\infty\}$.  The values obtained at the
+corresponding 4 corners are shown inside the table, as the limit is
+approached either horizontally along $p$ for fixed $\beta$, or vertically along
+$\beta$ for fixed $p$. From this it is apparent that the function is continuous everywhere along
+$\beta=0$, but discontinuous at each of the two corners: $(\beta=1,p=0)$
+and $(\beta=1,p=\infty)$. This  points the way to
+extending the domain of definition of $H(\beta,p)$ from that given by
+\eqref{domain-of-H}, to its closure (minus the two corners)
+\be\label{new-domain-of-H}
+\bar{\mathcal{D}} = \left\{(\beta,p)\in [0,1]\times [0,\infty]\mid
+  (\beta,p)\neq (1,0)\text{ and }(\beta,p)\neq (1,\infty)\right\}, 
+\ee  
+where we refrain from defining the
+function at each of the problematic corners in order to circumvent any non-uniqueness issues. \nc
+
+%%%%%%%%%%%%%
+\begin{table}[tbh]
+%\footnotesize
+\centering
+\caption{Limiting values of the $H(\beta,p)$ function.}%
+\label{tab:H-fun}
+%\begin{center}%
+\begin{tabular}{l|l|c|c|r}
+%\toprule
+\cmidrule{3-4}
+\multicolumn{2}{c|}{} & \multicolumn{2}{|c|}{$H(1,p)=\frac{e}{2}$} & \\[1ex]
+\cmidrule{3-4}
+\multicolumn{2}{c|}{}   & $p=0$  & $p=\infty$  &  \\[1ex]
+\cmidrule{2-4}
+\multirow{5}{*}{$H(\beta,0)=0$} & \multirow{2}{*}{$\beta=1$} & $\lim_{p\rightarrow 0}H(1,p)=e/2$  & $\lim_{p\rightarrow\infty}H(1,p)=e/2$  & \multirow{5}{*}{$H(\beta,\infty)=\frac{1+\beta}{1/3+\beta}$}  \\[1ex]
+ & & $\lim_{\beta\rightarrow 1}H(\beta,0)=0$ & $\lim_{\beta\rightarrow
+   1}H(\beta,\infty)=3/2$ & \\[1ex] 
+\cmidrule{2-4}
+ & \multirow{2}{*}{$\beta=0$} & $\lim_{p\rightarrow 0}H(0,p)=0$  & $\lim_{p\rightarrow\infty}H(0,p)=3$  &  \\[1ex]
+ & & $\lim_{\beta\rightarrow 0}H(\beta,0)=0$ & $\lim_{\beta\rightarrow
+   0}H(\beta,\infty)=3$ & \\[1ex] 
+\cmidrule{2-4}
+\multicolumn{2}{c|}{} & \multicolumn{2}{|c|}{$H(0,p)=\frac{3\Gamma^3(1+1/p)}{\Gamma(1+3/p)}$} & \\[1ex]
+\cmidrule{3-4}
+%\bottomrule
+\end{tabular}
+%\end{center}
+\end{table}
+%%%%%%%%%%%%%
+
+Finally, Figure \ref{fig:H.contour.fun} displays a contour plot of
+$H(\beta,p)$ as a function of its two arguments. The overwhelming
+message from
+this plot  is the fact that apart from the steep ``cliff'' at the left
+in the region $p<p^{\ast}$, the function is always larger than
+unity. Thus the tail mean is uniformly more efficient (regardless of
+$\al$) than the tail
+median for distributions with $p>p^{\ast}$ (platikurtic). We can
+refine this further by considering a particular $\al$, e.g., if
+$\al=0.975$ (Basel III), then $H(\beta,p)>1$ for $p>0.23$. 
+%
+%%%%%%%%%%%%%
+\begin{figure}[htb!]
+\caption{Contour plot of $H(\beta,p)$ as a function of its arguments.}%
+\label{fig:H.contour.fun}
+\begin{center}
+\includegraphics[scale=0.9]{Plots/H-contour-col}
+\end{center}
+\end{figure}
+%%%%%%%%%%%%%
+%
+\nc
+
+\begin{remk}\label{remk-evt-are}
+In EVT terminology, a result for the ARE in (\ref{are-var-cvar}) corresponding
+  to heavy-tailed distributions with tail index $\theta>0$ in the \emph{intermediate} case where $\ka/n\rightarrow 1$ as
+$n\rightarrow\infty$, was derived by Danielsson and Zhou (2016):
+\[ \are(\hvaralph,\hcvar) = \frac{1-\beta}{1-\alpha}\cdot\frac{\theta-2}{2(\theta-1)}.  \]
+By comparison, recall that the type of convergence for the number of order
+statistics at which the summand \eqref{var-cvar-npes} starts in the
+\emph{central} case, $\ka=[n\al]$, is that $\ka/n\rightarrow \beta$ as
+$n\rightarrow\infty$, which is fundamentally different, and in our view more
+relevant for practical QRM. \nc
+\end{remk}
+\nc 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Discussion}\label{sec:discuss}
+
+We established limiting results concerning the ratio of asymptotic
+variances of the classical empirical estimators of location, tail median
+vs.~tail mean, in the context of the flexible EPD family of
+distributions. The most remarkable result concerned the fact that in
+the limit of the right tail,  the asymptotic variance of the tail median is approximately 36\% larger
+than that of the tail mean, irrespective of the EPD shape
+parameter. Equating ``efficiency'' with ``reduction in
+asymptotic variance'', this translates equivalently into the tail mean being approximately 26\% more
+efficient than the tail median.  
+The findings also offer a generalization of the solution to the
+age-old statistical quandary concerning which of
+the sample median vs.~sample mean is the most efficient estimator of
+centrality.
+
+
+The central tenet of this paper is that for sufficiently ``light''
+tails, the tail mean is a more efficient estimator than the tail median, when the population
+quantiles that they are estimating coincide. This appears to remain true whether
+one is in a light-tailed (tail index $\theta=0$) or heavy-tailed (tail
+index $\theta>0$) regime. \nc From a practical perspective, this message  may have important repercussions for QRM practitioners with regard to
+choice of risk measure, VaR or ES, as follows: 
+\begin{itemize}
+\item If the data on hand is believed to follow a light-tailed
+  distribution ($\theta=0$). Proceed by fitting an EPD via,
+  e.g., maximum likelihood. Guided by efficiency considerations, the corresponding choice of risk measure in implementing
+Basel III (where $\alpha=0.99$ and $\beta=0.975$) would then be
+dictated by ascertaining whether or not the estimated value of the EPD shape
+parameter, $p$, exceeds $0.23$. For
+other risk quantile levels $\alpha$, the corresponding $\al$ can be
+determined from Figure \ref{fig:g-fun} or equation (\ref{gb}), whence the appropriate choice can be made
+from Figure \ref{fig:H.contour.fun} or equation (\ref{H_2}), bearing in mind that for
+$p>1.4074$ ES is always more efficient. 
+
+\item If the data follows a heavy-tailed
+  distribution ($\theta>0$). Remark \ref{remk-evt-are} can
+  be used to determine which of VaR/ES is more efficient, given an
+  estimate of  $\theta$. However,
+  relating $\alpha$ and $\beta$ to yield the same value of the risk
+  measures like we
+did through the function $g(\beta,p)$ for the light-tailed case of EPD, still requires distribution-specific knowledge.
+Thus, for example, setting $(1-\beta)/(1-\alpha)=2.5\approx e$ as
+suggested by Basel III, we see that $\are(\hvaralph,\hcvar)>1$ only for
+$\theta>6$ (Danielsson and Zhou, 2016), and so for really heavy tails
+it is VaR that is less variable than ES at these specific
+quantiles. A further problem with this EVT approach is the fact that
+comparisons are made for the intermediate rather than central quantile
+case, whereas we argue the latter is more realistic than the former in
+practical applications since the probability corresponding to
+$\text{VaR}_\al$ is converging to $\al$ instead of $1$ (Remark~\ref{remk-evt-are}). Rather, the intermediate quantile
+case is considered merely because it leads to a general tractable solution. \nc
+\end{itemize}
+
+There is therefore room for improvement in both approaches. The light-tailed
+  case could benefit from a more general result for
+  $\lim_{p\rightarrow 0}H(1,p)$ that would be independent of the
+  distributional family, of the type mentioned for the heavy-tailed
+  case. On the other hand, the heavy-tailed situation might benefit from a similar
+  analysis as was done for light-tailed, where the focus is the central rather
+  than intermediate quantile case. At present, both extensions would
+  seem to be offer substantial analytical challenges. 
+
+%\bigskip
+%\rc (\dag) Roger: if we could say that $\lim_{p\rightarrow 0}H(1,p)=e/2$ also
+%when we go along line (\ref{general-basel-3}), then we
+%would have a limit that holds for all light-tailed
+%  distributions (subject to regularity conditions), and this would be a
+%  POWERFUL message. (Note that the fact that the $g(\al,p)$ functions
+%  are converging to this line as $p\rightarrow 0$ seems hopeful...)\nc
+\nc
+
+
+\appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Overview of Proof Techniques}\label{app:prelim}
+ Throughout the proofs
+in the remaining sections, we will make liberal use of certain mathematical results. We document the primary ones here  in order to add transparency to the proofs.
+\begin{itemize}
+\item[(i)] ``Big $O$'' and ``little $o$'' notation. For sequences of real
+  numbers $\{u_n\}$ and $\{v_n\}$, recall that $u_n=O(v_n)$ if and only if $u_n/v_n$ is bounded, and $u_n=o(v_n)$
+  if and only if $\lim_{n\rightarrow\infty}u_n/v_n=0$. Rules for
+  manipulating these can be found in any advanced text. In particular,
+  note that if $x_n=o(u_n)$ and $y_n=o(v_n)$, then
+  $x_n+y_n=o(\max\{u_n,v_n\})$, and $x_ny_n=o(u_nv_n)$.  
+
+\item[(ii)] Asymptotic equivalence of (non-random) sequences. For
+  real-valued sequences $a(x)$ and $b(x)$, we write $a(x)\approx b(x)$ if and only if
+$a(x)/b(x)\rightarrow 1$ as $x \rightarrow\infty$. An equivalent way of
+stating this definition (which points the way to  arithmetic
+manipulations) is:
+\[ a(x)\approx b(x) \qquad\Longleftrightarrow\qquad \frac{a(x)-b(x)}{a(x)}=o(1). \]
+Note however that for bounded sequences this simplifies:
+$a(x)\approx b(x)\Leftrightarrow a(x)-b(x)=o(1)$.
+
+\item[(iii)] Establishing limits of ratios. For sufficiently small $x\downarrow 0$, recall from the
+  geometric series expansion that
+\[
+\frac{1}{1+x} = \frac{1}{1-(-x)} = 1- x + x^2 + o(x^{-2}).
+\]
+Suppose now that $\eta(z)=1+a/z+b/z^2+o(z^{-2})$, where
+$z\rightarrow\infty$. A standard technique for dealing with limits of
+ratios is to set $x=a/z+b/z^2+o(z^{-2})$, and to then employ the representation
+\be \label{our-common-trick}
+\frac{1}{\eta(z)} = \frac{1}{1+x} =
+1-\left(\frac{a}{z}+\frac{b}{z^2}+o(z^{-2})\right)
++\frac{a^2}{z^2}+o(z^{-2})
+=
+1-\frac{a}{z}+\frac{a^2-b}{z^2}+o(z^{-2}).  
+\ee
+\end{itemize}
+\nc
+
+
+
+%\section{Four Limiting Cases of Interest}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Proof of Lemma~\ref{lemma:H-fun}}\label{app:lemma}
+%This follows  by carefully combining (\ref{Fn_function}), \nc (\ref{mu_beta}), (\ref{gb}), and
+%(\ref{sb2}), using the notational simplification of (\ref{helper-hn}).
+Define the numerators ($V_1,V_2$) and denominators ($W_1,W_2$) by writing: 
+\[ H(\beta,p) =\frac{\alpha(1-\alpha)}{f^2(\varalph)}\cdot \frac{1-\beta}{\sigma_{\beta}^2 + \beta(\mu_{\beta} - \var)^2}\equiv \frac{V_1}{W_1}\cdot\frac{V_2}{W_2} . \]
+Now compute each of these 4 terms as follows.
+\begin{description}
+\item[$V_1$:] From \eqref{gb} and \eqref{helper-hn} we have $\alpha =
+  F_0(\mu_{\beta}) = F_0(h_1)$, whence noting that
+  $A_0=1$, we obtain, in view of \eqref{FGA2},
+  $1-\alpha=A_0-F_0(h_1)=G_0(h_1)$. Putting these together gives:
+$V_1=\alpha(1-\alpha)=F_0(h_1)G_0(h_1)$.
+\item[$V_2$:] By definition, $\beta=F_0(\var)$, whence the fact that $A_0=1$ and
+\eqref{FGA2} gives: $V_2=1-\beta=A_0-F_0(\var) =G_0(\var)$.
+\item[$W_1$:] $\varalph=F^{-1}(\alpha)$, thus since it follows by
+  \eqref{gb} that $\alpha =g(\beta,p) = F_0(h_1)$, we have
+  $\varalph=F^{-1}(F(h_1))=h_1\geq 0$, since $\varalph=\cvar\geq 0$
+  (see Figure \ref{fig:var-cvar}). Therefore, substituting this into
+  \eqref{expow-pdf} gives: $\sqrt{W_1}=f(\varalph)=p\exp\{-(h_1)^p\}/[2\Gamma(1/p)]$.
+\item[$W_2$:] From \eqref{sb2} and \eqref{helper-hn},
+  $\sigma_{\beta}^2=h_2-h_1^2$, and from \eqref{mu_beta} and
+  \eqref{helper-hn}, $\cvar-\var=h_1-\var$. These then give: $W_2=\sigma_{\beta}^2+\beta(\cvar-\var)^2=h_2 -h_1^2 + F_0(\B)(h_1 -\B)^2$.
+\end{description}
+\nc
+
+
+
+%\section{Four Limiting Cases of Interest}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Proof of Theorem~\ref{theom:lim-ARE-beta}}\label{app:lims-theom-beta}
+%---------------------------------------------------------
+ 
+To assess the limiting behavior of $H(\beta,p)$, we take the approach
+of considering the limits of
+its individual components, separately for the cases
+$\beta\rightarrow 0$ (Case 1) and $\beta\rightarrow 1$ (Case 2). A key
+idea is to make the
+change of variable $\beta = F_0(\B)$ early on in each case. This sheds light
+on the connections to the Gamma and incomplete Gamma, thus
+naturally allowing one to invoke the properties and asymptotics of
+these functions.  In all cases, the basic strategy will be to ascertain
+the limits of each piece of $H(\beta,p)$ as given in Lemma
+\ref{lemma:H-fun}, which are then combined to obtain the desired result.\nc
+
+
+\subsection*{Case 1: $\beta \rightarrow 0$ (for fixed $p$) }
+We can rewrite (\ref{are-var-cvar}), using $\alpha = g_{\beta}$ so that $\mu_{\beta} = \xi_{\alpha}$,
+as $H(\beta,p) = P_1 \cdot Q_1$, where
+\[
+P_1 = \frac{\alpha(1-\alpha)}{f^2(\varalph)}, \ \ \ \ Q_1 = \frac{1-\beta}{\sigma_{\beta}^2 + \beta(\mu_{\beta} - \var)^2}.
+\]
+If we let $\beta \rightarrow 0$, then $\mu_{\beta} \rightarrow 0$
+which is the average value of $F_0^{-1}$ over $(0,1)$.  Hence, as
+$\beta \rightarrow 0$, we have $g_{\beta} \rightarrow 1/2$ which is
+the value of $F_0$ at $x=0$. Clearly as $\beta \rightarrow 0$,
+$f(\mu_{\beta}) \rightarrow f(0) = \frac{p}{2\Gamma(1/p)}$.  
+Thus, $P_1 \rightarrow \frac{1}{4}/\left[ \frac{p}{2\Gamma(1/p)} \right]^2$ as $\beta \rightarrow 0$. 
+\vspace{0.1in}
+
+\noindent Define $\B$ by $F_0(\B) = \beta$.  Then, $\beta \rightarrow 0$ implies $\B =
+F_0^{-1}(\beta) \rightarrow -\infty$. Considering the term $\beta(\mu_{\beta} - \B)^2$ in $Q_1$, we have, since $\mu_{\beta} \rightarrow 0$ as $\beta \rightarrow 0$, 
+\ba \label{limit_1}
+\lim_{\beta \rightarrow 0} \beta(\mu_{\beta} - \B)^2 &=& \lim_{\beta \rightarrow 0} -2\mu_{\beta} \beta F_0^{-1}(\beta) + \beta[F_0^{-1}(\beta)]^2 .
+\ea
+Making a change of variable $\beta = F_0(\B)$ and applying l'Hopital's rule, we note, for $k=1,2$, 
+\[
+\lim_{\beta \rightarrow 0} \beta[F_0^{-1}(\beta)]^k = \lim_{\B \rightarrow -\infty} F_0(\B)\B^k = \lim_{\B \rightarrow -\infty} \frac{F_0(\B)}{\B^{-k}} = \lim_{\B \rightarrow -\infty} \frac{\frac{p}{2\Gamma(1/p)}e^{-|\B|^p}}{-k\B^{-k-1}} = 0.
+\]
+Hence, the limit in (\ref{limit_1}) is $0$.
+Finally, we note that as $\beta \rightarrow 0$, ${\ds \sigma_{\beta}^2 \rightarrow \sigma_0^2 = \int_0^1 [F_0^{-1}(u)]^2 du}$.  Making a change of variable, $u = F_0(t)$, we can write
+\bes
+\sigma_0^2 = \int_{-\infty}^{\infty} \frac{p}{2\Gamma(1/p)} t^2 e^{-|t|^p} dt = \frac{p}{\Gamma(1/p)} \int_0^{\infty} t^2e^{-t^p} dt =  \frac{\Gamma(3/p)}{\Gamma(1/p)}. 
+\ees
+Thus, $Q_1 \rightarrow 1/[\Gamma(3/p)/\Gamma(1/p)]$ as $\beta \rightarrow 0$.  
+\vspace{0.1in}
+
+\noindent Hence, we have as $\beta \rightarrow 0$,
+\be \label{L_1}
+\lim_{\beta \rightarrow 0} H(\beta,p) = \lim_{\beta \rightarrow 0} P_1 \cdot Q_1 = \frac{1/4}{\left[\frac{p}{2\Gamma(1/p)}\right]^2}\cdot \frac{1}{\frac{\Gamma(3/p)}{\Gamma(1/p)}} = \frac{1}{p^2} \frac{[\Gamma(1/p)]^3}{\Gamma(3/p)} = \frac{3[\Gamma(1+1/p)]^3}{\Gamma(1+3/p)}.
+\ee
+
+%---------------------------------------------------------
+\subsection*{Case 2: $\beta \rightarrow 1$ (for fixed $p$) }
+We can rewrite (\ref{H_2}) as $H(\beta,p) = P_2 \cdot Q_2$ where
+\[
+P_2 = \frac{G_0(h_1)G_0(\B)} {\left(\frac{1}{2\Gamma(1/p)}\right)^2\exp\{-2\left(h_1\right)^p\}}, \ \ \  
+Q_2 = \frac{F_0(h_1)}{p^2[h_2 -\left(h_1\right)^2 + F_0(\B)\left(h_1 -\B \right)^2]}.
+\]
+Define $\B$ by $F_0(\B) = \beta$.  Then, $\beta \rightarrow 1$ implies $\B \rightarrow \infty$. In particular, we have, since $\B > 0$, from (\ref{G_n+}) that
+\[
+G_n(\B) = \frac{\Gamma(\frac{n+1}{p},\B^p)}{2\Gamma(1/p)} 
+, \qquad h_n = \frac{G_n(\B)}{G_0(\B)} =
+\frac{\Gamma(\frac{n+1}{p},\B^p)}{\Gamma(1/p,\B^p)}, \qquad\text{for }n = 1,2.
+\]
+Defining, 
+\be\label{Erdelyi-s}
+s(a,z) = 1 + \frac{a -1}{z} + \frac{(a-1)(a-2)}{z^2} + o\left(\frac{1}{z^2}\right),\qquad z \rightarrow \infty,
+\ee
+we can represent $\Gamma(a,z)$, see Erdelyi~\etal{} (1953, p.~135,~(6)), as
+\be
+\Gamma(a,z) = \frac{z^a e^{-z}}{z}s(a,z), \qquad z \rightarrow \infty.
+\ee
+Consequently, we have, using (\ref{Erdelyi-s}) in the second step,
+\bas 
+G_n(\B) &=& \frac{1}{2\Gamma(1/p)}\frac{(\B^p)^{(n+1)/p}e^{-\B^p}}{\B^p} s\left(\frac{n+1}{p},\B^p\right)  \\
+ &=& \frac{1}{2\Gamma(1/p)}\frac{ \B^{n+1} e^{-\B^p}}{\B^p} \left(1 + \frac{(n+1)/p-1}{\B^p}  + o\left(\frac{1}{\B^{p}}\right) \right),
+\eas
+whence, employing the technique of (\ref{our-common-trick}) to deal
+with the term $1/G_0(\B)$, gives
+\ba
+h_n &=& \frac{G_n(\B)}{G_0(\B)}=
+\B^{n}\;s\left(\frac{n+1}{p},\B^p\right)\bigg/ s\left(\frac{1}{p},\B^p\right) \label{my.star.eqn}\\
+&=&\B^{n} \left(1 + \frac{(n)/p}{\B^p} +  o\left(\frac{1}{\B^{p}}\right) \right).\nonumber
+\ea
+In particular, 
+\bas
+G_0(\B) &=& \frac{1}{2\Gamma(1/p)}\frac{\B e^{-\B^p}}{\B^p} \left(1 + \frac{1/p-1}{\B^p} +  o\left(\frac{1}{\B^{p}}\right) \right), \\
+h_1 &=& \B \left(1 + \frac{1/p}{\B^p} +  o\left(\frac{1}{\B^{p}}\right) \right), 
+\eas
+which implies $G_0(\B) \rightarrow 0$, $F_0(\B) \rightarrow 1$, and
+$h_1 \rightarrow \infty$, as $\B \rightarrow \infty$.  Furthermore, we
+have, once again using (\ref{our-common-trick}), that 
+\be
+G_0(h_1) = \frac{1}{2\Gamma(1/p)}\frac{h_1 e^{-(h_1)^p}}{(h_1)^p} \left(1 + \frac{1/p-1}{h_1^p} +  o\left(\frac{1}{h_1^p}\right) \right) .
+\ee
+Consequently, we have $G_0(h_1) \rightarrow 0$ and $F_0(h_1) \rightarrow 1$ as $\B \rightarrow \infty$.  Thus, we have, as $\B \rightarrow \infty$,
+\ba \nonumber
+P_2 = \frac{G_0(h_1)G_0(\B)}{(\frac{1}{2\Gamma(1/p)})^2\exp\{-2\left(h_1\right)^p\}} &\approx&
+\frac{ h_1}{e^{(h_1)^p}(h_1)^p} \frac{\B}{e^{\B^p}\B^p} e^{2(h_1)^p}
+=(h_1)^{1-p} \B^{1-p} e^{(h_1)^p-\B^p} \nonumber \\
+%&=&(h_1)^{1-p} \B^{1-p} e^{(h_1)^p-\B^p} \\ 
+&\approx& \B^{2-2p} e^{(h_1)^p-\B^p}.\label{expo}
+\ea
+Now, note that for the exponent of the exponential in (\ref{expo}) we have
+\bas
+(h_1)^p-\B^p &=& \B^p \left(1+\frac{1/p}{\B^p} + o\left(\frac{1}{\B^p}\right) \right)^p -\B^p = \B^p \left(1+p\frac{1/p}{\B^p} + o\left(\frac{1}{\B^p}\right) \right) - \B^p = 1 + o(1),
+\eas
+whence, $e^{(h_1)^p-\B^p} \rightarrow e$ as $\B \rightarrow \infty$. Thus, we have as $\B \rightarrow \infty$
+\be \label{P2}
+P_2 \approx {\B}^{2-2p} \cdot e
+\ee
+Considering the terms in $Q_2$, we have, as $\B \rightarrow \infty$,
+\bas
+(h_1 - \B)^2 &=&  \left[\B\left( 1 + \frac{1/p}{\B^p} + o\left(\frac{1}{(\B)^p}\right) \right) -\B\right]^2  =\B^2\left(\frac{1/p}{\B^p} + o\left(\frac{1}{(\B)^p}\right) \right)^2  \\
+&=&\frac{\B^{2-2p}}{p^2} \left(1 +  o\left(\frac{1}{(\B)^p}\right) \right),
+\eas
+and finally,  using (\ref{my.star.eqn}),
+\be
+h_2 - (h_1)^2 = \B^2\left[ \frac{s(3/p,\B^p)s(1/p,\B^p) - s(2/p,\B^p)s(2/p,\B^p)}{s(1/p,\B^p)s(1/p,\B^p)}\right] .
+\ee
+Since, using the second order terms in (\ref{Erdelyi-s}),
+\bas
+s(3/p,z)s(1/p,z) - s(2/p,z)s(2/p,z) &=& \frac{1/p^2}{z^2} +  o\left(\frac{1}{z^2}\right), \\
+s(1/p,z)s(1/p,z) &=& 1 + \frac{2/p-2}{z} + o\left(\frac{1}{z}\right),
+\eas
+and, again using (\ref{our-common-trick}) to deal with the
+inversion of the denominator,
+\bes
+\frac{s(3/p,z)s(1/p,z) - s(2/p,z)s(2/p,z)}{s(1/p,z)s(1/p,z)} = \frac{1/p^2}{z^2} + o\left(\frac{1}{z^2}\right),
+\ees
+we have, as $\B \rightarrow \infty$,
+\bes
+h_2 - (h_1)^2 \approx \frac{\B^{2-2p}}{p^2} .
+\ees
+%
+Thus, we have as $\B \rightarrow \infty$,
+\be \label{Q2}
+Q_2 \approx \frac{1}{p^2[\frac{{\B}^{2-2p}}{p^2} + \frac{{\B}^{2-2p}}{p^2}]}
+\ee
+Combining, (\ref{P2}) and (\ref{Q2}), we have \nc as $\B \rightarrow \infty$,
+\be\label{case2-H-final}
+H(\beta,p) = P_2 \cdot Q_2 \approx \frac{[1-0] \B^{2-2p}\cdot e} {p^2\left[\frac{\B^{2-2p}}{p^2} + (1-0)\frac{\B^{2-2p}}{p^2}\right]} ,
+\ee
+and thus ${\ds H(\beta,p) \rightarrow \frac{e}{2} }$ as $\B
+\rightarrow \infty$ ($\Leftrightarrow\al \rightarrow 1$).
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%---------------------------------------------------------
+%---------------------------------------------------------
+%\section{Case 3: $p \rightarrow 0$ (for fixed $\beta$) }
+%---------------------------------------------------------
+%---------------------------------------------------------
+\cb
+\section{Discussion of Conjecture~\ref{conj:lim-ARE-p} and Proof of Theorem~\ref{theom:lim-ARE-p}}\label{app:lims-theom-p}
+%---------------------------------------------------------
+
+For continuity with Cases 1 and 2 above, let Case 3 denote the limiting result of $p \rightarrow 0$ given by
+Conjecture~\ref{conj:lim-ARE-p}, and Case 4 the limiting result of $p
+\rightarrow \infty$ stated in Theorem~\ref{theom:lim-ARE-p}.
+\nc In Case 3 we are only able to rigorously show
+that the limiting EPD PDF is zero everywhere, whence it follows
+that the corresponding CDF is converging to $1/2$. 
+For the resulting convergence of $H(\beta,p)$ to zero as $p
+\rightarrow 0$, we
+have only graphical evidence. Case 4 is  tackled by considering the limiting
+distribution that results when $p \rightarrow\infty$. The computation of $H(\beta,\infty)$
+is then straightforward for the limiting $\mathcal{U}[-1,1]$. Usage
+of the (well-defined) generalized quantile function to invert the CDF
+permits the interchange of limits and integrals, via
+the Lebesgue Dominated Convergence theorem, thus justifying the $\mathcal{U}[-1,1]$ computation. 
+\subsection*{Case 3: $p \rightarrow 0$ (for fixed $\beta$)}
+ 
+Note that since the EPD PDF, $f(x;p) =
+ p[2\Gamma(1/p)]^{-1}\exp\{-|x|^p\}$,  is the
+product of term 1 and term 2, where term 2 is the exponential, \cb  it converges
+(uniformly) to $0$  as $p\rightarrow 0$\nc.  This follows
+from the fact that term 2 is uniformly bounded by $1$ for all $x$ and
+all $p>0$, whereas term 1 converges to $0$ as $p\rightarrow 0$.  Since
+the total area under the PDF is $1$ (for any $p$), then for smaller
+$p$ the PDF has to spread further out to capture this total
+area. Since half the area occurs for $x\in(-\infty,0)$ and half for
+$x\in(0,\infty)$, this in turn forces the CDF $F(x;p)$ to converge to
+$1/2$ for each $x$ as $p\rightarrow 0$. 
+
+It is not obvious how this fact implies that $H(\beta,p)
+\rightarrow 0$ as $p\rightarrow 0$. A
+critical complicating factor for constructing an analytical proof for
+this case is the fact that although $\beta$ is fixed, $\B$ is not fixed (as
+a function of $p$), and,  indeed, exhibits the following limiting
+behavior:
+\[
+\lim_{p\rightarrow 0}\B = 
+\begin{cases}
+-\infty, & \text{if }\beta<0.5, \\
+0,       & \text{if }\beta=0.5, \\
++\infty, & \text{if }\beta>0.5. \\
+\end{cases}
+\]
+Possibilities we
+investigated included efforts to establish asymptotic expansions for
+the incomplete Gamma functions in the representation of $G_n(\B)$
+given $\sigma^2_{\beta}$. Nevertheless the result seems to be true, as is apparent from
+Figure~\ref{fig:H-fun-case3}.
+%
+%%%%%%%%%%%%%
+\begin{figure}[htb!]
+\caption{Plot of $H(\beta,p)$ as a function of $p$ for select values
+  of $\beta$.}%
+\label{fig:H-fun-case3}
+\begin{center}
+\includegraphics[scale=0.9]{Plots/H-fun-case3}
+\end{center}
+\end{figure}
+%%%%%%%%%%%%%
+%
+\nc
+
+%---------------------------------------------------------
+
+\subsection*{Case 4: $p \rightarrow \infty$ (for fixed $\beta$)}
+Denote by $f(x;p)$  and $F(x;p)$ the EPD PDF and CDF, respectively, for given shape
+parameter $p$. Formally define $f(x;\infty) = \lim_{p \rightarrow \infty} f(x;p)$ and
+$F(x;\infty) = \lim_{p \rightarrow \infty} F(x;p)$.  Note that
+$f(x;\infty) = \frac{1}{2}\indicator{[-1,1]}(x)$ is a uniform
+distribution on $[-1,1]$.  Thus, $F(x;\infty) =
+\frac{1+x}{2}\indicator{[-1,1]}(x) + \indicator{(1,\infty)}(x)$,  and
+we have from the Lebesgue Dominated Convergence theorem (Royden, 1988)
+that: 
+\be\label{F-converges-as-p-infty}
+\lim_{p \rightarrow \infty}F(x;p) = F(x;\infty), \qquad\text{for }x\in\R. 
+\ee 
+\nc Throughout, we will let $F^{-}(u;\infty)$
+denote the generalized inverse of $F(x;\infty)$, also known as the
+generalized quantile function (Embrechts and Hofert, 2013). Thus, we
+have $F^{-}(u;\infty) = 2u-1$ for $0 < u \le 1$.  Noting (now and
+for the remainder of the proof) that in the
+limit when $p=\infty$ we are dealing with a $\mathcal{U}[-1,1]$
+distribution, \nc straightforward calculations yield 
+\[
+\mu_{\beta}(\infty) \equiv \mu(\beta,\infty) =
+\frac{1}{1-\beta}\int_{\beta}^1 F^{-}(u;\infty) du = \beta, \qquad
+g_{\beta}(\infty) \equiv g(\beta,\infty)= F(\mu(\beta;\infty),\infty)
+= \frac{1+\beta}{2}, 
+\]
+\[
+\sigma_{\beta}^2(\infty) \equiv \sigma^2(\beta,\infty) = \frac{1}{1-\beta}\int_{\beta}^1 [F^{-}(u;\infty) - \mu(\beta,\infty)]^2 du = \frac{(1-\beta)^2}{3},
+\]
+and hence, 
+\bas
+H(\beta,\infty) &\equiv& \frac{g_{\beta}(\infty)(1-g_{\beta}(\infty))}{[f(\mu_{\beta}(\infty);\infty)]^2}\cdot \frac{1-\beta}{\sigma_{\beta}^2(\infty) + \beta[\mu_{\beta}(\infty) - F^{-}(\beta;\infty)]^2} = \frac{1+\beta}{1/3 + \beta}.
+\eas
+
+
+Having thus demonstrated that $H(\beta,\infty)$ exists, we will now show that
+indeed $\lim_{p\rightarrow\infty} H(\beta,p) = H(\beta,\infty)$, and
+thus verify  Theorem \ref{theom:lim-ARE-p}.  \nc Recall from Section \ref{sec:prelim} that
+\[
+\mu_{\beta} = \mu(\beta,p) =\frac{1}{1-\beta} \int_{\beta}^1 F^{-}(u;p)du, \qquad
+g_{\beta} = g(\beta,p) =F(\mu(\beta,p);p), 
+\]
+\[
+\sigma_{\beta}^2 = \sigma^2 (\beta,p) = \frac{1}{1-\beta} \int_{\beta}^1 [F^{-}(u;p)-\mu(\beta,p)]^2 du.
+\] 
+For $0 < \delta < 1$, define 
+\[ 
+e_n(\delta) =\lim_{p \rightarrow \infty} \int_{\delta}^\infty t^n
+f(t,p) dt, 
+\]
+and note that,  since $\lim_{x\rightarrow
+  0}x\Gamma(x)=\lim_{x\rightarrow 0}\Gamma(1+x)=1$, we have, setting
+$x=1/p$, that \nc $\lim_{p \rightarrow \infty} \frac{p}{2\Gamma(1/p)} = 1/2$.
+Since, for $n=0,1,2$ and for $p \ge 2$ and $t \ge 1$, we have $t^n e^{-t^p} \le e^{-t^{p/2}} \le e^{-t}$, we see that 
+\be \label{c4}
+e_n(\delta) =\lim_{p \rightarrow \infty} \int_{\delta}^\infty t^n f(t,p) dt = 1/2 \int_{\delta}^\infty t^n \indicator{[-1,1]}(t) dt = \frac{1-\delta^{n+1}}{2(n+1)}.
+\ee
+ (This follows by noting that since the integrand on the left hand side
+of (\ref{c4}) is bounded by the (integrable) function $e^{-t}$, we
+can, applying the Lebesgue Dominated Convergence theorem, bring the
+limit inside the integrand.) \nc Now define $B = B(p)$ by $F(B;p) = \beta$. Then, making a change of variable $u = F(t;p)$ we obtain
+\[
+\mu_{\beta} = \mu(\beta,p) = \frac{1}{1-\beta} \int_{B(p)}^{\infty} t f(t;p) dt, \qquad
+g_{\beta} = g(\beta,p) =F(\mu(\beta,p);p), 
+\]
+\[
+\sigma_{\beta}^2 = \sigma^2 (\beta,p) = \frac{1}{1-\beta} \int_{B(p)}^{\infty} (t-\mu(\beta,p))^2 f(t;p) dt.
+\]
+%
+Since $e_n(\delta)$ given by (\ref{c4}) is continuous in $\delta$ and
+(by an analogous argument) $F(x;p)$ is also continuous in $x$, the
+convergence in \eqref{F-converges-as-p-infty} (in
+the appropriate topology)  for $x=\mu(\beta;p)$, where $0 < \beta <1$, implies that
+\[
+\lim_{p \rightarrow \infty} B(p) = \lim_{p \rightarrow \infty} F^{-}(\beta;p) = F^{-}(\beta;\infty) = 2\beta -1,
+\]
+whence we then have that, assembling these and earlier results, \nc  
+\bas
+\lim_{p \rightarrow \infty} \mu(\beta,p) &=& \lim_{p \rightarrow \infty} \frac{1}{1-\beta} e_1(B(p)) = \frac{1}{1-\beta} e_1(2\beta -1) = \beta, \\
+\lim_{p \rightarrow \infty} g(\beta,p) &=& \lim_{p \rightarrow \infty} F(\mu(\beta,p); p) = F(\beta;\infty) = \frac{1+\beta}{2},  \\
+\lim_{p \rightarrow \infty} \sigma^2(\beta,p) &=& \lim_{p \rightarrow \infty} \frac{1}{1-\beta} \left[ e_2(B(p)) - 2\mu(\beta,p) e_1(B(p)) + \mu^2(\beta,p) e_0(B(p)) \right] \\
+&=&  \frac{1}{1-\beta} \left[ e_2(2\beta -1) - 2\beta e_1(2\beta -1) + {\beta}^2 e_0(2\beta -1)\right] = \frac{(1-\beta)^2}{3}.
+\eas
+Thus, we obtain
+\be \label{L_4}
+\lim_{p \rightarrow \infty} H(\beta,p) = H(\beta,\infty) =  \frac{1+\beta}{1/3 + \beta}.
+\ee
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Conflict of Interest}
+The authors declare that they have no conflict of interest.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Acknowledgements}
+We are indebted to detailed comments from two anonymous referees that led to vast improvements in the
+paper.
+
+
+
+%---------------------------------------------------------
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\def\cprime{$'$}
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{thebibliography}{10000}
+
+\bibitem{AbramStegun1972}
+Abramowitz, M., Stegun, I.A., eds. (1972). \emph{Handbook of
+Mathematical Functions with Formulas, Graphs, and Mathematical Tables},
+New York: Dover Publications.\nc
+
+\bibitem{AcTa2002}
+Acerbi, C., and Tasche, D. (2002). ``On the coherence of expected
+shortfall'', \emph{Journal of Banking \& Finance}, 26, 1487--1503. 
+
+\bibitem{Art1999}
+Artzner P., Delbaen, F., Eber, J., and Heath, D. (1999). "Coherent
+measures of risk", {\it Mathematical Finance}, 9, 203--228.
+
+
+\bibitem{Basel2013}
+Basel III (2013). ``Fundamental review of the
+trading book: A revised market risk framework'', \emph{Technical report}, Basel
+Committee on Banking Supervision, October 2013.\nc
+
+\bibitem{CSU2012}
+Chun, S.Y., Shapiro A., and Uryasev, S. (2012). ``Conditional Value-at-Risk and Average Value-at-Risk: Estimation and Asymptotics'', \emph{Operations Research}, 60, 739--756.
+
+
+\bibitem{DanielZHou2016}
+Danielsson, J., and Zhou, C. (2016). ``Why Risk Is So Hard to
+Measure'', \emph{DNB Working Paper No. 494}, De Nederlandsche Bank NV,
+Amsterdam (The Netherlands).
+
+\bibitem{DaNa2003}
+David, H., and Nagaraja, H. (2003). \emph{Order Statistics}, 3rd
+ed., Hoboken: Wiley.
+
+\bibitem{DuSi2003}
+Duffie, D., Singleton, K.J. (2003). \emph{Credit Risk: Pricing, Measurement, and
+Management}, Princeton: Princeton University Press.
+
+\bibitem{EH2013}
+Embrechts, P., and Hofert, M. (2013). ``A note on generalized inverses'',
+\emph{Mathematical Methods in Operations Research}, \textbf{77}, 423--432. 
+
+\bibitem{EH2014}
+Embrechts, P., and Hofert, M. (2014). ``Statistics and Quantitative
+Risk Management for Banking and Insurance'',
+\emph{Annual Review of Statistics and Its Application}, \textbf{1}, 493--514. 
+
+\bibitem{EH2014b}
+Embrechts, P., Puccetti, G., R{\"u}schendorf, L., Wang, R., and
+Beleraj, A. (2014). ``An academic response to Basel 3.5'',
+\emph{Risks}, 2, 25--48.
+
+\bibitem{EMOT1}
+Erdelyi, A., Magnus, W., Oberhettinger, F., and Tricomi, F.G. (1953). \emph{Higher Transcendental Functions}, Vol.~1, New York: McGraw-Hill. 
+
+\bibitem{FoSc2011}
+Follmer, H., and Schied, A. (2011). \emph{Stochastic Finance: An Introduction in Discrete
+Time}, 3rd ed., Berlin: de Gruyter.
+
+\bibitem{GiTr2007} Giurcanu, M. and Trindade, A.A. (2007). ``Establishing Consistency of M-Estimators Under Concavity with an Application to Some Financial Risk Measures,'' \emph{Journal of Probability and Statistical Science}, 5, 123--136.
+
+\bibitem{GGM98} Gomez, E., Gomez-Villegas, M.A., Marin, J.M.~(1998). ``A
+multivariate generalization of the power exponential family of
+distributions'', \textit{Communications in Statistics}, A27, 589--600.
+
+\bibitem{Jor2003}
+Jorion, P. (2003). \emph{Financial Risk Manager Handbook}, 2nd ed., New
+York: Wiley.
+
+\bibitem{LandsValdez2003} 
+Landsman, Z., and Valdez, E.  (2003). ``Tail conditional expectations for elliptical
+distributions'', \emph{North American Actuarial Journal}, 7, 55--71.
+
+
+\bibitem{Maronna2011} 
+Maronna, R. (2011). ``Robust Statistical Methods'', in \emph{International
+Encyclopedia of Statistical Science}, M.~Lovric (ed.), pp.~1244--1248.
+Berlin, Heidelberg: Springer. \nc
+
+\bibitem{McNFreyEmb2005} 
+McNeil, A.J., Frey, R., and Embrechts, P. (2005). \emph{Quantitative
+  Risk Management: Concepts, Techniques, Tools}, Princeton, NJ: Princeton Univ.~Press.
+
+\bibitem{MR2005} 
+Mineo, A.M., and Ruggieri, M.~(2005). ``A software tool for the exponential power
+distribution: the normalp package'', \emph{Journal of Statistical
+  Software}, 12(4), 1--23.
+
+\bibitem{Nad2005} 
+Nadarajah, S.~(2005). ``A generalized normal distribution'',
+\emph{Journal of Applied Statistics}, 32, 685--694.
+
+\bibitem{PfRo2007}
+Pflug, G., and Romisch, W. (2007). \emph{Modeling, Measuring, and Managing Risk},
+London: World Scientific.
+
+\bibitem{PBM}
+Prudnikov, A.P.,  Brychkov, Y.A. and Marichev, O.I. 
+(1986). \emph{Integrals and Series (Volume Two: Special Functions)},
+Amsterdam: Overseas Publishers Association. 
+
+\bibitem{RoUr2000}
+Rockafellar, R., and Uryasev, S., (2000). ``Optimization of
+conditional value-at-risk'', \emph{Journal of Risk}, 2, 21--41.
+
+\bibitem{Roy1988}
+Royden, H.L. (1988). \emph{Real Analysis}. Englewood Cliffs: Prentice Hall.\nc
+
+\bibitem{Sherman1997}
+Sherman, M. (1997). ``Comparing the Sample Mean and the Sample Median: An Exploration in the Exponential Power
+Family'', \emph{The American Statistician}, \textbf{51}, 52--54. 
+
+\bibitem{Temme}
+Temme, N.M. (1996). \emph{Special Functions:  An Introduction to the
+  Classical Functions of Mathematical Physics}, New York: Wiley.
+
+%\bibitem{T1}
+%Tricomi, F. (1950). \emph{Expansion of the hypergeometric function in series of confluent ones and application to the Jacobi polynomials}, \emph{Commentarii Mathematici Helvetici}, \textbf{25}, 196--204. 
+
+\bibitem{JoBandF2007} 
+Trindade, A.A., Uryasev, S., Shapiro, A., and Zrazhevsky, G. (2007). ``Financial Prediction with Constrained Tail Risk'', \emph{Journal of Banking and Finance}, 31, 3524--3538.
+
+\bibitem{YaYo2002}
+Yamai, Y., and Yoshiba, T. (2002). ``Comparative Analyses of Expected
+Shortfall and Value-at-Risk: Their Estimation Error, Decomposition,
+and Optimization'', \emph{Monetary and Economic Studies (Bank of Japan)}, 20, 87--121.
+
+%Abstract: We compare expected shortfall with value-at-risk (VaR) in three aspects: estimation errors, decomposition into risk factors, and optimization. We describe the advantages and the disadvantages of expected shortfall over VaR. We show that expected shortfall is easily decomposed and optimized while VaR is not. We also show that expected shortfall needs a larger size of sample than VaR for the same level of accuracy. 
+
+\bibitem{YaYo2005}
+Yamai, Y., and Yoshiba, T. (2005). ``Value-at-risk versus expected
+shortfall: A practical perspective'', \emph{Journal of Banking \& Finance}, 29, 997--1015.
+
+
+
+
+\end{thebibliography}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+%\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+
+
+
+\end{document}

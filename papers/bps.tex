@@ -1,0 +1,988 @@
+\documentstyle[12pt,graphicx,amssymb]{article}
+%\usepackage{graphicx,amssymb,latexsym}
+
+\title{ An isoperimetric inequality for logarithmic capacity}
+
+\author{ Roger W. Barnard, Kent Pearce and Alexander Yu. Solynin\thanks{This paper 
+was finalized during the third author's
+visit at the Texas Tech University, Fall 2001. This author thanks
+the Department of Mathematics and Statistics of this University for the
+wonderful atmosphere and working conditions during his stay in Lubbock.
+The research of the third author was supported in part by the
+Russian Fund for Fundamental Research, grant no. 00-01-00118a.}}
+
+%\\ \it V.A.Steklov Mathematical Institute,\\ \it Russian Academy of Sciences,\\
+%\it Fontanka 27, St.Petersburg,\\ \it 191011, Russia}
+%\date{}
+%\newcommand{\Bbb}{\bf}
+
+\newcommand{\meas}{{\rm meas}\,}
+\newcommand{\area}{{\rm area}\,}
+\newcommand{\diam}{{\rm diam}\,}
+\newcommand{\CAP}{{\rm cap}\,}
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bl}{\begin{lemma}}
+\newcommand{\el}{\end{lemma}}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{corollary}{Corollary}
+\newtheorem{theo}{Theorem}
+\newtheorem{conjecture}{Conjecture}
+\newtheorem{lemmaA}{Lemma}
+\newcommand{\blemmaA}{\begin{lemmaA}}
+\newcommand{\elemmaA}{\end{lemmaA}}
+\newtheorem{proposition}{Proposition}
+\newcommand{\bprop}{\begin{proposition}}
+\newcommand{\eprop}{\end{proposition}}
+
+\newtheorem{fig}{Box for Figure}
+\renewcommand{\thetheo}{\Alph{theo}}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\renewcommand{\thelemmaA}{\Alph{lemmaA}}
+%\mag1200
+\newcommand{\bt}{\begin{theorem}}
+\newcommand{\et}{\end{theorem}}
+\newcommand{\bc}{\begin{corollary}}
+\newcommand{\ec}{\end{corollary}}
+\newcommand{\bcon}{\begin{conjecture}}
+\newcommand{\econ}{\end{conjecture}}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\e}{\varepsilon}
+
+\newcommand{\ph}{\varphi}
+\newcommand{\varph}{\varphi}
+\newcommand{\C}{{\Bbb {C}}}
+\newcommand{\CC}{\overline{\C}}
+\newcommand{\U}{{\Bbb{U}}}
+\newcommand{\CU}{\overline{\U}}
+\newcommand{\th}{\theta}
+\newcommand{\var}{\varphi}
+\newcommand{\al}{\alpha}
+\newcommand{\T}{{\Bbb{T}}}
+\newcommand{\N}{{\Bbb{N}}}
+
+\newcommand{\R}{{\Bbb{R}}}
+\newcommand{\CR}{\overline{\R}}
+
+\newcommand{\II}{\int\!\!\int}
+\begin{document}
+\maketitle
+
+
+\begin{abstract}
+We prove a sharp lower bound of the form $\CAP E\ge (1/2)\diam E \cdot \Psi(\area E/((\pi/4) \diam^2 E))$ for the logarithmic capacity 
+of a compact connected planar set $E$ in terms of its area and diameter. 
+Our lower bound includes as special cases G.~Faber's inequality
+$\CAP E\ge \diam E/4$ and G.~P{\' o}lya's inequality $\CAP E\ge (\area E/\pi)^{1/2}$. 
+We give explicit formulations, functions of $(1/2)\diam E$, for the extremal domains which we identify.
+~\footnote{Key words: logarithmic capacity,  omitted area
+problem,  univalent function,  local variation, symmetrization.}
+~\footnote{AMS Subject Classification 2000: 30C70, 30C85}
+
+\end{abstract}
+
+
+
+\section{Introduction}
+
+The logarithmic capacity, $\CAP E$, of a continuum ( = compact connected set) $E$ in the complex plane $\C$ is defined
+by
+\be
+-\log \CAP E=\lim_{z\to \infty}(g(z)-\log |z|),
+\ee
+where $g(z)$ denotes Green's function of the unbounded component $\Omega(E)$ 
+of $\CC\setminus E$ having singularity at $z=\infty$.
+
+The measure of a set described by the logarithmic capacity is very important in potential theory, analysis,
+and PDE's. It combines several characteristics of a compact set, among which are the geometric
+concept of transfinite diameter due to M.~Fekete, the concept of Chebyshev's constant from
+polynomial approximation, and the concept of the outer radius from conformal mapping, see \cite{D,Du,G,H}.
+
+In general, computation of $\CAP E$ is a difficult problem but there are several estimates of $\CAP E$ in terms
+of geometric characteristics of $E$ that are very useful in applications, see \cite{PSz}. For instance,
+\be
+(1/4)\diam E \le \CAP E\le (1/2)\diam E,
+\ee
+\be
+((1/\pi)\area E)^{1/2}\le \CAP E<\infty.
+\ee
+The first inequality in (1.2) was found by G.~Faber \cite{F} in a different form. The inequalities in (1.3) and the second inequality in (1.2), 
+which is valid for any (not necessary connected) compact set, were proved by G.~P{\' o}lya \cite{Po}. Equality occurs only for rectilinear 
+segments in Faber's inequality and for disks in P{\' o}lya's inequalities. The case of equality in the right inequality
+in (1.2) was studied by J.~Jenkins \cite{J} and A.~Pfluger \cite{Pf}.
+
+We will employ the following notation throughout this paper:  let $\U =\{z:\,|z|<1\}$ and $\U_r (c) =\{z:\,|z-c|<r\}$, so that $\U = \U_1(0)$.  Finally, let $\U^* = \CC \setminus
+\CU$.  
+
+In this paper, we prove the following theorem that contains the left inequalities in (1.2) and (1.3) as special cases.
+
+\bt
+Let $E$ be a continuum in $\C$. Then
+\be
+\CAP E\ge (1/2)\diam E \cdot\Psi(\area E/((\pi/4)\diam^2E)),
+\ee
+where $1/\Psi(s)$ is a decreasing function from $[0,1]$ onto $[1,2]$  that is the inverse function to $s=p^{-2}[\beta^2(p)-2p(\beta(p)-1)]$, 
+with $1\le \beta(p)\le 2$ defined by equation (1.7), with $d$ replaced by $p$.
+
+Equality occurs in (1.4) if and only if $E=a(\C\setminus f_d(\U^*))+b$ for some $a,b\in \C$, $a\not=0$ and $1\le d\le 2$, where the function
+$f_d(z)$ is defined for $|z|>1$ by (1.8).
+\et
+
+
+The graph of $\Psi$ is plotted in Figure~1. Figure~2 displays the shape of the extremal continua for $a=1$, $b=0$ and some typical
+values of $d$.
+
+Let $s=\area E/((\pi/4)\diam^2E)$. In the case $s=0$, (1.4) gives Faber's inequality and in the case $s=1$, it gives P{\' o}lya's
+inequality. Combined with the right-hand side inequality in (1.2) and the classical area-diameter  inequality $0\le \area E/((\pi/4)\diam^2E)\le 1$,
+(1.4)  describes the range of one of the quantities $\CAP E$, $\diam E$, or $\area E$ if the other two 
+are fixed. Several similar sharp inequalities linking three characteristics of a set are known in geometry. But to
+prove such a sharp inequality is a difficult task even for purely geometric quantities, see \cite{JBo}. From this perspective,
+(1.4) might be the first known sharp inequality for these three quantities that includes a functional characteristic.
+
+
+
+\begin{figure}
+$$\includegraphics[scale=0.50]{psi_s_7-n}$$
+\caption{Graph of $\Psi(s)$}
+\end{figure}
+
+
+\begin{figure}
+$$\includegraphics[scale=.30]{bdy_1p3a-n} \includegraphics[scale=.30]{bdy_1p5a-n} \includegraphics[scale=.30]{bdy_1p9a-n}$$
+\caption{Extremal continua}
+\end{figure}
+
+
+
+Since $\CAP E$, $\diam E$, and $(\area E)^{1/2}$ all change linearly with respect to scaling we can fix one of them,
+say $\CAP E$, and then study the region of variability of the other two. In this way, we can reformulate the problem as 
+finding the maximal omitted area for the class $\Sigma$ of univalent functions
+\be
+f(z)=z+a_0(f)+a_1(f) z^{-1}+\ldots
+\ee
+which are analytic in $\U^*$, except for a simple pole at $z=\infty$. For $ f \in \Sigma$, let $E_f=\C\setminus
+f(\U^*)$. 
+It is well known, as a consequence of the normalization in (1.5), that for $f \in \Sigma$ that $1 \le (1/2)\diam E_f \le 2$.  
+Therefore, for $1\le d\le 2$, we will consider $\Sigma_d=\{f\in \Sigma: \diam E_f=2d\}$. For $f\in \Sigma_d$, define $A_f=\area E_f$ 
+and $A(d)=\sup _{f\in \Sigma_d} A_f$. It is well known that 
+$$
+A_f=\pi(1-\sum_{n=1}^\infty n|a_n(f)|^2)
+$$
+--- this relation will be often used in what follows.
+Theorem~1 is equivalent to 
+\bt
+Let $f\in \Sigma_d$, $1\le d \le 2$. Then,
+\be
+A(f)\le \pi[\beta^2-2d(\beta-1)],
+\ee
+where $1 \le \beta \le 2$  is the unique solution to the equation
+\be
+d=\beta - (\beta - 1) \log(\beta -1).
+\ee
+
+
+
+Equality occurs in (1.6) if and only if $f(z)=e^{i\tau}f_d(e^{-i\tau}z)+b$ with $\tau\in \R$, $b\in \C$, and
+\be
+f_d(z)=d+\int_1^z z^{-1}\varphi(z;d)\,dz,
+\ee
+where the function $\varphi(z;d)=zf'_d(z)$ is defined by the equation
+\be
+\varphi(z; d)=A \frac{z^2-1}{z} 
+\frac{\sqrt{1+Bz^2+\sqrt{r(z)}}
+\sqrt{B+z^2+\sqrt{r(z)}}}
+{c(1+z^2)+\sqrt{r(z)}}
+\ee
+with principal branches of the radicals and
+\begin{eqnarray*}
+c = \beta - 1\  , \hspace{0.25in} A &=&  \frac{1+c}{2c} \ , \hspace{0.25in} B = 2 c^2 - 1 \  , \\
+r(z) &=& 1 + 2Bz^2 + z^4 \ .
+\end{eqnarray*}
+The function $\varphi$ maps $\U^*$ conformally onto the complement of the ``double anchor"
+
+$$
+F(\beta,\psi)=[-i\beta,i\beta] \cup \{\beta e^{it}:\,\frac\pi2-\psi\le t \le \frac\pi2+\psi\}
+$$
+
+$$
+ \cup \{\beta e^{it}:\,\frac{3\pi}{2}-\psi\le t \le \frac{3\pi}{2}+\psi\},
+$$
+where $\beta$ is defined by (1.7) and $\psi=(1/2)\cos^{-1}(8\beta^{-1}-8\beta^{-2}-1)$.
+\et
+
+\medskip
+
+The graph of the maximal omitted area $A(d)=\pi[\beta^2(d)-2d(\beta(d)-1)]$  is shown in Figure~3. 
+
+\medskip
+
+
+To prove Theorem~2, we apply techniques developed in \cite{BS}, which were based on symmetrization 
+transformations and some elementary  local variations. Section~2 contains preliminary results and necessary definitions. 
+In Section~3, we identify the extremal function by solving a specific boundary value problem for analytic
+functions. Section~4 completes the proofs of Theorems~1 and 2.
+
+Note that some similar sharp estimates for the area of $f(\U)$ for problems with analytic side conditions
+instead of geometric constraints, as imposed in the present paper,  were found in \cite{ASS1,ASS2} using a different method.
+
+
+\begin{figure}
+$$\includegraphics[scale=0.50]{area_d_7-n}$$
+\caption{Graph of $A(d)$}
+\end{figure}
+
+
+
+
+
+\section{Preliminaries}
+\setcounter{equation}{0}
+
+First we show the existence of an extremal function and describe some simple properties of the maximal omitted area.
+
+\bl
+For every $1\le d\le 2$ there is a function $f\in \Sigma_d$ such that $A_f=A(d)$. 
+
+The maximal area $A(d)$ is continuous and strictly decreases from $\pi$ to $0$ as $d$ increases from $1$ to $2$.
+\el
+
+{\it Proof}. For a fixed $d$, $\Sigma_d$ is compact in the topology of uniform convergence on compact subsets of $\U^*$. Since
+$A_f$ is upper semi-continuous, the existence of an extremal function follows.
+
+Let $1<d_1<d_2\le 2$ and let $f\in \Sigma_d$ be extremal for $A(d_2)$. Note that $f$ has at least one 
+non-zero coefficient $a_k(f)$ for some $k\ge 1$. The function
+\be
+f_t(z)=t^{-1}f(tz)=z+a_0(t)t^{-1}+a_1(t)t^{-2}z^{-1}+\ldots,
+\ee
+as well as the area $A_{f_t}$ and diameter $d(f_t)=\diam E_{f_t}$ depend continuously on $t$, $1\le t<\infty$. Since $f_t(z)\to z$ as $t\to \infty$,
+one can easily show that $d(f_{t})\to 2$ as $t\to \infty$. Hence, there is $t_1>1$ such that $d(f_{t_1})=2d_1$. Therefore
+\be
+A(d_1)\ge A_{f_{t_1}}=\pi(1-\sum_{n=1}^\infty n t_1^{-2(n+1)}|a_n(f)|^2)>\pi(1-\sum_{n=1}^\infty n|a_n(f)|^2)=A(d_2),
+\ee
+with strict inequality since $a_k(f)\not=0$. Equation (2.2) proves the strict monotonicity of $A(d)$.
+
+Finally, the compactness of $\Sigma_d$ and continuity of $A_{f_t}$ imply the continuity of $A(d)$.
+$\Box$
+
+Since the class $\Sigma_d$ is invariant under the rigid motions of $\C$, i.e. $e^{-i\theta}f(e^{i\theta}z)+b\in \Sigma_d$
+if $f\in \Sigma_d$ and $\theta\in \R$, $b\in \C$, we may restrict ourselves to functions $f\in \Sigma_d$ such that the points
+$w_1=d$, $w_2=-d$ belong to $E_f$. Thus, the condition $\diam E_f=|w_1-w_2|=2d$ will be assumed if a different condition 
+is not imposed explicitly.
+
+To prove symmetry properties of an extremal continuum $E_f$ we shall apply Steiner symmetrization defined as follows:
+
+The Steiner symmetrization of a compact set $E$ w.r.t. the real axis $\R$ is a compact set $E^*$ 
+such that for every $u\in \R$, $E^*\cap l(u)=\emptyset$ if $E\cap l(u)=\emptyset$ and $E^*\cap l(u)=\{w=u+it:\,-m\le t\le m\}$ if
+$E\cap l(u)\not=\emptyset$. Here $l(u)=\{w=u+it:\,-\infty<t<\infty\}$ and $m=\meas(E\cap l(u))$ denotes the linear Lebesgue
+measure. Steiner symmetrization w.r.t. the imaginary or other axis is defined similarly.
+
+It is well known that Steiner symmetrization preserves area and diminishes diameter and logarithmic capacity \cite{H,D}.
+
+\bl
+For $1<d<2$, let $f\in \Sigma_d$ be an extremal function normalized as above. Then, $E_f$ possesses Steiner symmetry w.r.t.
+the real and imaginary axes.  Moreover,  the boundary of $E_f$, $\partial E_f$, consists of a Jordan rectifiable curve $L_f$ plus, possibly,
+some added segments $I_+=[d_0,d]$, $I_-=[-d,-d_0]$, $0<d_0=d_0(d)\le d$, of the real axis.
+\el
+
+{\it Proof}. Suppose that $E_f$ does not possess Steiner symmetry w.r.t. $\R$.  Let $E^*$ be the Steiner symmetrization of
+$E_f$ w.r.t. $\R$. Note that
+\be
+2d=\diam E_f=\diam E^* \quad {\mbox{and}}\quad \CAP E_f>\CAP E^*
+\ee
+since the points $\pm d\in E_f$ and since $E^*$ is not a rigid motion of $E_f$  (see \cite{D}). Let
+\be
+F(z)=\alpha z+\alpha_0+\alpha_1 z^{-1}+\ldots, \quad \alpha>0,
+\ee
+map $\U^*$ conformally onto $\Omega(E^*)$. The inequality in (2.3) shows that $\alpha<1$. Let $F_\alpha=\alpha^{-1}F$. Then, 
+$F_\alpha\in \Sigma_{d/\alpha}$.   Therefore, we have
+$$
+A(d/\alpha)\ge A_{F_\alpha}=\pi \alpha^{-2}(1-\sum_{n=1}^\infty n \alpha^{-2}|\alpha_n|^2) \ge \pi (1-\sum_{n=1}^\infty n |a_n(f)|^2)=A(d).
+$$
+Since $d/\alpha>d$, the latter contradicts the  strict monotonicity of $A(d)$ in Lemma~1.
+
+The same arguments show that $E_f$ possesses Steiner symmetry w.r.t. the imaginary axis.
+
+Let $L^+_f=\{w\in \partial E_f:\,\Im w>0\}$ and $L^-_f=\{w\in \partial E_f:\,\Im w<0\}$. The Steiner symmetries of $E_f$ w.r.t.
+the real and imaginary axes can be used to show that $L^+_f$ and $L^-_f$ are rectifiable Jordan arcs; a similar argument was used 
+in \cite[Lemma~4]{ASS2}. 
+Indeed, let $L^+=\{w\in L^+_f:\,\Re w>0\}$ and let $d_0=\sup \{\Re w:\, w\in L^+ \}$, 
+$m_0=\sup \{ \Im w:\,w\in L^+ \}$.  The function
+$$
+\tau(w)=u+m_0 -v, \quad {\mbox{where}}\quad w=u+iv
+$$
+is continuous on $ L^+ $ and maps the closure $\bar  L^+ $ one-to-one onto the segment $\{\tau:\,0\le \tau\le d_0+m_0 \}$. Therefore, 
+$\bar  L^+ $ is Jordan.  Since $\Re w$ and $\Im w$ are both monotonic on $ L^+ $, it follows that $\bar  L^+ $ is rectifiable. This
+implies that $\partial E_f$ consists of a rectifiable Jordan curve $L_f$ plus, possibly, some added  horizontal segments
+$[-d,-d_0]$, $[d_0,d]$ and vertical segments $[-im,-im_0]$, $[im_0,im]$ with $0\le m_0\le m<\infty$.
+
+The presence of vertical segments, i.e., the segments  $[-im,-im_0]$, $[im_0,im]$ with $m > m_0$ easily leads to a contradiction: shortening the vertical
+slits and expanding the horizontal ones we can find a continuum $\tilde E$ such that 
+$\area \tilde E=\area E_f$, $\CAP \tilde E=\CAP E_f=1$, and $\diam \tilde E>\diam E_f$ that contradicts the strict monotonicity
+property of $A(d)$ in Lemma~1.
+$\Box$
+
+Let $f\in \Sigma _d$ be an extremal function for $A(d)$. By Lemma~2, 
+$\partial f(\U^*)=L^+_f\cup L^-_f\cup [-d,-d_0]\cup [d_0,d]$ with $0<d_0\le d$. If $d_0<d$ then 
+there is $0<\theta_0<\pi/2$ such that $L^+_f=\{f(z):\, z\in l^+_f\}$, $[d_0,d]=\{f(z):\, z\in l_n^{++}\}$, $[-d,-d_0]=
+\{f(z):\,z\in l_n^{+-}\}$, where $l^+_f=\{e^{i\th}:\,\th_0<\th<\pi-\th_0\}$, $l_n^{++}=\{e^{i\th}:\, 0\le \th\le \th_0\}$, 
+$l_n^{+-}=\{e^{i\th}:\, \pi-\th_0\le\th\le \pi\}$. The corresponding arcs in the lower half-plane will be denoted by $l_f^-$, $l_n^{-+}$, 
+and $l_n^{--}$. The image curves $L_f^+$ and $L_f^-$ are called the {\it free boundary}, the preimages
+ $l_f^+$ and $l_f^-$ are called the {\it free arcs}. Respectively, $[d_0,d]$, $[-d,-d_0]$ and $l_n^{++}$, $l_n^{+-}$, $l_n^{-+}$, $l_n^{--}$
+are called the {\it non-free boundary} and the {\it non-free arcs}.
+
+To study the behavior of $f'$ on the non-free arcs we shall use two lemmas from \cite{BS}, which are limiting
+cases of Theorem~1 in \cite{S2}.
+
+Let $H_\tau^+$ and $H_\tau^-$ be the left and right half-planes w.r.t. the vertical line $l(\tau)=\{w=u+iv:\,u=\tau\}$.
+For $D\subset \CC$, let $D_\tau^+=D\cap H_\tau^+$, $D_\tau^-=D\cap H_\tau^-$ and let $D_\tau^*$ denote the set symmetric
+to $D$ w.r.t. $l(\tau)$, i.e. $D^*_\tau=\{w=u+iv:\, 2\tau-u+iv\in D\}$.
+
+We say that $D$ possesses the {\it polarization property} in the interval $\tau_1<\tau<\tau_2$ if $(D_\tau^-)_\tau^*\subset D_\tau^+$
+for all $\tau_1<\tau<\tau_2$. Extremal configurations shown in Figure~2 give an example of domains possessing the polarization
+property in the corresponding intervals $0<\tau<d$.
+
+\bl \cite[Lemma 4]{BS}
+Let $f\in \Sigma$, $D=f(\U^*)$, and let $f$ map a boundary arc $\{ e^{i\th}:\, \th_1<\th<\th_2\}$ onto a horizontal interval 
+$\{w:\, \Im w=v_0,\tau_1<\Re w<\tau_2\}$. Let $D$ possess the polarization property in $\tau_1<\tau<\tau_2$. Then, 
+$|f'(e^{i\th})|$ strictly increases in $\th_1<\th<\th_2$ if $f(e^{i\th_1})=\tau_2+iv_0$ and strictly decreases if $f(e^{i\th_1})=\tau_1+iv_0$.
+\el
+
+If $f$ is extremal for $A(d)$, the joint symmetry of $E_f$ assures that the polarization property of $D=f(\U^*)$ holds in
+$d_0<\tau<d$. Thus, we obtain from Lemma~3,
+
+\bc
+Let $f\in \Sigma_d$ be extremal for $A(d)$, $1<d<2$ and suppose that the non-free arc $l_n^{++}$ is not  degenerate, i.e., $0<\th_0<\pi/2$.
+Then, $|f'(e^{i\th})|$ strictly increases in $0<\th<\th_0$ and $\pi<\th <\pi+\th_0$ and strictly decreases in $\pi-\th_0<\th<\pi$ 
+and $2\pi - \th_0<\th< 2\pi$.
+\ec
+
+We need  a similar result concerning angular polarization. Let $\gamma_\varph=\{w=te^{i\varph}, \, t\ge 0\}$ and let 
+$H_\varph^+$ denote the right half-plane w.r.t. the line determined by $\gamma_\varph$ and
+$H_\varph^-$ denote the left half-plane w.r.t. the line determined by $\gamma_\varph$.
+For $D\subset \CC$, let $D_\varph^+=D\cap H_\varph^+$, $D_\varph^-=D\cap H_\varph^-$ and let $D_\varph^*$ denote the set symmetric
+to $D$ w.r.t. the line determined by $\gamma_\varph$ .
+
+We say that a domain $D$ possesses the {\it angular polarization property} in $\varph_1<\varph<\varph_2$ if 
+$(D_\varph^-)_\varph^*\subset D_\varph^+$ for all $\var_1<\var<\varph_2$.  For example, domain $G$ depicted in 
+Figure~4 possesses the angular polarization property in $0<\varphi <\pi/2$.
+
+\bl \cite[Lemma~5]{BS}
+Let $g$ map $\U^*$ conformally onto $D$ and map a boundary arc $\{e^{i\th}:\, \th_1<\th <\th_2\}$ onto a circular arc
+$L=\{w=\rho e^{i\varphi}:\, \varphi_1<\varphi<\varphi_2\}$. Let $g(\infty)\in H_{\varphi_1}^+\cap H_{\varphi_2}^+$ and
+let $D$ possesses the angular polarization property in $\varphi_1<\varphi<\varphi_2$. Then, $|g'(e^{i\th})|$ strictly
+increases in $\th_1<\th<\th_2$ if $g(e^{i\th_1})= \rho e^{i\varphi_1}$ and strictly decreases in $\th_1<\th<\th_2$
+if $g(e^{i\th_1})=\rho e^{i\varphi_2}$.
+\el
+
+
+\medskip
+
+{\bf Remark}. The domains $D$ in Lemmas~3 and 4 possess the polarization property for a horizontal interval and 
+the angular polarization property w.r.t. 
+rays issuing from the origin, resp.  One can easily reformulate these lemmas for arbitrary intervals and for  rays
+issuing from  arbitrary centers.  For instance, Lemma~4 in \cite{BS} is formulated for vertical intervals.
+
+The term ``polarization property" comes from the proofs of Theorem~1 in \cite{S2} and Lemmas~4 and 5 in \cite{BS}
+that use the polarization transformation.
+
+
+\medskip
+
+To find a boundary condition for an extremal function $f\in \Sigma_d$ on the free arcs, we apply, in a suitable form, the
+local variation used in \cite{BS}. First, we recall the relations linking the logarithmic capacity of a continuum $E$ with
+the outer radius and reduced module of $\Omega(E)$. Let
+$$
+g(w)=w+b_0+b_1 w^{-1}+\ldots
+$$
+map $\Omega(E)$ conformally onto $\U_R^*=\CC \setminus \CU_R$, where $\U_R=\{\zeta:\,|\zeta|<R\}$. 
+The radius $R=R(E)$ of the omitted disk is uniquely determined and is called the outer radius of $\Omega(E)$;
+it is well known that $\CAP E=R(E)$, see \cite[\S~10.2]{Du}, \cite[Ch.~7]{G}. The quantity
+\be
+m(\Omega(E),\infty)=-\frac{1}{2\pi}\log R(E)=-\frac{1}{2\pi}\log \CAP E
+\ee
+is called the reduced module of $\Omega(E)$ at $w=\infty$. 
+
+The  variation used in \cite{BS} and in the present paper is rather complicated. Let $\Omega \subset \CC$
+be a simply connected domain which contains $\infty$ such that its boundary arcs lying in the vicinities of two of its boundary points, $w_1$
+and $w_2$, are Jordan and rectifiable. Let $\partial \Omega$ have a tangent $l$ at $w_1$ and let $n_1$ be a unit inward
+normal at $w_1$. For $\ep_1>0$ small enough, let $c^0_{\ep_1}$ and $c_{\ep_1}$ be open and closed crosscuts
+of $D$ at the boundary point $w_1$, i.e. $c^0_{\ep_1}$ and $c_{\ep_1}$ are respectively the biggest open and closed
+arcs of $C_{\ep_1}(w_1)$, where $C_r(w_0)=\{w:\,|w-w_0|=r\}$, such that $w_1+\ep_1n_1\in c^0_{\ep_1}\subset \Omega$
+and $w_1+\ep_1n_1\in c_{\ep_1}\subset \bar \Omega$, respectively. Let $\U^+_{\ep_1}(w_1)$ denote the connected component
+(half-disk) of $\U_{\ep_1}(w_1)\setminus l$ that contains the point $w_1+\ep_1n_1$ on its boundary. Let $c'_{\ep_1}$ denote the maximal
+open circular arc contained in the intersection $c^0_{\ep_1}\cap \partial \U^+_{\ep_1}(w_1)$. Let $\hat \Omega_{\ep_1}$
+be a connected component of $\Omega\setminus \overline {\U}_{\ep_1}(w_1)$ containing $\infty$ and let
+\be
+\Omega_{\ep_1}=\hat \Omega_{\ep_1}\cup \U^+_{\ep_1}(w_1)\cup c'_{\ep_1}.
+\ee
+Let $I(\ep_1)=\{w=w_1-itn_1:\,-\ep_1<t<\ep_1\}$. For $0<\varphi_1\le 1/2$, let $M(\ep_1,\varphi_1)$ denote the open lune
+in $\U_{\ep_1}(w_1)\setminus \U^+_{\ep_1}(w_1)$ bounded by $I(\ep_1)$ and a circular arc $\gamma(\ep_1,\varphi_1)$ that forms angles
+of opening $\pi\varphi_1$ with the interval $I(\ep_1)$ at its end points. Let
+\be
+\Omega(\ep_1,\varphi_1)=\Omega_{\ep_1}\cup M(\ep_1,\varphi_1)\cup I(\ep_1).
+\ee
+
+Let $g(w)=g(w;\ep_1,\varphi_1)$ map $\Omega(\ep_1,\varphi_1)$ conformally onto $\U^*$ such that $g(\infty)=\infty$, $g(w_2)=1$. 
+Let $0<\varphi_2\le 1/2$ and $\ep_2>0$ be small enough. Let $U^{\ep_2,\varphi_2} \subset \U^*$ be the simply connected domain which 
+contains $\infty$ and which is
+bounded by the arc $L(\ep_2)=\{e^{i\th}:\, \ep_2 \le |\th| \le \pi \}$ and by the circular arc $L(\ep_2,\varphi_2)$ with ends at the points
+$e^{i\ep_2}$ and $e^{-i\ep_2}$ that forms an angle of opening $\pi(1-\varphi_2)$ with the arc $L(\ep_2)$ at the points $e^{i\ep_2}$ 
+and $e^{-i\ep_2}$.
+
+
+The domain
+\be
+\tilde\Omega=g^{-1}(U^{\ep_2,\varphi_2},\ep_1,\varphi_1)
+\ee
+will be called  {\it the two point variation of $\Omega$ centered at $w_1$ and $w_2$ with radii $\ep_1$ and $\ep_2$
+and inclinations $\varphi_1$ and $\varphi_2$}.
+
+\medskip
+
+The following lemma is a reformulation of Lemma~10 in \cite{BS} for conformal mappings $f$ of $\U^*$ normalized by
+condition $f(\infty)=\infty$; in \cite{BS} this result is formulated for conformal mappings $f$ of the unit disk $\U$
+with normalization $f(0)=0$.
+
+\bl \cite[Lemma~10]{BS}
+Let $w=f(z)$ map $\U^*$ conformally onto $\Omega$ defined above such that $f(\infty)=\infty$, $f(e^{i\th_1})=w_1$, $f(e^{i\th_2})=w_2$
+and let there exist the limits
+\be
+f'(e^{i\th_k})=\lim_{z\to e^{i\th_k},z\in \CU^*} \frac{f(z)-w_k}{z-e^{i\th_k}}\not= 0,\infty \quad {\mbox{for}} \quad k=1,2.
+\ee
+Let $|f'(e^{i\th_k})|=\al_k$, $k=1,2$. Let $\tilde\Omega(\ep_1,\ep_2,\varphi_1,\varphi_2)$ be the two point variation of $\Omega$ defined
+by (2.8) with $\ep_2$ replaced by $\ep_2/\al_2$. Then, for fixed $0 < \varphi_1\le 1/2$ and $0< \varphi_2\le 1/2$,
+$$
+m(\tilde\Omega(\ep_1,\ep_2,\varphi_1,\varphi_2),\infty)-m(\Omega,\infty)=
+$$
+\be
+\frac{\varphi_1(2+\varphi_1)}{12\pi\al_1^2(1+\varphi_1)^2}\ep_1^2-\frac{\varphi_2(2-\varphi_2)}{12\pi\al_2^2(1-\varphi_2)^2}\ep_2^2+o(\ep_1^2)+o(\ep_2^2)
+\ee
+and
+$$
+\area (\C\setminus \tilde\Omega(\ep_1,\ep_2,\varphi_1,\varphi_2))-\area(\C\setminus \Omega)=
+$$
+\be
+-\frac{2\pi\varphi_1-\sin 2\pi\varphi_1}{2\sin^2\pi\varphi_1}\ep_1^2+\frac{2\pi\varphi_2-\sin 2\pi\varphi_2}{2\sin^2\pi\varphi_2}\ep_2^2+o(\ep_1^2)+o(\ep_2^2)
+\ee
+as $\ep_1\to 0$ and $\ep_2\to 0$.
+\el
+
+\medskip
+
+To prove uniqueness of the extremal function in $\Sigma_d$, we need the following modification of Lemma~1 in \cite{S1} where a similar result 
+is proved for domains with one axis of symmetry.
+
+\bl (cf. \cite[Lemma~1]{S1}).
+For $k=1,2$, let $\Omega_k \subset \CC$ be simply connected domains which contain $\infty$ and which have double symmetry w.r.t. the coordinate axes. 
+Let there be a point $\zeta\in \partial \Omega_1$, $\Re \zeta\ge 0$, $\Im \zeta>0$ such that the points $\zeta$, $\bar\zeta$, $-\zeta$, and $-\bar\zeta$
+split $\partial \Omega_1$ into four boundary arcs $l_r^+$, $l_r^-$, $l_i^+$, and $l_i^-$, where $l_r^+$ lies in the closed right half-plane
+and connects $\zeta$ and $\bar\zeta$, $l_i^+$ lies in the closed upper half-plane and connects $\zeta$ and $-\bar\zeta$. Let
+$$
+g_k(z)=z+a_1(g_k)z^{-1}+\ldots
+$$
+map $\U^*$ conformally onto $\Omega_k$.
+
+If $l_r^+\subset \overline{\Omega}_2$, $l_i^+\subset \C\setminus \Omega_2$, then
+\be
+g_1(r)\le g_2(r), \quad |g_2(ir)|\le |g_1(ir)|
+\ee
+for all $r>1$. Equality  can occur in (2.12) if and only if $\Omega_1=\Omega_2$.
+\el
+
+\section{Boundary value problem for extremal functions}
+\setcounter{equation}{0}
+
+
+
+In this section $f$ will denote the extremal function in $\Sigma_d$ with $1<d<2$ and $D=f(\U^*)$.
+
+\bl
+There is $\beta>0$ such that
+\be
+|f'(e^{i\th})|=\beta \quad {\mbox{for a.e.}} \quad e^{i\th}\in l_f:=l_f^+\cup l_f^-
+\ee
+and
+\be
+|f'(e^{i\th})|<\beta \quad {\mbox{for all}} \quad e^{i\th}\in l_n:=\T\setminus \bar l_f.
+\ee
+\el
+
+{\it Proof}. Since $\partial D=L_f\cup I_+\cup I_-$ by Lemma~2, where $L_f$ is Jordan and rectifiable, the non-zero finite
+limit
+\be
+f'(\zeta)=\lim_{z\to \zeta, z\in \CU^*}\frac{f(z)-f(\zeta)}{z-\zeta}\not=0,\infty
+\ee
+exists for almost all $\zeta\in\T$. This easily follows from Theorem~6.8 in \cite{P} applied to the univalent function
+$1/f(1/z)$. Assume that
+\be
+0<\beta_1=|f'(e^{i\th_1})|<|f'(e^{i\th_2})|=\beta_2<\infty
+\ee
+for some $e^{i\th_1},e^{i\th_2}\in l_f$. Note that (3.3) and (3.4) allow us to apply the two point variation of Lemma~5.
+
+For positive $k_1,k_2$ such that
+\be
+0<k_1<1<k_2 \quad {\mbox{and }} \quad k_1\beta_1^{-1}>k_2\beta_2^{-1}
+\ee
+and for fixed $\varphi>0$ small enough consider the two point variation $\tilde D$ of $D$ centered at $w_1=f(e^{i\th_1})$ and
+$w_2=f(e^{i\th_2})$ with inclinations $\varphi$ and radii $\ep_1=k_1\ep$, $\ep_2=k_2\ep$, respectively. Computing 
+the change in the omitted area by formula (2.11), we find
+$$
+\area (\C\setminus \tilde D)-\area(\C\setminus D)= \frac{2\pi\varphi-\sin 2\pi\varphi}{2\sin^2\pi\varphi}\ep^2(k_2^2-k_1^2)+o(\ep^2).
+$$
+Therefore,
+\be
+\area(\C\setminus\tilde D)>\area(\C\setminus D)
+\ee
+for all $\ep>0$ small enough. Applying the variation (2.10) of Lemma~6, we get
+\begin{eqnarray}
+m(\tilde D,\infty)-m(D,\infty)&=&
+\frac{1}{12\pi}\left[\frac{\varphi(2+\varphi)}{(1+\varphi)^2}\frac{k_1^2}{\beta_1^2}-\frac{\varphi(2-\varphi)}{(1-\varphi)^2}\frac{k_2^2}{\beta_2^2}\right]\ep^2
++o(\ep^2) \nonumber \\
+&=& \left[\frac{\varphi}{6\pi}\left ( \frac{k_1^2}{\beta_1^2}-\frac{k_2^2}{\beta_2^2}\right ) +o(\varphi)\right ]\ep^2+o(\ep^2), 
+\end{eqnarray}
+which together with (3.5) implies that
+\be
+m(\tilde D,\infty)>m(D,\infty)
+\ee
+for all $\ep>0$ small enough if $\varphi$ is chosen such that the expression in the brackets in (3.7) is positive. Let 
+$E=\C\setminus D$, $\tilde E=\C\setminus \tilde D$. Equations (3.8) and (2.5) show that
+\be
+\CAP \tilde E<\CAP E.
+\ee
+Since $\area \tilde E>\area E$ and $\diam \tilde E\ge \diam E$, (3.9) contradicts the monotonicity property of the function
+$A(d)$ in Lemma~1.
+
+\smallskip
+
+Assume that $l_n\not=\emptyset$. Then $f'(1)=f'(-1)=0$. To prove that $|f'(e^{i\th})|<\beta$ for all $e^{i\th}\in l_n\setminus \{\pm 1\}$,
+we assume that $\beta=|f'(e^{i\th_1})|<|f'(e^{i\th_2})|=\beta_2$ with $e^{i\th_1}\in l_f$ and some $e^{i\th_2}\in l_n\setminus \{\pm 1\}$.
+Then applying the two point variation as above we get (3.6) and (3.9), again contradicting the monotonicity property of $A(d)$.
+Hence, $|f'(e^{i\th})|\le \beta$ for all $e^{i\th}\in l_n$, which combined with the strict monotonicity property of Corollary~1
+leads to the strict inequality in (3.2).
+$\Box$
+
+\bl
+If $1<d<2$, then $l_n=\{e^{i\th}:\,-\th_0<\th<\th_0\}\cup \{e^{i\th}:\, \pi-\th_0<\th<\pi+\th_0\}$ with some $0<\th_0=\th_0(d)<\pi/2$; $f'$ is continuous
+on $\overline{\U}^*$ and for all $z\in \overline{\U}^*$
+\be
+|f'(z)|\le |f'(e^{i\th})|=\beta,
+\ee
+where $e^{i\th}\in \bar l_f$ and $\beta>1.$
+\el
+
+{\it Proof}. Consider the function $g(z)=1/f(1/z)$. By Lemma~2, $g$ maps $\U$ onto a Jordan rectifiable domain possibly slit along
+two symmetric radial segments lying on the real axis. The double symmetry of $D=f(\U^*)$ implies that $G=g(\U)$ is starlike
+w.r.t. $w=0$. Since $G$ is rectifiable and starlike, it follows from classical results of Lavrent'ev, see \cite[p.163]{P}, that $G$ is a Smirnov
+domain (non-Jordan in general). This shows that $\log|g'(z)|=\log|f'(1/z)|-2\log|zf(1/z)|$, and therefore $\log|f'(1/z)|$, 
+can be represented by the Poisson integral
+\be
+\log|f'(1/z)|=\frac{1}{2\pi}\int_0^{2\pi}P(r,\th-t)\log|f'(e^{-it})|\,dt
+\ee
+with boundary values defined a.e. on $\T$, see \cite[p. 155]{P}. Equation (3.11) along with (3.1) and (3.2) shows that $1=|f'(\infty)|\le \beta$ with
+ equality only for the function $f(z) \equiv z$.
+
+If $l_n=\emptyset$, then (3.11) and (3.1) show that $|f'|=\beta$ identically on $\U^*$. Therefore, $f(z)\equiv z$ contradicting the 
+condition $d=(1/2)\diam \partial f(\U^*)>1$. Hence, $l_n\not=\emptyset$. The latter implies that $f$ is analytic in  vicinities of the points
+$z=1$ and $z=-1$ and $f'(z)$ has a simple zero at $z=1$, $z=-1$. Consider the function $h(z)=\log |f'(1/z)/(z^2-1)|$, 
+which can be represented by the Poisson integral
+\be
+h(z)=\frac{1}{2\pi}\int_0^{2\pi}P(r,\th-t)\log|f'(e^{it})/(e^{2it}-1)|\, dt.
+\ee
+Equation (3.12) and the previous analysis show that $h$ is a bounded harmonic function on $\U$. Let $h_1$ be a bounded harmonic function on $\U$
+with boundary values $\log(\beta/|z^2-1|)$ on $l_f$ and $h(z)$ on $l_n$. Then $h_1-h$ has nontangential limit $0$ a.e. on $\T$. Therefore,
+$h_1-h \equiv 0$ in $\U$. Hence, $|f'|=\beta$ everywhere on $l_f$.
+
+\smallskip
+
+Since $D$ possesses the double symmetry we need to show only that $f'$ is continuous at $e^{i\th_0}$. By the symmetry principle,
+$f$ can be continued analytically through $l_n$ and $f'$ can be continued analytically through $l_f$. This implies that $f$ can 
+be considered as a function analytic in a slit disk $\Delta_0=\U_\ep(e^{i\th_0})\setminus [(1-\ep)e^{i\th_0},e^{i\th_0}]$ with
+$\ep>0$ small enough.
+
+Using the Julia-Wolff lemma, see \cite[Proposition~4.13]{P}, boundedness of $f'$, and well-known properties of the angular derivatives,
+see \cite[Propositions 4.7, 4.9]{P}, one can prove that $f'$ has a finite limit $f'(e^{i\th_0})$, $|f'(e^{i\th_0})|=\beta$, along any
+path in $\overline{\U}^*$ ending at $e^{i\th_0}$. The details of this proof are similar to the arguments in Lemma~13 in \cite{BS}.
+$\Box$
+
+\bl
+Let $f$ be extremal in $\Sigma_d$ for $1<d<2$ and let $\varphi(z)=zf'(z)$. Then $\varphi$ maps $\U^*$ univalently onto
+the complement $\Omega(\beta,\psi)=\CC\setminus F(\beta,\psi)$ of the double anchor $F(\beta,\psi)$ defined in Theorem~2 where 
+ $\beta$ is defined by $(1.7)$ and $\psi=(1/2)\cos^{-1}(8\beta^{-1}-8\beta^{-2}-1)$.
+\el
+
+{\it Proof}. 1) Let $g(z)=f'(\sqrt{z})$. Since $g(\bar z)=\overline{g(z)}$, the symmetry principle implies that $g$ is analytic in $\U^*$.
+We will show that $g$ is univalent there.
+
+\begin{figure}
+$$\includegraphics[scale=0.40]{g_1p7-n}$$
+\caption{Domain $G$ for $\beta=1.7$}
+\end{figure}
+
+
+By Corollary~1, $|g(e^{i\th})|=|f'(e^{i\th/2})|$ strictly increases from $0$ to $\beta$ as $\th$ runs from $0$ to $2\th_0$. Since $\arg
+g(e^{i\th})=\arg f'(e^{i\th/2})=(\pi-\th)/2$ strictly decreases from $\pi/2$ to $\varphi_0=\pi/2-\th_0$ as $\th$ runs from $0$ to $2\th_0$,
+it follows that $g$ maps the arc $\{e^{i\th}:\, 0\le \th\le 2\th_0\}$ one-to-one onto an analytic Jordan arc $\delta_1$ lying in the domain
+$U^+_\beta=\{w\in \U_\beta:\, \Re w>0,\Im w>0\}$ and connecting the points $w=0$ and $w=\beta e^{i\varphi_0}=f'(e^{i\th_0})$.
+
+Since $f(\U^*)$ is starlike w.r.t. $w=0$,
+$$
+\Re\frac{e^{i\th}f'(e^{i\th})}{f(e^{i\th})}\ge 0
+$$
+for $0\le \th\le 2\pi$. Since $f(\U^*)$ is symmetric w.r.t. the coordinate axes, the latter inequality shows that
+$-\pi \le \arg f'(e^{i\th})\le \pi -\th_0$ for $0\le \th\le \th_0$. This combined with (3.10) implies that $g$ maps the arc
+$\{e^{i\th}:\,2\th_0\le \th \le \pi\}$ one-to-one onto the circular arc $\delta_2=\{\beta e^{i\varphi}:\, 0\le \varphi\le \varphi_0\}$
+such that $g(e^{2i\th_0})=\beta e^{i\varphi_0}$, $g(-1)=\beta$. By symmetry, $g$ maps the arc $\{e^{i\th}:\,-2\th_0\le
+\th \le 0\}$ onto $\bar\delta_1=\{w:\,\bar w\in \delta_1\}$ and the arc $\{e^{i\th}:\,\pi\le \th \le 2\pi-2\th_0\}$ onto $\bar\delta_2=
+\{w:\,\bar w\in \delta_2\}$. Thus, $g$ maps the unit circle $\T$ one-to-one onto a closed Jordan arc $\delta$ composed by $\delta_1$,
+$\delta_2$, $\bar\delta_2$, and $\bar\delta_1$. Since $g(\infty)=f'(\infty)=1$ the argument principle implies that $g$ maps $\U^*$
+conformally and one-to-one onto a simply connected domain $G$ which contains $1$ and which is bounded by $\delta$.  The domain $G$ for $\beta=1.7$ is plotted 
+in Figure~4.
+
+The above mentioned properties of $\delta_1$ show that $G$ is circularly symmetric w.r.t. the positive real axis. Therefore by
+Lemma~4, $|g'(e^{i\th})|=|f''(e^{i\th/2})| $ strictly decreases in $2\th_0<\th<\pi$.
+
+\medskip
+
+2) Considering boundary values of $\varphi$ we have
+$$
+\Re \varphi(e^{i\th})=\Re e^{i\th}f'(e^{i\th})=0  \quad {\mbox{for}} \quad 0\le \th \le \th_0
+$$
+since $\Im f(e^{i\th})=0$ for such $\th$. Since $\Im \varphi(e^{i\th})=|f'(e^{i\th})|$ strictly increases in $0\le \th\le \th_0$, $\varphi$ maps $l_n^{++}$
+continuously and one-to-one onto the vertical segment $\{w:\,\Re w=0, 0\le \Im w\le  \beta\}$.
+
+For $\th_0\le \th\le \pi/2$, $|\varphi(e^{i\th})|=\beta$ and 
+$$
+\frac{\partial}{\partial \th}\arg \varphi(e^{i\th})=
+\frac{\partial}{\partial\th}\Im \log (e^{i\th}f'(e^{i\th}))=1+\frac{e^{i\th}f''(e^{i\th})}{f'(e^{i\th})}= 1-\beta^{-1}|f''(e^{i\th})|,
+$$
+since $e^{i\th}f''(e^{i\th})/f'(e^{i\th})$ is real non-positive for $\th_0\le \th \le \pi/2$.
+
+\medskip
+
+Since $|f''(e^{i\th})|$ strictly decreases in $\th_0\le \th \le \pi/2$ it follows that $\frac{\partial}{\partial \th}\arg \varphi(e^{i\th})$ changes its sign
+at most once in the interval $\th_0<\th<\pi/2$.
+
+We have shown in 1) that $\arg f'(e^{i\th})$ decreases from $\pi/2-\th_0$ to $0$  when $\th$ runs from $\th_0$ to $\pi/2$.
+Since $\arg \varphi(e^{i\th_0})=\pi/2$, the latter implies that
+\be
+0<\th_0<\arg \varphi(e^{i\th})=\th+\arg f'(e^{i\th})<\pi-\th_0
+\ee
+for $\th_0<\th<\pi/2$.
+
+\medskip
+
+We claim that there is $\th_1$, $\th_0<\th_1<\pi/2$ such that 
+\be
+\begin{array}{ll}
+\frac{\partial}{\partial\th}\arg \varphi(e^{i\th})<0 &\quad {\mbox{if}} \quad \th_0<\th<\th_1,\\
+\frac{\partial}{\partial\th}\arg \varphi(e^{i\th})>0 &\quad {\mbox{if}} \quad \th_1<\th<\pi/2.
+\end{array}
+\ee
+Suppose to the contrary that  $\frac{\partial}{\partial\th}\arg \varphi(e^{i\th})\le 0$ for all $\th_0<\th<\pi/2$.  Then, we would have that  
+$\arg \varphi(e^{i\th})$ monotonically decreases
+over $\th_0<\th<\pi/2$. Since $\varphi(e^{i\th_0})=\varphi(i)=i\beta$, we would have
+$$
+\Delta\,\arg \varphi(e^{i\th})\left|_{\th_0}^{\pi/2}=-2\pi k \quad {\mbox{for some \  }} k\in \N \right.
+$$
+contradicting (3.13). The assumption $\frac{\partial}{\partial \th} \arg \varphi(e^{i\th})\ge 0$ for all $\th_0<\th<\pi/2$ leads to 
+the same contradiction. Since $|f''(e^{i\th})|$ strictly decreases in $\th_0\le \th\le \pi/2$, the claim follows.
+
+\medskip
+
+Let $\psi=\arg \varphi(e^{i\th_1})$. The previous analysis shows that $\th_0<\psi<\pi/2$ and $\varphi$ maps each 
+of the arcs $\{e^{i\th}:\,\th_0\le \th\le \th_1\}$ and $\{e^{i\th}:\,\th_1\le \th\le\pi/2\}$ continuously and one-to-one onto
+the arc $\{\beta e^{it}:\,\psi\le t\le \pi/2\}$ such that $\varphi(e^{i\th_1})=\beta e^{i\psi}$. The symmetry principle now
+yields that $\varphi$ maps the unit circle $\T$ continuously and one-to-one in the sense of boundary correspondence
+onto the boundary of the domain $\Omega(\beta,\psi)$. Hence by the argument principle, $\varphi$ maps $\U^*$ conformally
+and univalently onto $\Omega(\beta,\psi)$
+
+The normalization $f'(\infty)=1$ leads after some work left to the interested readers to the relation $\psi=(1/2)\cos^{-1}(8\beta^{-1}-8\beta^{-2}-1)$.
+$\Box$
+
+\section{Proofs of Theorems 1 and 2}
+\setcounter{equation}{0}
+
+
+To prove uniqueness of the extremal function in $\Sigma_d$, we assume that for some fixed $d$,  $1<d<2$, there are 
+distinct extremals $f_1$ and $f_2$. By Lemma~9, $zf'_k(z)=g_{\beta_k}(z)$ for some $1<\beta_1<2$, $1<\beta_2<2$, where $g_{\beta_k}$ maps $\U^*$ conformally onto the domain
+$\Omega(\beta_k)=\CC\setminus F(\beta_k,\psi(\beta_k))$.  To be explicit, assume that $\beta_1<\beta_2$. 
+The domains $\Omega(\beta_1)$ and $\Omega(\beta_2)$ satisfy the conditions of Lemma~6. Therefore, 
+\be
+g_{\beta_1}(r)>g_{\beta_2}(r)
+\ee
+for all $r>1$.
+
+Since $f_k(\U^*)$ is doubly symmetric w.r.t. the real and imaginary axes, it follows that $a_0(f_k) = 0$ for $k=1,2$.  Hence, it follows from the normalization in (1.5) that 
+\be
+\lim_{R\to \infty}\left ( f_1(R)-f_2(R) \right )= 0.
+\ee
+On the other hand, since $f_1(1)=f_2(1)=d$, we have
+$$
+f_1(R)-f_2(R)=\int_1^R t^{-1}(g_{\beta_1}(t)-g_{\beta_1}(t))\,dt
+$$
+and (4.1) implies that the integrand is positive and hence, that $f_1(R)-f_2(R)$ is a (positive) increasing function of $R$, which 
+contradicts  (4.2).
+
+Let $f_d$ denote the  unique extremal function in $\Sigma_d$.
+To find $f_d$ explicitly, we represent $\varphi(z;d)=zf'_d(z)$ as
+$$
+\varphi(z;d)=(F_{d^{-2}}(z^{-2}))^{-1/2},
+$$
+where $F_p(\zeta) = \zeta+a_2(F_p)\zeta^2+\ldots$, $1/4\le p\le 1$, is the univalent function in the standard class $S$ that maps the unit disk
+$\U$ onto the domain $\CC\setminus ((-\infty,-p]\cup \{pe^{i\tau}:\,|\tau-\pi|\le \alpha\})$ with  $\alpha=\cos^{-1}(8\sqrt{p}-8p-1)$. It
+is well known that $F_p$ is extremal in a number of problems, for instance in the problem on $\max |a_2(f)|$ 
+studied by E.~Netanyahu \cite{N} and T.~Suffridge \cite{S}, 
+on the subclass of functions $f\in S$ that cover the disk $\U_p$. Using an explicit expression for $F_p$, see for example,
+\cite{S}, we get (1.9) and after an  integration (1.7).
+
+The integral in (1.8) can be evaluated in terms of elementary functions. We leave to the interested readers to check (one can use ``Mathematica" or ``Maple")
+that $f_d(1)$ coincides with the right-hand side in (1.7), which in this case is equivalent to the equality $f_d(1)=d$.
+Since for each $1\le d\le 2$ the extremal function is unique in $\Sigma_d$, (1.7) has  a unique solution $\beta=\beta(d)$ on the interval $1\le \beta \le 2$;
+this also follows easily from the monotonicity of the right-hand side of (1.7).
+
+
+\medskip
+
+
+To evaluate the maximal omitted area ${A(d)=\rm{Area}}\,(E_{f_d})$, we apply a standard line integral formula and
+the fact that $\Im\, (\bar w\,dw)=0$ on the non-free boundary. We have
+$$
+A(d)=\frac12 \Im\,\int_{\partial E_{f_d}}\bar w\, dw=\frac12
+\Im\,\int_{L_{f_d}}\bar w\,dw=\frac12 \Re\,\int_{l_{f_d}}
+\overline{f_d(e^{i\theta})}e^{i\theta}f'_d(e^{i\theta})\,d\theta.
+$$
+Since $|f'_d|^2=\beta^2$ on $l_{f_d}$, we obtain 
+$$
+A(d)=\frac{\beta^2}{2}\Re\,\lim_{\e\to +0}\left\{\int_{\e}^{\pi-\e}
+\frac{f_d(e^{i\theta})}{e^{i\theta}f'_d(e^{i\theta})}\,d\theta +\int_{\pi +\e}^{2\pi-\e}
+\frac{f_d(e^{i\theta})}{e^{i\theta}f'_d(e^{i\theta})}\,d\theta\right\}=
+$$
+$$
+=\frac{ \beta^2}{2} \Im\left\{ \int_{\T} \frac{f_d(z)}{z^2f'_d(z)}\,dz-\pi i {\rm{Res}}\,\left[\frac{f_d(z)}{z^2f'_d(z)},1\right]
+-\pi i {\rm{Res}}\,\left[\frac{f_d(z)}{z^2f'_d(z)},-1\right]\right\},
+$$
+where $\int_{\T}f_d/(z^2f'_d) \,dz$ is understood as the Cauchy principal value. 
+The function $f_d/(z^2f'_d)$ has simple poles at $z=1$ and $z=-1$.
+Computing the integral and residues, we obtain 
+$$
+A(d)=\pi[\beta^2-2d(\beta-1)],
+$$
+which implies (1.6). This finishes the proof of Theorem~2.
+
+\medskip
+
+To deduce (1.4), we write (1.6) in an invariant form:
+\be
+\frac{\area E}{(\pi/4)\diam^2E}\le p^{-2}[\beta^2(p)-2p(\beta(p)-1)]
+\ee
+with $p=\diam E/(2\CAP E)$, where $1\le \beta(p)\le 2$ is defined by  (1.7) with $d$ replaced by $p$.
+Since the maximal omitted area $A(d)$ strictly decreases, the expression in the brackets in (4.3) decreases and therefore the right-hand side 
+of (4.3) itself decreases from $1$ to $0$ when $p$ runs from $1$ to $2$. Therefore there is a function $p=\Psi_1(s)$ inverse to 
+$s=p^{-2}[\beta(p)^2-2p(\beta(p)-1)]$. Let $\Psi(s)=1/\Psi_1(s)$.
+Since the inverse $\Psi_1$ is decreasing, (4.3) leads to the inequality
+$$
+p\le \Psi_1(\area E/((\pi/4)\diam^2E),
+$$
+which is equivalent to (1.4) with equality only for the continua described in Theorem~1.
+
+
+
+\begin{thebibliography}{aaaa}
+
+
+\bibitem[ASS1]{ASS1}
+D. Aharonov, H. S. Shapiro and A. Yu. Solynin: A minimal area problem in
+conformal mapping, {\it J. Analyse Math}. {\bf 78} (1999), 157--176.
+
+\bibitem[ASS2]{ASS2}
+D. Aharonov, H. S. Shapiro and A. Yu. Solynin: A minimal area problem in
+conformal mapping II, {\it J. Analyse Math}. {\bf 83} (2001), 259--288.
+%{\bf 88} (2001), 157--176.
+
+\bibitem[BS]{BS}
+R. W. Barnard and A. Yu. Solynin: Local variations and minimal area problem for Caratheodory
+functions, submitted
+
+
+\bibitem[D]{D}
+V. N. Dubinin: Symmetrization in geometric theory of functions of a
+complex variable, \emph{Uspehi Mat. Nauk}
+ {\bf 49} (1994), 3-76 (in Russian); English translation in \emph{Russian Math. Surveys} {\bf 49}: 1
+(1994), 1-79.
+
+\bibitem[Du]{Du}
+P.~L.~Duren: Univalent Functions, \emph{Springer-Verlag New York Inc., 1983}.
+
+\bibitem[F]{F}
+G. Faber: Neuer Beweis eines Koebe-Bieberbachschen Satzes {\" u}ber konforme Abbildung.  
+Sitzgsber.  Math.-phys. Kl. bayer. Akad. Wiss. M{\"u}nchen {\bf 1916}, 39-42.
+
+\bibitem[G]{G}
+G.~M.~Goluzin: Geometric theory of functions of a complex variable, \emph{AMS, Providence, R.I. 1969}.
+
+\bibitem[H]{H}
+W. K. Hayman: Multivalent Functions, \emph{Cambridge Univ. Press, Cambridge, 1958}.
+
+
+\bibitem[JBo]{JBo}
+I.~M.~Jaglom and V.~G.~Boltjanskii: Convex figures, \emph{Holt, Rinehart and Winston, New York, 1960}.
+
+
+\bibitem[J]{J}
+J. A. Jenkins: A uniqueness result in conformal mapping, \emph{Proc. Amer. Math. Soc.}, {\bf 22} (1969), 324--325.
+% Univalent functions and conformal mappings, 2nd ed.
+%\emph{Springer, Berlin 1965}.
+
+\bibitem[N]{N}
+E.~Netanyahu: On univalent functions in the unit disk whose image contains a given
+disk, {\it J. Analyse Math}. {\bf 23} (1970),  305--322.
+
+
+\bibitem[Pf]{Pf}
+A.~Pfluger: On the diameter of planar curves and Fourier coefficients, \emph{Z. Angew. Math. Phys.} {\bf 30} (1979), 305--314.
+
+\bibitem[Po]{Po}
+G. P{\' o}lya: Beitrag zur Verallgemeinerung des Verzerrungssatzes auf maehrfach 
+zusammenh{\" a}ngende Gebiete, {\it S.-B. Preuss. Akad.} (1928), 280-282.
+
+
+\bibitem[PSz]{PSz}
+G.~P\'{o}lya and G.~Szeg\"{o}: Isoperimetric Inequalities in Mathematical Physics, \emph{Princeton University Press, Princeton, N.J., 1951}.
+
+\bibitem[P]{P}
+Ch. Pommerenke: Boundary Behaviour of Conformal Maps,
+ \emph{Springer-Verlag, 1992}.
+
+\bibitem[S1]{S1}
+A. Yu. Solynin: Some extremal problems in the class $\Sigma(\tau)$, \emph
+{Zap. Nauchn. Sem. LOMI} {\bf 196} (1991), 138--153 (in Russian);
+English translation in: {\it J. Math. Sci.} {\bf 70} (1994),
+no.~6, 2152--2161.
+
+
+\bibitem[S2]{S2}
+A. Yu. Solynin: Functional inequalities via polarization,
+{\it Algebra i Analiz} {\bf 8} (1996), 145--185 (in Russian); English
+translation in: {\it St. Petersburg Math. J.} {\bf 8} (1997),  1015--1038.
+
+
+\bibitem[S]{S}
+T. Suffridge: A coefficient problem for a class of univalent functions, {\it Mich. Math. J.} {\bf 16} (1969), 33-42.
+\end{thebibliography}
+
+\medskip
+\noindent
+Roger W. Barnard \\
+Texas Tech University\\
+Lubbock, TX USA\\
+email: barnard@math.ttu.edu
+
+\bigskip
+\noindent
+Kent Pearce \\
+Texas Tech University\\
+Lubbock, TX USA\\
+email: pearce@math.ttu.edu
+
+\bigskip
+\noindent
+Alexander Yu. Solynin\\
+Steklov Institute of Mathematics at St. Petersburg\\
+Russian Academy of Sciences\\
+Fontanka 27, St.Petersburg\\
+191011, Russia\\
+and\\
+Texas Tech University\\
+Lubbock, TX USA\\
+email: solynin@pdmi.ras.ru
+\end{document}
+
+%\end{document}
+
+
+Our first variation is elementary.
+
+\bl \cite[Lemma~6]{BS}
+For $\ep$ small enough, let $U^\ep=\{z:\,1/\bar z\in \U\setminus \CU_\ep(1-\ep)\}$, where $\U_r(z_0)=
+\{z:\,|z-z_0|<r\}$, and let $F^\ep=\partial U^\ep$. Then
+\be
+\CAP F^\ep=\frac{\pi\ep}{(1-\ep)\sin(\pi\ep/(1-\ep))}=1+\frac{\pi^2}{6}\ep^2+O(\ep^3) \quad {\mbox{as}} \quad \ep\to 0.
+\ee
+\el
+
+
+\bibitem[Ba]{Ba}
+A. Baernstein $\mathrm{I\!I}$: The size of the set where a univalent function is large, \emph{J. Analyse
+Math.} {\bf 70} (1996), 157-173.
+
+
+\bibitem[B1]{B1}
+R. W. Barnard: The omitted area problem for univalent functions. Topics in
+complex analysis (Fairfield, Conn., 1983), 53--60, Amer. Math. Soc.,
+Providence, R.I., 1985.
+
+\bibitem[B2]{B2}
+R. W. Barnard: On open problems and conjectures in complex
+analysis. Lecture Notes in Math. {\bf 1435} (1990), 1--26.
+
+\bibitem[BL]{BL}
+R. W. Barnard and J. L. Lewis: On the omitted  area problem,
+{\it Michigan Math. J.} {\bf 34} (1987), 13--22.
+
+\bibitem[BP]{BP}
+R. W. Barnard and K. Pearce: Rounding corners of gearlike domains and
+the omitted  area problem,  {\it J. Comput. Appl. Math.} {\bf 14} (1986), 217--226.
+
+
+\bibitem[Go]{Go}
+A. Goodman: Note on regions omitted by univalent functions, \emph{
+Bull. Amer. Math. Soc.} {\bf 55} (1949), 363--369.
+
+
+\bibitem[LSha]{LSha}
+M. A. Lavrent'ev and B. V. Shabat:  Methods of the theory of functions of a complex
+variable,  4th ed., revised, ``Nauka'', Moscow, 1973; German transl. of 3rd ed.,
+VEB Deutscher Verlag Wiss., Berlin, 1967.
+
+\bibitem[L]{L}
+J. Lewis: On the minimal area problem, {\it Indiana Univ. Math. J.} {\bf 34}
+(1985), 631--661.
+
+\bibitem[M]{M}
+M. Marcus: Radial averaging of domains, estimates for Dirichlet integrals and
+applications, {\it J. Analyse Math.} {\bf 27} (1974), 47--78.
+
+
+\bibitem[PrW]{PrW}
+M. H. Protter and H. F. Weinberger: Maximum Principles  in
+Differential Equations, \emph{Springer-Verlag, New York,  1984}.
+
+\bibitem[S1]{S1}
+A. Yu. Solynin: The boundary distortion and extremal problems in
+certain classes of univalent functions, \emph
+{Zap. Nauchn. Sem. POMI} 204 (1993), 115-142 (in Russian);
+English translation in: {\it J. Math. Sci.} {\bf 79} (1996),
+no.~5, 1341--1358.
+
+
+\bibitem[S3]{S3}
+A. Yu. Solynin: Modules and extremal metric problems,
+{\it Algebra i Analiz} {\bf 11} (1999), no. 1,
+3--86 (in Russian); English translation in:
+{\it St. Petersburg Math. J.} {\bf 11} (2000), no. 1, 1--65.
+
+\bibitem[S4]{S4}
+A. Yu. Solynin: Radial projection and the Poincar\'{e} metric, \emph
+{Zap. Nauchn. Sem. POMI} 237 (1997), 148--160;
+English translation in: {\it J. Math. Sci.} {\bf 95} (1999),
+2267--2275.
+
+
+\bibitem[We]{We}
+A. Weitsman: Symmetrization and the Poincar\'{e} metric,
+\emph{Ann. of Math.} {\bf 124}  (1986), 159-169.
+
+\bibitem[W]{W}
+V. Wolontis: Properties of conformal invariants, \emph{Amer. J. Math.} 74 (1952), 587-606.

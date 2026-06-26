@@ -1,0 +1,1984 @@
+% Pomerenke's Conjecture
+% Schwarzian Derivatives of Hyp Convex functions
+% Second Revision for PLMS - Summer 2005
+
+\documentclass{lms}
+\usepackage{amsmath,amssymb,amsfonts,graphics,epsfig,rotating,cite,rotating}
+
+\newcommand{\C}{\mathbb C}
+\newcommand{\D}{\mathbb D}
+\newcommand{\bdryD}{\partial \mathbb D}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Ub}{\mathbb U} 
+\newcommand{\Lb}{\mathbb L}
+\newcommand{\HH}{\mathbb H}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\K}{\mathcal K}
+\newcommand{\Kh}{\widetilde{\mathcal K}}
+\newcommand{\Dh}{\widetilde{D}}
+\newcommand{\Ph}{\widetilde{P}}
+\newcommand{\Sh}{\widetilde{S}}
+\newcommand{\Pt}{\widetilde{P}}
+\newcommand{\Tt}{\widetilde{T}}
+\newcommand{\tgamma}{\widetilde\gamma}
+\newcommand{\ft}{\widetilde f}
+\newcommand{\LL}{\mathcal L}
+\newcommand{\PP}{\mathcal P}
+\newcommand{\T}{\mathcal T}
+\newcommand{\CC}{\mathcal C}
+\newcommand{\hh}{\widehat h}
+\newcommand{\tp}{{\tau^\prime}}
+\newcommand{\tn}{{\tau_n}}
+\newcommand{\ti}{{\tau_\infty}}
+\newcommand{\Kp}{\mathcal K^\prime}
+\newcommand{\Kpt}{\mathcal \widetilde{K^\prime}}
+\newcommand{\Qt}{\widetilde Q}
+\newcommand{\ap}{\alpha^\prime}
+\newcommand{\tpn}{{\tau_n^\prime}}
+\newcommand{\tphi}{\widetilde \varphi}
+\newcommand{\abs}[1]{\lvert#1\rvert}
+\newcommand{\norm}[1]{\lvert\lvert#1\rvert\rvert}
+\newcommand{\Snf}{\norm{S_f}_\D}
+\newcommand{\PSL}{\text{PSL}}
+\newcommand{\z}{\zeta}
+\newcommand{\e}{\epsilon}
+\newcommand{\iG}{\int_{\gamma}}
+\newcommand{\G}{{\scriptscriptstyle{\Gamma}}}
+
+
+
+%\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{julia}{Julia Variational Formula}
+\newtheorem{thm}{Theorem 1.1}
+\newtheorem{step-down}{Step Down Lemma}
+
+%\theoremstyle{definition} 
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{notation}[theorem]{Notation}
+
+%\theoremstyle{remark} 
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{note}[theorem]{Note}
+
+\DeclareMathOperator{\m}{mod}
+\DeclareMathOperator{\im}{Im}
+\DeclareMathOperator{\re}{Re}
+\DeclareMathOperator{\Arg}{Arg}
+\DeclareMathOperator{\Log}{Log}
+\DeclareMathOperator{\interior}{int}
+
+
+\numberwithin{equation}{section}
+
+
+\begin{document}
+
+
+
+\title[Deformation of a Disc Under a Hyperbolically Convex Map]{The Sharp Bound
+  for the Deformation of a Disc under a Hyperbolically  Convex Map}
+%[Schwarzian Derivatives of Hyperbolically Convex Functions]{A Sharp 
+%Bound on the Schwarzian Derivatives of Hyperbolically
+%Convex Functions}
+
+\date{\today}
+
+\author{Roger W. Barnard, Leah Cole, Kent Pearce, and G. Brock Williams}
+
+
+
+%\keywords{Hyperbolically Convex, Schwarzian Derivative, Julia Variation}
+
+%\subjclass{30C70}
+
+%Insert `2000 Mathematics Subject Classification' numbers here!
+\classno{30C70}
+
+\maketitle
+
+\begin{abstract}
+We complete the determination of how far convex maps can deform discs in 
+each of the three classical geometries.
+The euclidean case was settled by Nehari in 1976, and the spherical case
+by Mej\'ia and Pommerenke in 2000.
+We find the sharp bound on the Schwarzian derivative of a hyperbolically convex 
+function and thus complete the hyperbolic case.
+ This problem was first posed by Ma and Minda in a series of papers in the 1980's.
+Mej\'ia and Pommerenke then produced partial results and a conjecture
+as to the extremal function in 2000.  Their function maps onto a domain bounded by
+two proper geodesic sides, a ``hyperbolic strip.''
+Applying a generalization of the Julia variation and a critical Step Down Lemma,
+ we show that 
+there is an  extremal function mapping  onto a domain with 
+at most two geodesic sides.  We then verify using special function theory
+that among the remaining candidates, Mej\'ia and Pommerenke's  two-sided 
+domain is in fact extremal.  This correlates nicely with the euclidean
+and spherically convex cases in which the extremal is known to be
+a map onto a two-sided ``strip.'' 
+\end{abstract}
+
+
+
+
+%******************************************************************
+
+\section{Introduction}\label{S:intro}
+
+Hyperbolic convexity is a natural generalization of euclidean
+convexity; a region $G$ in the Poincar\'e model $\D$ of the hyperbolic
+plane  is  \textbf{hyperbolically convex} if for any
+two points in $G$, the hyperbolic geodesic segment between them lies entirely 
+in $G$.  Such regions arise naturally  in Teichm\"uller theory, for example, since
+the fundamental domains of Fuchsian groups are hyperbolically convex~\cite{aB83,
+oL87}.
+
+A conformal map $f:\D\to\D$ is hyperbolically convex if
+its range is hyperbolically convex.
+Hyperbolically convex functions have been extensively studied  by Ma and 
+Minda~\cite{MM94,MM99} and Mej\'ia and Pommerenke~\cite{PM00,MP00,MP01,MP02,MP00b},
+as well as Beardon~\cite{aB83} and Solynin~\cite{aS99,aS98}, 
+ among
+others.  One frequently cited open problem is to find 
+for hyperbolically convex functions a sharp bound
+on the Schwarz norm 
+\[
+\norm{S_f}_\D=\sup\{\abs{S_f(z)} \eta_\D^{-2}(z):\: z\in \D\},
+\]
+where $\eta_\D(z)=\frac{1}{1-\abs{z}^2}$
+ is the hyperbolic density of $\D$ and $S_f$ is the Schwarzian derivative
+\[
+S_f = \left(\frac{f^{\prime\prime}}{f^\prime}\right)^\prime - 
+\frac{1}{2}\left(\frac{f^{\prime\prime}}{f^\prime}\right)^2.
+\]
+
+
+The Schwarz norm
+of an analytic function $f$ has long been a primary tool in understanding
+its geometric behavior.  
+For example, 
+$\norm{S_f}_\D =0$ if and only if $f$ is a M\"obius transformation.
+Thus $\norm{S_f}_\D$ is thought of as measuring how closely the geometric
+behavior of $f$ resembles that of a M\"obius transformation.
+Since the image of $\D$ under a M\"obius transformation must be a disc,
+$\norm{S_f}_\D$ also measures the difference between the conformal geometry
+of $f(\D)$ and that of a disc.  Lehto has used this idea to great effect,
+producing a pseudo-metric on the set of all simply connected proper 
+subdomains of $\C$.
+See Lehto's book~\cite{oL87}, for example, for
+a detailed discussion.  
+
+ Nehari showed that if $f(\D)$ is convex (in the euclidean sense),
+then $\norm{S_f}_\D\leq 2$, with equality if and only if $f(\D)$ is an 
+``infinite strip'' bounded by two parallel lines~\cite{zN76}.
+Similarly, Mej\'ia and Pommerenke showed that the extremal domain for spherically
+convex functions is a ``spherical strip''~\cite{MP00b}.
+
+The problem of finding a similar bound for the Schwarz norm of hyperbolically
+convex functions has been intensely studied by a number of authors, including
+Ma,  Minda,  Mej\'ia,  Pommerenke and  Vasilev~\cite
+{MM94,MM99,MP00,MPV01,MP02,PM00}.  Mej\'ia and Pommerenke~\cite{PM00}
+found partial results on the bound and conjectured that the
+extremal value of $\norm{S_f}_\D$ is attained by a map of the form
+\begin{equation}  \label{E:tanh}
+f_\alpha (z)=\tan\left( \alpha\int_0^z \left(1-2\xi^2\cos 2\theta+\xi^4
+\right)^{-1/2}\,d\xi \right),
+\end{equation}
+where $\alpha = \frac{\pi}{2K(\cos \theta)}$, 
+and $K$ is the elliptic integral of the first kind.
+The range of $f_\alpha$ is a ``hyperbolic strip''
+bounded by two geodesics through $\pm i\tanh 
+\left(\frac{\pi K(\sin\theta)}{4K(\cos\theta)}\right)$ and perpendicular
+to the imaginary axis. 
+See Figure~\ref{F:convex3}.
+
+
+\begin{figure}
+\begin{center}\scalebox{0.45}{
+\epsfig{file=convex3} }
+\caption{The extremal domains for maximizing the Schwarz norm in euclidean (left), spherical (center), and hyperbolic (right) geometry.}
+\label{F:convex3}
+\end{center}
+\end{figure}
+
+
+In this paper, we 
+prove the following theorem, thus 
+verifying Mej\'ia and Pommerenke's conjecture and  completing 
+the classification of the extremal domains for the Schwarzian in all 
+three of the classical geometries.
+
+
+\begin{thm*}
+The maximal value of the Schwarz norm for hyperbolically convex
+functions is $S_{f_\alpha}(0)$, where
+\[
+f_\alpha(z) =\tan\left( \alpha\int_0^z \left(1-2\xi^2\cos 2\theta+\xi^4
+\right)^{-1/2}\,d\xi \right),  \qquad \alpha  = \frac{\pi}{2K(\cos \theta)},
+\]
+$K$ is the elliptic integral of the first kind, and $\alpha$ is chosen
+so that $\cos \theta$ is the unique critical point of the function
+\[
+g(s) = 4s^2-2 +\frac{\pi^2}{2K^2({s})}
+\]
+on $(0,1)$.
+\end{thm*}
+
+A computer calculation produces a  maximal value for the 
+Schwarz norm for a hyperbolically convex
+function of approximately $2.383635$. 
+%\begin{thm}
+%The maximal value of the Schwarz norm for a hyperbolically convex
+%function is approximately $2.383635$ and is achieved by the ``hyperbolic strip
+%map'' $f_\alpha$ with $\alpha\approx 0.5343598$.
+%\end{thm}
+
+\begin{remark}
+Our variational techniques are used to argue that if an extremal
+function exists, it must have certain properties.  
+To guarantee the existence of an extremal function, we restrict our attention
+to a dense collection of compact classes (hyperbolically convex
+functions which map onto domains with at most a fixed number
+of (proper) sides) and argue that an extremal function exists for these
+classes.
+Our methods show that the map $f_\alpha$ 
+defined in~\eqref{E:tanh} 
+is extremal in each such class for a common value of $\alpha$
+that is approximately equal to $0.5343598$.
+Moreover, since the classes are dense in the space of all hyperbolically 
+convex functions, this $f_\alpha$ must be extremal for all hyperbolically
+convex functions.  
+Indeed, up to disc automorphisms, $f_\alpha$ can be the only extremal 
+function which maps onto a finite-sided hyperbolically convex polygon.
+However, this does not rule out the possibility, that some
+function onto a non-polygonal region could have the same Schwarz
+norm as $f_\alpha$. Thus our methods do not guarantee uniqueness,
+but we conjecture that the extremal is in fact unique.
+\end{remark}
+
+%\begin{remark}
+
+%Our arguments and the variations we construct can also be extended to  the 
+%euclidean and spherical settings.  Thus we have a unified approach
+%to all three classical geometries.
+%\end{remark}
+
+In Section~\ref{S:hypercon} we develop background material on
+hyperbolic convexity and the Schwarzian derivative and discuss more of
+the history of the problem.  In Section~\ref{S:prelim}
+we first show by an approximation 
+argument that the problem can be reduced
+to studying the value of the Schwarzian at the origin for those
+functions which map onto finite-sided polygons.
+% to proving that 
+%among all hyperbolically convex polygons with at most a fixed number
+%of sides, the extremal domain has at most $2$ sides.  
+%Thus  we need 
+%only work with compact families where the existence of an extremal
+%function is assured and our variational methods can be applied.  
+%The $\sup$ can be replaced by $\max$ and
+
+
+We then give a generalization of the Julia Variational Formula that
+we will use in Sections~\ref{S:twovar} and~\ref{S:effect} to develop
+two variations which preserve hyperbolic convexity. 
+In Section~\ref{S:2sides} we  apply these variations to show the 
+ extremal polygon has at most two proper sides.
+Finally, in Section~\ref{S:compute} we employ inequalities on 
+elliptic integrals to verify that the
+two-sided domain conjectured by Mej\'ia and
+Pommerenke~\cite{MP00,MP01,PM00} is indeed extremal.
+
+We would like to thank the Phillip Brown, the referee and the editor for their 
+very valuable suggestions.
+
+%After developing some background material on hyperbolic convexity and a
+%generalization of 
+%the Julia variation in Sections~\ref{S:hypercon} and~\ref{S:julia}, 
+%we develop two variations in Sections~\ref{S:twovar} and~\ref{S:effect}
+%which preserve
+%hyperbolic convexity. These variations 
+%allow us to show in Section~\ref{S:2sides} that the
+%extremal value occurs for a function whose range has at most two
+%sides.  
+
+
+\section{Hyperbolic Convexity and Schwarzians}\label{S:hypercon}
+
+\subsection{Hyperbolic Geometry}
+
+The unit disc $\D$ equipped with the metric
+\[
+d_h (z,w)=\inf
+\left\{\int_\gamma \frac{1}{1-\abs{z}^2}\,\abs{dz} : \gamma 
+\text{ is a rectifiable curve joining $z$ and $w$}\right\}
+\]
+forms a model for the hyperbolic plane~\cite{aB83}.  
+Notice that the Poincar\'e
+density 
+\[
+\eta_\D(z)=\frac{1}{1-\abs{z}^2}
+\]
+goes to infinity as $z$ moves toward the boundary of the disc.
+Consequently, integrating $\eta_\D$ over curves near the boundary
+produces large values of the integral.  If $z$ and $w$ do not lie on
+a ray through the origin, then the euclidean line segment
+joining them will produce a larger integral than a curve which bends 
+away from the boundary.  In fact, the infimum  will be achieved by
+an arc of a circle perpendicular to $\partial \D$.  Such curves are
+hyperbolic geodesics.
+Since disc automorphisms  
+\[
+M(z)=e^{i\theta}\frac{z-a}{1-\overline{a}z},
+\]
+where $\theta\in[0,2\pi)$ and $a\in\D$,
+preserve circles 
+orthogonal to $\partial \D$,
+they are precisely the isometries of $\D$.
+
+Any region $G$ conformally equivalent to $\D$ also carries a hyperbolic metric
+defined in the same manner using  the density
+\[
+\eta_G(z)=\frac{\abs{f'(z)}}{1-\abs{f(z)}^2},
+\]
+where $f$ is a conformal map of $G$ onto $\D$.  Notice that it doesn't
+matter which map $f$ is chosen as any two such maps must differ by a
+disc automorphism.
+
+
+\subsection{Convexity}
+
+The euclidean notion of convexity generalizes to hyperbolic regions in an
+obvious manner.
+
+\begin{definition}A region $\Omega\subset\D$ is \textbf{hyperbolically convex}
+if for any two points $z,w\in\Omega$, the hyperbolic  geodesic segment joining 
+$z$ and $w$ lies completely in $\Omega$.
+\end{definition}
+
+
+Notice that since the disc automorphisms are the isometries
+of the hyperbolic plane, the image $M(\Omega)$ of $\Omega$ under a disc
+automorphism $M$ is hyperbolically convex if and only if $\Omega$ is.
+The fundamental domains of discrete groups of disc automorphisms
+provide a great many useful examples of hyperbolically convex domains.
+See Beardon~\cite{aB83} for an extensive discussion of these regions.
+
+
+We will call a
+hyperbolically convex region $\Omega$ bounded by a finite number of
+either geodesic arcs lying inside $\D$ or arcs of $\partial \D$ a
+\textbf{hyperbolically convex polygon}.
+We call the bounding geodesic arcs \textbf{proper sides} and the arcs
+of $\partial \D$ \textbf{improper sides}.
+For $n\geq 0$, we let 
+\begin{align}\notag
+K_n=\{&\text{hyperbolically convex polygons  containing $0$}\\\notag
+& \text{and  having  
+at most $n$ proper sides}\}
+\cup\{0\}.
+\end{align}
+%Notice that $K_n$ contains 
+
+
+
+\begin{definition}A conformal map $f:\D\to\Omega$ is called a
+\textbf{hyperbolically convex function} if its range is hyperbolically convex.
+We let $\mathbf {\mathit H}$ 
+denote the class of all hyperbolically convex functions that fix the origin 
+ and let $\bf{\mathit H_{\mathit n}}$ denote the subset of functions whose range
+is in $K_n$.
+\end{definition}
+
+%A sequence of polygons in $K_n$ can converge (in the sense of Cartheodory) only to another polygon %in $K_n$. This convergence carries over to hyperbolically convex functions so that $H_n$ is
+%compact.  On the other hand, every hyperbolically convex region is the limit of a sequence 
+%of hyperbolically convex polygons; hence $\cup_n H_n$ is dense in $H$.  
+
+
+
+
+\subsection{Schwarzians}
+
+Much of the geometric behavior of an analytic function is described by
+its Schwarzian derivative~\cite{GL2000,oL87}.
+
+\begin{definition}
+The \textbf{Schwarzian derivative} (or just ``Schwarzian'') of an
+analytic function $f$ is
+\[
+S_f = \left( \frac{f''}{f'} \right)' - \frac12 \left( \frac{f''}{f'}
+\right)^2 .
+\].
+\end{definition}
+
+
+\begin{proposition} The Schwarzian of an analytic function is identically $0$
+ if and only if it is a M\"obius 
+transformation.  Moreover, the Schwarzian satisfies the chain rule
+\[
+S_{f\circ g}=\left(S_f \circ g\right)\left(g'\right)^2 + S_g.
+\]
+\end{proposition}
+
+Thus, if $M$ is M\"obius, then 
+\[
+S_{M\circ g} = S_g.
+\]
+and
+\[
+S_{f\circ M}=\left(S_f \circ M\right)\left(M'\right)^2.
+\]
+
+Hence the Schwarzian is unchanged by post-composition with a M\"obius
+transformation, but pre-composition produces an extra quadratic factor.
+
+\begin{definition}
+Let $f$ be defined on a simply connected region $G\subsetneq\C$.
+The \textbf{Schwarz norm} of $f$ is given by
+\[
+\norm{S_f}_{G} = \sup_{z \in G} \eta_G^{-2}(z)\abs{S_f (z)}.
+\]
+\end{definition}
+
+By taking into account the density of the hyperbolic metric, the
+Schwarz norm is completely M\"obius invariant.  It is easy to show
+for any M\"obius $M$ that 
+\[
+\eta_{M^{-1}(G)}(z)=\eta_{G} (M(z)) \abs{M'(z)},
+\]
+and thus
+\[
+\frac{\abs{S_{f\circ M}(z)}}{\eta^2_{M^{-1}(G)}(z)} =
+\frac{\abs{S_f(M(z))}\,\abs{M'(z)}^2}{\eta^2_{G}(M(z))\,\abs{M'(z)}^2} =
+\frac{\abs{S_f(w)}}{\eta^2_{G}(w)}.
+\]
+where $w=M(z)$.  Thus 
+\[
+\norm{S_f}_G=\norm{S_{f\circ M}}_{M^{-1}(G)}
+\]
+and
+\[
+\norm{S_f}_G=\norm{S_{M\circ f}}_G.
+\]
+In particular, notice that $\norm{S_f}_\D$ is unchanged by disc
+automorphisms.
+
+
+
+\subsection{Computing the Schwarz Norm of a Function}
+
+%When computing the Schwarz norm of a function, 
+%it can sometimes be very helpful to 
+%change its domain.
+Because of the M\"obius invariance of the Schwarz norm, we can 
+change the domain of a function 
+so that 
+%take our function to be defined on a region where either the 
+the hyperbolic density or the expression of the function itself is simpler.
+
+\begin{example}\label{E:one-side}
+Consider the function
+\[
+g(z)=\frac{\sqrt{z}-1}{\sqrt{z}+1}
+\]
+from the upper half plane $\HH$ onto the upper half-disc 
+$\D^+=\{z\in\D:\:\im z>0\}$.  Notice that any hyperbolically convex 
+domain bounded by exactly one proper side can be mapped onto $\D^+$ by
+a disc automorphism.  Moreover, $g$ could have been defined on $\D$ by
+precomposition with a M\"obius transformation; however, that would not
+change the Schwarz norm.  Consequently, the Schwarz norm for any hyperbolically
+convex function whose image is bounded by exactly one proper side must be equal to 
+$\norm{S_g}_\HH$.
+
+Next notice that $g$ itself is the composition of $h(z)=\sqrt{z}$ and another
+M\"obius transformation.  Thus $\norm{S_g}_\HH=\norm{S_h}_\HH$.  It is 
+now easy to compute
+\[
+S_h(z)=\frac{3}{8z^2}.
+\]
+
+The hyperbolic density on $\HH$ has an especially useful representation 
+\[
+\eta_\HH(z)=\frac{1}{2\im z}.
+\]
+Since both $\eta_\HH$ and $S_h$ are invariant under translations of the form $x + iy \rightarrow (x+a) + iy$, 
+\[
+\norm{S_h}_\HH=\sup_{z\in\HH} \eta^{-2}(z)\abs{S_h(z)} 
+=\sup_{y>0} 4y^2\left|\frac{3}{8(iy)^2}\right| = \frac{3}{2}.
+\]
+
+
+\end{example}
+
+%M\"obius invariance also allows another useful trick for computing the
+%Schwarz norm. 
+
+
+
+\subsection{Geometry of the Schwarzian}
+
+Since $\Snf=0$ if and only if $f$ is M\"obius, we can view 
+$\Snf$ as measuring how close $f$ is to being a M\"obius transformation.
+Since any M\"obius transformation would send $\D$ to another disc or half plane, 
+$\Snf$ also measures the amount of deformation between $f(\D)$
+and a disc.  This notion
+was formalized by Lehto~\cite{oL87} 
+to produce a pseudometric between regions conformally equivalent to a disc.
+
+There are a number of results that show that if $\norm{S_f}_\D$ is small,
+then $f(\D)$ possesses disc-like properties.  The two most important
+for our purposes are due to Nehari~\cite{zN49,zN76}.
+
+\begin{theorem}  If $\Snf<2$, then $f$ is univalent and $f(\D)$ is a quasidisc.
+Moreover, if $f$ is univalent, then $\Snf\leq 6$.
+\end{theorem}
+
+\begin{theorem} If $f(\D)$ is convex (in the euclidean sense),
+ then $\Snf\leq 2$, with equality if and
+only if $f(\D)$ is an infinite strip.
+\end{theorem}
+
+Mej\'ia and Pommerenke~\cite{MP00b} proved a similar result for spherically 
+convex regions.
+
+\begin{theorem} 
+If $f(\D)$ is spherically convex, then 
+\[
+\norm{S_f}_\D \leq 2(1-\sigma(f)^2),
+\]
+where 
+\[
+\sigma(f)=\max_{z\in\D} (1-\abs{z}^2)\frac{\abs{f^\prime}}{1+\abs{f}^2}.
+\]
+For a fixed value of $\sigma(f)$, this
+ maximum value of $\Snf$ is achieved by a map of the form
+$f_\phi(z)=i\tanh\left(\frac{2\phi}{\pi}\Log
+\left(\frac{1+z}{1-z}\right)\right)$ which takes $\D$ onto a 
+ ``spherical strip,'' that is, a lune bounded by great circles through
+$\pm i$ and making an angle $2\phi$ with the imaginary axis.
+\end{theorem}
+
+Thus, convex and spherically convex regions cannot be deformed
+ too far from being a disc
+in the sense of the Lehto pseudometric, and the regions 
+with the greatest amount of deformation
+are strips.  It has been conjectured by Mej\'ia and 
+Pommerenke~\cite{MP00,PM00,MP01}
+%and by Ma and Minda~\cite{MM99} 
+that the same must hold for hyperbolically
+convex regions.  
+
+
+In particular, Mej\'ia and Pommerenke conjectured that the maximum value
+of $\Snf$ over all hyperbolically convex maps $f$ is achieved by 
+\begin{equation}\label{E:f_alpha}
+f_\alpha(z) =\tan\left( \alpha\int_0^z \left(1-2\xi^2\cos 2\theta+\xi^4
+\right)^{-1/2}\,d\xi \right),  \qquad \alpha  = \frac{\pi}{2K(\cos \theta)},
+\end{equation}
+where $K$ is the elliptic integral of the first kind.
+The range of $f_\alpha$ is a ``hyperbolic strip''
+bounded by two geodesics through $\pm i \tanh 
+\left(\frac{\pi K(\sin\theta)}{4K(\cos\theta)}\right)$.
+See Figure~\ref{F:strip}.
+
+\begin{figure}
+\begin{center}\scalebox{0.65}{
+\epsfig{file=f_alpha-onto-2-sides} }
+\caption{The hyperbolically convex extremal function for maximizing
+  the Schwarz norm.  The extremal domain consists of an odd symmetric  polygon bounded by two proper geodesic sides - a ``hyperbolic strip.''}
+\label{F:strip}
+\end{center}
+\end{figure}
+
+%As our primary tool for proving their conjecture, we will
+%modify  an extension of the  Julia variation.
+%~\cite{BS84,BL75}.
+
+
+\section{Preliminary Simplifications}\label{S:prelim}
+
+\subsection{Reduction to Polygonal Domains}
+
+As a first step toward verifying Mej\'ia and Pommerenke's conjecture,
+we first reduce the problem to  hyperbolically convex polygons.
+ 
+\begin{lemma} To determine the extremal value of $\norm{S_f}_\D$ over $H$,
+it suffices to determine the extremal value over each $H_n$.
+Moreover, each $H_n$ is compact.
+\end{lemma}
+
+\begin{proof}
+
+From its definition as a supremum, it follows that
+the Schwarz norm is a lower semi-continuous functional on $H$; 
+that is, for any point $f \in H$, if $\{f_n\}$ is a sequence in
+ $H$ which converges to $f$ (locally uniformly on compacta), 
+then $\liminf \norm{S_{f_n}}_\D \ge \Snf$.  
+To see this, let $\e > 0$.  
+Then, for any compact subset $K$ of $\D$,
+ there exists an index $N$ such that for $n \ge N$ we have
+$\norm{S_{f_n\vert_{\interior K}}}_\D 
+\ge \norm{S_{f\vert_{\interior K}}}_\D - \e$. 
+ Hence, for $n \ge N$ we have 
+$\norm{S_{f_n}}_\D\ge \norm{S_{f_n\vert_{\interior K}}}_\D 
+\ge \norm{S_{f\vert_{\interior K}}}_\D - \e$.  
+Hence, $\liminf \norm{S_{f_n}}_\D \ge \norm{S_{f\vert_{\interior K}}}_\D - \e$. 
+ Since $K$ was abritrary we must have, $\liminf \norm{S_{f_n}}_\D \ge \Snf -
+ \e$. 
+ Since $\e$ was arbitrary, we have $\liminf \norm{S_{f_n}}_\D \ge \Snf$.  
+
+
+For a fixed $n$, a sequence $D_k$ of hyperbolically convex 
+polygonal domains
+with at most $n$ (proper) sides can converge in the sense of 
+Carath{\'e}odory~\cite{cP92}
+only to another polygonal domain $D_0$, 
+where $D_0$ has at most $n$ (proper) sides.  This 
+follows because if $D_0$ had more than $n$ proper sides, 
+then (from the boundary behavior) 
+the Carath{\'e}odory  convergence~\cite{cP92}
+would imply, for $k$ sufficiently large, 
+that $D_k$ would have at least $n+1$ proper sides.  
+From Carath{\'e}odory 's Convergence Theorem, 
+this carries over to hyperbolically convex functions in $H_n$.  
+Thus, $H_n$ is compact.
+
+On the other hand, the boundary $\Gamma$ of a hyperbolically convex 
+domain $D$ can be approximated by geodesics lying 
+in $\overline{\D}$ by connecting points on $\Gamma$ 
+sufficiently close together with geodesics lying 
+in $\overline{\D}$.  It follows that we can find a sequence of hyperbolically
+convex polygons that converge, in the sense of Carath\'eodory, to $D$.
+Hence, % (by~\cite[cP92])
+the mapping functions onto these polygons converge locally uniformly
+to the map onto $D$. As a result, $\cup_n H_n$ is dense in $H$.  
+
+
+Thus any extremal function in $H$ can be approximated by functions in $H_n$. 
+As a result, it suffices to determine the supremum of 
+$\norm{S_{f}}_\D$ in each $H_n$.
+
+\end{proof}
+
+%Consequently, we need only show that $f_\alpha$ is extremal in each $H_n$.  
+
+
+\subsection{Reduction to $S_f(0)$}
+
+Recall that the Schwarz norm was defined by taking the supremum 
+of $\abs{S_f(z}\left(1-\abs{z}^2\right)^2$
+over all points $z\in\D$.  Since 
+$\abs{S_f(z}\left(1-\abs{z}^2\right)^2$ is invariant under disc automorphisms,
+we need only consider $\abs{S_f(0)}$.
+
+\begin{lemma}\label{L:sf0}
+For each $n\geq 2$,
+\[
+\sup_{f\in H_n} \norm{S_f}_\D = \max_{f\in H_n} \abs{S_f(0)}.
+\] 
+\end{lemma}
+
+\begin{proof}
+Recall that every $f\in H_n$ is conjugate by a M\"obius transformation to
+a map $g:\HH\to\HH$ which is hyperbolically convex in the upper half plane
+model.  
+Suppose  $g$ maps $\HH$ onto a curvilinear polygon with angles
+$\alpha_1\pi,\alpha_2\pi,\dots, \alpha_n\pi$,  and the preimages of the
+vertices are $a_1,a_2,\dots,a_n\in\R$. 
+Then the Schwarzian of $g$ has the following very useful representation
+(see Nehari~\cite{zN52})
+\begin{equation}
+S_g(z) = \frac{1}{2}\sum_{k=1}^n \frac{1-\alpha_k^2}{(z-a_k)^2} 
++\sum_{k=1}^n\frac{\beta_k}{z-a_k},
+\end{equation}
+where $\beta_1,\beta_2,\dots,\beta_n$ are real constants determined by
+the angles.
+Thus
+\[
+\norm{S_g}_\HH = \sup_{z\in\HH} 4(\im z)^2 
+\left|\frac{1}{2}\sum_{k=1}^n \frac{1-\alpha_k^2}{(z-a_k)^2} 
++\sum_{k=1}^n\frac{\beta_k}{z-a_k}\right|.
+\]
+
+Notice however, that
+\[
+\lim_{\overset{z\to a\in \R}{a\neq a_k}} 4(\im z)^2 
+\left|\frac{1}{2}\sum_{k=1}^n \frac{1-\alpha_k^2}{(z-a_k)^2} 
++\sum_{k=1}^n\frac{\beta_k}{z-a_k}\right| = 0
+\]
+and 
+\[
+\lim_{z\to a_k} 4(\im z)^2 
+\left|\frac{1}{2}\sum_{k=1}^n \frac{1-\alpha_k^2}{(z-a_k)^2} 
++\sum_{k=1}^n\frac{\beta_k}{z-a_k}\right|
+= 2(1-\alpha_k^2)<2.
+\]
+Applying the relationships between $\alpha_i$ and 
+$\beta_i$ given by Nehari~\cite{zN52}, we can similarly
+show 
+\[
+\lim_{z\to \infty} 4(\im z)^2 
+\left|\frac{1}{2}\sum_{k=1}^n \frac{1-\alpha_k^2}{(z-a_k)^2} 
++\sum_{k=1}^n\frac{\beta_k}{z-a_k}\right|
+\]
+is also bounded by 2.
+
+In view of the invariance of the Schwarz norm under
+M\"obius transformations, the same bounds must be true for mappings of $\D$
+onto hyperbolic polygons in $\D$. 
+It is not difficult~\cite{PM00} to construct mappings of $\D$ onto 
+hyperbolic polygons with $\norm{S_f}_\D \geq 2$.  Thus if 
+$f$ maps $\D$ onto a hyperbolic polygon and $f$ is extremal for
+maximizing the Schwarz norm, then the
+supremum  in the definition of the Schwarz norm must in fact be attained at some
+interior point.  
+ 
+Suppose $f$ is extremal in $H_n$ for maximizing the Schwarz norm and
+\[
+\max_{z\in\D} (1-\abs{z}^2)^2\abs{S_f(z)}= (1-\abs{z_0}^2)^2\abs{S_f(z_0)}.
+\]
+Since $(1-\abs{z}^2)^2\abs{S_f(z)}$ is 
+invariant under M\"obius transformations,
+precomposing $f$ with a disc automorphism which sends zero to $z_0$
+will produce a map $f_0$  which has the same Schwarz norm as $f$ but for
+which $\norm{S_{f_0}}= \abs{S_{f_0}(0)}$.  
+
+Notice by precomposing $f$ with a disc automorphism,
+our new map $f_0$ need not fix $0$ and thus need not remain in $H_n$.
+However, by postcomposing $f_0$ with a disc automorphism which 
+sends $f_0(0)$ to $0$ and then rotates so that $S_{f_0}(0)$ is real,
+  we can constuct an extremal function  $F\in H_n$ with
+\[
+\norm{S_f}_\D=\norm{S_F}_\D=S_{F}(0).
+\]
+
+Since the functional $S_f(0)$ is continuous on $H_n$ and $H_n$ is compact,
+then
+\[
+\sup_{f\in H_n} \norm{S_f}_\D = \sup_{f\in H_n} S_f(0) = 
+\max_{f\in H_n} S_f(0).
+\]
+\end{proof}
+
+
+
+
+
+
+
+%Next we describe a variation we can apply to the class $H_n$.
+
+
+\section{Variational Techniques}\label{S:twovar}
+
+\subsection{The Julia Variation and Extensions}\label{S:julia}
+
+Let $\Omega$ be a region bounded by a piecewise analytic curve $\Gamma$ and 
+$\phi(w)$ be a positive piecewise $C^1$ function on $\Gamma$, vanishing
+where $\Gamma$ is not analytic.  Denote the outward pointing 
+unit normal vector at each point $w$ where $\Gamma$ is smooth by $n(w)$.
+For $\epsilon$ near $0$, construct a new curve 
+\[
+\Gamma_\epsilon=\{w+\epsilon\phi(w)n(w):\: w\in\Gamma\}
+\]
+and let $\Omega_\epsilon$ be the new region bounded by $\Gamma_\e$.
+
+For our purposes, we may assume that $\Omega$ is simply connected.  Thus
+if $\epsilon$ is sufficiently small and
+$\epsilon >0$, then $\Gamma$  is ``pushed outside'' the
+domain, while if $\epsilon < 0$, then $\Gamma$  is ``pushed inside'' the
+domain.
+With the above notation, we state Julia's 
+%modification of the
+%Hadamard 
+variational formula.
+%; see~\cite{BL75,BS84} for similar variations of
+%circular boundary arcs.
+
+\begin{julia*}
+Let  $f$ be a conformal map from $\D$ onto $\Omega$ with $f(0)=0$,
+and suppose that $f$ has a continuous extension to $\partial\D$, which we also
+denote by $f$. Then for $\e$ sufficiently small,
+a similarly normalized conformal map $f_{\e}$ from $\D$ 
+onto $\Omega_\epsilon$, 
+with $f_{\e}(0) = 0$, is given by 
+
+\begin{align}\label{E:julia}
+f_\epsilon(z) = f(z)+\frac{\epsilon z f'(z)}{2\pi}\int_{\partial \D}
+\frac{1+\xi z}{1-\xi z}\,d\Psi + E(\e,z),
+\end{align}
+where $d\Psi=\frac{\phi(f(\xi))}{\abs{f'(\xi)}}\,d\theta$ and $\xi=e^{i\theta}$
+and $E(\e,z)$ is $o(\e)$ for $z$ on compact subsets of $\D$ and is continuously 
+differentiable in $\epsilon$ for each fixed $z\in\D$.
+\end{julia*}
+
+Notice the restriction that $\phi$ vanish at the points of non-smoothness
+of $\partial \Omega$ was a strong one.  It implies, for example, that while we
+could vary the (proper) sides of a hyperbolic polygon, there is a difficulty
+at the vertices.
+However, it follows from the work of the first author
+and J. Lewis~\cite{BL75} that 
+such an extended version of the Julia 
+ variation is possible (except at internal cusps, ie., 
+where two proper sides meet at an angle 
+of measure $2\pi$) which allows $f^\prime$ to vanish at the corners.
+Moreover, they showed that the resulting function will agree
+with the Julia variational formula on 
+compact subsets up to $o(\epsilon)$ terms.
+This will allow us to create variations which
+ avoid any problems at the corners and preserve hyperbolic convexity.
+ 
+%and apply the Julia formula to vary the (proper) 
+%sides of hyperbolically
+%convex polygons while preserving  the hyperbolic convexity.
+
+\begin{figure}
+\begin{center}\scalebox{0.7}{
+\epsfig{file=julia-out} }
+\caption{The variation produced by ``pushing out'' a side.}
+\label{F:julia-out}
+\end{center}
+\end{figure}
+
+\subsection{Two Variations}\label{SS:twovar}
+We next describe in detail two variations for functions 
+in $H_n$ which preserve hyperbolic convexity.
+First, if $f$ maps onto a hyperbolically
+ convex polygon $\Omega$ with a proper side $\Gamma$,
+we can ``push'' $\Gamma$ to a nearby geodesic  $\Gamma_\epsilon$ 
+in such a way that the varied
+function $f_\epsilon$ will still be hyperbolically convex.  See
+Figure~\ref{F:julia-out}.
+
+
+
+\begin{lemma} \label{L:julia-out}
+Suppose $f\in H_n$ and $f$ is not constant nor the identity map.
+If $\Gamma=f(\gamma)$ is a proper side of $\Omega=f(\D)$, 
+then for $\epsilon$ sufficiently small
+there exists a variation $f_\epsilon\in H_n$ which ``pushes'' 
+$\Gamma$ to a nearby geodesic $\Gamma_\epsilon$,  
+% That is, $f_\epsilon(\D)$ 
+%s a hyperbolic polygon whose sides are the same as those of $f$, except that
+%$\Gamma$ has been replaced by $\Gamma_\epsilon$, 
+where $\Gamma_\epsilon\to\Gamma$
+as $\epsilon\to 0$. 
+% is a geodesic through $m+\epsilon n(m)$ and $m$ is the euclidean midpoint
+% of $\Gamma$.
+This variation, $f_\epsilon$, agrees with the Julia Variational Formula 
+on compact subsets up to
+$o(\epsilon)$ terms.
+\end{lemma}
+
+\begin{proof}
+
+Let $\Gamma$ be a (proper) 
+side of the boundary of $\Omega$ which lies on a circle $\Lambda$.  
+Without loss of generality we can assume that $\Omega$ 
+has been rotated so that the center
+of $\Lambda$ lies on the positive real-axis. To define our variation first map
+$\Omega$ into the right half-plane under the map $h(z) = \frac{1+z}{1-z}$ and 
+let $\Upsilon = h(\Gamma)$ and $\Delta  = h(\Omega)$. Let $g = h \circ
+ f$.  We note that
+$\Delta = g(\D)$.
+
+Under $h$, the geodesics in 
+$\D$ map to arcs in the right half-plane which lie on circles whose centers are 
+on the imaginary axis. We note that $h(\Lambda)$ is a circle centered at the origin. 
+Let the arc $\widehat{AB}$ denote $\Upsilon $ on the circle $h(\Lambda)$ and let 
+$r_{\Lambda}$ be the radius of $h(\Lambda)$.  
+
+Now, considering the case where $\e > 0$, i.e., the
+case where we ``push out'' a (proper) side of the domain by a euclidean
+distance $\e$ and thus  enlarge the domain.  Let the 
+circle $\chi$ of radius $r = r_{\Lambda} - \e$ be obtained by
+multiplying
+ $h(\Lambda)$ by 
+$1- \e/r_\Lambda$
+ and let $\widehat{CD}$ be the arc of $\chi$ which connects the extensions 
+of the circles defined by the images of the $\Gamma$'s adjacent geodesics under $h$, 
+when $A$ and $B$ are in the right-half plane. If $A$ or $B$ is on the imaginary axis, 
+then $C$ or $D$ will be the point on the imaginary axis where $\chi$ intersects the 
+imaginary axis, resp.  In this case, the interval $[A,C]$ or $[D,B]$ will be added to 
+the boundary of our varied domain, resp.
+
+Now recall in the original Julia variation formula, the function
+ $\phi$
+ must be $0$ at 
+the end points of $\widehat{AB}$.  Thus at each end of $\widehat{AB}$,
+we construct approximating
+smooth curves $\sigma_A$ and $\sigma_B$ which connect $\widehat{AB}$ to 
+$\widehat{CD}$ such that $\sigma_A$ and $\sigma_B$ are orthogonal to $\widehat{AB}$ 
+at the endpoints $A$ and $B$ and $\sigma_A$ and $\sigma_B$ intersect 
+$\widehat{CD}$ tangentially at points $C'$ and $D'$, resp.  They can be chosen to be 
+within $\e^2$ of the arc they are approximating.  See Figure~\ref{F:julia-half-plane}.
+
+
+\begin{figure}
+\begin{center}\scalebox{0.7}{
+\epsfig{file=julia-half-plane} }
+\caption{The geodesics in the right half plane produced by our variation.}
+\label{F:julia-half-plane}
+\end{center}
+\end{figure}
+
+
+Now for $w \in \widehat{AB}$ let $n(w)$ be the outward 
+unit normal to $g(\Lambda)$ and define 
+$\phi(w) = |w^*-w|$ where $w^*$ is the nearest point on 
+$\sigma_A \cup \widehat{C'D'} \cup \sigma_B$
+along the normal $n(w)$.  Let the domain $\Delta^*_{\e}$ 
+be the variation of $\Delta$ where the
+arc $\widehat{AB}$ on the boundary of $\Delta$ has been 
+replaced by 
+$\sigma_A \cup \widehat{C'D'} \cup \sigma_B$. To obtain a variation 
+of $\Delta$ which preserves 
+hyperbolic convexity, 
+let the domain $\Delta_{\e}$ be the
+variation of $\Delta$ where the arc $\widehat{AB}$ has been replaced by 
+$\widehat{CD}$ and 
+connecting intervals, if necessary.  Let $g^*_{\e}$ and $g_{\e}$
+be the corresponding 
+mapping functions
+onto $\Delta_\e^*$ and $\Delta_\e$, resp.  Let $\phi(w) = 0$ for 
+$w \in \partial \Delta \setminus \widehat{AB}$.
+Then, by the Julia Variational Formula, $g^*_{\e}$ satisfies
+
+\begin{equation*}
+g^*_{\e}(z) = g(z)+\frac{\e z g'(z)}{2\pi}\int_{\partial \D}
+\frac{1+\xi z}{1-\xi z}\,d\Psi + o(\e),
+\end{equation*}
+
+\noindent on compact subsets, 
+where $d\Psi=\frac{\phi(g(\xi))}{\abs{g'(\xi)}}\,d\theta$ 
+and $\xi=e^{i\theta}$. Rewriting $g$ as
+$h \circ f$, we have
+
+\begin{equation*}
+g^*_{\e}(z) = h(f(z))+\frac{\e z h'(f(z))f'(z)}{2\pi}\int_{\partial \D}
+\frac{1+\xi z}{1-\xi z}\,d\Psi + o(\e),
+\end{equation*}
+
+\noindent on compact subsets, 
+where $d\Psi=\frac{\phi(h(f(\xi)))}
+{\abs{h'f((\xi))f'(\xi)}}\,d\theta$ and $\xi=e^{i\theta}$. 
+
+The function $g^*_{\e}$ was constructed so that it satisfies the 
+requirements for representation by 
+the Julia Variational Formula.  The function $g_{\e}$ was constructed 
+so that image, $g_{\e}(\D)$, was 
+hyperbolically convex.  The arguments used in \cite{BL75}, pp 348-356, 
+show that $g^*_{\e} - g_{\e} = o(\e)$ on compact subsets.  Then, defining 
+$f_{\e} = h^{-1} \circ g_{\e} \equiv \frac{g_{\e}-1}{g_{\e}+1}$, 
+a straightforward 
+argument shows that 
+
+\begin{equation*}
+f_\epsilon(z) = f(z)+\frac{\epsilon z f'(z)}{2\pi}\int_{\partial \D}
+\frac{1+\xi z}{1-\xi z}\,d\Psi + o(\e)
+\end{equation*}
+on compact subsets, 
+where $\Psi$ is a real measure on $\partial \D$ and $\xi=e^{i\theta}$.  
+Thus, $f_{\e}$ maps $\D$
+onto a hyperbolically convex domain, i.e., $f_{\e} \in H_n$ for 
+$\e$ sufficiently small.
+
+A similar variation can be defined for $\e < 0$ that ``pushes in'' the 
+(proper) side $\Gamma$ to a nearby geodesic.
+
+\end{proof}
+
+
+
+%Applying this technique on a subarc of $\Gamma$ ending on an endpoint of
+%$\Gamma$,
+If $\Gamma$ intersects another side $\Gamma^*$ at $z^*$, 
+ and $z_0\in\Gamma$,  
+then we can vary $f$ so as to replace
+the portion of $\Gamma$ between $z_0$ and $z^*$ with a new geodesic between
+$z_0$ and some $z^*_\epsilon\in\Gamma^*$.  See Figure~\ref{F:kick-in}.
+A similar argument to the above then gives: 
+
+
+\begin{lemma} \label{L:kick-in}
+Suppose $f\in H_n$ and $f$ is not constant nor the identity map,
+and $\Gamma=f(\gamma)$ is a proper side of $f(\D)$ meeting a side $\Gamma^*$.
+Then, there exists a variation $f_\epsilon\in H_{n+1}$ which 
+adds a proper side to $f(\D)$ by pushing one end of $\Gamma$ to
+ a nearby side $\Gamma_\epsilon$.  That is, $f_\epsilon(\D)$ 
+is a hyperbolic polygon whose sides are the same as those of $f$, except that
+one end of $\Gamma$ has been replaced by $\Gamma_\epsilon$ and $\Gamma^*$
+has been shortened.
+Moreover, $f_\epsilon$ agrees with the Julia Variational Formula on compact
+subsets up to
+$o(\epsilon)$ terms.
+\end{lemma}
+
+
+\begin{figure}
+\begin{center}\scalebox{0.65}{
+\epsfig{file=julia-kick-in} }
+\caption{The variation produced by pushing in one end of a side.}
+\label{F:kick-in}
+\end{center}
+\end{figure}
+
+\begin{remark}\label{R:end}
+Notice that in order to maintain hyperbolic convexity, we can only push in 
+the ``end'' of a side, that is, a subarc that ends at a vertex of the
+polygon.  However, we can choose this  subarc to be as long, or
+more importantly, as short, as we wish.  
+\end{remark}
+
+
+\section{The Effect of the Variations on the Schwarzian}\label{S:effect}
+
+%If the supremum in the definition of the Schwarz norm occurs at some
+%point $z_0$ in $\D$, we could pre-compose $f$ with a disc automorphism
+%sending $0$ to $z_0$.  This will leave both the Schwarz norm and the
+%range of $f$ unchanged.
+%for many purposes we can assume $f$ has been normalized so that
+%$\Snf=S_f(0)$.  
+
+Recall from Lemma~\ref{L:sf0}, we can assume our extremal function
+satisfies $\norm{S_f}_\D = S_f(0)$.
+In this case, the Schwarz norm has a simple representation 
+in terms of power series coefficients~\cite{oL87,PM00}.
+
+\begin{proposition}\label{P:Sf0}
+If $f=\alpha(z + a_2 z^2 + a_3 z^3 +\dots)$, 
+% is extremal over $H_n$ for $\norm{S_f}_\D$, 
+then
+% has been normalized so that the sup in the definition of the
+%Schwarz norm occurs at $z=0$, then
+\[
+S_f(0)=6(a_3 - a_2^2).
+\]
+\end{proposition}
+
+\begin{proof}
+
+Since $f'(0)=\alpha$, $f''(0)={2}\alpha a_2$, and 
+$f'''(0)={6}\alpha a_3$,
+\begin{align}\notag
+\frac{d}{dz} \frac{f''(z)}{f'(z)}\bigg\vert_{z=0}
+&=\frac{f'(0)f'''(0)- (f''(0))^2}{(f'(0))^2}\\\notag
+&=\frac{6\alpha^2 a_3 - {4}\alpha^2 a_2^2}{\alpha^2}\\\notag
+&=6a_3 -4 a_2^2.
+\end{align}
+
+Also,
+\[
+\frac{1}{2}\left(\frac{f''(0)}{f'(0)}\right)^2 
+=\frac{1}{2}\frac{4 \alpha^2 a_2^2}{\alpha^2}
+= 2 a_2^2.
+\]
+
+Consequently,
+\[
+S_f(0)= %\eta_\D(0) 
+\left(
+\left(\frac{f''}{f'} \right)' - \frac12 \left( \frac{f''}{f'}
+\right)^2\right) = 6(a_3-a_2^2).
+\]
+
+\end{proof}
+
+Now applying the representation for the variations provided by the
+Julia Formula, we can calculate to first order in $\epsilon$ the
+Schwarzian of our varied functions.
+
+\begin{lemma}\label{L:Sg}
+If $f(z)=\alpha(z +a_2 z^2 +a_3 z^3 + \dots)\in H_n$ 
+%has been normalized so that $\norm{S_f}_\D=S_f(0)$ 
+and either of the variations described in Lemma \ref{L:julia-out} and Lemma \ref{L:kick-in} 
+are applied to $f$, then
+the new function $f_\epsilon(z)$ has $S_{f_\epsilon}(0)$ given by
+\[
+6\left( \left( a_3 +\frac{\epsilon}{2\pi} \int_\Gamma
+(3a_3 + 4a_2\xi + 2\xi^2) \, d\Psi \right) -
+\left( a_2 +\frac{\e}{2\pi} \int_\Gamma (2a_2 + 2\xi) \, d\Psi \right)^2\right)
++o(\epsilon).
+\]
+\end{lemma}
+
+\begin{proof}
+
+Let $\gamma$ be the preimage in $\partial \D$ of the portion of the 
+boundary we are varying.  Expanding $\frac{1+\xi z}{1-\xi z}$ as a 
+series, we obtain on compact subsets
+
+\begin{align}\notag
+f_\epsilon(z)&=f(z) + \frac{\epsilon z f^\prime(z)}{2\pi} 
+\int_\gamma \frac{1 +\xi z}{1- \xi z} \,d\Psi + o(\epsilon) \\\notag
+%&= f(z) + \frac{\epsilon z f^\prime(z)}{2\pi} 
+%\int_\gamma (1+\xi z)(1+ \xi z + \xi^2 z^2 + \xi^3 z^3 +\dots) \, d\Psi 
+%+ o(\epsilon)\\\notag
+&= f(z) + \frac{\epsilon z f^\prime(z)}{2\pi} 
+\int_\gamma (1+2 \xi z+2 \xi^2 z^2 +2 \xi^3 z^2 +\dots)\, d\Psi+o(\epsilon).
+\end{align}
+
+Now since $zf'(z)=\alpha(z+2a_2 z^2 + 3 a_3 z^3 +\dots)$, we have
+\begin{align}\notag
+f_\epsilon(z) = 
+% &f(z) + \frac{\epsilon}{2\pi} 
+% \int_\gamma \alpha(z+2a_2 z^2 + 3 a_3 z^3 +\dots) \\\notag
+% &(1+2 \xi z+2 \xi^2 z^2 +2 \xi^3 z^2 +\dots)\, d\Psi+o(\epsilon)\\\notag = 
+& f(z)+\frac{\epsilon\alpha}{2\pi}\int_\gamma 
+[z + 2(a_2 + \xi) z^2 + (3a_3 + 4a_2 \xi +2\xi^2)z^3 +\dots] \, d\Psi +
+o(\epsilon)
+\end{align}
+on compact subsets.
+
+Finally, gathering the powers of $z$, we arrive at
+\begin{align}\label{E:fepsilon}
+f_\epsilon(z)=\alpha\Biggl(& 
+\biggl(1+\frac{\epsilon}{2\pi} \int_\gamma \, d\Psi\biggr) z+
+\biggl(a_2+\frac{\epsilon}{2\pi} \int_\gamma 2(a_2+\xi)\, d\Psi\biggr)z^2\\\notag
+& +
+\left(a_3+\frac{\epsilon}{2\pi} \int_\gamma (3a_3+4a_2\xi+2\xi^2) \, d\Psi\right)z^3
++ \dots \Biggr)+o(\epsilon)
+\end{align}
+on compact subsets.
+
+Hence by Proposition~\ref{P:Sf0},
+\begin{align}\notag
+\frac{1}{6} S_{f_\epsilon}(0) = 
+&\left(a_3 +\frac{\epsilon}{2\pi}\int_\gamma (3a_3+4a_2\xi+2\xi^2) 
+\, d\Psi\right)-
+\\\notag
+&\left(a_2+ \frac{\epsilon}{2\pi}\int_\gamma 2(a_2+\xi)\,d\Psi\right)^2
++o(\epsilon).
+\end{align}
+
+
+\end{proof}
+
+Taking the derivative of the new Schwarzian  with respect to $\epsilon$, we have
+\begin{align}\notag
+\frac{1}{6}\frac{\partial}{\partial \e} S_{f_\epsilon}(0) = 
+&\frac 1{2\pi}\iG (3a_3 + 4a_2\xi + 2\xi^2) \, d\Psi  \\ \notag
+ &- 2 a_2\frac{1}{2\pi}
+\iG 2(a_2+\xi) \, d\Psi - \frac{2\e}{2\pi}\left(\iG 2(a_2 + z) \, 
+d\Psi\right)^2  +\dots \\\notag
+& +o(1).
+\end{align}
+
+When $\e=0$, the derivative becomes
+\begin{align}\label{E:Sg}
+\frac{\partial}{\partial \e} S_{f_\epsilon}(0) \bigg\vert_{\e=0} 
+%= &6\left(
+%\frac{1}{2\pi}\iG 3a_3 +4a_2\xi +\xi^2 -4a_2^2 - 4a_2\xi \, d\Psi\right) \\\notag
+&=\frac{6}{2\pi}\iG (3a_3-4a_2^2 + 2\xi^2) \, d\Psi.
+\end{align}
+
+
+
+
+\section{Reduction to at Most Two Proper Sides}\label{S:2sides}
+With these computations, we can now show that any function mapping onto 
+a region with
+more than two disjoint proper sides cannot be extremal.  We do this in two 
+steps, first reducing the extremal domain to one having at
+ most four proper sides, then employing our
+Step Down Lemma to further reduce the possibilities to 
+at most two proper sides.
+
+
+\begin{lemma}\label{L:4sides}
+Suppose $f \in H_n$ is a hyperbolic convex function onto a region with
+more than four proper sides, then $f$ cannot be extremal for maximizing
+the Schwarz norm.
+\end{lemma}
+
+
+\begin{proof}
+Suppose $f\in H_n$ is extremal, that $\norm{S_f}_\D = S_f(0)$
+ and that $f$ maps onto a region with more than
+four proper sides.  
+%In Lemma~\ref{L:sf0}  we showed
+%that we may assume the extremal function $f$ satisfies  
+%$\norm{S_f}_\D = S_f(0)$.
+We will apply our variations to show that $f$
+cannot be extremal.  
+
+%Recall, however, that our variations were
+%designed to control $\abs{S_f(0)}$, not $\norm{S_f}_\D$ itself.
+
+
+
+%the supremum in the definition of the Schwarz norm for 
+%the extremal $f$ is acutally a
+%maximum, and the maximum is atained at some interior point $z_0\in\D$.
+%Thus we can pre-compose $f$ with a disc automorphism
+%which sends $0$ to $z_0$ and produce a function with the same range,
+%but normalized so that
+%\begin{equation}\label{E:normalized}
+%\norm{S_f}_\D=S_f(0). 
+%\end{equation}
+
+%On the other hand, given a function onto a hyperbolically
+%convex $n$-gon which has been normalized
+%so that~\eqref{E:normalized} holds, pre- and post-composition
+%with disc automormhisms can be used produce a map which fixes the
+%origin and thus lies in $H_n$.  Thus we may work with either
+%normalization
+%and in light of our variational lemmas, 
+%  we assume that
+
+%If $f$ is extremal, then 
+Recall from equation~\eqref{E:Sg} that for either of our variations along a side
+$\Gamma=f(\gamma)$
+\[
+\frac{\partial}{\partial \epsilon} S_{f_\epsilon} (0) \bigg|_{\epsilon=0}
+  = \frac6{2\pi} \iG \left(3a_3 - 4a_2^2 + 2\xi^2\right) d\Psi.
+\]
+
+
+By composing $f_\epsilon$ with a rotation (which will not change $S_{f_\epsilon}$),
+ we may assume
+\[
+\frac{\partial}{\partial \epsilon} S_{f_\epsilon} (0) \bigg|_{\epsilon=0}
+=\frac{6}{2\pi} \iG \re \{3a_3 - 4a_2^2 + 2\xi^2\} \,d\Psi.
+\]
+
+
+But now notice that $\K (\xi) = 3a_3 - 4a_2^2 + 2\xi^2$ wraps
+$\{\abs{\xi}=1\}$
+ twice around the image circle $C$.  If $\K(\gamma)$ lies
+completely in the right half plane, then 
+we push the (proper)
+side $\Gamma$ out, with $\e > 0$ as in Lemma \ref{L:julia-out}.  Then,
+since $\re \K(\gamma) > 0$ for $\gamma = f^{-1}(\Gamma)$, we will have
+that $\iG \re\{3a_3 - 4a_2^2 +
+2\xi^2\} \, d\Psi > 0 $.  Similarly, if $\K (\gamma)$ lies completely in the
+left half plane, $\Gamma$ can be pushed in so that
+$\iG \re\{3a_3 - 4a_2^2 + 2\xi^2 \} \, d\Psi < 0$.  
+
+On the other hand, 
+if $f$ is extremal, then $\frac{\partial }{\partial \epsilon} S_{f_\epsilon}(0)
+|_{\epsilon=0}$ must equal $0$. Otherwise, 
+\[
+\norm{S_f}_\D=S_f(0)<S_{f_\epsilon}(0)\leq\norm{S_{f_\epsilon}}_\D
+\]
+for some $\epsilon$ sufficiently near $0$.
+Thus
+$\K(\xi)$ must cross the imaginary axis at least once for every proper side.
+
+But as $\xi$ travels along $\partial \D$, $\K(\xi)$ crosses the imaginary
+axis at most 4 times.  Consequently, the range of our extremal function
+$f$ can have at most $4$ proper sides.
+\end{proof}
+
+\begin{remark}  We note that the technique employed thus far is fairly 
+general and can be used to show that an extremal domain for
+general extremal problems has at most a small number of proper sides. 
+But usually the number of parameters is still too large to
+completely determine the extremal domain.  The following critical
+Step Down Lemma enables us to further reduce the number of proper sides 
+to the point that the actual maps are computable.
+\end{remark}
+
+%\begin{step-down}
+%Consider the problem of finding the extremal value of some
+%functional $\Phi$ over a class of functions $C$ mapping onto
+%finite sided polygons.
+%Suppose that a polygon with more than $N$ sides cannot be 
+%the range of an extremal function.  
+%Suppose there exists a
+% generalized Julia variation $f_\epsilon$ of $f$ varying any side
+%(or portion of a side) $\Gamma=f(\gamma)$ 
+%of the range of $f$ so that 
+%\[
+%\frac{\partial}{\partial\epsilon} \Phi(f_\epsilon) \bigg\vert_{\epsilon=0}
+%= \int_\gamma \re \K(\xi)\,d\Psi
+%\]
+%where the curve $\K(\xi)$ crosses the imaginary axis $2N$ times.
+%Then the extremal function can have at most $N$ sides.
+%\end{step-down}
+
+
+
+\begin{step-down*}~\label{L:2sides}
+%Applying a  variation which adds a side to the range, 
+A hyperbolically convex function $f\in H_n$  onto a region with
+more than two proper sides cannot be extremal for maximizing 
+the Schwarz norm.
+\end{step-down*}
+
+
+\begin{proof}
+
+If $f\in H_n$ is extremal, then by Lemma~\ref{L:4sides}, $f(\D)$ can 
+have at most four proper sides. Thus $f\in H_4\subsetneq H_5$.
+
+ If $f(\D)$ has exactly four proper sides,
+then an application of the pigeonhole principle implies that
+one end point $\K(z^*)$
+of one of the arcs $\K (\gamma)$ must lie in the left half plane.
+Thus
+for some $z_0$ sufficiently close to $z^*$, the image under $\K$ of the 
+subarc $\gamma_0$ of $\gamma$ joining $z_0$ and $z^*$ lies completely in the 
+left half plane.  As
+a result,
+\[
+\int_{\gamma_0} \re \{3a_3 - 4a_2^2 + 2\xi^2 \} \,d\Psi < 0.
+\]
+
+Applying Lemma~\ref{L:kick-in} to push
+ the corresponding arc $\Gamma_0=f(\gamma_0)$ ``in'' (varying by
+ -$\epsilon$),
+ will then produce both an additional proper side and 
+an increase in the Schwarzian since $-\int_\gamma \K(\xi)\, d\Psi >0$.
+  This varied function $f_\epsilon$ will
+thus lie in $H_5\setminus H_4$ and have a larger Schwarz norm than any
+function in $H_4$.  But this contradicts Lemma~\ref{L:4sides},
+since the extremal function in $H_5$ can have at most
+$4$ proper sides.
+As a result, the extremal domain for a map in $H_5$ can have at most $3$ 
+proper sides.
+
+%Since $H_4\subset H_5$, 
+%But 
+%since the extremal value is monotonic as a function of $n$, this 
+%would violate
+%the fact that the extremal domain for $H_5$ has at most 4 sides.  
+%the extremal domain for $H_4$ cannot have 4 sides.
+
+
+However, if the extremal domain has exactly 3 proper
+sides, some endpoint must again lie
+in the left half-plane.  As before, we may add a proper side and
+increase the Schwarz norm.  Thus the extremal domain can have at most
+two proper sides.
+
+
+\end{proof}
+
+
+
+
+
+\section{Computing the Schwarz Norms for One- 
+and Two-Sided Functions}\label{S:compute}
+
+Now we need only compute the Schwarz norm for the remaining possible 
+extremal functions to complete the proof of our theorem. First, however,
+ we need a couple of facts about the behavior of 
+elliptic integrals~[1,~pp.~53-54].
+
+\begin{lemma}~\label{L:matti}
+If $K$ and $E$ are the complete elliptic integrals of the first and 
+second kind, respectively, then
+\begin{enumerate}
+\item For each $c\in[1/2,2]$, the function $g(x)=(\sqrt{1-x^2})^c K(x)$
+is decreasing from $[0,1)$ onto $(0,\pi/2]$.
+\item The function 
+\[
+h(t)=\frac{E(t)-(1-t^2)K(t)}{t^2}
+\]
+is increasing from $(0,1)$ onto $(\pi/4,1)$.
+\end{enumerate}
+\end{lemma}
+
+With this lemma, we can prove our main result:
+
+\begin{thm*}
+The maximal value of the Schwarz norm for hyperbolically convex
+functions is $S_{f_\alpha}(0)$, where
+\[
+f_\alpha(z) =\tan\left( \alpha\int_0^z \left(1-2\xi^2\cos 2\theta+\xi^4
+\right)^{-1/2}\,d\xi \right),  \qquad \alpha  = \frac{\pi}{2K(\cos \theta)},
+\]
+$K$ is the elliptic integral of the first kind, and $\alpha$ is chosen
+so that $\cos \theta$ is the unique critical point of the function
+\[
+g(s) = 4s^2-2 +\frac{\pi^2}{2K^2(s)}
+\]
+on $(0,1)$.
+\end{thm*}
+
+
+Numerical calculation indicates the extremal value of the 
+Schwarz norm is approximately $2.383635$ and is achieved by
+$S_{f_\alpha}(0)$ with $\alpha\approx 0.5343598$.
+
+
+\begin{proof}
+
+By Lemma~\ref{L:4sides} 
+and the Step Down Lemma, the extremal function in $H_n$, $n>2$, cannot
+map onto a region with more than $2$ proper sides.  Thus we need only
+determine whether the extremal function has $0$, $1$, or $2$ proper sides.
+
+The only hyperbolically convex functions onto a region with no proper sides
+are disc automorphisms which have
+Schwarz norm equal to $0$.
+
+Any hyperbolically convex function onto a region with exactly one proper side
+differs from the function $g$ of Example~\ref{E:one-side} by 
+composition with M\"obius transformations,
+and hence has the same Schwarz norm, namely $3/2$.  Note that 
+Mej\'ia and Pommerenke~\cite{PM00} also explicitly computed these maps
+and their Schwarz norm.
+
+
+Next notice that for two-sided domains whose proper sides 
+intersect inside the disc, the intersection point
+can be moved to the origin by a disc automorphism.
+Moreover, domains bounded by two proper sides which
+do not intersect 
+can be mapped via a disc automorphism onto an odd symmetric domain,
+as in figure~\ref{F:strip},
+and domains whose two proper sides intersect on the boundary of the disc 
+can be approximated by domains whose (proper) sides do not  intersect.  
+Thus there are two types of regions bounded by exactly two proper sides that we
+must consider: 
+\begin{enumerate}
+\item \label{I:origin}  Domains 
+in which the two proper sides intersect at the origin
+\item Odd symmetric domains in which the proper sides do not intersect
+\end{enumerate}
+
+For case~\eqref{I:origin}, consider the family of maps
+\[
+g_\alpha(z)= \left(\frac{\sqrt{z}-1}{\sqrt{z}+1}\right)^\alpha,\quad
+0<\alpha<1
+\]
+from the upper half plane onto a sector of $\D$ with an opening of 
+angle $\alpha\pi$ at the origin.
+Functions which map onto domains of the first type can be obtained from
+one of the maps $g_\alpha$ by composition with M\"obius transformations, thus
+we may limit our attention to this family.
+
+Computation and simplification reveals
+\[
+S_{g_\alpha}(z)=\frac{3z^2-(2+4\alpha^2)z +3}{8z^2(z-1)^2}.
+\]
+Because both the Schwarzian and the hyperbolic density $\eta_\HH(z)=1/(2\im{z})$
+are invariant under horizontal translation, we need only consider
+pure imaginary numbers when computing the Schwarz norm.
+Thus
+\begin{align}\notag
+\norm{S_{g_\alpha}}_\HH=&\sup_{z\in\HH} 4\left(\im z\right)^2
+\left|\frac{3z^2-(2+4\alpha^2)z +3}{8z^2(z-1)^2}\right| \\\notag
+&=\sup_{y>0} \frac{1}{2}\frac{\abs{3y^2+(2+4\alpha^2)iy -3}}{y^2+1}.
+\end{align}
+
+The derivative of the right hand side with respect to $y$ is
+\[
+\frac{-8(\alpha^2-1)(\alpha^2+2)(y^3-y)}
+{\sqrt{9y^4+(16\alpha^4+16\alpha^2-14)y^2 +9}(y^2+1)^2}.
+\]
+Clearly the denominator is positive for all $y>0$, $0<\alpha<1$.
+Moreover, for all $0<\alpha<1$ the numerator is negative for 
+$0<y<1$ and positive for $1<y<\infty$.  
+Consequently, $\eta_\HH(iy)\abs{S_{g_\alpha}(iy)}$ is decreasing 
+on $0<y<1$ and increasing on $1<y<\infty$.
+Thus the supremum in
+the definition of $\norm{S_{g_\alpha}}_\HH$ must occur as $y$ approaches $0$
+or as $y$ approaches $\infty$.  See Figure~\ref{F:g-alpha}.
+
+
+\begin{figure}
+\begin{center}\scalebox{0.45}{
+%\begin{rotate}{-90}
+%\begin{minipage}{\linewidth}
+\epsfig{file=g-alpha,angle=-90} }
+%\end{minipage}
+%\end{rotate} }
+\caption{The graph of $4y^2\abs{S_{g_\alpha}(iy)}$ for $\alpha=0.75$.}
+\label{F:g-alpha}
+\end{center}
+\end{figure}
+
+In both directions, however,
+\begin{align}
+\lim_{y\to 0^+}\eta_\HH(iy)\abs{S_{g_\alpha}(iy)} & = 
+\lim{y\to 0^+} \frac{1}{2}\frac{\abs{3y^2+(2+4\alpha^2)iy -3}}{y^2+1} 
+=\frac{3}{2}\\\notag
+\lim_{y\to \infty}\eta_\HH(iy)\abs{S_{g_\alpha}}(iy) & = 
+\lim{y\to \infty} \frac{1}{2}\frac{\abs{3y^2+(2+4\alpha^2)iy -3}}{y^2+1} 
+=\frac{3}{2}.
+\end{align}
+Notice that both limits are independent of $\alpha$.  Consequently, 
+the Schwarz norm of any hyperbolically convex function onto a domain
+bounded by exactly two proper sides intersecting inside $\D$ must be $3/2$.
+
+The second case consisting of maps onto odd symmetric two-sided domains
+can be handled using the family of maps 
+$f_\alpha$ constructed by Mej\'ia and Pommerenke~\cite{PM00}.
+Each hyperbolically convex function
+\[
+f_\alpha(z)=\tan\left( \alpha\int_0^z \left(1-2\xi^2\cos 2\theta+\xi^4
+\right)^{-1/2}\,d\xi \right),
+\]
+maps onto a ``hyperbolic strip''
+bounded by two geodesics through 
+
+$$
+\pm i \tanh \left(\frac{\pi K(\sin\theta)}{4K(\cos\theta)}\right),
+$$
+
+\noindent where  $\alpha  = \frac{\pi}{2K(\cos \theta)}$, $0<\theta<\pi/2$,
+and $K$ is the elliptic integral of the first kind.
+See Figure~\ref{F:strip}.
+
+
+For these functions $f_\alpha$, our problem is to compute
+\[
+\norm{S_{f_\alpha}}_\D = \sup_{z\in\D} \left(1 - \abs{z}^2\right)^2 
+\abs{S_{f_\alpha}(z)}.
+\]
+Using an extensive computational argument which considers several cases
+(various interval ranges for $\abs{z}$, $\arg z$, and $\alpha$) and
+uses properties of polynomials and $K$, one can show that this 
+problem can be reduced to computing
+\[
+\sup_{0\leq x<1}\left(1-x^2\right)^2 \abs{S_{f_\alpha}(x)}.
+\]
+
+
+
+Mej\'ia and Pommerenke~\cite{PM00} computed $S_{f_\alpha}(x)$ to be
+\[
+S_{f_\alpha}(x)=\frac{2( (\cos(2\theta)+\alpha^2) 
++ (\cos^2(2\theta)-2\alpha^2\cos(2 \theta) -3)x^2 
++ (\cos(2\theta) +\alpha^2)x^4)}{(1-2\cos(2\theta)x^2 +x^4)^2},
+\]
+where $\alpha=\frac{\pi}{2K(\cos\theta)}$ and conjectured that the maximum value 
+of $(1-x^2)^2 \abs{S_{f_\alpha}(x)}$ occurs
+at $x=0$.
+(Note the typographical error on the second $\alpha$ in the original 
+statement in~\cite{PM00}.)
+
+
+We claim that maximizing $(1-x^2)^2 \abs{S_f(x)}$ 
+is equivalent to maximizing $(1-x^2)^2 {S_f(x)}$, i.e., we claim that
+$\max (1-x^2)^2 {S_f(x)} > -\min (1-x^2)^2 {S_f(x)}$.  We will show that
+
+\begin{equation} \label{claim_min}
+\min (1-x^2)^2 {S_f(x)} \ge -2
+\end{equation}
+
+\vspace{0.1in}
+
+\noindent over $ 0 < x < 1$ and $0<\theta<\pi/2$. 
+Then, as Mej\'ia and Pommerenke~\cite{PM00} noted (and as we will show)
+that $\max (1-x^2)^2 {S_f(x)} > 2$, the claim will hold.  
+
+We simplify our algebraic computations
+by replacing $x$ with $\sqrt{x}$ in the above expression and obtain
+
+\begin{equation} \label{E:m}
+(1-x)^{2} \frac{2( (\cos(2\theta)+\alpha^2) 
++ (\cos^2(2\theta)-2\alpha^2\cos(2 \theta) -3)x 
++ (\cos(2\theta) +\alpha^2)x^2)}{(1-2\cos(2\theta)x +x^2)^2}
+\end{equation}
+
+\noindent where $ 0 \le x < 1$ and $0<\theta<\pi/2$.
+
+To minimize (\ref{E:m}), we note that the coefficient of $\alpha^2$ is $1-2\cos(2\theta)x +x^2$ which
+is nonnegative.  Hence, substituting $\alpha=0$ into (\ref{E:m}), we have that (\ref{E:m}) is bounded below by
+
+\begin{equation} \label{E:m1}
+(1-x)^{2} \frac{2( \cos(2\theta) 
++ (\cos^2(2\theta) -3)x 
++ \cos(2\theta) x^2)}{(1-2\cos(2\theta)x +x^2)^2}
+\end{equation}
+
+We will show that (\ref{E:m1}) is bounded below by $-2$ by showing that 
+
+\begin{align}\notag
+&(1-x)^{2} \frac{2( \cos(2\theta) 
++ (\cos^2(2\theta) -3)x 
++ \cos(2\theta) x^2)}{(1-2\cos(2\theta)x +x^2)^2} + 2 \\ \notag
+&= \frac{p(c,x)}{(1-2\cos(2\theta)x +x^2)^2} > 0
+\end{align}
+
+\noindent where
+
+$$
+ p(c,x) = (2x+4x^2 + 2x^3)c^2 + (2-12x+4x^2-12x^3+2x^4)c + (2-6x+16x^2-6x^3+2x^4)
+$$
+
+\noindent and $c = \cos(2\theta)$ satistifies $-1 < c < 1$.  
+
+It is sufficient to show that $p(c,x) > 0$ for $-1 < c < 1$ and $0 < x < 1$.
+We note that $p(c,x)$ is quadratic in $c$ for each fixed $x$ and the coefficent 
+of $c^2$ is positive.  Let 
+
+$$
+c(x) = -\frac{2-12x+4x^2-12x^3+2x^4}{2(2x+4x^2 + 2x^3)},
+$$
+
+\noindent then $c(x)$ is the location of the vertex of the quadratic $p(c,x)$ for each fixed $x$.
+We claim that $c(x)$ is an increasing function of $x$ on $(0,1)$.  To see this, we note that
+
+$$c'(x) = \frac{n(x)}{2(x+1)(1+2x+x^2)x^2}$$
+
+\noindent where $n(x) = -x^5-3x^4+14x^3-14x^2+3x+1$.  Clearly, $n(0) = 1$ and $n(1) = 0$.  A Sturm sequence argument shows that $n(x)$ has exactly one zero on $(0,1]$.  Hence, we have $c'(x) > 0$ on 
+$(0,1)$ and $c(x)$ is increasing on $(0,1)$.
+
+Let $x_0$ be the unique solution of $c(x) = -1$ 
+for $0 < x < 1$, $x_0 \approx 0.1197$. 
+For $0 < x < x_0$, the location $c(x)$ of the vertex of $p(c,x)$ satisfies $c(x) < -1$.  
+Hence over $-1 < c < 1$ and $0 < x < 1$, 
+we have $ \min p(c,x) > p(-1,x) = 8x + 16x^2 +8x^3 > 0$.  For $x_0 < x < 1$, we have
+$-1 < c(x) < 1$ and, hence, 
+
+$$ \min p(c,x) = p(c,x)|_{c=c(x)} = \frac{q(x)}{2x(1+2x+x^2)} $$
+
+\noindent where
+
+$$ 
+q(x) = -x^8 + 16x^7 - 44x^6 + 48x^5 - 3xx^4 +48x^3-44x^2+16x -1.
+$$
+
+Clearly, $q(1) = 0$ and $q(1/2)=\frac{143}{256} > 0$.  A Sturm sequence argument shows that on 
+the interval $(x_0,1]$ that $q$ has exactly one zero.  Hence, on $(0,1)$, $q(x) > 0$.
+
+Thus, $p(c,x) > 0$ for 
+$-1 < c < 1$ and $0 < x < 1$ and, consequently, $\min (1-x^2)^2 {S_f(x)} \ge -2$.
+
+To maximize (\ref{E:m}), we substitute $\alpha=\frac{\pi}{2 K(\cos(\theta))}$,
+take the derivative with respect to $x$, and simplify to obtain
+
+\begin{align}
+\frac{(x^2-1)(\cos(2\theta) -1)}
+{K^2(\cos(\theta))(x^2-2\cos(2\theta)x+1)^3}
+&(K^2(\cos\theta)(-10x^2 \cos(2\theta) \\\notag
+&-6x^2 
++12x\cos(2\theta)-4x\cos^2(2\theta)\\\notag
+&+24x-10\cos(2\theta)-6) -\pi^2(x^2-2\cos(2\theta)+1))
+\end{align}
+
+
+Notice that the denominator of this expression is always positive.
+%since 
+%\[
+%x^2-2\cos(2\theta)x+1 > x^2-2x+1 =(x-1)^2 >0.
+%\]
+On the other hand, the numerator changes sign as $x$ varies.  However,
+we will see that for fixed $\theta$, the numerator can change sign
+only once.
+
+To justify this claim, fix $\theta$ and let 
+\begin{align} \notag
+A(x)=K^2(\cos\theta)(&-10x^2 \cos(2\theta) -6x^2 
++12x\cos(2\theta)-4x\cos^2(2\theta)\\\notag
+& +24x-10\cos(2\theta)-6)
+-\pi^2(x^2-2\cos(2\theta)+1).
+\end{align}
+Notice that $(x^2-1)(\cos(2\theta)-1)>0$ for $0\leq x<1$ and
+$0<\theta<\pi/2$, so we need
+only show that $A(x)$ changes sign only once.
+
+It follows from known properties~\cite{AVV97} of $K$ that 
+$K(\cos(\theta))>\pi/2$; thus, since the coefficient of $K(\cos(\theta))$
+in \eqref{E:ktheta} is positive,
+\begin{align}\label{E:ktheta}
+A'(x) & = K^2(\cos(2\theta))(-20x\cos(2\theta) -12x+12\cos(2\theta) - 4\cos^2(2\theta) + 24) - 2\pi^2(x-\cos(2\theta))\\\notag
+&>\left(\frac{\pi}{2}\right)^2(-20x\cos(2\theta) 
+-12x+12\cos(2\theta) - 4\cos^2(2\theta) + 24) - 2\pi^2(x-\cos(2\theta))\\\notag
+&= (-10\pi^2\cos^2\theta)x + (14\pi^2\cos^2\theta-4\pi^2\cos^4\theta )
+\end{align}
+
+
+The right hand side of the above inequality is linear in $x$ and positive
+at both $x=0$ and $x=1$.  Thus $A'(x)>0$  and
+$A(x)$ is increasing for all $0\leq x <1$.  Consequently, $A(x)$
+can change sign at most once.
+
+Notice
+\[
+A(0)=-10\cos(2\theta)K^2(\cos(2\theta)) -6K^2(\cos(\theta))-\pi^2 <0
+\]
+for all $0<\theta<\pi/2$.  
+
+Thus, as a consequence of the above argument, for each fixed $\theta$,
+$ %\frac\partial}{\partial x} 
+(1-x^2)^2S_{f_\alpha}(x)$ is decreasing at $x=0$ and
+switches from decreasing to increasing at most once on the interval
+$0\leq x <1$. (Recall that to establish this fact, we replaced
+$x$ by $\sqrt{x}$ in our calculations.  We now  return $x$ to its
+original meaning.)
+
+Clearly  $(1-x^2)^2S_{f_\alpha}(x)$ equals $0$ when $x=1$.  
+Thus even after $(1-x^2)^2S_{f_\alpha}(x)$ begins increasing, it never
+becomes larger than $0$.
+
+On the other hand, when $x=0$,
+\begin{equation}\notag
+(1-x^2)^2S_{f_\alpha}(x)|_{x=0} = 2\cos(2\theta)+\frac{\pi^2}{2K^2(\cos(\theta))}.
+\end{equation}
+Applying Lemma~\ref{L:matti} with $c=1/2$ %from~[1,~p.~54],
+we obtain
+\begin{align}\notag
+(1-x^2)^2S_{f_\alpha}(x)|_{x=0} 
+&\geq  2\cos(2\theta)+\frac{\pi^2}{\frac{\pi^2}{2
+\sqrt{1-\cos^2(2\theta)}}} \\\notag
+&=2(1+2\sin(\theta))(1-\sin(\theta))>0
+\end{align}
+for all $0<\theta<\pi/2$.
+Thus, $\sup_{0\leq x<1}(1-x^2)^2 S_{f_\alpha}(x)$ is indeed achieved for $x=0$.
+See Figure~\ref{F:x-running}.
+
+
+
+\begin{figure}
+\begin{center}\scalebox{0.45}{
+%\begin{rotate}{-90}
+%\begin{minipage}{\linewidth}
+\epsfig{file=x-running,angle=-90} }
+%\end{minipage}
+%\end{rotate} }
+\caption{The graph of $(1-x^2)^2{S_{f_\alpha}(x)}$ for $0\leq x<1$ and
+$\alpha=0.5343598$ ($\theta=0.218202$).}
+\label{F:x-running}
+\end{center}
+\end{figure}
+
+Now the only question is to determine for which value (or values) of $\theta$ 
+\[
+\norm{S_{f_\alpha}}_\D=S_{f_\alpha}(0) 
+= 4\cos^2(\theta)-2+\frac{\pi^2}{2K^2(\cos(\theta))}
+\]
+is maximized.  
+To this end, let $s=\cos \theta$ and let 
+\[
+g(s)=4s^2-2+\frac{\pi^2}{2K^2({s})}.
+\]
+
+Notice that 
+\[
+\frac{dg}{d\theta}=\frac{dg}{ds}\frac{ds}{d\theta},
+\]
+and $\frac{ds}{d\theta}=-\sin(\theta)<0$ for $0<\theta<\pi/2$.
+Thus since $\cos(\theta)$ is decreasing for $0<\theta<\pi/2$, 
+if $\frac{dg}{ds}$ switches signs at most once, then $\norm{S_{f_\alpha}}_\D$
+will have a relative maximum  for  at most one value of $\theta$.
+
+Computing this derivative and simplifying, we obtain
+\begin{equation}\label{E:dg}
+\frac{dg}{ds}(s)= 8s - 
+\frac{\pi^2}{s}\frac{
+E\left(s\right)-(1-s^2)K( s))}{(1-s^2)K^3({s})}.
+\end{equation}
+
+For $0<s<1$, we rewrite\eqref{E:dg} as
+\[
+%4-\frac{\pi^2}{2}\frac{
+%\frac{E(t)-(1-t^2)K(t)}{t^2}}
+%{(1-t^2)K^3(t)} =
+2s\left( 4-\frac{\pi^2}{2}\frac{E(s)-(1-s^2)K(s)}{s^2}
+\frac{1}{\left((\sqrt{1-s^2})^{2/3} K(s)\right)^{3}}\right).
+\]
+
+
+
+Applying the the first part of Lemma~\ref{L:matti} with $c=2/3$,
+we observe that
+\[
+\frac{1}{\left((\sqrt{1-s^2})^{2/3} K(s)\right)^{3}}
+\]
+is increasing for $0<s<1$.
+Similarly, by the second part of Lemma~\ref{L:matti}, 
+\[
+\frac{E(s)-(1-s^2)K(s)}{s^2}
+\]
+is increasing for $0<s<1$.
+
+Consequently, $\frac{dg}{ds}$ can be 
+written as  a product of $2s$, which is positive, and a factor, which is 
+$4$ minus an increasing function.  Thus, $\frac{dg}{ds}$ has at most one zero.
+Moreover, Lemma~\ref{L:matti} also implies that
+\begin{align}
+\lim_{s\to 0^+}\frac{E(s)-(1-s^2)K(s)}{s^2} &=\frac{\pi}{4} \\\notag 
+\lim_{s\to 0^+} {\left((\sqrt{1-s^2})^{2/3} K(s)\right)^{3}}
+&= \left(\frac{\pi}{2}\right)^{3}.
+\end{align}
+Thus,
+\[
+\lim_{s\to 0^+} \frac{dg}{ds} = 4-\frac{\pi^2}{2}\frac{\pi/4}{(\pi/2)^3} =3.
+\]
+
+On the other hand, 
+\begin{align}
+\lim_{s\to 1^-}\frac{E(s)-(1-s^2)K(s)}{s^2} &= 1 \\\notag
+\lim_{s\to 1^-} {\left((\sqrt{1-s^2})^{2/3} K(s)\right)^{3}}
+&= 0.
+\end{align}
+Hence,
+\[
+\lim_{s\to 1^-}\frac{dg}{ds} = -\infty.
+\]
+
+
+
+Since $\frac{dg}{ds}$ 
+decreases from $3$ to minus infinity as $s$ increases from $0$ to $1$,
+ we have proven that
+$\norm{S_{f_\alpha}}_\D$ does have a unique maxiumum.  
+A Maple computation shows
+that this maximum is approximately $2.383635$ 
+and occurs for $\theta\approx 0.218202$,
+which corresponds to $\alpha\approx 0.5343598$.  See Figure~\ref{F:t-running}.
+
+
+
+\begin{figure}
+\begin{center}\scalebox{0.45}{
+\epsfig{file=t-running} }
+\caption{The graph of $\norm{S_{f_\alpha}}_\D$ for  $0<\theta<\pi/2$.}
+\label{F:t-running}
+\end{center}
+\end{figure}
+
+\end{proof}
+
+\begin{remark}
+Mej\'ia and Pommerenke~\cite{MPV01}  have recently determined the 
+sharp upper bound 
+for $\abs{f'(re^{i\theta})}$, $0\leq r <1$, for
+ hyperbolically convex functions $f$.
+Applying the techniques of this paper we give another proof and
+extensively generalize this result~\cite{BOP03}.
+We have also answered in~\cite{BPW04} several other related conjectures of 
+Pommerenke~\cite{pomm1}.
+
+
+\end{remark}
+
+%\bibliographystyle{amsplain} \bibliography{hc,roger,eqcp,dis}
+
+\def\cprime{$'$}
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+
+
+\begin{thebibliography}{10000}
+
+\bibitem{AVV97}
+G.D. Anderson, M.K. Vamanamurthy, and M.K. Vuorinen, \emph{Conformal
+  invariants, inequalities, and quasiconformal mappings}, J. Wiley and Sons,
+  1997.
+
+\bibitem{BPW04}
+R.~W. Barnard, K.~Pearce, and G.~Brock Williams, \emph{Three extremal problems
+  for hyperbolically convex functions}, Computational Methods and Function
+  Theory \textbf{4} (2004), no.~1, 97--109.
+
+\bibitem{BL75}
+Roger Barnard and John~L. Lewis, \emph{Subordination theorems for some classes
+  of starlike fumctions}, Pacific J. Math. \textbf{56} (1975), no.~2, 333--366.
+  \MR{52 \#721}
+
+\bibitem{BOP03}
+Roger~W. Barnard, G.~Lenny Ornas, and Kent Pearce, \emph{A variational method
+  for hyperbolically convex functions}, Complex Variables and Elliptic Equations 
+  \textbf{51} (2006), no.~4, 313-327.
+
+\bibitem{aB83}
+A.~Beardon, \emph{Geometry of discrete groups}, Springer-Verlag, Berlin, 1983.
+
+\bibitem{GL2000}
+Frederick~P. Gardiner and Nikola Lakic, \emph{Quasiconformal {T}eichm\"uller
+  theory}, Mathematical Surveys and Monographs, vol.~76, American Mathematical
+  Society, 2000.
+
+\bibitem{oL87}
+O.~Lehto, \emph{Univalent functions and {T}eichm\"uller spaces},
+  Springer-Verlag, Berlin - Heidelberg - New York, 1987.
+
+\bibitem{MM94}
+William Ma and David Minda, \emph{Hyperbolically convex functions}, Ann. Polon.
+  Math. \textbf{60} (1994), no.~1, 81--100. \MR{95k:30037}
+
+\bibitem{MM99}
+\bysame, \emph{Hyperbolically convex functions. {II}}, Ann. Polon. Math.
+  \textbf{71} (1999), no.~3, 273--285. \MR{2000j:30020}
+
+\bibitem{PM00}
+Diego Mej\'ia and Christian Pommerenke, \emph{On hyperbolically convex
+  functions}, J. Geom. Anal. \textbf{10} (2000), no.~2, 365--378.
+
+\bibitem{MP00b}
+\bysame, \emph{On spherically convex univalent functions}, Michigan Math. J.
+  \textbf{47} (2000), no.~1, 163--172. \MR{2001a:30013}
+
+\bibitem{MP01}
+\bysame, \emph{Sobre la derivada {Schawarziana} de aplicaciones conformes
+  hiperb\'olicamente}, Revista Colombiana de Matem\'aticas \textbf{35} (2001),
+  no.~2, 51--60.
+
+\bibitem{MP02}
+\bysame, \emph{Hyperbolically convex functions, dimension and capacity},
+  Complex Var. Theory Appl. \textbf{47} (2002), no.~9, 803--814.
+  \MR{2003f:30017}
+
+\bibitem{MP00}
+\bysame, \emph{On the derivative of hyperbolically convex functions}, Ann.
+  Acad. Sci. Fenn. Math. \textbf{27} (2002), no.~1, 47--56.
+
+\bibitem{MPV01}
+Diego Mej\'ia, Christian Pommerenke, and Alexander Vasil{\cprime}ev,
+  \emph{Distortion theorems for hyperbolically convex functions}, Complex
+  Variables Theory Appl. \textbf{44} (2001), no.~2, 117--130. \MR{2003e:30025}
+
+\bibitem{zN49}
+Zeev Nehari, \emph{The {S}chwarzian derivative and schlicht functions}, Bull.
+  Amer. Math. Soc. \textbf{55} (1949), 545--551. \MR{10,696e}
+
+\bibitem{zN52}
+\bysame, \emph{Conformal mapping}, Dover, 1952.
+
+\bibitem{zN76}
+\bysame, \emph{A property of convex conformal maps}, J. Analyse Math.
+  \textbf{30} (1976), 390--393. \MR{55 \#12901}
+
+\bibitem{pomm1}
+Christian Pommerenke, private communication.
+
+\bibitem{cP92}
+Ch. Pommerneke, \emph{Boundary behavior of conformal maps}, Springer - Verlag,
+  Berlin - Heidelberg - New York, 1992.
+
+\bibitem{aS98}
+A.~Yu. Solynin, \emph{Some extremal problems on the hyperbolic polygons},
+  Complex Variables Theory Appl. \textbf{36} (1998), no.~3, 207--231.
+  \MR{99j:30030}
+
+\bibitem{aS99}
+\bysame, \emph{Moduli and extremal metric problems}, Algebra i Analiz
+  \textbf{11} (1999), no.~1, 3--86, translation in St. Petersburg Math. J.
+  \textbf{11} (2000), no. 1, 1--65. \MR{2001b:30058}
+
+\end{thebibliography}
+
+
+
+\affiliationone{% in this example, two authors share an institution
+   Roger W. Barnard, Kent Pearce and G. Brock Williams\\
+   Department of Mathematics and Statistics, Texas Tech University,
+ Lubbock, Texas  79409\\United States
+   \email{roger.w.barnard@ttu.edu\\kent.pearce@ttu.edu\\brock.williams@ttu.edu}}
+\affiliationtwo{% in this example, one author has two addresses}
+   Leah Cole\\
+   Department of Mathematics, Wayland Baptist University, 
+ Plainview, Texas  79072\\United States
+   \email{colel@wbu.edu}}
+
+
+\end{document}
+
+

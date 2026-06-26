@@ -1,0 +1,743 @@
+\documentclass[12pt]{article}
+\usepackage{amssymb,amsmath,enumerate,graphics,graphicx} 
+
+\textheight=9.3in \advance\hoffset by -.77truein\relax
+\textwidth=6.4in \topmargin=-0.75in
+
+\newcommand{\cA}{{\cal{A}}}
+\newcommand{\cU}{{\cal{U}}}
+\newcommand{\D}{{\mathbb D}}
+\newcommand{\ds}{\displaystyle}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+
+{ \title{\sc A proof of Campbell's subordination conjecture}}
+\author{Roger W. Barnard \and Kent Pearce}
+\date{3 November 2008}
+\begin{document}
+
+\maketitle
+\begin{abstract}
+In the early 70's, D.M. Campbell published three papers on majorization-\linebreak subordination results for locally univalent functions.  
+In particular, he showed that if $F$ is linearly invariant of order $\alpha$ and if $f$ is subordinate to $F$ on 
+$\{z : |z| < 1\}$, then $f'$ is majorized by $F'$ on $\{ z : |z| < m(\alpha) \}$ where 
+$m(\alpha) = \alpha +1 - \sqrt{\alpha^2+2\alpha}$, provided $\alpha \ge 1.65.$  He conjectured, 
+in fact, that this result also held for $1.65 > \alpha \ge 1$.  We review Campbell's proof 
+and why the restriction $\alpha \ge 1.65$ arose in the proof.  We then affirmatively verify Campbell's conjecture in Theorem 1.
+
+\vspace{0.4in}
+
+\noindent Key words: majorization, subordination, locally univalent, Campbell \\
+\noindent AMS Subject Classification 2000: 30C70
+
+\end{abstract}
+
+\section{Introduction}
+
+Let $\cA(\D)$ denote the set of functions which are analytic on the open
+unit disk $\D = \{z : |z| < 1\}$.  A function $\phi \in \cA(\D)$
+is a \emph{Schwarz function} if $|\phi(z)| \le |z|$ for $z \in \D$.  
+Let $f, F \in \cA(\D)$.  For $0 < r \le 1$, the function $f$ is \emph{majorized} 
+by $F$ on $|z| < r$ if $|f(z)| \le |F(z)|$ on $|z| < r$.  The function 
+$f$ is \emph{subordinate} to $F$ on $\D$, if there 
+exists a Schwarz function $\phi$ such that  $f = F \circ \phi$ -- we write $f \prec F$.
+
+Let $\cU_\alpha$ denote the subset of $\cA(\D)$ of all locally univalent
+functions of order $\alpha$ with the normalization $f(z) = z+ \cdots$.
+The family $\cU_\alpha$ is known as the universal linear invariant family of 
+order $\alpha$ \cite{Pom01}.  In the early 70's Campbell published three papers 
+on majorization-subordination for locally univalent functions \cite{DMC01,DMC02,DMC03}
+in which he established relationships between majorization and subordination for functions
+in $\cU_\alpha$.  He showed that many of the classical results on 
+majorization and subordination for univalent functions (see \cite{McG,TS}) hold in the more general setting 
+of locally univalent functions.  He remarked ``Our investigation shows that 
+the important datum for majorization-subordination theory, is not 
+\emph{univalence}, but the order of a linearly invariant family."
+
+In particular, he proved: 
+
+\vspace{0.05in}
+
+Theorem A. \emph{ If $F$ is locally univalent of order $\alpha$ for $\alpha \ge 1$ and if $f$ is majorized by $F$ on 
+$\D$, then $f'$ is majorized by $F'$ on $\{ z : |z| < n(\alpha) \}$ where 
+${\ds n(\alpha) = \frac{(\alpha+1)^{1/\alpha}-1}{(\alpha+1)^{1/\alpha}+1}}$}.  
+
+\noindent He further showed:  
+
+Theorem B. \emph{ If $F$ is locally univalent of order $\alpha$ for $\alpha \ge 1.65$ and if $f$ is subordinate to $F$ on 
+$\D$, then $f'$ is majorized by $F'$ on $\{ z : |z| < m(\alpha) \}$ where 
+$m(\alpha) = \alpha +1 - \sqrt{\alpha^2+2\alpha}$.}  
+
+\vspace{0.05in}
+
+\noindent The bounds given in Theorem A and Theorem B are sharp for each $\alpha$.  
+
+\vspace{0.05in}
+
+The restriction $\alpha \ge 1.65$ in Theorem B arose out of the proof that Campbell constructed.  He conjectured that, 
+in fact, Theorem B also held for $1.65 > \alpha \ge 1$.  
+
+\vspace{0.05in}
+
+We will employ the following notation throughout the paper: 
+Let $m = m(\alpha) = \alpha+1 - \sqrt{\alpha^2 + 2\alpha}$ for $\alpha \ge 1$.
+Let $f,F$ denote functions in $\cA(\D)$ such that $f$ is subordinate to $F$ on $\D$ and 
+$F \in \cU_\alpha$ for some $\alpha \ge 1$.
+Let $\phi$ denote the Schwarz function in $\cA(\D)$ such that 
+$f=F\circ\phi$. Let $a = f'(0)$.  We will 
+assume that $f$ has been rotated so that $0 \le a \le 1$.  Then, we can write
+${\ds \phi(z)=z\frac{a+\omega(z)}{1+a\omega(z)}}$ where $\omega \in \cA(\D)$ such that 
+$\omega$ is a Schwarz function. For $z = xe^{it} \in \D$ 
+with $0 \le x \le m$, let $c= \omega(z) = re^{i\theta}$.  We have 
+$0 \le r \le x \le m$.  Note, at $z$ we have $f(z)=F(\phi(z))$ and 
+${\ds \phi(z)= z\frac{a+c}{1+ac}}$.  
+
+
+In \cite{DMC03}, Campbell established two lemmas (Lemma 1 and Lemma 2) for estimating $|\phi'(z)|$ in terms of $a$ and $c$, 
+depending on whether $a$ was ``small" or ``large".  Then, referencing Pommerenke's classical paper \cite{Pom01}
+on linearly-invariant families, he established the following fundamental inequality
+
+\begin{equation} \label{fund}
+\left | \frac{f'(z)}{F'(z)}\right | \le \frac{1-x^2}{1-|\phi(z)|^2}
+\left( \frac{|1-\overline{\phi(z)}z|+|\phi(z)-z|}{|1-\overline{\phi(z)}z|-|\phi(z)-z|} \right ) ^\alpha
+|\phi'(z)|
+\end{equation}
+
+Using Lemma 2 \cite{DMC03}, Campbell showed that
+
+\begin{equation} \label{fund-2}
+\left | \frac{f'(z)}{F'(z)} \right | \le \frac{ba+1}{b+a} \left ( \frac{b-a}{b-1} \right ) ^ \alpha = k(a,\alpha,b)
+\end{equation}
+
+\noindent where ${\ds b = \frac{1+x^2}{2x} \ge \alpha+1}$, since $x \le m$. 
+In particular, Campbell showed that $k(a,\alpha,b)$ is decreasing in $b$.  Hence, $k(a,\alpha,b) \le k(a,\alpha,\alpha+1)$. 
+Following Campbell, we note that 
+
+$$\frac{\partial k(a,\alpha,\alpha+1)}{\partial a} = \frac{(\alpha+1-a)^{\alpha-1}}{(\alpha)^{\alpha}}\frac{p(a,\alpha)}{(\alpha+1+a)^2}
+$$
+
+\noindent where 
+
+\begin{equation} \label{poly_p}
+p(a,\alpha) = -\alpha(\alpha+1)a^2 -(\alpha^3+3\alpha^2+4\alpha)a +\alpha(\alpha+1)^2. 
+\end{equation}
+
+\noindent Let $R=\{(a,\alpha) : p(a,\alpha) \ge 0 \}$, i.e., $R$ is the set where $k(a,\alpha,\alpha+1)$ is increasing
+in $a$.  Campbell showed that $R$ contains the set $\{(a,\alpha) : 0 \le a \le 0.4, \alpha \ge 1 \}$.  
+
+Let $C_1 = \{(a,\alpha) \in R : k(a,\alpha ,\alpha +1) = 1\}$ and $A_1 = \{(a,\alpha) \in R : k(a,\alpha ,\alpha +1) \le 1\}$. 
+For $(a,\alpha) \in A_1$, we have $|f'(z)/F'(z)| \le 1$.  In this notation, Campbell explicitly verified that the rectangles
+\begin{eqnarray*}
+R_1 &=& \{(a,\alpha) : 0 \le a \le 3/20, 1.65 \le \alpha \le 2 \}\\
+R_2 &=& \{(a,\alpha) : 0 \le a \le 1/6, 2 \le \alpha \le 3 \}\\ 
+R_3 &=& \{(a,\alpha) : 0 \le a \le 1/10, 3 \le \alpha < \infty \}
+\end{eqnarray*} 
+\noindent each belong to $A_1$. More explicitly, Campbell showed that the ``right-hand" edges of $R_1, R_2$ and $R_3$ belong to $A_1$.  Figure 1 summarizes the above containment conclusions which Campbell proved.
+
+\begin{figure}[t]\label{fig:1}
+$$\includegraphics[scale=.5,angle=-90]{rectangles-left} $$
+\caption{Rectangles $R_1, R_2, R_3$ contained in Region $A_1$}
+\end{figure}
+
+
+Using Lemma 1 \cite{DMC03}, Campbell showed 
+
+\begin{equation} \label{fund-1}
+\left | \frac{f'(z)}{F'(z)}\right | \le {\cal G}(c,x,a) \cdot {\cal H}(c,x,a) = {\cal L}(c,x,a)
+\end{equation}
+
+\noindent where
+\begin{eqnarray*}
+G(c,x,a) &=& \frac{x(1-a)|1-c|}{|1+ac-x^2(a+c)|} \\
+{\cal G}(c,x,a) &=&  \left ( \frac{1+G(c,x,a)}{1-G(c,x,a)} \right) ^ {\alpha-1} \\
+{\cal H}(c,x,a) &=& (1-x^2)\frac{|a+2c+ac^2|(1-x^2) + (x^2-r^2)(1-a^2)}{[|1+ac-x^2(a+c)|-x(1-a)|1-c|]^2} \\
+{\cal L}(c,x,a) &=& {\cal G}(c,x,a) \cdot {\cal H}(c,x,a) 
+\end{eqnarray*}
+\begin{figure}[t]\label{fig:2}
+$$\includegraphics[scale=.5,angle=-90]{rectangles-right} $$
+\caption{Rectangles ${\tilde R}_1, {\tilde R}_2, {\tilde R}_3$ contained in Region $A_2$}
+\end{figure}
+
+Campbell showed in a separate lemma (Lemma 3 \cite{DMC03}) that ${\cal L}(c,x,a)$ as a function of $\theta$ maximizes at $\theta = 0$, i.e.,  ${\cal L}(r,x,a) \ge {\cal L}(c,x,a)$ for $c = re^{i\theta}$, for $0 \le r \le x \le m$, on the set defined by $Q(a,\alpha) \ge 0$ where 
+\begin{equation} \label{poly_Q}
+Q(a,\alpha)= -(1+\alpha+2\alpha^2+\alpha^3)a^2 - (2-2\alpha-5\alpha^2-2\alpha^3)a - (\alpha+1). 
+\end{equation}
+
+\noindent Finally, Campbell showed that
+${\cal L}(r,x,a)$ is an increasing function of $a$ provided that $x \le m$. A calculation shows that ${\cal L}(r,x,1)\equiv 1$.
+
+
+Let $C_2 = \{(a,\alpha) : Q(c,x,a) = 0\}$ and $A_2 = \{(a,\alpha) : Q(c,x,a) \ge 0\}$. 
+For $(a,\alpha) \in A_2$, we have $|f'(z)/F'(z)| \le 1$.  In this notation, Campbell explicitly verified that the rectangles
+\begin{eqnarray*}
+{\tilde R}_1 &=& \{(a,\alpha) : 3/20 \le a \le 1, 1.65 \le \alpha \le 2 \}\\
+{\tilde R}_2 &=& \{(a,\alpha) : 1/6 \le a \le 1, 2 \le \alpha \le 3 \}\\ 
+{\tilde R}_3 &=& \{(a,\alpha) : 1/10 \le a \le 1, 3 \le \alpha < \infty \}
+\end{eqnarray*} 
+\noindent each belong to $A_2$. More explicitly, Campbell showed that the ``left-hand" edges of 
+${\tilde R}_1, {\tilde R}_2$ and ${\tilde R}_3$ belong to $A_2$. 
+
+Figure 2 summarizes the above containment conclusions which Campbell proved.  Note, the ``right-hand" edges of the rectanges $R_1, R_2, R_3$ were precisely the ``left-hand" edges of the rectangles ${\tilde R}_1, {\tilde R}_2$ and ${\tilde R}_3$.  Figure 3 summarizes both of the above containment geometries.
+
+
+Summarizing the above, Campbell proved that subordination $f \prec F$ for $F \in \cU_\alpha$ for $1.65 \le \alpha < \infty$ implies majorization $|f'(z)| \le |F'(z)|$ for $|z| \le m$.  
+
+\begin{figure}[t]\label{fig:3}
+$$\includegraphics[scale=.5,angle=-90]{rectangles} $$
+\caption{Rectangles for $\alpha \ge 1.65$}
+\end{figure}
+
+
+%\textbf{See Maplework sheet: implicit plots of curves c1 and c2.mws} 
+
+Campbell conjectured that subordination $f \prec F$ for $F \in \cU_\alpha$ for $1\le \alpha < 1.65$ implies majorization
+$|f'(z)| \le |F'(z)|$ for $|z| \le m$.  In \cite{BK}, this conjecture was verified for the case $\alpha = 1$.  For this case, the family $\cU_1$ consists of normalized convex functions.  The proof for the case $\alpha =1$ given in \cite{BK} depended heavily on the convexity of the superordinate function and was not extendable for $\alpha > 1$.  Thus, what remained was to verify Campbell's conjecture for the range $1 < \alpha < 1.65$.
+
+
+Campbell's arguments, as summarized above, imply, in fact, that for $(a,\alpha) \in A_1 \cup A_2$ that majorization holds even for $\alpha < 1.65$. Thus, to verify Campbell's conjecture what remained to be shown was that if $(a,\alpha)$ belongs to the parameter region $\{(a,\alpha) : 0 \le a \le 1, \alpha \ge 0 \}$ and if $(a,\alpha) \notin A_1 \cup A_2$, then subordination $f \prec F$ for $F \in \cU_\alpha$ implies majorization $|f'(z)| \le |F'(z)|$ for $|z| \le m$.  
+
+\section{Preliminary Step}
+
+The boundary curves defining the region $A_1 \cup A_2$ are given implicitly via the bivariate polynomials $p$ and $Q$, as described above, and are difficult to handle analytically.  The preliminary step to verifying Campbell's conjecture consists of identifying two explicit line segments $L_1$ and $L_2$ and analytically verifying that $L_1$ lies in $A_1$ and that $L_2$ lies in $A_2$. See Figure 4.  
+
+\begin{lemma}
+Case $A_1$. Let $A_1 = \{(a,\alpha) : p(a,\alpha) \le 1\}$ where $p$ is defined by (\ref{poly_p}).  
+Let ${\ds l_1(\alpha) = \frac{\alpha-1}{5}, 1 \le \alpha \le 1.65}$ and 
+$L_1 = \{(a,\alpha) : a = l_1(\alpha), 1 \le \alpha \le 1.65\}$.  Then, $L_1 \subset  A_1$. 
+
+Case $A_2$. Let $A_2 = \{(a,\alpha) : Q(a,\alpha) \ge 0\}$ where $Q$ is defined by (\ref{poly_Q}).  
+Let ${\ds l_2(\alpha) = \frac{4-2\alpha}{5} }$, ${\ds 1 \le \alpha \le 1.65}$ and 
+$L_2 = \{(a,\alpha) : a = l_2(\alpha), 1 \le \alpha \le 1.65\}$.  Then, $L_2 \subset A_2$.
+\end{lemma}
+
+\textbf{Proof} \emph{Case $A_1$}. For $1 \le \alpha \le 1.65$, define $k_1(\alpha) = p(l_1(\alpha),\alpha)$.  
+Then, we have
+$$
+{\ds k_1(\alpha) = \frac{((\alpha+1)(\frac{\alpha-1}{5})+1)\left ( \frac{4\alpha+6}{5\alpha}\right)^{\alpha}}{\frac{6\alpha+4}{5}} }
+$$
+
+\noindent As a first step, to assure that our arguments will require only finite arithmetic with no numerical approximations, thus justifying our use of Sturm sequence arguments, we will make estmates with rational functions whose coefficients are integers.  We will show for $1 \le \alpha \le 1.65$, that 
+
+\begin{equation} \label {ineq_p2}
+\left (\frac{4\alpha+6}{5\alpha} \right )^{\alpha} \le p_2(\alpha)
+\end{equation}
+
+\noindent where 
+${\ds p_2(\alpha) = 2 + \frac{1}{5}(\alpha-1) - \frac{1}{5}(\alpha-1)^2}$.  Then, we will have for $1 \le \alpha \le 1.65$ 
+
+$$
+k_1(\alpha) \le k_2(\alpha) = \frac{((\alpha+1)(\frac{\alpha-1}{5})+1)p_2(\alpha) }{\frac{6\alpha+4}{5}} = \frac{n_2(\alpha)}{d_2(\alpha)}.
+$$
+However, $k_2(\alpha)$ is rational in $\alpha$. A straightforward rearrangement shows that 
+$d_2(\alpha) - n_2(\alpha) = (\alpha-1)(\alpha-2)(\alpha^2-6) \ge 0$.  
+
+To verify (\ref{ineq_p2}), we will show 
+that 
+
+$$ 
+f_2(\alpha) = \log p_2(\alpha) - \alpha \log \frac{4\alpha+6}{5\alpha}  \ge 0
+$$
+
+\noindent However, 
+
+$$
+f'_2(\alpha) = \frac{7\alpha^2-9\alpha-33}{(\alpha^2-3\alpha-8)(2\alpha+3)}  - \log \frac{4\alpha+6}{5\alpha}
+$$
+
+\noindent We will show for $1 \le \alpha \le 1.65$ that
+
+\begin{equation} \label{ineq_p3}
+\log \frac{4\alpha+6}{5\alpha} \le p_3(\alpha)
+\end{equation}
+
+\noindent where
+${\ds p_3(\alpha) = \frac{695}{1000} - \frac{52}{100}(\alpha-1) + \frac{1}{5}(\alpha-1)^2}$.
+
+\noindent Hence, 
+
+$$
+f'_2(\alpha) \ge g(\alpha) = \frac{7\alpha^2-9\alpha-33}{(\alpha^2-3\alpha-8)(2\alpha+3)}  - p_3(\alpha)
+$$
+
+\noindent However, a Sturm sequence argument, using only finite arithmetic (see \cite{Ja}), shows for $1 \le \alpha \le 1.65$ that $g(\alpha) \ge 0$.  
+
+Finally, to verify (\ref{ineq_p3}), we note that if we let ${\ds p_4(\alpha) = p_3(\alpha) - \log \frac{4\alpha+6}{5\alpha}}$, then
+a Sturm sequence argument shows that, $p'_4(\alpha) \ge 0$ and a calculation shows that $p_4(1) > 0$.
+
+\emph{Case $A_2$}. For $1 \le \alpha \le 1.65$, define $j_1(\alpha) = Q(l_2(\alpha),\alpha)$.  Then, 
+
+$$
+j_1(\alpha) = -\frac{4}{25}\alpha^5 -\frac{12}{25}\alpha^4 +\frac{2}{25}\alpha^3 
++\frac{12}{5}\alpha^2 +\frac{7}{5}\alpha -\frac{81}{25}.
+$$ 
+
+\noindent A Sturm sequence argument shows that $j_1(\alpha) \ge 0$. $\Box$
+
+\vspace{0.2in}
+
+%\textbf{See Maplework sheet: verify that L1 subset of A1 and L2 subset of A2.mws}
+
+%\textbf{See Maplework sheet: implicit plots of curves c1 and c2.mws}
+
+Campbell's arguments imply for $(a,\alpha)$ to the ``left" of $L_1$ or for $(a,\alpha)$ to the ``right" of $L_2$, that
+subordination $f \prec F$ for  $F \in \cU_\alpha$ implies $|f'(z)| \le |F'(z)|$ for $|z| \le m$.
+Let $T$ be the critical trapezoid (see Figure 4) given by
+
+\begin{equation} \label{trapezoid}
+T = \{ (a,\alpha) : l_1(\alpha) \le a \le l_2(\alpha), 1 \le \alpha \le 1.65 \}.
+\end{equation}
+
+\begin{figure}[t]\label{fig:4}
+$$\includegraphics[scale=.5,angle=-90]{trapezoid} $$
+\caption{Critical Trapezoid}
+\end{figure}
+
+\vspace{0.05in}
+
+\noindent We will now prove 
+
+\vspace{0.05in}
+
+Theorem 1. \emph{ Let $(a,\alpha)$ belong to the critical trapezoid $T$ given by (\ref{trapezoid}). Let $F$ be locally univalent of order $\alpha$.  Then, if $f$ is subordinate to $F$ on 
+$\D$, then $f'$ is majorized by $F'$ on $\{ z : |z| < m(\alpha) \}$ where 
+$m(\alpha) = \alpha +1 - \sqrt{\alpha^2+2\alpha}$.  More specifically, for $|z| < m(\alpha)$
+\begin{equation} \label{fund-new}
+\left | \frac{f'(z)}{F'(z)}\right | \le  \max_{(a,\alpha)\in T}{\cal G}(c,x,a) \cdot \max_{(a,\alpha)\in T}{\cal H}(c,x,a) \le 1
+\end{equation} } 
+
+\noindent Theorem 1, combined with the above observations about Campbell's original arguments, implies Campbell's conjecture.  
+
+\newpage
+
+The proof of Theorem 1 consists of four steps
+
+\begin{itemize}
+	\item Step 1.  Constructing a rational function upper bound estimate  for ${\ds G(c,x,a)}$.
+	\item Step 2.  Using the estimate for ${\ds G(c,x,a)}$ from Step 1, constructing a rational function upper bound estimate  for ${\ds {\cal G}(c,x,a)}$.
+	\item Step 3.  Constructing a rational function upper bound estimate  for ${\ds {\cal H}(c,x,a)}$.
+	\item Step 4.  Using the estimates for ${\ds {\cal G}(c,x,a)}$ and ${\ds {\cal H}(c,x,a)}$ from Step 2 and Step 3, verifing that the right-hand inequality in (\ref{fund-new}) holds.
+\end{itemize}
+
+
+\section{Step 1}
+
+For $(a,\alpha) \in T$ and $c = re^{i\theta}, 0 \le r \le x \le m$, we will construct a rational function upper bound estimate for ${\ds G(c,x,a)}$; specifically, we will show that ${\ds G(c,x,a) \le \frac{6-\alpha}{6+9\alpha}}$. 
+
+Recall that ${\ds G(c,x,a) = \frac{x(1-a)|1-c|}{|1+ac-x^2(a+c)|}}$.   
+First, we will show that ${ G}(c,x,a) \le { G}(-r,x,a)$, i.e., that ${ G}(c,x,a)$, as a function of the first argument, maximizes at $c = -r$.  
+It suffices to show that ${\ds G_1 = \frac{|1-c|^2}{|1+ac-x^2(a+c)|^2}}$ maximizes at $c = -r$.  
+Rewriting, we have 
+$$
+G_1 = \frac{1-2r\cos\theta + r^2}{(1-ax^2)^2 + 2(1-ax^2)(a-x^2)r\cos\theta + (a-x^2)^2r^2} = \frac{\mu_1 + \nu_1 \cos\theta}{\sigma_1 + \tau_1 \cos \theta}.
+$$
+Hence, 
+$$
+\frac{\partial G_1}{\partial \theta} = \frac{\mu_1\tau_1 - \nu_1\sigma_1}{(\sigma_1 + \tau_1 \cos\theta)^2}(\sin\theta).
+$$
+Rewriting, we have
+$$
+\mu_1\tau_1 - \nu_1\sigma_1 = 2r(1+a)(1-x^2)[1-ax^2 + (a-x^2)r^2]
+$$
+If $a \ge x^2$, then clearly $\mu_1\tau_1 - \nu_1\sigma_1 \ge 0$.  On the other hand, if $a < x^2$, then
+\begin{eqnarray*}
+\mu_1\tau_1 - \nu_1\sigma_1 &=& 2r(1+a)(1-x^2)[1-ax^2 + (a-x^2)r^2] \\
+                    &\ge& 2r(1+a)(1-x^2)[1-ax^2 + (a-x^2)1] \\
+                    &=& 2r (1+a)^2(1-x^2)^2 \\
+                    &\ge& 0
+\end{eqnarray*}
+\vspace{0.05in}
+Similarly, by taking derivatives it follows that ${ G}(-r,x,a)$, ${ G}(-x,x,a)$ and ${ G}(-m,m,a)$ are increasing in $r$, increasing in $x$ and decreasing in $a$, resp.
+
+\vspace{0.05in}
+
+Thus, on $T$ we have ${ G}(c,x,a) \le { G}(-m,m,l_1(\alpha))$.  It is a straightforward calculation, using the relationship that $1 + m^2 = 2(\alpha+1)m$, that 
+${\ds {G}(-m,m,l_1(\alpha))= \frac{6-\alpha}{6+9\alpha}}$.  
+
+
+\section{Step 2}
+
+For $(a,\alpha) \in T$ and $c = re^{i\theta}, 0 \le r \le x \le m$, we will construct a rational function upper bound estimate for ${\ds {\cal G}(c,x,a)}$.  
+
+Recall that ${\ds {\cal G}(c,x,a) = \left ( \frac{1+G(c,x,a)}{1-G(c,x,a)} \right ) ^{\alpha-1}}$. 
+It is easily verified, for $\alpha \ge 1$, that 
+${\ds g(y) = \left ( \frac{1+y}{1-y} \right ) ^{\alpha-1}}$  is an non-decreasing function of $y$. 
+In Step 1, we showed for $(a,\alpha) \in T$ that ${\ds G(c,x,a) \le \frac{6-\alpha}{6+9\alpha}}$.
+
+Again, to assure that our arguments will require only finite arithmetic with no numerical approximations, we will make estmates with rational functions whose coefficients are integers. Let ${\ds l(y) = 1 +\frac{21}{10}(\alpha-1)(1+\frac{\alpha-1}{4})y}$. We will show that ${\ds g(\frac{6-\alpha}{6+9\alpha}) \le l(\frac{6-\alpha}{6+9\alpha})}$.  Hence, on $T$ we will have that ${\ds {\cal G}(c,x,a) \le l(\frac{6-\alpha}{6+9\alpha}})$.
+
+Let ${\ds h(\alpha) = l(\frac{6-\alpha}{6+9\alpha}) - g(\frac{6-\alpha}{6+9\alpha}) }$.  We can rewrite $h$ as 
+${\ds h(\alpha) = \frac{n(\alpha)}{40(2+3\alpha)} }$ where
+$$
+n(\alpha) = -46 + 225\alpha + 28\alpha^2 - 7\alpha^3 -40(2+3\alpha)\left( \frac{2(3+2\alpha)}{5\alpha} \right)^{\alpha-1}.
+$$
+We will show explicitly for $1 \le \alpha \le 1.65$ that $n$ is an non-negative increasing function of $\alpha$.
+Let ${\ds \beta = \left( \frac{2(3+2\alpha)}{5\alpha} \right)^{\alpha-1} }$ and ${\ds \gamma = \log \frac{2(3+2\alpha)}{5\alpha} }$.  Then, we can write
+$$
+n'(\alpha) = \frac{n_1(\alpha)}{\alpha(3+2\alpha)} =\frac{A_0  + \beta(B_0  +\gamma C_0)}{\alpha(3+2\alpha)}
+$$
+where
+\begin{eqnarray*}
+A_0 &=& 675\alpha + 618\alpha^2 +49\alpha^3 -42\alpha^4 \ge 0\\
+B_0 &=& -240 -480\alpha+120\alpha^2 \le 0\\
+C_0 &=& -240\alpha-520\alpha^2-240\alpha^3 \le 0.
+\end{eqnarray*}
+It is sufficient to show that $n_1$ is non-negative.
+
+In a separate lemma, in the appendix, we will show for $1 \le \alpha \le 1.65$ the following upper bounds for $\beta$ and $\gamma$ hold
+\begin{eqnarray} \label{bnd_beta}
+\beta &\le& \beta_1 = 1+\frac{694}{1000}(\alpha-1)-\frac{361}{1000}(\alpha-1)^2+\frac{69}{1000}(\alpha-1)^3 \\ \label{bnd_gamma}
+\gamma &\le& \gamma_1 = \frac{6932}{10000}-\frac{5992}{10000}(\alpha-1)+\frac{42}{100}(\alpha-1)^2-\frac{2795}{10000}(\alpha-1)^3 \\ \nonumber
+&+&\frac{111}{1000}(\alpha-1)^4
+\end{eqnarray}
+Using the upper bounds for $\beta$ and $\gamma$ in (\ref{bnd_beta}) and (\ref{bnd_gamma}), we have
+$$
+n_1(\alpha) \ge n_2(\alpha) = A_0 + \beta_1(B_0 + \gamma_1 C_0)
+$$
+However, a Sturm sequence argument shows for $1 \le \alpha \le 1.65$ that $n_2(\alpha) \ge 0$.
+
+\vspace{0.05in}
+
+\section{Step 3}
+
+For $(a,\alpha) \in T$ and $c = re^{i\theta}, 0 \le r \le x \le m$, we will construct a rational function upper bound estimate for ${\ds {\cal H}(c,x,a)}$.  
+
+The construction of the upper bound for ${\ds {\cal H}(c,x,a)}$ in Step 3 consists of five separate substeps.
+
+\begin{itemize}
+	\item Substep 3-1.  For fixed $(a,\alpha)$ and fixed $x$, ${\ds {\cal H}(c,x,a)}$ is a function of $c = re^{i\theta}$ where $0 \le r \le x$ and $0 \le \theta \le \pi$.  We show that any maximal value of ${\ds {\cal H}(c,x,a)}$ must occur on the boundary of the region of variability for $c$.
+	\item Substep 3-2.  For fixed $(a,\alpha)$ and $x$, we show that on the boundary of the region of variability for $c$, the maximal value of ${\ds {\cal H}(c,x,a)}$ must occur on the portion of the boundary of variability for $c$ where $r = x$.
+	\item Substep 3-3.  For fixed $(a,\alpha)$ and for $c = xe^{i\theta}$, ${\ds {\cal H}(c,x,a)}$ is a function of $(x,\theta)$ where $0 \le x \le m$ and $0 \le \theta \le \pi$. We show that any maximal value of ${\ds {\cal H}(c,x,a)}$ must occur on the boundary of the region of variability for $(x,\theta)$.
+	\item Substep 3-4.  For fixed $(a,\alpha)$ and for $c = xe^{i\theta}$, we show that on the boundary of the region of variability for $(x,\theta)$, the maximal value of ${\ds {\cal H}(c,x,a)}$ must occur on the portion of the boundary of variability for $(x,\theta)$ where $x = m$.  
+	\item Substep 3-5.  We then construct a rational function upper bound estimate for \linebreak ${\ds {\cal H}(me^{i\theta},m,a)}$.
+\end{itemize}
+ 
+To simplify notation, we will write ${\ds {\cal H}(c,x,a) = (1-x^2)\frac{C(c,x,a)}{[B(c,x,a)]^2} }$ where
+\begin{eqnarray*}
+C(c,x,a) &=& |a+2c+ac^2|(1-x^2) + (x^2-r^2)(1-a^2) \\
+B(c,x,a) &=& |1+ac-x^2(a+c)|-x(1-a)|1-c| \\
+\end{eqnarray*}
+\subsection{Substep 3-1} 
+Let $(a,\alpha) \in T$ be fixed and let $x \le m$ be fixed.  For $c = re^{i\theta}$, we first show that ${\cal H}(c,x,a)$ does not have a local extreme value on the open 
+set $O_r = \{(r,\theta) : 0 < r < x, 0 < \theta < \pi \}$.  
+
+Since $a, x$ are fixed and the only variable parameter is $c = re^{i\theta}$, we will write, in Substep 3-1, ${\cal H}(r,\theta) \equiv {\cal H}(c,x,a), {B}(r,\theta) \equiv {B}(c,x,a)$, etc. Specifically, if ${\cal H}(r,\theta)$ had a local extreme value, say at $(r,\theta)$, then
+we would have 
+\begin{eqnarray} \label{partial_r_theta}
+\frac{\partial {\cal H}}{\partial r}{(r,\theta)} &=& 0 \\ \nonumber
+\frac{\partial {\cal H}}{\partial \theta}{(r,\theta)} &=& 0
+\end{eqnarray}
+However, (\ref{partial_r_theta}) implies that 
+\begin{eqnarray*} 
+B(r,\theta)\frac{\partial {C}}{\partial r}{(r,\theta)} - 2C(r,\theta)\frac{\partial {B}}{\partial r}{(r,\theta)}&=& 0 \\ \nonumber
+B(r,\theta)\frac{\partial {C}}{\partial \theta}{(r,\theta)} - 2C(r,\theta)\frac{\partial {B}}{\partial \theta}{(r,\theta)}&=& 0 
+\end{eqnarray*}
+which in turn implies that 
+\begin{equation} \label{det-r}
+\Delta_r = \left |
+\begin{array}{ll}
+\frac{\partial {C}}{\partial r}{(r,\theta)} & \frac{\partial {B}}{\partial r}{(r,\theta)} \\
+& \\
+\frac{\partial {C}}{\partial \theta}{(r,\theta)} & \frac{\partial {B}}{\partial \theta}{(r,\theta)} \\
+\end{array}
+\right | = 0
+\end{equation}
+We will show that the determinant in (\ref{det-r}) is, however, non-zero.  Specifically, computing we have
+$$
+\Delta_r = 2 r^2 \sin \theta (1-a^2) \frac{N_r}{D_r} 
+$$
+where
+\begin{eqnarray*}
+N_r &=& (p_r + q_r X) + (P_r + Q_r X)G \\
+D_r &=& |1-c| X \\
+X   &=& |a + 2c + ac^2|
+\end{eqnarray*}
+and $p_r, q_r, P_r$ and $Q_r$ are polynomials, with rational coefficients, in $r, \cos \theta, x$ and $a$, and $G = G(c,x,a)$.
+
+It suffices to show that $N_r$ is negative. Since $N_r$ is linear in $G$ and, from Step 1, we have that 
+${\ds 0 \le G \le \frac{6-\alpha}{6+9\alpha} }$, then $ng0 \le N_r \le ng1$
+where
+\begin{eqnarray*}
+ng0 &=& (p_r + q_r  X) + (P_r + Q_r X)0 \\
+ng1 &=& (p_r + q_r  X) + (P_r + Q_r X)\frac{6-\alpha}{6+9\alpha} \\
+\end{eqnarray*}
+Further, since $ng0$ and $ng1$ are each linear in $X$ and $0 \le X \le a + 2x + ax^2$, then we have
+$ng00 \le ng0 \le ng01$ and $ng10 \le ng1 \le ng11$
+where
+\begin{eqnarray*}
+ng00 &=& (p_r + q_r 0) + (P_r + Q_r 0)0  = p_r\\
+ng01 &=& (p_r + q_r (a + 2x + ax^2)) + (P_r + Q_r (a + 2x + ax^2))0  = p_r + q_r (a + 2x + ax^2)) \\
+ng10 &=& (p_r + q_r 0) + (P_r + Q_r 0)\frac{6-\alpha}{6+9\alpha} = p_r + P_r\frac{6-\alpha}{6+9\alpha} \\
+ng11 &=& (p_r + q_r (a + 2x + ax^2)) + (P_r + Q_r (a + 2x + ax^2))\frac{6-\alpha}{6+9\alpha} \\
+\end{eqnarray*}
+In a lengthy, finite arithmetic/integer argument, using exact calcluations, in the Maple worksheet 
+{\em campbell-maple-substep1.mws}\footnote{The complete url for each of the Maple worksheets referenced in the five substeps of this section is  
+{\em http://www.math.ttu.edu/$\sim$pearce/papers/filname}.}, we explicitly verify that each of the factors \linebreak $ng00, ng01, ng10, ng11$ are negative.
+
+\vspace{0.05in}
+
+\subsection{Substep 3-2} Since ${\cal H}(c,x,a)$ does not have a local extreme value on the open 
+set $O_r = \{(r,\theta) : 0 < r < x, 0 < \theta < \pi \}$, then any extreme value of ${\cal H}(c,x,a)$ must occur on either 
+
+\vspace{0.05in}
+
+2a) the set $E(r)^{+}= \{(r,0) : 0 \le r \le x \}$
+
+2b) the set $E(r)^{-} =\{(-r,0) : 0 \le r \le x \}$
+
+2c) the set $E(x,\theta) = \{(x,\theta) : 0 \le \theta \le \pi \}$
+
+\vspace{0.05in}
+
+A straightforward calculus argument shows that on the boundary of the set $O_r$ 
+the maximum value of ${\cal H}(c,x,a)$ must occur on on the set $E(x,\theta)$. 
+Formal details of that argument are given in the Maple worksheets {\em campbell-maple-substep2a.mws, 
+campbell-maple-substep2b.mws}.
+
+\vspace{0.05in}
+
+\subsection{Substep 3-3} Consider the set $E(x,\theta)$.  Let $(a,\alpha) \in T$ be fixed.  
+For $c = xe^{i\theta}$ we will show that ${\cal H}(c,x,a)$ does not have a local extreme 
+value on the open set $O_x = \{(x,\theta) : 0 < x < m, 0 < \theta < \pi \}$.  
+
+
+Since $a$ is fixed and the only variable parameters are $x$ and $\theta$, we will write, in Substep 3-3, ${\cal H}(x,\theta) \equiv {\cal H}(xe^{i\theta},x,a), {B}(r,\theta) \equiv {B}(xe^{i\theta},x,a)$, etc. Specifically, if ${\cal H}(c,x,a)$ had a local extreme value, say at $(x,\theta)$, then
+we would have 
+\begin{eqnarray} \label{partial_x_theta}
+\frac{\partial {\cal H}}{\partial x}{(x,\theta)} &=& 0 \\ \nonumber
+\frac{\partial {\cal H}}{\partial \theta}{(x,\theta)} &=& 0
+\end{eqnarray}
+However, (\ref{partial_x_theta}) implies that 
+\begin{eqnarray*} 
+B(x,\theta)\frac{\partial {C}}{\partial x}{(x,\theta)} - 2C(x,\theta)\frac{\partial {B}}{\partial x}{(x,\theta)}&=& 0 \\ \nonumber
+B(x,\theta)\frac{\partial {C}}{\partial \theta}{(x,\theta)} - 2C(x,\theta)\frac{\partial {B}}{\partial \theta}{(x,\theta)}&=& 0 
+\end{eqnarray*}
+which in turn implies that 
+\begin{equation} \label{det-x}
+\Delta_x = 
+\left |
+\begin{array}{ll}
+\frac{\partial {C}}{\partial x}{(x,\theta)} & \frac{\partial {B}}{\partial x}{(x,\theta)} \\
+& \\
+\frac{\partial {C}}{\partial \theta}{(x,\theta)} & \frac{\partial {B}}{\partial \theta}{(x,\theta)} \\
+\end{array}
+\right | = 0
+\end{equation}
+\vspace{0.05in}
+We will show that the determinant in (\ref{det-x}) is, however, non-zero.  Specifically, computing we have
+$$
+\Delta_x = 2 x \sin \theta (1-x^2) \frac{N_x}{D_x} 
+$$
+where $N_x = P_x + Q_x G, D_x = |1-c| |a+2c+ac^2|$
+and $P_x, Q_x$ are polynomials, with rational coefficients, in $r, \cos \theta, x$ and $a$, and $G = G(c,x,a)$.
+
+It suffices to show that $N_x$ is negative. Since $N_x$ is linear in $G$ and, from Step 1, we have that 
+${\ds 0 \le G \le \frac{6-\alpha}{6+9\alpha} }$, then $nG0 \le N_r \le nG1$
+where
+\begin{eqnarray*}
+nG0 &=& P_x + Q_x 0  = P_x\\
+nG1 &=& P_x + Q_x \frac{6-\alpha}{6+9\alpha} \\
+\end{eqnarray*}
+In a lengthy, finite arithmetic/integer argument, using exact calcluations, in the Maple worksheet 
+{\em campbell-maple-substep3.mws}, we explicitly verify that each of the factors \linebreak $nG0, nG1$ are negative.
+
+\subsection{Substep 3-4} 
+Since ${\cal H}(c,x,a)$ does not have a local extreme value on the open 
+set $O_x = \{(x,\theta) : 0 < x < m, 0 < \theta < \pi \}$, then any extreme value of ${\cal H}(c,x,a)$ must occur on either 
+
+\vspace{0.05in}
+
+4a) the set $E(x)^{+} = \{(x,0) : 0 \le x \le m \}$
+
+4b) the set $E(x)^{-} =\{(-x,0) : 0 \le x \le m \}$
+
+4c) the set $E(m,\theta) = \{(m,\theta) : 0 \le \theta \le \pi \}$
+
+\vspace{0.05in}
+
+A straightforward calculus argument shows that on the boundary of the set $O_x$ 
+the maximum value of ${\cal H}(c,x,a)$ must occur on on the set $E(m,\theta)$. 
+Formal details of that argument are given in the Maple worksheets 
+{\em campbell-maple-substep4a.mws, campbell-maple-substep4b.mws}.
+
+\subsection{Substep 3-5}
+Finally, consider the set $E(m,\theta) = \{(m,\theta) : 0 \le \theta \le \pi \}$. 
+Let $(a,\alpha) \in T$ and let  
+\begin{equation} \label{last}
+h_3(\alpha) = 1 - \frac{4}{5}(\alpha-1) + \frac{13}{10}(\alpha-1)^2 - \frac{13}{10}(\alpha-1)^3 .
+\end{equation}  
+%We note that $h_3(\alpha)$ is an upper bound for the sharp bounds on ${\cal H}(c,x,a)$ on the sets $E_1$ and $E_2$ given in  (\ref{explicit}). 
+In a lengthy, finite arithmetic/integer argument, using exact calcluations, in the Maple worksheet 
+{\em campbell-maple-substep5.mws}, we explicitly verify the inequality that 
+$${\cal H}(me^{i\theta},m,a) \le h_3(\alpha) .$$
+
+\vspace{0.05in}
+
+We note here that in the appendix we state three specific lemmas, which give finite arithmetic/integer arguments for establishing the validity of certain multivariate polynomial inequalities, which are tacitly used in this last substep to verify that $h_3(\alpha)$ is an upper bound for ${\cal H}(me^{i\theta},m,a)$ on the set $E(m,\theta)$.
+
+\section{Step 4}
+
+Using the estimates for ${\ds G(c,x,a)}$ and ${\ds {\cal H}(c,x,a)}$ from Step 2 and Step 3, we will now show that 
+\begin{equation} \label{fund-new1}
+\max_{(a,\alpha)\in T}{\cal G}(c,x,a) \cdot \max_{(a,\alpha)\in T}{\cal H}(c,x,a) \le 1
+\end{equation}
+
+Recall in Step 1 and Step 2, we showed that 
+$$
+{\cal G}(c,x,a) \le l(\frac{6-\alpha}{6+9\alpha}) = g_3(\alpha) =
+1 + \frac{21}{10}(\alpha-1)(1 + \frac{\alpha-1}{4})\frac{6-\alpha}{6+9\alpha}.
+$$
+Further, in Step 3 we showed 
+$$
+{\cal H}(c,x,a) \le h_3(\alpha) =  1 - \frac{4}{5}(\alpha-1) + \frac{13}{10}(\alpha-1)^2 - \frac{13}{10}(\alpha-1)^3.
+$$  
+It remains to show for $1 \le \alpha \le 1.65$ that $g_3(\alpha)\cdot h_3(\alpha) \le 1$.  It is sufficient to show
+that $k_3(\alpha) \ge 0$ where 
+\begin{eqnarray*}
+k_3(\alpha) &=& 400(6+9\alpha)(1-g_3(\alpha)\cdot h_3(\alpha)) \\
+            &=& 8472-36174\alpha+52755\alpha^2-29838\alpha^3+2874\alpha^4+2184\alpha^5-273\alpha^6
+\end{eqnarray*}
+However, a Sturm sequence argument verifies that $k_3(\alpha) \ge 0$.
+
+\section{Appendix}
+
+We give here for $1 \le \alpha \le 1.65$ the technical lemma which verifies the upper bounds given in Step 2 for $\beta$ and $\gamma$:
+
+\begin{lemma} Let $1 \le \alpha \le 1.65$. Let ${\ds \beta = \left( \frac{2(3+2\alpha)}{5\alpha} \right)^{\alpha-1} }$ and ${\ds \gamma = \log \frac{2(3+2\alpha)}{5\alpha} }$.  Then,
+\begin{eqnarray*} 
+\beta &\le& \beta_1 = 1+\frac{694}{1000}(\alpha-1)-\frac{361}{1000}(\alpha-1)^2+\frac{69}{1000}(\alpha-1)^3 \\ 
+\gamma &\le& \gamma_1 = \frac{6932}{10000}-\frac{5992}{10000}(\alpha-1)+\frac{42}{100}(\alpha-1)^2-\frac{2795}{10000}(\alpha-1)^3 \\ \nonumber
+&+&\frac{111}{1000}(\alpha-1)^4
+\end{eqnarray*} 
+\end{lemma}
+
+\textbf{Proof} \emph{Case $\gamma$}. We will show that $\gamma_2 = \gamma_1 - \gamma$ is a non-negative increasing function.  We have
+\begin{eqnarray*}
+\frac{d \gamma_2(\alpha)}{d\alpha} &=& \frac{N_1(\alpha)}{10000\alpha(3+2\alpha)} \\ 
+      &=& \frac{30000-81651\alpha+61036\alpha^2+11865\alpha^3-30090\alpha^4+8880\alpha^5}{10000\alpha(3+2\alpha)}
+\end{eqnarray*}
+A Sturm sequence argument shows that $N_1$ is non-negative.
+
+\vspace{0.05in}
+
+\emph{Case $\beta$}. It suffices to show that $\beta_2 = \log \beta_1 - \log \beta \ge 0$.  We will show for $1 \le \alpha \le 1.65$ 
+that $\beta_2$ is a non-negative increasing function of $\alpha$.  
+We have 
+\begin{eqnarray} \label{denom_beta}
+\frac{d \beta_2(\alpha)}{d\alpha} &=& \frac{N_2(\alpha)}{\alpha((-124+1623\alpha-568\alpha^2+69\alpha^3))(3+2\alpha)}
+\end{eqnarray}
+where
+\begin{eqnarray*} 
+N_2(\alpha) &=& 372-372\alpha+6411\alpha^2-3562\alpha^3+621\alpha^4 \\
+            &+& (372\alpha-4621\alpha^2-1542\alpha^3+929\alpha^4-138\alpha^5)\gamma
+\end{eqnarray*}
+A Sturm sequence argument shows for $1 \le \alpha \le 1.65$ that the denominator of (\ref{denom_beta}) is positive.  
+We have then, since $\gamma \le \gamma_1$ that $N_2(\alpha) \ge N_3(\alpha)$ where
+\begin{eqnarray*} 
+N_3(\alpha) &=& 372-372\alpha+6411\alpha^2-3562\alpha^3+621\alpha^4 \\
+            &+& (372\alpha-4621\alpha^2-1542\alpha^3+929\alpha^4-138\alpha^5)\gamma_1
+\end{eqnarray*}
+A Sturm sequence argument shows for $1 \le \alpha \le 1.65$ that $N_3(\alpha) \ge 0$. $\Box$
+
+\vspace{0.05in}
+
+We state here three specific lemmas, which give finite arithmetic/integer arguments for establishing the validity of certain multivariate polynomial inequalities, which are tacitly used in the last substep of Step 3 to verify that $h_3(\alpha)$ is an upper bound for ${\cal H}(me^{i\theta},m,a)$ on the set $E(m,\theta)$.
+
+\begin{lemma}  \label{lem:poly3}
+Let $p = p(x_1,x_2,x_3)$ be a polynomial with rational coefficients defined on the region 
+$R = \{ (x_1,x_2,x_3) : a_1 \le x_1 \le b_1,\ \ a_2 \le x_2 \le b_2,\ \ a_3 \le x_3 \le b_3\}$, where $a_j,\ b_j$ are 
+all rational numbers. Let $M$ be an upper bound for  ${\ds |\frac{\partial p}{\partial x_j}(x_1,x_2,x_3)|}$ on $R$, $1 \le j \le 3$.   
+Let $\delta > 0 $ and suppose $N_1, N_2, N_3$ are chosen so that
+$\Delta_j = (b_j-a_j)/N_j \le \delta$, $1 \le j \le 3$.  Let $L$ be the lattice
+$L = L(N_1,N_2,N_3) = \{ (a_1 + i\Delta_1,a_2 + j\Delta_2,a_3 + k\Delta_3)\  :\  0 \le i \le N_1,\ \   0 \le j \le N_2,
+\ \  0 \le k \le N_3\}$.
+Let 
+$$m = \min_{(x_1,x_2,x_2) \in L} p(x_1,x_2,x_3) . $$  
+If $m \ge \frac{3}{2}M\delta$, then $p(x_1,x_2,x_3) \ge 0$ on $R$.
+\end{lemma}
+\textbf{Proof}
+Let $(x_1,x_2,x_3) \in R$.  Then, there exists $(x_1^0,x_2^0,x_3^0) \in L$ such that 
+$${\ds {\rm dist}( (x_1^0,x_2^0,x_3^00),(x_1,x_2,x_3) ) \le \frac{\sqrt{3}}{2}\delta}$$.  
+Without loss of generality we can suppose that 
+$x_1 \ge x_1^0, x_2 \ge x_2^0, x_3 \ge x_3^0$.
+Define 
+$$p(t) = p_{\theta,\phi}(t) = p(x_1^0+t\cos(\theta)\sin(\phi),x_2^0+t\sin(\theta)\sin(\phi),x_3^0+t\cos(\phi))$$ 
+$0 < t \le \frac{\sqrt{3}}{2}\delta, 0 < \theta < \pi/2, 0 < \phi < \pi/2$.  Then, $\left | p'(t) \right | \le M\sqrt{3}$ for $0 \le t \le \frac{\sqrt{3}}{2}\delta$.
+Hence, $p(x_1,x_2,x_3) = p_{\theta,\phi}(t) \ge p_{\theta,\phi}(0) - M\sqrt{3}\, t = p(x_1^0,x_2^0,x_3^0) - M \sqrt{3}\ t \ge m - \frac{3}{2}M \delta \ge 0$. $\Box$
+
+\vspace{0.05in}
+
+\begin{lemma} \label{lem:est1}
+Let $p = p(x)$ be a polynomial with rational coefficients defined on the interval $R_1(d) = \{ x : 0 < x < d\}$ such
+that $p(0) = 0$.  Let $M_1 = p'(0) > 0$ and let $-N_1$ be a lower bound for $p''(x)$ on $R_1(d)$ where $N_1 \ge 0$.  Then, $p(x) > 0$ on $R_1(\delta_1)$ where $\delta_1 = \min\{\frac{2 M_1}{N_1},d\}$.
+\end{lemma}
+\textbf{Proof}
+The hypotheses imply, using Taylor's remainder theorem, that 
+
+\noindent ${\ds p(x) = M_1 x + p''(c)\frac{x^2}{2} }$ for some $c$ such that $0 < c < x$.  Hence, we have ${\ds \frac{p(x)}{x} > M_1 - \frac{N_1 x}{2} }$.  $\Box$.
+
+%Since $p'(0) = M_1$ and since $p''(x) \ge -N_1$ on $R_1(d)$, then $p'(x) > 0$ on $R_1(\delta)$.  Hence, $p$ is strictly %increasing on $R_1(\delta)$ which implies since $p(0) = 0$ that $p(x) > 0$ on $R_1(\delta)$.
+
+
+\begin{lemma} \label{lem:est3}
+Let $p = p(x_1,x_2,x_3)$ be a polynomial with rational coefficients defined on the region $R_3(d) = \{ (x_1,x_2,x_3) : 0 < x_1 < d\ , 0 < x_2 < d\ ,0 < x_3 < d\}$ such that $p(0,0,0) = 0$.  
+Let 
+$$M_3 = \min\{p_1(0,0,0), p_2(0,0,0), p_3(0,0,0)\} > 0$$
+where $p_j$ denotes the partial of $p$ with respect to $x_j, j = 1, 2, 3$.  
+Let $-N_3$ be a lower bound for $p_{ij}(x_1,x_2,x_3)$ on $R_3(d)$, $ 1 \le i,j \le 3$,  where $N_3 \ge 0$.  Then,
+$p(x_1,x_2,x_3) > 0$ on $R_3(\delta_3)$ where $\delta_3 = \min\{2 M_3/(3N_3),d\}$.
+\end{lemma}
+\textbf{Proof}
+Let $B_3(d) = \{(x_1,x_2,x_3) \in R_3(d) : ||(x,y,z)|| < d\}$.  Note that $R_3(d/\sqrt{3}) \subset B_3(d)$.  On $B_3(d)$ we can write 
+$$p(x_1,x_2,x_3) = p(t\cos(\theta)\sin(\phi),t\sin(\theta)\sin(\phi),t\cos(\phi)) = p_{\theta,\phi}(t) = p(t)$$ 
+where $0 < t < d, 0 < \theta < \pi/2, 0 < \phi < \pi/2$.  Apply Lemma \ref{lem:est1} to $p$ on $R_1(d)$ with $M_1 = M_3$ and $N_1 = \sqrt{3}N_3$. Consequently, $p(t) > 0$ on $R_1(\delta_1)$ where $\delta_1 = 2M_3/(\sqrt{3} N_3)$.  Hence, $p(x_1,x_2,x_3) > 0$ on $R_3(\delta_3/\sqrt{3})$. $\Box$
+
+\vspace{0.05in}
+
+
+%\bibliographystyle{amsplain} \bibliography{hc,roger,eqcp,dis}
+
+\def\cprime{$'$}
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+
+
+\begin{thebibliography}{10000}
+
+\bibitem{BK}
+Roger W. Barnard and Charles Kellogg, \emph{On Campbell's conjecture on the radius of majorization of functions subordinate to convex functions}, Rocky Mountain J. of Mathematics \textbf{14} (1984), 331-339. 
+
+\bibitem{DMC01}
+Douglas M. Campbell, \emph{Majorization-subordination theorems for locally univalent functions. I}, Bulletin
+  of the American Mathematical Society \textbf{78} (1972), 535-538. \MR{45:8817}.
+  
+\bibitem{DMC02}
+Douglas M. Campbell, \emph{Majorization-subordination theorems for locally univalent functions. II}, Canadian 
+  Journal of the American Mathematical Society \textbf{25} (1973), 420-425. 
+  
+\bibitem{DMC03}
+Douglas M. Campbell, \emph{Majorization-subordination theorems for locally univalent functions. III}, Transactions
+  of the American Mathematical Society \textbf{198} (1974), 297-306. 
+  
+\bibitem{Ja} N. Jacobson, 
+\textit{Basic Algebra. I.} Second Edition.  W. H. Freeman and Company, New York, 1985. % MR0780184 (86d:00001)
+
+\bibitem{McG} Thomas McGregor,
+\emph{Majorization by univalent functions}, Duke Math. J. \textbf{34} (1967), 95-102.
+
+\bibitem{Pom01}
+Christian Pommerenke, \emph{Linear-invariante Familien analytishcer Functionen. I}, Mathematische Annalen \textbf{155} 
+  (1964), 108-154. \MR{29:6007}.
+  
+\bibitem{TS} Tao Shah, \emph{Goluzin's number} $(3-\sqrt{5})/2$ \emph{is the radius of superiority in subordination},
+  Sci. Record \textbf{1} (1957), 219-222.
+  
+\end{thebibliography}
+
+
+\end{document}

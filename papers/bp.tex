@@ -1,0 +1,1176 @@
+\documentclass[12pt]{icgft}
+
+\textwidth144mm
+\textheight222mm
+\oddsidemargin7.5mm
+\topmargin-4mm
+\parskip4pt plus2pt minus2pt
+%\parindent0mm
+% cmft-author-package, version August 2003
+
+
+\pagespan{1}{?}
+\usepackage{amsmath,amssymb,amsfonts,graphics,epsfig,rotating,cite,rotating}
+
+\newcommand{\C}{\mathbb C}
+\newcommand{\D}{\mathbb D}
+\newcommand{\bdryD}{\partial \mathbb D}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Ub}{\mathbb U}
+\newcommand{\Lb}{\mathbb L}
+\newcommand{\HH}{\mathbb H}
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\K}{\mathcal K}
+\newcommand{\Kh}{\widetilde{\mathcal K}}
+\newcommand{\Dh}{\widetilde{D}}
+\newcommand{\Ph}{\widetilde{P}}
+\newcommand{\Sh}{\widetilde{S}}
+\newcommand{\Pt}{\widetilde{P}}
+\newcommand{\Tt}{\widetilde{T}}
+\newcommand{\tgamma}{\widetilde\gamma}
+\newcommand{\ft}{\widetilde f}
+\newcommand{\LL}{\mathcal L}
+\newcommand{\PP}{\mathcal P}
+\newcommand{\T}{\mathcal T}
+\newcommand{\CC}{\mathcal C}
+\newcommand{\hh}{\widehat h}
+\newcommand{\tp}{{\tau^\prime}}
+\newcommand{\tn}{{\tau_n}}
+\newcommand{\ti}{{\tau_\infty}}
+\newcommand{\Kp}{\mathcal K^\prime}
+\newcommand{\Kpt}{\mathcal \widetilde{K^\prime}}
+\newcommand{\Qt}{\widetilde Q}
+\newcommand{\ap}{\alpha^\prime}
+\newcommand{\tpn}{{\tau_n^\prime}}
+\newcommand{\tphi}{\widetilde \varphi}
+\newcommand{\abs}[1]{\lvert#1\rvert}
+\newcommand{\norm}[1]{\lvert\lvert#1\rvert\rvert}
+\newcommand{\Snf}{\norm{S_f}_\D}
+\newcommand{\PSL}{\text{PSL}}
+\newcommand{\z}{\zeta}
+\newcommand{\e}{\epsilon}
+\newcommand{\iG}{\int_{\gamma}}
+\newcommand{\G}{{\scriptscriptstyle{\Gamma}}}
+\newcommand{\ds}{\displaystyle}
+
+
+%\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{julia}{Julia Variational Formula}
+\newtheorem{thm}{Assertion}
+\newtheorem{step-down}{Step Down Lemma}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{notation}[theorem]{Notation}
+
+%\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{note}[theorem]{Note}
+
+\DeclareMathOperator{\m}{mod}
+\DeclareMathOperator{\im}{Im}
+\DeclareMathOperator{\re}{Re}
+\DeclareMathOperator{\Arg}{Arg}
+\DeclareMathOperator{\Log}{Log}
+\DeclareMathOperator{\interior}{int}
+
+
+\numberwithin{equation}{section}
+
+
+\begin{document}
+
+
+
+\title[The Verification of an Inequality]{The Verification of an Inequality}
+
+\date{\today}
+
+\author{Roger W. Barnard and Kent Pearce}
+
+\email{roger.w.barnard@ttu.edu}
+\email{kent.pearce@ttu.edu}
+
+\address{Department of Mathematics and Statistics \\
+Texas Tech University \\
+Lubbock, TX 79409--1042}
+
+
+
+
+
+\keywords{Hyperbolically Convex, Schwarzian Derivative}
+
+\subjclass{30C70}
+\thanks{The authors were partially supported by the National Science Foundation grant DMS-03040000.}
+
+%Insert `2000 Mathematics Subject Classification' numbers here!
+%\classno{30C70}
+
+\begin{abstract}
+In a recent paper, we verifed a conjecture of Mej\'ia and Pommerenke that
+the extremal value for the Schwarzian derivative of a hyperbolically convex
+function is realized by a symmetric hyperbolic ``strip'' mapping.  There were three
+major steps in the verification: first, a variational argument was given to reduce the problem to
+hyperbolic polygons bounded by at most two hyperbolic geodesics; second, a reduction was made to
+hyperbolic polygons bounded by exactly two symmetric hyperbolic geodesics; third, for hyperbolic
+polygons bounded by exactly two symmetric hyperbolic geodesics a computation was made, using properties of special functions, to find the maximal value of the Schwarzian derviative.
+
+In between the second and third steps, an assertion was made that ``using an extensive computational argument which considers several cases'' the problem of computing the Schwarzian derivative for hyperbolic polygons bounded by exactly two symmetric hyperbolic geodesics could be reduced to computing the Schwarzian derivative for hyperbolic polygons bounded by exactly two symmetric hyperbolic geodesics under the assumption that the argument $z$ of the Schwarzian derviative satisfied the restriction
+$0 \le z < 1$.  In this paper, we provide a verification for that assertion.
+
+\end{abstract}
+
+\maketitle
+
+
+%******************************************************************
+
+\section{Introduction}\label{S:intro}
+
+Hyperbolic convexity is a natural generalization of euclidean
+convexity; a region $G$ in the Poincar\'e model $\D$ of the hyperbolic
+plane  is  \textbf{hyperbolically convex} if for any
+two points in $G$, the hyperbolic geodesic segment between them lies entirely
+in $G$.  Such regions arise naturally  in Teichm\"uller theory, for example, since
+the fundamental domains of Fuchsian groups are hyperbolically convex~\cite{aB83,
+oL87}.
+
+A conformal map $f:\D\to\D$ is hyperbolically convex if
+its range is hyperbolically convex.
+Hyperbolically convex functions have been extensively studied  by Ma and
+Minda~\cite{MM94,MM99} and Mej\'ia and Pommerenke~\cite{PM00,MP00,MP01,MP02,MP00b},
+as well as Beardon~\cite{aB83} and Solynin~\cite{aS99,aS98},
+ among
+others.  One frequently cited open problem was to find
+for hyperbolically convex functions a sharp bound
+on the Schwarz norm
+\[
+\norm{S_f}_\D=\sup\{\abs{S_f(z)} \eta_\D^{-2}(z):\: z\in \D\},
+\]
+where $\eta_\D(z)=\frac{1}{1-\abs{z}^2}$
+ is the hyperbolic density of $\D$ and $S_f$ is the Schwarzian derivative
+\[
+S_f = \left(\frac{f^{\prime\prime}}{f^\prime}\right)^\prime -
+\frac{1}{2}\left(\frac{f^{\prime\prime}}{f^\prime}\right)^2.
+\]
+
+
+The Schwarz norm
+of an analytic function $f$ has long been a primary tool in understanding
+its geometric behavior.
+For example,
+$\norm{S_f}_\D =0$ if and only if $f$ is a M\"obius transformation.
+Thus $\norm{S_f}_\D$ is thought of as measuring how closely the geometric
+behavior of $f$ resembles that of a M\"obius transformation.
+Since the image of $\D$ under a M\"obius transformation must be a disc,
+$\norm{S_f}_\D$ also measures the difference between the conformal geometry
+of $f(\D)$ and that of a disc.  Lehto has used this idea to great effect,
+producing a pseudo-metric on the set of all simply connected proper
+subdomains of $\C$.
+See Lehto's book~\cite{oL87}, for example, for
+a detailed discussion.
+
+ Nehari showed that if $f(\D)$ is convex (in the euclidean sense),
+then $\norm{S_f}_\D\leq 2$, with equality if and only if $f(\D)$ is an
+``infinite strip'' bounded by two parallel lines~\cite{zN76}.
+Similarly, Mej\'ia and Pommerenke showed that the extremal domain for spherically
+convex functions is a ``spherical strip''~\cite{MP00b}.
+
+The problem of finding a similar bound for the Schwarz norm of hyperbolically
+convex functions has been intensely studied by a number of authors, including
+Ma,  Minda,  Mej\'ia,  Pommerenke and  Vasilev~\cite
+{MM94,MM99,MP00,MPV01,MP02,PM00}.  Mej\'ia and Pommerenke~\cite{PM00}
+found partial results on the bound and conjectured that the
+extremal value of $\norm{S_f}_\D$ is attained by a map of the form
+\begin{equation}  \label{E:tanh}
+f_\alpha (z)=\tan\left( \alpha\int_0^z \left(1-2\xi^2\cos 2\theta+\xi^4
+\right)^{-1/2}\,d\xi \right),
+\end{equation}
+where $\alpha = \frac{\pi}{2K(\cos \theta)}$,
+and $K$ is the elliptic integral of the first kind.
+The range of $f_\alpha$ is a ``hyperbolic strip''
+bounded by two geodesics through $\pm \tanh
+\left(\frac{\pi K(\sin\theta)}{4K(\cos\theta)}\right)$ and perpendicular
+to the real axis.
+See Figure~\ref{F:convex3}.
+
+
+\begin{figure}
+\begin{center}\scalebox{0.45}{
+\epsfig{file=convex3} }
+\caption{The extremal domains for maximizing the Schwarz norm in euclidean (left), spherical (center), and hyperbolic (right) geometry.}
+\label{F:convex3}
+\end{center}
+\end{figure}
+
+
+In \cite{BCPW}, we verified Mej\'ia and Pommerenke's conjecture and  completed
+the classification of the extremal domains for the Schwarzian in all
+three of the classical geometries.  Specifically, we proved
+
+
+\begin{theorem}
+The maximal value of the Schwarz norm for hyperbolically convex
+functions is $S_{f_\alpha}(0)$, where
+\[
+f_\alpha(z) =\tan\left( \alpha\int_0^z \left(1-2\xi^2\cos 2\theta+\xi^4
+\right)^{-1/2}\,d\xi \right),  \qquad \alpha  = \frac{\pi}{2K(\cos \theta)},
+\]
+$K$ is the elliptic integral of the first kind, and $\alpha$ is chosen
+so that $\cos \theta$ is the unique critical point of the function
+
+\begin{equation} \label{e:gs}
+g(s) = 4s^2-2 +\frac{\pi^2}{2K^2({s})}
+\end{equation}
+
+on $(0,1)$.
+\end{theorem}
+
+A computer calculation produces a  maximal value for the
+Schwarz norm for a hyperbolically convex
+function of approximately $2.383635$.
+%\begin{thm}
+%The maximal value of the Schwarz norm for a hyperbolically convex
+%function is approximately $2.383635$ and is achieved by the ``hyperbolic strip
+%map'' $f_\alpha$ with $\alpha\approx 0.5343598$.
+%\end{thm}
+
+%\newpage
+The proof of Theorem 1.1 in \cite{BCPW} can be summarized as follows.  The first step
+described a class of hyperbolic polygons which is dense in the class of all hyperbolically
+convex functions, to which the problem of computing the Schwarz norm could be reduced.
+The second step developed, using the Julia variational formula, two
+class preserving variations for the described class of hyperbolic polygons.
+The third step used the first of the developed variations to reduce the problem to computing the
+Schwarz norm for hyperbolic polygons bounded by at most four ``proper'' hyperbolic geodesics.
+The fourth step used the second of the developed variations to reduce the problem to computing the
+Schwarz norm for hyperbolic polygons bounded by at most two ``proper'' hyperbolic geodesics.
+The fifth step showed by explicit calculations that hyperbolic polygons bounded
+by exactly one side or by two intersecting sides could not be extremal, i.e.,
+the fifth step reduced the problem to computing the Schwar norm for hyperbolic polygons of the form
+$f_{\alpha}$ as given in equation (\ref{E:tanh}).
+The sixth step gave an argument, using properties of special functions, which showed that among the functions described by equation (\ref{E:tanh}) a unique extremal exists.
+
+In between steps five and six, an assertion in \cite{BCPW} was made that ``using an extensive computational  argument which considers several cases'' the problem of computing the Schwarzian derivative for hyperbolic polygons of the form $f_{\alpha}$ as given in equation (\ref{E:tanh}) could be reduced to computing the Schwarzian derivative for hyperbolic polygons of the form
+$f_{\alpha}$ as given in equation (\ref{E:tanh}) under the assumption that the argument $z$ of the Schwarzian derviative satisfied the restriction $0 \le z < 1$.  In this paper, we provide the details for the verification of that assertion.
+
+
+
+In Section~\ref{S:hypercon} we develop background material on
+hyperbolic convexity and the Schwarzian derivative and discuss more of
+the history of the problem.  In Section~\ref{S:verify} we provide the technical details for the
+verification of the assertion described above.
+
+
+\section{Hyperbolic Convexity and Schwarzians}\label{S:hypercon}
+
+\subsection{Hyperbolic Geometry}
+
+The unit disc $\D$ equipped with the metric
+\[
+d_h (z,w)=\inf
+\left\{\int_\gamma \frac{1}{1-\abs{z}^2}\,\abs{dz} : \gamma
+\text{ is a rectifiable curve joining $z$ and $w$}\right\}
+\]
+forms a model for the hyperbolic plane~\cite{aB83}.
+Notice that the Poincar\'e
+density
+\[
+\eta_\D(z)=\frac{1}{1-\abs{z}^2}
+\]
+goes to infinity as $z$ moves toward the boundary of the disc.
+Consequently, integrating $\eta_\D$ over curves near the boundary
+produces large values of the integral.  If $z$ and $w$ do not lie on
+a ray through the origin, then the euclidean line segment
+joining them will produce a larger integral than a curve which bends
+away from the boundary.  In fact, the infimum  will be achieved by
+an arc of a circle perpendicular to $\partial \D$.  Such curves are
+hyperbolic geodesics.
+Since disc automorphisms
+\[
+M(z)=e^{i\theta}\frac{z-a}{1-\overline{a}z},
+\]
+where $\theta\in[0,2\pi)$ and $a\in\D$,
+preserve circles
+orthogonal to $\partial \D$,
+they are precisely the isometries of $\D$.
+
+Any region $G$ conformally equivalent to $\D$ also carries a hyperbolic metric
+defined in the same manner using  the density
+\[
+\eta_G(z)=\frac{\abs{f'(z)}}{1-\abs{f(z)}^2},
+\]
+where $f$ is a conformal map of $G$ onto $\D$.  Notice that it doesn't
+matter which map $f$ is chosen as any two such maps must differ by a
+disc automorphism.
+
+
+\subsection{Convexity}
+
+The euclidean notion of convexity generalizes to hyperbolic regions in an
+obvious manner.
+
+\begin{definition}A region $\Omega\subset\D$ is \textbf{hyperbolically convex}
+if for any two points $z,w\in\Omega$, the hyperbolic  geodesic segment joining
+$z$ and $w$ lies completely in $\Omega$.
+\end{definition}
+
+
+Notice that since the disc automorphisms are the isometries
+of the hyperbolic plane, the image $M(\Omega)$ of $\Omega$ under a disc
+automorphism $M$ is hyperbolically convex if and only if $\Omega$ is hyperbolically convex.
+The fundamental domains of discrete groups of disc automorphisms
+provide a great many useful examples of hyperbolically convex domains.
+See Beardon~\cite{aB83} for an extensive discussion of these regions.
+
+
+We will call a
+hyperbolically convex region $\Omega$ bounded by a finite number of
+either geodesic arcs lying inside $\D$ or arcs of $\partial \D$ a
+\textbf{hyperbolically convex polygon}.
+We call the bounding geodesic arcs \textbf{proper sides} and the arcs
+of $\partial \D$ \textbf{improper sides}.
+For $n\geq 0$, we let
+\begin{align}\notag
+K_n=\{&\text{hyperbolically convex polygons  containing $0$}\\\notag
+& \text{and  having
+at most $n$ proper sides}\}
+\cup\{0\}.
+\end{align}
+%Notice that $K_n$ contains
+
+
+
+\begin{definition}A conformal map $f:\D\to\Omega$ is called a
+\textbf{hyperbolically convex function} if its range is hyperbolically convex.
+We let $\mathbf {\mathit H}$
+denote the class of all hyperbolically convex functions that fix the origin
+ and let $\bf{\mathit H_{\mathit n}}$ denote the subset of functions whose range
+is in $K_n$.
+\end{definition}
+
+%A sequence of polygons in $K_n$ can converge (in the sense of Cartheodory) only to another polygon %in $K_n$. This convergence carries over to hyperbolically convex functions so that $H_n$ is
+%compact.  On the other hand, every hyperbolically convex region is the limit of a sequence
+%of hyperbolically convex polygons; hence $\cup_n H_n$ is dense in $H$.
+
+
+
+
+\subsection{Schwarzians}
+
+Much of the geometric behavior of an analytic function is described by
+its Schwarzian derivative~\cite{GL2000,oL87}.
+
+\begin{definition}
+The \textbf{Schwarzian derivative} (or just ``Schwarzian'') of an
+analytic function $f$ is
+\[
+S_f = \left( \frac{f''}{f'} \right)' - \frac12 \left( \frac{f''}{f'}
+\right)^2 .
+\]
+\end{definition}
+
+
+\begin{proposition} The Schwarzian of an analytic function is identically $0$
+ if and only if it is a M\"obius
+transformation.  Moreover, the Schwarzian satisfies the chain rule
+\[
+S_{f\circ g}=\left(S_f \circ g\right)\left(g'\right)^2 + S_g.
+\]
+\end{proposition}
+
+Thus, if $M$ is M\"obius, then
+\[
+S_{M\circ g} = S_g.
+\]
+and
+\[
+S_{f\circ M}=\left(S_f \circ M\right)\left(M'\right)^2.
+\]
+
+Hence the Schwarzian is unchanged by post-composition with a M\"obius
+transformation, but pre-composition produces an extra quadratic factor.
+
+\begin{definition}
+Let $f$ be defined on a simply connected region $G\subsetneq\C$.
+The \textbf{Schwarz norm} of $f$ is given by
+\[
+\norm{S_f}_{G} = \sup_{z \in G} \eta_G^{-2}(z)\abs{S_f (z)}.
+\]
+\end{definition}
+
+By taking into account the density of the hyperbolic metric, the
+Schwarz norm is completely M\"obius invariant.  It is easy to show
+for any M\"obius $M$ that
+\[
+\eta_{M^{-1}(G)}(z)=\eta_{G} (M(z)) \abs{M'(z)},
+\]
+and thus
+\[
+\frac{\abs{S_{f\circ M}(z)}}{\eta^2_{M^{-1}(G)}(z)} =
+\frac{\abs{S_f(M(z))}\,\abs{M'(z)}^2}{\eta^2_{G}(M(z))\,\abs{M'(z)}^2} =
+\frac{\abs{S_f(w)}}{\eta^2_{G}(w)}.
+\]
+where $w=M(z)$.  Thus
+\[
+\norm{S_f}_G=\norm{S_{f\circ M}}_{M^{-1}(G)}
+\]
+and
+\[
+\norm{S_f}_G=\norm{S_{M\circ f}}_G.
+\]
+In particular, notice that $\norm{S_f}_\D$ is unchanged by disc
+automorphisms.
+
+
+
+\subsection{Geometry of the Schwarzian}
+
+Since $\Snf=0$ if and only if $f$ is M\"obius, we can view
+$\Snf$ as measuring how close $f$ is to being a M\"obius transformation.
+Since any M\"obius transformation would send $\D$ to another disc or half plane,
+$\Snf$ also measures the amount of deformation between $f(\D)$
+and a disc.  This notion
+was formalized by Lehto~\cite{oL87}
+to produce a pseudometric between regions conformally equivalent to a disc.
+
+There are a number of results that show that if $\norm{S_f}_\D$ is small,
+then $f(\D)$ possesses disc-like properties.  The two most important
+for our purposes are due to Nehari~\cite{zN49,zN76}.
+
+\begin{theorem}  If $\Snf<2$, then $f$ is univalent and $f(\D)$ is a quasidisc.
+Moreover, if $f$ is univalent, then $\Snf\leq 6$.
+\end{theorem}
+
+\begin{theorem} If $f(\D)$ is convex (in the euclidean sense),
+ then $\Snf\leq 2$, with equality if and
+only if $f(\D)$ is an infinite strip.
+\end{theorem}
+
+Mej\'ia and Pommerenke~\cite{MP00b} proved a similar result for spherically
+convex regions.
+
+\begin{theorem}
+If $f(\D)$ is spherically convex, then
+\[
+\norm{S_f}_\D \leq 2(1-\sigma(f)^2),
+\]
+where
+\[
+\sigma(f)=\max_{z\in\D} (1-\abs{z}^2)\frac{\abs{f^\prime}}{1+\abs{f}^2}.
+\]
+For a fixed value of $\sigma(f)$, this
+ maximum value of $\Snf$ is achieved by a map of the form
+$f_\phi(z)=i\tanh\left(\frac{2\phi}{\pi}\Log
+\left(\frac{1+z}{1-z}\right)\right)$ which takes $\D$ onto a
+ ``spherical strip,'' that is, a lune bounded by great circles through
+$\pm i$ and making an angle $2\phi$ with the imaginary axis.
+\end{theorem}
+
+Thus, convex and spherically convex regions cannot be deformed
+ too far from being a disc
+in the sense of the Lehto pseudometric, and the regions
+with the greatest amount of deformation
+are strips.  It was been conjectured by Mej\'ia and
+Pommerenke~\cite{MP00,PM00,MP01}
+%and by Ma and Minda~\cite{MM99}
+that the same must hold for hyperbolically
+convex regions.  Theorem 1.1 in \cite{BCPW} verified this conjecture for hyperbolically convex regions.
+
+
+\section{Verification}\label{S:verify}
+
+\subsection{Preliminaries}
+
+A direct computation shows that the Schwarzian derivative of ${f_\alpha}$ given in (\ref{E:tanh}) is
+\begin{equation*}
+S_{f_\alpha}(z) =2(c+\alpha^2)\frac{1 - 2dz^2 + z^4}{(1-2cz^2 +z^4)^2},
+\end{equation*}
+\noindent where
+$$
+c = \cos(2\theta),\ \ \alpha=\frac{\pi}{2K(\cos\theta)}, \ \
+d = \frac{3+2\alpha^2c-c^2}{2(c+\alpha^2)}.
+$$
+\noindent We note that the parameters $c, \ \ \alpha, \ \  d$ are functions
+of an underlying auxillary parameter $\theta$.  We will write $\alpha(\theta)$ if we need
+to emphasize the dependence of $\alpha$ on $\theta$.
+
+We also note, using symmetry, that the computation of the Schwarz norm
+$$||S_{f_\alpha}||_{\D} = \sup_{z \in \D}  \ (1-|z|^2)^2 \abs{S_{f_{\alpha}}(z)}$$
+\noindent is equivalent to finding
+\begin{equation} \label{e:snr}
+\sup_{z \in \D^+} \  (1-|z|)^2 2(c+\alpha^2)\left|\frac{1 - 2dz + z^2}{(1-2cz +z^2)^2}\right|
+\end{equation}
+\noindent where $\D^+ = \{z = re^{i\phi} : 0 \le r < 1, \ \ 0 \le \phi \le \pi \}$.
+
+\vspace{0.1in}
+%\newpage
+
+The assertion which we need to verify is
+
+\begin{thm} The problem of maximizing
+$$(1-|z|)^2 2(c+\alpha^2)\frac{1 - 2dz + z^2}{(1-2cz +z^2)^2}$$
+\noindent over $\D^+$ over all values of $\theta,\  0 < \theta < \pi/2,$ can be reduced to
+the problem of maximizing
+$$(1-x)^2 2(c+\alpha^2)\frac{1 - 2dx + x^2}{(1-2cx +x^2)^2}$$
+\noindent over $0 \le x < 1$ over all values of $\theta,\  0 < \theta < \pi/2$.
+\end{thm}
+
+We note, as an aside, that Theorem 1.1 showed that for this latter problem the maximum value is greater that $2$.
+
+\vspace{0.1in}
+
+We recall for the reader that in the proof of Theorem 1.1 in \cite{BCPW} it was shown that the
+factor $c+\alpha^2$ in (\ref{e:snr}) satisfies the following conditions:
+
+\vspace{0.1in}
+
+\begin{enumerate}
+\item[a.]$c+\alpha^2 > 0$ for $0 < \theta < \pi/2$,
+
+\vspace{0.05in}
+
+\item[b.]$c+\alpha^2 |_{\theta=0} = 1$, $c+\alpha^2 |_{\theta=\pi/2} = 0$,
+
+\vspace{0.05in}
+
+\item[c.]$c+\alpha^2$ is unimodal on $0 < \theta < \pi/2$, i.e. there exists a unique $\theta_*$ in
+$(0,\pi/2)$ such $c+\alpha^2$ is strictly increasing on $(0,\theta_*)$ and strictly decreasing on $(\theta_*,\pi/2)$.
+\end{enumerate}
+
+\vspace{0.05in}
+
+\noindent The value $\theta_*$ is the unique value so that $s=\cos \theta_*$ is the unique critcial point of equation (\ref{e:gs}).  Numerically, $\theta_* \approx 0.218$.
+
+\vspace{0.05in}
+
+Consequently, there exists a unique $\theta_0, \ \theta_* < \theta_0 < \pi/2$ such that:
+
+\vspace{0.05in}
+
+\begin{enumerate}
+\item[d.]$1 < c+\alpha^2$ for $0 < \theta < \theta_0$,
+
+\vspace{0.05in}
+
+\item[e.]$0 < c+\alpha^2 < 1$ for $\theta_0 < \theta < \pi/2$.
+\end{enumerate}
+
+\vspace{0.05in}
+
+Numerically, $\theta_0 \approx 0.554$.  See Figure~\ref{F:cpa2}.
+
+\begin{figure}
+\begin{center}\scalebox{0.35}{
+\epsfig{file=cpa2} }
+\caption{The curve $c+\alpha^2$ and the parameters $\theta_*$ and $\theta_0$.}
+\label{F:cpa2}
+\end{center}
+\end{figure}
+
+\subsection{Lemmas}
+
+In order to verify Assertion 1, we will need analytic estimates on the parameter $\alpha$ which is defined in terms of the elliptic integral $K$. We recall the following facts about the behavior of elliptic integrals [1, pp. 53-54]
+
+\begin{lemma} \label{lem:ei}
+Let $K$ be the complete elliptic integral of the first kind.  Then,
+\begin{enumerate}
+\item the function $K(y)/ \log (e^2/\sqrt{1-y^2}\,)$ is strictly decreasing from $(0,1)$ onto $(\pi/4,1)$,
+\item for each $c \in [1/2,\infty)$ the function $(\sqrt{1-y^2})^{c} \,K(y)$ is decreasing from $(0,1)$ onto $(0,\pi/2]$.
+\end{enumerate}
+\end{lemma}
+
+As a consequence of Lemma \ref{lem:ei}, we have the following upper and lower bounds for the parameter $\alpha = \alpha(y)$, where $y = \cos(\theta)$
+
+\begin{lemma} \label{lem:ba}
+Let ${\ds \alpha = \frac{\pi/2}{K(y)} }$.  Then,
+\begin{enumerate}
+\item ${\ds \alpha \le \frac{1}{1- \frac{\log(1-y^2)}{4} } }$, for $0 < y < 1$,
+\item for each $c \in [1/2,\infty)$, $(\sqrt{1-y^2})^{c} < \alpha$ for $0 < y < 1$.
+\end{enumerate}
+\end{lemma}
+
+We note that if the upper bound for $\alpha$ in Lemma \ref{lem:ba} is expanded as a MacLaurin
+series in $y$, then all of the coefficients in the series expansion, except for the constant term (which is $1$), are negative.  Hence, any partial sum of the series expansion
+\begin{equation} \label{e:series}
+\frac{1}{1- \frac{\log(1-y^2)}{4} } = 1 - \frac{1}{4}y^2 - \frac{1}{16}y^4 - \frac{7}{192}y^6  - \frac{19}{768}y^8 - \cdots
+\end{equation}
+\noindent will also provide an upper bound for $\alpha$.
+
+\vspace{0.1in}
+
+Finally, to estimate lower bounds for polynomials in two variables with rational coefficients we will need the following technical lemma.
+
+\begin{lemma}  \label{lem:poly}
+Let $p = p(x,y)$ be a polynomial with rational coefficients defined on the region $R = \{ (x,y) : a \le x \le b,\ \ c \le y \le d \}$, where $a,\ b,\ c,\ d$ are all rational numbers. Let $M_x \ge \max_{(x,y) \in R} \left | \frac{\partial p}{\partial x}(x,y)\right |$, $M_y \ge max_{(x,y) \in R} \left| \frac{\partial p}{\partial y}(x,y)\right |$
+and $M = \max \{M_x,M_y\}$.  Let $\delta > 0 $ and suppose $N_w, N_h$ are chosen so that
+$\Delta_w = (b-a)/N_w \le \delta ,\ \Delta_h = (d-c)/N_h \le \delta$.  Let $L$ be the lattice
+$L = L(N_w,N_h) = \{ (a + i\Delta_w,c + j\Delta_h)\  :\  0 \le i \le N_w,\ \   0 \le j \le N_h\}$.
+Let $m = min_{(x,y) \in L} p(x,y)$.  If $m \ge M\delta$, then $p(x,y) \ge 0$ on $R$.
+\end{lemma}
+\begin{proof}
+Let $(x,y) \in R$.  Then there exists $(x_0,y_0) \in L$ such ${\rm dist}( (x_0,y_0),(x,y) )
+\le \delta/\sqrt{2}$.  We can write $(x,y) = (x_0,y_0) + s (\cos \tau , \sin \tau )$ where
+$0 < s \le \delta/\sqrt{2}$.  Define ${\tilde p}(t) = p((x_0,y_0) + t (\cos \tau , \sin \tau ))$
+where $0 \le t \le s$.  Then, $\left | {\tilde p}'(t) \right | \le M\sqrt{2}$ for $0 \le t \le s$.
+Hence, $p(x,y) = {\tilde p}(t) \ge {\tilde p}(0) - M \sqrt{2}\, t = p(x_0,y_0) - M \sqrt{2}\, t \ge m - M \delta \ge 0$.
+\end{proof}
+
+\vspace{0.1in}
+
+To verify Assertion 1, we will consider the following cases for the parameters $\phi$, $\theta$ and $r$ in (\ref{e:snr})
+
+\vspace{0.05in}
+
+\begin{quote}
+\begin{enumerate}
+\item[Case 1.] $0 < \phi < \pi$, $0 < r < 1$
+\vspace{0.05in}
+
+\begin{enumerate}
+\item[Case 1a.] $0< \theta < \theta_0$
+\vspace{0.05in}
+
+\item[Case 1b.] $\theta_0 < \theta < \pi/2$
+\end{enumerate}
+\vspace{0.05in}
+
+\item[Case 2.]  $\phi = \pi$,  $0 < \theta < \pi$,  $0 < r < 1$
+\vspace{0.05in}
+
+\item[Case 3.]  $\phi = 0$,  $0 < \theta < \pi$ , $0 \le r < 1$
+\end{enumerate}
+\end{quote}
+
+\vspace{0.05in}
+
+We note that Case 3 is the conclusion of Assertion 1, i.e., Case 3 is the case
+which was explicitly detailed in \cite{BCPW}.  Hence, we will address the other
+cases here, i.e., we will show that for $0 < r < 1$ and for $\phi$ and $\theta$ restricted to either
+Case 1 or Case 2,  then (\ref{e:snr}) is not maximizied.
+
+Let $h(r,\phi)$ denote the function in (\ref{e:snr}), i.e.,
+$$
+h(r,\phi) = (1-|z|)^2 2(c+\alpha^2)\left|\frac{1 - 2dz + z^2}{(1-2cz +z^2)^2}\right|
+$$
+\noindent Before we begin the verification, we will establish the following lemma which gives bounds the location of the critical points of $h(r,\phi)$.
+
+\begin{lemma} \label{lem:r}
+If $0 < \phi < \pi$, then for each fixed $\theta, \ \ 0 <\theta < \pi/2$, the
+function $h(r,\phi)$ has a unique critical point $(r_{\theta},\phi_{\theta})$ in $\D^+$ given by
+\begin{eqnarray} \label{e:critical}
+\cos \phi_{\theta} = \frac{c + \sqrt{c^2+3} -d}{2} \\
+r_{\theta}^2 + (1 -d(c + \sqrt{c^2+3})r_{\theta} + 1 = 0
+\end{eqnarray}
+\noindent Furthermore, for $r_0 = \min_{0 < \theta < \pi/2} r_{\theta}$ we have $r_0 \ge 2/5$.
+\end{lemma}
+
+\begin{proof}
+Let $H(r,\phi) = (1-r)^4 X{\bar X}$, where ${\ds X =\frac{1 - 2dz + z^2}{(1-2cz +z^2)^2} }$.
+Solving simultaneously the system of equations
+\begin{eqnarray*}
+\frac{\partial H}{\partial r} = 0 \\
+\frac{\partial H}{\partial \phi} = 0
+\end{eqnarray*}
+\noindent for the critical points of $H$ yields the conditions that
+\begin{eqnarray*}
+-4X{\bar X} &+& (1-r)X'{\bar X}\frac{z}{r} \ +\  (1-r)X{\bar X'}\frac{{\bar z}}{r} =0 \\
+X'{\bar X}iz &+& X{\bar X'}(-i{\bar z}) = 0 .
+\end{eqnarray*}
+\noindent where $X'$ denotes ${\ds \frac{\partial X}{\partial z} }$.  Consequently, we have
+\begin{equation*}
+\frac{2r}{1-r} = \frac{zX'}{X} = \frac{-2 d z + 2z^2}{1-2dz+z^2}-2\frac{-2 c z + 2z^2}{1-2cz+z^2}
+\end{equation*}
+\noindent which implies
+\begin{equation} \label{e:last}
+\frac{1+r}{1-r} = \frac{1 - 2(2d-c)z + z^2}{1-2dz+z^2}\frac{1- z^2}{1-2cz+z^2} .
+\end{equation}
+If we multiply equation (\ref{e:last}) by $(1-r)(1-2dz+z^2)(1-2cz+z^2)$, collect terms and then set imaginary and real parts equal to zero we obtain
+\begin{eqnarray}
+(1-r)\sin \phi [(d-2c+2\cos \phi)r^2 -2(d+c-\cos \phi)r \label{e:imagpart} \\
+  + (d-2c+2\cos \phi)] &=& 0 \nonumber \\
+(1+r) \{[(d-2c+2\cos \phi)\cos \phi -1]r^2 \nonumber \\
+ - 2[(2d - c + \cos \phi)\cos \phi -cd -1]r + [(d-2c+2\cos \phi)\cos \phi -1]\} &=& 0 \nonumber
+\end{eqnarray}
+
+Since $\sin \phi \ne 0$, then we have, solving these equations simultaneously
+$$2(c - \cos \phi)(4 \cos^2 \phi -4(c-d) \cos \phi +d^2 -2cd -3) = 0$$
+Substituting the factor $\cos \phi = c$ into (\ref{e:imagpart}) forces $r = 1$.  There is a unique solution of the factor $(4 \cos^2 \phi -4(c-d) \cos \phi +d^2 -2cd -3) = 0$ for $0< \phi < \pi$, namely
+the solution given in (\ref{e:critical}).  Substituting this solution into (\ref{e:imagpart}) yields the quadratic constraint in (\ref{e:critical}) on $r$.    Hence, we have, given that $\sin \phi \ne 0$, then there is a unique critical point $(r_{\theta},\phi_{\theta})$ in $\D^+$ which satisfies (\ref{e:critical}).
+
+To show that $r_0 \ge 2/5$, we will show that each $r_\theta$ satisfies the inequality
+$2/5 < r_\theta < 1$.  The latter is equivalent to $3 < d(c+\sqrt{c^2+3}) < 49/10$.
+
+We note that the inequality $2-c < d$ would imply that
+$$(2-c)(c+\sqrt{c^2+3}) < d(c+\sqrt{c^2+3}).$$
+\noindent It is straightforward to verify that $3 < (2-c)(c+\sqrt{c^2+3})$.
+Also, the inequality $d < 2-c + 1/2$ would imply that
+$$d(c+\sqrt{c^2+3}) < (2-c + 1/2)(c+\sqrt{c^2+3}).$$
+\noindent It is straightforward to verify that $(2-c + 1/2)(c+\sqrt{c^2+3}) < 49/10$.
+
+Thus, it remains to verify that $2-c < d$ and $d < 2-c + 1/2$.  First, we note  that
+$$ d-(2-c) = \frac{3+4\alpha^2c+c^2-c-4\alpha^2}{2(c+\alpha^2)} = \frac{q_1}{2(c+\alpha^2)} .$$
+Making a change of variable $c = 2y^2-1$ (where $y = \cos \theta$), we have
+$$q_1= (8y^2-8)\alpha^2 +8 + 4y^4 - 12y^2$$
+Note that the coefficient of $\alpha^2$ in $q_1$ is negative.  Since we are looking for a lower bound for $q_1$, we replace $\alpha =
+\alpha(y)$ by an upper bound obtained from Lemma \ref{lem:ba}.  Specifically, we bound $\alpha$ by the $2^{nd}$-order partial sum
+$$\alpha \le p_2 = 1 - \frac{1}{4}y^2 .$$
+We have then,
+$$q_1 \ge q_1^* = {q_1}|_{\alpha=p_2} = \frac{y^4(1-y^2)(16-8y^2-y^4)}{32} > 0$$
+Second, we have
+$$ (2-c + 1/2) - d = \frac{5c + 5\alpha^2 -c^2 - 4\alpha^2 c -3}{2(c+\alpha^2)} = \frac{q_2}{2(c+\alpha^2)} .$$
+Making a change of variable $c = 2y^2-1$ (where $y = \cos \theta$), we have
+$$q_2= (9-8y^2)\alpha^2 + 14y^2 - 9 - 4y^4$$
+Note that the coefficient of $\alpha^2$ in $q_2$ is positive.  Since we are looking for a lower bound for $q_2$, we replace $\alpha =
+\alpha(y)$ by a lower bound obtained from Lemma \ref{lem:ba}, with $c=1/2$.  Specifically, we bound $\alpha$ by
+$$\alpha \ge p_{1/2} = (1-y^2)^{1/4} .$$
+We have then,
+$$q_2 \ge q_2^* = {q_2}|_{\alpha=p_{1/2)}} =  (9-8y^2)\sqrt{1-y^2} + 14y^2 - 9 - 4y^4$$
+To show that $q_2^* > 0$, one isolates the square root, squares the terms in the resulting inequality and then collects all of the terms to obtain a new inequality of the form
+$$p(y) = -16y^8+48y^6-60y^4+27y^2 > 0$$
+\noindent A Sturm sequence argument then verifies $p(y) > 0$ on the interval $0 < y < 19/20$.
+On the other hand, clearly $q_2^*(y) > 14y^2 - 9 - 4y^4$ and the latter quartic is non-negative on $19/20 < y < 1$.
+\end{proof}
+
+\subsection{Verification of Assertion 1}
+
+Case 1a.  $0 < \phi < \pi, \ \  0 < \theta < \theta_0 $, \ \ $0 < r < 1$
+
+\vspace{0.1in}
+
+We will show that $S_{f_{\alpha}}(0) > h(r,\phi)$.  Let
+$$(S_{f_{\alpha}}(0))^2- |h(r,\phi)|^2 = \frac{p_1(\theta,r,x)}{q_1(\theta,r,x)}$$
+\noindent where $x = \cos \phi$.  It is easily seen that the numerator $p_1$ is a
+reflexive $6^{th}$-degree polynomial in $r$.
+Making a change of  variable $r=e^{-s}$, we can write
+$$e^{3s}p_1(\theta,r,x) = p_2(\theta,\cosh s,x)$$
+\noindent where $p_2$ is a $3^{rd}$-degree polynomial in $\cosh s$. We substitute $\cosh s = 1 + 2 \sinh^2(s/2)$
+into $p_2$ to obtain
+$$ p_3(\theta,\sinh(s/2),x) = p_2(\theta,1 + 2 \sinh^2(s/2),x)$$
+\noindent which is an even $6^{th}$-degree polynomial in $\sinh(s/2)$.  Finally, we
+make a change of variable $\sqrt{t} = \sinh(s/2)$ to obtain
+$$ p_4(\theta,t,x) = p_3(\theta,\sinh(s/2),x)$$
+\noindent which is a $3^{rd}$-degree polynomial in $t$.
+
+We have reduced our problem to showing that
+$$p_4(t) = p_4(\theta,t,x) = c_3(\theta,x)t^3 + c_2(\theta,x)t^2
++ c_1(\theta,x)t  + c_0(\theta,x) > 0$$
+\noindent for $t > 0$ under the assumption that $0 < \theta < \theta_0$.
+It suffices to show that $p_4$ as a function of $t$ is totally monontonic,
+i.e., to show that each coefficient $c_j = c_j(\theta,x) \ge 0, \ \
+j=0 \cdots 3$, where
+\begin{eqnarray*}
+c_3 &=& 16[(d-2c)x + 1] \\
+c_2 &=& 4[(1+4c^2)x^2 +(-12c+2d)x + 2c^2-d^2] \\
+c_1 &=& 8[(1-cx)(x-c)^2]\\
+c_0 &=& (x-c)^4
+\end{eqnarray*}
+Since $c_3$ is linear in $x$, we have that
+$$c_3 \ge \min \{ {c_3}|_{x=-1} = 16(2c+1-d),\ \  {c_3}|_{x=1} = 16(-2c+1+d)\}$$
+\noindent But,
+\begin{eqnarray*}
+2c+1-d &=& \frac{3c^2 + 2c(c+\alpha^2) + 2(c+\alpha^2) - 3}{2(c+\alpha^2)} \\
+&>& \frac{3c^2 + 2c -1}{2(c+\alpha^2)} > \frac{0.1}{2(c+\alpha^2)}
+\end{eqnarray*}
+\noindent since $0 < \theta < \theta_0$ and, hence, $c+\alpha^2 > 1$. On the other hand,
+$$-2c+1+d = (1-c) + (d-c) = (1-c) + \frac{3}{2}\frac{1-c^2}{2(c+\alpha^2)} > 0$$
+\noindent Hence, $c_3 > 0$.
+
+The coefficient $c_2$ is quadratic in $x$.  Let $v = v(\theta)$ denote the vertex
+of the quadratic $c_2$.  Then, we have
+\begin{eqnarray*}
+c_2 \ge {c_2}|_{x=v} &=& -\frac{2(-4c^4 + 9c^2 + 2d^2 c^2 - 6dc + d^2 - 2)}{1+4c^2} \\
+&=& \frac{(1-c)^2(1+c)^2(14c^2 + 40\alpha^2 c - 9 + 8\alpha^4)}{2(c+\alpha^2)^2(1+4c^2)}
+\end{eqnarray*}
+\noindent However, we can the rewrite the term $14c^2 + 40\alpha^2c - 9 + 8\alpha^4$
+\begin{eqnarray*}
+14c^2 + 40\alpha^2c - 9 + 8\alpha^4 = \\
+8(c+\alpha^2)^2 - 8 + 6c(c+\alpha^2) + 18\alpha^2c -1 > \\
+6c-1 > 1.1
+\end{eqnarray*}
+
+Clearly, $c_1$ and $c_0$ are non-negative.  Hence, $p_4 \ge 0$.
+
+\vspace{0.1in}
+
+Case 1.b $0 < \phi < \pi, \ \  \theta_0 < \theta < \pi/2$, \ \ $0 < r < 1$
+
+\vspace{0.1in}
+
+We need only show that $2 > h(r,\phi)$ for $2/5 < r < 1$, because Lemma  \ref{lem:r} implies that for $0 < r < 2/5$, $h(r,\phi)$ has no critical points.
+
+Let
+$$4 - |h(r,\phi)|^2 = \frac{p_1(\theta,r,x)}{q_1(\theta,r,x)}$$
+\noindent $x = \cos \phi$.  It is easily seen that the numerator $p_1$ is a
+reflexive $8^{th}$-degree polynomial in $r$.
+Making a change of  variable $r=e^{-s}$, we can write
+$$e^{4s}p_1(\theta,r,x) = p_2(\theta,\cosh s,x)$$
+\noindent where $p_2$ is a $4^{th}$-degree polynomial in $\cosh s$. We substitute $\cosh s = 1 + 2 \sinh^2(s/2)$
+into $p_2$ to obtain
+$$ p_3(\theta,\sinh(s/2),x) = p_2(\theta,1 + 2 \sinh^2(s/2),x)$$
+\noindent which is an even $8^{th}$-degree polynomial in $\sinh(s/2)$.  Finally, we
+make a change of variable $\sqrt{t} = \sinh(s/2)$ to obtain
+$$ p_4(\theta,t,x) = p_3(\theta,\sinh(s/2),x)$$
+\noindent which is a $4^{th}$-degree polynomial in $t$.
+
+We have reduced our problem to showing that
+$$p_4(t) = p_4(\theta,t,x) = c_4(\theta,x)t^4 + c_3(\theta,x)t^3 + c_2(\theta,x)t^2 + c_1(\theta,x)t  + c_0(\theta,x) > 0$$
+\noindent for $0 < t < 225/1000$ under the assumption that $\theta_0 < \theta < \pi/2$, where
+\begin{eqnarray*}
+c_4 &=& -16(c+\alpha^2+1)(c+\alpha^2-1) \\
+c_3 &=& (\alpha^2c^2 + 3\alpha^2 - c^3 + 2\alpha^4c -c)x -2\alpha^4 + 4 - 4\alpha^2c-2c^2\\
+c_2 &=& (12c^2+8-4\alpha^4-8\alpha^2c)x^2 +(4\alpha^2c^2-36c+8\alpha^4c+12\alpha^2-4c^3)x \\
+ &-&7c^4 + 14c^2-12\alpha^2c+4\alpha^2c^3 \\
+c_1 &=& (1-cx)(x-c)^2\\
+c_0 &=& (x-c)^4
+\end{eqnarray*}
+
+Since $\theta_0 < \theta < \pi/2$, we have $0 < c+\alpha^2 < 1$, which implies that $c_4 > 0$.
+
+\vspace{0.1in}
+
+As in the previous case, $c_3$ is linear in $x$.  Hence we have
+$$c_3 \ge \min \{ {c_3}|_{x=-1} = (1-c)q_m, \ \  {c_3}|_{x=1} = (1+c)q_p\}$$
+\noindent where
+\begin{eqnarray*}
+q_p &=& c^2 - \alpha^2c+3c-2\alpha^4+3\alpha^2 + 4 \\
+q_m &=& c^2-\alpha^2c-3c-2\alpha^4-3\alpha^2+4
+\end{eqnarray*}
+
+We can rewrite $q_p = c^2 + 3(c+\alpha^2) + 2 + (1 - \alpha^2(c+\alpha^2)) + (1-\alpha^4) > 0$ since $0 < c + \alpha^2 < 1$ and $0 < \alpha < 1$.
+
+On the other hand, the estimate for $q_m$ is more delicate.  Making a change of variable $c = 2y^2-1$ (where $y = \cos \theta$), we have
+$$q_m = 4y^4 -10y^2 + 8 -2\alpha^2y^2 - 2\alpha^2 - 2\alpha^4 .$$
+Note that all of the coefficients of $\alpha$ in $q_m$ are negative.  Since we are looking for a lower bound for $q_m$, we replace $\alpha =
+\alpha(y)$ by an upper bound obtained from Lemma \ref{lem:ba}.  Specifically, we bound $\alpha$ by the $8^{th}$-order partial sum
+$$\alpha \le p_8 = 1 - \frac{1}{4}y^2 - \frac{1}{16}y^4 - \frac{7}{192}y^6
+- \frac{19}{768}y^8 .$$
+\noindent We have then,
+$$q_m \ge q_m^* = {q_m}|_{\alpha=p_8},$$
+\noindent The polynomial $q_m^*$ is a $32^{nd}$ degree polynomial in $y$ with rational coefficients.  A Sturm sequence argument shows that $q_m^*$ has no roots on (0,1].  Hence, $q_m > 0$.
+
+Clearly, $c_1$ and $c_0$ are non-negative.
+
+However, $c_2$ is not. Consequently, it is not immediately obvious that $p_4(t) > 0$ for $0 < t < 225/1000$.  Let
+$$q = q(t) = c_3(\theta,x)t^2 + c_2(\theta,x)t + c_1(\theta,x). $$
+\noindent We will show that $q(t) > 0$ for $0 < t < 1/4$, which will imply that
+$p_4(t) > 0$ for $0 < t < 225/1000$.
+
+We note that it can be shown that $c_2 = c_2(\theta,x)$ is non-negative for $\theta_0 < \theta < \pi/2$ and $-4/5 < x < 1$.  Hence, we will show that $q(t) > 0 $ for $\theta_0 < \theta < \pi/2$, $-1< x < -4/5$, and $0 < t < 1/4$.
+
+Expanding $q$ in powers of $\alpha$ we have
+\begin{eqnarray}
+q &=& [-4(x-c)^2t - 16(1-cx)t^2]\alpha^4 \label{e:caseb} \\
+&+& [(4c^3-12c+4c^2x+12x-8x^2c)t + (-24c + 24x + 8c^2 x)t^2]\alpha^2 \nonumber\\
+&-&8ct^2(c+\alpha^2) + {\tilde q}(c,x,t) \nonumber
+\end{eqnarray}
+\noindent where ${\tilde q}= {\tilde q}(c,x,t)$ is quadratic in $t$ and independent of $\alpha$.
+
+Clearly the coefficient of $\alpha^4$ negative.  It is relatively straightforward to verify that each of the components (the coefficients of $t$ and $t^2$) of the coefficient of $\alpha^2$ are negative.  However, the sign of term $-8ct^2(c+\alpha^2)$ depends on the sign of $c$.
+
+\vspace{0.1in}
+
+Case 1-b-1 $\theta_0 < \theta < \pi/4$.
+
+\vspace{0.1in}
+
+In this case $c > 0$; we will replace $(c+\alpha^2)$ in (\ref{e:caseb}) by an upper bound $1$.  Hence,
+\begin{eqnarray*}
+q > q_0 &=& [-4(x-c)^2t - 16(1-cx)t^2]\alpha^4 \\
+&+& [(4c^3-12c+4c^2x+12x-8x^2c)t + (-24c + 24x + 8c^2 x)t^2]\alpha^2 \\
+&-&8ct^2 + {\tilde q}(c,x,t)
+\end{eqnarray*}
+
+Since the coefficients of $\alpha$ in $q_0$ are negative, we will replace $\alpha$ by an upper bound from Lemma \ref{lem:ba}, namely $\alpha \le p_2 = 1 -\frac{y^2}{4}$.  Hence, we have, making a change of variable $c=2y^2-1$,
+$$q_0 \ge q_0^*(t) = {q_0}|_{\alpha=p_2}(t) = d_2(y,x)t^2 + d_1(y,x)t + d_0(y,x)$$
+\noindent where
+\begin{eqnarray*}
+d_2(y,x) &=& (\frac{1}{8}y^{10} -\frac{1}{16}y^8 -69 y^6 + 108 y^4 - 64y^2 +32)x \\
+&-&\frac{1}{16}y^8  -2y^6  -\frac{25}{2}y^4 -28y^2 + 40 \\
+d_1(y,x) &=& (-\frac{1}{64}y^8 -\frac{3}{4}y^6 + 55y^4 - 64y^2 + 24)x^2 \\
+ &+& (\frac{1}{16}y^{10}-\frac{1}{32}y^8 -\frac{69}{2}y^6 + 54y^4 - 96y^2 +48)x \\
+ &-&\frac{1}{16}y^{12} +\frac{49}{16}y^{10} -\frac{2689}{64}y^8 + \frac{441}{4}y^6 -49y^4 -32y^2 + 24 \\
+d_0(y,x) &=& (-16y^2 + 8)x^3 + (64y^4 - 64y^2 +24)x^2 \\
+  &+& (-64y^6 +96y^4 -80y^2 +24)x +32y^4-32y^2 +8 .
+\end{eqnarray*}
+
+The coefficents $d_j(y,x), \ \  j=0,\ 1,\ 2$ are polynomials with rational coefficients in $y, x$ subject to the parameter restrictions that $\cos \pi/4 < y < \cos \theta_0$ and $-1 < x < -4/5$.  It can be shown using Lemma \ref{lem:poly} that $d_0(y,x) > 0$ and $d_1(y,x) > 0$ for these restricted parameters.  Hence, $q_0^*(t) > 0$ if $q_0^*(1/4) > 0$.  However, $q_0^*(1/4)$ is a polynomial with rational coefficients in $y, x$ subject to the same parameter restrictions that $\cos \pi/4 < y < \cos \theta_0$ and $-1 < x < -4/5$.  Using Lemma \ref{lem:poly} it can be shown that $q_0^*(1/4) > 0$.
+
+\newpage
+
+Case 1-b-2 $\pi/4 < \theta < \pi/2$
+
+\vspace{0.1in}
+
+In this case $c < 0$; we will replace $(c+\alpha^2)$ in (\ref{e:caseb}) by a lower bound $(1+c)/2$.  Hence,
+\begin{eqnarray*}
+q > q_0 &=& [-4(x-c)^2t - 16(1-cx)t^2]\alpha^4 \\
+&+& [(4c^3-12c+4c^2x+12x-8x^2c)t + (-24c + 24x + 8c^2 x)t^2]\alpha^2 \\
+&-&8ct^2(1+c)/2 + {\tilde q}(c,x,t)
+\end{eqnarray*}
+
+Since the coefficients of $\alpha$ in $q_0$ are negative, we will replace $\alpha$ by an upper bound of $1$.  Hence, we have, making a change of variable $c=2y^2-1$,
+$$q_0 \ge q_0^*(t) = {q_0}|_{\alpha=1}(t) = e_2(y,x)t^2 + e_1(y,x)t + e_0(y,x)$$
+
+Furthermore, for convenience in scaling we will impose a change of variable $x= -1 + 2w/10$, where $0 < w < 1$.  We have then
+$$q_0^*(t) = q_0^*(y,w,t) = e_2(y,w)t^2 + e_1(y,w)t + e_0(y,w)$$
+\noindent where $0 < y < \cos \theta_0$, $0 < w < 1$ and $0 < t < 1/44$ and
+\begin{eqnarray*}
+e_2(y,w) &=& (-\frac{64}{5}y^6 +\frac{128}{5}y^4 -\frac{64}{5}y^2 +\frac{32}{5})w \\
+ &+& 64y^6 -176y^4 +56y^2 \\
+e_1(y,w) &=& (\frac{48}{25}y^4 -\frac{64}{25}y^2 + \frac{24}{25})w^2 \\
+ &+& (-\frac{32}{5}y^6 -\frac{32}{5}y^4 + \frac{32}{5}y^2)w \\
+ &-&16y^8 +96y^6 -48y^4 \\
+e_0(y,w) &=& (-\frac{16}{125}y^2 + \frac{8}{125})w^3 + (\frac{64}{25}y^4 - \frac{16}{25}y^2)w^2 \\
+  &+& (-\frac{64}{5}y^6 - \frac{32}{5}y^4)w + 64y^6
+\end{eqnarray*}
+
+We note that using Lemma \ref{lem:poly} it can be verified that $q_0^*(0) = e_0(y,w)$ is non-negative and that $q_0^*(1/4)$ is also non-negative.
+
+Let $R$ be the parameter region for $y,\ w$, i.e, $R = \{ (y,w) : 0 < y < \sqrt{2}/2 , \ 0 < w < 1 \}$   We will partition $R$ into subregions bounded by curves $l_j, \  j = 1,\ 2,\ 3$.
+See Figure~\ref{F:pspace1}.
+
+\begin{figure}
+\begin{center}\scalebox{0.30}{
+\epsfig{file=pspace1} }
+\caption{The parameter space $R$.}
+\label{F:pspace1}
+\end{center}
+\end{figure}
+
+The first curve $l_1$ is defined as the solution set $\{(y,w) : e_2(y,w) = 0 \}$ and, since $e_2(y,w)$ is linear in $w$, is given by
+$$ l_1 = \{(y,w) \in R : w = \frac{5y^2(8y^4-22y^2+7)}{4(2y^6 -4y^4+2y^2-1)} \}$$
+\noindent Let $A$ be the subset of $R$ to the ``right'' of $l_1$, i.e., the subset of $R$ where $e_2(y,w) < 0$.  On $A$, because $q_0^*(t)$ is concave down, it suffices to check that $q_0^*(0) > 0$ and $q_0^*(1/4) > 0$ to verify that $q_0^*(t) > 0$.
+
+The second curve $l_2$ is defined as the solution set $\{(y,w) : e_1(y,w) = 0 \}$ and, since $e_1(y,w)$ is quadratic in $w$, is given by
+$$l_2 = \{ (y,w) \in R : w = y^2\frac{20y^4 +20y^2 -20 + 10\sqrt{16y^8-80y^6+134y^4-92y^2+22}}
+{2(6y^4 -8y^2 + 3)} \}$$
+\noindent Let $B$ be the subset of $R$ to the ``left'' of $l_2$, i.e., the subset of $R$ where $e_1(y,w) > 0$.  On $B$, because $q_0^*(t)$ is concave up and because the slope to $q_0^*(t)$ at 0 is positive, it suffices to check that $q_0^*(0) > 0$ to verify that $q_0^*(t) > 0$.
+
+The third curve $l_3$ is defined as the solution set $\{(y,w) : e_2(y,w)/2 + e_1(y,w) = 0 \}$, i.e., the set where the vertex of $q_0^*(t)$ is located at $t=1/4$.  Since $e_2(y,w)/2 + e_1(y,w)$ is quadratic in $w$, $l_3$ is given by
+$$l_3 = \{ (y,w) \in R : w = y^2\frac{80y^6 - 40y^4-20 + 10\sqrt{k(y)}}
+{2(12y^4 -16y^2 + 6)} \}$$
+\noindent where $k(y) = 112y^{12} - 512y^{10}+ 960y^8-852y^6 +332y^4 - 42y^2 + 4$.
+\noindent Let $C$ be the subset of $R$ bounded between $l_3$ and $l_1$, i.e., the set where $q_0^*(t)$ is concave up and the vertex of $q_0^*(t)$ is located to the right of $t=1/4$.  On $C$ it suffices to check that $q_0^*(1/4) > 0$ to verify that $q_0^*(t) > 0$.
+
+Finally, let $D$ be the subset of $R$ bounded between $l_2$ and $l_3$.  On $D$, the quadratic $q_0^*(t)$ is concave up and the vertex lies between $t=0$ and $t=1/4$.  To verify that $q_0^*(t) > 0$, we need to verify that $q_0^*(t)|_{t={\rm vertex}} > 0$ on $D$ or alternatively that the discriminant of $q_0^*(t)$ is negative on $D$.
+
+Ideally, to solve this latter problem one would represent $y \in D$ in terms of a convex average of values on $l_2$ and $l_3$. However, the curves $l_2,\ l_3$ which bound $D$ are inconvenient to work with.  Instead, we will bound $l_2$ and $l_3$ by (approximating) polynomial curves, $m_2$ and $m_3$, which lie outside of $D$ and show that the  discriminant of $q_0^*(t)$ is negative on the region $D*$ which is bounded by our approximating curves $m_2$ and $m_3$ and which contains $D$.
+
+Let $m_2 = \{ (y,w) \in R : w = \frac{81}{16}y^2 \}$ and $m_3 = \{ (y,w) \in R : w = 9y-5 \}$.  Let $D^*$ be the subset of $R$ bounded between $m_2$ and $m_3$.
+See Figure~\ref{F:pspace2}. To show that $m_2$ lies to the left of $l_2$, one isolates the square root in the inequality $m_2 - l_2 > 0$, squares the terms in the resulting inequality and then collects all of the terms to obtain a new inequality of the form
+$$p(y) = 3876y^8 -14816y^6+58020y^4-62448y^2+21609 > 0$$
+\noindent A Sturm sequence argument then verifies $p(y) > 0$ on the interval $0 < y < \sqrt{2} /2$.  A similar argument show that $m_3$ lies to the right of $l_3$.  Consequently, $D^* \supset D$.
+
+\begin{figure}
+\begin{center}\scalebox{0.30}{
+\epsfig{file=pspace2} }
+\caption{The bounding curves $m_2$ and $m_3$.}
+\label{F:pspace2}
+\end{center}
+\end{figure}
+
+Let $y_2(w) = \frac{4}{9}\sqrt{w}$ be the inverse function for $m_2$ and $y_3(w) =\frac{1}{9}w + \frac{5}{9}$ be the inverse function for $m_3$ and let $w=v^2$. Define now
+\begin{eqnarray*}
+f(z,v,t) &=& q_0^*(y_2(v^2) + z(y_3(v^2)-y_2(v^2)),v^2,t) \\
+         &=& f_2(z,v)t^2 + f_1(z,v)t + f_0(z,v)
+\end{eqnarray*}
+\noindent We have then that $f$ is a polynomial in $z,\  v,\  t$ with rational coefficients.  As a quadratic in $t$, it sufficies to show that the discriminant $f(t)$ is negative for $0 < z < 1, \ 0 < v < 1$.  Let
+$$g(z,v) = 4f_2(z,v)f_0(z,v) - (f_1(z,v))^2$$
+\noindent There is a complication that at $(z,v) = (0,0)$ the function $g$ has a higher order zero.  We will partition the parameter square [0,1]x[0,1] into triangles
+\begin{eqnarray*}
+T_l &=& \{ (z,v) : z = mv, \  0 < v < 1, \  0 < m < 1 \} \\
+T_u &=& \{ (z,v) : v = mz, \  0 < v < 1, \  0 < m < 1 \}
+\end{eqnarray*}
+\noindent and then set
+\begin{eqnarray*}
+g_l(m,v) &=& g(mv,v),\    0 < v < 1, \  0 < m < 1 \ \\
+g_u(z,m) &=& g(z,mz),\    0 < z < 1, \  0 < m < 1 \
+\end{eqnarray*}
+
+The polynomial $g_l$ can be factored as
+$$g_l(m,v) = v^8 h_l(m,v)$$
+\noindent where $h_l$ is a polynomial in $m,\  v$ with rational coefficients.  The polynomial $h_l$ is of degree $16$ in $m$ and degree $40$ in $v$ and satisfies $h_l(0,0) > 0$.
+
+We apply now Lemma \ref{lem:poly} to $h_l$.  Explicitly, for the region $R = \{(m,v) : 0 < m < 1, \
+0 < v < 1 \}$, let $L = L(12000,12000)$. Writing
+$$h_l(v,m) = \sum_{i=0}^{16} u_i(v)m^i$$
+\noindent we have
+$$\frac{\partial h_l}{\partial v}(v,m) = \sum_{i=0}^{16} {u_i}'(v) m^i , \ \
+\frac{\partial h_l}{\partial m}(v,m) = \sum_{i=1}^{16} i u_i(v) m^{i-1} .$$
+\noindent Hence,
+$$\left | \frac{\partial h_l}{\partial v}(m,v) \right | \le M_1 = 698, \ \left | \frac{\partial h_l}{\partial m}(m,v) \right | \le M_2 = 872$$
+\noindent where
+\begin{eqnarray*}
+M_1 &\ge& \sum_{i=0}^{16} \mu_i,\ \  \mu_i = \max_{0\le v \le 1} |{u_i}'(v)| \\
+M_2 &\ge& \sum_{i=1}^{16} \nu_i,\ \  \nu_i = \max_{0\le v \le 1} |i u_i(v)|.
+\end{eqnarray*}
+\noindent Set $M = \max\{M_1,M_2\} = 872$.  A lengthy finite-arithmetic calculation of the values of polynomial $h_l$ over the lattice $L$ yields
+$${\ds m = \min_{(m,v) \in L} h_l(m,v) = \frac{2158649303}{26904200625} \approx 0.080}.$$
+\noindent By Lemma \ref{lem:poly},  we have $h_l(m,v) \ge 0$ on $R$.
+
+A similar argument show that $g_u(z,m)$ is non-negative on $0 < z < 1, \  0 < m < 1 $.
+
+\vspace{0.1in}
+
+Case 2. $\phi = \pi$, \ \ $0 < \theta < \pi/2$, \ \ $0 < r < 1$
+
+\vspace{0.1in}
+
+Let
+$$g(r) = (1-r)^2 S_{f_{\alpha}}(-r) = (1-r)^2 2(c+\alpha^2) \frac{1+2dr+r^2}{(1+2cr+r^2)^2}$$
+\noindent where $0 < r < 1$.  For fixed $\alpha$ we have
+$$g'(r) = 4(1-r^2)(c+\alpha^2)\frac{(d-2c-1)r^2 -2(dc+2d-c)r + d-2c-1}{(1+2cr+r^2)^3}$$
+\noindent The sign of $g'$ is determined by the sign of
+$$(d-2c-1)(r^2 -2\frac{dc+2d-c}{d-2c-1}r + 1).$$
+
+Since $d$ is increasing as a function of $\theta$ and $2c+1$ is decreasing as a function of $\theta$, then the factor $d-2c-1$ has a unique root $\theta_1$ such that $d-2c-1 < 0$ for $0 < \theta < \theta_1$ (and $d-2c-1 > 0$ for $\theta_1 < \theta < \pi/2$).  Numerically, $\theta_1 \approx 0.598$.  Using a lower estimate for $\alpha$ from Lemma \ref{lem:ba}, it can be shown that $\cos \theta_1 < 83/100$. Note, $\theta_1 > \theta_0$.
+
+It is easily verified that $dc+2d-c = c(d-1) + 2d >0$ for $0 < \theta < \theta_1$.  Hence, the coefficient $-2\frac{dc+2d-c}{d-2c-1} > 0$ for $0 < \theta < \theta_1$ which implies that $g'$ is negative for $0 < \theta < \theta_1$. Hence, $g$ takes its maximum at $0$ for   $0 < \theta < \theta_1$, but the value $g(0)$ is $2(c+\alpha^2)$, which is covered in Case 3.
+
+We will show that for $\theta_1 < \theta < \pi/2$ that $2 > g(r)$.  Since we show in Case 3 that the maximal value for the Schwarz norm of $f_{\alpha}$ is more than $2$, then we will have that no value of $g(r)$ for $\theta_1 < \theta < \pi/2$ can be extremal for our problem of maximizing the Schwarz norm of $f_{\alpha}$.
+
+Let
+$$2 - g(r) = \frac{p_1(\theta,r)}{q_1(\theta,r)}.$$
+\noindent It is easily seen that the numerator $p_1$ is a
+reflexive $4^{th}$-degree polynomial in $r$.
+Making a change of  variable $r=e^{-s}$, we can write
+$$e^{2s}p_1(\theta,r) = p_2(\theta,\cosh s)$$
+\noindent where $p_2$ is a $2^{nd}$-degree polynomial in $\cosh s$. We substitute $\cosh s = 1 + 2 \sinh^2(s/2)$
+into $p_2$ to obtain
+$$ p_3(\theta,\sinh(s/2)) = p_2(\theta,1 + 2 \sinh^2(s/2))$$
+\noindent which is an even $4^{th}$-degree polynomial in $\sinh(s/2)$.  Finally, we
+make a change of variable $\sqrt{t} = \sinh(s/2)$ to obtain
+$$ p_4(\theta,t) = p_3(\theta,\sinh(s/2))$$
+\noindent which is a $2^{nd}$-degree polynomial in $t$.
+
+We have reduced our problem to showing that
+$$p_4(t) = p_4(\theta,t) = c_2(\theta)t^2
++ c_1(\theta)t  + c_0(\theta) > 0$$
+\noindent for $t > 0$ under the assumption that $\theta_1 < \theta < \pi/2$ where
+\begin{eqnarray*}
+c_2 &=& 8[1-(c+\alpha^2)] \\
+c_1 &=& 4(2 - \alpha^2 + c - dc -\alpha^2 d) \\
+c_0 &=& 2(1+c)^2 .
+\end{eqnarray*}
+
+Let  $v$ denote the vertex of $p_4$.  Then
+$${p_4}|_{t=v} = \frac{c+\alpha^2}{2[1 - (c+\alpha^2)]}q_1$$
+\noindent where
+$$q_1 = \frac{(1+c)^2}{4(c+\alpha^2)}q_2$$
+\noindent with
+$$q_2 = -4\alpha^4 + (4c-12)\alpha^2 -c^2-18c+15 .$$
+\noindent Making a change of variable $c = 2y^2-1$ (where $y = \cos \theta$), we have
+$$q_2 = -4\alpha^4 + (8y^2-16)\alpha^2 -4y^4 -32y^2 +32 .$$
+
+Note that all of the coefficients of $\alpha$ in $q_2$ are negative.  Since we are looking for a lower bound for $q_2$, we replace $\alpha =
+\alpha(y)$ by an upper bound obtained from Lemma \ref{lem:ba}.  Specifically, we bound $\alpha$ by the $8^{th}$-order partial sum
+$$\alpha \le p_8 = 1 - \frac{1}{4}y^2 - \frac{1}{16}y^4 - \frac{7}{192}y^6
+- \frac{19}{768}y^8 .$$
+\noindent We have then,
+$$q_2 \ge q_2^* = {q_2}|_{\alpha=p_8},$$
+\noindent The polynomial $q_2^*$ is a $32^{nd}$-degree polynomial in $y$ with rational coefficients.  A Sturm sequence argument shows that $q_2^*$ has no roots on (0,83/100].  Hence, $q_2 > 0$.
+
+
+\vspace{0.1in}
+
+%\bibliographystyle{amsplain} \bibliography{hc,roger,eqcp,dis}
+
+\def\cprime{$'$}
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+
+
+\begin{thebibliography}{10000}
+
+\bibitem{AVV97}
+G.D. Anderson, M.K. Vamanamurthy, and M.K. Vuorinen, \emph{Conformal
+  invariants, inequalities, and quasiconformal mappings}, J. Wiley and Sons,
+  1997.
+
+\bibitem{BCPW}
+R.~W. Barnard, L.~Cole, K.~Pearce, and G.~Brock Williams, \emph{The sharp bound
+  for the deformation of a disc under a hyperbolically convex map}, Proceedings
+  of the London Mathematical Society (accepted).
+
+\bibitem{aB83}
+A.~Beardon, \emph{Geometry of discrete groups}, Springer-Verlag, Berlin, 1983.
+
+\bibitem{GL2000}
+Frederick~P. Gardiner and Nikola Lakic, \emph{Quasiconformal {T}eichm\"uller
+  theory}, Mathematical Surveys and Monographs, vol.~76, American Mathematical
+  Society, 2000.
+
+\bibitem{oL87}
+O.~Lehto, \emph{Univalent functions and {T}eichm\"uller spaces},
+  Springer-Verlag, Berlin - Heidelberg - New York, 1987.
+
+\bibitem{MM94}
+William Ma and David Minda, \emph{Hyperbolically convex functions}, Ann. Polon.
+  Math. \textbf{60} (1994), no.~1, 81--100. \MR{95k:30037}
+
+\bibitem{MM99}
+\bysame, \emph{Hyperbolically convex functions. {II}}, Ann. Polon. Math.
+  \textbf{71} (1999), no.~3, 273--285. \MR{2000j:30020}
+
+\bibitem{PM00}
+Diego Mej\'ia and Christian Pommerenke, \emph{On hyperbolically convex
+  functions}, J. Geom. Anal. \textbf{10} (2000), no.~2, 365--378.
+
+\bibitem{MP00b}
+\bysame, \emph{On spherically convex univalent functions}, Michigan Math. J.
+  \textbf{47} (2000), no.~1, 163--172. \MR{2001a:30013}
+
+\bibitem{MP01}
+\bysame, \emph{Sobre la derivada {Schawarziana} de aplicaciones conformes
+  hiperb\'olicamente}, Revista Colombiana de Matem\'aticas \textbf{35} (2001),
+  no.~2, 51--60.
+
+\bibitem{MP02}
+\bysame, \emph{Hyperbolically convex functions, dimension and capacity},
+  Complex Variables Theory Appl. \textbf{47} (2002), no.~9, 803--814.
+  \MR{2003f:30017}
+
+\bibitem{MP00}
+\bysame, \emph{On the derivative of hyperbolically convex functions}, Ann.
+  Acad. Sci. Fenn. Math. \textbf{27} (2002), no.~1, 47--56.
+
+\bibitem{MPV01}
+Diego Mej\'ia, Christian Pommerenke, and Alexander Vasil{\cprime}ev,
+  \emph{Distortion theorems for hyperbolically convex functions}, Complex
+  Variables Theory Appl. \textbf{44} (2001), no.~2, 117--130. \MR{2003e:30025}
+
+\bibitem{zN49}
+Zeev Nehari, \emph{The {S}chwarzian derivative and schlicht functions}, Bull.
+  Amer. Math. Soc. \textbf{55} (1949), 545--551. \MR{10,696e}
+
+\bibitem{zN76}
+\bysame, \emph{A property of convex conformal maps}, J. Analyse Math.
+  \textbf{30} (1976), 390--393. \MR{55 \#12901}
+
+
+\bibitem{aS98}
+A.~Yu. Solynin, \emph{Some extremal problems on the hyperbolic polygons},
+  Complex Variables Theory Appl. \textbf{36} (1998), no.~3, 207--231.
+  \MR{99j:30030}
+
+\bibitem{aS99}
+\bysame, \emph{Moduli and extremal metric problems}, Algebra i Analiz
+\textbf{11} (1999), no.~1, 3--86, translation in St. Petersburg Math. J.
+ \textbf{11} (2000), no. 1, 1--65. \MR{2001b:30058}
+
+\end{thebibliography}
+
+
+\end{document}

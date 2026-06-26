@@ -1,0 +1,1647 @@
+
+\documentclass[mn,a4paper,fleqn]{w-art}
+\usepackage{times,cite,w-thm}
+\usepackage{amssymb,amsmath,enumerate,graphics,graphicx} 
+
+
+\textwidth=16cm  %
+\textheight=21cm  %
+\oddsidemargin=-0.1cm  %
+\evensidemargin=-0.1cm  %
+\newcommand{\meas}{{\rm meas}\,}
+\newcommand{\diam}{{\rm diam}\,}
+\newcommand{\dist}{{\rm dist}\,}
+\newcommand{\Area}{{\rm area}\,}
+\newcommand{\CAP}{{\rm cap}\,}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bl}{\begin{lemma}}
+\newcommand{\el}{\end{lemma}}
+
+
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}{Lemma}
+%\newtheorem{corollary}{Corollary}
+\newtheorem{theo}{Theorem}
+%\newtheorem{conjecture}{Conjecture}
+\newtheorem{lemmaA}{Lemma}
+\newcommand{\blemmaA}{\begin{lemmaA}}
+\newcommand{\elemmaA}{\end{lemmaA}}
+%\newtheorem{proposition}{Proposition}
+\newcommand{\bprop}{\begin{proposition}}
+\newcommand{\eprop}{\end{proposition}}
+
+
+
+
+\newcommand{\bt}{\begin{theorem}}
+\newcommand{\et}{\end{theorem}}
+\newcommand{\bc}{\begin{corollary}}
+\newcommand{\ec}{\end{corollary}}
+\newcommand{\bcon}{\begin{conjecture}}
+\newcommand{\econ}{\end{conjecture}}
+\newcommand{\ep}{\varepsilon}
+\newcommand{\ph}{\varphi}
+\newcommand{\va}{\varphi}
+\newcommand{\cA}{{\cal{A}}}
+\newcommand{\al}{\alpha}
+%\newcommand{\th}{\theta}
+\newcommand{\ga}{\gamma}
+\newcommand{\Res}{{\rm{Res}}}
+\newcommand{\CU}{{\overline{\U}}}
+\newcommand{\U}{{\mathbb U}}
+\newcommand{\II}{\int\!\!\int}
+\newcommand{\D}{{\cal D}}
+\newcommand{\DD}{{\mathbb{D}}}
+\newcommand{\e}{\varepsilon}
+\newcommand{\Om}{\Omega}
+\newcommand{\UH}{{\mathbb {H}}}
+
+\newcommand{\Ha}{{\cal H}}
+\newcommand{\C}{{\mathbb C}}
+\newcommand{\CC}{{\overline{\C}}}
+\newcommand{\R}{{\mathbb R}}
+\newcommand{\T}{{\mathbb T}}
+\newcommand{\A}{{\cal A}}
+\newcommand{\F}{{\cal F}}
+\newcommand{\CR}{{\overline{\R}}}
+
+\newtheorem{fig}{Box for Figure}
+\renewcommand{\thetheo}{\Alph{theo}}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+\renewcommand{\thelemmaA}{\Alph{lemmaA}}
+
+\newcommand{\pf}{\textit{Proof. \@}}                  % Proof
+\newcommand{\epf}{\ensuremath{\Box}}                  % End proof
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Na}{{\mathcal{N}}_\alpha}           % Nonvan. univ. |a1| = alpha
+\newcommand{\Nas}{{\mathcal{N}}_\alpha^*}                 % Symmetrized N_alpha
+\newcommand{\eps}{\ensuremath{\varepsilon}}           % alternate epsilon
+\renewcommand{\phi}{\ensuremath{\varphi}}             % alternate phi
+\newcommand{\nin}{\not \in}                           % Not in
+\newcommand{\abs}[1]{\ensuremath{\left| #1 \right|}}  % Absolute value
+%\newcommand{\Area}{\rm{Area}}
+%\newcommand{\e}{\varepsilon}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\relpenalty=10000
+\binoppenalty=10000
+
+\begin{document}
+
+\DOIsuffix{theDOIsuffix}
+%%
+%% issueinfo for the header line
+\Volume{vvv}
+\Month{mm}
+\Year{2008}
+
+%%    First and last pagenumber of the article. If the option
+%%    'autolastpage' is set (default) the second argument may be left empty.
+\pagespan{1}{}
+%%
+%%    Dates will be filled in by the publisher. The 'reviseddate' and
+%%    'dateposted' (Published online) entry may be left empty.
+\Receiveddate{XXXX}
+\Reviseddate{XXXX}
+\Accepteddate{XXXX}
+\Dateposted{XXXX}
+%%
+\keywords{omitted area problem, logarithmic capacity, univalent function, symmetrization, local variation}
+\subjclass[msc2000]{30C70} 
+
+\title[Iceberg-type Problems]{ Iceberg-type Problems: Estimating Hidden Parts of a Continuum from the Visible Parts}  %
+
+%% Please do not enter footnotes or \inst{}-notes into the optional
+%% argument of the author command. The optional argument will go into
+%% the header.  If there is only one address the marker \inst{x} may be
+%% omitted.
+
+%% Information for the first author.
+\author[R.W. Barnard]{Roger W. Barnard}
+%% Information for the second author
+\author[K. Pearce]{Kent Pearce
+  \footnote{Corresponding author:  
+  					E-mail: \scriptsize{\textsf{kent.pearce@ttu.edu}},
+            Phone: \,806\,742\,2566,
+            Fax: \,806\,742\,1112}}
+%%
+%%    Information for the third author
+\author[A.Y. Solynin]{Alexander Yu. Solynin
+	\footnote{Partially supported by NSF grant DMS-0525339}}
+
+\address{Department of Mathematics and Statistics,  Texas Tech
+University, Box 41042, Lubbock, TX 79409}
+
+\begin{abstract}{We consider the complex plane $\mathbb{C}$ as a space
+filled by two different media, separated by the real axis
+$\mathbb{R}$. We define $\mathbb{H}_+=\{z: \,\Im \,z>0\}$ to be the upper
+half-plane. For a planar body $E$ in $\mathbb{C}$, we discuss a problem of 
+estimating characteristics of the ``invisible'' part,
+$E_-=E\setminus \mathbb{H}_+$, from characteristics of the whole
+body $E$ and its ``visible'' part, $E_+=E\cap \mathbb{H}_+$. In this
+paper, we find the maximal draft of $E$ as a function of the
+logarithmic capacity of $E$ and the area of $E_+$.
+ %AMS No. 30
+ }
+\end{abstract}
+
+
+\maketitle
+
+
+%-----  Section 1:  Introduction  --------------------------------------
+
+\section{Introduction} \label{Introduction}
+
+We will discuss problems (called {\it iceberg-type problems} below) of estimating
+characteristics of the ``invisible" part of a compact set $E$ in the complex plane 
+$\mathbb{C}$ from some known characteristics of the whole set and its ``visible" part.
+We emphasis from the beginning that the problems we study in this paper are not directly
+related to (real) physical icebergs.  The problem name reflects the fact that the 
+object under consideration consists of two parts, hidden and visible, and the question
+is to recover some of the properties of the hidden part from the visible part. During
+the ages a titanic work has been done to solve this problem in its
+everyday physical setting.
+
+In this paper, we study iceberg-type problems in two-dimensional
+space, which will be identified as the complex plane $\mathbb{C}$.
+Accordingly, $\overline{\mathbb{C}}=\mathbb{C}\cup\{\infty\}$,
+$\mathbb{H}_+=\{z:\,\Im\,z> 0\}$, and $\mathbb{H}_-=\{z:\,\Im\,z<0\}$
+will denote the extended complex plane, the upper half-plane, and
+the lower half-plane, respectively. The real axis $\mathbb{R}$
+will play the role of the surface of interface between
+$\mathbb{H}_+$ and $\mathbb{H}_-$.
+
+%\smallskip
+
+For any given compact set $E$ in $\mathbb{C}$, we define $E_+=E\cap
+\mathbb{H}_+$ and $E_-=E\cap \overline{\mathbb{H}}_-$. The sets $E_+$ and $E_-$ denote the
+visible and hidden parts of $E$, respectively.
+
+%\smallskip
+
+An accumulative characteristic of any body $E$ surrounded by media
+is its potential or capacity. In our two-dimensional setting, the
+\textit{logarithmic capacity} will be chosen as
+the primary characteristic of $E$. We remind the reader that
+the logarithmic capacity, $\CAP E$, of a compact set $E$ is defined
+by %
+$$ %
+-\log \CAP E =\lim_{z\to \infty}(g(z)-\log|z|),  %
+$$  %
+where $g(z)$ denotes Green's function of the unbounded component
+$D(E)$ of $\overline{\mathbb{C}}\setminus E$ having singularity at
+$z=\infty$. Let ${\mathcal{F}}$ be the collection of all continua
+($=$ connected compact
+sets) $E$ in $\mathbb{C}$ such that  %
+$$ %\be  \label{1.1} %
+\CAP(E)=1.  %
+$$  %\ee  %
+
+\smallskip
+
+For the measured characteristic of a visible part $E_+$ we will choose
+the mass of $E_+$, which, assuming homogeneity of $E$, is
+proportional to the area of $E_+$. For $E$ in ${\mathcal{F}}$, the
+well known estimates of the
+logarithmic capacity show that %
+$$ %\be  \label{1.2}  %
+0\le \Area(E_+)\le \Area(E)\le \pi (\CAP (E))^2=\pi.  %
+$$  %\ee  %
+
+
+
+Characteristics of the hidden part $E_-$ which one may want to
+control and which are of a particular importance, include: the
+draft of the iceberg $H(E)$, the width of the invisible part of
+the iceberg $w(E)$, and the safe distance from the iceberg $d(E)$.
+Figure~\ref{Figure_Iceberg} illustrates these characteristics
+while the precise definitions are as follows:
+
+\be \label{equation draft}  %
+H(E)=\max \,(-\Im (z)),   %
+\ee %
+where the maximum is taken over all $z$ in $E$,  %
+\be \label{equation width}  %
+w(E)=\max \,(\Re (z_2-z_1)),  %
+\ee %
+where the maximum is taken
+over all $z_1,z_2$ in $E_-$, and %
+\be \label{equation safe}  %
+d(E)=\max \,(\Re (z_2))-\sup\,(\Re(z_1)),   %
+\ee %
+where the maximum is taken  over all $z_2$ in $E_-$ and the supremum
+is taken over all $z_1$ in $E_+$.
+
+\smallskip
+
+\begin{figure}
+$$\includegraphics[scale=.3,angle=0]{iceberg} $$
+\caption{Two-dimensional iceberg.}
+\label{Figure_Iceberg}
+\end{figure}
+
+\smallskip
+
+Then, the extremal problem for each of the functionals
+(\ref{equation draft}), (\ref{equation width}), and (\ref{equation safe})
+is to find its maximal value over the class ${\mathcal{F}}$
+and describe all possible extremal continua.  We define %
+\be  \label{equation maximals}  %
+{\textbf{(a)}} \ \ \ H({\mathcal{F}})=\max H(E) \quad \quad
+{\textbf{(b)}} \ \ \ w({\mathcal{F}})=\max w(E)
+\quad \quad {\textbf{(c)}} \ \ \ d({\mathcal{F}})=\max d(E),  %
+\ee  %
+where in each case the maximum is taken over all sets $E$ in
+${\mathcal{F}}$.
+
+Our main goal in this paper is to give a complete solution to
+problem (\ref{equation maximals})\textbf{(a)}.  Problems
+(\ref{equation maximals})\textbf{(b)} and
+(\ref{equation maximals})\textbf{(c)} along
+with some other questions will be discussed in the last section.
+
+\medskip
+
+
+As is well known, problems on the logarithmic capacity of continua
+can be reformulated as problems about functions in the class $\Sigma'$ of univalent functions %
+\be  \label{equation Sigma} %
+f(z)=z^{-1}+a_0+a_1z+\cdots, %
+\ee  %
+which are analytic in the unit disk $\mathbb{D}$, except for a
+simple pole at $z=0$. For $f$ in $\Sigma'$, define
+$E_f=\overline{\mathbb{C}}\setminus f(\mathbb{D})$ and define 
+$\Sigma'_0=\{f\in \Sigma':\,0\in E_f\}$.
+
+\smallskip
+
+We will solve problem (\ref{equation maximals})\textbf{(a)} by
+solving its reformulated dual problem for the class $\Sigma'_0$. 
+There is a technical advantage in shifting to the dual problem in that 
+the analytical and constructional difficulties which surround the dual 
+problem are more tractable than those in the original setting. The 
+precise formulation of the dual of the
+maximal draft problem (\ref{equation maximals})\textbf{(a)} is the
+following problem on the maximal omitted area for the class
+$\Sigma'_0$.
+For any given real $h$ such that $0<h<4$, find  %
+\be  \label{equation dual} %
+A(h):=\max \Area (E_f\cap \{w:\,\Re\,w>h\}),  %
+\ee  %
+where the maximum is taken over all $f$ in $\Sigma'_0$, and find all
+functions $f$ in $\Sigma'_0$ extremal for (\ref{equation dual}).
+Thus, the question is, for any given $h$, such that $0<h<4$, to maximize the area
+omitted by the functions $f$ in $\Sigma'_0$ in the half-plane
+$\mathbb{H}_h:=\{w:\,\Re w>h\}$.
+
+We note here that our parameter $h$, which is equal to
+the horizontal distance from $w=0$ to the half-plane
+$\mathbb{H}_h$, gives as well the value of the maximal draft of
+icebergs with visible area $A=A(h)$. In addition, in Corollary~\ref{Corollary
+1} (below) we show that the extremal configuration for problem 
+(\ref{equation maximals})\textbf{(a)} coincides with the extremal 
+configuration for problem (\ref{equation dual}) up to rotation and translation.
+
+For convenience we define $A_f(h) = \Area (E_f\cap \mathbb{H}_h)$.
+The maximal omitted area problem (\ref{equation dual})  is solved by the
+  following  theorem. %
+
+
+\bt \label{Theorem 1}  %
+Let $h$ satisfy $0<h<4$ and let $f$ belong to $\Sigma'_0$. Then, %
+\be \label{equation Thm1-A}  %
+A_f(h) \le \pi \beta^2 - 2\beta hr(1-r^2)
+\int_{\tau}^1
+\left(\frac{t(1-t^2)\sqrt{1-\tau^2t^2}}{(r^2+t^2)^2\sqrt{t^2-\tau^2}}-
+\frac{(1-t^2)\sqrt{t^2-\tau^2} }{t(1+r^2t^2)^2\sqrt{1-\tau^2
+t^2}}\right)\, dt,
+\ee  %
+where $r=r(h)$ is the solution to the equation  %
+\be \label{equation Thm1-B}  %
+h = 2\beta r(1-r^2) \int_0^{\tau} \frac{t(1-t^2)\sqrt{1-\tau^2
+t^2} }{(r^2+t^2)^2\sqrt{\tau^2-t^2} }\, dt,
+\ee  %
+which is unique for $0 < r < 1$ and where %
+\be \label{equation Thm1-C}  %
+\tau = \sqrt{\frac{(1+r^2)\sqrt{2 - 2r^2 + r^4} - (1+r^4)}{1+3r^2}}  %
+\ee  %
+and %
+\be  \label{equation Thm1-D} %
+\beta = \frac{4r\sqrt{r^2 + \tau^2)}}{ (1 + r^2)^2  \sqrt{1 +
+\tau^2 r^2)} }.  %
+\ee  %
+
+Equality occurs in (\ref{equation Thm1-A}) if and only if
+$f=f_{h}$ with $f_h(z)=F(\psi_r^{-1}(z))$ with $r$ defined by (\ref{equation Thm1-B}), where %
+\be  \label{equation Thm1-E}  %
+z = \psi_r(s) = \frac{ (1-r^2)s - r(1-s^2)}{(1-r^2)s + r(1-s^2)},
+\quad \quad s\in \mathbb{D}_+:=\{s\in \mathbb{D}:\, \Re\,s>0\},  %
+\ee  %
+maps the semidisk  \, ${\mathbb{D}}_+$ conformally onto the unit
+disk
+$\mathbb D$ and %
+\be   \label{equation Thm1-F}   %
+F(s) = -2\beta r(1-r^2)\int_0^s \frac{t(t^2+1)\sqrt{1+\tau^2
+t^2}}{(t^2-r^2)^2\sqrt{t^2+\tau^2}}\,dt  %
+\ee  %
+ with the principal branches of the radicals and
+ with $\tau$ and $\beta$ defined by (\ref{equation Thm1-C}) and (\ref{equation Thm1-D}).
+\et  %
+
+\smallskip
+
+Theorem~\ref{Theorem 1} shows that the maximal omitted area $A(h)$
+is given by the explicit expression in the right-hand side of
+(\ref{equation Thm1-A}) with $r$, $\tau$, and $\beta$ defined by
+(\ref{equation Thm1-B}), (\ref{equation Thm1-C}), and (\ref{equation Thm1-D}),
+respectively. Its graph shown in Figure~\ref{Figure_Extremal_Area}
+suggests, and we will prove this in Lemma~\ref{Lemma 2.1} in
+Section~\ref{Section 2}, that $A(h)$ strictly decreases from $\pi$
+to $0$ as $h$ runs from $0$ to $4$. Therefore, the inverse,
+$h=\Psi(A)$, of the function $A(h)$ is well defined on $0\le A\le
+\pi$.
+
+\bc \label{Corollary 1} %
+If $E\in {\mathcal{F}}$ has the visible area $A$, $0<A<\pi$, i.e.
+if $\Area (E_+)=A$, then the draft of $E$ is restricted by  %
+\be \label{equation Cor1}   %
+H(E)\le \Psi(A), %
+\ee  %
+where the function $\Psi$ is defined above.
+
+Equality occurs in (\ref{equation Cor1}) if and only if $E$
+coincides with the continuum $i(E_{f_h}-h)$, where $h=\Psi(A)$ 
+and $f_h$ is given in Theorem~\ref{Theorem 1}, up to a horizontal drift.  %
+\ec%
+
+\smallskip
+
+
+The extremal shapes $E(h)=E_{f_h}$ for some typical values of $h$
+are displayed in Figure~\ref{Figure_Extremal_Shapes}. As in
+previous works on this subject (see \cite{AShS1}-\cite{BS}) the
+boundary $\partial E(h)$ consists of the so-called {\it free
+boundary} $L_{fr}$ that is an open Jordan arc in $\mathbb{H}_h$
+having its ends at the points $h\pm ia$ for some $a$, where $0<a<4$ and the
+{\it non-free boundary} $L_{nf}$, which consists of a horizontal
+segment $[0,h]$ and two vertical segments $[h,h+ia]$ and
+$[h,h-ia]$, see Figure~\ref{Figure_Extremal_Shapes}. The precise
+definitions will be postponed until Section~\ref{Section 2}.
+
+
+
+
+\begin{figure}
+$$\includegraphics[scale=.4,angle=-90]{graph-of-area-of-h-alt} $$
+\caption{Maximal omitted area $A(h)$.}
+\label{Figure_Extremal_Area}
+\end{figure}
+
+\smallskip
+
+
+The function $z=\psi(s)$ defined by (\ref{equation Thm1-E}) with
+$0<r<1$ maps the semidisk $\mathbb{D}_+$ conformally onto
+$\mathbb{D}$ such that $\psi(r)=0$. This reveals the role of the
+parameter $r$. The parameters $\tau$ and $\beta$ defined by
+(\ref{equation Thm1-C}) and (\ref{equation Thm1-D}) also have
+special meanings. Namely, the function $F(s)$ maps the segments
+$[-i,-i\tau]$ and $[i\tau,i]$ onto the vertical segments of the
+boundary of the corresponding extremal configuration, see
+Figure~\ref{Figure_Extremal_Shapes}. In addition, we will prove in
+Section~\ref{Section 2} for an extremal function $f_h$ that
+$|f'_h(e^{i\theta})|=\beta$ for all $e^{i\theta}$ in the free arc
+$l_{fr}=f_h^{-1}(L_{fr})$.
+
+\smallskip
+
+To prove Theorem~\ref{Theorem 1}, we apply techniques developed in
+\cite{BS}, \cite{BPS1}, and \cite{BRS1}. These techniques use
+symmetrization-type transformations to prove some a priori
+smoothness of the boundary, which in turn allows us to apply
+Julia-type local variations to find boundary values of the
+extremal function. To show that the extremal function can be
+recovered from its boundary values and is unique for every $h$, we
+prove in Section~\ref{Section 4} several monotonicity lemmas. In
+each case, we use a Sturm sequence argument as an essential tool
+in our proofs.
+
+We want to mention two other alternative methods, which may work
+in the omitted area problems studied in this paper. The first
+method is based on the Alt-Caffarelli variational technique which
+was developed by J.~Lewis in \cite{L}. His approach does not
+require any a priori smoothness and has been found to be very
+efficient for omitted area problems, see \cite{L} and \cite{BL}.
+The second approach, which was applied in \cite{AShS2} and
+\cite{BRS2}, uses Steiner symmetrization to reduce the problem to
+the class of typically-real functions. Then, the well-known
+integral representation for this class could be used to characterize
+the extremal functions.
+
+
+\section{Extremal configurations and functions} \label{Section 2}%
+\setcounter{equation}{0}%
+
+In this section, we collect preliminary results about existence
+and geometric properties of extremal functions and configurations.  For notational
+convenience, we define $\DD_r(w) = \{z : |z-w|<r \}$, with $\DD_r = \DD_r(0)$, and 
+$l_x = \{z : \Re \,z=x \}$; that is, $\DD_r(w)$ is the disk centered at $w$ of radius $r$
+and $l_x$ is the vertical line through the point $x$ on the real axis.
+
+\bl \label{Lemma 2.1}  %
+\textbf{(a)} For every $h$, where $0\le h\le 4$, there exists $f$ in
+$\Sigma'_0$ such that $A_f(h)=A(h)$. In addition, $A(h)$ is
+continuous and strictly decreasing in  $0\le h\le 4$.
+
+\textbf{(b)} If $f$ is extremal for $A(h)$, then
+$E_f=\mathbb{C}\setminus f(\mathbb{D})$ possesses Steiner symmetry
+with respect to $\mathbb{R}$ and circular symmetry with respect to the ray
+$\mathbb{R}_0 := \{z : \Re\,z \ge 0 \}$.
+
+\textbf{(c)} For $0<h<4$, the boundary $\partial E_f$ consists of
+a free boundary $L_{fr}$ and non-free boundary $L_{nf}$. The
+non-free boundary $L_{nf}$ consists of a horizontal segment
+$I(h)=[0,h]$ and two vertical segments (possibly degenerate)
+$v_f^+=[h,h+ia_f]$ and $v_f^-=[h,h-ia_f]$ with some $0\le a_f<4$
+depending on $f$.
+
+The free boundary $L_{fr}$ is an open Jordan rectifiable arc
+in $\mathbb{H}_h$ joining the points $h\pm ia_f$.  %
+In addition, $\hat L=L_{fr}\cup [-ia_f,ia_f]$ is a closed Jordan
+curve that satisfies the following Lavrent'ev condition:
+\be \label{equation Lem1} %
+{\rm{length}}(J(w_1,w_2))\le C|w_1-w_2| \quad \quad {\mbox{for
+$w_1,w_2$ in $\hat L$,}} %
+\ee  %
+where $C$ is a constant independent of $w_1,w_2$ and $J(w_1,w_2)$
+denotes the shortest arc of $\hat L$ between $w_1$ and $w_2$.
+\el  %
+
+
+{\it Proof.}  {\textbf{(a)} Since the omitted area functional
+$A_f(h)$ is upper semi-continuous, the existence of an extremal
+function, at least one for each $h$, follows from the compactness
+of the class ${\Sigma'}_0$. Since $E_f\subset \{w:\,|w|\le 4\}$ for
+all $f$ in $\Sigma'_0$, a similar compactness argument easily implies
+the continuity of $A(h)$.
+
+Since for any given $f$ in $\Sigma'_0$, the area $A_f(h)$ does not
+increase in $0\le h\le 4$, the non-strict monotonicity of $A(h)$
+is obvious. Let $0\le h_1<h_2\le 4$. Then, it follows from the
+property of the free boundary in part \textbf{(c)}, which is
+proved below, that if $f$ is extremal for $A(h_2)$, then $f$ can
+not be extremal for $A(h_1)$. Therefore, $A(h)$ is strictly
+decreasing on $0\le h\le 4$.
+
+\textbf{(b)}  Symmetry properties can be established via a
+standard argument using appropriate Steiner and circular
+symmetrizations, cf. \cite{BS}, \cite{BPS1}, \cite{BRS1}.
+
+\textbf{(c)}  Symmetry properties of the extremal configurations
+together with the subordination principle, see \cite{H}, imply the
+assertion about the non-free boundary $L_{nf}$.
+
+To rule out the case that $L_{fr}$ consists of multiple arcs in
+$\mathbb{H}_h$ having their ends on the real axis, we apply
+polarization. For the definition and properties of this
+transformation the reader may consult \cite{D}, \cite{S},
+\cite{BS}.
+
+Let $f$ in $\Sigma'_0$ be an extremal for $A(h)$ and let
+$p=\max_{w\in E_f} \,\{\Re \,w\}$ and $p_h=(p+h)/2$. For real
+$\tau$, let $E_{f,\tau}^+=E_f\cap \overline{\mathbb{H}}_\tau$,
+$E_{f,\tau}^-=E_f\setminus \mathbb{H}_\tau$, and let
+$E_{f,\tau}^*$ denote the set symmetric to $E_{f,\tau}^+$ w.r.t.
+the vertical line $l_\tau=\{w:\,\Re \,w=\tau\}$. We claim that $E_f$
+satisfies the following polarization property (cf. \cite{BS}): %
+\be \label{equation polar} %
+E_{f,\tau}^*\subset E_{f,\tau}^- \quad \quad {\mbox{for all
+$\tau$ such that $p_h\le \tau<p$.  }} %
+\ee  %
+
+Indeed, if $E^*_{f,\tau}\not\subset E_{f,\tau}^-$ for some $\tau$,
+$p_h\le \tau<h$, then $\widehat{E}_{f,\tau}^p\not=E_f$, where
+$\widehat{E}_{f,\tau}^p$ denotes the polarization of $E_f$ into
+the half-plane $\mathbb{H}_h^-$. It is also obvious that
+$\widehat{E}_{f,\tau}^p$ is not a reflection of $E_f$ in the line
+$l_\tau$. Then, the principle of polarization implies the following strict inequality %
+$$ %\be \label{equation 2.3}  %
+\CAP\,(\widehat{E}_{f,\tau}^p)<\CAP E_f, %
+$$  %\ee  %
+which easily leads to a contradiction to our assumption that $f$
+is extremal for $A(h)$.
+
+Now the symmetry properties of $E_f$ when combined with the
+polarization property (\ref{equation polar}) show that $L_{fr}$ is
+an open Jordan arc in $\mathbb{H}_h$ joining the points $h\pm
+ia_f$ with some $0\le a_f<4$ depending on $f$.
+
+Next, since $E_f$ is bounded, Steiner symmetric w.r.t.
+$\mathbb{R}$, and circularly symmetric w.r.t. $\mathbb{R}_0$, the
+proof of Lemma~2.2 in \cite{BRS1} shows that $\hat L$ satisfies
+the Lavrent'ev condition (\ref{equation Lem1}). In particular,
+$\hat L$ and therefore $L_{fr}$ are rectifiable.  The proof of the
+lemma is complete. \hfill $\Box$
+
+\medskip
+
+
+\begin{figure}
+$$
+\includegraphics[scale=.375,angle=-90]{iceberg-h-0p4-alt}
+\includegraphics[scale=.375,angle=-90]{iceberg-h-1p5-alt}
+\includegraphics[scale=.375,angle=-90]{iceberg-h-3p0-alt}
+$$
+\caption{Extremal shapes $E(h)$.}
+\label{Figure_Extremal_Shapes}
+\end{figure}
+
+\medskip
+
+For $f$ in $\Sigma'_0$ which is extremal for $A(h)$, we define
+$l_{fr}=\{e^{i\theta}:\,|\theta|<\theta_1\}$ be the ``free arc'';
+that is, $l_{fr}$ is the preimage of $L_{fr}$ under the mapping
+$f$. Similarly, we define $l_v^\pm =f^{-1}(v_f^\pm)$ and $l_h^\pm
+=f^{-1}(I^\pm(h))$, where $I^+(h)$ and $I^-(h)$ denote,
+respectively, the upper part and the lower part of the segment
+$I(h)$. We also define $e^{\pm i\theta_1}=f^{-1}(h\pm ia_f)$ and $e^{\pm
+i\theta_2}=f^{-1}(h\pm i0)$. Also, we define $l_v = l_v^+ \cup l_v^-$
+and $l_h = l_h^+ \cup l_h^-$.
+
+\bl \label{Lemma 2.2} %
+For a given $h$, $0<h<4$, let $f$ in $\Sigma'_0$ be extremal for
+$A(h)$. Then, there exists a positive $\beta$ such that 
+
+\textbf{(a)} For every sufficiently small positive $\varepsilon$, $f'$ is
+bounded on the compact set
+$\overline{\mathbb{D}}\setminus\{\mathbb{D}_{\varepsilon}\cup
+\mathbb{D}_\varepsilon(e^{i\theta_2})\cup
+\mathbb{D}_\varepsilon(e^{-i\theta_2})\}$;
+
+\textbf{(b)} $|f'(z)|=\beta$ if $z\in l_{fr}$;
+
+\textbf{(c)} $|f'(e^{i\theta})|$ strictly increases from $\beta$
+to $\infty$ as $\theta$ runs from $\theta_1$ to $\theta_2$;
+
+\textbf{(d)} The vertical non-free boundary is not degenerate,
+i.e. $a_f>0$;
+
+\textbf{(e)} $|f'(z)|\to \beta$ as
+$z\to e^{i\theta_1}$ such that $z\in \overline{\mathbb{D}}$.  %
+\el  %
+
+\textit{Proof.} %
+\textbf{(a)} First we prove that $f'$ is bounded near $l_{fr}$. If
+not then there is $e^{i\theta_0}$ in $l_{fr}$ and a sequence $z_k\to
+e^{i\theta_0}$ such that $z_k\in \mathbb{D}$ for all $k$ in
+$\mathbb{N}$ and $f'(z_k)\to \infty$.
+
+Let $\varphi_k$ denote the conformal mapping from $\mathbb{D}$
+onto the domain $\mathbb{D}\setminus
+\overline{\mathbb{D}}_{\varepsilon_k}(z_k)$ with
+$\varepsilon_k=1-|z_k|$ normalized by $\varphi_k(0)=0$,
+$\varphi'_k(0)>0$ and define $f_k=\beta_k f \circ \varphi_k$ with
+$\beta_k=1-\pi^2\varepsilon^2_k/6$. One can easily verify (see,
+for example, Lemma~3.1 in \cite{BS}) that $f_k\in \Sigma'_0$.
+Since $0<h<4$ and  $\diam (E_{f_k})\le 4$ by the well-known
+Faber's
+inequality, an elementary geometric estimate gives %
+\be \label{equation Faber} %
+\Area (E_{f_k}\cap \mathbb{H}_h^-)\le 4\pi^2\varepsilon_k^2.  %
+\ee  %
+
+Using (\ref{equation Faber}) and the mean value property of the
+subharmonic function
+$|f'(z)|^2$, we can estimate the area $A_{f_k}(h)$ as follows:  %
+\begin{alignat}{10}  \label{equation AreaA} %
+A_{f_k}(h)&=&\beta_k^2\left(A_f(h)+ \Area
+(f(\mathbb{D}_{z_k}(\varepsilon_k)))\right)-\Area(E_{f_k}\cap\mathbb{H}_h^-)\
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \
+\\
+&\ge& \beta_k^2\left(A_f(h)+\pi \varepsilon^2_k|f'(z_k)|^2\right)-
+4\pi^2\varepsilon_k^2\ge
+A_f(h)+\left(\pi|f'(z_k)|^2-C\right)\varepsilon_k^2+o(\varepsilon_k^2),\nonumber%
+\end{alignat}  %
+with some constant $C>0$ independent of $f$. Since $f'(z_k)\to
+\infty$ as $k\to \infty$, (\ref{equation AreaA}) contradicts the
+extremality of $f$. Therefore, $f'$ is bounded near $l_{fr}$.
+
+\smallskip
+
+
+\textbf{(b)} First we show that $|f'(z)|$ is constant a.e.\ on
+$l_{fr}$. Since $L_{fr}$ is Jordan locally rectifiable, it follows
+that the
+non-zero finite limit %
+\be   \label{equation Lem2-b-1}   %
+f'(\zeta)=\lim_{z\to\zeta,z\in \overline{\mathbb{D}}}
+\frac{f(z)-f(\zeta)}{z-\zeta}\not= 0,\infty %
+\ee   %
+exists  a.e. on $l_{fr}$; see \cite[Theorem 6.8, Exercise
+6.4.5]{P}. Assume that %
+\be   \label{equation Lem2-b-2}%
+0<\beta_1=|f'(e^{i\nu_1})|<|f'(e^{i\nu_2})|=\beta_2<\infty  %
+\ee     %
+for $e^{i\nu_1}, e^{i\nu_2}\in l_{fr}$. Note that (\ref{equation
+Lem2-b-1}) and (\ref{equation Lem2-b-2}), combined with the fact
+that $f'$ is bounded near $l_{fr}$, allow us to apply the
+two-point variational formulas, see \cite[Lemma~10]{BS} or
+\cite[Lemma~5]{BPS1}. Namely, for fixed positive $k_1$, $k_2$ such
+that $ 0<k_1<1<k_2$ and $k_1\beta_1^{-1}>k_2\beta_2^{-1}$ and
+fixed $\varphi>0$ small enough, we consider the two-point
+variation $\tilde D$ of $D=f(\mathbb{D})$ centered at
+$w_1=f(e^{i\nu_1})$ and $w_2=f(e^{i\nu_2})$ with inclinations
+$\varphi$ and radii $\e_1=k_1 \e$, $\e_2=k_2 \e$, respectively;
+see \cite[Section~2]{BPS1}. Computing the change in the area by 
+\cite[formula (2.11)]{BPS1}, we find %
+\be \label{equation Lem2-b-3}%
+{\rm{Area}}\,(\mathbb{C}\setminus\tilde D)-
+{\rm{Area}}\,E_f=\frac{2\pi\varphi-\sin 2\pi\varphi}{2\sin^2
+\pi\varphi}\e^2(k_1^2-k_2^2)+o(\e^2)>0 %
+\ee   %
+for all $\e>0$ small enough. Similarly, applying  \cite[formula
+(2.10)]{BPS1}, we get  %
+\be \label{equation Lem2-b-4}  %
+\frac{\CAP(\mathbb{C}\setminus \tilde
+D)}{\CAP(E_f)}=\left[\frac{\varphi(2+\varphi)}{6(1+
+\varphi)^2}\frac{k_1^2}{\beta_1^2}-
+\frac{\varphi(2-\varphi)}{6(1-\varphi)^2}\frac{k_2^2}{\beta_2^2}\right]
+\e^2+o(\e^2)<0  %
+\ee   %
+for all $\e>0$ small enough and $\varphi$ chosen such that the
+expression in the brackets is positive.
+
+Inequalities (\ref{equation Lem2-b-3}) and (\ref{equation Lem2-b-4}) lead to
+a contradiction to the extremality of $f$ for $A(h)$, via a
+standard subordination argument.
+  Thus $|f'(e^{i\theta})|=\beta$ a.e.\  on $l_{fr}$ with some $\beta>0$.
+
+To prove that $|f'(e^{i\theta})|=\beta$ everywhere on $l_{fr}$, we consider the
+auxiliary conformal mapping %
+\be \label{equation 2.7}  %
+g=\varphi\circ f\circ k_\tau \quad \quad {\mbox{ with
+\ \ $\varphi(w)=1/(w-p_h)$,}}  %
+\ee  %
+ where $p_h$ is defined in the proof of
+Lemma~\ref{Lemma 2.1}, and with %
+$$  %\be \label{equation 2.4}  %
+k_\tau(\zeta)=k^{-1}(\tau k(\zeta)), \quad {\mbox{ where
+$k(\zeta)=\zeta/(1-\zeta)^2$ and $\tau=1/\sin^{2}(\theta_2/2)$.}}  %
+$$  %
+
+We note that $k_\tau$ maps the slit disk
+$\mathbb{D}'=\mathbb{D}\setminus[-1,-r_0]$, where
+$r_0=(\sqrt{\tau}-\sqrt{\tau-1})^2$, conformally and one-to-one
+onto $\mathbb{D}$ in such a way  that the radial slit is mapped
+onto the arc $l_h=\{e^{i\theta}:\,|\theta-\pi|\le \pi-\theta_2\}$.
+
+
+Let $D_g'=g(\mathbb{D}')$ and let $D_g=D'_g\cup
+((p_h-h)^{-1},-p_h^{-1}]$. By the Schwarz reflection principle,
+the function $g$ can be continued to a function, still denoted by
+$g$, which maps the whole disk $\mathbb{D}$ conformally and
+one-to-one onto $D_g$. It follows from Lemma~\ref{Lemma
+2.1}\textbf{(c)} that $D_g$ is a bounded Jordan domain, whose
+boundary satisfies the Lavrent'ev condition (\ref{equation Lem1})
+for some $C>0$. Therefore, $D_g$ is a Smirnov domain; see
+\cite[Sections~7.3, 7.4]{P}.
+Thus, $\log |g'|$ can be represented by the Poisson integral %
+\be  \label{equation Poisson}%
+\log |\varphi'(w)f'(z)k'_\tau(\zeta)|=\log|g'(\zeta)|=\frac{1}{2\pi}\int_0^{2\pi}P(r,\psi-t)%
+\log|g'(e^{it})|\, dt %
+\ee   %
+with boundary values defined a.e. on $\T$; see \cite[p. 155]{P}.
+Equation (\ref{equation Poisson}) easily implies that
+$$|g'(e^{i\psi})|=\beta |\varphi'(f(k_\tau(e^{i\psi}))||k'_\tau(e^{i\psi})|$$ 
+for all $e^{i\psi}$ such that $k_\tau(e^{i\psi})\in l_{fr}$ and therefore
+$|f'(e^{i\theta})|=\beta$ for all $e^{i\theta}\in l_{fr}$.  In
+addition, (\ref{equation Poisson}) implies that $\log f'$ is
+bounded on $\overline{\mathbb{D}}$ outside any neighborhoods of
+the points $z=0$, $z=-1$, and $z=e^{\pm i\theta_2}$.
+
+\smallskip
+
+
+
+\textbf{(c)} Since $E_f$ is Steiner symmetric w.r.t.\  $\R$, the
+strict monotonicity of $|f'|$ along $l_v^+$ follows from
+\cite[Lemma~4]{BS}. To prove that $|f'(e^{i\theta})|>\beta$ for
+all $e^{i\theta}\in l_v\setminus\{0\}$, we assume that
+$\beta=|f'(e^{i\nu_1})|>|f'(e^{i\nu_2})|=\beta_2$ with
+$e^{i\nu_1}\in l_{fr}$ and some $e^{i\nu_2}\in l_v^+$.  Then,
+applying the two-point variation as above, we get inequalities
+(\ref{equation Lem2-b-3}) and (\ref{equation Lem2-b-4}), contradicting the
+extremality of $f$ for $A(h)$, again via a subordination argument.
+Hence, $|f'(e^{i\theta})|\ge \beta$ for all $e^{i\theta}\in l_v$
+which, when combined with the strict monotonicity property of
+$|f'|$, leads to the strict inequality $|f'(e^{i\theta})|>\beta$
+for $e^{i\theta}\in l_v$.
+
+\smallskip
+
+\textbf{(d)} Assume that $a_f=0$. Then, $\theta_1=\theta_2$,
+$L_{nf}=I(h)$, and $\hat L=L_{fr}\cup \{h\}$. In addition,
+$|f'(e^{i\theta})|=\beta>0$ for all $e^{i\theta}\in l_{fr}$ by
+part~\textbf{(b)} of this proof.
+
+In the notation of part \textbf{(b)}, we consider the function
+$g=\varphi\circ f\circ k_\tau$ defined by (\ref{equation 2.7}),
+which maps $\mathbb{D}$ conformally onto the domain $D_g$. As we
+have mentioned above,
+ $\log |g'(\zeta)|$ can be represented
+by the Poisson integral (\ref{equation Poisson}).%
+
+Since $|k'_\tau(e^{i\psi})|\to 0$ as $\psi\to \pi$, it follows
+that
+$|g'(e^{i\psi})|=\beta|\varphi'(k_\tau(e^{i\psi}))||k'_\tau(e^{i\psi})|\to
+0$ as $\psi\to \pi$. Therefore, %
+\be \label{equation 2.5} %
+\log|g'(e^{i\psi})|\to -\infty \quad \quad {\mbox{as $\psi\to
+\pi$.}}  %
+\ee  %
+
+From  (\ref{equation Poisson}) and (\ref{equation 2.5}), using the
+well-known properties of the radial limits of the Poisson
+integral, we  obtain that %
+\be \label{equation 2.6} %
+\log|g'(-r)|\to -\infty \quad \quad {\mbox{as $r\to 1^-$.}}  %
+\ee  %
+
+
+
+Now we show that $g$ has a finite non-zero angular derivative at
+$\zeta=-1$. To do this, we construct two comparison functions
+$f_1$ and $f_2$. Let $f_1$ map $\mathbb{D}$ conformally onto the
+vertical strip $\{w:\,0<\Re\,w<h\}$ such that $f_1(0)=h/2$,
+$f_1(-1)=h$ and let $g_1=\varphi\circ f_1$. Then, of course,
+$g_1'(-1)$ exists and $g_1'(-1)\not=0,\infty$. Since $g_1(\mathbb{D})\subset
+g(\mathbb{D})$ and $g_1(-1)=g(-1)=1/(h-p_h)$, we can apply the
+comparison Theorem~4.14 in \cite{P} to conclude that $g$ has the
+angular
+derivative $g'(-1)$ and %
+\be  \label{equation Lem2-e-2} %
+|g'(-1)|=c_1|g'_1(-1)| \quad {\mbox{where $0\le c_1<\infty$.}}  %
+\ee  %
+
+Next we construct our second comparison function.  We define
+$K_{p_h}=E_f\cap \overline{\mathbb{H}}_{p_h}$ and $K^*_{p_h}$
+be the set symmetric to $K_{p_h}$ w.r.t. the vertical line
+$l_{p_h}$. Define $\Omega=\mathbb{C}\setminus\left(K_{p_h}\cup
+K^*_{p_h}\right)$, let $f_2$ map $\mathbb{D}$ conformally onto
+$\Omega$ such that $f_2(0)=\infty$, $f_2(-1)=h$, and let
+$g_2=\varphi\circ f_2$. Since the boundary $\partial \Omega$ is
+analytic in a vicinity of $w=h$, it follows that
+$g'_2(-1)$ exists and $g'_2(-1)\not=0,\infty$.
+
+It follows from equation (\ref{equation polar}) in the proof of
+Lemma~\ref{Lemma 2.1}\textbf{(c)} that $g(\mathbb{D})\subset
+g_2(\mathbb{D})$. Now, Theorem~4.14 in
+\cite{P} implies that %
+$$  %
+|g'_2(-1)|=c_2|g'(-1)| \quad {\mbox{where $0\le c_2<\infty$.}}  %
+$$  %
+
+
+This together with (\ref{equation Lem2-e-2}) shows that the finite
+non-zero angular derivative  $g'(-1)$ exists. Now Proposition~4.7
+\cite{P} implies that $g'(\zeta)$ has the finite
+angular limit $g'(-1)$ at $\zeta=-1$ where $g'(-1)\not 0$. In particular, %
+$$ %
+|g'(-r)|\to |g'(-1)|\not=0 \quad \quad {\mbox{as $r\to 1^-$}} %
+$$  %
+contradicting (\ref{equation 2.6}). This proves that
+$a_f>0$.
+
+
+\textbf{(e)} To show that $|f'|$ is continuous at $e^{\pm
+i\theta_1}$, we again use the function $g$ defined by
+(\ref{equation 2.7}). Using Theorem~4.14 in \cite{P} with $g_1$
+defined in part \textbf{(d)} of this proof as a comparison
+function, we conclude that the finite angular derivative
+$g'(k_\tau^{-1}(e^{i\theta_1}))$, and therefore the angular
+derivative $f'(e^{i\theta_1})$, exists finitely.
+
+By the reflection principle, $f$ can be continued analytically
+across $l_v^-$. By Lemma~\ref{Lemma 2.1}, $E_f$ is Steiner
+symmetric w.r.t. $\mathbb{R}$ and circularly symmetric w.r.t.
+$\mathbb{R}_0$. Using these facts it is not difficult to see that
+this analytic continuation, say $\tilde f$, of $f$ is univalent in
+the disk
+$U=\{z:\,|z-\varepsilon_0e^{i(\theta_1+\theta_2)/2)}|<\rho_0\}$
+for a sufficiently small positive $\varepsilon_0$ and
+$\rho_0=|e^{i\theta_1/2}-\varepsilon_0e^{i\theta_2/2}|$. By
+Proposition~4.9 \cite{P}, the function $\tilde f$ has the angular
+derivative ${\tilde f}'(e^{i\theta_1})$ at $z=e^{i\theta_1}$,
+which of course coincides with the angular derivative
+$f'(e^{i\theta_1})$.
+
+We have $l_v^-\subset U$. Since $|f'(e^{i\theta})|$ is monotone
+and greater than $\beta$ on $l_v^-$, it follows that
+$\lim_{\theta\to \theta_1^+}
+f'(e^{i\theta})=\beta_0e^{-i\theta_1}$ where
+$0 < \beta \le \beta_0$. Therefore,  %
+\be  \label{equation 2.8} %
+f'(z)\to \beta_0e^{-i\theta_1} \quad \quad {\mbox{as \ \ $z\to
+e^{i\theta_1}$}}  %
+\ee  %
+in any Stolz angle in $\mathbb{D}$ with the vertex at
+$e^{i\theta_1}$. To show that $\beta_0=\beta$, we use the Poisson
+integral (\ref{equation Poisson}). Let
+$\psi_1=\arg(k_\tau^{-1}(e^{i\theta_1}))$. If $\beta_0\not=\beta$,
+then the theorem about radial limits of the Poisson integral
+implies
+that %
+$$  %
+\lim_{r\to 1^-}\log|g'(re^{i\psi_1})|=\frac12\lim_{\varepsilon \to
+0}
+\log|g'(e^{i(\psi_1+\varepsilon)})g'(e^{i(\psi_1-\varepsilon)})|. %
+$$  %
+This implies that $|f'(k_\tau(re^{i\theta_1}))|\to
+\sqrt{\beta\beta_0}$ as $r\to 1^-$, which together with
+(\ref{equation 2.8}) shows that we must have $\beta_0=\beta$.
+
+Using the Poisson integral (\ref{equation Poisson}) once more, we
+conclude that $\log|g'(\zeta)|$ is continuous for $\zeta$ such
+that $|\zeta|\le 1$ and $|\zeta-k_\tau^{-1}(e^{i\theta_1})|$ is
+small enough. Since $g=\varphi\circ f\circ k_\tau$ and $\varphi$
+and $k_\tau$ are conformal in the corresponding domains the latter
+implies \textbf{(e)}.
+
+ The proof of Lemma~\ref{Lemma 2.2} is complete. \hfill  $\Box$
+
+
+
+
+
+
+\section{Closed form of the extremal functions and the proof of Theorem~\ref{Theorem 1}}
+\label{Section 3} %
+\setcounter{equation}{0}  %
+
+Lemmas \ref{Lemma 2.1} and \ref{Lemma 2.2} provide sufficient
+information to find a closed form of the function $f$ extremal for
+$A(h)$ when $0<h<4$. It is convenient to work in the
+auxiliary $s$-plane with $z=\psi_r(s)$ defined by (\ref{equation Thm1-E}).
+We note that this auxiliary mapping was already used in
+\cite{AShS2} to solve the minimal area $a_2$-problem for convex
+functions.
+
+The function $z=\psi_r(s)$ maps the semidisk ${\mathbb{D}}_+$
+conformally onto
+$\mathbb{D}$ such that %
+$$  %\be  \label{equation 3.1}  %
+\psi_r(r)=0,\quad \psi_r(i)=e^{i\theta(r)}, %
+$$  %\ee  %
+where %
+\be  \label{equation arcsin}  %
+\theta(r)=2\arcsin \frac{2r}{1+r^2}.  %
+\ee  %
+
+\bl \label{Lemma 3.1}  %
+Let $f$ be extremal for $A(h)$, $0<h<4$, and let
+$F_r(s)=f(\psi_r(s))$, $0<r<1$. Then, there are parameters $r,\tau,\beta$ where $0<r<1$, $0<\tau<1$, and $\beta>0$ such that  %
+\be  \label{equation Lem3} %
+F'_r(s)=-\frac{2\beta
+r(1-r^2)s(s^2+1)(1+\tau^2s^2)^{1/2}}{(s^2-r^2)^2(s^2+\tau^2)^{1/2}} %
+\ee  %
+with the principal branches of the radicals.  %
+\el  %
+
+\textit{Proof.} Let $\theta_1$ and $\theta_2$ be the angles
+defined for $f$ as in Section~\ref{Section 2}. Since $\theta(r)$
+defined by (\ref{equation arcsin}) strictly increases in $0<r<1$, its
+inverse, $r(\theta)$, is well defined. Choose $r=r(\theta_1)$. For
+this $r$, let $i\tau=\psi_r^{-1}(e^{i\theta_2})$. Then, $0<\tau<1$.
+By Lemma~\ref{Lemma 2.2}, there is a positive $\beta$ such that
+$|f'(e^{i\theta})|=\beta$ for all $|\theta|\le \theta_1$.
+
+Let $\Phi(s)=\Phi(s;r,\tau,\beta)$ denote the expression in the
+right-hand side of (\ref{equation Lem3}) considered as a function
+of $s\in \mathbb{D}_+$ for the values of $r$, $\tau$, and $\beta$
+chosen above.
+
+It follows from (\ref{equation Sigma}) and (\ref{equation Thm1-E})
+that the limit %
+\be  \label{equation limit}  %
+\lim_{s\to r}\left(F'_r(s)/\Phi(s)\right) =\frac{4r(r^2+\tau^2)^{1/2}}{\beta(1+r^2)^2(1+r^2\tau^2)^{1/2}} %
+\ee  %
+exists and is finite and non-zero.  Using (\ref{equation limit}) one
+can easily show that the function  %
+$$  %\be  \label{equation 3.6}  %
+g(s)=u(s)+iv(s):=\log\left(F'_r(s)/\Phi(s)\right)  %
+$$  %\ee  %
+is analytic and single-valued on $\mathbb{D}_+$.
+
+It follows from Lemma~\ref{Lemma 2.1} and the definition of $\Phi(s)$
+that $g(s)$ takes real values on the vertical diameter $[-i,i]$
+except its three singularities at the points $s=0$, $s=i\tau$, and
+$s=-i\tau$. By the Schwarz reflection principle, $g(s)$ can be
+continued as an analytic multi-valued function in the punctured
+disk $\mathbb{D}'=\mathbb{D}\setminus\{0,\pm i\tau\}$.
+
+To analyze the nature of the multi-valuedness of $g$, we compute the
+periods $\omega_0$, $\omega_1$, and $\omega_{-1}$ of $g$ at the
+singularities $s=0$, $s=i\tau$, and $s=-i\tau$, respectively.
+
+Since $F_r(s)$ maps the segments $[-i\tau,0]$ and $[0,i\tau]$, each
+one-to-one onto the horizontal segment $[0,h]$, it follows that
+$F_r(s)$ is analytic near $s=0$ and its Taylor expansion at $s=0$
+has the form $F_r(s)=Cs^2+\cdots$ where $C\not=0$. Then, we
+have  %
+$$  %
+\frac{F''_r(s)}{F'_r(s)}=\frac1s +{\mbox{non-negative powers of
+$s$.}}  %
+$$  %
+Using this, we easily find that %
+$$  %\be  \label{equation 3.7}  %
+\omega_0=\int_{|s|=\varepsilon}dg(s)=\int_{|s|=\varepsilon}
+\left(\frac{F''_r(s)}{F'_r(s)}-\frac{\Phi'(s)}{\Phi(s)}\right)\,ds=0  %
+$$  %\ee  %
+for all sufficiently small positive $\varepsilon$.  Similarly, we find %
+$$  %\be  \label{equation 3.8}  %
+\omega_1=\int_{|s-i\tau|=\varepsilon}dg(s)=\int_{|s-i\tau|=\varepsilon}
+\left(\frac{F''_r(s)}{F'_r(s)}-\frac{\Phi'(s)}{\Phi(s)}\right)\,ds=0.  %
+$$  %\ee  %
+By symmetry, we also have $\omega_{-1}=0$.
+
+Since all periods of $g$ are zero, the function $g(s)$ is analytic
+and single-valued on $\mathbb{D}$.
+
+\smallskip
+
+We claim that $u(s):=\Re\,g(s)\equiv 0$ on $\mathbb{D}$. To prove
+this, we test the boundary values of $u$. For $s=e^{it}$ with
+$|t|< \pi/2$, using Lemma~\ref{Lemma 2.2}\textbf{(b)} and
+(\ref{equation Thm1-E}) we compute %
+$$  %
+|F'_r(s)|=2\beta r(1-r^2)
+\frac{|s^2+1|}{|s^2-r^2|^2}=|\Phi(s)|,  %
+$$  %
+which shows that $u(e^{it})=0$ for $|t|< \pi/2$. By
+Lemma~\ref{Lemma 2.2}\textbf{(e)}, $|f'(z)|\to  \beta$ as $z\to
+e^{i\theta_1}$. Using the explicit expressions for $\psi_r$ and
+$\Phi$, see (\ref{equation Thm1-E}) and (\ref{equation Lem3}), we
+easily find that $|F'_r(s)/\Phi(s)|\to 1$ as $s\to i$. Thus, $u$
+has  boundary value $0$ at $s=i$. By symmetry, $u(e^{it})=0$
+everywhere on $\mathbb{T}$.
+
+Since $u$ is harmonic in $\mathbb{D}$ and continuous on
+$\overline{\mathbb{D}}$, the maximum principle implies that
+$u(s)\equiv 0$ on $\mathbb{D}$.  Then, of course, $g(s)$ is
+constant on $\mathbb{D}$, and this constant has the value $0$
+since $\Im\,g(r)=0$ by (\ref{equation limit}). This proves the
+lemma. \hfill $\Box$
+
+
+\smallskip
+
+Using the closed form (\ref{equation Lem3}) combined with some
+computational results, the proofs of which are postponed until
+Section~\ref{Section 4}, we can prove our main theorem.
+
+
+\smallskip
+
+\textit{Proof of Theorem~\ref{Theorem 1}.} If $0<h<4$, let $f$
+be an extremal function for $A(h)$, which exists by
+Lemma~\ref{Lemma 2.1}. Let $F_r(s)=f(\psi_r(s))$ be defined as in
+Lemma~\ref{Lemma 3.1}. Then, $F'_r(s)$ has the form (\ref{equation Lem3}).
+
+We claim that there is a unique set of parameters $r=r(h)$,
+$\tau=\tau(h)$, and $\beta=\beta(h)$, for which the function
+$f_h(z)=F_r(\psi_r^{-1}(z))$, with $F_r(s)$ defined by
+(\ref{equation Lem3}), is  in $\Sigma'_0$. Then, of course, $f_h$
+will be the unique extremal for $A(h)$.
+
+Expanding (\ref{equation Lem3}) into a Laurent series at $s=r$, we
+obtain  %
+$$  %\be  \label{equation 3.9}  %
+F'_r(s)= \frac{A_{-2}}{(s-r)^2}+\frac{A_{-1}}{s-r}+A_0+{\mbox{positive powers of $(s-r)$,}} %
+$$  %\ee    %
+where  %
+\be  \label{equation Laurent coef} %
+A_{-2}=-\frac{\beta(1-r^4)(1+r^2\tau^2)^{1/2}}{2(r^2+\tau^2)^{1/2}} %
+\ee  %
+and  %
+$$  %\be  \label{equation 3.11} %
+A_{-1}=-\frac{\beta
+r(1-r^2)((1+3r^2)\tau^4+2(1+r^4)\tau^2-(1-r^2))}{2(r^2+\tau^2)^{3/2}(1+r^2\tau^2)^{1/2}}.  %
+$$  %\ee  %
+
+Since $F_r(s)$ is a single-valued function in $\mathbb{D}_+$, we
+must have $A_{-1}=0$. This gives %
+$$   %\be  \label{equation 5.6} %
+\tau=\sqrt{\frac{(1+r^2)\sqrt{2-2r^2+r^4}-(1+r^4)}{1+3r^2}}, %
+$$  %\ee  %
+which is equation (\ref{equation Thm1-C}) of Theorem~\ref{Theorem
+1}.
+
+To find $\beta$, we use the normalization $\lim_{z\to
+0}(-z^2f'(z))=1$. Then, using (\ref{equation Thm1-E}) and (\ref{equation Laurent coef}), we obtain %
+$$  %\be \label{equation 5.7} %
+1=\lim_{s\to
+r}\left(-\psi_r^2(s)\frac{F'(s)}{\psi'_r(s)}\right)=\lim_{s\to
+r}\left(\frac{\beta(s-r)^2(1+r^2)^2(1+\tau^2s^2)^{1/2}}{4r^2(s-r)^2(s^2+\tau^2)^{1/2}}\right).  %
+$$  %\ee  %
+From this we find %
+$$  %
+\beta=\frac{4r(r^2+\tau^2)^{1/2}}{(1+r^2)^2(1+r^2\tau^2)^{1/2}},  %
+$$   %
+which is equation (\ref{equation Thm1-D}) of Theorem~\ref{Theorem
+1}.
+
+
+
+Next, using conditions  $f(e^{i\theta_2})=F_r(i\tau)=h$, we can
+find an equation that links $r$ and $h$: %
+$$  %
+h=\int_0^{i\tau}F'(s)\,ds=2\beta r(1-r^2)\int_0^\tau
+\frac{t(1-t^2)(1-\tau^2t^2)^{1/2}}{(t^2+r^2)^2(\tau^2-t^2)^{1/2}}\,dt,  %
+$$  %
+which is equation (\ref{equation Thm1-B}) of Theorem~\ref{Theorem 1}.
+
+Let $h(r)$ denote the right-hand side of (\ref{equation Thm1-B})
+with $\tau$ and $\beta$ considered as functions of $r$ defined by
+(\ref{equation Thm1-C}) and (\ref{equation Thm1-D}). In
+Lemma~\ref{Lemma h} in Section~\ref{Section 4}, we will show that
+$h(r)$ strictly decreases from $4$ to $0$ as $r$ runs from $0$ to
+$1$. Therefore, for every $h$, such that $0<h<4$, (\ref{equation Thm1-B}) has a
+unique solution $r=r(h)$ whenever $0<r<1$.
+
+Thus, we have proven that for every $0<h<4$, there is a unique
+function $f_h$ in $\Sigma'_0$ extremal for $A(h)$. In addition, we
+have shown that the derivative
+$F'_r(s)=f'_h(\psi_r(s))\psi'_r(s)$, where $r=r(h)$ is defined by
+(\ref{equation Thm1-B}), is given by (\ref{equation Lem3}).
+Integrating (\ref{equation Lem3}), we obtain (\ref{equation Thm1-F}).
+
+To complete the proof of Theorem~\ref{Theorem 1}, we have to find
+the maximal omitted area $A(h)$. This calculation will be given in
+Lemma~\ref{Lemma 4.1} below.  \hfill $\Box$
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Area functional and monotonicity lemmas} \label{Section 4}
+
+\setcounter{equation}{0} %
+
+\bl  \label{Lemma 4.1} For $0<h<4$, the maximal omitted area $A(h)$ is given by %
+\be \label{equation A(h)}  %
+A(h) = \pi \beta^2 - 2\beta hr(1-r^2) \int_{\tau}^1
+\left(\frac{t(1-t^2)\sqrt{1-\tau^2t^2}}{(r^2+t^2)^2\sqrt{t^2-\tau^2}}-
+\frac{(1-t^2)\sqrt{t^2-\tau^2} }{t(1+r^2t^2)^2\sqrt{1-\tau^2
+t^2}}\right)\, dt
+\ee  %
+with $r$, $\tau$, and $\beta$ defined in Theorem~\ref{Theorem 1}.
+\el %
+
+{\textit{Proof.}} Let $f$ be extremal for $A(h)$ and let $F_r(s)$
+with $r=r(h)$ be defined for $f$ as in Lemma~\ref{Lemma 3.1}.
+Applying the standard line integral formula for the area, we find  %
+$$  %\be  \label{equation a} %
+A(h)=\frac12 \Im\,\int_{\partial E_f} \bar w\,dw =\frac12 \Im\,
+\int_{h+ai}^{h-ai}\bar w\,dw +\frac12 \Im\, \int_{L_{fr}}\bar
+w\,dw
+ = -ha + \frac12 \Im\, \int_{L_{fr}}\bar w\,dw ,
+$$  %\ee  %
+ where %
+\be  \label{equation a}  %$$  %
+a=\Im f(e^{i\theta_1})=\Im\, \int_{i\tau}^i F'_r(s)\, ds = \beta
+r(1-r^2) \int_{\tau}^1 \frac{2t(1-t^2)\sqrt{1-\tau^2 t^2
+}}{(t^2+r^2)^2\sqrt{t^2-\tau^2 }} \, dt.  %
+\ee  %$$  %
+Now, taking the condition $|f'(z)|=\beta$ for $z\in l_{fr}$ into
+account, we find the integral over the free boundary:
+\begin{eqnarray*}
+\frac12 \Im\, \int_{L_{fr}}\bar w\,dw &=& \frac12 \Re
+\int_{\theta_1}^{-\theta_1} f(e^{i\theta})e^{-i\theta}
+{\overline{f'(e^{i\theta})}}\,d\theta = \frac{\beta^2}{2}
+\Re\,\int _{\theta_1}^{-\theta_1}\frac{f(e^{i\theta})e^{i\theta}}{e^{2i\theta}f'(e^{i\theta})}\,d\theta \\
+  &=& -\frac{\beta^2}{2} \Im\int_{\T}\frac{f(z)}{z^2 f'(z)}\,dz+
+%  2\beta^2 h \int_{\theta_1}^{2\pi-\theta_1}\frac{d\theta}{|f'(e^{i\theta})|} \\
+   \frac{\beta^2}{2}\Re\,\int_{\theta_1}^{2\pi-\theta_1} \frac{f(e^{i\theta})}{e^{i\theta}f'(e^{i\theta})}d\theta \\
+ &=& -\frac{\beta^2}{2} \Im \,{\rm{Res}}\,\left[ \frac{f(z)}{z^2f'(z)},0 \right] +
+ \beta^2 h \int_{\theta_1}^{\theta_2}\frac{d\theta}{|f'(e^{i\theta})|} \\
+ &=& \pi \beta^2 + \beta^2 h \int_{\theta_1}^{\theta_2}\frac{d\theta}{|f'(e^{i\theta})|}.
+\end{eqnarray*}
+To find
+$\int_{\theta_1}^{\theta_2}|f'(e^{i\theta})|^{-1}\,d\theta$, we
+change variables via $z=\psi_r(s)$ to obtain %
+$$  %\be \label{equation 4.4}
+\int_{\theta_1}^{\theta_2}\frac{d\theta}{|f'(e^{i\theta})|} =
+\int_{\tau}^1 \frac{|\psi'(it)|^2}{|F'(it)|} \,  dt =
+\frac{2r(1-r^2)}{\beta}\int_{\tau}^1 \frac{t(1-t^2)\sqrt{1-\tau^2
+t^2 }}{(t^2+r^2)^2\sqrt{t^2-\tau^2 }} \, dt.  %
+$$  %\ee   %
+Combining all of these calculations we obtain (\ref{equation A(h)}). \hfill $\Box$
+
+\smallskip
+
+ After integration, an explicit formulation for the maximal
+omitted area $A(h)$ can be expressed as a function of
+$r$ that is a complicated combination of polynomials, square
+roots, and logarithms. Although explicit, this form does not give
+us any computational advantages. In contrast, to prove the
+monotonicity of the function $h(r)$ defined by (\ref{equation
+Thm1-B}), it is useful to express the integral in (\ref{equation
+Thm1-B}) in terms of elementary functions. The graph of $h(r)$ is shown in
+Figure~\ref{Figure_h_and_a}.
+
+
+
+\begin{figure}
+$$
+\includegraphics[scale=.35,angle=-90]{graph-of-h-alt}
+\includegraphics[scale=.35,angle=-90]{graph-of-a-alt}
+$$
+\caption{Functions $h(r)$ and $a(r)$.}
+\label{Figure_h_and_a}
+\end{figure}
+
+\medskip
+
+
+Changing the variables via $t^2 = \tau^2x$, we can rewrite
+(\ref{equation Thm1-B}) as %
+$$  %
+h=\beta r(1-r^2)\tau \int_0^1
+\frac{(1-\tau^2x)(1-\tau^4x)}{(r^2+\tau^2x)^2}
+\frac{dx}{\sqrt{(1-x)(1-\tau^4x)}}.
+$$  %
+Expanding the rational function in the integrand into partial
+fractions and then integrating, yields the following explicit
+representation for $h=h(r)$ as a function of $r$: %
+\be  \label{equation h(r)} %
+h(r)=\frac{4(1-r^2)\left(P(1+r^2)-(1+r^4)\right)^{1/2}\left(1+3r^2+r^2(P-1+2r^2)Q\right)}{(1+r^2)^2(1+3r^2)^{1/2}
+(P-1+2r^2)^{1/2}\left(r^2(P+1)+1-r^4\right)^{1/2}},  %
+\ee  %
+ where  %
+ \be  \label{equation P and Q} %
+ P=(2-2r^2+r^4)^{1/2} \quad {\mbox{and}} \quad Q=\log\frac{P(1+r^2)+r^2(3-r^2)}{(1+r^2)(2-P+r^2)}.  %
+ \ee  %
+
+\bl  \label{Lemma h} %
+ The function $h=h(r)$  defined by (\ref{equation h(r)}) strictly decreases from $4$ to $0$
+ as $r$ runs from $0$ to $1$.%
+\el  %
+
+\textit{Proof.} %
+ Differentiating (\ref{equation h(r)}), we find  %
+$$  %
+h'(r) = \frac{-16r(1-r^2)\left((c_0 + c_1P)+ (d_0 +
+d_1P)Q\right)}{D},  %
+$$  %
+where  %
+\begin{eqnarray*}
+c_0 &=&  -96r^{22}+184r^{20}+144r^{18}-318r^{16}-228r^{14}+220r^{12}+296r^{10}\\
+    &+& 868r^8-436r^6+84r^4+64r^2-14,\\
+c_1 &=& 96r^{20}-88r^{18}-280r^{16}\\
+    &+& 34r^{14}+410r^{12}+334r^{10}-50r^8+398r^6-58r^4-38r^2+10,\\
+d_0 &=&  -32r^{24}+72r^{22}+16r^{20}-124r^{18}-11r^{16}+127r^{14}+1703r^{12}\\
+    &-& 3889r^{10}+4041r^8-1475r^6-347r^4+361r^2-58,\\
+d_1 &=& 32r^{22}-40r^{20}-72r^{18}+56r^{16}+111r^{14}+3r^{12}\\
+    &+&1535r^{10}-2293r^8+1125r^6+121r^4-235r^2+41, %
+\end{eqnarray*}  %
+and %
+\begin{eqnarray*} %
+ D &=&(1+r^2)^3(1+3r^2)^{3/2}P(2-P+r^2)(P(1+r^2)+r^2(3-r^2))\\ %
+ &\times&
+ (P-1+2r^2)^{5/2}(P(1+r^2)-1-r^4)^{1/2}(r^2(P+1-r^2)+1)^{3/2}. %
+ \end{eqnarray*}  %
+
+It is easily seen that $D$ is non-negative.  Hence, to show that
+$h(r)$ decreases monotonically, it suffices to show that $g=g(r):=
+(c_0 + c_1P)+ (d_0 + d_1P)Q$ is non-negative for $0<r<1$.
+
+We will show in Lemma \ref{Lemma Q} below that $0 < Q < 1$ for $0
+< r < 1$.  Hence, to show that $g(r)$ is non-negative on $0<r<1$,
+it will suffice, in view of the linearity of $g$ in $Q$, to show that
+$$  %
+g_0 = (c_0 + c_1P)+ (d_0 + d_1P) \cdot 0 \quad {\mbox{and}}  \quad
+g_1 = (c_0 + c_1P)+ (d_0 + d_1P) \cdot 1  %
+$$  %
+are non-negative for $0<r<1$.  By Lemma \ref{Lemma P} below, we
+have $s < P < t$, where %
+\be  \label{equation 4.11}%
+s =
+\frac{19}{50}r^3-\frac{9}{10}r^2+\frac{1}{125}r+\frac{2827}{2000}
+\quad {\mbox{and}} \quad  t =
+\frac{9}{25}r^3-\frac{39}{50}r^2+\frac{1}{100}r+\frac{2829}{2000}. %
+\ee %
+ Hence, since $g_0$ and $g_1$ are linear in $P$, then we have %
+$$  %
+\min\{c_0+c_1s,c_0+c_1t\}\le g_0\le \max\{c_0+c_1s,c_0+c_1t\}  %
+$$  %
+and %
+$$  %
+\min\{c_0+d_0+(c_1+d_1)s,c_0+d_0+(c_1+d_1)t\}\le g_1\le
+\max\{c_0+d_0+(c_1+d_1)s,c_0+d_0+(c_1+d_1)t\}.  %
+$$  %
+
+
+
+Since all the comparison expressions in these formulas are
+polynomials in $r$ with rational coefficients, we can apply
+ a Sturm sequence argument, see Chapter 5 of \cite{J}.
+ This easily implies that $c_0+c_1s$, $c_0+c_1t$, $c_0+d_0+(c_1+d_1)s$, and $c_0+d_0+(c_1+d_1)t$
+ % $ {g_0}_{\bigl |_{Z=s}}, \ {g_0}_{\bigl |_{Z=t}}, \ {g_1}_{\bigl |_{Z=s}}, \ {g_1}_{\bigl |_{Z=t}}  $
+ are all non-negative for $0 \le r \le 1$. The proof is complete.  \hfill  $\Box$  %
+
+
+\bl \label{Lemma P} %
+Let $P$ be defined by (\ref{equation P and Q}) and let $s$ and $t$ be
+defined by (\ref{equation 4.11}). Then, $s < P < t$ for $0 < r < 1$. %
+\el  %
+
+\textit{Proof.}  It suffices to show that $s^2 < P^2 < t^2$ for $0
+< r < 1$.  We have %
+$$   %\begin{eqnarray*}
+P^2 - s^2 =  r^4 - 2r^2 + 2-
+\left(\frac{19}{50}r^3-\frac{9}{10}r^2+\frac{1}{125}r+\frac{2827}{2000}\right)^2  %
+$$  %
+and %
+$$  %
+ t^2 - P^2 =
+\left(\frac{9}{25}r^3-\frac{39}{50}r^2+\frac{1}{100}r+\frac{2829}{2000}\right)^2-r^4+2r^2-2. %
+$$   %\end{eqnarray*}
+Using a Sturm sequence argument, we can easily see that both $P^2
+- s^2$ and $t^2 - P^2$ are non-negative for $0 < r < 1$. \hfill
+$\Box$
+
+
+
+\bl \label{Lemma Q} Let $Q$ be defined by (\ref{equation P and Q}).
+Then, $ 0 < Q < 1 $ for $0 < r < 1$. \el
+
+\textit{Proof.} It suffices to show that $0 <Q_1< e-1$ for $0 < r
+< 1$,  where $Q_1 = \exp(Q)-1$.  We will show, in fact, that $0 <
+Q_1 < 3/2$, which is equivalent to showing that $Q_1/(3/2-Q_1)
+> 0$. We can write %
+\be  \label{equation Q1}  %
+\frac{Q_1}{3/2-Q_1} =
+\frac{(4+4r^2)P-(4+4r^4)}{(9r^2+10+7r^4)-(7+7r^2)P}.  %
+\ee  %
+It is easily seen from (\ref{equation P and Q}) that $1 < P <
+\sqrt{2}$ for $0 < r < 1$. Hence, it is clear that the numerator
+in (\ref{equation Q1}) is positive. On the other hand, we have %
+$$  %
+(9r^2+10+7r^4)^2-(7+7r^2)^2P^2 = 270r^4+82r^2+126r^6+2
+> 0, %
+$$
+which shows that the denominator in (\ref{equation Q1}) is
+positive as well. The lemma is proved. \hfill $\Box$
+
+
+
+
+\medskip
+
+All the results established so far were used to prove
+Theorem~\ref{Theorem 1}. Now we prove monotonicity properties of
+the functions $\tau=\tau(r)$, $\beta=\beta(r)$, and $a=a(r)$.
+Although not needed for our main proof they provide some
+additional information about extremal configurations. The graph of
+$a(r)$ is displayed in Figure~\ref{Figure_h_and_a} and the graphs
+of functions $\tau(r)$ and $\beta(r)$  are displayed in Figure~\ref{Figure_tau_and_beta}.%
+
+
+\begin{figure}
+$$
+\includegraphics[scale=.35,angle=-90]{graph-of-tau-alt}
+\includegraphics[scale=.35,angle=-90]{graph-of-beta-alt}
+$$
+\caption{Functions $\tau(r)$ and $\beta(r)$.}
+\label{Figure_tau_and_beta}
+\end{figure}
+
+\medskip
+
+\bl \label{Lemma tau}  %
+ The function $\tau=\tau(r)$ defined by (\ref{equation Thm1-C}) strictly decreases
+ from $\sqrt{\sqrt 2-1}$ to $0$ as $r$ runs from $0$ to $1$. %
+\el %
+
+\textit{Proof.} It suffices to work with $\tau^2=\tau^2(r)$.
+Differentiating $\tau^2$ we obtain %
+$$  %
+ \frac{d\tau^2}{dr} = \frac{2r}{P(1+3r^2)^2}\, p(r),  %
+$$  %
+where  $P$ is defined by (\ref{equation P and Q}) and %
+$$   %
+p(r) = -5+r^2-r^4+3r^6+(3-2r^2-3r^4)P.  %
+$$  %
+Hence, it suffices to show that $p(r)$ is negative for $0 \le r
+\le 1$. It is easily seen that $P$ decreases from $\sqrt2$ to $1$ 
+as $r$ varies from $0$ to $1$.  Hence, for  $0\le r\le 1$, we have
+$1 \le P < 3/2$.  Suppose that 
+\begin{eqnarray*}
+c_1(r)&=&-5+r^2-r^4+3r^6 + (3-2r^2-3r^4)\cdot 1,\\
+c_2(r)&=&-5+r^2-r^4+3r^6 + (3-2r^2-3r^4)\cdot (3/2).
+\end{eqnarray*}
+The linearity of $p$ with respect to $P$ implies that %
+$$  %
+ \min \{c_1(r),c_2(r)\} \le p(r) \le \max \{c_1(r),c_2(r)\}.  %
+$$  %
+Using a Sturm sequence argument, it is easily seen that both
+$c_1(r)$ and $c_2(r)$ are negative for $0 \le r \le 1$. Thus,
+$\tau^2(r)$ decreases on $0\le r\le 1$ and the lemma follows.
+\hfill $\Box$
+
+
+\bl  \label{Lemma beta}%
+ Let $\beta=\beta(r)$ be defined by (\ref{equation Thm1-D}) with
+ $\tau=\tau(r)$ defined by (\ref{equation Thm1-C}).  Then,
+$\beta$ strictly increases from $0$ to $1$ as $r$ runs from $0$ to
+$1$. %
+\el  %
+
+\textit{Proof.}  %
+It suffices to show that $\beta^2$ is an increasing function of
+$r$, which maps $[0,1]$ onto $[0,1]$.  We obtain, after some
+algebra,  %
+$$  %
+\beta^2 = \frac{16 r^2 (2 r^4 + r^2 - 1) + 16 r^2 (1 + r^2) P}
+{(1+r^2)^4 (1  + 2 r^2 - r^6) + (1+r^2)^4 (r^4+r^2)P},  %
+$$  %
+where $P$ is defined by (\ref{equation P and Q}). Differentiating
+$\beta^2$, we find %
+$$  %
+ \frac{d\beta^2}{dr} = \frac{32 r (1-r^2)^2 (1+r^2)^5 }
+{P((1+r^2)^4 (1  + 2 r^2 - r^6) + (1+r^2)^4 (r^4+r^2)P)^2}\,
+p(r), %
+$$  %
+where %
+$$  %
+p(r) = -4 r^6 - r^4 - 5 r^2 + 2 + (4 r^4 + 5 r^2-1)P.  %
+$$  %
+ Hence,
+it suffices to show that $p(r)$ is non-negative for $0 \le r \le 1$.
+Now using a Sturm sequence argument, one can finish the proof
+as in the previous lemma.
+ \hfill  $\Box$  %
+
+
+
+\medskip
+
+Since $r=r(h)$ is monotonic on $0<h<4$, the parameters $\tau$ and
+$\beta$ in the definition of the extremal function $f_h$ of
+Theorem~\ref{Theorem 1} are monotonic functions of $h$. It is
+worth mentioning that the third natural parameter, $a=a(h)$, which
+gives the length of the vertical segment of the non-free boundary,
+\emph{is not} monotonic in $h$. It is easy to see that the disk
+$\{w:\,|w-1|\le 1\}$ and segment $[0,4]$ are the limit extremal
+configurations for the problem under consideration. Thus, $a=0$ in
+both limit cases. Our next lemma shows however that $a=a(r)$
+considered as a function of $r$ has only one local maximum on
+$0<r<1$.
+
+\bl  \label{Lemma a}  %
+Let $a=a(r)$ be defined by (\ref{equation a}) with $\tau$ and
+$\beta$ defined by (\ref{equation Thm1-C}) and (\ref{equation Thm1-D}).
+Then, there is a unique $r_1$, $0<r_1<1$, such that $a(r)$
+strictly increases as $r$ varies from $0$ to $r_1$  and strictly
+decreases as $r$ varies from $r_1$ to $1$.  %
+\el  %
+
+\textit{Proof.}
+Upon integration, $a(r)$ can be expressed as an explicit function of $r$ which is
+a combination of polynomials, square
+roots, and arctangents. We give here an argument that is reminiscent of the
+argument given in the proof of Lemma \ref{Lemma h}, omitting some of the technical details.
+For convenience, we set $r_0 = 53/100$ and $r_2 = 57/100$.
+
+Differentiating $a(r)$ with respect to $r$ we
+obtain a representation
+$$a'(r) = 4r(1-r^2)\frac{(c_0 + c_1\,P)+(d_0 + d_1\,P)G(r)}{D_1(r)}$$
+where $P = (2-2r^2+r^4)^{1/2}$, the functions $G$ and $D_1$ are
+non-negative on $(0,1)$ and $c_0, \ c_1, \ d_0$ and $d_1$ are
+polynomials in $r$ with rational coefficients. We will show that
+there exists an $r_1$ such that $a'(r) > 0$ on $(0,r_1)$ and $a'(r) <
+0$ on $(r_1,1)$.
+
+Using the linearity of the terms
+$c_0 + c_1\,P$ and $d_0 + d_1\,P$ in $P$ and the estimates on $P$ given in
+Lemma \ref{Lemma P}, one can give a Sturm sequence argument to show that
+$c_0 + c_1\,P > 0$ and $d_0 + d_1\,P > 0$ on the interval $(0,r_0)$ and that
+$c_0 + c_1\,P < 0$ and $d_0 + d_1\,P < 0$ on the interval $(r_2,1)$.  Hence,
+$a'(r) > 0$ on $(0,r_0)$ and $a'(r) < 0$ on $(r_2,1)$.
+
+We define $n(r) = (c_0 + c_1\,P)+(d_0 + d_1\,P)G(r)$.  Differentiating $n(r)$ with respect to $r$
+we obtain a representation
+$$n'(r) = 2r\tau^2\frac{({\tilde c}_0 + {\tilde c}_1\,P)+({\tilde d}_0 + {\tilde d}_1\,P)G(r)}{D_2(r)}$$
+where the function $D_2$ is non-negative on $(0,1)$, $\tau$ is
+defined by (\ref{equation Thm1-C}) and ${\tilde c}_0, \ {\tilde
+c}_1, \ {\tilde d}_0$ and ${\tilde d}_1$ are polynomials in $r$
+with rational coefficients.
+
+Using the linearity of terms
+${\tilde c}_0 + {\tilde c}_1\,P$ and ${\tilde d}_0 + {\tilde d}_1\,P$ in $P$ and
+the estimates on $P$ given in
+Lemma \ref{Lemma P}, one can give a Sturm sequence argument to show that
+${\tilde c}_0 + {\tilde c}_1\,P < 0$ and ${\tilde d}_0 + {\tilde d}_1\,P < 0$ on the
+interval $(r_0,r_2)$ and, hence, that $n(r)$ is strictly decreasing on the interval $(r_0,r_2)$ and
+changes sign exactly once. Consequently, $a'(r)$ changes sign exactly once on $(r_0,r_2)$.
+
+The value $r_1$ is the unique solution of $n(r) = 0$, which lies in the interval $(r_0,r_2)$.
+\hfill  $\Box$  %
+
+
+\section{Some remarks and problems}  %
+\setcounter{equation}{0} %
+
+\textbf{(a) Omitted area problem.} The following problem proposed
+by A.~W.~Goodman \cite{G} can be considered as a prototype of all
+omitted area problems with geometrical constraints:
+%Our original interest to problems with some knowledge on a certain portion of a
+%compact set came from the following problem proposed by A.~W.~Goodman:
+Find $A:=\inf_{f\in S} \,\{ {\rm{Area}}\,(f(\mathbb{D})\cap
+\mathbb{D})\}$ over the standard class $S$ of univalent functions
+$f$ in $\mathbb{D}$ with $f(0)=0$, $f'(0)=1$.
+
+To our knowledge, this problem remains open although many
+important properties of extremal functions have been proved since
+1949. Here we summarize some of them. If $f\in S$, $f$ is extremal for
+$A$ and $f(1)=\infty$, then $D=f(\mathbb{D})$ is circularly
+symmetric w.r.t. $\mathbb{R}_0$ %(up to rotation about the origin)
+and there exist $\theta_1,\theta_2$, and $\beta$ such that
+ $0<\theta_1<\theta_2<\pi$, $0<\beta<1$,
+and   $f$ satisfies the following boundary conditions: %
+\begin{enumerate} %
+\item[(a)] $\Im\,f(e^{i\theta})=0$ for $0<|\theta|\le \theta_1$; %
+\item[(b)] $|f(e^{i\theta})|=1$ for $\theta_1<|\theta|<\theta_2$; %
+\item[(c)] $|f'(e^{i\theta})|=\beta$ for
+$\theta_2<\theta<2\pi-\theta_2$; %
+\item[(d)] $f'$ has a non-zero continuous extension to
+$\mathbb{D}\cup \{e^{i\theta}:\,\theta_1<\theta<2\pi-\theta_1\}$
+which is H\"{o}lder-continuous with exponent $1/2$; %
+\item[(e)] $|f'(e^{i\theta})|$ strictly decreases in
+$\theta_1<\theta<\theta_2$; %
+\item[(f)] there is a $\theta_0$, $0<\theta_0<\theta_1$ such that
+$|f'(e^{i\theta})|$ strictly decreases from $+\infty$ to $\beta_1$, where 
+$\beta_1>\beta$, and strictly increases from $\beta_1$ to $+\infty$
+in $0<\theta<\theta_0$ and $\theta_0<\theta<\theta_1$,
+respectively. %
+\end{enumerate}  %
+
+Observations (a) and (b) were made by Barnard and Suffridge, see
+\cite[p. 536]{BrC}. Condition (d) was proved by J.~Lewis \cite{L}
+who also proved that (c) holds true for all $\theta$ except the
+set $I=\{e^{i\theta}:\,\Im\,f(e^{i\theta})=0\}$ which may consists
+of at most a finite number of closed arcs. The inequality
+$\beta<1$ and conditions (e), (f), and (c) without the above
+mentioned exception were established in \cite{BS}.
+
+\smallskip
+
+The conclusion of Lemma~\ref{Lemma 2.2}\textbf{(d)}
+that the vertical non-free boundary is not degenerate, i.e., that
+there is a strict inequality $\theta_1<\theta_2$  for
+the parameters $\theta_1$ and $\theta_2$ of this iceberg-type problem is reminscient of the
+conclusion in \cite{L} that there is a strict inequality $\theta_1<\theta_2$  for
+the parameters $\theta_1$ and $\theta_2$ of Goodman's omitted
+area problem.  With minor modifications, the proof in \cite{L} that
+$\theta_1<\theta_2$ for Goodman's omitted area problem could have been modified to
+prove Lemma~\ref{Lemma 2.2}\textbf{(d)}.  In this paper, we have given an independent
+proof of Lemma~\ref{Lemma 2.2}\textbf{(d)} and we mention here that, alternatively,
+with minor modifications the proof of Lemma~\ref{Lemma 2.2}\textbf{(d)} could be used
+to show that $\theta_1<\theta_2$ for Goodman's omitted area problem as well.  
+Approximations to the exact value of $A$ have been given in \cite{BP,BT} by 
+different numerical methods.  In particular, \cite{BT} suggests that 
+$A = 0.2385813284\pi$, where all explicitly shown digits are exact.
+
+\medskip
+
+\textbf{(b) Width of the invisible part of the iceberg.} The
+method of this paper can be also applied to find the extremal
+function for Problem~(\ref{equation maximals})\textbf{(b)} if one
+can show a priori that the free boundary of the extremal is smooth enough. One
+difference compared to Problem~(\ref{equation
+maximals})\textbf{(a)} is that the extremal configurations now
+\emph{do not} possess circular symmetry although they still
+possess Steiner symmetry. In view of this lack of symmetry, we cannot 
+apply the local variations developed in
+Section~\ref{Section 2} since the boundary may be non-rectifiable.
+Perhaps, the necessary smoothness can be achieved by applying a
+more powerful technique such as that of J.~Lewis \cite{L}
+mentioned in the Introduction.
+
+\medskip
+
+\textbf{(c) Safe distance from the iceberg.} The situation with
+Problem~(\ref{equation maximals})\textbf{(c)} differs from the
+other two cases. To explain this, we start with the limiting case
+when the whole iceberg is observable, i.e. when $\Area (E_+)=\pi$.
+Then, of course, $E$ coincides with the disk $\{w:\,|w-(1+i)|\le
+1\}$  up to translation along the real axis.
+
+This disk has a contact point with the surface of interface at
+$z=1$ and a contact point with the front line, which coincides
+with the imaginary axis, at $z=i$. These two contact points
+represent the non-free boundary in this limiting case. It is
+reasonable to expect that for icebergs with visible area slightly
+less than $\pi$, the extremal configurations will have two
+disjoint segments, vertical and horizontal, as their non-free
+boundary. If so, then transplanting the problem into the auxiliary
+$s$-plane as in Section~\ref{Section 3}, we have to deal with the
+omitted area problem for functions defined in a doubly-connected
+domain. To our knowledge, there are no known solutions of 
+problems of this kind.
+
+\medskip
+
+\textbf{(d) Convex icebergs.} Let ${\mathcal{F}}^c$ denote the
+collection of all convex compact sets $E$ in ${\mathcal{F}}$. It
+will be interesting to study problems (\ref{equation maximals})
+for the class ${\mathcal{F}}^c$. Since there are more available
+methods for convex sets and functions, there is a chance that
+known techniques may give complete solutions to all three
+problems.
+
+
+\begin{thebibliography}{6.8in}
+
+\bibitem{AShS1}
+D.~Aharonov, H.~S.~Shapiro, and A.~Yu.~Solynin, 
+\textit{A minimal area problem in conformal mapping}. J. Analyse Math.
+\textbf{78} (1999), 157--176.
+
+\bibitem{AShS2}
+D.~Aharonov, H.~S.~Shapiro, and A.~Yu.~Solynin, 
+\textit{Minimal area problems for functions with integral representation}. J. Analyse Math. 
+\textbf{98} (2006), 83--111.
+
+\bibitem{BT} L. Banjai, L. Trefethen,
+\textit{Numerical solution of the omitted area problem of univalent function theory.} Comp. Methods Func. Theory
+\textbf{1} (2001), no. 1, 259--273.
+
+\bibitem{BL} R. W. Barnard, J. L. Lewis,
+\textit{On the omitted area problem.} Michigan Math. J.
+\textbf{34} (1987), 13--22.
+
+\bibitem{BP} R. W. Barnard, K. Pearce,
+\textit{Rounding Corners of Gearlike Domains and the Omitted Area Problem.} J. Comp. Appl. Math.
+\textbf{14} (1986), 217--226; 
+\textit{Numerical Conformal Mapping.} North Holland, 1986.
+
+\bibitem{BPS1} R. W. Barnard, K. Pearce, and A. Yu. Solynin,
+\textit{An isoperimetric inequality for logarithmic capacity.} Annales Academi\ae \ Scientiarum Fennic\ae. Mathematica
+\textbf{27} (2002), 419--436.
+
+\bibitem{BRS1} R. W. Barnard, C. Richardson, and A. Yu. Solynin,
+\textit{Concentration of area in half-planes.} Proc. Amer. Math. Soc. 
+\textbf{133} (2005), no. 7, 2091--2099.
+
+\bibitem{BRS2} R. W. Barnard, C. Richardson, and A. Yu. Solynin,
+\textit{A minimal area problem for nonvanishing functions.} Algebra i Analiz 
+\textbf{18} (2006), no. 1, 35-54; 
+English translation in: St. Petersburg Math. J. 
+\textbf{18} (2007), no. 1, 21--36.
+
+\bibitem{BS} R. W. Barnard and A. Yu. Solynin, 
+\textit{Local variations and minimal area problem for Carath\'{e}odory functions.} Indiana U. Math. J. 
+\textbf{53} (2004), no. 1, 135--167.
+
+\bibitem{BrC} D. Brannan and J.~Clunie,
+\textit{Aspects of Contemporary Complex Analysis.} Academic Press, New York, 1980.
+
+\bibitem{D} V. N. Dubinin, 
+\textit{Symmetrization in geometric theory of functions of a complex variable.}  Uspehi Mat. Nauk
+\textbf{49} (1994), 3-76 (in Russian); 
+English translation in: Russian Math. Surveys 
+\textbf{49}: 1 (1994), 1--79.
+
+\bibitem{Du} P. Duren, 
+\textit{Univalent Functions.} Springer-Verlag, 1992.
+
+\bibitem{G} A. Goodman,
+\textit{Note on regions omitted by univalent functions.} Bull. Amer. Math. Soc. 
+\textbf{55} (1949), 363--369.
+
+\bibitem{H} W. K. Hayman, 
+\textit{Multivalent Functions.} Second Edition. Cambridge Tracts in Mathematics, 110. Cambridge Univ. Press, Cambridge, 1994.
+
+\bibitem{J} N. Jacobson, 
+\textit{Basic Algebra. I.} Second Edition.  W. H. Freeman and Company, New York, 1985. % MR0780184 (86d:00001)
+
+\bibitem{L}  J. L. Lewis,
+\textit{On the minimal area problem.} Indiana Univ. Math. J.
+\textbf{34} (1985), 631--661.
+
+\bibitem{P} Ch. Pommerenke, 
+\textit{Boundary Behaviour of Conformal Maps.} Springer-Verlag, 1992.
+ath. J. \textbf{8} (1997), 1015--1038.
+%
+\bibitem{S} A. Yu. Solynin,
+\textit{A Functional inequalities via polarization.} Algebra i Analiz 
+\textbf{8} (1996), 145-185; 
+English translation in: St. Petersburg Math. J. 
+\textbf{8} (1997), 1015--1038.
+\end{thebibliography}
+
+\end{document}
