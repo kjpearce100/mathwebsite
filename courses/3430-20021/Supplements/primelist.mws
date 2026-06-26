@@ -1,0 +1,34 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "" -1 256 "" 0 1 0 0 216 0 0 1 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "" 0 256 1 {CSTYLE "" -1 -1 "" 0 1 16 0 0 0 0 
+0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 257 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }}
+{SECT 0 {EXCHG {PARA 256 "" 0 "" {TEXT -1 40 "Supplement:  A horizonta
+l list of primes" }}{PARA 0 "" 0 "" {TEXT -1 98 "See if you can analyz
+e the following MAPLE command sequence prior to executing it.  (Note t
+hat    " }{TEXT 256 2 ":=" }{TEXT -1 117 "   is the standard MAPLE syn
+tax for defining something.)  Then try it to see if it does what you t
+hought it would do." }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 95 "for i from 1
+ to 100 \n  do\n    if \n      isprime(i)=true then a[i]:=i else a[i]:
+=0\n    fi;\n  od;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "Priml
+ist:=[seq(a[i],i=1..100)];" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+25 "f:=x->piecewise(x>0,1,0);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 21 "select(f=1,Primlist);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 34 "What is the function   f   doing? " }}{PARA 0 "
+" 0 "" {TEXT -1 85 "To see this try computing some values for f (x) fo
+r different values for x, then for " }}{PARA 0 "" 0 "" {TEXT -1 61 "ge
+neral x. (eg.  f(0), f(-2), f(1), etc. and finally  f(x) ) " }}{PARA 
+257 "" 1 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 92 "Next try plot
+ting the graph of  y=f(x).  Note that because we defined   f   as an o
+pperation" }}{PARA 0 "" 0 "" {TEXT -1 82 "on the variable   x , sendin
+g    x    into something, we must include the notation" }}{PARA 0 "" 
+0 "" {TEXT -1 43 "    f(x)   in the plot command given below." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+29 "plot(f(x),x=-10..10,y=-2..2);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 11 }{VIEWOPTS 1 1 0 1 1 1803 1 1 
+1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

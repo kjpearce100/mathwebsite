@@ -1,0 +1,62 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 
+0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Norma
+l" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 
+}3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 
+0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 22 "Programming Supplement" }}
+{PARA 0 "" 0 "" {TEXT -1 102 "(This is not a worksheet to be turned in
+.  It is only for your information should you wish to use it.)" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 202 "Two Mapl
+e programming constructs which often will come in handy are what we wi
+ll call \"for\" programs and \"if\" programs.   Both involve concepts \+
+and syntax that is very familar to mathematics students.  " }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 403 "\"for\"  These a
+re programs that do some repetitive calculation based on changing an i
+ndex by the same size step each time and repeating the calculation.  F
+or example suppose we wanted to compute the three numbers i, i^2, and \+
+i^2+i for each of the integers i from 10 to 20.  Here is the Maple pro
+gram for doing this (shift return allows you to go to the next line wi
+thout Maple trying to comput anything):" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "for i from 10 to 20\n d
+o\n   i,i^2,i^2+i\n od;" }}}{PARA 0 "" 0 "" {TEXT -1 482 "I guess we c
+an think of the \"od\" as finishing the \"do\" command. Also you could
+ have put all this on one line; however, you may find it easier to fol
+low the logic of such a program if you use spacing somehow to identify
+ pieces that are related to each other, the \"do\" and the \"od\" for \+
+example.  This is more important if your programs are nested.  For exa
+mple let's use two \"for\" programs in conjunction. Before excuting th
+e following program see if you can describe what it will do." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 96 "for i from 5 to 10\n  do\n  \+
+ for j from 5 to 10\n     do \n       print(i,j,lcm(i,j))\n     od;\n \+
+ od;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "     " }}}{PARA 0 "" 0 "" 
+{TEXT -1 71 "Notice what happens if you leave off the print command in
+ this prgram. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 166 "\"if\"  The second important programming construct is th
+e \"if\" program, better known to math students as the conditional \"i
+f then\" statement.  The general syntax is    " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 257 "" 0 "" {TEXT -1 85 "if  <some statement whi
+ch Maple can verify>  then  <some Maple command sequence>  fi;" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 57 "This can \+
+be continued with a alternative \"else\" statement" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 129 "if  <some statement whic
+h Maple can verify>  then  <some Maple command sequence>  else   <an a
+lternative command sequence> fi;   " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 89 "Let's look at two examples.  Again try to
+ guess what will happen prior to executing them." }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 44 "if gcd(1002,552)>1\n then\n   print(great)\nfi
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 69 "if gcd(1002,37)>1\n th
+en \n    print(great)\n else \n    print(rats)\nfi;\n" }}}{PARA 0 "" 
+0 "" {TEXT -1 99 "Now let's combine all into one.  Again guess the out
+put, if possible prior to excuting the program." }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 140 "for i from 1 to 10\n do\n  for j from 1 to 10
+\n   do\n    if i<j \n      then print(i,j,j-i)\n      else Print(i,j,
+i-j)\n    fi;\n   od;\n od;\n      " }}}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 84 "Notice that we just computed the absolu
+te value of i-j for all i and j from 1 to 10." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" 
+{TEXT -1 2 "  " }}}{MARK "0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

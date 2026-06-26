@@ -1,0 +1,85 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 1 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 256 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 0 "" }{TEXT 278 25 "Technical Text \+
+With MAPLE" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 47 "To enter the text mode simply click on the big " }{TEXT 256 1 "
+T" }{TEXT -1 191 " in the tool bar.  Note the text menu has some of th
+e usual word processing choices.  To put math symbols into the text si
+mply type the corresponding MAPLE syntax, highlite it, then from the \+
+" }{TEXT 257 6 "Format" }{TEXT -1 13 " menu choose " }{TEXT 258 7 "Con
+vert" }{TEXT -1 1 " " }{TEXT 260 2 "to" }{TEXT -1 7 ", then " }{TEXT 
+259 15 "Math Expression" }{TEXT -1 55 ". For example try converting th
+e expression            " }{TEXT 262 26 "sum((1/i)^2,i=1..infinity)" }
+{TEXT -1 44 "       to the corresponding math symbol     " }{XPPEDIT 
+18 0 "sum((1/i)^2,i = 1 .. infinity)" "6#-%$sumG6$*$*&\"\"\"F(%\"iG!\"
+\"\"\"#/F);F(%)infinityG" }{TEXT -1 215 "  .  Next notice that you can
+ highlite particular terms in the expression by clicking on them.  The
+ corresponding MAPLE syntax for the highlited term appears in a tool b
+ox at the top where it can be edited.  Hiting " }{TEXT 261 6 "Enter " 
+}{TEXT -1 111 "then enters the change in your expression.  Try this to
+ get each of the following expressions from the above:  " }{XPPEDIT 
+18 0 "sum((1/i)^2,i = 1 .. 232);" "6#-%$sumG6$*$*&\"\"\"F(%\"iG!\"\"\"
+\"#/F);F(\"$K#" }{TEXT -1 11 "           " }{XPPEDIT 18 0 "sum((1/(2*i
+))^2,i = 1 .. infinity);" "6#-%$sumG6$*$*&\"\"\"F(*&\"\"#F(%\"iGF(!\"
+\"F*/F+;F(%)infinityG" }{TEXT -1 9 "         " }{XPPEDIT 18 0 "sum((1/
+i)^9,i = 1 .. infinity);" "6#-%$sumG6$*$*&\"\"\"F(%\"iG!\"\"\"\"*/F);F
+(%)infinityG" }{TEXT -1 10 "          " }{XPPEDIT 18 0 "sum((1/k)^2,k \+
+= 3 .. infinity);" "6#-%$sumG6$*$*&\"\"\"F(%\"kG!\"\"\"\"#/F);\"\"$%)i
+nfinityG" }}{PARA 0 "" 0 "" {TEXT -1 128 "Convert each of the followin
+g MAPLE syntax to the corresponding Math Expression, then experiment w
+ith changing individual terms." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 272 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "a.  " }{TEXT 263 23 "int(
+x^4*exp(x),x=-a..b)" }{TEXT -1 7 ",  b.  " }{TEXT 264 25 "diff(sqrt(1+
+sqrt(x+1)),x)" }{TEXT -1 7 ",  c.  " }{TEXT 265 32 "limit((x^2-c^2)/(x
+-c),x=c,right)" }{TEXT -1 3 " . " }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}
+{PARA 0 "" 0 "" {TEXT -1 104 "We have just learned the syntax for four
+ of the most important operations in single variable calculus.  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 28 "At any ti
+me clicking on the " }{TEXT 266 3 "[> " }{TEXT -1 203 "icon will get u
+s a MAPLE execution line.  Try it.  Then copy each of the above MAPLE \+
+input sequences onto an execution line, insert a semicolon to inform M
+APLE that you are done giving commands, and hit " }{TEXT 267 5 "Enter
+" }{TEXT -1 77 ".  Now put the cursor somewhere on the MAPLE command a
+nd click on the little " }{TEXT 268 2 "x " }{TEXT -1 102 "on the tool \+
+bar. Again individual terms in the input command can be edited just as
+ above.  Try some.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 314 "Another nice feature is the following, beginning each \+
+of the above MAPLE commands with an upper case letter tells MAPLE to r
+eturn only the math expression when executing.  This allows for some n
+ice expressions to be returned like the following: (The output of whic
+h can be highlited, copied, and pasted into text.)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "Sum((1/i)^2,
+i=1..infinity)=sum((1/i)^2,i=1..infinity);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 198 "With a little experience using
+ text and execution command lines together, you can write your exams a
+nd worksheets and have MAPLE provide answer keys at the same time. Fin
+ally notice that one of the " }{TEXT 269 0 "" }{TEXT 270 1 "E" }{TEXT 
+271 3 "dit" }{TEXT -1 12 " options is " }{TEXT 273 2 "Re" }{TEXT 274 
+1 "m" }{TEXT 275 16 "ove Output From " }{TEXT 276 1 "W" }{TEXT 277 11 
+"orksheet.  " }{TEXT -1 55 "This is especially nice when using MAPLE t
+o make exams." }}}{MARK "5 4" 7 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }
