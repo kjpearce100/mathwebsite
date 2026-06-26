@@ -1,0 +1,87 @@
+\documentclass[12pt]{exam}
+\usepackage{amsmath,amsthm,amsbsy,amsfonts}
+ 
+\boxedpoints
+\pointsinmargin
+\addpoints
+ 
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Q}{\mathbb Q}
+ 
+\pagestyle{headandfoot}
+%\extraheadheight{.4in}
+%\extrafootheight{-1in}
+%\extrawidth{.7in}
+\firstpageheader{Calculus II}{\bf\Large Worksheet}{}
+ 
+\begin{document}
+\textbf{\hspace{-.3in}
+Work = Force * Distance \\
+Hydrostatic Force = Density * Depth * Area\\
+Mass = Density * Area\\
+Moment = Distance * Mass\\
+Center of Mass = $(\overline{x},\overline{y})$ = $\left(\frac{M_y}{m},
+\frac{M_x}{m}\right)$
+}
+
+\begin{questions}
+
+\question A spring has a natural length of 5 ft.  A force of
+4 lb stretches this spring 1/4 ft.  
+\begin{parts}
+\part Find the work done in stretching this spring from its natural
+length to 7 ft. 
+\[
+\int_0^2 16 x \, dx
+\]
+
+\part Find the work done in stretching this spring from 8 ft to 9 ft.
+\[
+\int_3^4 16x \, dx
+\]
+\end{parts}
+
+\question How much work is done in emptying a cylindrical tank of 
+radius 5 m and height 10 m by pumping the the water through a 
+pipe extending 4 m above the tank.  (Hint: Water weighs 9800 N/$m^3$, or
+62.4 lb/$ft^3$.)
+\[
+\int_0^{10} 9800 \pi(5)^2 (y+4) \, dy = 
+\int_0^{10} 9800 \pi(5)^2 (14-y) \, dy =
+\int_4^{14} 9800 \pi(5)^2 y \, dy
+\]
+
+\question A rectangular gate built into a dam is 4 ft high and 8 ft wide.
+The top of the gate is 2 ft below the surface of the water.  What is the 
+force on the gate?
+\[
+\int_0^4 62.4(8)(y+2) \,dy =
+\int_0^4 62.4(8)(6-y)\, dy=
+\int_2^6 62.4(8)(y) \,dy
+\]
+
+\question What would be  the force if the gate were the upper half of disc of
+radius 4 (and the top of the gate is 2 ft below the surface of the water)?
+\[
+\int_0^4  62.4 (6-y)\sqrt{4^2 - y^2} \, dy
+\]
+
+\question Find the mass, moments, and center of mass of a the
+triangular lamina bounded by the $x$- and $y$- axes and $y=4-2x$.
+(As always, assume the density of this lamina to be $1$.)
+\begin{align}\notag
+m&=\int_0^2 4-2x\,dx 
+=\int_0^4 \frac{1}{2}\left(\frac{4-y}{2}\right) \,dy \\\notag
+M_y&=\int_0^2 x(1)(4-2x)\, dx
+=\int_0^4 \frac{1}{2}\left(\frac{4-y}{2}\right)(1)
+\left(\frac{4-y}{2}\right)\,dy \\\notag
+M_x&=\int_0^2 \frac{1}{2}(4-2x) (1) (4-2x)\,dx 
+=\int_0^4 y(1)\left(\frac{4-y}{2}\right)\,dy \\\notag
+\end{align}
+
+
+
+\end{questions}
+\end{document}

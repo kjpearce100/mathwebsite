@@ -1,0 +1,112 @@
+\documentclass[12pt]{exam}
+\usepackage{amsmath,amsthm,amsbsy,amsfonts}
+ 
+\boxedpoints
+\pointsinmargin
+\addpoints
+ 
+\newcommand{\Z}{\mathbb Z}
+\newcommand{\E}{\mathbb E}
+\newcommand{\R}{\mathbb R}
+\newcommand{\Q}{\mathbb Q}
+ 
+\pagestyle{headandfoot}
+\extraheadheight{.4in}
+\extrafootheight{-1in}
+\extrawidth{-.3in}
+\firstpageheader{}{\bf\Large Brief Review}{}
+ 
+\begin{document}
+\begin{questions}
+
+\question Find $\frac {dy}{dx}$ if
+\begin{parts}
+\part $y=x^7-5x^{\frac 3 2} + \frac{4}{x} -3$
+
+\vspace{.3in}
+\fbox{$\frac {dy}{dx}=7x^6-\frac{15}{2} x^{\frac 1 2} -4x^{-2}$}
+\vspace{.5in}
+\part $y=\sqrt{\cos\sqrt x}$
+\vspace{.3in}
+
+\fbox{Use the Chain Rule. $\frac {dy}{dx}=\frac 1 2 (\cos\sqrt x)^{-\frac 1 2}
+(-\sin\sqrt x)\left(\frac 1 2 x^{-\frac 1 2}\right)$}
+\vspace{.5in}
+
+\part $y=e^{4x}\tan{x^2}$
+\vspace{.3in}
+
+\fbox{Use the Product Rule. $\frac{dy}{dx}=4e^{4x}\tan x^2 +e^{4x}\sec^2\left(x^2\right)\left(2x\right)$}
+\vspace{.5in}
+
+\part $y=\frac{3x}{\sin^{-1}{x}}$
+\vspace{.3in}
+
+
+\fbox{Use the Quotient Rule. $\frac{dy}{dx}=\frac{3\sin^{-1}x - 
+\frac{3x}{\sqrt{1-x^2}}}{\left(\sin^{-1}x\right)^2}$}
+\vspace{.5in}
+
+\part $x^{\frac 1 2}-y^{\frac 1 3}=x$
+\vspace{.5in}
+
+\fbox{Use Implicit Differentiation.$\frac 1 2 x^{-\frac 1 2}-\frac 1 3 y^{-\frac 2 3}\frac {dy}{dx} =1.$  Solving for $\frac{dy}{dx}$ yields
+$\frac{dy}{dx}=\frac{1-\frac 1 2 x^{-\frac 1 2}}{-\frac 1 3 y^{-\frac 2 3}}$.}
+
+\end{parts}
+
+\question Find the maxima, minima, and points of inflection of
+$f(x)=x^3+3x^2-9x+2$.  Sketch the graph.
+\vspace{.3in}
+
+\fbox{\parbox{\textwidth}{First note $f^\prime(x)=3x^2+6x-9=3(x+3)(x-1).$  
+Thus the critical
+points are $x=-3,1$.  Next $f^{\prime\prime}(x)=6x+6=6(x+1)$, which is positive
+for $x>-1$ and negative for $x<-1$.  Thus $x=-1$ is an inflection point.
+Moreover, the second derivative test implies that $f$ has a max at $x=-3$
+and a min at $x=1$.}}
+\vspace{.3in}
+  
+\question Evaluate the following integrals.
+\begin{parts}
+
+\part $\int \sqrt{x} + x^{-\frac 3 2}\, dx$
+\vspace{.3in}
+
+\fbox{$\frac{x^{\frac{3}{2}}}{\frac{3}{2}} + 
+\frac{x^{-\frac 1 2}}{-\frac 1 2}+C$}
+\vspace{.3in}
+
+\part $\int \frac {\sin x \, dx}{(1+2\cos x)^2}$
+\vspace{.3in}
+
+\fbox{\parbox{\textwidth}
+{Let $u=1+2\cos x$. Then $du=-2\sin x$ and the integral becomes
+$-\frac{1}{2}\int \frac{du}{u^2}=\frac{1}{2} u^{-1} +C
+=\frac{1}{2}\frac{1}{1+2\cos x}+C$.}}
+\vspace{.3in}
+
+\part $\int \frac{e^{2x}\,dx}{3-e^{2x}}$
+\vspace{.3in}
+
+\fbox{\parbox{\textwidth}
+{Let $u=3-e^{2x}$.  Then $du=-2e^{2x}$ and the integral becomes
+$-\frac 1 2 \int \frac{du}{u}=-\frac 1 2 \ln \vert u \vert +C
+=-\frac 1 2 \ln\vert 3-e^{2x}\vert +C$.}}
+\vspace{.3in}
+\end{parts}
+
+\question Find the area under the graph of $y=3x^2-1$ over $[0,2]$.
+\vspace{.3in}
+
+\fbox{\parbox{\textwidth}{The area is given by $\int_0^2 3x^2-1 \,dx 
+=x^3 -x \vert_0^2 =(8-2)-(0-0)=6$.}}
+
+
+
+
+
+
+
+\end{questions}
+\end{document}
