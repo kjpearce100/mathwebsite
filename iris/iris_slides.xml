@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<slideshow>
+	
+	<preferences
+
+		loadingIconAlign="center"
+		loadingIconMarginX="0"
+		loadingIconMarginY="0"
+		viewport = "0,0,225,225"
+		loadingIconShadowSize="2"
+		imagePause="5"
+		randomizeImages = "true"
+		imageTransition="fadeInOut"
+		kenBurnsMode = "randomPan"
+		kenBurnsTime = "5"
+		kenBurnsVariationPercent = "15"
+		showAlbumsButton="false"
+		showThumbnailsButton="false"
+		thumbnailWindowRoundedCorners="0"
+		thumbnailRoundedCorners="0"
+		thumbnailWindowIconRollOverColor="00BBEE"
+		thumbnailHoverDistance="1"
+		thumbnailHoverShadowSize="4"
+		showControls="false"
+		controlAlign="bottomCenter"
+		controlAutoHide="true"
+		controlRoundedCorners="3"
+		controlIconRollOverColor="00BBEE"
+		controlShadowSize="2"
+		showImageInfo="always"
+		imageInfoColor = "FF0000"
+		imageInfoAlpha = "25"
+		imageInfoRoundedCorners = "0"
+		imageInfoShadowSize = "0"
+		imageInfoShadowColor = "000000"
+		imageInfoShadowAlpha = "50"
+		imageInfoLineWidth = "0"
+		imageInfoLineColor = "FFFFFF"
+		imageInfoAlign = "bottomCenter"
+		imageInfoMarginX = "5"
+		imageInfoMarginY = "5"
+		imageInfoTransitionTime = "0.5"
+		imageInfoWidth = "200"
+		imageInfoMaxSize = "true"
+		imageInfoPadding = "2"
+		imageInfoTextAlign = "center"
+		imageInfoTitleSize = "12"
+		imageInfoTitleColor = "000000"
+		imageInfoTitleContainsNumber = "false"
+		imageInfoTitleMaxCharacters = "-1"
+		imageInfoDisplayNoTitle = ""
+		imageInfoDescriptionSize = "10"
+		imageInfoDescriptionColor = "303030"
+		imageInfoDescriptionMaxCharacters = "-1"
+		imageInfoDisplayNoDescription = ""
+		imageInfoDescriptionMargin = "0"
+
+
+	/>
+
+	<album title="iris" description="photos" imagePath="slideshow" >
+		<img src="acclamation-kp.jpg"			title="Acclamation"			description=""/>
+		<img src="alteredstates-kp.jpg"			title="Altered States"			description=""/>
+		<img src="armswideopen-kp.jpg"			title="Arms Wide Open"			description=""/>
+		<img src="aroundmidnight-kp.jpg"		title="Around Midnight"			description=""/>	
+		<img src="autumnleaves-kp.jpg"			title="Autumn Leaves"			description=""/>
+		<img src="babblingbrook-kp.jpg"			title="Babbling Brook"			description=""/>
+		<img src="babyblessed-kp.jpg"			title="Baby Blessed"			description=""/>
+		<img src="bertwistle-kp.jpg"			title="Bertwistle"			description=""/>
+		<img src="bestbet-kp.jpg"			title="Best Bet"			description=""/>
+		<img src="bettysimon-kp.jpg"			title="Betty Simon"			description=""/>
+		<img src="bigpeach-kp.jpg"			title="Big Peach"			description=""/>
+		<img src="bluemountain-kp.jpg"			title="Blue Mountain"			description=""/>
+		<img src="bonusmama-kp.jpg"			title="Bonus Mama"			description=""/>
+		<img src="bosstweed-kp.jpg"			title="Boss Tweed"			description=""/>
+		<img src="boysenberrybuttercup-kp.jpg"		title="Boysenberry Buttercup"		description=""/>
+		<img src="brassring-kp.jpg"			title="Brass Ring"			description=""/>
+		<img src="bridalballad-kp.jpg"			title="Bridal Ballad"			description=""/>
+		<img src="bronzettestar-kp.jpg"			title="Bronzette Star"			description=""/>
+		<img src="bronzettestar-kp2.jpg"		title="Bronzette Star"			description=""/>	
+		<img src="browneyes-kp.jpg"			title="Brown Eyes"			description=""/>
+		<img src="buffy-kp-1.jpg"			title="Buffy"				description=""/>
+		<img src="buffy-kp-2.jpg"			title="Buffy"				description=""/>
+		<img src="burgundybrown-kp-1.jpg"		title="Burgundy Brown"			description=""/>
+		<img src="burgundybrown-kp-2.jpg"		title="Burgundy Brown"			description=""/>	
+		<img src="cabbagepatchkid-kp.jpg"		title="Cabbagepatch Kid"		description=""/>	
+		<img src="cancan-kp.jpg"			title="Cancan"				description=""/>
+		<img src="candycounter-kp.jpg"			title="Candy Counter"			description=""/>
+		<img src="capricious-kp-2.jpg"			title="Capricious"			description=""/>
+		<img src="capricious-kp.jpg"			title="Capricious"			description=""/>
+		<img src="carvedcameo-kp.jpg"			title="Carved Cameo"			description=""/>
+		<img src="carvedpink-kp.jpg"			title="Carved Pink"			description=""/>
+		<img src="castaspell-kp.jpg"			title="Cast A Spell"			description=""/>
+		<img src="cayenecapers-kp.jpg"			title="Cayene Capers"			description=""/>
+		<img src="celestialchoir-kp.jpg"		title="Celestial Choir"			description=""/>
+		<img src="celestialsnow-kp-2.jpg"		title="Celestial Snow"			description=""/>	
+		<img src="celestialsnow-kp.jpg"			title="Celestial Snow"			description=""/>
+		<img src="centrecourt-kp.jpg"			title="Centre Court"			description=""/>
+		<img src="chargedup-kp.jpg"			title="Charged Up"			description=""/>
+		<img src="cheers-kp.jpg"			title="Cheers"				description=""/>
+		<img src="cherrysmoke-kp-2.jpg"			title="Cherry Smoke"			description=""/>
+		<img src="cherrysmoke-kp.jpg"			title="Cherry Smoke"			description=""/>
+		<img src="chicomaid-kp.jpg"			title="Chico Maid"			description=""/>
+		<img src="citylights-kp.jpg"			title="City Lights"			description=""/>
+		<img src="conjuration-kp.jpg"			title="Conjuration"			description=""/>
+		<img src="copperclassic-kp-2.jpg"		title="Copper Classic"			description=""/>
+		<img src="copperclassic-kp.jpg"			title="Copper Classic"			description=""/>
+		<img src="coralpoint-kp-2.jpg"			title="Coral Point"			description=""/>
+		<img src="coralpoint-kp.jpg"			title="Coral Point"			description=""/>
+		<img src="dayglow-kp.jpg"			title="Dayglow"				description=""/>
+		<img src="deepdarksecret-kp.jpg"		title="Deep Dark Secret"		description=""/>
+		<img src="defttouch-kp.jpg"			title="Deft Touch"			description=""/>
+		<img src="discretion-kp.jpg"			title="Discretion"			description=""/>
+		<img src="divinelight-kp.jpg"			title="Divine Light"			description=""/>
+		<img src="divinity-kp.jpg"			title="Divinity"			description=""/>
+		<img src="doubledribble-kp-2.jpg"		title="Double Dribble"			description=""/>
+		<img src="doubledribble-kp.jpg"			title="Double Dribble"			description=""/>
+		<img src="dreamlord-kp.jpg"			title="Dream Lord"			description=""/>
+		<img src="dreamoflove-kp.jpg"			title="Dream of Love"			description=""/>
+		<img src="duskychallenger-kp.jpg"		title="Dusky Challenger"		description=""/>
+		<img src="eaglesflight-kp.jpg"			title="Eagles Flight"			description=""/>
+		<img src="eastertime-kp.jpg"			title="Easter Time"			description=""/>
+		<img src="echodefrance-kp-2.jpg"		title="Echo De France"			description=""/>
+		<img src="echodefrance-kp-3.jpg"		title="Echo De France"			description=""/>	
+		<img src="echodefrance-kp.jpg"			title="Echo De France"			description=""/>
+		<img src="exoticisle-kp.jpg"			title="Exotic Isle"			description=""/>
+		<img src="eyeopener-kp.jpg"			title="Eye Opener"			description=""/>
+		<img src="firesideglow-kp.jpg"			title="Fireside Glow"			description=""/>
+		<img src="firstimpression-kp-2.jpg"		title="First Impression"		description=""/>
+		<img src="firstimpression-kp.jpg"		title="First Impression"		description=""/>	
+		<img src="followthefleet-kp.jpg"		title="Follow The Fleet"		description=""/>	
+		<img src="foolishfancy-kp.jpg"			title="Foolish Fancy"			description=""/>
+		<img src="fringebenefits-kp-2.jpg"		title="Fringe Benefits"			description=""/>
+		<img src="fringebenefits-kp.jpg"		title="Fringe Benefits"			description=""/>	
+		<img src="fundamental-kp.jpg"			title="Fundamental"			description=""/>
+		<img src="gallanttheme-kp.jpg"			title="Gallant Theme"			description=""/>
+		<img src="georgiagirl-kp.jpg"			title="Georgia Girl"			description=""/>
+		<img src="grandwaltz-kp.jpg"			title="Grand Waltz"			description=""/>
+		<img src="grecianskies-kp.jpg"			title="Grecian Skies"			description=""/>
+		<img src="green-eyedlady-kp.jpg"		title="Green-Eyed Lady"			description=""/>
+		<img src="halloffame-kp.jpg"			title="Hall of Fame"			description=""/>
+		<img src="handiwork-kp.jpg"			title="Handiwork"			description=""/>
+		<img src="hellsfire-kp.jpg"			title="Hells Fire"			description=""/>
+		<img src="hiddenriches-kp.jpg"			title="Hidden Riches"			description=""/>
+		<img src="hindenburg-kp.jpg"			title="Hindenburg"			description=""/>
+		<img src="honeyglazed-kp-3.jpg"			title="Honey Glazed"			description=""/>
+		<img src="hottotrot-kp.jpg"			title="Hot to Trot"			description=""/>
+		<img src="i.pallida-kp.jpg"			title="I.Pallida"			description=""/>
+		<img src="ilovelace-kp.jpg"			title="I Love Lace"			description=""/>
+		<img src="immortality-kp.jpg"			title="Immortality"			description=""/>
+		<img src="intothenight-kp-2.jpg"		title="Into The Night"			description=""/>
+		<img src="jacaranda-kp.jpg"			title="Jacaranda"			description=""/>
+		<img src="joyceterry-kp-1.jpg"			title="Joyce Terry"			description=""/>
+		<img src="joyceterry-kp-2.jpg"			title="Joyce Terry"			description=""/>
+		<img src="kevin'stheme-kp.jpg"			title="Kevin's Theme"			description=""/>
+		<img src="kissofpeace-kp.jpg"			title="Kiss of Peace"			description=""/>
+		<img src="kissofpeace-kp2.jpg"			title="Kiss of Peace"			description=""/>
+		<img src="knock'emdead-kp.jpg"			title="Knock'Em Dead"			description=""/>
+		<img src="lacedcotton-kp.jpg"			title="Laced Cotton"			description=""/>
+		<img src="ladyjean-kp.jpg"			title="Lady Jean"			description=""/>
+		<img src="licoricestick-kp.jpg"			title="Licorice Stick"			description=""/>
+		<img src="lifeofriley-kp.jpg"			title="Life of Riley"			description=""/>
+		<img src="lilreddevil-kp.jpg"			title="Lil Red Devil"			description=""/>
+		<img src="lineup-kp.jpg"			title="Line Up"				description=""/>
+		<img src="loisrainer-kp.jpg"			title="Lois Rainer"			description=""/>
+		<img src="lovelydiane-kp.jpg"			title="Lovely Diane"			description=""/>
+		<img src="lullabyofspring-kp-2.jpg"		title="Lullaby of Spring"		description=""/>
+		<img src="lullabyofspring-kp.jpg"		title="Lullaby of Spring"		description=""/>	
+		<img src="luxurylace-kp.jpg"			title="Luxury Lace"			description=""/>
+		<img src="madeira-kp.jpg"			title="Madeira"				description=""/>
+		<img src="margarita-kp-2.jpg"			title="Margarita"			description=""/>
+		<img src="margarita-kp.jpg"			title="Margarita"			description=""/>
+		<img src="maryfrances-kp.jpg"			title="Mary Frances"			description=""/>
+		<img src="mirrorimage-kp-2.jpg"			title="Mirror Image"			description=""/>
+		<img src="mirrorimage-kp2.jpg"			title="Mirror Image"			description=""/>
+		<img src="mobygrape-kp.jpg"			title="Moby Grape"			description=""/>
+		<img src="monaco-kp.jpg"			title="Monaco"				description=""/>
+		<img src="moutaninshadows-kp.jpg"		title="Moutanin Shadows"		description=""/>
+		<img src="naturalbeauty-kp.jpg"			title="Natural Beauty"			description=""/>
+		<img src="nightflame-kp.jpg"			title="Night Flame"			description=""/>
+		<img src="obsession-kp.jpg"			title="Obsession"			description=""/>
+		<img src="olympiad-kp.jpg"			title="Olympiad"			description=""/>
+		<img src="opportunity-kp.jpg"			title="Opportunity"			description=""/>
+		<img src="orangeparade-kp.jpg"			title="Orange Parade"			description=""/>
+		<img src="orchidcloud-kp-1.jpg"			title="Orchid Cloud"			description=""/>
+		<img src="orchidcloud-kp-2.jpg"			title="Orchid Cloud"			description=""/>
+		<img src="orchidcloud-kp-3.jpg"			title="Orchid Cloud"			description=""/>
+		<img src="orchidcloud-kp.jpg"			title="Orchid Cloud"			description=""/>
+		<img src="paradise-kp.jpg"			title="Paradise"			description=""/>
+		<img src="parislights-kp.jpg"			title="Paris Lights"			description=""/>
+		<img src="peachandquiet-kp.jpg"			title="Peach and Quiet"			description=""/>
+		<img src="pebblefresh-kp.jpg"			title="Pebble Fresh"			description=""/>
+		<img src="pillowtalk-kp.jpg"			title="Pillow Talk"			description=""/>
+		<img src="pinkconfetti-kp.jpg"			title="Pink Confetti"			description=""/>
+		<img src="pinkkitten-kp.jpg"			title="Pink Kitten"			description=""/>
+		<img src="pipinghot-kp.jpg"			title="Piping Hot"			description=""/>
+		<img src="playgirl-kp.jpg"			title="Playgirl"			description=""/>
+		<img src="pledgeallegiance-kp.jpg"		title="Pledge Allegiance"		description=""/>
+		<img src="prettieprint-kp.jpg"			title="Prettie Print"			description=""/>
+		<img src="rainbowtrail-kp.jpg"			title="Rainbow Trail"			description=""/>
+		<img src="raspberriesandcream-kp.jpg"		title="Raspberries and Cream"		description=""/>
+		<img src="returntosender-kp.jpg"		title="Return to Sender"		description=""/>	
+		<img src="rollingthunder-kp.jpg"		title="Rolling Thunder"			description=""/>	
+		<img src="ron-kp.jpg"				title="Ron"				description=""/>
+		<img src="rosanova-kp.jpg"			title="Rosa Nova"			description=""/>
+		<img src="royalsatin-kp-2.jpg"			title="Royal Satin"			description=""/>
+		<img src="royalsatin-kp-3.jpg"			title="Royal Satin"			description=""/>
+		<img src="royalsatin-kp.jpg"			title="Royal Satin"			description=""/>
+		<img src="sacramentomountains-kp.jpg"		title="Sacramento Mountains"		description=""/>
+		<img src="scentedbubbles-kp.jpg"		title="Scented Bubbles"			description=""/>	
+		<img src="shineonthru-kp.jpg"			title="Shine On Thru"			description=""/>
+		<img src="silverado-kp.jpg"			title="Silverado"			description=""/>
+		<img src="skyhooks-kp.jpg"			title="Skyhooks"			description=""/>
+		<img src="skyking-kp.jpg"			title="Sky King"			description=""/>
+		<img src="smokerings-kp.jpg"			title="Smoke Rings"			description=""/>
+		<img src="songofnorway-kp.jpg"			title="Song of Norway"			description=""/>
+		<img src="spoontime-kp.jpg"			title="Spoontime"			description=""/>
+		<img src="springromance-kp-1.jpg"		title="Spring Romance"			description=""/>
+		<img src="springromance-kp-2.jpg"		title="Spring Romance"			description=""/>	
+		<img src="steppingout-kp-2.jpg"			title="Stepping Out"			description=""/>
+		<img src="steppingout-kp.jpg"			title="Stepping Out"			description=""/>
+		<img src="stitchintime-kp.jpg"			title="Stitch in Time"			description=""/>
+		<img src="stopthemusic-kp-1.jpg"		title="Stop The Music"			description=""/>	
+		<img src="strawberrysensation-kp-2.jpg"		title="Strawberry Sensation"		description=""/>	
+		<img src="strawberrysensation-kp.jpg"		title="Strawberry Sensation"		description=""/>	
+		<img src="streettalk-kp.jpg"			title="Street Talk"			description=""/>
+		<img src="sundaychimes-kp.jpg"			title="Sunday Chimes"			description=""/>
+		<img src="symphonette-kp.jpg"			title="Symphonette"			description=""/>
+		<img src="theatre-kp.jpg"			title="Theatre"				description=""/>
+		<img src="thickandcreamy-kp.jpg"		title="Thick and Creamy"		description=""/>
+		<img src="thornbird-kp.jpg"			title="Thornbird"			description=""/>
+		<img src="thornbird-kp2.jpg"			title="Thornbird"			description=""/>
+		<img src="thunderspirit-kp.jpg"			title="Thunder Spirit"			description=""/>
+		<img src="titansglory-kp-1.jpg"			title="Titans Glory"			description=""/>
+		<img src="trevifountain-kp.jpg"			title="Trevi Fountain"			description=""/>
+		<img src="twiceblessed-kp.jpg"			title="Twice Blessed"			description=""/>
+		<img src="valentinesday-kp-2.jpg"		title="Valentines Day"			description=""/>
+		<img src="vibrant-kp.jpg"			title="Vibrant"				description=""/>
+		<img src="victoriafalls-kp.jpg"			title="Victoria Falls"			description=""/>
+		<img src="visualarts-kp.jpg"			title="Visual Arts"			description=""/>
+		<img src="voodoochild-kp-2.jpg"			title="Voodoo Child"			description=""/>
+		<img src="voodoochild-kp.jpg"			title="Voodoo Child"			description=""/>
+		<img src="wildapache-kp.jpg"			title="Wild Apache"			description=""/>
+		<img src="wildginger-kp.jpg"			title="Wild Ginger"			description=""/>
+		<img src="winemaster-kp-1.jpg"			title="Wine Master"			description=""/>
+		<img src="wingsofblue-kp.jpg"			title="Wings of Blue"			description=""/>
+       	</album>	
+	
+	
+</slideshow>
