@@ -1,0 +1,198 @@
+to school :h :w :a
+pd 
+seth 0 fd :h rt 90 fd :w rt 90 fd :h rt 90 fd :w rt 90 fd :h
+setxy 0 125 
+setxy 150 250
+setxy 300 125
+pu
+end
+setxy 0 0 ppt school 125 300 125
+
+setxy 100 110 RT 90 LABEL "School
+
+to windows :h :w
+pd
+seth 0 fd :h rt 90 fd :w rt 90 fd :h rt 90 fd :w
+rt 90 fd :h/2 rt 90 fd :w rt 90 fd :h/2 rt 90 fd :w/2 rt 90 fd :h
+pu
+end
+
+setxy 10 35 windows 30 30
+setxy 110 35 windows 30 50
+setxy 170 35 windows 30 50
+setxy 230 35 windows 30 60
+to door :h :w
+pd seth 0 fd :h rt 90 fd :w rt 90 fd :h rt 90 fd :w
+pu seth 0 fd :h/3 rt 90 fd :w/3 
+pd arc 360 :w/10
+pu
+end
+ 
+setxy 50 0 door 75 50
+
+to moon :d
+pd 
+arc 360 :d
+pu seth 90 fd :d/2
+pd arc 360 :d
+pu
+end
+
+setxy -350 350 moon 75
+
+to tree :d 
+pd 
+seth 90 arc 360 :d
+pu fd :d*1.2 pd arc 360 :d
+pu seth 0 fd :d*1.2 pd arc 360 :d
+pu seth 270 fd :d*1.2 pd arc 360 :d
+pu seth 180 fd :d*1.2 seth 90 fd :d*.6 
+seth 180 fd :d 
+rt 90 pd fd :d/3 lt 90 fd :d 
+lt 90 fd :d*2/3 lt 90 fd :d 
+lt 90 fd :d/3 
+pu seth 0 fd :d*(2.4)+:d*(2/3) 
+pd arc 360 :d
+pu
+end
+
+setxy -350 80 tree 50
+setxy -160 80 tree 50
+setxy -225 -120 tree 50
+setxy -415 -120 tree 50
+
+to star :v :l
+pd
+repeat :v [fd :l rt ((3*360)/:v)]
+pu
+end
+
+setxy 0 350 star 5 40
+setxy -120 300 star 5 40
+setxy 120 400 star 5 40
+setxy -80 375 star 5 40
+setxy 200 350 star 5 40
+setxy 280 425 star 5 40
+
+
+to pfence :h :w :n
+pd
+seth 0 repeat :n [fd :h rt 30 fd :w rt 120 fd :w rt 30 fd :h rt 90 fd :w bk :w rt 90]
+pu
+end
+
+setxy -420 -350 pfence 50 15 60
+to goal :h :w
+pd
+seth 90 fd :w/5 lt 90 fd :h*2/3 lt 90 fd :w/5 lt 90 fd :h*2/3 
+bk :h*2/3 rt 90 fd :w/2 rt 90 fd :h/3 rt 90 fd :w+(:w/5) rt 90 fd :h/3
+rt 90 fd (:w/2)+(:w/5) bk (:w/2)-(:w/20) 
+rt 90 fd :w/2 lt 90 fd (:w/2)+(:w/5) lt 90 fd (:w/2) bk :w/8 
+lt 90 fd (:w/2)+(:w/5) bk :w/8
+lt 90 fd (:w/5) lt 90 fd (:w*2/5) lt 90 fd (:w*/5)
+lt 90 fd (:w*8/15) rt 90 fd :w/8
+pu fd (:h*2/3)-(:h/12) pd arc 360 (:h/12)
+pu seth 90 fd (:h/6) pd arc 360 (:h/12)
+pu seth 0 fd (:h/7.5) lt 90 fd (:h/12) pd arc 360 (:h/12) 
+pu
+end
+
+setxy 350 0 goal 100 50
+
+to boy :h
+pu seth 0 fd :h*1.35 rt 90 fd :h*.35
+pd 
+arc 360 :h/5
+pu seth 180 fd :h/5  
+pd fd :h/5 seth 210 fd :h*2/5 bk :h*2/5 
+seth 150 fd :h*2/5 bk :h*2/5 
+seth 180 fd :h*3/5 seth 210 fd :h*2/5 bk :h*2/5
+seth 150 fd :h*2/5 bk :h*2/5
+pu
+seth 0 fd :h*11/10
+lt 90 fd :h/20 pd arc 360 :h/20
+pu bk :h/10 pd arc 360 :h/20
+pu fd :h/20 seth 180 fd :h/10
+seth 270 pd arc 180 :h/10
+pu
+end
+
+setxy 300 -100 boy 60
+
+to girl :h
+pu seth 0 fd :h*1.35 rt 90 fd :h*.35
+pd arc 360 :h/5
+pu seth 180 fd :h/5  
+pd fd :h/5 seth 210 fd :h*2/5 bk :h*2/5 
+seth 150 fd :h*2/5 bk :h*2/5 
+seth 180 fd :h*3/5 seth 210 fd :h*2/5 bk :h*2/5
+seth 150 fd :h*2/5 bk :h*2/5
+pu
+seth 0 fd :h*11/10
+lt 90 fd :h/20 pd arc 360 :h/20
+pu bk :h/10 pd arc 360 :h/20
+pu fd :h/20 seth 180 fd :h/10
+seth 270 pd arc 180 :h/10
+pu seth 90 fd :h/5
+pd rt 90 fd :h/20 arc 360 :h/30 fd :h/20 arc 360 :h/30 fd :h/15 arc 360 :h/10 
+pu bk (:h/10)+(:h/15) seth 270 fd :h*2/5
+pd lt 90 fd :h/20 arc 360 :h/30 fd :h/20 arc 360 :h/30 fd :h/15 arc 360 :h/10
+pu
+end
+
+setxy 350 -100 girl 60
+
+to bus :h :w
+pd
+arc 360 :w/12
+seth 270 pu fd :w/12 pd fd :w/6 rt 90 fd :h/2 rt 90 fd :w/12 lt 90 fd :h/2 
+rt 90 fd :w*5/6 rt 90 fd :h rt 90 fd :w/6 pu fd :w/12 pd arc 360 :w/12 pu fd :w/12 pd fd :w*3/12 
+pu fd :h*2/3 seth 0 fd :h/2 
+pd windows :h/3 :h/3 pu seth 90 fd :h/3 rt 90 fd :h/3 pd windows :h/3 :h/3 pu seth 90 fd :h/3 rt 90 fd :h/3 pd windows :h/3 :h/3
+pu seth 90 fd :h/3 rt 90 fd :h/3 pd windows :h/3 :h/3
+pu seth 90 fd :h/3 rt 90 fd :h/3 pd windows :h/3 :h/3
+pu seth 90 fd :h/3 rt 90 fd :h/3 pd windows :h/3 :h/3
+pu
+end
+
+setxy 50 -150 bus 75 300
+
+edit “school
+edit “door
+edit “windows
+edit “tree
+edit “star
+edit “moon
+edit “pfence
+edit “goal
+edit “bus
+edit “girl
+edit “boy
+
+ppt setxy -450 0
+pd fd 900
+pu
+setxy 0 0 ppt school 125 300 125
+setxy 50 0 door 75 50
+setxy 10 35 windows 30 30
+setxy 110 35 windows 30 50
+setxy 170 35 windows 30 50
+setxy 230 35 windows 30 60
+setxy 100 110 RT 90 LABEL "School
+setxy 350 0 goal 100 50
+setxy -350 80 tree 50
+setxy -160 80 tree 50
+setxy -225 -120 tree 50
+setxy -415 -120 tree 50
+setxy -350 350 moon 75
+setxy 0 350 star 5 40
+setxy -120 300 star 5 40
+setxy 120 400 star 5 40
+setxy -80 375 star 5 40
+setxy 200 350 star 5 40
+setxy 280 425 star 5 40
+setxy -420 -350 pfence 50 15 60
+setxy 50 -150 bus 75 300
+setxy 300 -100 boy 60
+setxy 350 -100 girl 60
+

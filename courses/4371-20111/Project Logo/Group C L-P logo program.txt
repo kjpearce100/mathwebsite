@@ -1,0 +1,58 @@
+to door :w :h 
+fd :w rt 90 fd :h rt 90 fd .25*:w rt 90 fd .25*:h lt 90 fd .25*:w lt 90 fd .25*:h lt 90 fd .25*:w rt 180 fd .75*:w rt 90 fd :h
+end
+
+to grass :n :b
+lt 90
+repeat :n [lt 120 fd :b lt 120 fd :b lt 120 fd 2* :b]
+end
+
+to house :b :w :h :n
+triangle :b
+home rt 90
+door :w :h
+window2 :w :h :n
+end
+
+to limpoly :n :m
+home
+npoly :n
+if :n>:m[stop]
+limpoly :n+1 :m
+end
+
+to maze :l :a :m
+fd :l rt 90
+if :l>:m[stop]
+maze :l+:a :a :m
+end
+
+to npoly :n 
+home
+repeat :n [fd 100 rt 180-(:n-2)*180/:n]
+end
+
+to picket :n :w :l
+repeat :n [fd :w lt 90 fd :l lt 90 fd :w lt 90 fd :l pu fd 2* :w pd]
+end
+
+to picket2 :n :w :l
+repeat :n [fd :w lt 90 fd :l lt 90 fd :w lt 90 fd :l lt 90 pu fd 2* :w pd]
+end
+
+to rectangle :w :h 
+fd :w rt 90 fd :h rt 90 fd :w rt 90 fd :h
+end
+
+to triangle :b 
+rt 90
+fd :b lt 120 fd :b lt 120 fd :b
+end
+
+to window2 :w :h :n
+pu 
+rt 90 fd .25*:w rt 90 fd .5*:h
+pd 
+repeat :n[fd .15*:w lt 90]
+end
+

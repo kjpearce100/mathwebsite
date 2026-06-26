@@ -1,0 +1,339 @@
+to bottomwindows
+
+seth 0
+
+setfc [0 178 238]
+
+pu
+setxy -140 -75
+pd
+
+repeat 4 [rt 90 fd 30]
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+
+pu
+setxy -80 -75
+pd
+
+repeat 4 [rt 90 fd 30]pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+
+pu
+setpos [-20 -75]
+pd
+
+repeat 4 [rt 90 fd 30]
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+
+pu
+setpos [40 -75]
+pd
+
+repeat 4 [rt 90 fd 30]
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+pu
+
+setpos [100 -75]
+pd
+
+repeat 4 [rt 90 fd 30]
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+
+pu
+setpos [160 -75]
+pd
+
+rt 90 fd 30 
+rt 90 fd 75 
+rt 90 fd 30
+rt 90 fd 75
+
+setfc 4
+
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+
+setfc [0 178 238]
+
+pu
+setpos [220 -75]
+pd
+
+repeat 4 [rt 90 fd 30]
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+
+pu 
+setpos [180 -115]
+pd
+
+setfc 0
+
+arc 360 4
+fill
+
+end
+
+to building 
+
+seth 0
+
+pu
+setxy -150 -150
+pd
+
+fd 200 rt 90 fd 410 rt 90 fd 200 rt 90 fd 410
+
+pu rt 150 fd 10 
+setfc [205 133 0]
+
+fill
+
+end
+
+to flag
+
+seth 0
+
+pu
+setxy -100 50
+pd
+
+fd 150 rt 90 fd 150 rt 90 fd 75 rt 90 fd 150
+
+
+
+
+rt 90 fd 75 rt 90 fd 50 rt 90 fd 75
+
+lt 90 fd 100 lt 90 fd (75/2)
+
+lt 90 fd 100 
+
+setfc 4
+pu lt 170 fd 10 fill bk 10 rt 170 pd
+
+
+pu 
+setxy -75 175
+pd
+
+seth 18
+
+Repeat 5 [rt (180-(180/5)) fd 20]
+
+pu lt 45 fd 10
+
+setfc 1
+fill
+
+end
+
+To limstar :n :l :m
+Home
+Repeat :n [rt (180-(180/:n)) fd :l]
+If :n>:m [stop]
+Limstar :n+2 :l :m
+end
+
+to moon
+
+pu
+setxy -300 300
+pd
+
+
+setpc 1
+
+arc 200 50
+
+
+end
+
+to picketfence
+
+seth 0
+
+pu
+setxy -350 -250
+pd
+
+repeat 26 [fd 40 
+rt 30 fd 30
+rt 120 fd 30
+rt 30 fd 40
+
+seth 0]
+
+end
+
+to school
+
+building
+topwindows
+bottomwindows
+picketfence
+trees
+flag
+stars
+moon
+
+end
+
+to stars
+
+
+pu
+setxy -200 300
+pd
+
+repeat 3 [ Repeat 5 [rt (180-(180/5)) fd 15]
+
+pu rt 60 fd 30 pd
+
+Repeat 5 [rt (180-(180/5)) fd 15]
+
+pu lt 60 fd 30 pd]
+
+
+end
+
+to topwindows
+
+seth 0
+
+setfc [0 178 238]
+
+pu
+setxy -140 0
+pd
+
+repeat 4 [rt 90 fd 30]  
+
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+
+
+pu
+setxy -80 0
+pd
+
+repeat 4 [rt 90 fd 30]
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+pu
+setpos [-20 0]
+pd
+
+repeat 4 [rt 90 fd 30]
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+pu
+setpos [40 0]
+pd
+
+repeat 4 [rt 90 fd 30]
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+pu
+
+setpos [100 0]
+pd
+
+repeat 4 [rt 90 fd 30]
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+pu
+setpos [160 0]
+pd
+
+repeat 4 [rt 90 fd 30]
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+pu
+setpos [220 0]
+pd
+
+repeat 4 [rt 90 fd 30]
+pu
+rt 160 fd 10 fill lt 160 bk 10
+pd
+
+end
+
+to trees
+
+seth 0
+setfc 2
+
+pu
+setxy -300 -150
+pd
+
+fd 100
+pu fd 50 pd
+arc 360 50
+fill
+
+
+pu
+setxy -200 -150
+pd
+
+fd 100
+pu fd 50 pd
+arc 360 50
+fill
+
+pu
+setxy 310 -150
+pd
+
+fd 100
+pu fd 50 pd
+arc 360 50
+fill
+
+pu
+setxy 410 -150
+pd
+
+fd 100
+pu fd 50 pd
+arc 360 50
+fill
+
+
+
+
+end
+

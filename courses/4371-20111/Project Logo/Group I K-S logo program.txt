@@ -1,0 +1,218 @@
+Kami Carnell and Sarah Bowers
+Final logo project 
+	Kami and Sarah did the whole project together, so credit should be divided evenly. We created a school, moon, stars, blue bonnet flower (landscape), fence, and a playground with many features (aka slide, tetherball and hopscotch). The following is the steps to recreate our picture. 
+Instructions to make school and other features: 
+School:
+Rectangle:
+pu setxy -100 50 pd
+edit “rectangle
+to rectangle :x :y
+repeat 2 [fd :x rt 90 fd :y rt 90]
+end
+rectangle 200 300
+fill
+
+roof:
+pu setxy -100 50
+fd 200
+rt 35
+fd 60
+rt 55
+fd 200
+pu setxy 200 250 pd
+lt 90
+lt 35
+fd 60
+lt 55 
+fd 250
+fill
+
+ 
+bell square:
+setxy 0 300
+rt 90
+fd 60 
+rt 90
+fd 95
+rt 90
+fd 60
+pu
+
+triangle on roof:
+edit “triangle 
+to triangle :x :y :b :h
+pu setxy :x :y 
+ppt pd
+setxy :x+:b :y
+setxy :x+:b/2 :y+:h
+setxy :x :y
+end
+triangle 5 360 95 45
+rt 90 fd 10 
+pu lt 90 fd  2
+fill
+pu
+
+door:
+setxy 50 50 
+ pd rectangle 60 30
+setxy 20 50 
+ppt pd rectangle 60 30
+pu setxy 40 70 
+pd arc 360 5
+pu setxy 60 70 
+pd arc 360 5
+pu
+
+window:
+pu setxy -50 150
+pd rectangle 50 50 
+pd rectangle 25 25 
+pd rectangle 50 25 
+rt 90 
+fd 25
+lt 90
+pd rectangle 25 25
+pu setxy 100 150
+pd rectangle 50 50 
+pd rectangle 25 25 
+pd rectangle 50 25 
+rt 90 
+fd 25
+lt 90
+pd rectangle 25 25
+pu
+
+tree:
+ pu setxy 300 180
+pd lt 45 Repeat 8 [Fd 50 rt 45]
+lt 135 
+fd 130
+lt 90
+fd 50
+lt 90
+fd 130
+lt 90
+fd 50
+fill
+pu
+
+Fence:
+Setxy -100 -100
+pd repeat 15 [rectangle 60 20 rt 90 fd 20 lt 90]
+pu setxy -100 -40
+triangle -100 -40 20 30
+triangle -80 -40 20 30
+triangle -60 -40 20 30
+triangle -40 -40 20 30
+triangle -20 -40 20 30
+triangle 0 -40 20 30
+triangle 20 -40 20 30
+triangle 40 -40 20 30
+triangle 60 -40 20 30
+triangle 80 -40 20 30
+triangle 100 -40 20 30
+triangle 120 -40 20 30
+triangle 140 -40 20 30
+triangle 160 -40 20 30
+triangle 180 -40 20 30
+fill 
+
+Moon:
+pu setxy -350 400
+pd arc 360 70 
+fill
+pu fd 30
+pd arc 360 70 
+fill
+
+Stars:
+pu setxy -200 400
+pd Repeat 5 [fd 60 rt 144]
+pu setxy 200 400
+pd Repeat 5 [fd 60 rt 144]
+pu setxy 10 450
+pd Repeat 5 [fd 60 rt 144]
+pu setxy 350 450
+pd Repeat 5 [fd 60 rt 144]
+
+Blue bonnet Flower:
+pu
+Setxy : -200 10
+edit "flower
+to flower
+arc 360 10
+lt 60
+pu fd 10
+ppt
+end
+repeat 6 [flower]
+pu lt 90
+fd 5
+fd 2
+lt 90
+fd 25
+pd fd 30 
+pu 
+lt 90
+repeat 7 [flower]
+pu
+rt 120
+rt 45
+fd 30
+fd 15
+repeat 7 [flower]
+pu rt 90
+fd 10
+fd 10
+repeat 7 [flower]
+pu
+
+Slide:
+setxy -400 50
+rt 90
+pd lt 90 repeat 8 [rectangle 30 20 rt 90 fd 20 lt 90]
+pu rt 90
+rt 55
+fd 110
+rt  55
+fd 50 
+
+hopscotch:
+lt 90 
+pu setxy -450 -45 
+pd repeat 2 [rectangle 30 30 rt 90 fd 30 lt 90]
+fd 15
+rectangle 30 30 rt 90 fd 20 lt 90
+rt 90 bk 20
+rectangle 30 30 rt 90 fd 20 lt 90
+pu 
+pu fd 30 
+lt 90
+fd 5
+rt 90
+pd fd 30 
+lt 90
+fd 30 
+lt 90
+fd 30 
+pu
+
+tether ball: 
+rt 90
+setxy 400 -100
+rectangle 145 7
+pd rectangle 145 7
+pu fd 10 
+rt 90
+fd 4
+fill
+bk 4
+pu
+lt 90
+fd 135
+lt 150 
+pd fd 75
+pu fd 10
+pd arc 360 20
+fill

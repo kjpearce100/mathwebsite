@@ -1,0 +1,620 @@
+to 5star :starx :stary :l
+seth 90
+setpensize [1 1]
+setpc 0
+pu
+setxy :starx :stary
+pd
+repeat 5 [fd :l rt 144 fd :l lt 72]
+end
+
+to arcwndow :awx :awy :awr
+pu
+setxy :awx :awy
+seth 90
+setpc 0
+setpensize [2 2]
+pd
+arc 180 :awr
+fd :awr
+back (2*:awr)
+setfc 6
+pu
+fd :awr
+lt 90
+fd 5
+fill
+bk 5
+pd
+fd :awr
+setxy :awx :awy
+seth 0
+lt 45
+fd :awr
+setxy :awx :awy
+seth 0
+rt 45
+fd :awr
+pu
+end
+
+to bldg :bldgx :bldgy :bldgw :bldgh :roof2w
+setpensize [2 2]
+setpc [200 0 0] 
+setfc [200 0 0]
+rectangle134 :bldgx :bldgy :bldgw :bldgh
+pu
+setxy (:bldgx+:bldgw/2) (:bldgy+:bldgh+(:bldgw/(2*sqrt(3))))
+seth 240
+pd
+setpc 8
+fd (2*(:bldgw/(2*sqrt(3))))
+fd (2*:roof2w)
+rt 90
+fd :roof2w
+rt 90
+fd (2*:roof2w)
+fd (2*(:bldgw/(2*sqrt(3))))
+fd (:roof2w/(sqrt(3)))
+pu
+setxy (:bldgx+:bldgw/2) (:bldgy+:bldgh+(:bldgw/(2*sqrt(3))))
+seth 120
+pd
+fd (2*(:bldgw/(2*sqrt(3))))
+fd (2*:roof2w)
+lt 90
+fd :roof2w
+lt 90
+fd (2*:roof2w)
+fd (2*(:bldgw/(2*sqrt(3))))
+fd (:roof2w/(sqrt(3)))
+pu
+setxy (:bldgx+:bldgw/2) :bldgy
+seth 0
+fd :bldgh/4 fill fd :bldgh/2 fill fd ((:bldgh/4)+(:bldgw/(4*sqrt(3)))) fill
+setfc 9
+fd ((:bldgw/(4*sqrt(3)))+:roof2w/2) 
+fill
+setpc [200 0 0]
+setpensize [6 6]
+pd
+
+end
+
+to door :doorx :doory :doorw :doorh  :knobx :knoby :knobr
+setpensize [2 2] setpc 8
+rectangle :doorx :doory :doorw :doorh 
+pu fd 10 rt 90 fd 10 pd
+setfc 9
+fill
+knob :knobx :knoby :knobr
+end
+
+to flag :flagx :flagy :flagpoleh
+
+setpensize [1 1]
+setpc 0
+
+rectangle :flagx (:flagy + ((2/3)*:flagpoleh)) (:flagpoleh/2) (:flagpoleh/3)
+
+setpc [191 10 48]
+pd
+rectangle (:flagx+(:flagpoleh/6)) (:flagy + ((2/3)*:flagpoleh)) (:flagpoleh/3) (:flagpoleh/6)
+
+setpc [0 40 104]
+rectangle :flagx (:flagy + ((2/3)*:flagpoleh)) (:flagpoleh/6) (:flagpoleh/3)
+
+5star (:flagx+15) (:flagy+130) 8
+pu
+setxy (:flagx+:flagpoleh/12) (:flagy + ((2/3)*:flagpoleh) + 10)
+setfc [0 40 104]
+fill
+seth 90 
+fd :flagpoleh/6
+setfc [191 10 48]
+fill
+pu
+setpensize [8 8]
+setpc [128 128 128]
+setxy :flagx :flagy
+seth 0
+pd
+fd :flagpoleh
+back :flagpoleh/3
+end
+
+to fnce :fncex :fncey :fncew :fnceh
+pu
+setxy :fncex :fncey
+pd
+setpc 0
+setfc [255 248 220]
+setpensize [1 1]
+seth 0
+fd 80
+rt 45
+fd (20/(sqrt(2)))
+rt 90
+fd (20/(sqrt(2)))
+rt 45
+fd 20
+lt 90
+fd 20
+rt 90
+fd 10
+rt 90
+fd 20
+lt 90
+fd 20
+lt 90
+fd 20
+rt 90
+fd 10
+rt 90
+fd 20
+lt 90
+fd 20
+rt 90
+fd 20
+pu
+bk 10
+rt 90
+fd 10
+fill
+setxy (:fncex + :fncew) :fncey
+seth 0
+pd
+fd :fnceh
+pu
+if (:fncex+2*:fncew)>490 [stop] 
+fnce (:fncex+2*:fncew) :fncey :fncew :fnceh
+end
+
+to grass
+pu
+setxy 0 200
+seth 150
+pd
+setpc [34 139 34]
+setfc [34 139 34]
+arc 60 1000
+pu
+fd 10
+fill
+end
+
+to house1
+ht
+setfc 0
+fill
+wall 750 250 -375 0
+door -40 0 80 150 30 75 8
+arcwndow 0 110 30
+wndow -335 85 80 80
+wndow -175 85 80 80
+wndow 95 85 80 80
+wndow 255 85 80 80
+roof 900 125 -450 250
+welcomemat
+end
+
+to knob :knobx :knoby :knobr
+pu
+setpc [255 223 0]
+setfc [255 223 0]
+setxy :knobx :knoby
+seth 0
+pd
+arc 360 :knobr
+pu
+fill
+end
+
+to moon :moonx :moony :moonr
+setpc 0
+setpensize [1 1]
+seth 0
+pu
+setxy :moonx :moony
+pd
+arc 360 :moonr
+rt 120
+fd :moonr
+setpc 7
+back :moonr
+setpc 0
+pu
+fd :moonr
+pd
+arc 60 1.2*:moonr
+arc -60 1.2*:moonr
+pu
+back (1.2*:moonr + 5)
+setfc [235 225 218]
+fill
+pu
+end
+
+to myname :x :y
+pu
+seth 90
+setxy :x :y
+setpc 0
+setlabelfont [[Kristen ITC] 20 20]
+label "Skool
+pd lt 90
+end
+
+to ornaments :x :y
+seth 0
+setpc 4
+setpensize [8 8]
+pu setxy :x :y
+pd fd 0 pu
+rt 90
+fd 20
+pd fd 0 pu
+fd 20 pd fd 0 pu
+fd 20 pd fd 0 pu
+fd 20 pd fd 0 pu
+lt 60
+lt 60
+fd 20
+pd fd 0 pu
+lt 60
+fd 20 pd fd 0 pu
+fd 20 pd fd 0 pu
+fd 20 pd fd 0 pu
+rt 120
+fd 20
+pd fd 0 pu
+rt 60
+fd 20 pd fd 0 pu
+fd 20 pd fd 0 pu
+lt 120
+fd 20
+pd fd 0 pu
+lt 60
+fd 20 pd fd 0 pu
+rt 60
+lt 30
+fd 20
+pd fd 0 pu
+rt 150
+fd 20 pd fd 0 pu
+pu back 20
+pd fd 0 pu
+fd 20 pd fd 0 pu
+fd 20 pd fd 0 pu
+fd 20 pd fd 0 pu
+lt 120
+fd 20
+pd fd 0 pu
+lt 60
+fd 20 pd fd 0 pu
+fd 20 pd fd 0 pu
+rt 60
+rt 60
+fd 20
+pd fd 0 pu
+rt 60
+fd 20
+pd fd 0 pu
+lt 30
+lt 30
+fd 10
+fd 10
+back 5
+lt 60
+fd 5
+pd fd 0 pu
+lt 60
+fd 20
+pd fd 0 pu
+fd 15
+pd fd 0 pu
+rt 60
+rt 60
+fd 20 pd fd 0 pu
+rt 60
+fd 10
+fd 5
+pd fd 0 pu
+lt 120
+rt 10
+fd 20
+pd fd 0 pu
+rt 20
+fd 20
+rt 90 fd 3
+treestar 12
+treestar 6
+treestar 4
+end
+
+to rectangle :rectx :recty :rectw :recth 
+pu
+setxy :rectx :recty
+seth 0
+pd
+repeat 2 [fd :recth rt 90 fd :rectw rt 90]
+end
+
+to rectangle123 :rectx :recty :rectw :recth 
+pu
+setxy :rectx :recty
+seth 0
+pd
+fd :recth rt 90 fd :rectw rt 90
+fd :recth rt 90 pu fd :rectw rt 90
+end
+
+to rectangle134 :rectx :recty :rectw :recth 
+pu
+setxy :rectx :recty
+seth 0
+pd
+fd :recth rt 90 pu fd :rectw rt 90 pd
+fd :recth rt 90 fd :rectw rt 90
+end
+
+to roof :roofb :roofh :roofx  :roofy
+setpensize [4 4] setpc 8 
+triangle :roofb :roofh :roofx  :roofy
+pu bk :roofb/2 rt 90 fd 10 pd
+setfc 9
+fill
+end
+
+to sandbox :sbx :sby :sbw :sbh :sbd
+setpensize [1 1]
+setpc 0
+setfc [211 211 211]
+setpensize [1 1]
+rectangle :sbx :sby :sbw :sbh
+lt 30
+fd :sbd
+rt 30
+fd :sbh
+rt 150
+fd :sbd
+back :sbd
+lt 60
+fd :sbw
+rt 60
+fd :sbd
+pu
+rt 30
+fd :sbh/3
+rt 90
+fd :sbw/2
+rt 90
+fill
+fd :sbh/2
+setfc [210 180 140]
+fill
+lt 90
+fd ((:sbw/2)+3)
+setfc [211 211 211]
+fill
+ht
+end
+
+to sbflag :flagx :flagy :flagpoleh
+
+setpensize [1 1]
+setpc 0
+
+rectangle :flagx (:flagy + ((2/3)*:flagpoleh)) (1.5*:flagpoleh) (:flagpoleh/3)
+seth 0 pu fd :flagpoleh/4 rt 90 fd :flagpoleh/4 setfc 0 fill
+sbname :flagx (:flagy +(:flagpoleh))
+
+
+setpensize [3 3]
+setpc [128 128 128]
+pu
+setxy :flagx :flagy
+seth 0
+pd
+fd :flagpoleh
+back :flagpoleh/3
+end
+
+to sbname :x :y
+pu
+seth 90
+setxy :x+4 :y
+setpc 7
+setlabelfont [[Kristen ITC] 10 9]
+label "sand
+pd lt 90
+end
+
+to schoolname :x :y
+pu
+seth 90
+setxy :x :y
+setpc 0
+setlabelfont [[Kristen ITC] 20 20]
+label "Skool
+pd lt 90
+end
+
+to schoolyard
+grass
+fnce -500 -160 20 80
+bldg -270 70 180 180 18
+schoolname -235 245
+door -195 70 30 80 -170 110 3
+arcwndow -180 130 10
+wndow -250 185 40 35
+wndow -150 185 40 35
+wndow -150 110 40 35
+wndow -250 110 40 35
+arcwndow -180 250 25
+sandbox 20 -20 90 10 36
+sbflag 90 20 30
+swing 90 80 160 90
+flag 0 120 150
+moon -430 365 50
+5star -356 323 3
+5star -306 409 3
+5star -206 400 4
+5star -6 379 3
+5star 33 310 3
+5star 276 392 3
+5star 351 419 3
+5star 443 342 3
+5star 461 244 3
+5star 334 255 3
+tree -410 25 100 200
+ornaments -450 80
+tree 410 25 100 200
+ornaments 370 80
+sidewalk
+
+pu setfc 0 setxy 490 430 fill
+end
+
+to sidewalk
+setxy -500 0
+seth 90
+pd
+setpc 8
+setpensize [2 2]
+fd 235
+pu lt 90 fd 70 pd
+arc -90 70
+arc -90 100
+pu back 100 pd
+lt 90 fd 235
+rt 90 pu fd 10 rt 90 fd 10 setfc [211 211 211] fill
+end
+
+to swing :swingx :swingy :swingw :swingh
+setpc [128 128 128]
+setpensize [4 4]
+rectangle123 :swingx :swingy :swingw :swingh
+fd :swingh
+lt 165
+pd
+fd ((8/9)*:swingh)
+pu
+back ((8/9)*:swingh)
+seth 90
+fd :swingw
+rt 105
+pd
+fd ((8/9)*:swingh)
+pu
+back ((8/9)*:swingh)
+seth -90
+pd
+fd :swingw/4
+lt 90
+fd ((2/3)*:swingh)
+rt 90
+setpc 0
+setpensize [6 6]
+fd (:swingw/8)
+setpensize [4 4]
+setpc [128 128 128]
+rt 90
+fd ((2/3)*:swingh)
+lt 90
+fd :swingw/4
+lt 90
+fd ((2/3)*:swingh)
+rt 90
+setpc 0
+setpensize [6 6]
+fd (:swingw/8)
+setpensize [4 4]
+setpc [128 128 128]
+rt 90
+fd ((2/3)*:swingh)
+end
+
+to tree :treex :treey :treew :treeh
+setpc [128 70 27]
+setfc [128 70 27]
+setpensize [2 2]
+rectangle (:treex-(:treew/20)) :treey :treew/10 :treeh/4
+pu rt 45 fd 8
+fill
+setpc [1 68 33]
+setfc [1 68 33]
+trianglec :treex (:treey+(12/4)*:treeh/4) ((4/4)*:treew) ((4/4)*:treeh/2)
+trianglec :treex (:treey+(15/4)*:treeh/4) ((3/4)*:treew) ((3/4)*:treeh/2)
+trianglec :treex (:treey+(17/4)*:treeh/4) ((2/4)*:treew) ((2/4)*:treeh/2)
+trianglec :treex (:treey+(18/4)*:treeh/4) ((1/4)*:treew) ((1/4)*:treeh/2)
+seth 180
+setpc 7
+pu fd 5 pd
+fd (5/9)*:treeh
+fill
+pu fd (2/9)*:treeh
+fill
+end
+
+to treestar :l
+seth 90
+setpensize [6 6]
+setpc [255 215 0]
+pd
+repeat 5 [fd :l rt 144 fd :l lt 72]
+pu
+end
+
+to triangle :trix  :triy :trib :trih 
+pu
+setxy :trix :triy
+seth 90
+lt (arctan(:trih/(:trib/2)))
+pd
+fd sqrt((power (:trib/2) 2) + (power :trih 2))
+rt (2*(arctan(:trih/(:trib/2))))
+fd sqrt((power (:trib/2) 2) + (power :trih 2))
+rt (180 - arctan(:trih/(:trib/2)))
+fd :trib
+end
+
+to trianglec :tricx  :tricy :tricb :trich 
+pu
+setxy :tricx :tricy
+seth 90
+pd
+rt ((arctan(:trich/(:tricb/2))))
+fd sqrt((power (:tricb/2) 2) + (power :trich 2))
+rt (180 - arctan(:trich/(:tricb/2)))
+fd :tricb
+rt (180 - arctan(:trich/(:tricb/2)))
+fd sqrt((power (:tricb/2) 2) + (power :trich 2))
+end
+
+to welcomemat
+setpc 8
+setpensize [3 3]
+rectangle 100 30 -50 -30
+seth 90
+pu
+fd 10 lt 90 fd 5
+setfc 9
+fill
+myname -45 -5
+end
+
+to wndow :wndowx :wndowy :wndoww :wndowh 
+setpensize [2 2] setpc 0 
+rectangle :wndowx :wndowy :wndoww :wndowh 
+pu fd 10 rt 90 fd 10 pd
+setfc 6
+fill
+pu setxy :wndowx :wndowy 
+pd
+fd .5*:wndoww lt 90 fd :wndowh
+rt 90 fd .5*:wndoww rt 90 
+fd .5*:wndowh rt 90 fd :wndoww
+pu
+end
+

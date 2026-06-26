@@ -1,0 +1,237 @@
+to cresent :l
+arc 180 :l
+pu rt 90 fd :l lt 90 pd
+rt 45
+arc 90 :l*sqrt 2
+lt 45
+end
+
+to ctree
+tree -150 345
+end
+
+to door :w :h :x :y
+pu setxy :x :y pd
+setpencolor [64 0 0] setpensize [2 2]
+repeat 2 [fd :h rt 90 fd :w rt 90]
+pu setxy :x+:w*.5 :y+:h*.5 pd
+setfloodcolor [128 64 0] fill
+pu setxy :x+:w*.01 :y+:h*.01 pd
+setfloodcolor [128 64 0] fill
+knob :w*0.05 :x+:w*.1 :y+:h*.5 
+end
+
+to final
+school
+picketfence
+ctree
+moon
+end
+
+to grass 
+setpencolor [5 75 16] setpensize [1 1]
+rectangle 1000 500 -500 -500
+pu setxy -499 -499 pd
+setfloodcolor [5 75 16] fill
+end
+
+to house :b :ht :x :y
+wall :b :ht :x :y
+roof :b*1.2 :ht*.2 :x-(:b*.1) :y+:ht
+door :b*.2 :ht*.4 :x+:b*0.4 :y
+window1 :b*.2 :ht*.2 :x+:b*0.1 :y+:ht*.2
+window1 :b*.2 :ht*.2 :x+:b*0.7 :y+:ht*.2
+window1 :b*.2 :ht*.2 :x+:b*0.4 :y+:ht*.6
+window1 :b*.2 :ht*.2 :x+:b*0.1 :y+:ht*.6
+window1 :b*.2 :ht*.2 :x+:b*0.7 :y+:ht*.6
+name :x+:b*0.38 :y+:ht*.52
+lt 90
+end
+
+to knob :s :x :y
+pu setxy :x :y pd
+setpencolor [158 160 61] setpensize [1 2]
+arc 360 :s
+setfloodcolor [189 191 85] fill
+pu home pd
+end
+
+to limpoly :n :l :m
+home
+npoly :n
+if :n>:m [stop]
+limpoly :n+2 :l :m
+end
+
+to limstar :n :l :m
+home
+nstar :n :l
+if :n>:m [stop]
+limstar :n+2 :l :m
+end
+
+to maze :l :a :m
+if :l>:m[stop]
+fd :l rt 90
+maze :l+:a :a :m
+end
+
+to moon
+pu setxy -400 250 pd
+setpencolor [0 0 0] setpensize [2 2]
+arc 360 50
+setfloodcolor [0 0 0] fill
+setpencolor [255 255 255] setpensize [2 2]
+rt 30
+cresent 50
+pu lt 90 fd 50*sqrt 2+.5 pd
+setfloodcolor [255 255 255] fill
+lt 30 
+end
+
+to name :x :y
+pu setxy :x :y rt 90 pd
+label "SCHOOL
+end
+
+to npoly :n 
+home
+repeat :n [fd :l rt 180-(:n-2)*180/:n]
+end
+
+to nstar :n :l
+repeat :n [fd :l lt 2 *360/:n]
+end
+
+to picket :h :l :x :y
+pu setxy :x :y pd
+setpencolor [0 0 0] setpensize [2 2]
+repeat :l [fd :h rt 45 fd 20 rt 90 fd 20 rt 45 fd :h rt 180]
+lt 90
+pu fd (20*sqrt(2))/6 pd
+repeat :l*3 [arc 180 (20*sqrt(2))/6 pu fd (20*sqrt(2))/3 pd]
+rt 180 pu setxy :x+(10*sqrt(2)) :y pd
+repeat :l [setfloodcolor [255 255 255] fill pu fd 20*sqrt(2) pd] 
+pu home pd 
+end
+
+to picketfence
+picket 100 10 420 1
+end
+
+to r2g :s :w :x :y
+pu setxy :x :y pd
+arc 360 :s
+setfloodcolor [255 0 0] fill
+wait :w
+setfloodcolor [0 255 0] fill
+wait :w
+r2g :s :w :x :y
+end
+
+to rectangle :w :h :x :y
+pu setxy :x :y pd
+fd :h rt 90
+fd :w rt 90
+fd :h rt 90
+fd :w rt 90
+end
+
+to roof :b :ht :x :y
+setpencolor [128 64 0] setpensize [1 2]
+pu home pd
+triangle :b :ht :x :y
+pu setxy :x+:b/2 :y+:ht/2 pd
+setfloodcolor [128 64 0] fill
+pu home pd
+end
+
+to s
+repeat 5 [fd 10 rt 144]
+end
+
+to school 
+pu setxy 499 499 pd
+setfloodcolor [0 0 55] fill
+stars 400 350
+grass
+pu home pd
+house 400 300 0 0
+end
+
+to sidew :l :w :x :y
+end
+
+to snf
+fd 20 rt 45 s lt 180 s rt 135
+end
+
+to snow
+snf fd 30 rt 45 snf snf
+fd 10 bk 50 lt 90 snf
+snf fd 10 bk 50 rt 45
+fd 50 lt 45 s rt 45 bk 100
+end
+
+to star :s
+lt 162
+repeat 5 [fd :s lt 144]
+rt 162
+end
+
+to starflake
+ht repeat 6 [snow rt 60]
+end
+
+to stars :x :y
+if :y>500[stop]
+pu setxy :x :y pd
+setpencolor [255 255 255] setpensize [1 5]
+star 15
+stars :x+80 :y+5 
+end
+
+to tree :x :y 
+tri1 1 180 :x :y 
+end
+
+to tri1 :s :v :x :y
+if :s>:v[stop]
+setpencolor [13 198 40] setpensize [1 2]
+triangle :s :s/2 :x :y
+pu setxy :x+:s*.2 :y+:s*.1
+setfloodcolor [13 198 40] fill
+tri1 :s+10 :v :x-5 :y-:s/4
+end
+
+to triangle :b :ht :x :y
+pu setxy :x :y pd
+rt 90 fd :b
+lt 90+90-arctan :ht/(:b/2)
+fd sqrt((power :ht 2)+(power :b/2 2))
+pu setxy :x :y pd
+rt 90+90-arctan :ht/(:b/2)
+lt arctan :ht/(:b/2)
+fd sqrt((power :ht 2)+(power :b/2 2))
+pu home pd
+end
+
+to wall :w :h :x :y
+setpencolor [247 6 24] setpensize [1 1]
+rectangle :w :h :x :y
+pu setxy :x+:b*.99 :y+:ht*.99 pd
+setfloodcolor [247 6 24] fill
+end
+
+to window1 :w :h :x :y
+pu setxy :x :y pd
+setpencolor [255 255 255] setpensize [1 1]
+repeat 2 [fd :h rt 90 fd :w rt 90]
+pu setxy :x+:w*0.50 :y+:h*0.50 pd
+setfloodcolor [255 255 255] fill
+setpencolor [0 0 0] setpensize [1 1]
+pu setxy :x+:w*0.50 :y pd fd :h
+pu setxy :x :y+:h*0.50 pd rt 90 fd :w
+pu home pd
+end
+
