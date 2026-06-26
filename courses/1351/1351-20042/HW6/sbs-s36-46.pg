@@ -1,0 +1,47 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'implicit')
+## Find an equation of a tangent line using implicit differentiation
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+ 
+
+
+BEGIN_TEXT 
+$BR
+This is problem 46 Section 3.6 page 155. $BR $BR
+
+Use implicit differentiation to find the second derivative \(y''\) given $BR 
+ \[x^2+2y^3=4\]
+ 
+$PAR
+ 
+ \( y'' = \) \{ans_rule(30) \}
+ 
+ 
+$PAR
+END_TEXT
+
+$ans = "-(2*x**2+3*y**3)/(9*y**5)";
+ &ANS(fun_cmp($ans, vars=>['x','y']));
+
+  
+# &ANS(fun_cmp($ans, "x", -1,-.51));
+
+
+
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

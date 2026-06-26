@@ -1,0 +1,64 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'velocity', 'distance')
+##TYPE('word problem')
+##COMMENTS:
+##  Given equation for the distance of the ball thrown upward,
+##  find the maximum height that the ball reaches and
+##  its velocity when it hits the ground.
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+ 
+TEXT(EV2(<<EOT));
+Problem 41, Section 3.4 page 136. $BR$BR
+
+Let \(s(t) = -\frac{1}{2}gt^2+v_0t +s_0\)    denote  the position of an ``falling object'' subject  to a constant  downward acceleration due to gravity \(g\) (where  \(g\) is given approximately by \(32  ft/sec^2\) or \(9.8 m/sec^2\), $SPACE  \(v_0\) is the initial velocity and $SPACE \(s_0\) is the initial displacement.$PAR
+
+
+For this problem, a person standing on the edge of  a cliff throws a rock directly upward. it is observed that \(2\) secs later the rock is at its maximum height (in feet) and that \(5\) secs after that the rock hits the ground at the base of the cliff. $BR$BR
+
+(a) What is the initial velocity of the rock?  $SPACE \{ans_rule(20) \} ft/sec.
+$BR$BR
+
+(b) How high is the cliff?   $SPACE \{ans_rule(20) \} ft.
+$BR$BR
+
+(c) What is the velocity of the rock at time \(t\)?  $SPACE \{ans_rule(20) \} ft/sec.
+$BR$BR
+ 
+
+$BR$BR
+(d)What is the velocity of the rock when it hits the ground? 
+   $SPACE \{ans_rule(20) \} ft/sec.
+$PAR
+ 
+
+
+$BR
+EOT
+
+$ansa = 64;
+$ansb = 336;
+$ansc = "-32*t+64";
+$ansc2 = 32;
+$ansd = -160;
+
+&ANS(std_num_cmp($ansa));
+&ANS(std_num_cmp($ansb));
+&ANS(fun_cmp($ansc,var => 't'));
+&ANS(std_num_cmp($ansd));
+
+ 
+ENDDOCUMENT();        # This should be the last executable line in the problem.

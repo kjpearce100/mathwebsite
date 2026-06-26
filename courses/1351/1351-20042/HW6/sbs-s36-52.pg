@@ -1,0 +1,55 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'implicit')
+## Find an equation of a tangent line using implicit differentiation
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+ 
+
+
+BEGIN_TEXT 
+$BR
+This is problem 52 Section 3.6 page 155. $BR $BR
+
+Use logarithmic  differentiation to find the  derivative \(y'\) of $BR 
+ \[y=\frac{e^{2x}}{(x^2-3)^2\ln(\sqrt{x})}\]
+ 
+$PAR
+Your answer can be written as \(y' = y A(x)\), find \(A(x)\) 
+  $BR$BR
+ \(A(x)  = \) \{ans_rule(50) \}
+ 
+ 
+$PAR
+END_TEXT
+
+
+
+$ans = "2-4*x/(x**2-3)-1/(x*ln(x))";
+
+&ANS(function_cmp($ans, "x", 0.1,3**(1/2)));
+
+# &ANS(fun_cmp($ans));
+
+# &ANS(fun_cmp($ans, vars=>['x','y']));
+
+  
+# &ANS(fun_cmp($ans, "x", -1,-.51));
+
+
+
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

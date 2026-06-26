@@ -1,0 +1,42 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'chain rule')
+##  Find a derivative of a polynomial; requires use of chain rule
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.1415926;
+ 
+ 
+
+TEXT(EV2(<<EOT));
+This is problem 46, Section 3.5 page 143.$BR$BR
+
+Find the \(x\)-coordinate of each point where the graph of the function
+$BR
+ \[  f(x) = \frac{\ln(\sqrt{x})}{x^2} \]
+$BR
+ has a horizontal tangent line. $BR $BR  
+
+$PAR
+
+The sum of these \(x\) coordinates is $SPACE  \{ans_rule(20) \}
+$BR
+EOT
+
+$ans = exp(1/2);
+&ANS(std_num_cmp($ans));
+
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

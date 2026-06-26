@@ -1,0 +1,35 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'chain rule', 'trigonometric functions')
+##  Find a derivative of a function
+##  involving trig functions; requires use of chain rule
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+ 
+
+TEXT(EV2(<<EOT));
+Problem 3 Section 3.5 page 143.$BR$BR
+
+If \( y = (u^2+1 ) \) and \(u=3x-2\), use the chainrule to find \( dy/dx\) and write your answer in terms of \(x\) only. 
+
+$BR $BR \{ans_rule(50) \}
+$BR
+EOT
+
+$ans = "6*(3*x-2)";
+&ANS(function_cmp($ans));
+
+ 
+ENDDOCUMENT();        # This should be the last executable line in the problem.

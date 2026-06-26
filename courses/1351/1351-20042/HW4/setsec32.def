@@ -1,0 +1,19 @@
+setNumber=4
+openDate = 12/26/03 at 6:00am
+dueDate = 1/30/04 at 9:00am
+answerDate = 2/1/04 at 6:00pm
+paperHeaderFile = sec32/paperHeaderFile.pg
+screenHeaderFile = sec32/screenHeaderFile.pg
+problemList =
+sec32/sbs-s32-12.pg, 1
+sec32/sbs-s32-14.pg, 1
+sec32/sbs-s32-16.pg, 1
+sec32/sbs-s32-18.pg, 1
+sec32/sbs-s32-21.pg, 1
+sec32/sbs-s32-22.pg, 1
+sec32/sbs-s32-27.pg, 1
+sec32/sbs-s32-28.pg, 1
+sec32/sbs-s32-30.pg, 1
+sec32/sbs-s32-32.pg, 1
+sec32/sbs-s32-34.pg, 1
+sec32/sbs-s32-36.pg, 1

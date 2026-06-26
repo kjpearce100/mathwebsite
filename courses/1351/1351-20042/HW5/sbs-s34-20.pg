@@ -1,0 +1,70 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'velocity', 'distance')
+##TYPE('word problem')
+##COMMENTS:
+##  Given equation for the distance of the ball thrown upward,
+##  find the maximum height that the ball reaches and
+##  its velocity when it hits the ground.
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl",
+"extraAnswerEvaluators.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+ 
+TEXT(EV2(<<EOT));
+Problem 20, Section 3.4 page 135. $BR$BR
+
+Let \(s(t) = t^4-4t^3+8t\) for \(0\leq t \leq 4\)  denote  the position of an object moving along a line. Find $BR$BR
+
+(a) The velocity at time \(t\) $SPACE \{ans_rule(20) \}
+$BR$BR
+
+(b) The acceleration at time  \(t\) $SPACE \{ans_rule(20) \}
+$BR$BR
+
+(c) Find where the object starts   $SPACE \{ans_rule(20) \} 
+$BR$BR
+and where it stops  $SPACE \{ans_rule(20) \}
+$BR$BR
+Find the total distance traveled by the object  $SPACE \{ans_rule(20) \}
+
+$BR$BR
+(d) Find where the object is accelerating 
+   $SPACE \{ans_rule(20) \}
+$PAR
+ Write the answer above in interval notation. 
+$BBOLD Note: $EBOLD
+If the answer includes more than one interval write the intervals separated by the "union" symbol, U. 
+If needed enter \(\infty\) as $BITALIC infinity $EITALIC and \(-\infty \) as $BITALIC -infinity $EITALIC .
+
+
+$BR
+EOT
+
+$ansa = "4*t**3-12*t**2+8";
+$ansb = "12*t**2-24*t";
+$ansc1 = 0;
+$ansc2 = 32;
+$ansc3 = 50;
+$ansd = "(2,4]";
+
+&ANS(fun_cmp($ansa,var =>'t'));
+&ANS(fun_cmp($ansb,var =>'t'));
+&ANS(std_num_cmp($ansc1));
+&ANS(std_num_cmp($ansc2));
+&ANS(std_num_cmp($ansc3));
+&ANS(interval_cmp($ansd));
+
+ 
+ENDDOCUMENT();        # This should be the last executable line in the problem.

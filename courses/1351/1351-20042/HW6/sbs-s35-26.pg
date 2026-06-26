@@ -1,0 +1,36 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'chain rule')
+##  Find a derivative of a polynomial; requires use of chain rule
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.1415926;
+ 
+ 
+
+TEXT(EV2(<<EOT));
+This is problem 26, Section 3.5 page 143.$BR$BR
+
+If \(\displaystyle  h(x) =\frac{\tan(3x)}{x^2} \), find \( h'( x ) \).
+
+$BR $BR \{ans_rule(50) \}
+$BR
+EOT
+
+$ans = "(3*x*sec(3*x)**2-2*tan(3*x))/(x**3)";
+&ANS(function_cmp($ans));
+
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

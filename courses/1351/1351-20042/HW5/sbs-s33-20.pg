@@ -1,0 +1,36 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'trigonometry', 'product rule')
+##  Find a derivative of a function involving trigonometric functions,
+##  and evalute it at a given point; requires using product rule
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+ 
+ 
+$deriv ="((1-x)*cos(x)-x*sin(x))/exp(x)";
+
+TEXT(EV2(<<EOT));
+Problem 20, Section 3.3 page 125. $BR $BR
+
+If \( f(x) = \dfrac{x\cos(x)}{e^x} \), then \( f'( x ) = \)
+  \{ans_rule(50) \}
+$BR
+EOT
+
+$ans = $deriv;
+&ANS(function_cmp($ans));
+
+ 
+ENDDOCUMENT();        # This should be the last executable line in the problem.

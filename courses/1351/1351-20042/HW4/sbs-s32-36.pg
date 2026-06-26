@@ -1,0 +1,40 @@
+##DESCRIPTION
+##KEYWORDS('tangent line', 'derivatives')
+##  Find the equation of a tangent line at a point by finding its derivative
+##  at that point
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$t1=3/2;
+ 
+
+TEXT(EV2(<<EOT));
+This is problem 36, Section 3.2 page 118. 
+$BR
+
+If \(\displaystyle  f(t) = \frac{1}{t^2}-\frac{1}{t^3} \), then there are (one or more)  points with  coordinates \( (t,f(t)) \) at which \(f(t)\) has a horizontal tangent line. $BR $BR 
+
+Find all such points. Then give the sum of the \( t \) coordinates
+\{ans_rule(20) \}
+$BR
+EOT
+
+$ans = $t1;
+&ANS(std_num_cmp($ans));
+
+
+
+ 
+ENDDOCUMENT();        # This should be the last executable line in the problem.

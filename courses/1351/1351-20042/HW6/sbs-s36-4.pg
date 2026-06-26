@@ -1,0 +1,40 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'implicit')
+## Find an equation of a tangent line using implicit differentiation
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+ 
+
+
+BEGIN_TEXT 
+$BR
+This is problem 4 Section 3.6 page 155. $BR $BR
+
+Use implicit differentiation to \(y' = dy/dx\) given $BR 
+ \[xy(2x+3y)=2 \]
+ 
+$PAR
+ \( y' = \) \{ans_rule(40) \}
+$PAR
+END_TEXT
+
+$ans = "-(4*x*y+3*y**2)/(2*x**2+6*x*y)";
+ 
+&ANS(fun_cmp($ans, vars=>['x','y']));
+
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

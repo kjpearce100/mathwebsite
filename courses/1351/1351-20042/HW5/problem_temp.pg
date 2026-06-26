@@ -1,0 +1,35 @@
+## Description
+## This is a generic problem template
+## EndDescription
+##
+## KEYWORDS('Sample','Template')
+DOCUMENT();
+# Load whatever macros you need for the problem
+loadMacros("PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl",
+"PGgraphmacros.pl",
+# Uncomment the line below to include some locally-defined macros
+# "Dartmouthmacros.pl"
+);
+# HEADER_TEXT(...); # (optional) used only for inserting javaScript into problems.
+## Do NOT show partial correct answers
+$showPartialCorrectAnswers = 0;
+
+## Lots of set up goes here
+## Ok, we are ready to begin the problem...
+##
+TEXT(beginproblem());
+BEGIN_TEXT
+$BR
+ 
+
+
+$PAR
+END_TEXT
+# This is where you will put the correct answers to check against
+# those submitted by the student
+ANS(std_num_cmp(  ));
+ENDDOCUMENT();

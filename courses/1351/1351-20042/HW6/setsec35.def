@@ -1,0 +1,26 @@
+setNumber=4
+openDate = 12/26/03 at 6:00am
+dueDate = 1/30/04 at 9:00am
+answerDate = 2/1/04 at 6:00pm
+paperHeaderFile = sec35/paperHeaderFile.pg
+screenHeaderFile =  sec35/screenHeaderFile.pg
+problemList =
+sec35/sbs-s35-3.pg, 1
+sec35/sbs-s35-4.pg, 1
+sec35/sbs-s35-6.pg, 1
+sec35/sbs-s35-13.pg, 1
+sec35/sbs-s35-14.pg, 1
+sec35/sbs-s35-16.pg, 1
+sec35/sbs-s35-18.pg, 1
+sec35/sbs-s35-13-35.pg, 1
+sec35/sbs-s35-20.pg, 1
+sec35/sbs-s35-22.pg, 1
+sec35/sbs-s35-24.pg, 1
+sec35/sbs-s35-26.pg, 1
+sec35/sbs-s35-28.pg, 1
+sec35/sbs-s35-30.pg, 1
+sec35/sbs-s35-32.pg, 1
+sec35/sbs-s35-41.pg, 1
+sec35/sbs-s35-42.pg, 1
+sec35/sbs-s35-44.pg, 1
+sec35/sbs-s35-46.pg, 1

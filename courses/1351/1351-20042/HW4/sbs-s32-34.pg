@@ -1,0 +1,40 @@
+##DESCRIPTION
+##KEYWORDS('tangent line', 'derivatives')
+##  Find the equation of a tangent line at a point by finding its derivative
+##  at that point
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$t1=0;
+$t2=1;
+$t3=-4;
+
+TEXT(EV2(<<EOT));
+This is problem 34, Section 3.2 page 118. 
+$BR
+
+If \(\displaystyle  f(t) = t^4+4t^3-8t^2+3 \), then there are (one or more)  points with  coordinates \( (t,f(t)) \) at which \(f(t)\) has a horizontal tangent line. $BR $BR
+
+Find all such points. Then give the sum of the \( t \) coordinates of these points \{ans_rule(20) \}
+$BR
+EOT
+
+$ans = $t1+$t2+$t3;
+&ANS(std_num_cmp($ans));
+
+
+
+ 
+ENDDOCUMENT();        # This should be the last executable line in the problem.

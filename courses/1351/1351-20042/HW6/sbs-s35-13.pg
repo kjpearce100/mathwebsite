@@ -1,0 +1,37 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'chain rule')
+##  Find a derivative of a polynomial; requires use of chain rule
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+ 
+
+$funct1 = "25*(5*x-2)**4";
+
+TEXT(EV2(<<EOT));
+This is problem 13, Section 3.5 page 143.$BR$BR
+
+If \( f(x) = (5x-2)^5\), find \( f'( x ) \).
+
+$BR $BR \{ans_rule(50) \}
+$BR
+EOT
+
+$ans = $funct1;
+&ANS(function_cmp($ans));
+
+ 
+ 
+ENDDOCUMENT();        # This should be the last executable line in the problem.

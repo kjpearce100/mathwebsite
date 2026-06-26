@@ -1,0 +1,35 @@
+##DESCRIPTION
+##KEYWORDS('logarithms')
+##DIFFICULTY('easy')
+##  Evaluate simple expressions involving logs
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+
+ 
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+TEXT(EV2(<<EOT));
+Section 3.2 problem 12. $BR
+
+Let \( g(x) = \dfrac{1}{2\sqrt(x)}+ \dfrac{x^2}{4}+C \). $BR $BR    
+
+
+ \( g'(x) = \) \{ans_rule(20)\}
+
+EOT
+
+$ans =  "-1/4*x**(-3/2)+1/2*x";
+&ANS(fun_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.;

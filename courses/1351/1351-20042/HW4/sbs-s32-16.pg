@@ -1,0 +1,37 @@
+##DESCRIPTION
+##KEYWORDS('logarithms')
+##DIFFICULTY('easy')
+##  Evaluate simple expressions involving logs
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+
+$b=random(1,15,1);
+$c=$b/10.0;
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+TEXT(EV2(<<EOT));
+Section 3.2 problem 16. $BR
+
+Let \( g(x) = (x+2)(2\sqrt{x}+x^2) . \)    $BR $BR    
+
+
+ \( g'(x) = \) \{ans_rule(20)\}
+
+
+EOT
+
+$ans =  "3*x**(1/2)+3*x**(2)+2*x**(-1/2)+4*x";
+&ANS(fun_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.;

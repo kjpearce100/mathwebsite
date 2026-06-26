@@ -1,0 +1,36 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'trigonometry', 'product rule')
+##  Find a derivative of a function involving trigonometric functions,
+##  and evalute it at a given point; requires using product rule
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+ 
+ 
+$deriv ="2*tan(x)/cos(x) + 3*sec(x)**2";
+
+TEXT(EV2(<<EOT));
+Problem 4, Section 3.3 page 125. $BR
+
+If \( f(x) =  2 \sec (x)  + 3\tan  (x) - \tan(\pi/3) \), then  \( f'( x ) =\) 
+ \{ans_rule(30) \}
+$BR
+EOT
+
+$ans = $deriv;
+&ANS(function_cmp($ans));
+
+ 
+ENDDOCUMENT();        # This should be the last executable line in the problem.

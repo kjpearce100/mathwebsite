@@ -1,0 +1,43 @@
+##DESCRIPTION
+##KEYWORDS('derivatives', 'implicit')
+## Find an equation of a tangent line using implicit differentiation
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$x1 = -2;
+$y1 = 3;
+$m = 2/3;
+
+$b = -$m*$x1+$y1;
+$ans = "$m*x + $b";
+
+
+BEGIN_TEXT 
+$BR
+This is problem 33 Section 3.6 page 155. $BR $BR
+
+Use implicit differentiation to find the slope of the tangent line to the curve
+ \[ x^2+y^2=13 \]
+at the point \( ( $x1 , $y1 ) \) and use it to find the equation of the tangent line in the form \(y=mx+b\). $BR $PAR
+ \( y = \) \{ans_rule(20) \}
+$PAR
+END_TEXT
+
+
+ 
+&ANS(fun_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

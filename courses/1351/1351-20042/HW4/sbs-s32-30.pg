@@ -1,0 +1,58 @@
+##DESCRIPTION
+##KEYWORDS('tangent line', 'derivatives')
+##  Find the equation of a tangent line at a point by finding its derivative
+##  at that point
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$x1=0;
+$y1 = ($x1+1)/($x1-1);
+$m1 = -2/($x1-1)**2;
+
+TEXT(EV2(<<EOT));
+This is problem 30, Section 3.2 page 118. 
+$BR
+
+If \(\displaystyle  f(x) = \frac{(x+1)}{(x-1)}  \), find \( f'($x1 ) \).
+\{ans_rule(20) \}
+$BR
+EOT
+
+$ans = $m1;
+&ANS(std_num_cmp($ans));
+
+
+
+TEXT(EV2(<<EOT));
+Use this to find the equation of the tangent line to the graph of 
+ \( y =\dfrac{(x+1)}{(x-1)}   \)
+when  \( x=$x1\). $BR $BR
+
+The equation of this tangent line can be written in the form \( y = mx+b \)
+where \( m \) is:\{ans_rule(20)  \}
+$BR
+EOT
+$ans = $m1;
+&ANS(std_num_cmp($ans));
+
+TEXT(EV2(<<EOT));
+and  where \( b \) is:
+\{ans_rule(20)  \}
+$BR
+EOT
+$ans = $y1 -$m1*$x1;
+&ANS(std_num_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
