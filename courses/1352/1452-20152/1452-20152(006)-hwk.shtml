@@ -1,0 +1,278 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Homework: Math 1452-20152(006)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Homework: Math 1452-20151(006)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 1452">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<div class=text18red>Homework</div>
+
+<table width=80%>
+<tr >
+<td valign=top width=40% align=left>
+<span class=text14blue>Math 1452-006<br>
+Calculus II<br>
+Spring 2015</span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text14blue>Smith, Strauss, & Toda<br>
+Calculus, 6th Ed.<br>
+Kendall Hunt</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<table width=90% border=1>
+<tr >
+<td valign=top width=40% align=center>
+<span class=text12blue>Homework Assignments</span>
+</td>
+<td valign=top width=40% align=center>
+<span class=text12red>WebWork Assignments</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>
+	<span class=text12blue>HW 01</span> <span class=text>Due 23 Jan, 5:00 pm<p>
+Section 5.1: 3, 7, 13, 15, 17, 21, 23, 25 <br>
+Section 5.3: 1, 5 <br>
+Section 5.4: 3, 7, 11, 15, 17, 21 <br>
+Section 5.5: 1, 6, 9, 15, 19, 21, 25, 33, 37 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 01</span> <span class=text>Due 23 Jan, 11:00 pm<p>
+Section 5.1  <br>
+Section 5.3  <br>
+Section 5.4  <br>
+Section 5.5  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 02</span> <span class=text>Due 28 Jan, 5:00 pm<p>
+Section 6.1: 13, 17, 19, 23, 27, 31, 32 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 02</span> <span class=text>Due 28 Jan, 11:00 pm<p>
+Section 6.1  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 03</span> <span class=text>Due 04 Feb, 5:00 pm<p>
+Section 6.2: 13, 15, 19, 21, 26 <br>
+Section 6.3: 4, 10, 16, 23, 27 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 03</span> <span class=text>Due 04 Feb, 11:00 pm<p>
+Section 6.2  <br>
+Section 6.3  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 04</span> <span class=text>Due 09 Feb, 5:00 pm<p>
+Section 6.3: 31, 33, 43 <br>
+Section 6.4: 1, 5, 9, 17, 23, 25, 29 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 04</span> <span class=text>Due 09 Feb, 11:00 pm<p>
+Section 6.3  <br>
+Section 6.4  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 05</span> <span class=text>Due 18 Feb, 5:00 pm<p>
+Section 6.5: 9, 15, 19, 21, 27, 29, 41 <br>
+Section 7.1: 1, 5, 9, 15, 19, 23 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 05</span> <span class=text>Due 18 Feb, 11:00 pm<p>
+Section 6.5  <br>
+Section 7.1  </span>
+</span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 06</span> <span class=text>Due 23 Feb, 5:00 pm<p>
+Section 7.1: 27, 35 <br>
+Section 7.2: 1, 3, 7, 9, 17 <br>
+Section 7.3  </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 06</span> <span class=text>Due 23 Feb, 11:00 pm<p>
+Section 7.1  <br>
+Section 7.2  <br>
+Section 7.3  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 07</span> <span class=text>Due 09 Mar, 5:00 pm<p>
+Section 7.3: 17, 25, 27, 33, 35, 41 <br>
+Section 7.4: 1, 3, 5, 9, 17, 21, 25, 33 <br>
+Section 7.5: 1, 3, 9, 17, 21 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 07</span> <span class=text>Due 09 Mar, 11:00 pm<p>
+Section 7.3  <br>
+Section 7.4  <br>
+Section 7.5  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 08</span> <span class=text>Due 25 Mar, 5:00 pm<p>
+Section 7.6: 1, 5, 7, 11, 17 <br>
+Section 7.7: 3, 5, 7, 9, 13, 17, 21, 23, 29, 31, 35 <br>
+Section 7.8: 13, 15, 17, 19, 29, 35 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 08</span> <span class=text>Due 25 Mar, 11:00 pm<p>
+Section 7.6  <br>
+Section 7.7  <br>
+Section 7.8  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 09</span> <span class=text>Due 30 Mar, 5:00 pm<p>
+Section 8.1: 6, 8, 13, 15, 17, 19, 23, 25, 31 <br>
+Section 8.2: 3, 7, 11, 17, 25 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 09</span> <span class=text>Due 30 Mar, 11:00 pm<p>
+Section 8.1  <br>
+Section 8.2  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 10</span> <span class=text>Due 8 Apr, 5:00 pm<p>
+Section 8.3: 3, 5, 7, 13, 15, 23, 31 <br>
+Section 8.4: 13, 15, 19, 21, 23, 27, 29, 35 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 10</span> <span class=text>Due 8 Apr, 11:00 pm<p>
+Section 8.3  <br>
+Section 8.4  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 11</span> <span class=text>Due 13 Apr, 5:00 pm<p>
+Section 8.5: 3, 7, 9, 11, 17, 19, 21, 23, 27, 33, 37 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 11</span> <span class=text>Due 13 Apr, 11:00 pm<p>
+Section 8.5  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 12</span> <span class=text>Due 22 Apr, 5:00 pm<p>
+Section 8.6: 3, 5, 7, 9, 13 <br>
+Section 8.7: 1, 5, 7, 11, 15, 21, 27 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 12</span> <span class=text>Due 22 Aprr, 11:00 pm<p>
+Section 8.6  <br>
+Section 8.7  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 13</span> <span class=text>Due 29 Apr, 5:00 pm<p>
+Section 8.8: 3, 7, 13, 17, 33 <br>
+Section 9.1: 1, 5, 9, 13, 17, 21 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 13</span> <span class=text>Due 29 Aprr, 11:00 pm<p>
+Section 8.8  <br>
+Section 9.1  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 14</span> <span class=text>Due 5 May, 5:00 pm<p>
+Section 9.2: 1, 3, 5, 21, 23, 25, 27, 29, 39 <br>
+Section 9.3: 3, 5, 9, 11, 15, 21, 27 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 14</span> <span class=text>Due 5 May, 11:00 pm<p>
+Section 9.2  <br>
+Section 9.3  </span>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<span class=text12blue>HW 15</span> <span class=text>&nbsp;<p>
+Section 9.4: 3, 5, 7, 11, 15, 17, 19, 23, 31 <br>
+Section 9.5: 3, 5, 7, 9, 13, 15, 17, 19, 21, 23, 25, 29, 31 </span>
+</td>
+<td valign=top width=40% align=left>
+<span class=text12red>WW 15</span> <span class=text>&nbsp;<p>
+Section 9.4  <br>
+Section 9.5  </span>
+</td>
+</tr>
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="1452-20152(006)-hwk.shtml"-->
+</div>
+
+</body>
+</html> 

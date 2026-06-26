@@ -1,0 +1,178 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 1452-20152(006)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 1452-20152(006)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 1452">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 1452<br>
+Calculus II<br>
+Spring 2015</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Riddle<br>
+Calculus<br>
+Smith, Strauss, Toda</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam II</span>
+
+<p>
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=50% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 6.5
+</td>
+<td valign=top width=40% align=left class=text12>
+Work<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Extension/Compression of Springs<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lifting against Gravity<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Pumpling Fluids
+Fluid pressure and force<br>
+Centroids and Moments in the Plane<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Theorem of Pappus
+</td>
+<td valign=top width=35% align=left class=text12>
+9, 10, 11, 15, 19, 22, 27, 29, 37a, 41
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.1
+</td>
+<td valign=top width=50% align=left class=text12>
+M0: basic anti-differentiation formulas<br>
+M1: method of substitution<br>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 5, 9, 12
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.2
+</td>
+<td valign=top width=50% align=left class=text12>
+M2: integration by parts<br>
+repeated integration by parts<br>
+integration by parts and definite integrals
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 3, 6, 12, 17
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.3
+</td>
+<td valign=top width=50% align=left class=text12>
+M3-1: powers of sine and cosine<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fundamental trigonometric identities<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 1. odd power of either sine or cosine<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 2. all powers of sine and cosine are even<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;double angle formulas for cosine<br>
+M3-2: powers of tangent and secant<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 1. even power of secant<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 2. odd power of tangent<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 3. neither case i nor case ii<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;reduction formula for integrals of powers of secant<br>
+M4: trigonometric substituion<br>
+completing the square for quadratic integrands
+</td>
+<td valign=top width=25% align=left class=text12>
+5, 7, 10, 12, 17, 18, 20, 25, 33, 36, 38, 41, 47, 48
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.4
+</td>
+<td valign=top width=50% align=left class=text12>
+M5: partial fraction decomposition<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;proper rational functions<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"completely" factored denominators<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 1. linear factors<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Case 4. quadratic irreducible factors<br>
+integrating rational functions<br>
+rational trigonometric functions of sine and cosine
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 4, 6, 8, 15, 17, 20, 24, 25, 33, 34, 39 
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.5
+</td>
+<td valign=top width=50% align=left class=text12>
+summary of integration techniques<br>
+strategies for selecting a technique
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 5, 11, 17, 21, 23, 27, 29, 35, 44, 46
+</td>
+</tr>
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="1452-20152(006)-rvw2.shtml"-->
+</div>
+
+</body>
+</html> 
