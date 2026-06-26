@@ -1,0 +1,101 @@
+<html>
+  <head>
+      <title>Julia and Mandelbrot Explorer </title>
+  </head>
+<BODY BGCOLOR="#FFFFFF"> 
+
+
+<center>
+<h2>Julia and Mandelbrot Explorer Options</h2>
+</center>
+
+<hr>
+
+The fractal explorer controls are:
+
+<br><br>
+
+<center>
+	
+<table border=1>
+<tr align=center>
+<td>Shade</td><td>Iteration</td><td>Density</td>
+</tr>
+<tr valign=top>
+<td>
+<table>
+<tr valign=top><td colspan=2>
+The partition block is colored black if the orbit of z is certified as being bounded -- otherwise:<br>
+</td></tr>
+<tr valign=top><td><u>Option</u></td><td><u>Result</u></td></tr>
+<tr valign=top><td>Color</td><td>the partition block is colored by the escape value for the orbit of z (mod 7): magenta, blue, cyan, green, yellow, orange, red </td></tr>
+<tr valign=top><td>Black</td><td>the partition block is colored white if the orbit escapes prior to the iteration bound </td></tr>
+</table>
+</td>
+<td>
+<table>
+<tr valign=top><td><u>Option</u></td><td><u>Result</u></td></tr>
+<tr valign=top><td>Short</td><td>The iteration bound is set at 13 iterations for certifying the orbit of z to be bounded</td></tr>
+<tr valign=top><td>Medium</td><td>The iteration bound is set at 27 iterations for certifying the orbit of z to be bounded</td></tr>
+<tr valign=top><td>Long</td><td>The iteration bound is set at 55 iterations for certifying the orbit of z to be bounded</td></tr>
+<tr valign=top><td>VeryLong</td><td>The iteration bound is set at 111 iterations for certifying the orbit of z to be bounded</td></tr>
+</table>
+</td>
+<td>
+<table>
+<tr valign=top><td><u>Option</u></td><td><u>Result</u></td></tr>
+<tr valign=top><td>UltraFine</td><td>Partitions the the viewing window into blocks of size 1 pixel</td></tr>
+<tr valign=top><td>Fine</td><td>Partitions the the viewing window into blocks of size 2 pixels</td></tr>
+<tr valign=top><td>MedFine</td><td>Partitions the the viewing window into blocks of size 5 pixels</td></tr>
+<tr valign=top><td>MedCoarse</td><td>Partitions the the viewing window into blocks of size 10 pixels</td></tr>
+<tr valign=top><td>Coarse</td><td>Partitions the the viewing window into blocks of size 20 pixels</td></tr>
+</table>
+</td>
+</tr>
+<tr align=center>
+<td>Equation</td><td>Fractal</td><td>Zoom</td>
+</tr>
+<tr valign=top>
+<td>
+<table>
+<tr valign=top><td colspan=2>
+Specifies the iteration equation.
+</td></tr>
+<tr valign=top><td><u>Option</u></td><td><u>Result</u></td></tr>
+<tr valign=top><td>Quad</td><td>z -> z<sup>2</sup> + c</td></tr>
+<tr valign=top><td>Alt</td><td>z -> z - z<sup>2</sup> + c</td></tr>
+</table>
+</td>
+<td>
+<table>
+<tr valign=top><td colspan=2>
+Specifies the fractal type.
+</td></tr>
+<tr valign=top><td><u>Option</u></td><td><u>Result</u></td></tr>
+<tr valign=top><td>Julia</td><td>The parameter c is fixed (set by the mouse click under Zoom=Normal) and for each 
+	   z running over the viewing window the orbit of z is computed under the iteration equation</td></tr>
+<tr valign=top><td>Mandelbrot</td><td>The parameter c runs over the viewing window and 
+	  for each c the the orbit of z=0 is computed under the iteration equation</td></tr>
+</table>
+</td>
+<td>
+<table>
+<tr valign=top><td><u>Option</u></td><td><u>Result</u></td></tr>
+<tr valign=top><td>ZoomInPlus</td><td>Centers the viewing window at the mouse click and resizes the window by factor of 1/10</td></tr>
+<tr valign=top><td>ZoomIn</td><td>Centers the viewing window at the mouse click and resizes the window by factor of 1/2</td></tr>
+<tr valign=top><td>Normal</td><td>Resets the viewing window to the default view (center=0; size=4)</td></tr>
+<tr valign=top><td>ZoomOut</td><td>Centers the viewing window at the mouse click and resizes the window by factor of 2</td></tr>
+<tr valign=top><td>ZoomOutPlus</td><td>Centers the viewing window at the mouse click and resizes the window by factor of 10</td></tr>
+</table>
+</td>
+</tr>
+</table>
+
+</center>
+
+<p>
+
+  <a href="julia.html">Return to fractal explorer</a>.  
+
+</body>
+</html>
