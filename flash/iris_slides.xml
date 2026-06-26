@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<slideshow>
+	
+	<preferences
+		loadingIconAlign="center"
+		loadingIconMarginX="0"
+		loadingIconMarginY="0"
+		loadingIconShadowSize="2"
+		imagePause="5"
+		randomizeImages = "true"
+		imageTransition="fadeInOut"
+		kenBurnsMode = "randomPan"
+		kenBurnsTime = "5"
+		kenBurnsVariationPercent = "15"
+		showAlbumsButton="false"
+		showThumbnailsButton="false"
+		thumbnailWindowRoundedCorners="0"
+		thumbnailRoundedCorners="0"
+		thumbnailWindowIconRollOverColor="00BBEE"
+		thumbnailHoverDistance="1"
+		thumbnailHoverShadowSize="4"
+		showControls="false"
+		controlAlign="bottomCenter"
+		controlAutoHide="true"
+		controlRoundedCorners="3"
+		controlIconRollOverColor="00BBEE"
+		controlShadowSize="2"
+		showImageInfo="always"
+		imageInfoColor = "FFFFFF"
+		imageInfoAlpha = "30"
+		imageInfoRoundedCorners = "0"
+		imageInfoShadowSize = "0"
+		imageInfoShadowColor = "000000"
+		imageInfoShadowAlpha = "50"
+		imageInfoLineWidth = "0"
+		imageInfoLineColor = "FFFFFF"
+		imageInfoAlign = "bottomCenter"
+		imageInfoMarginX = "5"
+		imageInfoMarginY = "5"
+		imageInfoTransitionTime = "0.5"
+		imageInfoWidth = "200"
+		imageInfoMaxSize = "true"
+		imageInfoPadding = "5"
+		imageInfoTextAlign = "center"
+		imageInfoTitleSize = "12"
+		imageInfoTitleColor = "000000"
+		imageInfoTitleContainsNumber = "false"
+		imageInfoTitleMaxCharacters = "-1"
+		imageInfoDisplayNoTitle = ""
+		imageInfoDescriptionSize = "10"
+		imageInfoDescriptionColor = "303030"
+		imageInfoDescriptionMaxCharacters = "-1"
+		imageInfoDisplayNoDescription = "no description"
+		imageInfoDescriptionMargin = "0"
+	/>
+
+	<album title="artbyneil" description="Work examples" imagePath="slideshow" >
+		<img src="01.jpg" title="Math Seal" description="department seal"/>
+		<img src="02.jpg" title="Lab Pict" description="computer lab"/>
+		<img src="03.jpg" title="Brooks" description="brooks reception"/>
+		<img src="04.jpg" title="Faculty" description="assistant professors"/>
+		<img src="05.jpg" title="TTU Seal" description="university seal"/>
+		<img src="06.jpg" title="Alumni" description="reunion meeting"/>
+<!--
+		<img src="07.jpg" title="Undergrad" description="undergraduate students"/> 
+-->
+		<img src="08.jpg" title="Building" description="mathematics building"/>
+<!--
+		<img src="09.jpg" title="Grad Stud" description="graduate students"/>
+		<img src="10.jpg" title="Red Raider" description="mini-symposium"/>
+		<img src="11.jpg" title="REU" description="reu reception"/> 
+-->
+		<img src="12.jpg" title="Seminar" description=""/>
+		<img src="13.jpg" title="Campus" description=""/>
+		<img src="14.jpg" title="Will Rogers" description=""/>
+		<img src="15.jpg" title="Math Building" description=""/>
+		<img src="16.jpg" title="Awards Banquet" description="banquet awards"/>
+		<img src="17.jpg" title="Math Building" description="summer image"/>
+		<img src="18.jpg" title="Admin Tower" description="west tower"/>
+		<img src="19.jpg" title="Grad Stud" description="graduate students"/>
+		<img src="20.jpg" title="Fountains and Seal" description="backlit view"/>
+		<img src="21.jpg" title="Building Descriptor" description="building legend"/>
+		<img src="22.jpg" title="Math Building" description="summer image"/>
+		<img src="23.jpg" title="Graduate Orientation" description="graduate students"/>
+		<img src="24.jpg" title="Assistant Professor" description="board work"/>
+		<img src="25.jpg" title="911 Memorial" description="flags"/>
+		<img src="26.jpg" title="Staff" description="staff photo"/>
+		<img src="27.jpg" title="Fall Party" description="fall 2007 party"/>
+		<img src="28.jpg" title="Math Building" description="spring image"/>
+	</album>	
+	
+	
+</slideshow>
