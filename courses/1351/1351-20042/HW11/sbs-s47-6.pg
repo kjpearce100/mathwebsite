@@ -1,0 +1,62 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('limits')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 6 Section 4.7 page 259. $BR $BR
+
+
+A toy manufacturer produces an inexpensive doll (Flopsy) and an expensive doll (Mopsy) in units of \(x\) hundreds and \(y\) hundreds, respectively. Suppose it is possible to produce the dolls in such a way that $BR
+\[ y = \frac{82-10x}{10-x}, \ \ \ 0\leq x\leq 8\]
+
+$BR
+and that the company receives $BITALIC twice $EITALIC as much for selling a Mopsy doll as for selling a Flopsy doll. Find the level of production for both \(x\) and \(y\) for which the total revenue derived from selling these dolls  is maximized. (NOTE: here we make the assumption that the revenue function is continuous)
+
+
+
+$BR$BR  
+Number of Flopsy dolls: \( x = \)    \{ans_rule(30) \}   
+$BR$BR  
+Number of Mopsy dolls: \( y = \)    \{ans_rule(30) \} 
+
+ 
+
+
+$PAR
+END_TEXT
+
+
+$ans1 = 400;
+&ANS(std_num_cmp($ans1));
+
+$ans2 = 700;
+&ANS(std_num_cmp($ans2));
+
+ 
+
+
+#&ANS(fun_cmp($ans1,var => 'R'));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

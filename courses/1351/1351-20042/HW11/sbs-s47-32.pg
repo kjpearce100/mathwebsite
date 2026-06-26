@@ -1,0 +1,55 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('limits')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 32 Section 4.7 page 261. $BR $BR
+
+
+Homing pigeons will rarely fly over large bodies of water unless forced to do so, presumably because it requires more energy to maintain altitude in flight over the cool water. Suppose a pigeon is released from a boat floating on a lake \(3\) miles from a point A on the shore and \(10\) miles away from the pigeon's loft (see Figure 4.84, page 261). $BR$BR
+
+Assuming the pigeon requires twice as much energy to fly over water as over land and it follows a path that minimizes total energy, find  the angle \(\theta\) of its heading as it leaves the boat.
+
+  
+ $BR$BR
+\(\theta = \)    \{ans_rule(20) \}  $BITALIC radians $EITALIC  
+$BR$BR  
+   
+ 
+ 
+
+$PAR
+END_TEXT
+
+
+$ans1 = $pi/6;
+&ANS(std_num_cmp($ans1));
+
+  
+
+#&ANS(std_num_cmp($ans4));
+#&ANS(fun_cmp($ans1,var => 'R'));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

@@ -1,0 +1,63 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('limits')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 10 Section 4.7 page 259. $BR $BR
+
+A certain industrial machine depreciates in such a way that its value (in dollars) after \(t\) years is
+$BR
+\[ Q(t) = 20000 e^{-.4 t} \]
+
+ 
+$BR$BR
+
+a) At what rate is the value of the machine changing with respect to time after \(5\) years?
+$BR$BR
+ Rate:     \{ans_rule(50) \}   
+ 
+b) At what percentage rate is the value of the machine changing with respect to time after \(t\) years ?
+(Note: as an example an answer of \(-.23\) would give \( 23 \) percent.)
+$BR$BR  
+ Percentage Rate:     \{ans_rule(30) \}   $BITALIC percent $EITALIC
+  
+
+
+$PAR
+END_TEXT
+
+
+$ans1 = -8000*exp(-2);
+&ANS(std_num_cmp($ans1));
+
+$ans2 = 40;
+&ANS(std_num_cmp($ans2));
+
+ 
+
+#&ANS(std_num_cmp($ans4));
+#&ANS(fun_cmp($ans1,var => 'R'));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

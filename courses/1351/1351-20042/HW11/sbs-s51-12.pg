@@ -1,0 +1,49 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('antiderivatives')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 12 Section 5.1 page 281. $BR $BR
+
+ 
+Find the indefinite integral
+$BR$BR
+\(\displaystyle  \int  \sec(t)\tan(t) \, dt = \) 
+ $SPACE        \{ans_rule(50) \}  \( + C \)
+ 
+
+$PAR
+END_TEXT
+
+
+$ans1 = "sec(t)";
+&ANS(fun_cmp($ans1,var=>'t',limits => [0,.5]));
+
+  
+
+#&ANS(std_num_cmp($ans1));
+#&ANS(fun_cmp($ans1,var => 'R',limits => [0,.5]));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

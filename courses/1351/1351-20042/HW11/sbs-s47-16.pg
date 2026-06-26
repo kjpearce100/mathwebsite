@@ -1,0 +1,59 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('limits')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 16 Section 4.7 page 259. $BR $BR
+
+Suppose the total cost (in dollars) of manufacturing \(x\) units of a certain commodity is
+$BR
+\[ C(x) = 3x^2+5x+75\]
+
+a) At what level of production  \(x\) is the average cost per unit the smallest?  $SPACE  \{ans_rule(50) \}   
+$BR$BR  
+   
+ 
+b) At what level of production \(x\) is the average cost per unit equal to the marginal cost?
+$SPACE 
+  \( x = \)    \{ans_rule(30) \}   
+  
+
+
+$PAR
+END_TEXT
+
+
+$ans1 = 5;
+&ANS(std_num_cmp($ans1));
+
+$ans2 = 5;
+&ANS(std_num_cmp($ans2));
+
+ 
+
+#&ANS(std_num_cmp($ans4));
+#&ANS(fun_cmp($ans1,var => 'R'));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

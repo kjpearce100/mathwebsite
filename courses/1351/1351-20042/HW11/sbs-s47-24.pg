@@ -1,0 +1,52 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('limits')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 24 Section 4.7 page 260. $BR $BR
+
+
+A bookstore can obtain the best-seller $BITALIC 20,000 Leagues Under the Majors $EITALIC from the publisher at a cost of $DOLLAR \( 6\) per book. The store has been offering the book at the price of $DOLLAR \(30\) per copy and has been selling \(200\) copies per month at this price. The bookstore is planning to lower its price to stimulate sales and estiamtes that for each $DOLLAR \(2\) reduction in price, \(20\) more books will be sold per month. At what price should the bookstore sell the sell the book to generate the greatest profit. 
+
+ $BR$BR
+Price: $SPACE $DOLLAR   \{ans_rule(20) \}   
+$BR$BR  
+   
+ 
+ 
+
+$PAR
+END_TEXT
+
+
+$ans1 = 28;
+&ANS(std_num_cmp($ans1));
+
+  
+
+#&ANS(std_num_cmp($ans4));
+#&ANS(fun_cmp($ans1,var => 'R'));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

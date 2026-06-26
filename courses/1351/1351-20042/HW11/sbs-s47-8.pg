@@ -1,0 +1,80 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('limits')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 8 Section 4.7 page 259. $BR $BR
+
+
+Suppose a manufacturer estimates that, when the market price of a certain product is \(p\), the number of units sold will be
+$BR
+\[x= -6 \ln \left( \frac{p}{40}\right)\]
+$BR
+
+It is also estimated that the cost of producing these \(x\) units will be
+$BR
+
+\[ C(x) = 4x e^{-x/6} + 30 \]
+
+$BR$BR
+
+a) Find the average cost, the marginal cost, and the marginal revenue  for this production process.
+$BR$BR
+Average Cost:      \{ans_rule(50) \}   
+$BR$BR  
+Marginal Cost:     \{ans_rule(50) \} 
+$BR$BR  
+Marginal Revenue:     \{ans_rule(50) \} 
+$BR$BR 
+
+b) What level of production \(x\) corresponds to maximum profit?
+
+$BR$BR  
+  \( x = \)    \{ans_rule(30) \}   
+  
+
+
+$PAR
+END_TEXT
+
+
+$ans1 = "4*exp(-x/6)+30/x";
+&ANS(fun_cmp($ans1));
+
+$ans2 = "4*exp(-x/6)*(1-x/6)";
+&ANS(fun_cmp($ans2));
+
+$ans3 = "40*exp(-x/6)*(1-x/6)";
+&ANS(fun_cmp($ans3));
+
+$ans4 = 6;
+&ANS(std_num_cmp($ans4));
+
+
+
+#&ANS(std_num_cmp($ans4));
+#&ANS(fun_cmp($ans1,var => 'R'));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+
