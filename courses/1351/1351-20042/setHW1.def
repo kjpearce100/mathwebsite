@@ -1,0 +1,45 @@
+setNumber=1
+openDate = 1/14/04 at 6:00am
+dueDate = 1/28/04 at 12:00pm
+answerDate = 1/29/04 at 6:00am
+paperHeaderFile = HW1/paperHeaderFile.pg
+screenHeaderFile = HW1/screenHeaderFile.pg
+problemList =
+HW1/sbs-s11-5-6.pg, 1
+HW1/sbs-s11-13-18.pg, 1
+HW1/sbs-s11-13.pg, 1
+HW1/sbs-s11-14.pg, 1
+HW1/sbs-s11-16.pg, 1
+HW1/sbs-s11-25.pg, 1
+HW1/sbs-s11-26.pg, 1
+HW1/sbs-s11-40.pg, 1
+HW1/sbs-s11-42.pg, 1
+HW1/sbs-s11-31-32.pg, 1
+HW1/sbs-s11-32.pg, 1
+HW1/sbs-s11-44.pg, 1
+HW1/sbs-s11-46.pg, 1
+HW1/sbs-s11-43-46.pg, 1
+HW1/sbs-s12-10.pg, 1
+HW1/sbs-s12-12.pg, 1
+HW1/sbs-s12-14.pg, 1
+HW1/sbs-s12-2.pg, 1
+HW1/sbs-s12-4.pg, 1
+HW1/p1-5.pg, 1
+HW1/p1-10.pg, 1
+HW1/sbs-s13-2.pg,  1
+HW1/sbs-s13-7.pg,  1
+HW1/sbs-s13-8.pg,  1
+HW1/sbs-s13-composition.pg,  1
+HW1/sbs-s13-14.pg,  1
+HW1/sbs-s13-16.pg,  1
+HW1/sbs-s13-18.pg,  1
+HW1/sbs-s13-20.pg,  1
+HW1/sbs-s13-36.pg,  1
+HW1/sbs-s13-even-odd.pg,  1
+HW1/sbs-s14-12.pg, 1
+HW1/sbs-s14-14.pg, 1
+HW1/sbs-s14-16.pg, 1
+HW1/sbs-s14-invtrig2.pg, 1
+HW1/sbs-s14-invtrig1.pg, 1
+HW1/sbs-s14-39.pg, 1
+HW1/sbs-s14-42.pg, 1

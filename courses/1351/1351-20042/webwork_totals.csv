@@ -1,0 +1,96 @@
+NO OF FIELDS ,           ,                    ,        ,           ,              ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      
+SET NUMBER   ,           ,                    ,        ,           ,              ,HW1   ,HW2   ,HW3   ,HW4   ,HW5   ,HW6   ,HW7   ,HW8   ,HW9   ,HW10  ,HW11  ,HW12  ,HW13  
+PROB NAME    ,           ,                    ,        ,           ,              ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      
+DUE DATE     ,           ,                    ,        ,           ,              ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      
+DUE TIME     ,           ,                    ,        ,           ,              ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      ,      
+PROB VALUE   ,           ,                    ,        ,           ,              ,38    ,15    ,18    ,11    ,18    ,30    ,22    ,18    ,16    ,21    ,21    ,7     ,30    
+STUDENT ID   ,LAST NAME  ,FIRST NAMES         ,SECTION ,RECITATION ,ENROLL STATUS ,total ,total ,total ,total ,total ,total ,total ,total ,total ,total ,total ,total ,total 
+999-07-5915  ,ALSAUD     ,SULTAN              ,13      ,1          ,Enrolled      ,29.3  ,15    ,17.1  ,11    ,15.1  ,26    ,21.3  ,18    ,15.3  ,21    ,21    ,7     ,28.5  
+628-09-4324  ,BALOUSEK   ,MICHELLE RENEE      ,13      ,1          ,Enrolled      ,38    ,15    ,18    ,11    ,11.2  ,24    ,20    ,11.7  ,15.3  ,21    ,17    ,7     ,8     
+633-16-0448  ,BATES      ,PHILIP DAVID        ,13      ,1          ,Enrolled      ,38    ,15    ,18    ,11    ,18    ,23    ,12    ,18    ,14.5  ,18    ,4     ,7     ,24.5  
+453-77-0644  ,BAUCUM     ,EMILY SUE           ,13      ,1          ,Enrolled      ,23.4  ,15    ,15    ,11    ,0     ,15    ,13.3  ,4.4   ,12.8  ,17    ,15.8  ,6     ,4     
+635-10-1282  ,BERRY      ,LAURENCE PAUL       ,13      ,1          ,Enrolled      ,10    ,15    ,12.6  ,9     ,1.8   ,20    ,19    ,16.3  ,15    ,18    ,16.5  ,7     ,24    
+363-11-2266  ,BIRAI      ,MARY NYAIRO         ,13      ,1          ,Enrolled      ,0     ,15    ,18    ,10    ,16.1  ,26    ,21.5  ,14    ,16    ,20    ,19    ,7     ,30    
+605-01-6683  ,BLOODGOOD  ,RICHARD BRICE       ,13      ,1          ,Enrolled      ,32    ,15    ,8.7   ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+642-07-5323  ,BRIGGS     ,LINDA DIANE         ,13      ,1          ,Enrolled      ,21.4  ,12    ,12.9  ,9     ,4.3   ,12    ,13    ,0     ,0     ,0     ,0     ,0     ,0     
+327-80-3711  ,BROWN      ,DONNELL BRANDON     ,13      ,1          ,Enrolled      ,26.6  ,15    ,16.8  ,8     ,15.8  ,10    ,8.4   ,15.5  ,12.8  ,16    ,10    ,7     ,7     
+634-52-1129  ,BUTLER     ,GRAHAM JAMES        ,13      ,1          ,Enrolled      ,34    ,14    ,15.2  ,3.7   ,13.8  ,9     ,0     ,4.8   ,12    ,13.8  ,16    ,7     ,17.5  
+452-75-9963  ,BUTLER     ,RHETT JAMESON       ,13      ,1          ,Enrolled      ,37    ,14    ,16.5  ,8     ,16    ,16    ,11.3  ,3.1   ,13    ,15    ,10    ,7     ,30    
+464-85-4649  ,CARLTON    ,DERRICK RYAN        ,13      ,1          ,Enrolled      ,33.3  ,12    ,15    ,9     ,15.1  ,25    ,21.3  ,16.7  ,15    ,21    ,21    ,7     ,17    
+457-65-0325  ,CARMICHAEL ,KRISTEN NICOLE      ,13      ,1          ,Enrolled      ,38    ,15    ,18    ,11    ,17.4  ,24    ,22    ,18    ,15.5  ,20.5  ,21    ,7     ,30    
+643-10-7515  ,CASTELLON  ,MICHAEL             ,13      ,1          ,Enrolled      ,22.4  ,14    ,18    ,11    ,18    ,24    ,15.8  ,0     ,5.5   ,15.5  ,12.8  ,7     ,18    
+470-19-8373  ,CLARK      ,NICOLE LEQUINN      ,13      ,1          ,Enrolled      ,37    ,15    ,16    ,9.4   ,1.7   ,6     ,0     ,0     ,0     ,0     ,10    ,0     ,0     
+038-56-9936  ,COX        ,JEFFREY THOMAS      ,13      ,1          ,Enrolled      ,31.5  ,14    ,15    ,10    ,15.8  ,10    ,11    ,0     ,0     ,0     ,0     ,0     ,0     
+424-31-8496  ,CREASMAN   ,GRANT               ,13      ,1          ,Enrolled      ,34.5  ,15    ,18    ,11    ,16.3  ,20    ,14.8  ,0     ,14.3  ,17    ,14    ,7     ,23    
+208-70-6770  ,DANNELLEY  ,JAY ALLEN           ,13      ,1          ,Enrolled      ,37    ,15    ,18    ,11    ,18    ,27    ,21.5  ,18    ,14.8  ,21    ,18.5  ,7     ,29    
+585-61-2608  ,DAVIS      ,KYLEE ANN           ,13      ,1          ,Enrolled      ,15.8  ,15    ,15.3  ,9     ,13.5  ,18    ,7     ,5     ,0     ,0     ,0     ,0     ,0     
+547-97-1227  ,DAVISON    ,TIFFANY RENEE       ,13      ,1          ,Enrolled      ,35    ,15    ,15.5  ,10    ,16.5  ,20    ,8     ,18    ,15.3  ,17    ,12    ,7     ,4     
+635-26-8879  ,DAWODU     ,MICHAEL ANUOLUWAPO  ,13      ,1          ,Enrolled      ,27    ,15    ,14.1  ,9     ,16.8  ,20    ,19    ,16.3  ,15    ,18    ,16.5  ,7     ,24    
+597-07-2442  ,DIAZ       ,JOANNE              ,13      ,1          ,Enrolled      ,27.6  ,15    ,17    ,5.1   ,14.4  ,21    ,2     ,16.2  ,11.4  ,0     ,0     ,0     ,0     
+628-03-4336  ,DOOLEY     ,DAVID EDWARD        ,13      ,1          ,Enrolled      ,20.4  ,12    ,16.5  ,11    ,14.3  ,22    ,16.4  ,17.4  ,14.9  ,14.8  ,13.5  ,7     ,29    
+451-87-3914  ,EGAN       ,TREVOR THOMAS       ,13      ,1          ,Enrolled      ,10    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+466-69-5419  ,ESCOBEDO   ,RAFAEL JOH          ,13      ,1          ,Enrolled      ,32.1  ,14    ,11.3  ,11    ,13.5  ,19    ,14    ,16.8  ,11.5  ,15    ,11    ,7     ,30    
+072-90-8308  ,ESEDEBE    ,UCHE MICHAEL        ,13      ,1          ,Enrolled      ,32.4  ,15    ,17    ,11    ,17.6  ,24    ,17.5  ,0     ,15    ,15    ,0     ,7     ,23.5  
+458-89-5078  ,FANNING    ,SEAN CHRISTIAN      ,13      ,1          ,Enrolled      ,32.4  ,15    ,8.4   ,5.2   ,16.2  ,13    ,0     ,0     ,7     ,11    ,0     ,0     ,0     
+638-12-6753  ,FLETCHER   ,KATHERINE ASHLEIGH  ,13      ,1          ,Enrolled      ,29.3  ,14    ,12    ,11    ,13.5  ,21    ,10    ,12.1  ,10.3  ,14    ,10    ,7     ,18    
+456-75-5359  ,FORD       ,GRANT M             ,13      ,1          ,Enrolled      ,38    ,15    ,17.8  ,11    ,17.5  ,27    ,19.8  ,0     ,15.5  ,18    ,18.5  ,7     ,30    
+446-86-2971  ,FOSTER     ,BRANDON KEVIN       ,13      ,1          ,Enrolled      ,33.3  ,15    ,14.5  ,10    ,0     ,7     ,7     ,0     ,0     ,0     ,0     ,0     ,0     
+636-01-6257  ,GIBBS      ,ERICA BROOKE        ,13      ,1          ,Enrolled      ,34.4  ,10    ,14.1  ,10    ,16.2  ,24    ,11    ,16.2  ,10.5  ,16    ,14.5  ,4     ,0     
+222-22-2222  ,Gilliam    ,David               ,13      ,1          ,Enrolled      ,2     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+451-73-7229  ,GIRGUS     ,KYLE STEPHEN        ,13      ,1          ,Enrolled      ,37    ,15    ,16.5  ,11    ,17.3  ,17    ,14.2  ,18    ,14    ,17    ,10    ,7     ,29    
+449-79-4986  ,GRAY       ,LEE JAMES           ,13      ,1          ,Enrolled      ,17.3  ,15    ,9.5   ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+627-16-3668  ,HAMILTON   ,SETH WINSON         ,13      ,1          ,Enrolled      ,32    ,13    ,4.9   ,0     ,0     ,7     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+158-68-7461  ,Hanlon     ,Bret                ,13      ,1          ,Enrolled      ,2     ,2     ,5     ,0     ,1.8   ,1     ,0.2   ,0     ,0.8   ,1     ,1     ,0     ,1     
+463-73-6255  ,HARTZELL   ,ADAM CLARK          ,13      ,1          ,Enrolled      ,34.4  ,15    ,16.5  ,10    ,16    ,21    ,14.5  ,18    ,15.3  ,14    ,17.8  ,7     ,21.5  
+458-65-8732  ,HAWORTH    ,CHRISTIAN WILLIAM   ,13      ,1          ,Enrolled      ,22.5  ,15    ,8.5   ,2     ,0     ,13    ,0     ,0     ,15.3  ,0     ,9     ,7     ,26.5  
+638-03-0090  ,HEISER     ,HENRY               ,13      ,1          ,Enrolled      ,27.2  ,11    ,14.9  ,9     ,9.1   ,9     ,3.6   ,14.1  ,7     ,11.5  ,8.5   ,3     ,1     
+456-85-4895  ,HOFFMAN    ,LAUREN ELIZABETH    ,13      ,1          ,Enrolled      ,5.2   ,0     ,0     ,9     ,3     ,14    ,2     ,0     ,15    ,5     ,0     ,0     ,0     
+439-67-7469  ,HONEKAMP   ,JAMES RYAN          ,13      ,1          ,Enrolled      ,37    ,15    ,17.3  ,11    ,17.8  ,27    ,19.8  ,3.4   ,15.5  ,18    ,18.5  ,7     ,27    
+464-79-1910  ,HOWARD     ,MICHAEL ANTHONY     ,13      ,1          ,Enrolled      ,32.6  ,15    ,15.5  ,8     ,15.3  ,14    ,7.8   ,17.8  ,13    ,18.7  ,13.5  ,7     ,29    
+467-73-9144  ,HOWELL     ,RICHARD THOMAS      ,13      ,1          ,C             ,34.7  ,15    ,17.6  ,10    ,16.7  ,22    ,13.8  ,17.5  ,14.8  ,19    ,14.5  ,7     ,24.5  
+628-07-5884  ,ICKERT     ,JENNA DEANN         ,13      ,1          ,Enrolled      ,35    ,14    ,15.5  ,10    ,15.1  ,18    ,6     ,15.5  ,11.3  ,11    ,10.5  ,4     ,11    
+593-84-4683  ,KAHLER     ,BRYAN PATRICK       ,13      ,1          ,Enrolled      ,38    ,15    ,17.6  ,11    ,17.2  ,27    ,19.8  ,0     ,3     ,18    ,19.5  ,7     ,25    
+477-11-7713  ,KULISZ     ,JONATHAN DOUGLAS    ,13      ,1          ,Enrolled      ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+461-73-9960  ,LACOMBE    ,DONALD EDWARD       ,13      ,1          ,Enrolled      ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+627-07-2215  ,LANCASTER  ,JASON MATTHEW       ,13      ,1          ,Enrolled      ,32.8  ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+450-67-1645  ,LEUCK      ,MATTHEW RYAN        ,13      ,1          ,Enrolled      ,17.3  ,15    ,8.5   ,4.7   ,6     ,12    ,0     ,0     ,15.3  ,3     ,9     ,7     ,26.5  
+462-97-4329  ,LINDSEY    ,TIFFANY             ,13      ,1          ,Enrolled      ,16.8  ,12    ,0     ,0     ,0     ,12    ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+587-51-1099  ,LOGAN      ,TERRONALD KEITH     ,13      ,1          ,Enrolled      ,30.8  ,11    ,0     ,10    ,0     ,12    ,3     ,16.3  ,13.5  ,15    ,9     ,7     ,0     
+307-98-8218  ,MACHER     ,MATTHEW KEITH       ,13      ,1          ,Enrolled      ,32.4  ,15    ,16.5  ,11    ,17.5  ,23    ,6     ,14.8  ,14.8  ,13    ,6     ,6     ,0     
+458-79-5341  ,MAHON      ,CRYSTAL NICHOLE     ,13      ,1          ,Enrolled      ,38    ,15    ,18    ,11    ,18    ,30    ,17.5  ,15.1  ,14.8  ,19    ,17    ,7     ,30    
+455-73-8474  ,MARCUM     ,NEIL THOMAS         ,13      ,1          ,Enrolled      ,25.7  ,10    ,12.8  ,10    ,16.6  ,22    ,9.5   ,16.8  ,13    ,18    ,3     ,0     ,0     
+226-49-6500  ,MARTIN     ,DAVID WILLIA        ,13      ,1          ,Enrolled      ,35.5  ,15    ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+465-81-9357  ,MCALLISTER ,CASEY ROCHELLE      ,13      ,1          ,Enrolled      ,27.3  ,13    ,8     ,0     ,14.4  ,15    ,9.8   ,0     ,4.3   ,11    ,0     ,0     ,0     
+466-69-7167  ,MILLER     ,EMILY GAIL          ,13      ,1          ,Enrolled      ,34.2  ,15    ,15.3  ,9     ,14.6  ,17    ,7.8   ,17.3  ,13.5  ,15    ,11    ,7     ,14    
+456-77-7686  ,MILLER     ,MARY BETH           ,13      ,1          ,Enrolled      ,37.7  ,15    ,18    ,11    ,17.8  ,30    ,21    ,15    ,15.3  ,21    ,17    ,7     ,30    
+461-91-4448  ,MONTELONGO ,DAVI                ,13      ,1          ,Enrolled      ,28.8  ,15    ,15.1  ,11    ,15.8  ,22    ,2     ,0     ,0     ,0     ,0     ,0     ,0     
+628-12-3113  ,MOORE      ,PETER JORDAN        ,13      ,1          ,Enrolled      ,32.3  ,13    ,12.4  ,9     ,11    ,18    ,7.2   ,12.8  ,11    ,13.8  ,12.5  ,4     ,4.5   
+640-16-7921  ,MOORHEAD   ,JERRY EDGAR         ,13      ,1          ,Enrolled      ,38    ,15    ,13.9  ,11    ,0     ,16    ,6.5   ,0     ,15.5  ,14    ,7.5   ,7     ,26    
+639-10-9061  ,MORRISSEY  ,MICHAEL THOMAS      ,13      ,1          ,Enrolled      ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+637-05-8292  ,NACOL      ,AUDREY ANN          ,13      ,1          ,Enrolled      ,36.7  ,0     ,16.5  ,11    ,16.1  ,19    ,6     ,17.1  ,14.3  ,16    ,15.8  ,7     ,20    
+455-79-2997  ,NEVANS     ,BRIAN WAYNE         ,13      ,1          ,Enrolled      ,35    ,15    ,16.5  ,0     ,0     ,4     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+629-12-2127  ,NGUYEN     ,CALVIN TRUNGDUONG   ,13      ,1          ,Enrolled      ,37    ,15    ,16.5  ,11    ,17.3  ,25    ,18.5  ,17    ,14.8  ,17    ,15.3  ,7     ,2     
+449-71-8364  ,NUNN       ,SAMUEL JAROD        ,13      ,1          ,Enrolled      ,32.1  ,14    ,10.8  ,11    ,12.3  ,18    ,9     ,5.8   ,11.2  ,14    ,11    ,0     ,0     
+465-49-8235  ,OLIVER     ,PHILLIP RONALD      ,13      ,1          ,Enrolled      ,34.4  ,14    ,16    ,4     ,11.7  ,13    ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+458-97-8578  ,OWEN       ,SANDRA N            ,13      ,1          ,Enrolled      ,34.6  ,15    ,14.9  ,9     ,15    ,15    ,16.1  ,14.9  ,6.6   ,13    ,15    ,7     ,24    
+529-68-6494  ,Pearce     ,Kent                ,13      ,1          ,Enrolled      ,0     ,0     ,2.8   ,0     ,0     ,0     ,1     ,0     ,0.8   ,0     ,0     ,0     ,0     
+kjkmkq6      ,PEARCE     ,KENT                ,13      ,1          ,Enrolled      ,0     ,0     ,0     ,0     ,1     ,30    ,0     ,16.5  ,0     ,0     ,0     ,0     ,0     
+645-05-1774  ,PICKETT    ,HOLLYE BROOK        ,13      ,1          ,Enrolled      ,28.8  ,4     ,11.8  ,9     ,15.2  ,21    ,0     ,10.7  ,12    ,12.8  ,3.5   ,5     ,0     
+000-00-000A  ,PRACTICE1  ,JANE                ,13      ,1          ,C             ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,1.3   ,0     ,0     
+461-77-4891  ,REID       ,SHAUNDA DELYNN      ,13      ,1          ,Enrolled      ,5     ,0     ,9.2   ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+630-12-0480  ,RIGGS      ,JOHN BRENNAN        ,13      ,1          ,Enrolled      ,38    ,15    ,18    ,11    ,18    ,27    ,21    ,13    ,15    ,19    ,18.8  ,7     ,30    
+643-10-7190  ,ROWDEN     ,JARRED THOMAS       ,13      ,1          ,Enrolled      ,32.8  ,14    ,13.2  ,4.6   ,6.3   ,5     ,4     ,0     ,7.8   ,8     ,0     ,7     ,12    
+641-12-1375  ,RUSSELL    ,CHRISTOPHER SEAN    ,13      ,1          ,Enrolled      ,36    ,15    ,6.5   ,11    ,16    ,26    ,0     ,16.5  ,15    ,16.5  ,0     ,0     ,0     
+454-75-4282  ,SEAWRIGHT  ,THOMAS RA           ,13      ,1          ,Enrolled      ,36.7  ,0     ,15.9  ,11    ,16.1  ,19    ,9.3   ,0     ,14.3  ,16    ,15.8  ,0     ,20    
+452-93-3905  ,SIRES      ,MARY BETH           ,13      ,1          ,Enrolled      ,25.5  ,13    ,7.3   ,6     ,15.2  ,12    ,9.3   ,14.3  ,3.1   ,9     ,17.5  ,5     ,0     
+457-83-0573  ,SMITH      ,DONOVAN JAMES       ,13      ,1          ,Enrolled      ,11.8  ,14    ,10.7  ,3.4   ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+453-65-9856  ,SPARKS     ,MICAH RAY           ,13      ,1          ,Enrolled      ,32.3  ,10    ,10.2  ,0     ,4     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+642-20-8607  ,STANSELL   ,CHRISTOPHER MICHAEL ,13      ,1          ,Enrolled      ,36    ,14    ,13.9  ,9     ,5.2   ,14    ,13    ,17.3  ,8     ,14    ,14.5  ,5     ,5     
+462-69-9719  ,THOMPSON   ,TOMMY DUK           ,13      ,1          ,Enrolled      ,34.5  ,14    ,14.9  ,8.1   ,15.1  ,15    ,6     ,15.1  ,11    ,15    ,16    ,7     ,0     
+628-07-1644  ,TODD       ,AMANDA JANE         ,13      ,1          ,Enrolled      ,24.5  ,15    ,14.5  ,4     ,10.3  ,13    ,5     ,9.6   ,5.3   ,13.2  ,8     ,4     ,2     
+460-67-0277  ,UDOH       ,ETEBONG MICHAEL     ,13      ,1          ,Enrolled      ,0     ,0     ,10.6  ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     
+631-12-4604  ,WESTER     ,JORDAN ROSS         ,13      ,1          ,Enrolled      ,33.1  ,13    ,12.5  ,7.8   ,14    ,21    ,12.5  ,15.8  ,3     ,14    ,3.8   ,0     ,0     
+636-24-8814  ,WHICHARD   ,TAYLOR MARSHAL      ,13      ,1          ,Enrolled      ,24.1  ,15    ,14.8  ,5.3   ,3     ,15    ,2     ,0     ,1.9   ,0     ,0     ,0     ,0     
+449-71-5081  ,WOLFE      ,MICAH LEE           ,13      ,1          ,Enrolled      ,28.5  ,15    ,18    ,11    ,14.7  ,26    ,18.5  ,18    ,14    ,18    ,16.3  ,7     ,12    
+460-77-3808  ,WRIGHT     ,NATHAN RICHARD      ,13      ,1          ,Enrolled      ,32.3  ,11    ,14.6  ,11    ,15.3  ,22    ,13.5  ,17.7  ,13.3  ,15    ,15.8  ,7     ,3     
+521-47-7841  ,WYATT      ,JAMES JOSEPH        ,13      ,1          ,Enrolled      ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     ,0     

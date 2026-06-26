@@ -1,0 +1,22 @@
+setNumber=6
+openDate = 1/26/04 at 12:00am
+dueDate = 2/2/04 at 12:00pm
+answerDate = 2/3/04 at 6:00am
+paperHeaderFile = HW2/paperHeaderFile.pg
+screenHeaderFile = HW2/screenHeaderFile.pg
+problemList =
+HW2/sbs-s21-29.pg, 1
+HW2/sbs-s22-5.pg, 1
+HW2/sbs-s22-8.pg, 1
+HW2/sbs-s22-12.pg, 1
+HW2/sbs-s22-13.pg, 1
+HW2/sbs-s22-14.pg, 1
+HW2/sbs-s22-18.pg, 1
+HW2/sbs-s22-20.pg, 1
+HW2/sbs-s22-22.pg, 1
+HW2/sbs-s22-24.pg, 1
+HW2/sbs-s22-26.pg, 1
+HW2/sbs-s22-28.pg, 1
+HW2/sbs-s22-30.pg, 1 
+HW2/lim_diff_frac.pg, 1
+HW2/lim_cube_quad.pg, 1
