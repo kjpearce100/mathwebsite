@@ -1,0 +1,53 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('antiderivatives')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 17 Section 5.7 page 333. $BR $BR
+
+ 
+Find the average value of  \(f(x) = x^3-3x^2\) on \([-2,1]\)
+
+  $BR$BR
+
+  $SPACE Average Value \(\displaystyle     = \) 
+ $SPACE        \{ans_rule(40) \}    
+ $BR$BR
+
+ 
+$PAR
+END_TEXT
+ 
+
+$ans1 = "-17/4";
+&ANS(std_num_cmp($ans1));
+
+  
+  
+
+#&ANS(std_num_cmp($ans1));
+#&ANS(fun_cmp($ans1,var => 'R',limits => [0,.5]));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

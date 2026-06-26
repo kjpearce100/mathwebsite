@@ -1,0 +1,57 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('antiderivatives')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 20 Section 5.8 page 339. $BR $BR
+
+Determine how many subintervals are required to guarantee accuracy to within \(.00005\) 
+for  the integral \(\displaystyle \int_{-1}^4 (x^3+2x^2+1) \, dx \)   using the trapezoid rule and Simpson's rule.  
+ 
+  $BR$BR
+
+(a)  The trapezoid rule :  \(N = \) $SPACE        \{ans_rule(40) \}    
+ $BR$BR
+
+(b)  Simpson's rule :  \(N = \) $SPACE       \{ans_rule(40) \}    
+     
+ $BR$BR
+ 
+$PAR
+END_TEXT
+ 
+
+$ans1 = "2416";
+&ANS(num_cmp($ans1,tolType=> 'absolute', tol=>0.01));
+
+ $ans2 = "2";
+&ANS(num_cmp($ans2,tolType=> 'absolute', tol=>0.1)); 
+ 
+  
+
+#&ANS(std_num_cmp($ans1));
+#&ANS(fun_cmp($ans1,var => 'R',limits => [0,.5]));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

@@ -1,0 +1,57 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('antiderivatives')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 8 Section 5.8 page 339. $BR $BR
+
+Approximate the integral \(\displaystyle \int_1^2 \ln(x) \, dx \) using \(n=6\) intervals and using the trapezoid rule and Simpson's rule. (Give answers to within \(4\) digit accuracy.)
+
+ 
+  $BR$BR
+
+(a)  The trapezoid rule :   $SPACE        \{ans_rule(40) \}    
+ $BR$BR
+
+(b)  Simpson's rule :   $SPACE       \{ans_rule(40) \}    
+     
+ $BR$BR
+ 
+$PAR
+END_TEXT
+ 
+
+$ans1 = ".3851";
+&ANS(num_cmp($ans1,tolType=> 'absolute', tol=>0.01));
+
+ $ans2 = ".3863";
+&ANS(num_cmp($ans2,tolType=> 'absolute', tol=>0.1)); 
+ 
+  
+
+#&ANS(std_num_cmp($ans1));
+#&ANS(fun_cmp($ans1,var => 'R',limits => [0,.5]));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

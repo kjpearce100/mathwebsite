@@ -1,0 +1,50 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('antiderivatives')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 42 Section 5.4 page 308. $BR $BR
+
+ 
+Find the derivative of the given function $BR$BR
+
+\(\displaystyle  F(t)= \int_{t}^{2} \frac{e^x}{x}\, dx\)  
+$BR$BR
+\(F'(x) = \)     \{ans_rule(50) \}   
+ 
+
+$PAR
+END_TEXT
+
+
+$ans1 = "-exp(t)/t";
+
+&ANS(fun_cmp($ans1,var => 't',limits => [1,5]));
+  
+
+#&ANS(std_num_cmp($ans1));
+#&ANS(fun_cmp($ans1,var => 'R',limits => [0,.5]));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

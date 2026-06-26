@@ -1,0 +1,64 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('antiderivatives')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 34 Section 5.7 page 333. $BR $BR
+
+Suppose a study indicates that \(t\) years from now, the level of carbon dioxide in the air of a certain city will be 
+
+  $BR$BR
+  \[L(t) = te^{-.01 t^2}\] 
+parts per million (ppm) for \(0\leq t\leq 20\)?
+
+  $BR$BR
+
+(a)   $SPACE  Find  the average level of carbon dioxide in the first three years   $SPACE        \{ans_rule(40) \}   ppm 
+ $BR$BR
+
+(b)   $SPACE  Find the two times \(t_1<t_2\) (in years) that the average level  of carbon dioxide actually occurs. (give answers to the nearest one hundredth of a year) $SPACE   $BR$BR
+\(t_1 = \)     \{ans_rule(40) \}    
+ $BR$BR
+\(t_2 = \)     \{ans_rule(40) \}    
+ $BR$BR
+ 
+$PAR
+END_TEXT
+ 
+
+$ans1 = "1.43";
+&ANS(num_cmp($ans1,tolType=> 'absolute', tol=>0.01));
+
+ $ans2 = "1.47";
+&ANS(num_cmp($ans2,tolType=> 'absolute', tol=>0.1)); 
+
+ $ans3 = "15.41";
+&ANS(num_cmp($ans3,tolType=> 'absolute', tol=>0.1)); 
+  
+
+#&ANS(std_num_cmp($ans1));
+#&ANS(fun_cmp($ans1,var => 'R',limits => [0,.5]));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

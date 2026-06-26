@@ -1,0 +1,58 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('antiderivatives')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 30 Section 5.6 page 326. $BR $BR
+
+ 
+Find the general solution solution of the separable differential equation.   $BR$BR
+
+ \(\displaystyle \frac{dy}{dx} =  e^{y-x} \) 
+
+$BR$BR
+NOTE:  if your answer is expressed in implicit form as   \(f(x,y) = C \) where \(C\) is a constant,  then your  answer  would be \(f(x,y)\) , e.g., you might have \(\sin( x^2-y^2) =C\) and in this case you would only enter the left hand side   \(\sin(x^2-y^2) \).  YOU MUST USE CAPITAL C FOR THE CONSTANT.
+$BR$BR
+
+\( f(x,y) =\)  $SPACE     \{ans_rule(40) \} 
+ $BR$BR
+where $BITALIC C $EITALIC is a constant.
+ 
+$PAR
+END_TEXT
+
+
+$ans1 =  "C*(exp(-x)-exp(-y))";
+
+
+&ANS(fun_cmp($ans1,var => ['x','y'], params =>['C'], limits => [[0,1],[0,1]]));
+
+ 
+
+#&ANS(fun_cmp($ans1,var => 'x',limits => [0,1]));
+#&ANS(std_num_cmp($ans1));
+#&ANS(fun_cmp($ans1,var => 'R',limits => [0,.5]));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

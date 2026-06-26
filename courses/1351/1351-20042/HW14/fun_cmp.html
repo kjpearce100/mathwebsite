@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head><title>fun_cmp</title>
+  
+  <style type="text/css">
+
+  </style>
+  
+  </head>
+  <body bgcolor="#000066" alink="#FF0000" vlink="#800080" link="#0000FF" text="#000000">
+    <p align="center">
+      <table cellspacing="2" cellpadding="4" border="1" bgcolor = "#CCCCFF">
+        <tr>
+          <td colspan="2">
+            <p>
+            <font size="+3"><b><a href="http://webhost.math.rochester.edu/WeBWorKdocs/">WeBWorKdocs</a></b></font><br>
+            <i></i>
+            </td>
+          </tr>
+        <!-- <tr ><td colspan="3">&nbsp;</td></tr> -->
+        <tr>
+          <td width="50" valign="top" align="right" >
+          <a href="http://webwork.math.rochester.edu"><img src="http://webwork-db.math.rochester.edu/webhost_images/webworkdocs/sq_webwork.jpg" height="64" width="66" border="0" alt="sq_webwork: "></a>
+            <p><h5 align="center"><a href="/webworkdocs/courses_spring2004" class="navigatorLink">Current UR courses</a></h5>
+<h5 align="center"><a href="/webworkdocs/" class="navigatorLink">Home</a></h5>
+<h5 align="center"><a href="/webworkdocs/visitorpage" class="navigatorLink">Visitor page</a></h5>
+<h5 align="center"><a href="/webworkdocs/docs/" class="navigatorLink">Intro to WeBWorK</a></h5>
+<h5 align="center"><a href="http://webhost.math.rochester.edu/webworkassessment/" class="navigatorLink">WW Assessment</a></h5>
+<h5 align="center"><a href="/webworkdocs/sites/siteoverview" class="navigatorLink">WW Community</a></h5>
+<h5 align="center"><a href="/webworkdocs/support" class="navigatorLink">Grant Support & awards</a></h5>
+<h5 align="center"><a href="/webworkdocs/discuss" class="navigatorLink">Discussion group</a></h5>
+<h5 align="center"><a href="/webworkdocs/ww/listLib?command=setsOnly" class="navigatorLink">Problem library</a></h5>
+<h5 align="center"><a href="/webworkdocs/docs/pglanguage/" class="navigatorLink">Write/modify problems</a></h5>
+<h5 align="center"><a href="/webworkdocs/docs/courseadmin/" class="navigatorLink">Create &amp; manage course</a></h5>
+<h5 align="center"><a href="/webworkdocs/docs/howto/" class="navigatorLink">HowTos</a></h5>
+<h5 align="center"><a href="/webworkdocs/faq" class="navigatorLink">FAQ</a></h5>
+<h5 align="center"><a href="http://webhost.math.rochester.edu/downloadwebwork/" class="navigatorLink">Software Download</a></h5>
+<h5 align="center"><a href="/webworkdocs/docs/install/" class="navigatorLink">How to Install WW server</a></h5>
+<h5 align="center"><a href="/webworkdocs/feedback" class="navigatorLink">Feedback</a></h5>
+<h5 align="center"><a href="/webworkdocs/siteMap" class="navigatorLink">Site Map</a></h5>
+<h5 align="center"><a href="/WeBWorkdocs/prefs" class="navigatorLink">Change preferences</a></h5>
+<h5 align="center"><a href="/webworkdocs/member/newPassword" class="navigatorLink">Change password</a></h5><p><br><br>
+            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#000000">
+	<tr bgcolor="black">
+		<td>
+			<table border="0" cellpadding="3" cellspacing="1" bgcolor="black">
+				<tr>
+					<td valign="top" align="right" bgcolor="black">
+						<font color="white" size="-1"><b>Members</b></font>
+						</td>
+					</tr>
+				<tr>
+					<td valign="top" align="right" bgcolor="white">
+						<font size="-1">
+							<a href="http://webhost.math.rochester.edu/webworkdocs/member/signOutConfirm">Sign Out</a><br>
+							</font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+<br>
+            <form method="GET" action="http://webhost.math.rochester.edu/search/">
+            <input name="site" type="hidden" value="webworkdocs">
+            <input name="q" size="10"><br>
+            <input type="submit" value="Search">
+            </form>
+          </td>
+          <!--
+            <td width="10">&nbsp;</td>
+            <td width="1" bgcolor="gray">&nbsp;</td>
+            <td width="10">&nbsp;</td>
+            -->
+          <td  valign="top" width="600" bgcolor = "#FFFFF0">
+            <table border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC"><tr><td bgcolor="#000066" align="left"><font size="-1"><a href="frac_num_cmp" title="frac_num_cmp">Prev</a> | <a href="HEADER_TEXT" title="HEADER_TEXT">Next</a> | <a href="./" onmouseover="window.status='http://webhost.math.rochester.edu/webworkdocs//';" onmouseout="window.status='';">manpages</a></font></td></tr></table><br>
+            <p>
+<p><b>Description</b><blockquote>
+Creates an answer evaluator which checks expressions defining functions.</blockquote><p>
+
+<b>Syntax</b><blockquote>
+<code>fun_cmp(function_string, options)</code><br>
+<code>fun_cmp([fun_str1, fun_str2], options)</code></blockquote><p>
+
+<b>Params</b><blockquote>
+The first argument is the expression defining the correct function, or one or more expressions placed in square brackets.  The options are specified in  <code>key => value</code> pairs.  (see Options)</blockquote><p>
+
+<b>Options</b><blockquote>
+<table border = 1 cellpadding = 5 > <tr><td>Option key</td><td>Option value</td><td>Default</td></tr>   <TR><TD> var							</td><td>either the number of variables or a reference to an array of variable names </td> <td> ['x', 'y']</td></tr>
+<TR><TD> limits					</td><td>reference to an array of arrays of limits </td> <td>[[0,1],[0,1]]</td></tr>
+<TR><TD> mode						</td><td>     'std' (default) (function must match exactly)<br>
+'antider' (function must match up to a constant) </td> <td>'std'</td></tr>
+<TR><TD> relTol						</td><td>a number indicating the  relative tolerance (as a percentage) for checking each point</td> <td>.01 per cent</td></tr>
+<TR><TD> tol	</td><td>an absolute tolerance for checking error</td> <td>&nbsp;</td></tr>
+<TR><TD> numPoints					</td><td>the number of points to evaluate the function at</td> <td>4</td></tr>
+<TR><TD> params			</td><td> an array of "free" parameters which can be used to adapt the correct answer to the submitted answer. (e.g. ['c'] for a constant of integration in the answer x^3/3 + c ).</td> <td>['']</td></tr>
+<TR><TD> maxConstantOfIntegration	</td><td>maximum size of the constant of integration and other free parameters. (prevents numerical overload)</td> <td>10**100</td></tr>
+<TR><TD> debug</td><td>1 to obtain additional warning messages for debugging, 0 to turn off</td> <td>0</td></tr>
+</table></blockquote><p>
+
+<b>Returns</b><blockquote>
+One (or more) answer evaluators for expressions defining functions</blockquote><p>
+
+<b>Examples</b><blockquote>
+* <code>fun_cmp('x^2 +3x')</code> checks that the submitted expression matches this quadratic.<br>
+* <code>fun_cmp('t^2- sin(t)', var => 't')</code><br>
+* <code>fun_cmp('t^2 - sin(t)', vars => ['t'], limits => [-4,4])</code>. You can also use <code>limits => [[-4,4]]</code> for consistency<br>
+* <code>fun_cmp('x^2 + y^2', vars => ['x', 'y'],</code><br>
+<code> limits => [[-4,4],[-2,6]], numPoints => 10 )</code><br>
+* <code>fun_cmp('x^2 + y^2 + c', vars => ['x', 'y'], params =>['c'], </code><br>
+<code>limits => [[-4,4],[-2,6]], numPoints => 10 )</code> will match 'x^2 +y^2 + 25'.<br>
+* <code>fun_cmp( 'cos(x) + a*e^(-x) + b*e^(2x)', params =>['a', 'b'])</code> will accept a linear family of solutions, e.g. solution set to a linear ODE<br>
+* <code>fun_cmp( 'x^2 +sin(c*x)' , params =>['c'])</code> will NOT work.  The expressions have to be linear in the parameters (but of course they can be non-linear in the variables such as x).</blockquote><p>
+
+<b>Notes</b><blockquote>
+The options can be used in any combination that makes sense, and probably some that don't.  One exception: <code>reltol</code> and <code>tol</code> cannot be used together.</blockquote><p>
+
+</p><p>
+
+<p><a href="http://webhost.math.rochester.edu/webworkdocs/discuss/msgReader$215"><| Post Comments |></a><p>
+
+            <br><table border="0" cellpadding="2" cellspacing="1" bgcolor="#CCCCCC"><tr><td bgcolor="#000066" align="left"><font size="-1"><a href="frac_num_cmp" title="frac_num_cmp">Prev</a> | <a href="HEADER_TEXT" title="HEADER_TEXT">Next</a> | <a href="./" onmouseover="window.status='http://webhost.math.rochester.edu/webworkdocs//';" onmouseout="window.status='';">manpages</a></font></td></tr></table>
+            <p>
+            </td>
+          </tr>
+        <tr>
+          <td colspan="2">
+            Last update: Sunday, February 22, 2004 at 4:24:36 PM.
+            <H6> This site maintained using <a href="http://manila.userland.com">Manila</a> and <a href="http://frontier.userland.com/">Frontier</a>  software. </H6>
+            </td>
+          </tr>
+        </table>
+      </p>
+    </body>
+  </html>

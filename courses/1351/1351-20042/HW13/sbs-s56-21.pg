@@ -1,0 +1,57 @@
+##DESCRIPTION
+##  Evalute a limit  
+##ENDDESCRIPTION
+
+##KEYWORDS('antiderivatives')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$pi = 3.14159265;
+$e= 2.718281828;
+ 
+
+BEGIN_TEXT 
+$BR
+This is problem 21 Section 5.6 page 326. $BR $BR
+
+ 
+Find the general solution solution of the separable differential equation.   $BR$BR
+
+ \(\displaystyle \frac{dy}{dx} = 3xy \) 
+
+$BR$BR
+
+ 
+NOTE:  if your answer is expressed in implicit form as   \(y=Cf(x) \) where \(C\) is a constant,  then your  answer  would be \(f(x)\) , e.g., you might have \(C\sin( x^2)\) and in this case you would only enter   \(\sin(x^2) \).  YOU MUST US CAPITAL C FOR THE CONSTANT.
+$BR$BR
+\( y =\)  $SPACE  $BITALIC C $EITALIC    \{ans_rule(40) \} 
+ $BR$BR
+where $BITALIC C $EITALIC is a constant.
+ 
+$PAR
+END_TEXT
+
+
+$ans1 =  "C*exp(3*x**2/2)";
+&ANS(fun_cmp($ans1,var => 'x',params=>['C'],limits => [0,1]));
+
+ 
+
+#&ANS(fun_cmp($ans1,var => 'x',params=>['C'], limits => [0,1]));
+#&ANS(std_num_cmp($ans1));
+#&ANS(fun_cmp($ans1,var => 'R',limits => [0,.5]));
+# &ANS(std_str_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+
