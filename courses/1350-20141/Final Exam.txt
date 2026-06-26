@@ -1,0 +1,53 @@
+Distance formula R^2
+
+Find mid-point of line segment R^2
+
+Find equation of line passing through P with slope m
+
+Find vector sum, difference R^2
+
+Determine if two vectors are perpendicular
+
+Find equation of circle given geometry
+
+Find geometry of circle given equation
+
+Find equation of parabola given geometry
+
+Find geometry of parabola given equation
+
+Find equation of ellipse given geometry
+
+Find geometry of ellipse given equation
+
+Find equation of hyperbola given geometry
+
+Find geometry of hyperbola given equation
+
+Find geometry of parabola given translated equation 
+
+Find geometry of ellipse given translated equation 
+
+Find geometry of hyperbola given translated equation 
+
+Find symmetry, intercepts of graph
+
+Find asymptotes of graph
+
+Sketch graph of rational function
+
+Sketch graph of polar function
+
+Conversion between polar and rectangular coordinates
+
+Conversion between polar and rectangular equations
+
+Parametric equations: eliminate parameter
+
+Distance formula in R^3
+
+Mid-points in R^3
+
+Find vector sum, difference R^3
+
+Determine if two vectors are perpendicular R^3

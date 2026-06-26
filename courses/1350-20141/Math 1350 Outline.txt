@@ -1,0 +1,84 @@
+Course Number: Mathematics 1350
+Descriptive Title: Analytic Geometry
+Prerequisites: Math 1321, or departmental permission
+
+CATALOG DESCRIPTION
+(3 credit hours)
+Prerequisite: MATH 1321 or Code 6 or higher on MPE or a score of at least 660 on the SATM or a score of at least 29 on the ACTM. Fundamental concepts of analytical geometry. Partially fulfills core Mathematics requirement.
+
+CURRENT TEXTBOOK:
+Analytic Geometry, 6th edition by Douglas Riddle (Brooks/Cole publishers)
+
+PURPOSE OF COURSE
+This course is primarily designed for architecture and pre--engineering majors. It provides a basic background in analytic elementary geometry.
+
+CORE CURRICULUM/GRADUATION REQUIREMENTS SATISFIED BY MATH 1350
+MATH 1350 satisfies part of the university Core Curriculum requirement in Mathematics.
+
+COURSE-SPECIFIC LEARNING OBJECTIVES AND CORRESPONDING OUTCOMES
+
+1. Apply arithmetic, algebraic, geometric, statistical and/or logical reasoning to solve problems.
+In Math 1350 students will develop skills to: (1) analyze geometry in the plane; (2) determine properties of conic sections; (3) apply transformation of coordinates; (4) sketch curves; (5) use parametric curve representations; (6) investigate geometry in space; (7) integrate appropriate terminology into your everyday language when discussing mathematics; (8) appraise their own progress in thinking logically, increasing their mathematical confidence, and appropriate organizational skills for mathematics. Student mastery of problem solving skills will be assessed through homework exercises, in-class quizzes, and examinations.
+Assessment Strategies: A comprehensive list of homework and exam problems will be created by the course coordinator in collaboration with the instructors/TAs. It is expected that at least 25% of the problems on this comprehensive list will address this specific objective. The homework assignments and mid-term exams will include selected problems from this comprehensive list, and all of the problems on the final exams will be selected from this comprehensive list. The final exams will be periodically sampled and analyzed in order to assess how this particular objective was attained. The assessment will measure the percentage of students who achieved mastery of the skills and knowledge involved by this objective.
+
+2. Represent and evaluate basic mathematical and/or logical information numerically, graphically, and symbolically
+In Math 1350 students will learn how to adequately communicate mathematical information in writing, verbally and graphically, by using words, numerical answers, algebraic expressions, logical sentences, as well as graphs and diagrams.
+Assessment Strategies: A comprehensive list of homework and exam problems will be created by the course coordinator in collaboration with the instructors/TAs. It is expected that at least 25% of the problems on this comprehensive list will address this specific objective. The homework assignments and mid-term exams will include selected problems from this comprehensive list, and all of the problems on the final exams will be selected from this comprehensive list. The final exams will be periodically sampled and analyzed in order to assess how this particular objective was attained. The assessment will measure the percentage of students who achieved mastery of the skills and knowledge involved by this objective.
+
+3. Use mathematical and logical reasoning to evaluate the validity of an argument.
+In Math 1350 students will learn how to identify, understand and apply mathematical and logical reasoning to theoretical and applied problems. In particular, attention will be given to procedures for establishing of the validity of functional identities and to the principle for constructing proofs by mathematical induction.
+Assessment Strategies: A comprehensive list of homework and exam problems will be created by the course coordinator in collaboration with the instructors/TAs. It is expected that at least 25% of the problems on this comprehensive list will address this specific objective. The homework assignments and mid-term exams will include selected problems from this comprehensive list, and all of the problems on the final exams will be selected from this comprehensive list. The final exams will be periodically sampled and analyzed in order to assess how this particular objective was attained. The assessment will measure the percentage of students who achieved mastery of the skills and knowledge involved by this objective.
+
+4. Interpret mathematical and/or logical models such as formulas, graphs, tables and schematics, and draw inference from them.
+In Math 1350 students will learn to identify and interpret mathematical information contained in formulas, graphs and tables, in particular: (a) interpreting graphs of functions; (b) applications to geometric models; (c) applied problems. The development of student interpretative and inference skills will be assessed through homework exercises, in-class quizzes, and examinations.
+Assessment Strategies: A comprehensive list of homework and exam problems will be created by the course coordinator in collaboration with the instructors/TAs. It is expected that at least 25% of the problems on this comprehensive list will address this specific objective. The homework assignments and mid-term exams will include selected problems from this comprehensive list, and all of the problems on the final exams will be selected from this comprehensive list. The final exams will be periodically sampled and analyzed in order to assess how this particular objective was attained. The assessment will measure the percentage of students who achieved mastery of the skills and knowledge involved by this objective.
+
+College-Level Competency: Students graduating from Texas Tech University should be able to: demonstrate the ability to apply quantitative and logical skills to solve problems. In particular, students who have taken Math 1350 will be able to use the course-specific learning objectives in order to provide individual solutions to mathematical problems and interpret the results in a relevant manner.
+The assessment of these skills will be conducted via embedded assessments in final exams, senior surveys (GSS) and senior assessments (OSA).
+
+STUDENT LEARNING OUTCOMES
+Students will ·
+• Apply trigonometry to geometric problems.
+• Study conic in planes.
+• Study quadrics in space.
+• Perform geometric constructions in plane.
+• Perform geometric constructions in space.
+• Write basic geometric proofs.
+• Study Euclidean motions in plane and in space.
+
+LEARNING ASSESSMENT:
+Learning outcomes will be assessed through homework exercises, in-class quizzes, and examinations. The following assessments represent a general departmental requirement:
+
+- 1). Homework assignments are expected to be given weekly, either as on-line, web-based assignments, or as writing-intensive assignments
+
+- 2). It is expected that a test will be given at the end of each major chapter
+
+- 3). A common, unique departmental final exam will be given according to the academic schedule established by the university and department, for all the course sections whose primary delivery method is the traditional one (lecture, face-to-face).
+
+General requirement: The Common Final represents a course requirement. A student who did not complete the Final Examination, but otherwise completed all the other requirements successfully cannot be assigned a passing letter grade (D or higher) unless taking the Final Examination. Each designated instructor has to keep their copy of partial scores and grades for each student, for one calendar year from the date of recording the grade in the web database.
+
+Common Grading Scale Correspondence:
+Letter grade A = a percentile grade of 90% of higher
+Letter grade B = a percentile grade of 80% or higher, that is lower than 90%
+Letter grade C = a percentile grade of 70% or higher, that is lower than 80%
+Letter grade D = a percentile grade of 60% or higher, that is lower than 70%
+Letter grade F = a percentile grade lower than 60%
+
+ACCOMODATION OF STUDENTS WITH DISABLILITIES:
+Any student who, because of a disability, may require special arrangements in order to meet the course requirements should contact the instructor as soon as possible to make any necessary arrangements. Students should present appropriate verification from Student Disability Services during the instructor’s office hours. Please note instructors are not allowed to provide classroom accommodations to a student until appropriate verification from Student Disability Services has been provided. For additional information, you may contact the Student Disability Services office in 335 West Hall or 806--742--2405.
+
+STUDENT ABSENCE FOR OBSERVATION OF RELIGIOUS HOLY DAYS:
+A student who is absent from classes for the observation of a religious holy day shall be allowed to take an examination or complete an assignment scheduled for that day within a reasonable time after the absence if, not later than the fifteenth day after the first day of the semester, the student had notified the instructor of each scheduled class that the student would be absent for a religious holy day.
+
+COURSE OUTLINE
+Chapter 1, Sections 1-7 7 hours -4		4.5
+Chapter 2, Sections 1-3 3 hours -2		1.5
+Chapter 3, Sections 1-3 3 hours -2 	1.5
+Chapter 4, Sections 1-2 2 hours -1		1.5
+Chapter 5, Sections 1-4 4 hours +2		5
+Chapter 6, Sections 1,3-4 3 hours +1	4
+Chapter 7, Sections 1-6 6 hours +2		6.5
+Chapter 8, Sections 1-6 6 hours +2		6.5
+Chapter 9, Sections 1-6,9 7 hours +2	7
+Review and testing 4 hours			3
+Total 45 hours

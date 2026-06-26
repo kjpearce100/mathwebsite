@@ -1,0 +1,318 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 1350-20141(001)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 1350-20141(001)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 1350">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 1350<br>
+Analytical Geometry<br>
+Fall 2014</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Riddle<br>
+Analytical Geometry<br>
+Brooks/Cole</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam III</span>
+
+<p>
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 6.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Translation of conic sections
+<li>Equations of translation
+<ul>
+<li>x = x' + h
+<li>y = y' + k
+</ul>
+<li>Standard forms for conic sections
+<ul>
+<li>Parabola
+<ul>
+<li>Type I:  Axis of symmetry parallel to x-axis
+<li>Type II: Axis of symmetry parallel to y-axis
+</ul>
+<li>Ellipse
+<ul>
+<li>Type I:  Major axis parallel to x-axis
+<li>Type II: Major axis parallel to y-axis
+</ul>
+<li>Hyperbola
+<ul>
+<li>Type I:  Transverse axis parallel to x-axis
+<li>Type II: Transverse axis parallel to y-axis
+</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Page 198: 7, 8, 9, 10, 11, 12, 21, 22, 23, 25
+</td>
+</tr>
+
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 6.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Equations of rotation
+<ul>
+		<li>x = x' cos &theta; - y' sin &theta;
+		<li>y = x' sin &theta' + y' cos &theta'
+</ul>
+<li>Transform Quadratic Equation by Rotation
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Page 211: 5, 7, 9
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 6.4
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>General second order equation
+<li>Rotate Equation to Eliminate xy term
+<ul>
+	<li>Case A = C
+		<ul>
+			<li> &theta; = 45&deg; 
+		</ul>
+	<li>Case A &ne; C
+		<ul>
+			<li> tan 2&theta; = B/(A-C)
+			<li> Reference triange for angle 2&theta;
+			<li> Trig half angle formulas for cos &theta; and sin &theta;
+		</ul>
+</ul>
+<li>Discrimant B<sup>2</sup> - 4AC
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Page 220: 1, 2, 4, 5, 9
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Definition of Symmetry wrt Line
+<li>Definition of Symmetry wrt Point
+<li>Tests for Symmetry
+<ul>
+	<li>Symmetry wrt y-axis
+	<li>Symmetry wrt x-axis
+	<li>Symmetry wrt origin
+	<li>Symmetry wrt line y=x
+</ul>
+<li>Intercepts
+<ul>
+	<li>x-axis
+		<ul>
+			<li>Roots of factors of numerator
+		</ul>
+	<li>y-axis
+		<ul>
+			<li>Value at x = 0
+		</ul>
+</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Page 232: 1-4, 11, 13, 17, 19, 21, 23, 27, 28
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Sketching Polynomial Equations
+<li>Fundamental Theorem of Algebra
+<li>Behavior of Graphs near Intercepts
+<li>Factors of Form (x-a)<sup>n</sup>
+<ul>
+	<li>Odd power of n
+	<ul>
+		<li> n=1
+		<li> n=3, 5, 7, . . .
+	</ul>
+	<li>Even power of n
+</ul>
+<li>End Behavior
+<li>Sketching Graph
+	<ul>
+		<li>Symmetry
+		<li>Intercepts
+		<li>Behavior of Graphs near Intercepts
+		<li>End Behavior
+	</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Page 243: 1, 5, 9, 13, 27, 28, 29
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Rational Functions
+<li>Asymptotes
+<ul>
+	<li>Vertical
+		<ul>
+			<li>Roots of factors of denominator
+		</ul>
+	<li>Horizonatal
+		<ul>
+			<li>Case Degree Numerator < Degree Denominator
+				<ul>
+					<li>y = 0
+				</ul>
+			<li>Case Degree Numerator = Degree Denominator
+				<ul>
+					<li>y = a_n/b_n
+				</ul>
+			<li>Case Degree Numerator > Degree Denominator	
+				<ul>
+					<li>None
+				</ul>
+		</ul>
+	<li>Slant
+		<ul>
+			<li>Degree Numerator = Degree Denominator + 1
+			<li>Divide Numerator by Denominator Longhand
+		</ul>
+</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Page 255: 1, 3, 9, 11, 13, 15, 17
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.4
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Sketching the Graphs of Rational Functions
+<ul>
+	<li>Symmetry
+	<li>Intercepts
+	<li>Vertical Asymptotes
+	<li>Horizonatal Asymptotes
+	<li>Slant Asymptotes
+	<li>Interval (x-axis) of Constant Sign
+</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Page 264: 1, 7, 13, 15, 16, 17, 19, 20
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.5
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Equations with Radicals
+<li>Domain Restrictions
+<li>Graph y = square root (p(x))
+<ul>
+	<li>Graph auxillary function z = p(x)
+	<li>Graph y = square root (z)
+</ul>
+<li>Graph y<sup>2</sup> = p(x)
+<ul>
+	<li>Graph auxillary function z = p(x)
+	<li>Graph y = &plusmn; square root (z)
+</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+Page 273: 1, 5, 7, 11, 15
+</td>
+</tr>
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="1350-20141(001)-rvw2.shtml"-->
+</div>
+
+</body>
+</html> 
