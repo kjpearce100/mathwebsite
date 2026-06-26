@@ -1,0 +1,244 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Homework: Math 1351-20072(008)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Homework: Math 1351-20072(008)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 1351">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<div class=text18red>Homework</div>
+
+<table width=80%>
+<tr >
+<td valign=top width=40% align=left>
+<span class=text14blue>Math 1351-008</font><br>
+Calculus I</font><br>
+Spring 2007</div>
+</td>
+<td valign=top width=40% align=left>
+<span class=text14blue>Strauss, Bradley, Smith</font><br>
+Calculus 4th</font><br>
+Prentice Hall</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<table width=90% border=1>
+<tr >
+<td valign=top width=40% align=center>
+<b>Homework Assignments</b>
+</td>
+<td valign=top width=40% align=center>
+<b>WebWork Assignments</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+&nbsp;</td>
+<td valign=top width=40% align=left>
+<li><b>WW 00</b> Due Wed 17 Jan, 11:00 pm<p>
+<u>Pre-Calculus - Algebra II Skills </u>&nbsp;&nbsp;&nbsp; <font color=red>various problems</font><br>
+<u>Pre-Caclulus - Trigonometry Skills</u>&nbsp;&nbsp;&nbsp; <font color=red>various problems</font><br>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<li><a name=hw1><b>HW #1</b> Due Date: Thu 18 Jan<p>
+<u>Section 1.1</u>&nbsp;&nbsp;&nbsp; <font color=blue>6, 8, 18, 21, 34, 52</font><br>
+<u>Section 1.2</u>&nbsp;&nbsp;&nbsp; <font color=blue>7, 18, 20, 32, 34, 38, 46, 50</font><br>
+</td>
+<td valign=top width=40% align=left>
+<li><b>WW 01</b> Due Fri 19 Jan, 11:00 pm<p>
+<u>Section 1.1</u>&nbsp;&nbsp;&nbsp; <font color=red>5, 13, 14, 25, 26, 31, 32, 40, 42, 44, 46</font><br>
+<u>Section 1.2</u>&nbsp;&nbsp;&nbsp; <font color=red>2, 4, 10, 12, 14</font><br>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<li><a name=hw2><b>HW #2</b> Due Date: Thu 25 Jan<p>
+<u>Section 1.3</u>&nbsp;&nbsp;&nbsp; <font color=blue>5, 12, 22, 25, 28, 32, 44, 54, 58</font><br>
+<u>Section 1.4</u>&nbsp;&nbsp;&nbsp; <font color=blue>4, 7, 20, 24, 34, 37</font><br>
+<u>Section 2.1</u>&nbsp;&nbsp;&nbsp; <font color=blue>2, 6, 8, 22, 24, 31, 36, 40, 42</font><br>
+</td>
+<td valign=top width=40% align=left>
+<li><b>WW 02</b> Due Fri 26 Jan, 11:00 pm<p>
+<u>Section 1.3</u>&nbsp;&nbsp;&nbsp; <font color=red>2, 7, 8, 14, 16, 18, 20, 36</font><br>
+<u>Section 1.4</u>&nbsp;&nbsp;&nbsp; <font color=red>12, 14, 16, 39, 42</font><br>
+<u>Section 2.1</u>&nbsp;&nbsp;&nbsp; <font color=red>various problems</font><br>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<li><a name=hw3><b>HW #3</b> Due Date: Thu 01 Feb<p>
+<u>Section 2.2</u>&nbsp;&nbsp;&nbsp; <font color=blue>6, 39, 42, 43, 46, 49, 55, 57</font><br>
+<u>Section 2.3</u>&nbsp;&nbsp;&nbsp; <font color=blue>5, 6, 9, 12, 19, 28</font><br>
+</td>
+<td valign=top width=40% align=left>
+<li><b>WW 03</b> Due Fri 02 Feb, 11:00 pm<p>
+<u>Section 2.2</u>&nbsp;&nbsp;&nbsp; <font color=red>5, 8, 12, 13, 14, 18, 20, 22, 24, 26, 28, 30</font><br>
+<u>Section 2.3</u>&nbsp;&nbsp;&nbsp; <font color=red>15, 16, 18, 22, 23, 24, 39, 40, 43</font><br>
+<u>Section 2.4</u>&nbsp;&nbsp;&nbsp; <font color=red>13-16, 23-26, 31-32, 37-40, 41-42, 44</font><br>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<li><a name=hw4><b>HW #4</b> Due Date: Tue 13 Feb<p>
+<u>Section 2.4</u>&nbsp;&nbsp;&nbsp; <font color=blue>2, 4, 6, 12, 20, 52, 54, 56, 58, 66</font><br>
+<u>Section 3.1</u>&nbsp;&nbsp;&nbsp; <font color=blue>6, 8, 14, 20, 26, 30, 44, 48</font><br>
+<u>Section 3.2</u>&nbsp;&nbsp;&nbsp; <font color=blue>6, 9, 24, 52</font><br>
+</td>
+<td valign=top width=40% align=left>
+<li><b>WW 04</b> Due Wed 14 Feb, 11:00 pm<p>
+<u>Section 3.2</u>&nbsp;&nbsp;&nbsp; <font color=red>12, 14, 16, 18, 21, 27, 28, 30, 34, 36</font><br>
+<u>Section 3.3</u>&nbsp;&nbsp;&nbsp; <font color=red>2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 26</font><br>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<li><a name=hw5><b>HW #5</b> Due Date: Thu 22 Feb<p>
+<u>Section 3.3</u>&nbsp;&nbsp;&nbsp; <font color=blue>28, 36, 40, 48, 50</font><br>
+<u>Section 3.4</u>&nbsp;&nbsp;&nbsp; <font color=blue>4, 6, 12, 16, 22, 26, 30, 34, 38, 48, 54</font><br>
+<u>Section 3.5</u>&nbsp;&nbsp;&nbsp; <font color=blue>6, 36, 54, 56</font><br>
+<u>Section 3.6</u>&nbsp;&nbsp;&nbsp; <font color=blue>9, 12, 25, 40, 64</font><br>
+</td>
+<td valign=top width=40% align=left>
+<li><b>WW 05</b> Due Fri 23 Feb, 11:00 pm<p>
+<u>Section 3.4</u>&nbsp;&nbsp;&nbsp; <font color=red>17, 18, 20, 41, 42, 44</font><br>
+<u>Section 3.5</u>&nbsp;&nbsp;&nbsp; <font color=red>3, 4, 13, 14, 16, 18, 20, 22, 24, 26, 30, 32, 41, 42, 44, 46</font><br>
+<u>Section 3.6</u>&nbsp;&nbsp;&nbsp; <font color=red>1, 2, 4, 6, 19, 20, 33, 34, 36, 45, 46, 50, 52</font><br>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<li><a name=hw6><b>HW #6</b> Due Date: Thu 08 Mar<p>
+<u>Section 3.7</u>&nbsp;&nbsp;&nbsp; <font color=blue>3, 8, 13, 15, 24, 38</font><br>
+<u>Section 3.8</u>&nbsp;&nbsp;&nbsp; <font color=blue>4, 8, 27, 33, 46, 48, 50</font><br>
+<u>Section 4.1</u>&nbsp;&nbsp;&nbsp; <font color=blue>3, 9, 14, 19, 26, 31, 34, 43, 52</font><br>
+</td>
+<td valign=top width=40% align=left>
+<li><b>WW 06</b> Due Fri 09 Mar, 11:00 pm<p>
+<u>Section 3.7</u>&nbsp;&nbsp;&nbsp; <font color=red>2, 4, 6, 14, 18, 23, 26, 28, 32, 34, 40, 44</font><br>
+<u>Section 3.8</u>&nbsp;&nbsp;&nbsp; <font color=red>2, 6, 12, 14, 19, 31, 32, 34, 42, 44</font><br>
+<u>Section 4.1</u>&nbsp;&nbsp;&nbsp; <font color=red>1, 4, 8, 10, 12, 20, 22, 25, 28, 30, 32, 36, 39, 40</font><br>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<li><a name=hw7><b>HW #7</b> Due Date: Thu 22 Mar<p>
+<u>Section 4.2</u>&nbsp;&nbsp;&nbsp; <font color=blue>9, 12, 15, 21</font><br>
+<u>Section 4.3</u>&nbsp;&nbsp;&nbsp; <font color=blue>13, 17, 25, 29, 36, 38, 40, 41, 42</font><br>
+<u>Section 4.4</u>&nbsp;&nbsp;&nbsp; <font color=blue>11, 15, 19, 25</font><br>
+</td>
+<td valign=top width=40% align=left>
+<li><b>WW 07</b> Due Fri 23 Mar, 11:00 pm<p>
+<u>Section 4.2</u>&nbsp;&nbsp;&nbsp; <font color=red>4, 6, 26, 28</font><br>
+<u>Section 4.3</u>&nbsp;&nbsp;&nbsp; <font color=red>12, 15, 21, 22, 24, 28, 30, 32</font><br>
+<u>Section 4.4</u>&nbsp;&nbsp;&nbsp; <font color=red>6, 8, 10, 12</font><br>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<li><a name=hw8><b>HW #8</b> Due Date: Thu 29 Mar<p>
+<u>Section 4.4</u>&nbsp;&nbsp;&nbsp; <font color=blue>28, 30, 36, 41</font><br>
+<u>Section 4.5</u>&nbsp;&nbsp;&nbsp; <font color=blue>7, 16, 21, 31, 41, 49</font><br>
+</td>
+<td valign=top width=40% align=left>
+<li><b>WW 08</b> Due Fri 30 Mar, 11:00 pm<p>
+<u>Section 4.4</u>&nbsp;&nbsp;&nbsp; <font color=red>14, 16, 20, 22</font><br>
+<u>Section 4.5</u>&nbsp;&nbsp;&nbsp; <font color=red>3, 6, 8, 10, 12, 18, 20, 24, 28, 30, 32, 38, 44, 47</font><br>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<li><a name=hw9><b>HW #9</b> Due Date: Thu 12 Apr<p>
+<u>Section 4.6</u>&nbsp;&nbsp;&nbsp; <font color=blue>4, 17, 22, 26</font><br>
+<u>Section 5.1</u>&nbsp;&nbsp;&nbsp; <font color=blue>7, 13, 19, 25, 40, 43</font><br>
+<u>Section 5.2</u>&nbsp;&nbsp;&nbsp; <font color=blue>7, 14, 18, 20</font><br>
+</td>
+<td valign=top width=40% align=left>
+<li><b>WW 09</b> Due Fri 13 Apr, 11:00 pm<p>
+<u>Section 4.6</u>&nbsp;&nbsp;&nbsp; <font color=red>7, 13, 16, 18, 20, 21, 24</font><br>
+<u>Section 5.1</u>&nbsp;&nbsp;&nbsp; <font color=red>4, 6, 8, 12, 14, 16, 18, 22, 24, 26</font><br>
+<u>Section 5.2</u>&nbsp;&nbsp;&nbsp; <font color=red>2, 4, 8</font><br>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<li><a name=hw10><b>HW #10</b> Due Date: Thu 19 Apr<p>
+<u>Section 5.3</u>&nbsp;&nbsp;&nbsp; <font color=blue>3, 7</font><br>
+<u>Section 5.4</u>&nbsp;&nbsp;&nbsp; <font color=blue>7, 15, 23, 54</font><br>
+<u>Section 5.5</u>&nbsp;&nbsp;&nbsp; <font color=blue>17, 21, 28</font><br>
+</td>
+<td valign=top width=40% align=left>
+<li><b>WW 10</b> Due Fri 20 Apr, 11:00 pm<p>
+<u>Section 5.3</u>&nbsp;&nbsp;&nbsp; <font color=red>17, 18, 20, 22</font><br>
+<u>Section 5.4</u>&nbsp;&nbsp;&nbsp; <font color=red>6, 8, 12, 16, 18, 20, 24, 26, 32, 34, 38, 40, 42</font><br>
+<u>Section 5.5</u>&nbsp;&nbsp;&nbsp; <font color=red>1, 6, 8, 10, 14, 18, 20</font><br>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=40% align=left>
+<li><a name=hw11><b>HW #11</b> Due Date: Thu 26 Apr<p>
+<u>Section 5.5</u>&nbsp;&nbsp;&nbsp; <font color=blue>31, 41</font><br>
+<u>Section 5.6</u>&nbsp;&nbsp;&nbsp; <font color=blue>9, 12, 23</font><br>
+<u>Section 5.7</u>&nbsp;&nbsp;&nbsp; <font color=blue>11, 12</font><br>
+</td>
+<td valign=top width=40% align=left>
+<li><b>WW 11</b> Due Fri 27 Apr, 11:00 pm<p>
+<u>Section 5.5</u>&nbsp;&nbsp;&nbsp; <font color=red>24, 30, 34, 36, 40</font><br>
+<u>Section 5.6</u>&nbsp;&nbsp;&nbsp; <font color=red>21, 22, 24, 26, 30</font><br>
+<u>Section 5.7</u>&nbsp;&nbsp;&nbsp; <font color=red>1, 2, 17, 18, 20, 22, 24, 26, 33, 34</font><br>
+</td>
+</tr>
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="1351-20072(008)-hwk.shtml"-->
+</div>
+
+</body>
+</html> 

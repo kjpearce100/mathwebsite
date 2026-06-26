@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Projects: Math 1351-20011(h03)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Projects: Math 1351-20011(h03)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Projects Math 1351">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<div class=text18red>Group Projects</div>
+
+<table width=80%>
+<tr >
+<td valign=top width=40% align=left>
+<div class=text14blue>Math 1351-H03<br>
+Calculus I<br>
+Fall 2001</div>
+</td>
+<td valign=top width=40% align=left>
+<div class=text14blue>Bradley and Smith<br>
+<i>Calculus</i>, 2nd Ed.<br>
+Prentice Hall</div>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<table width=90% border=1>
+<tr >
+<td >Project Set #1<br>
+Choose One Project<br>
+Due Date: October 9</td>
+<td><a href="1351-20011(h03)-project-1a.html">Project 1-A:  Cost Projections: Tunneling</a></td>
+<td><a href="1351-20011(h03)-project-1b.html">Project 1-B:  Bloodstream Drug Concentrations</a></td>
+</tr>
+<tr >
+<td >Project Set #2<br>
+Choose One Project<br>
+Due Date: November 6</td>
+<td><a href="1351-20011(h03)-project-2a.html">Project 2-A:  Hand-Off</a></td>
+<td><a href="1351-20011(h03)-project-2b.html">Project 2-B:  Bicycle</a></td>
+</tr>
+<tr >
+<td >Project Set #3<br>
+Choose One Project<br>
+Due Date: December 4</td>
+<td><a href="1351-20011(h03)-project-3a.html">Project 3-A:  Cones</a></td>
+<td><a href="1351-20011(h03)-project-3b.html">Project 3-B:  Gutters</a></td>
+</tr>
+</table>
+
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="1351-20011(h03)-prj.shtml"-->
+</div>
+
+</body>
+</html> 
