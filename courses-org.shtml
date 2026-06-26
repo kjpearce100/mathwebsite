@@ -1,0 +1,2094 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Courses (Syllabi, Homework, Exams)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Courses (Syllabi, Homework, Exams)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Courses Syllabi Homework Exams">
+
+
+<!-- *********************************************************************************** -->
+
+<META http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen false comment "RSACi North America Server" r (n 0 s 0 v 0 l 0))'> 
+
+
+<link rel=stylesheet type="text/css" href="http://www.math.ttu.edu/~pearce/includes/basic.css">
+<link rel=stylesheet type="text/css" href="http://www.math.ttu.edu/~pearce/includes/fonts.css">
+
+
+
+<style>
+<!--
+#quakenotice_ie{font:normal 14px Arial;
+					 position:absolute;
+					 width:300px; height:55px;
+					 border:2px solid black;
+					 background-color:lightyellow;
+					 visibility:hidden;}
+-->
+</style>
+
+</head>
+
+<body background="/~pearce/images/watermark.gif" onLoad="earthquake()"> 
+
+<layer id="quakenotice_ns" width=300 height=55 bgColor=lightyellow visibility=hide></layer>
+
+
+<script language="JavaScript" src="/~pearce/includes/quake1.js"></script>
+
+<!-- <script language="JavaScript" src="/~pearce/includes/snow1.js"></script> -->
+
+<script type="text/javascript" src="/~pearce/includes/collapsibletext.js"></script> 
+
+
+<script language="JavaScript">
+<!--
+function HighLight(url, names)
+{
+	if(document.images) document[names].src = url;
+}
+//-->
+</script>
+
+
+<hr width="45%" size=5 align="right">
+
+<center><table width="90%" cellpadding=10 cellspacing= 10 border=0>
+<tr valign="center" halign="center">      
+
+   <td><center>
+      <a class=text18rednone href="http://www.math.ttu.edu/">Mathematics & Statistics</a>
+
+      <hr width="10%"> 
+
+	<a class=text16bluenone href="http://www.ttu.edu/">Texas Tech University (PDF)</a><br>
+   </center></td>
+   <td><a href="http://www.ttu.edu"><img align=middle src="/~pearce/images/double-t.gif" alt="" border=0></a></td>
+   <td><span class=text><center>
+
+      <a class=mainlink href="/~pearce/home.shtml">Kent Pearce</a> <br>
+
+      <hr width="10%"> 
+
+       Department of Mathematics and Statistics<br> 
+       Texas Tech University  <br> 
+       Lubbock, Texas 79409-1042  <br> 
+       Voice: (806)742-2566 x 226 <br> 
+       FAX: (806)742-1112  <br>
+       Email: <a class=link href="mailto:kent.pearce@ttu.edu ">kent.pearce@ttu.edu</a>  <br> 
+
+   </center></span></td>
+</tr>
+
+</table></center>
+
+<hr width="45%" size=5 align="left">
+
+<!-- *********************************************************************************** -->
+
+
+<center><div class=text18red>Courses (Syllabi, Homework, Exams)</div></center>
+
+<p>
+<ul>
+<li><b>Spring 2013</b>: Math 3354-001, Differential Equations I<br>
+<a href="/courses/3354-20132(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3354-20132(001)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="http://webwork.math.ttu.edu/webwork2/spr13kpearcem3354s001">WebWorK Server</a><br><br>
+
+Web Resources
+<ul>
+	<li><a href="http://www.khanacademy.org/#Differential%20Equations">Khan Academy - Differential Equations</a>
+	<li><a href="http://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2006/video-lectures/">MIT - Differential Equations</a><br><br>
+</ul>
+
+Support Information for WebWorK
+<ul>
+	<li><a href=webwork/intro_for_students.html>Introduction for Students (PDF)</a>
+	<li><a href=webwork/how_to_enter_answers.html>How to Enter Answers (PDF)</a><br><br>
+</ul>
+
+Resources
+<ul>
+	<li><a href="/courses/eulers method a.xls">Eulers Method (XLS)</a>
+	<li><a href="/courses/eulers method.pptx">Eulers Method (PPTX)</a><br><br>
+</ul>
+
+Exam I
+<ul>
+      <li><a href="/courses/3354-20132(001)-rvw1.shtml">Review </a><br>
+		  <li><a href="/courses/3354-20132(001)-001-stat.pdf">Exam 1 Statistics</a> (PDF)<br>
+      <li><a href="/courses/3354-20132(001)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3354-20132(001)-001a-m.pdf">Exam 1-A Makeup (PDF)</a><br>
+      <li><a href="/courses/3354-20132(001)-001b-m.pdf">Exam 1-B Makeup (PDF)</a><br>
+</ul>
+
+Exam II
+<ul>
+      <li><a href="/courses/3354-20132(001)-rvw2.shtml">Review </a><br>
+<!--
+			<li><a href="/courses/3354-20132(001)-ex2-summary.pdf">Exam 2 Statistics</a> (PDF)<br>
+-->
+      <li><a href="/courses/3354-20132(001)-cor-2.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3354-20132(001)-002-m.pdf">Exam II Makeup (PDF)</a><br> 
+</ul>
+
+
+Exam III
+<ul>
+      <li><a href="/courses/3354-20132(001)-rvw3.shtml">Review </a><br>
+      <li><a href="/courses/basic laplace transforms.pdf">Basic Laplace Transforms</a> (PDF)<br>
+  		<li><a href="/courses/3354-20132(001)-003-stat.pdf">Exam 3 Statistics</a> (PDF)<br>
+			<li><a href="/courses/3354-20132(001)-cor-3.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3354-20132(001)-003-1-m.pdf">Exam III-1 Makeup (PDF)</a><br>
+      <li><a href="/courses/3354-20132(001)-003-2-m.pdf">Exam III-2 Makeup (PDF)</a><br>
+</ul>
+
+
+
+Final Exam 
+<ul>
+      <li><a href="/courses/3354-20132(001)-rvw4.shtml">Review </a><br>
+      <li><a href="/courses/3350-20102(012)-fin.pdf">Sample Final Exam (Spring 2010)</a> (PDF)<br>
+
+</ul> 
+
+
+
+</ul>
+
+
+<p>
+<hr size=4 width=40% align=center>
+<p>
+Previous Semesters
+
+<p>
+<ul>
+<li><b>Fall Semester 1997</b>: Math 5320-001, Functions of a Complex Variable I<br>
+<a href="/courses/5320-19971(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/5320-19971(001)-hwk.pdf">Homework (PDF)</a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/5320-19971(001)-01i.pdf">Exam 1 In-class (PDF)</a><br>
+      <li><a href="/courses/5320-19971(001)-01t.pdf">Exam 1 Take-home (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/5320-19971(001)-02i.pdf">Exam 2 In-class (PDF)</a><br>
+      <li><a href="/courses/5320-19971(001)-02t.pdf">Exam 2 Take-home (PDF)</a><br>
+</ul>
+Final Exam
+<ul>
+      <li><a href="/courses/5320-19971(001)-fin.pdf">Final Exam(PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Spring Semester 1998</b>: Math 5321-001, Functions of a Complex Variable II<br>
+<a href="/courses/5321-19982(001)-syl.pdf">Syllabus (PDF)</a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/5321-19982(001)-01i.pdf">Exam 1 In-class (PDF)</a><br>
+      <li><a href="/courses/5321-19982(001)-01t.pdf">Exam 1 Take-home (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/5321-19982(001)-02i.pdf">Exam 2 In-class (PDF)</a><br>
+      <li><a href="/courses/5321-19982(001)-02t.pdf">Exam 2 Take-home (PDF)</a><br>
+</ul>
+Final Exam
+<ul>
+      <li><a href="/courses/5321-19982(001)-fin.pdf">Final Exam (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>First Summer Term 1998</b>: Math 3370-001, Elementary Geometry<br>
+<a href="/courses/3370-19983(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3370-19983(001)-hwk.pdf">Homework (PDF)</a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/3370-19983(001)-001.pdf">Exam 1 (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/3370-19983(001)-002.pdf">Exam 2 (PDF)</a><br>
+</ul>
+Final Exam
+<ul>
+      <li><a href="/courses/3370-19983(001)-fin.pdf">Final Exam (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Fall Semester 1998</b>: Math 1352-008, Calculus II<br>
+<a href="/courses/1352-19981(008)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/1352-19981(008)-hwk.shtml">Homework </a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/1352-19981(008)-001.pdf">Exam 1 (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/1352-19981(008)-002.pdf">Exam 2 (PDF)</a><br>
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/1352-19981(008)-003.pdf">Exam 3 (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Spring Semester 1999</b>: Math 1352-071, Calculus II<br>
+<a href="/courses/1352-19992(071)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/1352-19992(071)-hwk.shtml">Homework </a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/1352-19992(071)-001.pdf">Exam 1 (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/1352-19992(071)-002.pdf">Exam 2 (PDF)</a><br>
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/1352-19992(071)-003.pdf">Exam 3 (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>First Summer Term 1999</b>: Math 1352-002, Calculus II<br>
+<a href="/courses/1352-19993(002)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/1352-19993(002)-cal.pdf">Calendar (PDF)</a><br>
+<a href="/courses/1352-19993(002)-hwk.shtml">Homework </a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/1352-19993(002)-001.pdf">Exam 1 (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/1352-19993(002)-002.pdf">Exam 2 (PDF)</a><br>
+</ul>
+Final Exam
+<ul>
+      <li><a href="/courses/1352-19993(002)-fin.pdf">Final Exam (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Fall Semester 1999</b>: Math 4356-001, Complex Variables<br>
+<a href="/courses/4356-19991(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/4356-19991(001)-hwk.shtml">Homework  </a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/4356-19991(001)-001.pdf">Exam 1 (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/4356-19991(001)-002.pdf">Exam 2 (PDF)</a><br>
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/4356-19991(001)-003.pdf">Exam 3 (PDF)</a><br>
+</ul>
+Final Exam
+<ul>
+      <li><a href="/courses/4356-19991(001)-fin.pdf">Final (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Spring Semester 2000</b>: Math 3360-001, Foundations of Algebra I<br>
+<a href="/courses/3360-20002(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3360-20002(001)-hwk.pdf">Homework (PDF)</a><br>
+<a href="/courses/3360-20002(001)-wra.pdf">Writing Assignments (PDF)</a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/3360-20002(001)-s1a.pdf">Sample Exam 1a (PDF)</a><br>
+      <li><a href="/courses/3360-20002(001)-s1b.pdf">Sample Exam 1b (PDF)</a><br>
+      <li><a href="/courses/3360-20002(001)-01.pdf">Exam 1 (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/3360-20002(001)-s2a.pdf">Sample Exam 2a (PDF)</a><br>
+      <li><a href="/courses/3360-20002(001)-s2b.pdf">Sample Exam 2b (PDF)</a><br>
+      <li><a href="/courses/3360-20002(001)-02.pdf">Exam 2 (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/3360-20002(001)-sfi.pdf">Sample Final Exam(PDF)</a><br>
+      <li><a href="/courses/3360-20002(001)-fin.pdf">Final Exam (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Second Semester 2000</b>: Math 1352-001, Calculus II<br>
+<a href="/courses/1352-20004(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/1352-20004(001)-hwk.shtml">Homework </a><br>
+<a href="/courses/1352sampleexams.shtml">Sample Exams </a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/1352-20004(001)-001.pdf">Exam 1 (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/1352-20004(001)-002.pdf">Exam 2 (PDF)</a><br>
+</ul>
+</ul>
+
+
+<p>
+<ul>
+<li><b>Fall Semester 2000</b>: Math 5318-001, Intermediate Analysis I<br>
+<a href="/courses/5318-20001(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/5318-20001(001)-algebratheorems.pdf">Algebra Supplement (PDF)</a><br>
+<a href="/courses/5318-20001(001)-hwk.shtml">Homework </a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/5318-20001(001)-reviewexami.pdf">Review for Exam I (PDF)</a><br>
+      <li><a href="/courses/5318-20001(001)-01.pdf">Exam I (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/5318-20001(001)-reviewexamii.pdf">Review for Exam II (PDF)</a><br>
+      <li><a href="/courses/5318-20001(001)-02.pdf">Exam II (PDF)</a><br>
+</ul>
+Final Exam
+<ul>
+      <li><a href="/courses/5318-20001(001)-reviewfinal.pdf">Review for Final (PDF)</a><br>
+</ul>
+</ul>
+
+
+<p>
+<ul>
+<li><b>Spring Semester 2001</b>: Math 5319-001, Intermediate Analysis II<br>
+<a href="/courses/5319-20012(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/5319-20012(001)-hwk.shtml">Homework </a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/5319-20012(001)-review-1.pdf">Review for Exam I (PDF)</a><br>
+      <li><a href="/courses/5319-20012(001)-01.pdf">Exam I (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/5319-20012(001)-review-2.pdf">Review for Exam II (PDF)</a><br>
+      <li><a href="/courses/5319-20012(001)-02.pdf">Exam II (PDF)</a><br>
+</ul>
+Final Exal
+<ul>
+      <li><a href="/courses/5319-20012(001)-review-3.pdf">Review for Final (PDF)</a><br>
+</ul>
+</ul>
+
+
+<p>
+<ul>
+<li><b>Second Summer Term 2001</b>: Math 3342-001, Mathematical Statistics for Scientists and Engineers<br>
+<a href="/courses/3342-20014(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3342-20014(001)-hwk.shtml">Homework </a><br>
+<a href="/courses/3342-20014(001)-sp.shtml">Suggested Problems </a><br>
+<a href="/courses/3342-20014(001)-sp-ans.pdf">Solutions for Suggested Problems (PDF)</a><br>
+Data Sets
+<ul>
+      <li><a href="datasets/000618.txt">Math Placement Scores June 18, 2000 (PDF)</a><br>
+      <li><a href="datasets/000730.txt">Math Placement Scores July 30, 2000 (PDF)</a><br>
+      <li><a href="datasets/010617.txt">Math Placement Scores June 17, 2001 (PDF)</a><br>
+      <li><a href="datasets/arsenic.txt">Well-water Arsenic Data from Lib.Stat.CMU.Edu (PDF)</a><br>
+      <li><a href="datasets/bodyfat.txt">Body Fat Data from Lib.Stat.CMU.Edu (PDF)</a><br>
+      <li><a href="datasets/cloud.txt">Cloud Seeding Data from Lib.Stat.CMU.Edu (PDF)</a><br>
+      <li><a href="datasets/pollution.txt">Pollution Data from Lib.Stat.CMU.Edu (PDF)</a><br><br>
+</ul>
+
+Exam I
+<ul>
+      <li><a href="/courses/3342-20014(001)-rv1.pdf">Review I (PDF)</a><br>
+      <li><a href="/courses/3342-20014(001)-01.pdf">Exam I (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/3342-20014(001)-rv2.pdf">Review II (PDF)</a><br>
+      <li><a href="/courses/3342-20014(001)-02.pdf">Exam II (PDF)</a><br><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Fall Semester 2001</b>: Math 1351-H03, Calculus I<br>
+<a href="/courses/1351-20011(h03)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="http://www.calsnet.com/ttu_calendar">Semester Schedule (PDF)</a><br>
+<a href="/courses/1351-20011(h03)-hwk.shtml">Homework </a><br>
+<a href="/courses/1351-20011(h03)-prj.shtml">Projects </a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/1351-20011(h03)-rv1.pdf">Review Exam I (PDF)</a><br>
+      <li><a href="/courses/1351-20011(h03)-01.pdf">Exam I (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/1351-20011(h03)-rv2.pdf">Review Exam II (PDF)</a><br>
+      <li><a href="/courses/1351-20011(h03)-02.pdf">Exam II (PDF)</a><br>
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/1351-20011(h03)-rv3.pdf">Review Exam III (PDF)</a><br>
+      <li><a href="/courses/1351-20011(h03)-03.pdf">Exam III (PDF)</a><br>
+</ul>
+Exam IV
+<ul>
+      <li><a href="/courses/1351-20011(h03)-rv4.pdf">Review Exam IV (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Spring Semester 2002</b>: Math 1352-H02, Calculus II<br>
+<a href="/courses/1352-20022(h02)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="http://www.calsnet.com/ttu_calendar">Semester Schedule (PDF)</a><br>
+<a href="/courses/1352-20022(h02)-hwk.shtml">Homework </a><br>
+<a href="/courses/1352-20022(h02)-prj.shtml">Projects </a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/1352-20022(h02)-rv1.pdf">Review Exam I (PDF)</a><br>
+      <li><a href="/courses/1352-20022(h02)-01.pdf">Exam I (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/1352-20022(h02)-rv2.pdf">Review Exam II (PDF)</a><br>
+      <li><a href="/courses/1352-20022(h02)-02.pdf">Exam II (PDF)</a><br>
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/1352-20022(h02)-rv3.pdf">Review Exam III (PDF)</a><br>
+      <li><a href="/courses/1352-20022(h02)-03.pdf">Exam III (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>First Summer Term 2002</b>: Math 3370-001, Elementary Geometry<br>
+<a href="/courses/3370-20023(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="http://www.calsnet.com/ttu_calendar">Semester Schedule (PDF)</a><br>
+<a href="/courses/3370-20023(001)-hwk.shtml">Homework </a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/3370-20023(001)-review-1.pdf">Review for Exam I (PDF)</a><br>
+      <li><a href="/courses/3370-20023(001)-01.pdf">Exam 1 (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/3370-20023(001)-review-2.pdf">Review for Exam II (PDF)</a><br>
+      <li><a href="/courses/3370-20023(001)-02.pdf">Exam 2 (PDF)</a><br>
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/3370-20023(001)-review-3.pdf">Review for Exam III (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Fall Semester 2002</b>: Math 3430-001, Computational Techniques for Science and Mathematics<br>
+<a href="/courses/3430-20021(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3430/courseprogression.html">Course Progression (PDF)</a><br>
+<a href="/courses/roster_3430.html">3430 Roster and Accounts (PDF)</a><br>
+<a href=http://www.webct.ttu.edu>WebCT HomePage (Texas Tech)</a>
+</ul>
+
+<p>
+<ul>
+<li><b>Spring Semester 2003</b>: Math 5364-001, Computer Literacy and Programming I<br>
+    An Introduction to Spreadsheets and Computer Algebra Software using Excel and Maple<br>
+<a href="/courses/5364-20032(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/5364/courseprogression.html">Course Progression (PDF)</a><br>
+<a href="/courses/roster_5364.html">5364 Roster and Accounts (PDF)</a><br>
+</ul>
+
+
+<p>
+<ul>
+<li><b>First Summer Term 2003</b>: Math 3360-001, Modern Algebra<br>
+<a href="/courses/3360-20033(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3360-20033(001)-hwk.pdf">Homework Assignments (PDF)</a><br>
+<a href="/courses/3360-20033(001)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="/courses/3360-20033(001)-survey.html">Survey (PDF)</a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/3360-20033(001)-rv1.pdf">Review I (PDF)</a><br>
+      <li><a href="/courses/3360-20033(001)-001.pdf">Exam 1 (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/3360-20033(001)-rv2.pdf">Review II (PDF)</a><br>
+      <li><a href="/courses/3360-20033(001)-002.pdf">Exam 2 (PDF)</a><br>
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/3360-20033(001)-rv3.pdf">Review III (PDF)</a><br>
+      <li><a href="/courses/3360-20033(001)-003.pdf">Exam 3 (PDF)</a><br>
+</ul>
+</ul>
+
+
+<p>
+<ul>
+<li><b>Fall Semester 2003</b>: Math 4356-001, Complex Variables<br>
+<a href="/courses/4356-20031(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/4356-20031(001)-hwk.shtml">Homework  </a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/4356-20031(001)-rv1.pdf">Review I (PDF)</a><br>
+      <li><a href="/courses/4356-20031(001)-001.pdf">Exam 1 (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/4356-20031(001)-rv2.pdf">Review II (PDF)</a><br>
+      <li><a href="/courses/4356-20031(001)-002.pdf">Exam 2 (PDF)</a><br>
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/4356-20031(001)-rv3.pdf">Review III (PDF)</a><br>
+      <li><a href="/courses/4356-20031(001)-003.pdf">Exam 3 (PDF)</a><br>
+</ul>
+Exam IV
+<ul>
+      <li><a href="/courses/4356-20031(001)-rv4.pdf">Review IV (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Spring Semester 2004</b>: Math 1351-013, Calculus I<br>
+<a href="/courses/1351-20042(013)-syl.pdf">Syllabus (PDF)</a><br>
+<!--
+<a href="http://webwork.math.ttu.edu/webwork/m1351a">WebWork Login Page</a>  (Note:  Initial password uses hyphens)<br>
+-->
+<a href="/courses/1351-20042(013)-hwk.shtml">Homework </a><br>
+<a href="/courses/1351-20042(013)-cal.pdf">Calendar (PDF)</a><br>
+<a href="/courses/1351-20042(013)-sum.pdf">Lecture Summary (PDF)</a><br>
+<a href=http://www.webct.ttu.edu>WebCT HomePage (Texas Tech) (PDF)</a><br><br>
+
+Exam I
+<ul>
+	   <li><a href="/courses/1351-20042(013)-rv1.html">Review I (PDF)</a><br>
+		<li><a href="/courses/1351-20042(013)-01a.pdf">Exam I-A (PDF)</a><br>
+		<ul>
+			<li><a href="/courses/1351-20042(013)-key-1a.pdf">Key Exam I-A (PDF)</a><br>
+		</ul>
+		<li><a href="/courses/1351-20042(013)-01b.pdf">Exam I-B (PDF)</a><br>
+		<ul>
+			<li><a href="/courses/1351-20042(013)-key-1b.pdf">Key Exam I-B (PDF)</a><br>
+		</ul>
+		<li><a href="/courses/1351-20042(013)-01c.pdf">Exam I-C (PDF)</a><br>
+		<ul>
+			<li><a href="/courses/1351-20042(013)-key-1c.pdf">Key Exam I-C (PDF)</a><br>
+		</ul>
+</ul>
+Exam II
+<ul>
+   	<li><a href="/courses/1351-20042(013)-rv2.pdf">Review II</a> (PDF)<br>
+		<li><a href="/courses/1351-20042(013)-02a.pdf">Exam II-A (PDF)</a><br>
+		<ul>
+			<li><a href="/courses/1351-20042(013)-key-2a.pdf">Key Exam II-A (PDF)</a><br>
+		</ul>
+		<li><a href="/courses/1351-20042(013)-02b.pdf">Exam II-B (PDF)</a><br>
+		<ul>
+			<li><a href="/courses/1351-20042(013)-key-2b.pdf">Key Exam II-B (PDF)</a><br>
+		</ul>
+		<li><a href="/courses/1351-20042(013)-02c.pdf">Exam II-C (PDF)</a><br>
+		<ul>
+			<li><a href="/courses/1351-20042(013)-key-2c.pdf">Key Exam II-C (PDF)</a><br>
+		</ul>
+</ul>
+Exam III
+<ul>
+   	<li><a href="/courses/1351-20042(013)-rv3.html">Review III (PDF)</a><br>
+		<li><a href="/courses/1351-20042(013)-03a.pdf">Exam III-A (PDF)</a><br>
+		<ul>
+			<li><a href="/courses/1351-20042(013)-key-3a.pdf">Key Exam III-A (PDF)</a><br>
+		</ul>
+		<li><a href="/courses/1351-20042(013)-03b.pdf">Exam III-B (PDF)</a><br>
+		<ul>
+			<li><a href="/courses/1351-20042(013)-key-3b.pdf">Key Exam III-B (PDF)</a><br>
+		</ul>
+		<li><a href="/courses/1351-20042(013)-03c.pdf">Exam III-C (PDF)</a><br>
+		<ul>
+			<li><a href="/courses/1351-20042(013)-key-3c.pdf">Key Exam III-C (PDF)</a><br>
+		</ul>
+</ul>
+Exam IV
+<ul>
+   	<li><a href="/courses/1351-20042(013)-rv4.html">Review IV (PDF)</a><br>
+		<li><a href="/courses/1351-20042(013)-04a.pdf">Exam IV-A (PDF)</a><br>
+		<li><a href="/courses/1351-20042(013)-04b.pdf">Exam IV-B (PDF)</a><br>
+		<li><a href="/courses/1351-20042(013)-04c.pdf">Exam IV-C (PDF)</a><br>
+</ul>
+Exam V
+<ul>
+	   <li><a href="/courses/1351-20042(013)-rv5.html">Review V (PDF)</a><br>
+</ul>
+</ul>
+
+
+<p>
+<ul>
+<li><b>Second Summer Term 2004</b>: Math 3342-001, Mathematical Statistics for Engineers and Scientists<br>
+<a href="/courses/3342-20044(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3342-20044(001)-hwk.shtml">Homework Assignments </a><br>
+<a href="/courses/3342-20044(001)-cal.pdf">Term Calendar (PDF)</a><br>
+Project Worksheets
+<ul>
+      <li><a href="/courses/3342-project-schedule.html">Project Schedule (PDF)</a><br>
+      <li><a href="/courses/3342-project-plan.html">Project Planning Form (PDF)</a><br>
+      <li><a href="/courses/3342-project-grading-i.html">Project I Grading Form (PDF)</a><br>
+      <li><a href="/courses/3342-project-grading-ii.html">Project II Grading Form (PDF)</a><br><br>
+</ul>
+
+Exam I
+<ul>
+      <li><a href="/courses/3342-20044(001)-rv1.pdf">Review I (PDF)</a><br>
+		<li><a href="/courses/3342-20044(001)-01.pdf">Exam I (PDF)</a><br>
+		<ul>
+			<li><a href="/courses/3342-20044(001)-key-01.pdf">Key Exam I (PDF)</a><br>
+		</ul>
+		<li><a href="/courses/3342-20044(001)-01m.pdf">Exam I Make-Up (PDF)</a><br>
+		<ul>
+			<li><a href="/courses/3342-20044(001)-key-01m.pdf">Key Exam I Make-Up(PDF)</a><br>
+		</ul>
+      <li><a href="/courses/3342-20044(001)-01-stat.pdf">Stat Exam I (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/3342-20044(001)-rv2.pdf">Review II (PDF)</a><br>
+		<li><a href="/courses/3342-20044(001)-02.pdf">Exam II (PDF)</a><br>
+		<ul>
+			<li><a href="/courses/3342-20044(001)-key-02.pdf">Key Exam II (PDF)</a><br>
+		</ul>
+		<li><a href="/courses/3342-20044(001)-02m.pdf">Exam II Make-Up (PDF)</a><br>
+		<ul>
+<!--			<li><a href="/courses/3342-20044(001)-key-02m.pdf">Key Exam II Make-Up(PDF)</a><br> -->
+		</ul>
+      <li><a href="/courses/3342-20044(001)-02-stat.pdf">Stat Exam II (PDF)</a><br>
+</ul>
+Final Exam
+<ul>
+      <li><a href="/courses/3342-20044(001)-rvf.pdf">Review Final (PDF)</a><br>
+		<li><a href="/courses/3342-20044(001)-fin.pdf">Final Exam (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Fall Semester 2004</b>: Math 5320-001, Functions of a Complex Variable I<br>
+<a href="/courses/5320-20041(001)-syl.pdf">Syllabus</a> (PDF)<br>
+<a href="/courses/5320-20041(001)-hwk.pdf">Homework</a> (PDF)<br>
+Notes
+<ul>
+      <li><a href=/courses/kronecker_thm.pdf>Statement of Kronecker's Theorem (PDF)</a><br>
+      <li><a href=/courses/cantor_thm.pdf>Extra Credit Problems - II (PDF)</a><br>
+      <li><a href=/courses/proof-powerseries-prop.pdf>Proof of Power Series Proposition (PDF)</a><br>
+      <li><a href=/courses/proof-cauchy-riemann-prop.pdf>Proof of Cauchy Riemann Equations Proposition (PDF)</a><br>
+      <li><a href=/courses/outline-conway-4.1.pdf>Outline of Conway 4.1 (PDF)</a><br><br>
+</ul>
+
+Exam I
+<ul>
+      <li><a href="/courses/5320-review_exam_1.pdf">Review Exam I</a> (PDF)<br>
+      <li><a href="/courses/5320-20041(001)-01c.pdf">Exam I In-Class</a> (PDF)<br>
+		<ul>
+			<li><a href="/courses/5320-20041(001)-key-01c.pdf">Key Exam I In-Class</a> (PDF)<br>
+		</ul>
+      <li><a href="/courses/5320-20041(001)-01h.pdf">Exam I Take-Home</a> (PDF)<br>
+      <li><a href="/courses/5320-20041(001)-01m.pdf">Exam I Make-Up</a> (PDF)<br>
+		<ul>
+			<li><a href="/courses/5320-20041(001)-key-01m.pdf">Key Exam I Make-Up</a> (PDF)<br>
+		</ul>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/5320-review_exam_2.pdf">Review Exam II</a> (PDF)<br>
+ 
+      <li><a href="/courses/5320-20041(001)-02c.pdf">Exam II In-Class</a> (PDF)<br>
+		<ul>
+			<li><a href="/courses/5320-20041(001)-key-02c.pdf">Key Exam II In-Class</a> (PDF)<br>
+		</ul>
+      <li><a href="/courses/5320-20041(001)-02h.pdf">Exam II Take-Home</a> (PDF)<br>
+      <li><a href="/courses/5320-20041(001)-02m.pdf">Exam II Make-Up</a> (PDF)<br>
+<!--		<ul>
+			<li><a href="/courses/5320-20041(001)-key-01m.pdf">Key Exam I Make-Up</a> (PDF)<br>
+		</ul>
+-->
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/5320-review_exam_3.pdf">Review Exam III</a> (PDF)<br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Spring Semester 2005</b>: Math 5321-001, Functions of a Complex Variable II<br>
+<a href="/courses/5321-20052(001)-syl.pdf">Syllabus</a> (PDF)<br>
+<a href="/courses/5321-20052(001)-hwk.pdf">Homework</a> (PDF)<br>
+Notes
+<ul>
+      <li><a href=/courses/5321-integration-topics.pdf>Integration Topics</a> (PDF)<br><br>
+</ul>
+
+Exam I
+<ul>
+      <li><a href="/courses/5321-review_exam_1.pdf">Review Exam I</a> (PDF)<br>
+      <li><a href="/courses/5321-20052(001)-01c.pdf">Exam I In-Class</a> (PDF)<br>
+<!--	<ul>
+			<li><a href="/courses/5321-20052(001)-key-01c.pdf">Key Exam I In-Class</a> (PDF)<br>
+		</ul>
+-->      <li><a href="/courses/5321-20052(001)-01h.pdf">Exam I Take-Home</a> (PDF)<br>
+		<ul>
+			<li><a href="/courses/5321-20052(001)-key-01h.pdf">Key Exam I Take Home</a> (PDF)<br>
+		</ul>
+<!--      <li><a href="/courses/5320-20041(001)-01m.pdf">Exam I Make-Up</a> (PDF)<br>
+		<ul>
+			<li><a href="/courses/5320-20041(001)-key-01m.pdf">Key Exam I Make-Up</a> (PDF)<br>
+		</ul> -->
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/5321-review_exam_2.pdf">Review Exam II</a> (PDF)<br>
+      <li><a href="/courses/5321-20052(001)-02c.pdf">Exam II In-Class</a> (PDF)<br>
+<!--	<ul>
+			v<a href="/courses/5320-20041(001)-key-02c.pdf">Key Exam II In-Class</a> (PDF)<br>
+		</ul>
+-->
+      <li><a href="/courses/5321-20052(001)-02h.pdf">Exam II Take-Home</a> (PDF)<br>
+		<ul>
+			<li><a href="/courses/5321-20052(001)-key-02h.pdf">Key Exam II Take Home</a> (PDF)<br>
+		</ul>
+<!--
+      <li><a href="/courses/5320-20041(001)-02m.pdf">Exam II Make-Up</a> (PDF)<br>
+-->
+</ul>
+<!--
+Exam III
+<ul>
+      <li><a href="/courses/5320-review_exam_3.pdf">Review Exam III</a> (PDF)<br>
+      <li><a href="/courses/5320-20041(001)-03c.pdf">Exam III In-Class</a> (PDF)<br>
+		<ul>
+			<li><a href="/courses/5320-20041(001)-key-03c.pdf">Key Exam III In-Class</a> (PDF)<br>
+		</ul>
+      <li><a href="/courses/5320-20041(001)-01h.pdf">Exam 1 Take-Home</a> (PDF)<br>
+      <li><a href="/courses/5320-20041(001)-01m.pdf">Exam I Make-Up</a> (PDF)<br>
+		<ul>
+			<li><a href="/courses/5320-20041(001)-key-01m.pdf">Key Exam I Make-Up</a> (PDF)<br>
+		</ul>
+</ul>
+-->
+</ul>
+
+
+<p>
+<ul>
+<li><b>First Summer Term 2005</b>: Math 3360-001, Modern Algebra<br>
+<a href="/courses/3360-20053(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3360-20053(001)-hwk.pdf">Homework Assignments (PDF)</a><br>
+<a href="/courses/3360-20053(001)-cal.pdf">Term Calendar (PDF)</a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/3360-20053(001)-rv1.pdf">Review I (PDF)</a><br>
+      <li><a href="/courses/3360-20053(001)-001.pdf">Exam 1 (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/3360-20053(001)-rv2.pdf">Review II (PDF)</a><br>
+      <li><a href="/courses/3360-20053(001)-002.pdf">Exam 2 (PDF)</a><br>
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/3360-20053(001)-rv3.pdf">Review III (PDF)</a><br>
+      <li><a href="/courses/3360-20053(001)-003.pdf">Exam 3 (PDF)</a><br>
+</ul>
+</ul>
+
+
+<p>
+<ul>
+<li><b>Fall Semester 2005</b>: Math 1352-009, Calculus II<br>
+<a href="/courses/1352-20051(009)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/1352-20051(009)-hwk.shtml">Homework/Webwork Assignments </a><br>
+<a href="/courses/1352-20051(009)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="http://webwork.math.ttu.edu/webwork2/kp05fm1352/">WebWork Server (PDF)</a><br>
+
+Support Information for WebWork<br>
+<ul>
+	<li><a href=webwork/intro_for_students.html>Introduction for Students (PDF)</a><br>
+	<li><a href=webwork/how_to_enter_answers.html>How to Enter Answers (PDF)</a><br><br>
+</ul>
+
+Exam I
+<ul>
+      <li><a href="/courses/1352-20051(009)-rvw1.shtml">Review Exam I </a><br>
+      <li><a href="/courses/1352-20051(009)-01-1.pdf">Exam I v1 (PDF)</a><br>
+   	<ul>
+         <li><a href="/courses/1352-20051(009)-key-01-1.pdf">Key Exam I v1 (PDF)</a><br>
+   	</ul>
+      <li><a href="/courses/1352-20051(009)-01-3.pdf">Exam I v3 (PDF)</a><br>
+	   <ul>
+         <li><a href="/courses/1352-20051(009)-key-01-3.pdf">Key Exam I v3 (PDF)</a><br>
+   	</ul>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/1352-20051(009)-rvw2.shtml">Review Exam II </a><br>
+      <li><a href="/courses/1352-20051(009)-02a.pdf">Exam II (PDF)</a><br>
+   	<ul>
+         <li><a href="/courses/1352-20051(009)-key-02.pdf">Key Exam II (PDF)</a><br>
+   	</ul>
+      <li><a href="/courses/1352-20051(009)-02b.pdf">Exam II Makeup (PDF)</a><br>
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/1352-20051(009)-rvw3.shtml">Review Exam III </a><br>
+      <li><a href="/courses/1352-20051(009)-03a.pdf">Exam III (PDF)</a><br>
+<!--
+	   <ul>
+         <li><a href="/courses/1352-20051(009)-key-02.pdf">Key Exam II (PDF)</a><br>
+	   </ul>
+-->
+</ul>
+Final Exam
+<ul>
+      <li><a href="/courses/1352-20051(009)-rvwf.shtml">Review Final </a><br>
+</ul>
+</ul>
+
+
+
+<p>
+<ul>
+<li><b>Spring Semester 2006</b>: Math 1352-012, Calculus II<br>
+<a href="/courses/1352-20062(012)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/1352-20062(012)-hwk.shtml">Homework/Webwork Assignments </a><br>
+<a href="/courses/1352-20062(012)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="http://webwork.math.ttu.edu/webwork2/kp06sprm1352/">WebWork Server (PDF)</a><br>
+
+Support Information for WebWork<br>
+<ul>
+	<li><a href=webwork/intro_for_students.html>Introduction for Students (PDF)</a><br>
+	<li><a href=webwork/how_to_enter_answers.html>How to Enter Answers (PDF)</a><br><br>
+</ul>
+
+Exam I
+<ul>
+      <li><a href="/courses/1352-20062(012)-rvw1.shtml">Review Exam I </a><br>
+      <li><a href="/courses/1352-20062(012)-01a.pdf">Exam I v18 (PDF)</a><br>
+   	<ul>
+         <li><a href="/courses/1352-20062(012)-key-01a.pdf">Key Exam I v18 (PDF)</a><br>
+   	</ul> 
+      <li><a href="/courses/1352-20062(012)-01b.pdf">Exam I v12 (PDF)</a><br>
+	   <ul>
+         <li><a href="/courses/1352-20062(012)-key-01b.pdf">Key Exam I v12 (PDF)</a><br>
+	   </ul> 
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/1352-20062(012)-rvw2.shtml">Review Exam II </a><br>
+      <li><a href="/courses/1352-20062(012)-02a.pdf">Exam II v1 (PDF)</a><br>
+<!--	
+      <ul>
+         <li><a href="/courses/1352-20062(012)-key-01a.pdf">Key Exam I v18 (PDF)</a><br>
+	   </ul> 
+-->
+      <li><a href="/courses/1352-20062(012)-02b.pdf">Exam II v2 (PDF)</a><br>
+<!--	
+      <ul>
+      <li><a href="/courses/1352-20062(012)-key-01b.pdf">Key Exam I v12 (PDF)</a><br>
+   	</ul> 
+-->
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/1352-20062(012)-rvw3.shtml">Review Exam III </a><br>
+      <li><a href="/courses/1352-20062(012)-03a.pdf">Exam III (PDF)</a><br>
+</ul>
+Final Exam
+<ul>
+      <li><a href="/courses/1352-20062(012)-rvwf.shtml">Review Final </a><br>
+</ul>
+</ul>
+
+<p>
+
+<ul>
+<li><b>Second Summer Term 2006</b>: Math 3342-001, Mathematical Statistics for Engineers and Scientists<br>
+<a href="/courses/3342-20064(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3342-20064(001)-hwk.shtml">Homework Assignments </a><br>
+Notes
+<ul>
+   <li><a href="/courses/3342-20064(001)-hw1.pdf">Notes on HW #1 (PDF)</a><br>
+   <li><a href="/courses/3342-20064(001)-hw2.pdf">Notes on HW #2 (PDF)</a><br>
+</ul>
+
+<a href="/courses/3342-20064(001)-cal.pdf">Term Calendar (PDF)</a><br>
+Project Worksheets
+<ul>
+      <li><a href="/courses/3342-project-schedule.html">Project Schedule (PDF)</a><br>
+      <li><a href="/courses/3342-project-plan.html">Project Planning Form (PDF)</a><br>
+      <li><a href="/courses/3342-project-grading-i.html">Project I Grading Form (PDF)</a><br>
+      <li><a href="/courses/3342-project-grading-ii.html">Project II Grading Form (PDF)</a><br><br>
+</ul>
+
+Exam I
+<ul>
+    <li><a href="/courses/3342-20064(001)-rv1.pdf">Review I (PDF)</a><br>
+		<li><a href="/courses/3342-20064(001)-01a.pdf">Exam I-A (PDF)</a><br>
+    <ul>
+   		<li><a href="/courses/3342-20064(001)-01a-m.pdf">Exam I-A Make-Up (PDF)</a><br>
+		</ul>
+		<li><a href="/courses/3342-20064(001)-01b.pdf">Exam I-B (PDF)</a><br>
+    <ul>
+   		<li><a href="/courses/3342-20064(001)-01b-m.pdf">Exam I-B Make-Up (PDF)</a><br>
+		</ul>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/3342-20064(001)-rv2.pdf">Review II (PDF)</a><br>
+		<li><a href="/courses/3342-20064(001)-02a.pdf">Exam II-A (PDF)</a><br>
+		<li><a href="/courses/3342-20064(001)-02b.pdf">Exam II-B (PDF)</a><br>
+      <ul>
+   		<li><a href="/courses/3342-20064(001)-02-M-a-f.pdf">Exam II Make-Up: A-F(PDF)</a><br>
+   		<li><a href="/courses/3342-20064(001)-02-M-g-l.pdf">Exam II Make-Up: G-L(PDF)</a><br>
+   		<li><a href="/courses/3342-20064(001)-02-M-m-r.pdf">Exam II Make-Up: M-R(PDF)</a><br>
+   		<li><a href="/courses/3342-20064(001)-02-M-s-z.pdf">Exam II Make-Up: S-Z(PDF)</a><br>
+		</ul>
+</ul>
+Final Exam
+<ul>
+      <li><a href="/courses/3342-20064(001)-rvf.pdf">Review Final (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Fall Semester 2006</b>: Math 1351-011, Calculus I<br>
+<a href="/courses/1351-20061(011)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/1351-20061(011)-hwk.shtml">Homework Assignments </a><br>
+<a href="/courses/1351-20061(011)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="/courses/1351-20061(011)-sum.pdf">Lecture Summary (PDF)</a><br>
+<a href="/courses/1351/section_notes.shtml">Section Notes and Slides )</a><br> 
+<a href="http://webwork.math.ttu.edu/webwork2/kp06fm1351/">WebWork Server (PDF)</a><br>
+
+Support Information for WebWork<br>
+<ul>
+	<li><a href=webwork/intro_for_students.html>Introduction for Students (PDF)</a><br>
+	<li><a href=webwork/how_to_enter_answers.html>How to Enter Answers (PDF)</a><br><br>
+</ul>
+
+Exam I
+<ul>
+	<li><a href="/courses/1351-20061(011)-rv1.pdf">Review I (PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-01a.pdf">Exam I-A (PDF)</a><br>
+	<ul>
+		<li><a href="/courses/1351-20061(011)-ex1-a-key.pdf">Key Exam I-A (PDF)</a><br>
+	</ul>
+	<li><a href="/courses/1351-20061(011)-01b.pdf">Exam I-B (PDF)</a><br>
+	<ul>
+		<li><a href="/courses/1351-20061(011)-ex1-b-key.pdf">Key Exam I-B (PDF)</a><br>
+	</ul>
+	<li><a href="/courses/1351-20061(011)-01c.pdf">Exam I-C (PDF)</a><br>
+	<ul>
+		<li><a href="/courses/1351-20061(011)-ex1-c-key.pdf">Key Exam I-C (PDF)</a><br>
+	</ul>
+	<li><a href="/courses/1351-20061(011)-01d.pdf">Exam I-D (PDF)</a><br>
+	<ul>
+		<li><a href="/courses/1351-20061(011)-ex1-d-key.pdf">Key Exam I-D (PDF)</a><br>
+	</ul>
+	<li><a href="/courses/1351-20061(011)-ex1-bar.pdf">Grade Distribution(PDF)</a><br>
+<p>
+	<li><a href="/courses/1351-20061(011)-cor-ex1.pdf">Instructions for Submission of Corrections (PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-01a-m.pdf">Exam I-A Makeup(PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-01b-m.pdf">Exam I-B Makeup(PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-01c-m.pdf">Exam I-C Makeup(PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-01d-m.pdf">Exam I-D Makeup(PDF)</a><br>
+</ul>
+Exam II
+<ul>
+	<li><a href="/courses/1351-20061(011)-rv2.pdf">Review II (PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-02a.pdf">Exam II-A (PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-02b.pdf">Exam II-B (PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-02c.pdf">Exam II-C (PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-02d.pdf">Exam II-D (PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-ex2-bar.pdf">Grade Distribution(PDF)</a><br>
+<p>
+	<li><a href="/courses/1351-20061(011)-cor-ex2.pdf">Instructions for Submission of Corrections (PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-02a-m.pdf">Exam II-A Makeup(PDF)</a><br>
+	<ul>
+		<li><a href="/courses/1351-20061(011)-ex2-a-key.pdf">Key Exam II-A Makeup(PDF)</a><br>
+	</ul> 
+	<li><a href="/courses/1351-20061(011)-02b-m.pdf">Exam II-B Makeup(PDF)</a><br>
+	<ul>
+		<li><a href="/courses/1351-20061(011)-ex2-b-key.pdf">Key Exam II-B Makeup(PDF)</a><br>
+	</ul> 
+	<li><a href="/courses/1351-20061(011)-02c-m.pdf">Exam II-C Makeup(PDF)</a><br>
+	<ul>
+		<li><a href="/courses/1351-20061(011)-ex2-c-key.pdf">Key Exam II-C Makeup(PDF)</a><br>
+	</ul> 
+	<li><a href="/courses/1351-20061(011)-02d-m.pdf">Exam II-D Makeup(PDF)</a><br>
+	<ul>
+		<li><a href="/courses/1351-20061(011)-ex2-d-key.pdf">Key Exam II-D Makeup(PDF)</a><br>
+	</ul>
+</ul>
+Exam III
+<ul>
+	<li><a href="/courses/1351-20061(011)-rv3.pdf">Review III (PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-03a.pdf">Exam III-A (PDF)</a><br>
+	<ul>
+		<li><a href="/courses/1351-20061(011)-ex3-a-key.pdf">Key Exam III-A (PDF)</a><br>
+	</ul> 
+	<li><a href="/courses/1351-20061(011)-03b.pdf">Exam III-B (PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-03c.pdf">Exam III-C (PDF)</a><br>
+	<li><a href="/courses/1351-20061(011)-03d.pdf">Exam III-D (PDF)</a><br>
+
+</ul>
+Exam IV
+<ul>
+	<li><a href="/courses/1351-20061(011)-rv4.pdf">Review IV (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Spring Semester 2007</b>: Math 1351-008, Calculus I<br>
+<a href="/courses/1351-20072(008)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/1351-20072(008)-hwk.shtml">Homework Assignments </a><br>
+<a href="/courses/1351-20072(008)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="/courses/1351-20072(008)-sum.pdf">Lecture Summary (PDF)</a><br>
+<a href="/courses/1351/section_notes.shtml">Section Notes and Slides </a><br> 
+<a href="http://webwork.math.ttu.edu/webwork2/kp07sprm1351/">WebWork Server (PDF)</a><br>
+
+Support Information for WebWork<br>
+<ul>
+	<li><a href=webwork/intro_for_students.html>Introduction for Students (PDF)</a><br>
+	<li><a href=webwork/how_to_enter_answers.html>How to Enter Answers (PDF)</a><br><br>
+</ul>
+
+Exam I
+<ul>
+	<li><a href="/courses/1351-20072(008)-rv1.pdf">Review I (PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-01a.pdf">Exam I-A (PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-01b.pdf">Exam I-B (PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-cor-ex1.pdf">Instructions for Submission of Corrections (PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-01a-m.pdf">Exam I-A Makeup(PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-01b-m.pdf">Exam I-B Makeup(PDF)</a><br>
+
+</ul>
+Exam II
+<ul>
+	<li><a href="/courses/1351-20072(008)-rv2.pdf">Review II (PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-02a.pdf">Exam II-A (PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-02b.pdf">Exam II-B (PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-cor-ex2.pdf">Instructions for Submission of Corrections (PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-02a-m.pdf">Exam II-A Makeup(PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-02b-m.pdf">Exam II-B Makeup(PDF)</a><br>
+
+</ul>
+Exam III
+<ul>
+	<li><a href="/courses/1351-20072(008)-rv3.pdf">Review III (PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-cor-ex3.pdf">Instructions for Submission of Corrections (PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-03a-m-1.pdf">Exam III-A (A-F)Makeup(PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-03a-m-2.pdf">Exam III-A (G-R)Makeup(PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-03a-m-3.pdf">Exam III-A (S-Z)Makeup(PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-03b-m-1.pdf">Exam III-B (A-F)Makeup(PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-03b-m-2.pdf">Exam III-B (G-R)Makeup(PDF)</a><br>
+	<li><a href="/courses/1351-20072(008)-03b-m-3.pdf">Exam III-B (S-Z)Makeup(PDF)</a><br>
+</ul>
+Exam IV
+<ul>
+	<li><a href="/courses/1351-20072(008)-rv4.pdf">Review IV (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>First Summer Term 2007</b>: Math 3360-003, Modern Algebra<br>
+<a href="/courses/3360-20073(003)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3360-20073(003)-hwk.pdf">Homework Assignments (PDF)</a><br>
+<a href="/courses/3360-20073(003)-cal.pdf">Term Calendar (PDF)</a><br><br>
+
+Exam I
+<ul>
+      <li><a href="/courses/3360-20073(003)-rv1.pdf">Review I (PDF)</a><br>
+      <li><a href="/courses/3360-20073(003)-001.pdf">Exam 1 (PDF)</a><br>
+      <li><a href="/courses/3360-20073(003)-001-cor.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3360-20073(003)-001-m.pdf">Exam 1 Makeup (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/3360-20073(003)-rv2.pdf">Review II (PDF)</a><br>
+      <li><a href="/courses/3360-20073(003)-002.pdf">Exam 2 (PDF)</a><br>
+      <li><a href="/courses/3360-20073(003)-002-cor.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3360-20073(003)-002-m.pdf">Exam 2 Makeup (PDF)</a><br>
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/3360-20073(003)-rv3.pdf">Review III (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Fall Semester 2007</b>: Math 3322-001, Higher Mathematics for Engineering Technology<br>
+<a href="/courses/3322-20071(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3322-20071(001)-hwk.pdf">Homework Assignments (PDF)</a><br>
+<a href="/courses/3322-20071(001)-cal.pdf">Term Calendar (PDF)</a><br><br>
+Supplements
+<ul>
+   <li><a href="/courses/3322-20071(001)-supplement-0.pdf">Supplement 0 (PDF)</a><br>
+   <li><a href="/courses/3322-20071(001)-supplement-1.jpg">Supplement 1 (PDF)</a><br>
+   <li><a href="/courses/3322-20071(001)-supplement-2.jpg">Supplement 2 (PDF)</a><br><br>
+</ul>
+
+Exam I
+<ul>
+      <li><a href="/courses/3322-20071(001)-01a-s.pdf">Exam I-A (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-01b-s.pdf">Exam I-B (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-01a-m.pdf">Exam I-A Makeup (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-01b-m.pdf">Exam I-B Makeup (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/3322-20071(001)-02a.pdf">Exam II-A (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-02b.pdf">Exam II-B (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-cor-2.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-02a-m.pdf">Exam II-A Makeup (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-02b-m.pdf">Exam II-B Makeup (PDF)</a><br>
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/3322-20071(001)-rv3.pdf">Review III (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-03a.pdf">Exam III-A (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-03b.pdf">Exam III-B (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-cor-3.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-03a-m.pdf">Exam III-A Makeup (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-03b-m.pdf">Exam III-B Makeup (PDF)</a><br>
+</ul>
+Exam IV
+<ul>
+      <li><a href="/courses/3322-20071(001)-rv4.pdf">Review IV (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-04a.pdf">Exam IV-A (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-04b.pdf">Exam IV-B (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-04c.pdf">Exam IV-C (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-04d.pdf">Exam IV-D (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-cor-4.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-04a-m.pdf">Exam IV-A Makeup (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-04b-m.pdf">Exam IV-B Makeup (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-04c-m.pdf">Exam IV-C Makeup (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-04d-m.pdf">Exam IV-D Makeup (PDF)</a><br>
+</ul>
+Exam V
+<ul>
+      <li><a href="/courses/3322-20071(001)-rv5.pdf">Review V (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-05a.pdf">Exam V-A (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-05b.pdf">Exam V-B (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-cor-5.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-05a-m.pdf">Exam V-A Makeup (PDF)</a><br>
+      <li><a href="/courses/3322-20071(001)-05b-m.pdf">Exam V-B Makeup (PDF)</a><br>
+</ul>
+Final Exam
+<ul>
+      <li><a href="/courses/3322-20071(001)-rvf.pdf">Final Review (PDF)</a><br>
+</ul>
+</ul>
+
+<p>
+
+<p>
+<ul>
+<li><b>Spring Semester 2008</b>: Math 1352-012, Calculus II<br>
+<a href="/courses/1352-20082(008)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/1352-20082(008)-hwk.shtml">Homework/Webwork Assignments </a><br>
+<a href="/courses/1352-20082(008)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="http://webwork.math.ttu.edu/webwork2/m1352spr08kpearce/">WebWork Server (PDF)</a><br>
+
+Support Information for WebWork<br>
+<ul>
+	<li><a href=webwork/intro_for_students.html>Introduction for Students (PDF)</a><br>
+	<li><a href=webwork/how_to_enter_answers.html>How to Enter Answers (PDF)</a><br><br>
+</ul>
+
+Exam 0
+<ul>
+      <li><a href="/courses/1352-20082(008)-rv0.pdf">Review Exam 0 (PDF)</a><br>
+		Supplementary Pages (Exercise pages from text)
+		<ul>
+			<li><a href=/courses/1352/page-108.pdf>Page 108 (PDF)</a><br>
+			<li><a href=/courses/1352/page-117.pdf>Page 117 (PDF)</a><br>
+			<li><a href=/courses/1352/page-118.pdf>Page 118 (PDF)</a><br>
+			<li><a href=/courses/1352/page-125.pdf>Page 125 (PDF)</a><br>
+			<li><a href=/courses/1352/page-143.pdf>Page 143 (PDF)</a><br>
+			<li><a href=/courses/1352/page-155.pdf>Page 155 (PDF)</a><br>
+			<li><a href=/courses/1352/page-281.pdf>Page 281 (PDF)</a><br>
+			<li><a href=/courses/1352/page-308.pdf>Page 308 (PDF)</a><br>
+			<li><a href=/courses/1352/page-315.pdf>Page 315 (PDF)</a><br>
+		</ul>
+      <li><a href="/courses/1352-20082(008)-00a.pdf">Exam 0 Form A (PDF)</a><br>
+      <li><a href="/courses/1352-20082(008)-00b.pdf">Exam 0 Form B (PDF)</a><br>
+</ul>
+Exam I
+<ul>
+      <li><a href="/courses/1352-20082(008)-rvw1.shtml">Review Exam I </a><br>
+      <li><a href="/courses/1352-20082(008)-01a.pdf">Exam I Form A (PDF)</a><br>
+      <li><a href="/courses/1352-20082(008)-01b.pdf">Exam I Form B (PDF)</a><br>
+      <li><a href="/courses/1352-20082(008)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/1352-20082(008)-01a-m.pdf">Exam I-A Makeup (PDF)</a><br>
+      <li><a href="/courses/1352-20082(008)-01b-m.pdf">Exam I-B Makeup (PDF)</a><br>
+</ul>
+
+Exam II
+<ul>
+      <li><a href="/courses/1352-20082(008)-rvw2.shtml">Review Exam II </a><br>
+      <li><a href="/courses/1352-20082(008)-02a.pdf">Exam II Form A (PDF)</a><br>
+      <li><a href="/courses/1352-20082(008)-02b.pdf">Exam II Form B (PDF)</a><br>
+      <li><a href="/courses/1352-20082(008)-cor-2.pdf">Correction Instructions (PDF)</a><br>
+	<li><a href="/courses/1352-20082(008)-02m(a-c).pdf">Exam II (A-C) Makeup (PDF)</a><br>
+	<li><a href="/courses/1352-20082(008)-02m(d-k).pdf">Exam II (D-K) Makeup (PDF)</a><br>
+	<li><a href="/courses/1352-20082(008)-02m(l-p).pdf">Exam II (L-P) Makeup (PDF)</a><br>
+	<li><a href="/courses/1352-20082(008)-02m(q-z).pdf">Exam II (Q-Z) Makeup (PDF)</a><br>
+
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/1352-20082(008)-rvw3.shtml">Review Exam III </a><br>
+      <li><a href="/courses/1352-20082(008)-03a.pdf">Exam III-A (PDF)</a><br>
+      <li><a href="/courses/1352-20082(008)-03b.pdf">Exam III-B (PDF)</a><br>
+      <li><a href="/courses/1352-20082(008)-cor-3.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/1352-20082(008)-03a-m.pdf">Exam III-A Makeup (PDF)</a><br>
+      <li><a href="/courses/1352-20082(008)-03b-m.pdf">Exam III-B Makeup (PDF)</a><br>
+</ul>
+Final Exam
+<ul>
+      <li><a href="/courses/1352_review_departmental_final.pdf">Review Departmental Final (PDF)</a><br>
+      <li><a href="/courses/1352-20082(008)-rvwf.shtml">Review Final Exam </a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Summer II 2008</b>: Math 2360-002, Linear Algebra<br>
+<a href="/courses/2360-20084(002)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/2360-20084(002)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="http://webwork.math.ttu.edu/webwork2/s208kpearcem2360/">WebWorK Server</a><br>
+
+Support Information for WebWorK<br>
+<ul>
+	<li><a href=webwork/intro_for_students.html>Introduction for Students (PDF)</a><br>
+	<li><a href=webwork/how_to_enter_answers.html>How to Enter Answers (PDF)</a><br><br>
+</ul>
+Exam I
+<ul>
+      <li><a href="/courses/2360-20084(002)-rvw1.shtml">Review </a><br>
+      <li><a href="/courses/2360-20084(002)-01a.pdf">Exam I Form A (PDF)</a><br>
+      <li><a href="/courses/2360-20084(002)-01b.pdf">Exam I Form B (PDF)</a><br>
+      <li><a href="/courses/2360-20084(002)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/2360-20084(002)-01a-m.pdf">Exam I-A Makeup (PDF)</a><br>
+      <li><a href="/courses/2360-20084(002)-01b-m.pdf">Exam I-B Makeup (PDF)</a><br> 
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/2360-20084(002)-rvw2.shtml">Review </a><br>
+      <li><a href="/courses/2360-20084(002)-02a.pdf">Exam II Form A (PDF)</a><br>
+      <li><a href="/courses/2360-20084(002)-02b.pdf">Exam II Form B (PDF)</a><br>
+      <li><a href="/courses/2360-20084(002)-cor-2.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/2360-20084(002)-02a-m.pdf">Exam II-A Makeup (PDF)</a><br>
+      <li><a href="/courses/2360-20084(002)-02b-m.pdf">Exam II-B Makeup (PDF)</a><br> 
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/2360-20084(002)-rvw3.shtml">Review </a><br>
+      <li><a href="/courses/2360-20084(002)-03a.pdf">Exam III Form A (PDF)</a><br>
+      <li><a href="/courses/2360-20084(002)-03b.pdf">Exam III Form B (PDF)</a><br>
+      <li><a href="/courses/2360-20084(002)-cor-3.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/2360-20084(002)-03a-m.pdf">Exam III-A Makeup (PDF)</a><br>
+      <li><a href="/courses/2360-20084(002)-03b-m.pdf">Exam III-B Makeup (PDF)</a><br> 
+</ul>
+Exam IV
+<ul>
+      <li><a href="/courses/2360-20084(002)-rvw4.shtml">Review </a><br>
+</ul>
+</ul>
+
+<p>
+<ul>
+<li><b>Fall Semester 2008</b>: Math 5320-001, Functions of a Complex Variable I<br>
+<a href="/courses/5320-20081(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/5320-20081(001)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="/courses/5320-20081(001)-hwk.pdf">HomeWork (PDF)</a><br>
+Notes
+<ul>
+      <li><a href=/courses/axioms_thm.pdf>Axioms for R (PDF)</a><br>
+      <li><a href=/courses/kronecker_thm.pdf>Statement of Kronecker's Theorem (PDF)</a><br>
+      <li><a href=/courses/proof-powerseries-prop.pdf>Proof of Power Series Proposition (PDF)</a><br>
+      <li><a href=/courses/proof-cauchy-riemann-prop.pdf>Proof of Cauchy Riemann Equations Proposition (PDF)</a><br>
+      <li><a href=/courses/outline-conway-4.1.pdf>Outline of Conway 4.1 (PDF)</a><br><br>
+      <li><a href=/courses/hw3-sol.pdf>Solution Sketch for HW #3 (PDF)</a><br>
+      <li><a href=/courses/hw4-sol.pdf>Solution Sketch for HW #4 (PDF)</a><br><br>
+</ul>
+
+Exam I
+<ul>
+      <li><a href="/courses/5320-review_exam_1.pdf">Review Exam I</a> (PDF)<br>
+      <li><a href="/courses/5320-20081(001)-01c.pdf">Exam 1 In-class (PDF)</a><br>
+      <li><a href="/courses/5320-20081(001)-01h.pdf">Exam 1 Take-home (PDF)</a><br>
+      <li><a href="/courses/5320-20081(001)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/5320-20081(001)-01m.pdf">Exam I-A Makeup (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/5320-review_exam_2.pdf">Review Exam II</a> (PDF)<br>
+      <li><a href="/courses/5320-20081(001)-02c.pdf">Exam II In-Class</a> (PDF)<br>
+      <li><a href="/courses/5320-20081(001)-02h.pdf">Exam II Take-Home</a> (PDF)<br>
+      <li><a href="/courses/5320-20081(001)-cor-2.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/5320-20081(001)-02m.pdf">Exam II Make-Up</a> (PDF)<br>
+</ul>
+
+Final Exam
+<ul>
+      <li> Comprehensive Final (8 December 2008, 1:30 pm)
+          <ul>
+             <li>Review consists of <a href="/courses/5320-review_exam_1.pdf">Review Exam I</a>, 
+             <a href="/courses/5320-review_exam_2.pdf">Review Exam II</a> and <a href="/courses/5320-review_exam_iii-2008.pdf">Review Part III</a> (PDF)<br>
+             <li>Formulation Summary of Final Exam Problem Types <a href="/courses/5320-20081(001)-fin-problems.pdf">Summary of Problem Types</a> (PDF)
+          </ul>
+      <li><a href="/courses/5320-20081(001)-fin.pdf">Final Exam</a> (PDF)<br>
+</ul>
+</ul>
+
+<p>
+
+<ul>
+<li><b>Spring Semester 2009</b>: Math 5321-001, Functions of a Complex Variable II<br>
+<a href="/courses/5321-20092(001)-syl.pdf">Syllabus</a> (PDF)<br>
+<a href="/courses/5321-20092(001)-cal.pdf">Calendar</a> (PDF)<br>
+<a href="/courses/5321-20092(001)-hwk.pdf">Homework</a> (PDF)<br>
+Notes
+<ul>
+      <li><a href=/courses/5321-integration-topics.pdf>Integration Topics</a> (PDF)<br><br>
+</ul>
+
+Exam I
+<ul>
+      <li><a href="/courses/5321-review_exam_I_Spring_2009.pdf">Review Exam I</a> (PDF)<br>
+<li><a href="/courses/5321-20092(001)-01c.pdf">Exam I In-Class</a> (PDF)<br>
+<!--	<ul>
+			<li><a href="/courses/5321-20052(001)-key-01c.pdf">Key Exam I In-Class</a> (PDF)<br>
+		</ul>-->
+      <li><a href="/courses/5321-20092(001)-01h.pdf">Exam I Take-Home</a> (PDF)<br>
+<!--		<ul>
+			<li><a href="/courses/5321-20052(001)-key-01h.pdf">Key Exam I Take Home</a> (PDF)<br>
+		</ul>-->
+      <li><a href="/courses/5321-20092(001)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/5321-20092(001)-01m.pdf">Exam I Make-Up</a> (PDF)<br>
+<!--		<ul>
+			<li><a href="/courses/5320-20041(001)-key-01m.pdf">Key Exam I Make-Up</a> (PDF)<br>
+		</ul>-->
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/5321-review_exam_II_Spring_2009.pdf">Review Exam II</a> (PDF)<br>
+      <li><a href="/courses/5321-20092(001)-02c.pdf">Exam II In-Class</a> (PDF)<br>
+<!--	<ul>
+			v<a href="/courses/5320-20041(001)-key-02c.pdf">Key Exam II In-Class</a> (PDF)<br>
+		</ul>
+-->      <li><a href="/courses/5321-20092(001)-02h.pdf">Exam II Take-Home</a> (PDF)<br>
+<!--		<ul>
+			<li><a href="/courses/5321-20052(001)-key-02h.pdf">Key Exam II Take Home</a> (PDF)<br>
+		</ul> -->
+
+      <li><a href="/courses/5321-20092(001)-cor-2.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/5321-20092(001)-02m.pdf">Exam II Make-Up</a> (PDF)<br>
+
+</ul>
+Exam III
+<ul>
+      <li><a href="/courses/5321_review_exam_III_Spring_2009.pdf">Review Exam III</a> (PDF)<br>
+</ul>
+</ul>
+
+
+<p>
+<ul>
+<li><b>Fall 2009</b>: Math 2360-001, Linear Algebra<br>
+<a href="/courses/2360-20091(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/2360-20091(001)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="http://webwork.math.ttu.edu/webwork2/f09kpearcem2360">WebWork Server</a><br>
+
+Support Information for WebWorK<br>
+<ul>
+	<li><a href=webwork/intro_for_students.html>Introduction for Students (PDF)</a><br>
+	<li><a href=webwork/how_to_enter_answers.html>How to Enter Answers (PDF)</a><br>
+</ul>
+Notes
+<ul>
+  <li><a href="/courses/linear indep.pdf">Linear Independence Example Worksheet (PDF)</a><br><br>
+</ul>
+Exam I
+<ul>
+      <li><a href="/courses/2360-20091(001)-rvw1.shtml">Review </a><br>
+      <li><a href="/courses/2360-20091(001)-01a.pdf">Exam I Form A (PDF)</a><br>
+      <li><a href="/courses/2360-20091(001)-01b.pdf">Exam I Form B (PDF)</a><br>
+      <li><a href="/courses/2360-20091(001)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/2360-20091(001)-01m.pdf">Exam I Makeup (PDF)</a><br>
+
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/2360-20091(001)-rvw2.shtml">Review </a><br>
+      <li><a href="/courses/2360-20091(001)-02a.pdf">Exam II Form A (PDF)</a><br>
+      <li><a href="/courses/2360-20091(001)-02b.pdf">Exam II Form B (PDF)</a><br>
+      <li><a href="/courses/2360-20091(001)-cor-2.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/2360-20091(001)-02a-m.pdf">Exam II Makeup-A (PDF)</a><br>
+      <li><a href="/courses/2360-20091(001)-02b-m.pdf">Exam II Makeup-B (PDF)</a><br>
+</ul>
+
+Exam III
+<ul>
+      <li><a href="/courses/2360-20091(001)-rvw3.shtml">Review </a><br>
+      <li><a href="/courses/2360-20091(001)-03a.pdf">Exam III Form A (PDF)</a><br>
+      <li><a href="/courses/2360-20091(001)-03b.pdf">Exam III Form B (PDF)</a><br>
+      <li><a href="/courses/2360-20091(001)-cor-3.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/2360-20091(001)-03a-m.pdf">Exam III-A Makeup (PDF)</a><br>
+      <li><a href="/courses/2360-20091(001)-03b-m.pdf">Exam III-B Makeup (PDF)</a><br> 
+</ul>
+Exam IV
+<ul>
+      <li><a href="/courses/2360-20091(001)-rvw4.shtml">Review </a><br>
+      <li><a href="/courses/2360-20091(001)-fin-proto.pdf">Final Exam Prototype (From Summer 2008)(PDF)</a><br>
+</ul> 
+
+</ul>
+
+<p>
+	
+<ul>
+<li><b>Spring 2010</b>: Math 3350-012, Higher Mathematics for Engineers and Scientists I<br>
+<a href="/courses/3350-20102(012)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3350-20102(012)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="http://webwork.math.ttu.edu/webwork2/spr10kpearcem3350">WebWork Server</a><br>
+
+Support Information for WebWorK<br>
+<ul>
+	<li><a href=webwork/intro_for_students.html>Introduction for Students (PDF)</a><br>
+	<li><a href=webwork/how_to_enter_answers.html>How to Enter Answers (PDF)</a><br><br>
+</ul>
+
+Competency Exam
+<ul>
+      <li><a href="/courses/3350-20102(012)-rvw-0.pdf">Competency Review Guide (PDF)</a><br>
+		Supplementary Pages (Exercise pages from <i>Calculus</i>, Strauss, Bradley & Smith)
+		<table>
+		<tr><td>
+		<span class=text10a><ul>
+			<li><a href=/courses/1352/page-108.pdf>Page 108 (PDF)</a><br>
+			<li><a href=/courses/1352/page-117.pdf>Page 117 (PDF)</a><br>
+			<li><a href=/courses/1352/page-118.pdf>Page 118 (PDF)</a><br>
+			<li><a href=/courses/1352/page-125.pdf>Page 125 (PDF)</a><br>
+			<li><a href=/courses/1352/page-143.pdf>Page 143 (PDF)</a><br>
+			<li><a href=/courses/1352/page-155.pdf>Page 155 (PDF)</a><br>
+			<li><a href=/courses/1352/page-281.pdf>Page 281 (PDF)</a><br>
+			<li><a href=/courses/1352/page-308.pdf>Page 308 (PDF)</a><br>
+		</span></ul>
+		</td><td>
+		<span class=text10a><ul>
+			<li><a href=/courses/1352/page-315.pdf>Page 315 (PDF)</a><br>
+			<li><a href=/courses/3350/page-361.pdf>Page 361 (PDF)</a><br>
+			<li><a href=/courses/3350/page-433.pdf>Page 433 (PDF)</a><br>
+			<li><a href=/courses/3350/page-434.pdf>Page 434 (PDF)</a><br>
+			<li><a href=/courses/3350/page-439.pdf>Page 439 (PDF)</a><br>
+			<li><a href=/courses/3350/page-447.pdf>Page 447 (PDF)</a><br>
+			<li><a href=/courses/3350/page-455.pdf>Page 455 (PDF)</a><br>
+			<li><a href=/courses/3350/page-456.pdf>Page 456 (PDF)</a><br>
+		</span></ul>
+		</td><td>
+		<span class=text10a><ul>
+			<li><a href=/courses/3350/page-460.pdf>Page 460 (PDF)</a><br>
+			<li><a href=/courses/3350/page-479.pdf>Page 479 (PDF)</a><br>
+			<li><a href=/courses/3350/page-480.pdf>Page 480 (PDF)</a><br>
+			<li><a href=/courses/3350/page-526.pdf>Page 526 (PDF)</a><br>
+			<li><a href=/courses/3350/page-532.pdf>Page 532 (PDF)</a><br>
+			<li><a href=/courses/3350/page-552.pdf>Page 552 (PDF)</a><br>
+			<li><a href=/courses/3350/page-564.pdf>Page 564 (PDF)</a><br>
+			<li><a href=/courses/3350/page-717.pdf>Page 717 (PDF)</a><br>
+		</span></ul>
+		</td></tr>
+		</table>
+		
+      <!--<li><a href="/courses/3350-20102(012)-cor-0.pdf">Correction Instructions (PDF)</a><br>-->
+      <li><a href="/courses/3350-20102(012)-000-ac.pdf">Exam 0 Version A-C (PDF)</a><br>
+      <li><a href="/courses/3350-20102(012)-000-dm.pdf">Exam 0 Version D-M (PDF)</a><br>
+      <li><a href="/courses/3350-20102(012)-000-pz.pdf">Exam 0 Version P-Z (PDF)</a><br>
+</ul>
+
+Exam I
+<ul>
+      <li><a href="/courses/3350-20102(012)-rvw1.shtml">Review </a><br>
+      <li><a href="/courses/3350-20102(012)-01.pdf">Exam 1 (PDF)</a><br>
+      <li><a href="/courses/3350-20102(012)-01-sol.pdf">Partial Solutions/Hints (PDF)</a><br>
+<!--      <li><a href="/courses/3350-20102(012)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3350-20102(012)-001-ac.pdf">Exam 1 Makeup A-C (PDF)</a><br>
+      <li><a href="/courses/3350-20102(012)-001-dm.pdf">Exam 1 Makeup D-M (PDF)</a><br>
+      <li><a href="/courses/3350-20102(012)-001-pz.pdf">Exam 1 Makeup P-Z (PDF)</a><br> -->
+</ul>
+
+Exam II
+<ul>
+      <li><a href="/courses/3350-20102(012)-rvw2.shtml">Review </a><br>
+      <li><a href="/courses/3350-20102(012)-02.pdf">Exam 2 (PDF)</a><br>
+<!--      <li><a href="/courses/3350-20102(012)-cor-2.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3350-20102(012)-02m.pdf">Exam II Makeup (PDF)</a><br> -->
+
+</ul>
+
+Exam III
+<ul>
+      <li><a href="/courses/3350-20102(012)-rvw3.shtml">Review </a><br>
+      <li><a href="/courses/3350-20102(012)-03.pdf">Exam 3 (PDF)</a><br>
+<!--      <li><a href="/courses/3350-20102(012)-cor-3.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3350-20102(012)-03m.pdf">Exam III Makeup (PDF)</a><br> -->
+</ul>
+
+Final Exam 
+<ul>
+      <li><a href="/courses/3350-20102(012)-rvw4.shtml">Review </a><br>
+</ul> 
+
+</ul>
+
+
+<ul>
+<li><b>Fall Semester 2010</b>: Math 3360-001, Modern Algebra<br>
+<a href="/courses/3360-20101(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3360-20101(001)-hwk.pdf">Homework Assignments (PDF)</a><br>
+<!--
+<a href="/courses/3360-20101(001)-cal.pdf">Term Calendar (PDF)</a><br><br>
+-->
+Resources
+<ul>
+	<li><a href="/courses/Groups.pdf">Examples of Groups</a>
+	<li><a href="/courses/Sym(Triangle).pdf">Group Table for Sym(&Delta;)</a>
+</ul>
+
+Writing Assignments
+<ul>
+	<li><a href="/courses/rubric.docx">Rubric for Writing Intensive Assignments (PDF)</a><br>
+	<li><a href="/courses/3360-20101(001)-wa-1.pdf">Writing Assignment #1 (PDF)</a><br>
+	<li><a href="/courses/3360-20101(001)-wa-2.pdf">Writing Assignment #2 (PDF)</a><br><br>
+</ul>
+
+Exam I
+<ul>
+      <li><a href="/courses/3360-20101(001)-rv1.pdf">Review I (PDF)</a><br>
+      <li><a href="/courses/3360-20101(001)-ex1.pdf">Exam 1 (PDF)</a><br>
+      <li><a href="/courses/3360-20101(001)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3360-20101(001)-ex1-m.pdf">Exam 1 Makeup (PDF)</a><br> 
+</ul>
+
+Exam II
+<ul>
+      <li><a href="/courses/3360-20101(001)-rvw-2.pdf">Review II (PDF)</a><br>
+      <li><a href="/courses/3360-20101(001)-ex2.pdf">Exam 2 (PDF)</a><br>
+      <li><a href="/courses/3360-20101(001)-cor-2.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3360-20101(001)-ex2-m.pdf">Exam 2 Makeup (PDF)</a><br> 
+</ul>
+
+Exam III
+<ul>
+      <li><a href="/courses/3360-20101(001)-rvw-3.pdf">Review III (PDF)</a><br>
+      <li><a href="/courses/3360-20101(001)-ex3.pdf">Exam 3 (PDF)</a><br>
+      <li><a href="/courses/3360-20101(001)-cor-3.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3360-20101(001)-ex3-m.pdf">Exam 3 Makeup (PDF)</a><br> 
+</ul>
+
+Exam IV
+<ul>
+      <li><a href="/courses/3360-20101(001)-rvw-4.pdf">Review IV (PDF)</a><br>
+</ul>
+</ul>
+
+<ul>
+<li><b>Spring 2011</b>: Math 3350-006, Higher Mathematics for Engineers and Scientists I<br>
+<a href="/courses/3350-20112(006)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3350-20112(006)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="http://webwork.math.ttu.edu/webwork2/spr11kpearcem3350s006">WebWorK Server</a><br><br>
+
+Web Resources
+<ul>
+	<li><a href="http://www.khanacademy.org/#Differential%20Equations">Khan Academy - Differential Equations</a>
+	<li><a href="http://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2006/video-lectures/">MIT - Differential Equations</a><br><br>
+</ul>
+
+Support Information for WebWorK<br>
+<ul>
+	<li><a href=webwork/intro_for_students.html>Introduction for Students (PDF)</a>
+	<li><a href=webwork/how_to_enter_answers.html>How to Enter Answers (PDF)</a><br><br>
+</ul>
+
+Competency Exam
+<ul>
+      <li><a href="/courses/3350-20102(012)-rvw-0.pdf">Competency Review Guide (PDF)</a>
+		Supplementary Pages (Exercise pages from <i>Calculus</i>, Strauss, Bradley & Smith)
+		<table>
+		<tr><td>
+		<span class=text10a><ul>
+			<li><a href=/courses/1352/page-108.pdf>Page 108 (PDF)</a><br>
+			<li><a href=/courses/1352/page-117.pdf>Page 117 (PDF)</a><br>
+			<li><a href=/courses/1352/page-118.pdf>Page 118 (PDF)</a><br>
+			<li><a href=/courses/1352/page-125.pdf>Page 125 (PDF)</a><br>
+			<li><a href=/courses/1352/page-143.pdf>Page 143 (PDF)</a><br>
+			<li><a href=/courses/1352/page-155.pdf>Page 155 (PDF)</a><br>
+			<li><a href=/courses/1352/page-281.pdf>Page 281 (PDF)</a><br>
+			<li><a href=/courses/1352/page-308.pdf>Page 308 (PDF)</a><br>
+		</span></ul>
+		</td><td>
+		<span class=text10a><ul>
+			<li><a href=/courses/1352/page-315.pdf>Page 315 (PDF)</a><br>
+			<li><a href=/courses/3350/page-361.pdf>Page 361 (PDF)</a><br>
+			<li><a href=/courses/3350/page-433.pdf>Page 433 (PDF)</a><br>
+			<li><a href=/courses/3350/page-434.pdf>Page 434 (PDF)</a><br>
+			<li><a href=/courses/3350/page-439.pdf>Page 439 (PDF)</a><br>
+			<li><a href=/courses/3350/page-447.pdf>Page 447 (PDF)</a><br>
+			<li><a href=/courses/3350/page-455.pdf>Page 455 (PDF)</a><br>
+			<li><a href=/courses/3350/page-456.pdf>Page 456 (PDF)</a><br>
+		</span></ul>
+		</td><td>
+		<span class=text10a><ul>
+			<li><a href=/courses/3350/page-460.pdf>Page 460 (PDF)</a><br>
+			<li><a href=/courses/3350/page-479.pdf>Page 479 (PDF)</a><br>
+			<li><a href=/courses/3350/page-480.pdf>Page 480 (PDF)</a><br>
+			<li><a href=/courses/3350/page-526.pdf>Page 526 (PDF)</a><br>
+			<li><a href=/courses/3350/page-532.pdf>Page 532 (PDF)</a><br>
+			<li><a href=/courses/3350/page-552.pdf>Page 552 (PDF)</a><br>
+			<li><a href=/courses/3350/page-564.pdf>Page 564 (PDF)</a><br>
+			<li><a href=/courses/3350/page-717.pdf>Page 717 (PDF)</a><br>
+		</span></ul>
+		</td></tr>
+		</table>
+		
+		<li><a href="/courses/3350-20112(006)-ex0-summary.pdf">Exam 0 Statistics</a> (PDF)<br>
+<!--
+      <li><a href="/courses/3350-20112(006)-cor-0.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-000-ac.pdf">Exam 0 Makeup A-C (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-000-dm.pdf">Exam 0 Makeup D-M (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-000-pz.pdf">Exam 0 Makeup P-Z (PDF)</a><br> -->
+</ul>
+
+
+Exam I
+<ul>
+      <li><a href="/courses/3350-20112(006)-rvw1.shtml">Review </a><br>
+			<li><a href="/courses/3350-20112(006)-ex1-summary.pdf">Exam 1 Statistics</a> (PDF)<br>
+<!--      <li><a href="/courses/3350-20112(006)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-001-ac.pdf">Exam 1 Makeup A-C (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-001-dm.pdf">Exam 1 Makeup D-M (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-001-pz.pdf">Exam 1 Makeup P-Z (PDF)</a><br>-->
+</ul>
+
+
+Exam II
+<ul>
+      <li><a href="/courses/3350-20112(006)-rvw2.shtml">Review </a><br>
+			<li><a href="/courses/3350-20112(006)-ex2-summary.pdf">Exam 2 Statistics</a> (PDF)<br>
+<!--      <li><a href="/courses/3350-20112(006)-cor-2.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-02m.pdf">Exam II Makeup (PDF)</a><br> -->
+
+</ul>
+
+
+Exam III
+<ul>
+      <li><a href="/courses/3350-20112(006)-rvw3.shtml">Review </a><br>
+      <li><a href="/courses/basic laplace transforms.pdf">Basic Laplace Transforms</a> (PDF)<br>
+			<li><a href="/courses/3350-20112(006)-ex3-summary.pdf">Exam 3 Statistics</a> (PDF)<br>
+<!--      <li><a href="/courses/3350-20112(006)-cor-3.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-03m.pdf">Exam III Makeup (PDF)</a><br>-->
+</ul>
+
+
+Final Exam 
+<ul>
+      <li><a href="/courses/3350-20112(006)-rvw4.shtml">Review </a><br>
+      <li><a href="/courses/3350-20102(012)-fin.pdf">Sample Final Exam (Spring 2010)</a> (PDF)<br>
+</ul> 
+
+</ul>
+
+
+<ul>
+<li><b>Fall 2011</b>: Math 4371-001, Basic Computer Literacy and Programming<br>
+<a href="/courses/4371-20111(001)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/4371-20111(001)-cal.pdf">Term Calendar (PDF)</a><br><br>
+
+Resources<br>
+<ul>
+        <li><A HREF="http://www.wolframalpha.com/" ADD_DATE="1314293636" LAST_MODIFIED="1314293636" ICON_URI="http://www.wolframalpha.com/favicon_calculate.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB/klEQVQ4jY1Tv2tUQRCeBM8zYhq9eznemzmCHgS8vNO3M1els7LxB8ZGbEwhiE3SWFgISauV5C/QIogBUbSPiJXEYKEYSWFxmLudUSRVsDBrcZfzEi8xHwzLLvvNznzfLEAHswCDq2OFYQAYgL8Y8BJPtFxyDg4Cz3TbXDLTe6ZMb9TR1MESZDhpTL/MJTNfR+GId3hFhTZbWXwRAGCtAnl1eN6PRyNd0loF8uscF7b3JvTChIIJPjahYIxbyrjoHV5XpkfK9LZ5tjTaTbA6Vhg2wfvG+MA7vKN1+qK1KOh4IWha7K5WLwcTCp6TWzvKngUYbLn4ggltWL3cJu0RJrSk1eKxvv2bw5tai4KmxbC18fOf0LQYfBp9V8aHnumyCV3rkpcZcso4bYz7V8AYjPG3Cf7wjAttmyS5qkzvO4L9N4EKvvYcnVoCONTxGZ+p4IoJfdQs3tyvBU2j4DOc7KtBA3FIGV/uW0G9HIzpeWdidw1ROnLSGD9bvRy0FgWtnthpo9A3dThvgg1lfKXVYmnX68ldZVxUl9wwwXftYaKgQs3O+gQAoMWYesa5ZlY6vdMFh5V1jo+2daGnJhTU0ZTPkjPqcF4ZPzQQh7Y5n6pwuK8WAACecUEFV5YZcgAAjSoeN6Z7XuKJPUm9UMbplsSXoOdrLzPk1iqQ3333DxUsSmRjeJYoAAAAAElFTkSuQmCC">Wolfram|Alpha: Computational Knowledge Engine</A>
+        <li><A HREF="http://web2.0calc.com/" ADD_DATE="1314292772" LAST_MODIFIED="1314292801" ICON_URI="http://web2.0calc.com/fileadmin/default/templates/images/favicon.ico" ICON="data:image/x-icon;base64,AAABAAEAEBAQAAAAAAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAABFOS8A////AJqMfAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEQAREBABEAEAAQAQEBAAAQABABAQEAAAEQAREBABEAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACIiIiIiIiIiIiIiIiIiIiIhEREhIhESIiEiIiIhIiEiIRERIiEiISIiIiEiISIhIiERESIiERIiIiIiIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA">Web 2.0 scientific calculator</A>
+        <li><A HREF="http://www.alcula.com/calculators/scientific-calculator/" ADD_DATE="1314292933" LAST_MODIFIED="1314292933">Online Scientific Calculator</A>
+        <li><A HREF="http://my.hrw.com/math06_07/nsmedia/tools/Sci_Calculator/Sci_Calculator.html" ADD_DATE="1314292807" LAST_MODIFIED="1314292886" ICON_URI="http://my.hrw.com/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB70lEQVQ4jZWTSW9SYRSG78/QlRujS40rjQtXrty57MIdSlw00UVNnNo0pFpN65iYJjYxkWpoTSNSaSiFBotDW8pQQZnK0CsFWsHLcJkKPC6qCHo1+CZn8Q153u/9To4AJID8v+rGbLCidydLG5lSwS1KxfeRjNxskgcSAl3owpSPV54UbjHH2GKcEfM6jWYTAOGHS4eqO42O9XVDAJXWg/nzNisxqf08rwhISGUGZgIYvWkAhmZDHOi3MmwKM+1Ktl9VBmwVqjxYiCKoDQhqAxdf+Hi2/EUpXScg+lXm1MMl7lgihLaKBNNFJlc3uWkKc2ToDRpj8O+ArFxj76U5zk2s4dyQ/rDKFGuotB6u6P2tD2wB/KkC+y7P06vzYvFv0zPuZP81K2e1nhagWKkzMBPg5L0P1OptANVTd01QG9jTN8fRYXuH44mRdxzS2JCrdQxrKa7q/QBMrW6yHPu2C5h0JEpZuQbAYY2N47ff8uuF8Nge564l0hHHJebom/6k3AVHXGrPSDpf4dgtO4LawCNbrLV/5okLtygVFdv4u8RsGZ0jwX1rlJfuJGK2zPnnH5lYEktdAX5qp9GkZ9zJYijD6Pw6o+Zw5b8AsNvuwddBDvYvYPKl5a6GSUm9Oi+nx1YQ6GKclapUq+cHjcHcd25ypwXPA9S6AAAAAElFTkSuQmCC">Scientific Calculator</A>
+        <li><A HREF="http://www.ecalc.com/" ADD_DATE="1314292884" LAST_MODIFIED="1314292909" ICON_URI="http://www.ecalc.com/pics/favicon.ico" ICON="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA/UlEQVQ4jZWSW5HFIBBEYwELWMBCLMRCLGABC2NhLGBhLLSFttD3Iwm72TzqLlXnB4ZT0wNTrVUppX+Tc5aZaUopycwE4GsiQrVW5Zw1lVJEUveLO9cVEUopaZrn+SSgKDDUYXI0OZo6XCBOAgBXAUV1uFqsarGcsFgV7O+CYIwLHSYwFAw52pAcnVwEFEehowmEuANCFnUX+4OAHEVbhL8sQ/4iWPdWqwz3dJgkPghQR/5j747nIcJHhNifDoQ6XI6mYH8XkD+DPM/iyG/vgkMS8C1zrBuo6vBT3aPgt4jjKa/n4yvnnNV7fx3aHWa2CZZlUc5Z8zx/TSll8AH2bwHDXaw/9QAAAABJRU5ErkJggg==">Online Scientific Calculator and Math Help | eCalc</A>
+        <li><A HREF="http://www.mathopenref.com/calculator.html" ADD_DATE="1314292994" LAST_MODIFIED="1314292994">Math / scientific calculator similar to those from TI, Casio, HP etc - Math Open Reference</A>
+        <li><A HREF="http://www.onlinescientificcalculator.org/" ADD_DATE="1314292905" LAST_MODIFIED="1314292907">Online Scientific Calculator</A>
+</ul><br>
+
+Teaching Resources<br>
+
+<ul>
+	<li><a href=http://www.nytimes.com/2011/09/04/technology/technology-in-schools-faces-questions-on-value.html?_r=2&hp=&pagewanted=all>The Digital School</a>
+</ul><br>
+
+Other Resources<br>
+<ul>
+	<li><a href="/courses/The rock game.pdf">The rock game</a> (PDF)
+	<li><a href="/courses/Euclidean Algorithm.xlsx">Euclidean Algorithm</a> (Excel)
+	<li><a href="/courses/Divisibility Tests.pdf">Divisibility Tests</a> (PDF)
+	<li><a href="/courses/Base Conversion.xlsx">Base Conversion</a> (Excel)
+	<li>Statistics
+			<ul>
+				<li><a href="/courses/Statistics/4-1 Sample Data Set.jpg">Sample Data Set</a>
+				<li><a href="/courses/Statistics/4-2 Frequency Distribution.jpg">Frequency Distribution</a>
+				<li><a href="/courses/Statistics/4-3 Terms and Definitions.jpg">Terms and Definitions</a>
+				<li><a href="/courses/Statistics/4-4 Grouped-Data Table.jpg">Grouped-Data Table</a>
+				<li><a href="/courses/Statistics/4-5 Frequency Histogram.jpg">Frequency Histogram</a>
+			</ul>
+	<li><a href="/courses/4371 sequences - examples.pdf">Sequences Examples</a> (PDF)
+	<li><a href="/courses/4371 sequences - notes.pdf">Sequences Notes</a> (PDF)
+</ul><br>
+
+Projects<br>
+<ul>
+	<li><a href="/courses/4371-worksheet-1.pdf">Project #1  (PDF)</a><br>
+	<li><a href="/courses/4371-worksheet-2.pdf">Project #2  (PDF)</a><br>
+	<li><a href="/courses/4371-worksheet-3.pdf">Project #3  (PDF)</a><br>
+	<li><a href="/courses/4-1 4371 Basic Statistics.doc">Project #4-1  (DOC)</a><br>
+	<li><a href="/courses/4-2 4371 Gradebook Exercise.doc">Project #4-2  (DOC)</a><br>
+	<li><a href="/courses/4-3 4371 Regression Exercise.doc">Project #4-3  (DOC)</a><br>
+	<li><a href="/courses/5-1 4371 Polynomials and CAS.docx">Project #5-1  (DOCX)</a><br>
+	<li><a href="/courses/5-2 4371 Polynomials and Graphs.docx">Project #5-2  (DOCX)</a><br>
+	<li><a href="/courses/5-3 4371 Polynomials and Fundamental Theorem">Project #5-3  (DOCX)</a><br>
+	<li><a href="/courses/6-4371worksheet.doc">Project #6 (DOC)</a><br>
+	<li><a href="/courses/7-4371worksheet.pdf">Project #7 (PDF)</a><br>
+	<li><a href="/courses/8-4371 Calculus and Graphs-1.docx">Project #8-1 (DOCX)</a><br>
+	<li><a href="/courses/8-4371 Calculus and Graphs-2.docx">Project #8-2 (DOCX)</a><br><br>
+	<li><a href="/courses/9-4371-0 Commands.doc">Project #9-0 Commands (DOC)</a><br>	
+	<li><a href="/courses/9-4371-1 Introduction.doc">Project #9-1 Introduction (DOC)</a><br>	
+	<li><a href="/courses/9-4371-2 Elementary Programming.doc">Project #9-2 Elementary Programming (DOC)</a><br>	
+	<li><a href="/courses/9-4371-3 Recursion.doc">Project #9-3 Recursion (DOC)</a><br>	
+	<li><a href="/courses/9-4371-4 Modular Programming.docx">Project #9-4 Modular Programming(DOCX)</a><br>	
+	<li><a href="/courses/9-4371-5 Color.pdf">Project #9-5 Color (PDF)</a><br>	
+</ul><br>
+
+Assignments<br>
+<ul>
+	<li><a href="/courses/4371-Historical Project.pdf">Historical Assignment  (PDF)</a><br>
+	<li><a href="/courses/4-Stats Project Guidelines.doc">Stats Project Guidelines  (DOC)</a><br>
+	<li><a href="/courses/4-Stats Project Proposal Form.doc">Stats Project Proposal Form  (DOC)</a><br>
+	<li><a href="/courses/4-Stats Project Rubric.doc">Stats Project Rubric  (DOC)</a><br>
+	<li><a href="/courses/4371 Final Project.doc">Final/Logo Project (DOC)</a><br>
+</ul>				
+
+Exam I
+<ul>
+      <li><a href="/courses/4371-20111(001) Review Mid-Term.pdf">Mid-Term Review </a> (PDF)
+      <li><a href="/courses/4371-20111(001) Mid-Term Statistics.pdf">Mid-Term Statistics</a>(PDF)<br>
+<!--			<li><a href="/courses/3350-20112(006)-ex1-summary.pdf">Exam 1 Statistics</a> (PDF)<br>
+      <li><a href="/courses/3350-20112(006)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-001-ac.pdf">Exam 1 Makeup A-C (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-001-dm.pdf">Exam 1 Makeup D-M (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-001-pz.pdf">Exam 1 Makeup P-Z (PDF)</a><br> -->
+</ul>
+
+
+
+Final Exam 
+<ul>
+      <li><a href="/courses/4371-20111(001)-rv2.pdf">Final Review </a> (PDF)<br>
+      <li><a href="/courses/4371-Final-vers-A-Key.docx">Version A - Key</a> (DOCX) <br>
+      <li><a href="/courses/4371-Final-vers-B-Key.docx">Version B - Key</a> (DOCX) <br>
+</ul> 
+
+</ul>
+
+<p>
+
+<ul>
+<li><b>Spring 2012</b>: Math 3350-014, Higher Mathematics for Engineers and Scientists I<br>
+<a href="/courses/3350-20122(014)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/3350-20122(014)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="http://webwork.math.ttu.edu/webwork2/spr12kpearcem3350s014">WebWorK Server</a><br><br>
+
+Web Resources
+<ul>
+	<li><a href="http://www.khanacademy.org/#Differential%20Equations">Khan Academy - Differential Equations</a>
+	<li><a href="http://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2006/video-lectures/">MIT - Differential Equations</a><br><br>
+</ul>
+
+Support Information for WebWorK<br>
+<ul>
+	<li><a href=webwork/intro_for_students.html>Introduction for Students (PDF)</a>
+	<li><a href=webwork/how_to_enter_answers.html>How to Enter Answers (PDF)</a><br><br>
+</ul>
+
+Resources
+<ul>
+	<li><a href="/courses/eulers method a.xls">Eulers Method (XLS)</a>
+	<li><a href="/courses/eulers method.pptx">Eulers Method (PPTX)</a><br><br>
+</ul>
+	
+
+Competency Exam
+<ul>
+      <li><a href="/courses/3350-20102(012)-rvw-0.pdf">Competency Review Guide (PDF)</a><br>
+		Supplementary Pages (Exercise pages from <i>Calculus</i>, Strauss, Bradley & Smith)
+		<table>
+		<tr><td>
+		<span class=text10a><ul>
+			<li><a href=/courses/1352/page-108.pdf>Page 108 (PDF)</a><br>
+			<li><a href=/courses/1352/page-117.pdf>Page 117 (PDF)</a><br>
+			<li><a href=/courses/1352/page-118.pdf>Page 118 (PDF)</a><br>
+			<li><a href=/courses/1352/page-125.pdf>Page 125 (PDF)</a><br>
+			<li><a href=/courses/1352/page-143.pdf>Page 143 (PDF)</a><br>
+			<li><a href=/courses/1352/page-155.pdf>Page 155 (PDF)</a><br>
+			<li><a href=/courses/1352/page-281.pdf>Page 281 (PDF)</a><br>
+			<li><a href=/courses/1352/page-308.pdf>Page 308 (PDF)</a><br>
+		</span></ul>
+		</td><td>
+		<span class=text10a><ul>
+			<li><a href=/courses/1352/page-315.pdf>Page 315 (PDF)</a><br>
+			<li><a href=/courses/3350/page-361.pdf>Page 361 (PDF)</a><br>
+			<li><a href=/courses/3350/page-433.pdf>Page 433 (PDF)</a><br>
+			<li><a href=/courses/3350/page-434.pdf>Page 434 (PDF)</a><br>
+			<li><a href=/courses/3350/page-439.pdf>Page 439 (PDF)</a><br>
+			<li><a href=/courses/3350/page-447.pdf>Page 447 (PDF)</a><br>
+			<li><a href=/courses/3350/page-455.pdf>Page 455 (PDF)</a><br>
+			<li><a href=/courses/3350/page-456.pdf>Page 456 (PDF)</a><br>
+		</span></ul>
+		</td><td>
+		<span class=text10a><ul>
+			<li><a href=/courses/3350/page-460.pdf>Page 460 (PDF)</a><br>
+			<li><a href=/courses/3350/page-479.pdf>Page 479 (PDF)</a><br>
+			<li><a href=/courses/3350/page-480.pdf>Page 480 (PDF)</a><br>
+			<li><a href=/courses/3350/page-526.pdf>Page 526 (PDF)</a><br>
+			<li><a href=/courses/3350/page-532.pdf>Page 532 (PDF)</a><br>
+			<li><a href=/courses/3350/page-552.pdf>Page 552 (PDF)</a><br>
+			<li><a href=/courses/3350/page-564.pdf>Page 564 (PDF)</a><br>
+			<li><a href=/courses/3350/page-717.pdf>Page 717 (PDF)</a><br>
+		</span></ul>
+		</td></tr>
+		</table>
+		
+<li><a href="/courses/3350-20122(014)-ex0-stat.pdf">Exam 0 Statistics</a> (PDF)<br>
+
+<!--		      <li><a href="/courses/3350-20112(006)-cor-0.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-000-ac.pdf">Exam 0 Makeup A-C (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-000-dm.pdf">Exam 0 Makeup D-M (PDF)</a><br>
+      <li><a href="/courses/3350-20112(006)-000-pz.pdf">Exam 0 Makeup P-Z (PDF)</a><br> -->
+</ul>
+
+
+Exam I
+<ul>
+      <li><a href="/courses/3350-20122(014)-rvw1.shtml">Review </a><br>
+		 <li><a href="/courses/3350-20122(014)-ex1-summary.pdf">Exam 1 Statistics</a> (PDF)<br>
+      <li><a href="/courses/3350-20122(014)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3350-20122(014)-001-mu-a.pdf">Exam 1-A Makeup (PDF)</a><br>
+      <li><a href="/courses/3350-20122(014)-001-mu-b.pdf">Exam 1-B Makeup (PDF)</a><br>
+      <li><a href="/courses/3350-20122(014)-001-mu-c.pdf">Exam 1-C Makeup (PDF)</a><br>
+</ul>
+
+
+Exam II
+<ul>
+      <li><a href="/courses/3350-20122(014)-rvw2.shtml">Review </a><br>
+			<li><a href="/courses/3350-20122(014)-ex2-summary.pdf">Exam 2 Statistics</a> (PDF)<br>
+      <li><a href="/courses/3350-20122(014)-cor-2.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3350-20122(014)-02ma.pdf">Exam II-A Makeup (PDF)</a><br> 
+      <li><a href="/courses/3350-20122(014)-02mb.pdf">Exam II-B Makeup (PDF)</a><br> 
+
+</ul>
+
+
+Exam III
+<ul>
+      <li><a href="/courses/3350-20122(014)-rvw3.shtml">Review </a><br>
+      <li><a href="/courses/basic laplace transforms.pdf">Basic Laplace Transforms</a> (PDF)<br>
+			<li><a href="/courses/3350-20122(014)-ex3-summary.pdf">Exam 3 Statistics</a> (PDF)<br>
+			<li><a href="/courses/3350-20122(014)-cor-3.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/3350-20122(014)-03m-a.pdf">Exam III-A Makeup (PDF)</a><br>
+      <li><a href="/courses/3350-20122(014)-03m-b.pdf">Exam III-B Makeup (PDF)</a><br>
+</ul>
+
+
+
+Final Exam 
+<ul>
+      <li><a href="/courses/3350-20122(014)-rvw4.shtml">Review </a><br>
+      <li><a href="/courses/3350-20102(012)-fin.pdf">Sample Final Exam (Spring 2010)</a> (PDF)<br>
+</ul> 
+
+
+</ul>
+
+<p>
+
+<ul>
+<li><b>Fall 2012</b>: Math 2360-005, Linear Algebra<br>
+<a href="/courses/2360-20121(005)-syl.pdf">Syllabus (PDF)</a><br>
+<a href="/courses/2360-20121(005)-cal.pdf">Term Calendar (PDF)</a><br>
+<a href="http://www.webassign.net">WebAssign Website</a><br>
+<a href="/courses/WebAssign Access.doc">WebAssign Access Info</a><br><br>
+
+<!--
+
+Notes
+<ul>
+  <li><a href="/courses/linear indep.pdf">Linear Independence Example Worksheet (PDF)</a><br><br>
+</ul>
+-->
+
+
+Exam I
+<ul>
+      <li><a href="/courses/2360-20121(005)-rvw1.shtml">Review </a><br>
+      <li><a href="/courses/2360-20121(005)-exam1-sol.pdf">Solutions Exam 1 (PDF)</a><br>
+			<li><a href="/courses/2360-20121(005)-ex1-stat.pdf">Exam 1 Statistics</a> (PDF)<br>
+      <li><a href="/courses/2360-20121(005)-cor-1.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/2360-20121(005)-01a-m.pdf">Exam I Makeup-A (PDF)</a><br>
+      <li><a href="/courses/2360-20121(005)-01b-m.pdf">Exam I Makeup-B (PDF)</a><br>
+</ul>
+Exam II
+<ul>
+      <li><a href="/courses/2360-20121(005)-rvw2.shtml">Review </a><br>
+<!--
+      <li><a href="/courses/2360-20121(005)-02a.pdf">Exam II Form A (PDF)</a><br>
+      <li><a href="/courses/2360-20121(005)-02b.pdf">Exam II Form B (PDF)</a><br>
+-->
+      <li><a href="/courses/2360-20121(005)-exam2-sol.pdf">Solutions Exam 2 (PDF)</a><br>
+			<li><a href="/courses/2360-20121(005)-ex2-stat.pdf">Exam 2 Statistics</a> (PDF)<br>
+      <li><a href="/courses/2360-20121(005)-cor-2.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/2360-20121(005)-02a-m.pdf">Exam II-A Makeup (PDF)</a><br>
+      <li><a href="/courses/2360-20121(005)-02b-m.pdf">Exam II-B Makeup (PDF)</a><br>
+</ul>
+
+Exam III
+<ul>
+      <li><a href="/courses/2360-20121(005)-rvw3.shtml">Review </a><br>
+<!--
+      <li><a href="/courses/2360-20121(005)-03a.pdf">Exam III Form A (PDF)</a><br>
+      <li><a href="/courses/2360-20121(005)-03b.pdf">Exam III Form B (PDF)</a><br>
+-->
+      <li><a href="/courses/2360-20121(005)-exam3-sol.pdf">Solutions Exam 3 (PDF)</a><br>
+			<li><a href="/courses/2360-20121(005)-ex3-stat.pdf">Exam 3 Statistics</a> (PDF)<br>
+      <li><a href="/courses/2360-20121(005)-cor-3.pdf">Correction Instructions (PDF)</a><br>
+      <li><a href="/courses/2360-20121(005)-03a-m.pdf">Exam III-A Makeup (PDF)</a><br>
+      <li><a href="/courses/2360-20121(005)-03b-m.pdf">Exam III-B Makeup (PDF)</a><br> 
+
+</ul>
+Exam IV
+<ul>
+      <li><a href="/courses/2360-20121(005)-rvw4.shtml">Review </a><br>
+</ul> 
+
+</ul>
+
+
+
+
+
+
+
+
+<hr width = 20% size = 2 align=left>
+
+<p>
+
+A PDF reader, available from <a href="http://www.adobe.com">Adobe</a>, is required to view some of the formated files.
+
+
+<!-- *********************************************************************************** -->
+
+<p>
+
+<hr width = "75%" size = 3>
+
+<p>
+
+<center>
+<img src="/~pearce/images/nav_bar2.gif" alt="Navigation Bar" usemap="#nav_bar" border=0 width=289 height=20>
+
+
+<map name="nav_bar">
+<area shape="rect" alt="Home" coords="3,3,36,16" href="/~pearce/home.shtml">
+<area shape="rect" alt="Vita" coords="40,3,65,16" href="/~pearce/vita.shtml">
+<area shape="rect" alt="Pre-Prints" coords="69,3,117,16" href="/~pearce/preprint.shtml">
+<area shape="rect" alt="Courses" coords="121,3,164,16" href="/~pearce/courses.shtml">
+<area shape="rect" alt="Pre Lims" coords="168,3,209,16" href="/~pearce/prelim.shtml">
+<area shape="rect" alt="Personal" coords="213,3,254,16" HREF="http://cauchy.math.ttu.edu/">
+<area shape="rect" alt="Jokes" coords="258,3,285,16" href="http://cauchy.math.ttu.edu/jokes/jokes.html">
+<area shape="default" nohref>
+</map>
+<p>
+<font size="-1"><a class=link href="/~pearce/home.shtml">Home</a> | <a class=link href="/~pearce/vita.shtml">Vita</a> | <a class=link href="/~pearce/preprint.shtml">Pre-Prints</a> | <a class=link href="/~pearce/courses.shtml">Courses</a> | <a class=link href="/~pearce/prelim.shtml">Pre Lims</a> | <a class=link HREF="http://cauchy.math.ttu.edu/">Personal</a> | <a class=link href="http://cauchy.math.ttu.edu/jokes/jokes.html">Jokes</a></font>
+</center>
+
+
+<p>
+
+<div class=tailer>
+Comments maybe be mailed to: <a class=taillink href=mailto:pearce@math.ttu.edu>kent.pearce@ttu.edu</A>
+</div>
+<p>
+
+<!-- *********************************************************************************** -->
+
+
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="courses.shtml"-->
+</div>
+
+
+</body> 
+
+</html> 

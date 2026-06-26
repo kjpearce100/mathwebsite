@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC -//IETF//DTD HTML 3.0//EN>
+<HTML>
+
+<HEAD>
+
+<TITLE>Texas Tech University: Mathematics & Statistics -- Complex Preliminary Examination Topics</TITLE>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Texas Tech University: Mathematics & Statistics -- Complex Preliminary Examination Topics">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Texas Tech University Mathematics Statistics Complex Preliminary Examination Topics">
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+ 
+<center>
+	<div class=text18red>Complex Preliminary Examination Topics</div>
+</center>
+
+<p>
+
+<ol>
+<li>Complex Number System and
+Extended Complex Plane
+
+<p>
+<li>Properties of Analytic Functions and Harmonic Functions
+
+<ol>
+<li>Cauchy-Riemann Equations
+
+<li>Conformality
+</ol>
+
+<p>
+<li>Power Series and Analyticity
+
+<p>
+<li>Properties of Elementary Functions
+
+<ol>
+<li>Mapping Properties
+
+<li>Branch-of-Log
+	
+<li>Power Functions
+
+<li>M&ouml;bius Transformations
+</ol>
+
+<p>
+<li>Complex Integration
+
+<ol>
+<li> Complex Line Integral	
+	
+<li>Index of a Closed Curve
+
+<li>Cauchy's Theorems
+
+<li>Cauchy Integral Formulae
+
+<li>Morera's Theorem
+	
+<li>Cauchy-Goursat Theorem
+</ol>
+
+<p>
+<li>Properties of Analytic Functions
+
+<ol>
+<li>Zeros of an Analytic Function
+
+<li>Identity Theorem
+
+<li>Open Mapping Theorem
+
+<li>Maximum Modulus Theorem
+
+<li>Schwarz's Lemma
+
+<li>Liouville's Theorem
+
+<li>Fundamental Theorem of Algebra
+</ol>
+
+<p>
+<li>Singularities
+
+<ol>
+<li>Laurent Expansions
+
+<li>Residue Theorem
+
+<li>Argument Principle
+
+<li>Rouch&eacute;'s Theorem
+
+<li>Jensen's Theorem
+</ol>
+
+<p>
+<li>Spaces of Analytic Functions
+
+<ol>
+<li>Normality and Montel's Theorem
+
+<li>Hurwitz's Theorem
+
+<li>Riemann Mapping Theorem
+
+<li>Weierstrass Factorization
+</ol>
+
+<p>
+<li>Spaces of Meremorphic Functions
+
+<ol>
+<li>Runge's Theorem
+
+<li>Mittag-Leffler Theorem
+</ol>
+
+<p>	
+<li>Special Functions
+
+<ol>
+<li>Gamma Function
+
+<li>Beta Function
+
+<li>Zeta Function
+</ol>
+
+<p>
+<li>Harmonic Functions
+
+<ol>
+<li>Dirichlet Problem
+
+<li>Mean-Value Theorem
+
+<li>Maximum Principle
+
+<li>Poisson Formula
+
+<li>Harnack's Theorem
+
+<li>Green's Function
+</ol>
+
+<p>
+<li>Analytic Continuation
+
+<ol>
+<li>Schwarz Reflection Principle
+
+<li>Schwarz-Christoffel Formula
+</ol>
+
+</ol>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="complex_prelim_topics.shtml"-->
+</div>
+
+
+</body> 
+
+</html> 

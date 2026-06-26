@@ -1,0 +1,136 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Reading</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Reading">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce -- Reading">
+
+
+<!--#include file="head1.shtml"-->
+
+<center><div class=text18red>Reading</div></center><p>
+
+<CENTER>
+<TABLE width="80%">
+<TR valign="top">
+<TD width="50%">
+<div class=text12blue>Mystery, Suspense</div>
+<UL>
+<LI>Margery Allignham
+	<ul>
+	<li>Albert Campion Series
+	</ul>
+<LI>Desmond Bagley
+<LI>Dick Francis
+	<ul>
+	<li>Generic Theme: Racing
+	</ul>
+<LI>Dorothy Gilman
+	<ul>
+	<li>Mrs. Pollifax Series
+	</ul>
+<LI>Clarence Kelland
+<LI>Alistair MacLean
+<LI>Helen McInnis
+<LI>Elizabeth Peters (alias Barbara Michaels)
+	<ul>
+	<li>Amelia Peabody Series
+	</ul>
+<LI>Mary Stewart
+<LI>Rex Stout
+	<ul>
+	<li>Nero Wolfe Series
+	</ul>
+</UL>
+<p>
+
+<div class=text12blue>Germanic Translations</div>
+<UL>
+<LI>Alexandre Dumas
+	<ul>
+	<li>Der Graf von Monte Cristo
+	<li>Die Drei Musketiere
+	</ul>
+</UL>
+<p>
+
+<div class=text12blue>Other</div>
+<UL>
+<LI>Paul Gallico
+</UL>
+</TD>
+<TD width="50%">
+<div class=text12blue>Science Fiction, Fantasy</div>
+<UL>
+<LI>Issac Asimov
+	<ul>
+	<li>Foundation Series
+	</ul>
+<LI>Terry Brooks
+	<ul>
+	<li>Magic Kingdom of Landover Series
+	<li>Series:  The Heritage of Shannara
+	</ul>
+	<LI>Stephen R. Donaldson
+	<ul>
+	<li>Series:  Mordiant's Need
+	<li>Series:  The Chronicles of Thomas Covenant
+	</ul>
+<li>Dave Duncan
+	<ul>
+	<li>Series:  A Man of His Word
+	<li>Series:  A Handful of Men
+	</ul>
+<LI>David Eddings
+	<ul>
+	<li>Series:  The Belgariad
+	<li>Series:  The Malloreon
+	<li>Series:  The Tamuli
+	<li>Series:  The Elenium
+	</ul>
+<LI>Randall Garrett
+	<ul>
+	<li>Magician Series
+	</ul>
+	</LI>
+<LI>Keith Laumer
+	<ul>
+	<li>Retief Series
+	</ul>
+<LI>Anne McCaffrey
+	<ul>
+	<li>Chronicles of Pern
+	</ul>
+<LI>James H. Schmitz
+<LI>William Shatner
+	<ul>
+	<li>Tek Series
+	</ul>
+<LI>J. R. R. Tolkien
+	<ul>
+	<li>Series:  Lord of the Rings
+	</ul>
+</UL>
+</TD>
+</TR>
+</TABLE>
+
+</CENTER>
+
+<!--#include file="tail.shtml"-->
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="reading.shtml"-->
+</div>
+
+
+</body> 
+
+</html> 

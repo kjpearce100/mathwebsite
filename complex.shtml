@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Complex Analysis Visualization Websites</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Complex Analysis Visualization Websites">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Complex Analysis Visualization Websites">
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+<center>
+	<div class=text18red>Complex Analysis Visualization Websites</div>
+</center>
+
+<UL>
+				<li><a href="http://www.falstad.com/complexviewer/" > Javascript adaption of "Complex Mapping Viewer"</a> -- <a href="http://www.falstad.com/mathphysics.html">Paul Falstad</a> used <a href="https://sourceforge.net/projects/swingjs/">SwingJS</a> to convert the Java-based applet "Complex Function Viewer" into Javascript.
+<p>					
+        <li><A HREF="http://www.math.ttu.edu/~pearce/complex/complexviewer.html" >Complex Mapping Viewer</a> -- Kent Pearce (modificaiton of Java applet <a href="http://www.sunsite.ubc.ca/LivingMathematics/V001N01/UBCExamples/ComplexViewer/complex.html">Complex Function Viewer</A> by by Keith Orpen and Djun M. Kim)
+<p>
+        <li><A HREF="http://www.math.ttu.edu/~pearce/julia/julia.html" >Julia and Mandelbrot Explorer </a> -- Julia Thrower, Clarke Scholar, Texas Tech University, 2001.
+<p>
+        <li><A HREF="http://www.ima.umn.edu/~arnold/complex-g.html" >Graphics for complex analysis </A> -- Douglas N. Arnold
+<p>
+        <li><A HREF="http://www-acc.scu.edu/~ffarris/complex.html" >Complex function visualization</A>
+<p>
+        <li><A HREF="http://aleph0.clarku.edu/~djoyce/julia/explorer.html" >Mandelbrot and Julia Set Explorer</A>
+</UL>
+
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="complex.shtml"-->
+</div>
+
+
+</body> 
+
+</html> 

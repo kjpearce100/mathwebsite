@@ -1,0 +1,322 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//Dtd HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Curriculum Vitae</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Curriculum Vitae">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Curriculum Vitae">
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+<center>
+	<div class=text18red>Curriculum Vitae</div>
+</center>
+
+<ul>
+
+<li><h4>Academic or Professional Positions</h4></li>
+
+   <table width=80%>
+      <tr  valign=top>
+         <td align=left><span class=text>September 2009 - August 2015 </span></td>
+         <td align=left><span class=text>Texas Tech University<br>
+                                         Department of Mathematics &amp; Statistics<br>
+                                         Chair</span></td>
+      </tr>
+      <tr  valign=top>
+         <td align=left><span class=text>September 2008 - September 2009 </span></td>
+         <td align=left><span class=text>Texas Tech University<br>
+                                         Department of Mathematics &amp; Statistics<br>
+                                         Interim Chair</span></td>
+      </tr>
+      <tr valign=top>
+         <td align=left><span class=text>September 1997 - August 2015 </span></td>
+         <td align=left><span class=text>Texas Tech University<br>
+                                         Professor</span></td>
+      </tr>
+      <tr  valign=top>
+         <td align=left><span class=text>July 1991- September 2008 </span></td>
+         <td align=left><span class=text>Texas Tech University<br>
+                                         Department of Mathematics<br>
+                                         Associate Chair</span></td>
+      </tr>
+      <tr  valign=top>
+         <td align=left><span class=text>January-December 1987</span></td>
+         <td align=left><span class=text>Institute Teknologi MARA<br>
+                                         Texas International Education Consortium <br>
+                                         (Shah Alam, Malaysia)</span></td>
+      </tr>
+      <tr  valign=top>
+         <td align=left><span class=text>September 1986-August 1997</span></td>
+         <td align=left><span class=text>Texas Tech University<br>
+                                         Associate Professor </span></td>
+      </tr>
+      <tr  valign=top>
+         <td align=left><span class=text>September 1980-August 1986 </span></td>
+         <td align=left><span class=text>Texas Tech University <br>
+                                         Assistant Professor </span></td>
+      </tr>
+   </table>
+   
+   <p>
+
+<li><h4>Education</h4></li>
+
+
+   <table width=80%>
+      <tr  valign=top>
+         <td><span class=text>August 1975-May 1980</span></td>
+         <td><span class=text>State University of New York at Albany<br>
+                              Ph.D., Mathematics<br>
+                              Advisor: Louis Brickman</span></td>
+      </tr>
+      <tr  valign=top>
+         <td><span class=text>September 1972-April 1975</span></td>
+         <td><span class=text>Brigham Young University<br>
+                              M.S., Mathematics<br>
+                              Advisor: Douglas Campbell</span></td>
+      </tr>
+      <tr  valign=top>
+         <td><span class=text>July 1969-May 1972</span></td>
+         <td><span class=text>Brigham Young University<br>
+                              B.S., Mathematics</span></td>
+      </tr>
+      <tr  valign=top>
+         <td><span class=text>September 1966-March 1967</span></td>
+         <td><span class=text>Utah State University<br>
+                              &nbsp;</span></td>
+      </tr>
+   </table>
+   
+   <p>
+
+<li><h4>Research and/or Creative Activity</h4></li>
+
+   <ul>
+
+   <li><u>Published Research and Research Accepted for Publication:</u>
+
+      <p>
+   
+      <OL>
+
+      <li><a href="preprint.shtml#bpt">"When is Tail Mean Estimation More Efficient than Tail Median? Answers and Implications for Quantitative Risk Management"</a> <i>Annals of Operation Research</i>, <b>262</b> (2018), 47-65, with R.W. Barnard and A.A. Trindade.
+      <li><a href="preprint.shtml#bps3">"Iceberg-type Problems: Estimating Hidden Parts of a Continuum from the Visible Parts"</a> <i>Mathematische Nachricthen</i> <b>285</b> (2012), 2042-2058, with R.W. Barnard and A.Y. Solynin.
+      <li><a href="preprint.shtml#Campbell">"A Proof of Campbell's Subordination Conjecture"</a> <i>Complex Variables and Elliptic Equations</i> <b>54</b> (2009), 103-117, with R.W. Barnard.
+      <li><a href="preprint.shtml#bp">"The Verification of an Inequality"</a> <i>Journal of Analysis (Geometric Function Theory, Special Functions and Applications)</i> <b>15</b> (2007), 17-41, with Roger W. Barnard.
+      <li><a href="preprint.shtml#bcpw">"A Sharp Bound on the Schwarzian Derivatives of Hyperbolically Convex Functions"</a> <i>Proceeding of the London Mathematical Society</i> <b>93</b> (2006), 395-417, with Roger W. Barnard, Leah Cole and G. Brock Williams.
+      <li><a href="preprint.shtml#bop">"A Variational Method For Hyperbolically Convex Functions"</a> <i>Complex Variables and Elliptic Equations</i> <b>51</b> (2006), 313-327, with Roger W. Barnard and G. Lenny Ornas.
+      <li><a href="preprint.shtml#bpw">"Three Extremal Problems for Hyperbolically Convex Functions"</a> <i>Computational Methods and Function Theory</i> <b>4</b> (2004), 97-109, with R.W. Barnard and G.B. Williams.
+      <li><a href="preprint.shtml#bps2">"Area, Width, And Logarithmic Capacity Of Convex Sets"</a> <i>Pacific Journal of Mathematics</i> <b>212</b> (2003), 13-23 with Roger W. Barnard and Alex Yu. Solynin.
+      <li><a href="preprint.shtml#bps">"An Isoperimetric Inequality for Logarithmic Capacity"</a> <i>Annales Academiae Scientiarium Fennicae Mathematica</I> <b>27</b> (2002), 419-436, with Roger W. Barnard and Alex Yu. Solynin.
+      <li><a href="preprint.shtml#journal">"Creating a Refereed Electronic Mathematics Journal"</a> <i>ICTCM</i> 13<sup>th</sup> (2001) 160-164, with G.A. Harris and S. Cooper.
+      <li><a href="preprint.shtml#zeros">"Zeros of Ces&#224;ro Sum Approximations"</a> <i>Complex Variables. Theory and Application.  An International Journal</i> <b>45</b> (2001), 327-348, with Roger W. Barnard and William Wheeler.
+      <li><a href="preprint.shtml#schov">"Inequalities for the Perimeter of an Ellipse"</a> <i>Journal of Mathematical Analysis and  Applications</i> <b>260</b> (2001) 295-306, with Roger W. Barnard and Lawrence Schovanec.
+      <li><a href="preprint.shtml#survey">"A Survey of Applications of the Julia Variation"</a> <EM>Annales Universitatis Marie Curie-Sklodowska Lublin-Polonia</EM>, <B>54</B> (2000), 1-20, with Roger W. Barnard and Carolynn Campbell.
+      <li><a href="preprint.shtml#classic">"A Monotonicity Property Involving <sub>3</sub><i>F</i><sub>2</sub> and Comparisons of Classical Approximations of Ellipitcal Arc Length"</a> <i>SIAM J. Math. Anal.</i> <b>32</b> (2000) 403-419, with Roger W. Barnard and Kendall Richards.
+      <li><a href="preprint.shtml#muir">"An Inequality Involving the Generalized Hypergeometric Function and the Arc Length of an Ellipse"</a> <i>SIAM J. Math. Anal.</i> <b>31</b> (2000) 693-699, with Roger W. Barnard and Kendall Richards.
+      <li><a href="preprint.shtml#exams">"The Effects of Placement Examinations and Enforcing Prerequisites on Student Success in Entry-Level Mathematics Courses"</a> <EM>Proceedings 1998 ASEE/GSW</em> (1998) 171-176, with R.M. Anderson.
+      <li><a href="preprint.shtml#cesaro">"Ces&#224;ro Sum Approximations of Outer Functions"</a> <em>Annuales Universitatis Mariae Curie-Sklodowska, Sec A Mathematica</em>, <b>52</b> (1998) 1-7, with Roger W. Barnard and Joe Cima.
+      <li><A href="preprint.shtml#gram">"Gram Polynomials and the Kummer Function"</a>  <EM>Journal of Approximation Theory</EM>, <b>94</b> (1998) 128-143, with Roger W. Barnard, G. Dahlquist, L. Reichel and Kendall C. Richards.
+      <li><A href="preprint.shtml#brannan">"On a Coefficient Conjecture of Brannan"</a>  <EM>Complex Variables. Theory and Application.  An International Journal</EM>, <b>33</b> (1997) 51-61, with Roger W. Barnard and William Wheeler.
+      <li><A href="preprint.shtml#short">"A Short Proof of a Conjecture on the Integral Means of the Derivative of a Convex Function"</a> <EM>Annales Universitatis Marie Curie-Sklodowska Lublin-Polonia</EM>, <B>48</B> (1994), 1-5, with Roger W. Barnard.
+      <li><A href="preprint.shtml#szego">"An Application from the Partial Sums of e<sup><i>z</i></sup> to a Problem in Several Complex Variables"</a> <EM>Journal of  Computational and Applied Mathematics</EM>, <B>46</B> (1993) 271-279, with Roger W. Barnard and Richard S. Varga. 
+      <li><A href="preprint.shtml#sharp">"Sharp Bounds on the <i>H<sub>p</sub></i> Means of the Derivative of a Convex Function for <i>p</i> = -1"</a> <EM>Complex Variables. Theory and Application.  An International Journal</EM>, <B>21</B> (1993) 149-158, with Roger W. Barnard.
+      <li><A href="preprint.shtml#poly">"Polynomials with Nonnegative Coefficients"</a> <EM>Proceedings of the American Mathematical Society</EM>, <B>113</B> (1991) 77- 86, with Roger W. Barnard, W. P. Dayawansa and David Weinberg.
+      <li><A href="preprint.shtml#gearlike">"A Constructive Method for Numerically Computing Conformal Mappings for Gearlike Domains"</a> <EM>SIAM Journal on Scientific and Statistical Computing</EM>, <B>12</B> (1991) 231-246.
+      <li><A href="preprint.shtml#sums">"Sums of Exponentials with Polynomial Coefficients"</a> <EM>Applied Mathematics and Computation</EM>, <B>40</B> (1990) 33-39, with Clyde F. Martin and John Miller.
+      <li><A href="preprint.shtml#numerical">"Numerical Solution of Positive Sum Exponential Equations"</a> <EM>Applied Mathematics and Computation</EM>, <B>34</B> (1989) 89-93, with Clyde F. Martin and John Miller.
+      <li><A href="preprint.shtml#parameter">"Parameter Identification by Continuation Methods"</a> <EM>Applied Mathematics and Computation</EM>, <B>34</B> (1989) 17-27, with Clyde F. Martin and John Miller.
+      <li><A href="preprint.shtml#rounding">"Rounding Corners of Gearlike Domains and the Omitted Area Problem"</a> <EM>Journal of Computational and Applied Mathematics</EM>, <B>14</B> (1986) 217-226, with Roger W. Barnard.  Also, appeared in <EM>Numerical Conformal Mapping</em>, North Holland, 1986.
+      <li><A href="preprint.shtml#Robinson">"A Note on a Problem of Robinson"</a> <EM>Proceedings of the American Mathematical Society</EM>, <B>89</B> (1983), 623-627.
+      <li><A href="preprint.shtml#product">"A Product Theorem for <i>F<sub>p</sub></i> Classes and an Application"</a> <EM>Proceedings of the American Mathematical Society</EM>, <B>84</B> (1982), 509-515.
+      <li><A href="preprint.shtml#new">"New Support Points of <i>S</i> and Extreme Points of <i>HS</i>"</a> <EM>Proceedings of the American Mathematical Society</EM>, <B>81</B> (1981), 425-428.
+      <li><A href="preprint.shtml#Bazilevic">"Generalized Bazilevic Functions"</a> <EM>The Rocky Mountain Journal of Mathematics</EM>, <B>9</B> (1979), 197-226, with Douglas M. Campbell.
+      
+      </OL>
+
+      <br><br>   
+   
+<!-- <li><u>Submitted Research/Research in Progress:</u></li>
+
+      <p>
+   
+      <OL>
+ 
+     	
+      </OL>
+   
+  
+      <br><br>   -->
+   
+<li><u>Funded Research:</u>
+
+      <p>
+
+      <ul>
+         <li>"Complex Analysis, Potential Theory, Special Functions and Applications", (with Roger W. Barnard, G. Brock Williams and Alexander Yu. Solynin), NSF $10,447, November 2014-October 2015.
+         <li>"South Plains Mathematics Fellows", (with J. Dwyer, G. Brock Williams, K. Cohlmia, M. Wade), NSF $645,030, June 2014-May 2019.
+         <li>"South Plains Mathematics Scholars", (with Michael O'Boyle, Monty J. Strauss (P.I.), Magdalena Toda, G. Brock Williams), NSF $571,580, October 2007-September 2012.
+         <li>"Growing the Graduate Program", (with Carl Seaquist and G. Brock Williams), Graduate School, TTU, $22,000, October 2008-July 2009.   
+         <li>"Conferences on Complex Analysis Circle Packing and Applications", (with Alexander Yu. Solynin and G. Brock Williams (P.I.)), NSF $15,784, November 2007-October 2008.   
+         <li>"Web Site Dedicated to the Collegiate Mathematics Preparation of Preservice K-12 Teachers:  A Development and Installation Project at Texas Tech", (with Gary A. Harris (P.I.), Robert E. Byerly, et al.), NSF $16,148, June 1997-August 1997.
+         <li>"Mathematical Sciences Computational Research Environment", (with Clyde F. Martin (P.I.), Roger W. Barnard, et al.), NSF $38,672, TTU: 100% matching funds, September 1996-August 1999.
+         <li>"Computing Environment for Mathematics and Medicine", (with Clyde F. Martin (P.I.), Roger W. Barnard, et al.), Digital Equipment Corporation: $80,000, TTU: 100% matching funds, March 1996-February 1999.
+         <li>Travel support to attend "Communicating Mathematics with Hypertext" at The Geometry Center, Univeristy of Minnesota, $500, June 1996.
+         <li>"Enhancing Mathematics Remediation at Texas Tech", Texas Tech Fund 2005, $940, January 1996-September 1996.
+      
+      </ul>
+
+      <br><br>   
+   
+<li><u>Participation at Professional Meetings:</u></li>
+
+      <p>
+   
+      <ul>
+
+         <li>Invited addresses:</li>
+
+         <p>
+         
+         <ul>
+            
+            <li>California State University at Fresno, "<a href="papers/verification-fresno.ppt">Use of Computer Technology for Insight and Proof</a>," Fresno, California, September 2010.  (PPT)
+            <li>Brigham Young University, "<a href="papers/verification-provo.ppt">Verification of Inequalities</a>," Provo, Utah, January 2008.  (PPT)
+            <li>International Conference on Geometric Function Theory, Special Functions and Applications, "<a href="papers/verification-pondicherry.ppt">The Verification of an Inequality</a>," Pondicherry, India, January 2006. (PPT)
+            <li>International Workshop on Quasiconformal Mappings and their Applications, "<a href="papers/verification-chennai.ppt">The Verification of an Inequality</a>," Chennai, India, December 2005. (PPT)
+            <li>Session on Conformal Mapping and Grid Generation, 14th IMACS World Congress on Computation and Applied Mathematics, "Rounding Corners for Polygonal Domains," Atlanta, Georgia, July 1994.
+            <li>Universiti Sains Malaysia, Minden, "Several Methods in Numerical Conformal Mapping," Penang, Malaysia, May 1987.
+         
+         </ul>
+   
+		   <p>
+
+         <li>Conference presentations:</li>
+
+         <p>
+   
+         <ul>
+         
+            <li>MAA Session on Collaborations between Two-Year and Four-Year Institutions that Create Pathways to a Math Major, "<a href="papers/kp_ams_sanantonio.pptx">South Plains Mathematics Fellow Program: A partnership to attract new STEM students as mathematics majors</a>," San Antonio, Texas, January 2015. (PPT)
+            <li>MAA Session on Effective Strategies and Programs for Mentoring Women and Minorities in Mathematics, "<a href="papers/kp_ams_sandiego.pptx">Mentoring Paradigms for Underrepresented Groups in STEM Scholarship Programs</a>," San Diego, California, January 2013. (PPT)
+            <li>Session of 2012 Texas Section MAA Meetings, "<a href="papers/kp_maa_dallas.ppt">Mentoring Paradigms in Undergraduate STEM Scholarship Programs</a>," Dallas, Texas, March 2012. (PPT)
+            <li>AMS Special Session on Use of Technology in Modern Complex Analysis Research, "<a href="papers/verification-san francisco.ppt">Use of Computer Technology for Insight and Proof</a>," San Francisco, California, January 2010. (PPT)
+            <li>One and Several Complex Variables, "<a href="papers/campbells-conjecture.ppt">Majorization-subordination theorems for locally univalent functions. IV: A Verification of Campbell’s Conjecture</a>," University of Kentucky, May 2008. (PPT)
+            <li>Special Session of AMS Sectional Meeting #1006, "<a href="papers/three-extremal-problems.ppt">Three Extremal Problems for Hyperbolically Convex Functions</a>," Lubbock, Texas, April 2005. (PPT)
+            <li>Session of AMS 102nd Annual Meeting (chaired), "Geometric Properties Inherited by Approximating Cesaro Sums," Orlando, Florida, January 1996.
+            <li>MAA Poster Session of Annual Meeting, "NSF ILI Project:  A Computing Classroom Laboratory for UNdergraduate Mathematics Instruction," Orlando, Florida, January 1996.
+            <li>Session of AMS 101st Annual Meeting, "A Short Proof of an Integral Means Conjecture for Convex Functions," San Francisco, California, January 1995.
+            <li>Session of AMS 98th Annual Meeting, "Verification of an Integral Means Conjecture of Ruscheweyh with an Application to the Krzyz Conjecture," Baltimore, Maryland, January 1992. 
+            <li>Session of AMS 97th Annual Meeting (chaired), "Square Iterable Univalent Functions," San Francisco, California, January 1991.
+            <li>Session of AMS 806th Meeting, "Omitted Area for Starlike Functions," Fairfield, Connecticut, October 1983.
+            <li>Session of AMS 87th Summer Meeting, "On Rounding Corners," Albany, New York, August 1983.
+            <li>Session of AMS 89th Annual Meeting, "A Problem of Robinson," Denver, Colorado, January 1983.
+            <li>Session of AMS 88th Annual Meeting, "An Update on the Radius of Starlikeness of R," Cincinnati, Ohio, January 1982.
+            <li>Session of AMS 87th Annual Meeting (chaired), "A Problem of F. John for Non-univalent Functions," San Francisco, California, January 1981.
+            <li>Special Session of AMS 84th Summer Meeting, "New Support Points of S and Extreme Points of HS," Ann Arbor, Michigan, August 1980.
+         
+         </ul>
+
+		<p>
+
+   		<li>Conferences attended:</li>
+
+      <p>
+
+      <ul>
+          <li>NSF-CBMS Regional Conference, "Scientific Computations on Mathematical Conjectures," Butler University, Indianapolis, Indiana, June 1989.
+          <li>AMS-SIAM Summer Seminar, "Computational Solution of Nonlinear Systems of Equations," Colorado State University, Fort Collins, Colorado, July 1988.
+          <li>Special Year in Complex Analysis--Session on Geometric Function Theory, University of Maryland at College Park, College Park, Maryland, September 1985.
+          <li>Special Conference to Celebrate the Proof of the Bieberbach Conjecture, Purdue University, West Lafayette, Indiana, March 1985.
+      </ul>
+
+   
+      </ul>
+
+      <br><br>   
+   
+<li><u>Software Development:</u></li>
+
+      <p>
+
+      <ul>
+         <li>GLPACK:  a software package, modeled on Trefethen's SCPACK, for numerically computing the conformal mapping from the standard domain (the unit disk) to a "gearlike" domain.  The package GLPACK is publicly available at Email: <a href="mailto:netlib@research.att.com ">netlib@research.att.com</a> 
+      </ul>
+
+</ul>
+
+   <p>
+
+<li><h4>Teaching</h4>
+
+   <ul>
+
+      <li><u>Direction of graduate students:</u></li>
+
+      <p>
+
+      <ul>
+         <li>Erwin, Brock, M.S., Thesis: <i>The Usefulness of Non-University Tests as Substitutes for the Math Placement Exam</i>, 2007 (co-chair Petros Hadjicostas)
+         <li>Flores, Raymond, M.S., Thesis: <i>Psychometric Analyses of a Mathematics Placement Exam</i>, 2007 (co-chair Arturo Olivarez)  
+         <li>Williams, Alexander, M.S., Thesis: <i>Power Series Coefficients of Some Classical Functions</i>, 2006 (co-chair Roger W. Barnard)  
+         <li>Ornas, Lenny, Ph.D., Thesis: <i>Maximum distortion results for hyperolically convex functions</i>, 2003 (co-chair Roger W. Barnard)
+         <li>Richardson, Clint, Ph.D., Thesis: <i>Concentration of Area in Half-planes</i>, 2002 (co-chair Roger W. Barnard)
+         <li>Butler (Cole), Leah, Ph.D., Thesis: <i>Applications of special function theory to complex analysis</i>, 2002 (co-chair Roger W. Barnard)
+         <li>Robinson, Jeff, M.S., Thesis: <i>Controlling Zeros of Interpolating Series</i>, 2001 (co-chair Roger W. Barnard)
+         <li>Campos, Richard, M.S., Thesis: <i>Majorization and Pseudo-subordination of a Class of Analytic Functions</i>, 2000 (co-chair Roger W. Barnard)
+         <li>Cole, Leah, M.S., Thesis: <i>Applications of Matrix Theory to Approximation Theory</i>, 1999 (co-chair Roger W. Barnard)
+         <li>Wheeler, William, Ph.D., Thesis: <i>On Properties of the Zeros of the Ces&#224;ro Approximants to Outer Functions</i>, 1998 (co-chair Roger W. Barnard)</li>
+         <li>Campbell, Carolyn Marie,  M.S., Thesis: <i>Variational Methods in Geometric Function Theory</i>, 1996 (co-chair Roger W. Barnard)</li>
+         <li>Lee, Jonathan Todd, Ph.D., Thesis: <i>Radius of Convexity of Parametrized Transforms of Univalent Functions</i>, 1994 (co-chair Roger W. Barnard)
+
+      </ul>
+      
+
+      <br><br>   
+   
+		<li><u>Conferences attended:</u></li>
+
+      <p>
+
+      <ul>
+					<li>4th National Conference on the Training and Employment of Graduate Teaching Assistants, "Teaching Graduate Students to Teach: Engaging the Disciplines", Chicago, Illinois, November 1993.
+					<li>International Conference on Technology in Collegiate Mathematics, Portland, Oregon, November 1991.
+					<li>Conference on Technology, San Jacinto College District, Houston, Texas, June 1991.
+					<li>National Association for Developmental Education Conference, Nashville, Tennessee, March 1991.
+      </ul>
+
+   </ul>
+        
+</ul>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="vita.shtml"-->
+</div>
+
+</body>
+</html> 
+
+
+
+
+
+

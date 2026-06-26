@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Complex Analysis Preliminary Examinations</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Complex Analysis Preliminary Examinations">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Complex Analysis Preliminary Examinations">
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+<center>
+	<div class=text18red>Complex Analysis Preliminary Examinations</div>
+</center>
+
+<p>
+
+<center>
+<table border=5 width=50%>
+<tr bgcolor="b9FFFF"><td align=center width=20%><span class=text><b>Year</b></span></td><td align=center colspan=2><span class=text><b>Format</b></span></td></tr>
+<tr><td align=center width=20%><div>1990</div></td><td align=center width=20%><div><a href="prelim/1990prelim.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/1990prelim.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>1991</div></td><td align=center width=20%><div><a href="prelim/1991prelim.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/1991prelim.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>1992</div></td><td align=center width=20%><div><a href="prelim/1992prelim.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/1992prelim.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>1993</div></td><td align=center width=20%><div><a href="prelim/1993prelim.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/1993prelim.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>1994</div></td><td align=center width=20%><div><a href="prelim/1994prelim.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/1994prelim.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>1995</div></td><td align=center width=20%><div><a href="prelim/1995prelim.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/1995prelim.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>1996</div></td><td align=center width=20%><div><a href="prelim/1996prelim.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/1996prelim.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>1997</div></td><td align=center width=20%><div><a href="prelim/1997prelim.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/1997prelim.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>1998</div></td><td align=center width=20%><div><a href="prelim/1998prelim.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/1998prelim.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>1999</div></td><td align=center width=20%><div><a href="prelim/1999prelim.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/1999prelim.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2000</div></td><td align=center width=20%><div><a href="prelim/2000prelim.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2000prelim.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2001</div></td><td align=center width=20%><div><a href="prelim/2001prelim.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2001prelim.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2002-May</div></td><td align=center width=20%><div><a href="prelim/2002prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2002prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2002-Aug</div></td><td align=center width=20%><div><a href="prelim/2002prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2002prelim-aug.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2003-May</div></td><td align=center width=20%><div><a href="prelim/2003prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2003prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2003-Aug</div></td><td align=center width=20%><div><a href="prelim/2003prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2003prelim-aug.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2004-May</div></td><td align=center width=20%><div><a href="prelim/2004prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2004prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2004-Aug</div></td><td align=center width=20%><div><a href="prelim/2004prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2004prelim-aug.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2005-May</div></td><td align=center width=20%><div><a href="prelim/2005prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2005prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2005-Aug</div></td><td align=center width=20%><div><a href="prelim/2005prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2005prelim-aug.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2006-May</div></td><td align=center width=20%><div><a href="prelim/2006prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2006prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2006-Aug</div></td><td align=center width=20%><div><a href="prelim/2006prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2006prelim-aug.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2007-May</div></td><td align=center width=20%><div><a href="prelim/2007prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2007prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2007-Aug</div></td><td align=center width=20%><div><a href="prelim/2007prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2007prelim-aug.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2008-May</div></td><td align=center width=20%><div><a href="prelim/2008prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2008prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2008-Aug</div></td><td align=center width=20%><div><a href="prelim/2008prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2008prelim-aug.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2009-May</div></td><td align=center width=20%><div><a href="prelim/2009prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2009prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2009-Aug</div></td><td align=center width=20%><div><a href="prelim/2009prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2009prelim-aug.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2010-May</div></td><td align=center width=20%><div><a href="prelim/2010prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2010prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2010-Aug</div></td><td align=center width=20%><div><a href="prelim/2010prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2010prelim-aug.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2011-May</div></td><td align=center width=20%><div><a href="prelim/2011prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2011prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2011-Aug</div></td><td align=center width=20%><div><a href="prelim/2011prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2011prelim-aug.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2012-May</div></td><td align=center width=20%><div><a href="prelim/2012prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2012prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2012-Aug</div></td><td align=center width=20%><div><a href="prelim/2012prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2012prelim-aug.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2013-May</div></td><td align=center width=20%><div><a href="prelim/2013prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2013prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2013-Aug</div></td><td align=center width=20%><div><a href="prelim/2013prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2013prelim-aug.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2014-May</div></td><td align=center width=20%><div><a href="prelim/2014prelim-may.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2014prelim-may.ps">PS</a></div></td>
+<tr><td align=center width=20%><div>2014-Aug</div></td><td align=center width=20%><div><a href="prelim/2014prelim-aug.pdf">PDF</a></div></td><td align=center width=20%><div><a href="prelim/2014prelim-aug.ps">PS</a></div></td>
+</table>
+</center>
+
+
+<p>
+<a href=complex_prelim_topics.shtml>Topics Summary for Prelim Preparation</a><br>
+<a href=prelim.xls>Summary of Prelim Problem Distribution</a> (Excel Spreadsheet)
+
+<p>
+
+<hr width = 20% size = 2 align=left>
+
+<p>
+
+A PDF reader, available from <a href="http://www.adobe.com">Adobe</a>, is required to view some of the formated files.
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="complex_prelim.shtml"-->
+</div>
+
+
+</body> 
+
+</html> 

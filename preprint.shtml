@@ -1,0 +1,352 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Pre-Prints</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Pre-Prints">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Pre-Prints">
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+ 
+<center>
+	<div class=text18red>Pre-prints</div>
+</center>
+
+<OL>
+<li><a Name="bpt">"When is Tail Mean Estimation More Efficient than Tail Median? Answers and Implications for Quantitative Risk Management"</a> with R.W. Barnard and A.A. Trindade.
+   <ul>
+   <li><A HREF="abstract.shtml#bpt">Abstract</A></li>
+   <li><A HREF="papers/bpt.pdf">PDF Format</A></li>
+   <li><A HREF="papers/bpt.ps">Postscript Format</A></li>
+   <li><A HREF="papers/bpt.tex">LaTeX Source File</A></li>
+   <li><A HREF="papers/bpt-images.zip">Images for LaTeX File</A></li>
+   </ul><p>
+<p>
+<li><a Name="bps3">"Iceberg-type Problems: Estimating Hidden Parts of a Continuum from the Visible Parts"</a> with R.W. Barnard and A.Y. Solynin.
+   <ul>
+   <li><A HREF="abstract.shtml#bps3">Abstract</A></li>
+   <li><A HREF="papers/bps3.pdf">PDF Format</A></li>
+   <li><A HREF="papers/bps3.ps">Postscript Format</A></li>
+   <li><A HREF="papers/bps3.tex">LaTeX Source File</A></li>
+   <li><A HREF="papers/bps3-images.zip">Images for LaTeX File</A></li>
+   </ul><p>
+<p>
+
+<li><a Name="Campbell">"A Proof of Campbell's Subordination Conjecture"</a> with R.W. Barnard.
+   <ul>
+   <li><A HREF="abstract.shtml#Campbell">Abstract</A></li>
+   <li><A HREF="papers/bp1.pdf">PDF Format</A></li>
+   <li><A HREF="papers/bp1.ps">Postscript Format</A></li>
+   <li><A HREF="papers/bp1.tex">LaTeX Source File</A></li>
+   <li><A HREF="papers/bp1-images.zip">Images for LaTeX File</A></li>
+   <p>
+   Referenced Maple Worksheets:
+   <p>   
+   <li><a href="papers/campbell-maple-substep1.mws">campbell-maple-substep1.mws</a>: verify that H(c,x,a) has no local extreme point on $O_r$
+   <li><a href="papers/campbell-maple-substep2a.mws">campbell-maple-substep2a.mws</a>: verify substep2 on set E(r)+
+   <li><a href="papers/campbell-maple-substep2b.mws">campbell-maple-substep2b.mws</a>: verify substep2 on set E(r)-
+   <li><a href="papers/campbell-maple-substep3.mws">campbell-maple-substep3.mws</a>: verify that H(c,x,a) has no local extreme point on $O_x$
+   <li><a href="papers/campbell-maple-substep4a.mws">campbell-maple-substep4a.mws</a>: verify substep4 on set E(x)+
+   <li><a href="papers/campbell-maple-substep4b.mws">campbell-maple-substep4b.mws</a>: verify substep4 on set E(x)-
+   <li><a href="papers/campbell-maple-substep5.mws">campbell-maple-substep5.mws</a>: verify that $h_3$ is an upper bound for H(c,x,a) on the x=m boundary of $O_x$
+   </ul><p>
+<p>
+
+<li><a Name="bp">"The Verification of an Inequality"</a> with R.W. Barnard.
+   <ul>
+   <li><A HREF="abstract.shtml#bp">Abstract</A></li>
+   <li><A HREF="papers/bp.pdf">PDF Format</A></li>
+   <li><A HREF="papers/bp.ps">Postscript Format</A></li>
+   <li><A HREF="papers/bp.tex">LaTeX Source File</A></li>
+   <li><A HREF="papers/bp-images.zip">Images for LaTeX File</A></li>
+   </ul><p>
+<p>
+
+<li><a Name="bcpw">"A Sharp Bound on the Schwarzian Derivatives of Hyperbolically Convex Function"</a> with R.W. Barnard, L. Cole and G.B. Williams.
+   <ul>
+   <li><A HREF="abstract.shtml#bcpw">Abstract</A></li>
+   <li><A HREF="papers/bcpw.pdf">PDF Format</A></li>
+   <li><A HREF="papers/bcpw.ps">Postscript Format</A></li>
+   <li><A HREF="papers/bcpw.tex">LaTeX Source File</A></li>
+   <li><A HREF="papers/bcpw-images.zip">Images for LaTeX File</A></li>
+   </ul><p>
+<p>
+
+<li><a Name="bop">"A Variational Method For Hyperbolically Convex Functions"</a> with R.W. Barnard and G.L. Ornas
+   <ul>
+   <li><A HREF="abstract.shtml#bop">Abstract</A></li>
+   <li><A HREF="papers/bop-final.pdf">PDF Format</A></li>
+   <li><A HREF="papers/bop.ps">Postscript Format</A></li>
+   <li><A HREF="papers/bop.tex">LaTeX Source File</A></li>
+   <li><A HREF="papers/bop-images.zip">Images for LaTeX File</A></li>
+   </ul><p>
+<p>
+
+<li><a Name="bpw">"Three Extremal Problems for Hyperbolically Convex Functions"</a> with R.W. Barnard and G.B. Williams.
+   <ul>
+   <li><A HREF="abstract.shtml#bpw">Abstract</A></li>
+   <li><A HREF="papers/bpw.pdf">PDF Format</A></li>
+   <li><A HREF="papers/bpw.ps">Postscript Format</A></li>
+   <li><A HREF="papers/bpw.tex">LaTeX Source File</A></li>
+   <li><A HREF="papers/bpw-images.zip">Images for LaTeX File</A></li>
+   </ul><p>
+<p>
+
+<li><a Name="bps2">"Area, Width, And Logarithmic Capacity Of Convex Sets"</a> with R.W. Barnard and A.Y. Solynin.
+   <ul>
+   <li><A HREF="abstract.shtml#bps2">Abstract</A></li>
+   <li><A HREF="papers/bps2.pdf">PDF Format</A></li>
+   <li><A HREF="papers/bps2.ps">Postscript Format</A></li>
+   <li><A HREF="papers/bps2.tex">LaTeX Source File</A></li>
+   <li><A HREF="papers/bps2-images.zip">Images for LaTeX File</A></li>
+   </ul><p>
+<p>
+
+<li><a Name="bps">"An Isoperimetric Inequality for Logarithmic Capacity,"</a> with R.W. Barnard and A.Y. Solynin.
+   <ul>
+   <li><A HREF="abstract.shtml#bps">Abstract</A></li>
+   <li><A HREF="papers/bps.pdf">PDF Format</A></li>
+   <li><A HREF="papers/bps.ps">Postscript Format</A></li>
+   <li><A HREF="papers/bps.tex">LaTeX Source File</A></li>
+   <li><A HREF="papers/bps-images.zip">Images for LaTeX File</A></li>
+   </ul><p>
+<p>
+
+<li><a Name="journal">"Creating a Refereed Electronic Mathematics Journal,"</a> with G.A. Harris and S. Cooper.
+   <ul>
+   <li><A HREF="abstract.shtml#journal">Abstract</A></li>
+   <li><A HREF="papers/journal.pdf">PDF Format</A></li>
+   <li><A HREF="papers/journal.ps">Postscript Format</A></li>
+   <li><A HREF="papers/journal.doc">MS Word Source File</A></li>
+   </ul><p>
+<p>
+
+<li><a Name="survey">"A Survey of Applications of the Julia Variation,"</a> with R.W. Barnard and C. Campbell.
+   <UL>
+   <li><A HREF="abstract.shtml#survey">Abstract</A></li>
+   <li><A HREF="papers/survey.pdf">PDF Format</A></li>
+   <li><A HREF="papers/survey.ps">Postscript Format</A></li>
+   <li><A HREF="papers/survey.tex">LaTeX Source File</A></li>
+   <li><A HREF="papers/survey-images.zip">Images for LaTeX File</A></li>
+   </ul><p>
+<p>
+
+<li><a Name="schov">"Inequalities for the Perimeter of an Ellipse,"</a> with R.W. Barnard and L. Schovanec.
+   <UL>
+   <li><A HREF="abstract.shtml#schov">Abstract</A></li>
+   <li><A HREF="papers/schov.pdf">PDF Format</A></li>
+   <li><A HREF="papers/schov.ps">Postscript Format</A></li>
+   <li><A HREF="papers/schov.tex">LaTeX Source File</A></li>
+   </ul><p>
+<p>
+
+<li><a Name="zeros">"Zeros of Ces&#224;ro Sum Approximations,"</a> with R.W. Barnard and W. Wheeler.
+   <UL>
+   <li><A HREF="abstract.shtml#zeros">Abstract</A></li>
+   <li><A HREF="papers/zeros.pdf">PDF Format</A></li>
+   <li><A HREF="papers/zeros.ps">Postscript Format</A></li>
+   <li><A HREF="papers/zeros.tex">LaTeX Source File</A></li>
+   </ul><p>
+<p>
+<li><a Name="classic">"A Monotonicity Property Involving <sub>3</sub><i>F</i><sub>2</sub> and Comparisons of Classical Approximations of Ellipitcal Arc Length"</a>, with R.W. Barnard and K. Richards.
+   <UL>
+   <li><A HREF="abstract.shtml#classic">Abstract</A></li>
+   <li><A HREF="papers/classic-final.pdf">PDF Format</A></li>
+   <li><A HREF="papers/classic.ps">Postscript Format</A></li>
+   <li><A HREF="papers/classic.tex">LaTeX Source File</A></li>
+   </ul><p>
+<p>
+<li><a Name="exams">"The Effects of Placement Examinations and Enforcing Prerequisites on Student Success in Entry-Level Mathematics Courses"</a>, with R.M. Anderson.
+   <UL>
+   <li><A HREF="abstract.shtml#exams">Abstract</A></li>
+   <li><A HREF="papers/exams.pdf">PDF Format</A></li>
+   <li><A HREF="papers/exams.ps">Postscript Format</A></li>
+   </ul><p>
+<p>
+<li><a Name="muir">"An Inequality Involving the Generalized Hypergeometric Function and the Arc Length of an Ellipse"</a>, with R.W. Barnard and K. Richards.
+   <UL>
+   <li><A HREF="abstract.shtml#muir">Abstract</A></li>
+   <li><A HREF="papers/muir-final.pdf">PDF Format</A></li>
+   <li><A HREF="papers/muir.ps">Postscript Format</A></li>
+   <li><A HREF="papers/muir.tex">LaTeX Source File</A></li>
+   </ul><p>
+<p>
+<LI><a Name="cesaro">"Ces&#224;ro Sum Approximations of Outer Functions,"</a> with R.W. Barnard and J. Cima.
+   <UL>
+   <li><A HREF="abstract.shtml#cesaro">Abstract</A></li>
+   <li><A HREF="papers/cesaro.pdf">PDF Format</A></li>
+   <li><A HREF="papers/cesaro.ps">Postscript Format</A></li>
+   <li><A HREF="papers/cesaro.tex">LaTeX Source File</A></li>
+   </ul><p>
+<p>
+<LI><A Name="gram">"Gram Polynomials and the Kummer Function"</a> with R.W. Barnard, 
+G. Dahlquist, L. Reichel and K.C. Richards
+   <UL>
+   <li><A HREF="abstract.shtml#gram">Abstract</A></li>
+   <li><A HREF="papers/gram.pdf">PDF Format</A></li>
+   <li><A HREF="papers/gram.ps">Postscript Format</A></li>
+   <li><A HREF="papers/gram.tex">LaTeX Source File</A></li>
+   </ul><p>
+</li>
+
+<LI><A Name="brannan">"On a Coefficient Conjecture of Brannan"</a> with R.W. Barnard 
+and W. Wheeler
+   <UL>
+   <li><A HREF="abstract.shtml#brannan">Abstract</A></li>
+   <li><A HREF="papers/brannan.pdf">PDF Format</A></li>
+   <li><A HREF="papers/brannan.ps">Postscript Format</A></li>
+   <li><A HREF="papers/brannan.tex">LaTex Source File</A></li>
+   </ul><p>
+</li>
+
+
+<LI><A Name="short">"A Short Proof of a Conjecture on the Integral Means of the
+Derivative of a Convex Function"</a> with R.W. Barnard
+   <UL>
+   <li><A HREF="abstract.shtml#short">Abstract</A></li>
+   <li><A HREF="papers/short.pdf">PDF Format</A></li>
+   <li><A HREF="papers/short.ps">Postscript Format</A></li>
+   <li><A HREF="papers/short.tex">LaTex Source File</A></li>
+   </ul><p>
+</li>
+
+<LI><A Name="szego">"An Application from the Partial Sums of e<sup><i>z</i></sup> to a Problem in 
+Several Complex Variables"</a> with R.W. Barnard and R.S. Varga
+   <UL>
+   <li><A HREF="abstract.shtml#szego">Abstract</A></li>
+   <li><A HREF="papers/szego.pdf">PDF Format</A></li>
+   </ul><p>
+</li>
+
+
+<LI><A Name="sharp">"Sharp Bounds on the <i>H<sub>p</sub></i> Means of the Derivative of a 
+Convex Function for <i>p</i> = -1"</a> with R.W Barnard
+   <UL>
+   <li><A HREF="abstract.shtml#sharp">Abstract</A></li>
+   <li><A HREF="papers/sharp.pdf">PDF Format</A></li>
+   <li><A HREF="papers/sharp.ps">Postscript Format</A></li>
+   <li><A HREF="papers/sharp.tex">LaTex Source File</A></li>
+   <li><A HREF="papers/sharp-images.zip">Images for LaTeX File</A></li>
+   </ul><p>
+</li>
+
+<LI><A Name="poly">"Polynomials with Nonnegative Coefficients"</a> with R.W. Barnard, 
+W. Dayawansa and D. Weinberg
+   <UL>
+   <li><A HREF="abstract.shtml#poly">Abstract</A></li>
+   <li><A HREF="papers/poly.pdf">PDF Format</A></li>
+   <li><A HREF="papers/poly.ps">Postscript Format</A></li>
+   <li><A HREF="papers/poly.tex">LaTex Source File</A></li>
+   <li><A HREF="papers/poly-images.zip">Images for LaTeX File</A></li>
+   </ul><p>
+</li>
+
+<LI><A Name="gearlike">"A Constructive Method for Numerically Computing Conformal
+Mappings for Gearlike Domains"</a>
+   <UL>
+   <li><A HREF="abstract.shtml#gearlike">Abstract</A></li>
+   <li><A HREF="papers/gearlike.pdf">PDF Format</A></li>
+   <li><A HREF="papers/gearlike.ps">Postscript Format</A></li>
+   <li><A HREF="papers/gearlike.tex">LaTex Source File</A></li>
+   <li><A HREF="papers/gearlike-images.zip">Images for LaTeX File</A></li>
+   </ul><p>
+</li>
+
+<LI><A Name="rounding">"Rounding Corners of Gearlike Domains and the Omitted Area
+Problem"</a> with R.W. Barnard
+  <UL>
+   <li><A HREF="abstract.shtml#rounding">Abstract</A></li>
+   <li><A HREF="papers/rounding.pdf">PDF Format</A></li>
+  </ul><p>
+</li>
+
+<LI><A Name="sums">"Sums of Exponentials with Polynomial Coefficients"</a> with
+C.F. Martin and J. Miller
+  <UL>
+   <li><A HREF="abstract.shtml#sums">Abstract</A></li>
+   <li><A HREF="papers/sumexp.pdf">PDF Format</A></li>
+  </ul><p>
+</li>
+
+<LI><A Name="numerical">"Numerical Solution of Positive Sum Exponential
+Equations"</a> with C.F. Martin and J. Miller
+  <UL>
+   <li><A HREF="abstract.shtml#numerical">Abstract</A></li>
+   <li><A HREF="papers/numerical.pdf">PDF Format</A></li>
+   <li><A HREF="papers/numerical.ps">Postscript Format</A></li>
+   <li><A HREF="papers/numerical.tex">LaTex Source File</A></li>
+  </ul><p>
+</li>
+
+<LI><A Name="parameter">"Parameter Identification by Continuation Methods"</a> with
+C.F. Martin and J. Miller
+<UL>
+   <li><A HREF="abstract.shtml#parameter">Abstract</A></li>
+   <li><A HREF="papers/parameter.pdf">PDF Format</A></li>
+  </ul><p>
+</li>
+
+<LI><A Name="Robinson">"A Note on a Problem of Robinson"</a>
+  <UL>
+   <li><A HREF="abstract.shtml#Robinson">Abstract</A></li>
+   <li><A HREF="papers/robinson.pdf">PDF Format</A></li>
+  </ul><p>
+</li>
+
+<LI><A Name="product">"A Product Theorem for <i>F<sub>p</sub></i> Classes and an
+Application"</a>
+  <UL>
+   <li><A HREF="abstract.shtml#product">Abstract</A></li>
+   <li><A HREF="papers/product.pdf">PDF Format</A></li>
+  </ul><p>
+</li>
+
+<LI><A Name="new">"New Support Points of <i>S</i> and Extreme Points of
+<i>HS</i></a>
+<UL>
+   <li><A HREF="abstract.shtml#new">Abstract</A></li>
+   <li><A HREF="papers/newsupp.pdf">PDF Format</A></li>
+  </ul><p>
+</li>
+
+<LI><A Name="Bazilevic">"Generalized Bazilevic Functions"</a> with D.M.
+Campbell
+  <UL>
+   <li><A HREF="abstract.shtml#Bazilevic">Abstract</A></li>
+   <li><A HREF="papers/bazilevic.pdf">PDF Format</A></li>
+  </ul><p>
+</li>
+
+</OL>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="preprint.shtml"-->
+</div>
+
+</body>
+</html> 
+
+
+
+
+
+

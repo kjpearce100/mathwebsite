@@ -1,0 +1,38 @@
+<!-- *********************************************************************************** -->
+
+<br><br>
+
+<hr width = "75%" size = 3>
+
+<br><br>
+
+<center>
+<img src="/~pearce/images/nav_bar2.gif" alt="Navigation Bar" usemap="#nav_bar" border=0 width=289 height=20>
+
+
+<map name="nav_bar">
+<area shape="rect" alt="Home" coords="3,3,36,16" href="/~pearce/home.shtml">
+<area shape="rect" alt="Vita" coords="40,3,65,16" href="/~pearce/vita.shtml">
+<area shape="rect" alt="Pre-Prints" coords="69,3,117,16" href="/~pearce/preprint.shtml">
+<area shape="rect" alt="Courses" coords="121,3,164,16" href="/~pearce/courses.shtml">
+<area shape="rect" alt="Pre Lims" coords="168,3,209,16" href="/~pearce/prelim.shtml">
+<area shape="rect" alt="Links" coords="213,3,254,16" HREF="/~pearce/bookmarks.html">
+<area shape="rect" alt="Jokes" coords="258,3,285,16" href="/~pearce/jokes1/jokes.html">
+<area shape="default" nohref>
+</map>
+<p>
+<font size="-1"><a class=link href="/~pearce/home.shtml">Home</a> | <a class=link href="/~pearce/vita.shtml">Vita</a> | <a class=link href="/~pearce/preprint.shtml">Pre-Prints</a> | <a class=link href="/~pearce/courses.shtml">Courses</a> | <a class=link href="/~pearce/prelim.shtml">Pre Lims</a> | <a class=link HREF="/~pearce/bookmarks.html">Links</a> | <a class=link href="/~pearce/jokes1/jokes.html">Jokes</a></font>
+</center>
+
+
+<p>
+
+<div class=tailer>
+Comments maybe be mailed to: <a class=taillink href=mailto:pearce@math.ttu.edu>kent.pearce@ttu.edu</A>
+</div>
+<p>
+
+<!-- *********************************************************************************** -->
+
+
+

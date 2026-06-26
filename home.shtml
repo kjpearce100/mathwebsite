@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Home Page</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Home Page">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Home Page">
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+<center>
+	<div class=text18red>Home Page</div>
+	<div class=text6>&nbsp;</div>
+</center>
+
+<center>
+	
+<table width=800><tr valign=top><td width=40%>
+
+        <UL>
+           <LI><A class=link href="vita.shtml">Curriculum Vitae</A><p></LI>
+           	
+           <LI><A class=link href="preprint.shtml">Pre-Prints</A><p></LI>
+           	
+           <LI><A class=link href="courses.shtml">Courses (Syllabi, Homework, Exams, Links)</A><p></LI>
+           	
+           <LI><a class=link href="complex.shtml">Complex Analysis Visualization Websites</a><p></LI>
+           	
+           <LI><a class=link href="prelim.shtml">Preliminary Examinations (Web Reference)</a><p></LI>
+           	
+           <LI><A class=link href="bookmarks.html">Links</A><p></LI>
+           	
+           <LI><A class=link href="jokes1/jokes.html">Jokes</A><p></LI>
+           	
+           <LI><span class=text10a>Interests</span><p></LI>
+           	
+           		 <ul>
+						<li><a class=link href="http://www.lds.org">Church</a><p></li>
+<!--							
+							<ul>
+								<li><span class=text10a>Family History Training</span><p></li>
+								
+									<ul>
+										<li><a class=link href="fh/Training 2017.pdf">Training 2017</a> <span class=text10a>(pdf)</span> <p></li>
+										<li><a class=link href="fh/Training 2019.pdf">Training 2019</a> <span class=text10a>(pdf)</span> <p></li>
+									</ul>
+									
+							</ul>
+-->               
+               		<li><a class=link href="iris/iris.html">Iris</a></a><p></li>
+               
+               		<li><a class=link href="http://quiltingsisters.blogspot.com">Quilting</a></a><p></li>
+               		
+               		<ul>
+               			<li><a class=link href="quilts/quilts.html">Office Quilts</a><p></li>
+               		</ul>
+               </ul>
+           
+        </UL>
+
+</td><td align=center width=40%>
+
+					<table bgcolor="yellow" border=1 cellpadding=5><tr><td><span class=text10a>
+					Consider the sequence:  <br><br>
+					&nbsp;&nbsp;2,4,6,30,32,34,36,40,42,44,46,50,52,54,56,60,62,64,66, . . . <br><br>
+					What comes next?
+					<!--<p>
+					<div onClick="openClose('a1')" class="mainExpand">Answer</div>
+					<div id="a1" class="texter">
+					31 (<a href=sequence.shtml>Solution</a>)
+					</div>
+				  </div>-->
+					</span>
+					</td></tr></table>
+										
+					<iframe frameborder=0 width=450 height=300 src="/~pearce/jokes/jokes.php"></iframe>
+					
+
+</td></tr></table>
+</center>
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="home.shtml"-->
+</div>
+
+
+</body> 
+
+</html> 

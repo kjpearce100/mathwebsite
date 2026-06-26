@@ -1,0 +1,163 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Home Page</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Sequence">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Sequence">
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+ 
+<center>
+	<div class=text18red>Sequence</div>
+</center>
+
+<p>
+<center>
+<table width=800>
+
+<tr><td colspan=3><span class=text18>
+The sequence <font color="red">1, 2, 4, 8, 16, . . . </font> is generated as follows:<br>&nbsp;<br>&nbsp;</span>
+</td></tr>
+
+
+<tr><td colspan=4><span class=text18>
+For each integer <i>n</i>, consider <i>n</i> distinct distinguished points on the boundary of a circle.  
+Next, draw all possible secant lines between all such distinguished points.  Count the number of regions 
+into which the interior of the circle has been divided by the drawn secant lines.  The <i>n</i><sup>th</sup> 
+value of the sequence is the maximum number of such regions over all possible distributions of <i>n</i> 
+distinct distinguished points on the boundary of a circle.</span>
+</td></tr>
+
+<tr><td colspan=2><span class=text18>
+<font color="red">1, . . . </font><br>
+For <i>n</i> = 1, one point is placed on the boundary of the circle. No possible secant lines can be drawn.  
+The maximum (and minimum) number of regions into which the interior of the circle can be divided is 1.</span>
+</td><td colspan=2><img src=/~pearce/seq/seq_1.gif width=450 height=450></td></tr>
+
+<tr><td colspan=2><span class=text18>
+<font color="red">1, 2,. . . </font><br>
+For <i>n</i> = 2, two points are placed on the boundary of the circle. Exactly one secant line can be drawn.  
+The maximum (and minimum) number of regions into which the interior of the circle can be divided is 2.</span>
+</td><td colspan=2><img src=/~pearce/seq/seq_2.gif width=450 height=450></td></tr>
+
+<tr><td colspan=2><span class=text18>
+<font color="red">1, 2, 4, . . . </font><br>
+For <i>n</i> = 3, three points are placed on the boundary of the circle. Exactly three secant lines can be drawn.  
+The maximum (and minimum) number of regions into which the interior of the circle can be divided is 4.</span>
+</td><td colspan=2><img src=/~pearce/seq/seq_3.gif width=450 height=450></td></tr>
+
+<tr><td colspan=2><span class=text18>
+<font color="red">1, 2, 4, 8, . . . </font><br>
+For <i>n</i> = 4, four points are placed on the boundary of the circle. Exactly six secant lines can be drawn.  
+The maximum (and minimum) number of regions into which the interior of the circle can be divided is 8.</span>
+</td><td colspan=2><img src=/~pearce/seq/seq_4.gif width=450 height=450></td></tr>
+
+<tr><td colspan=2><span class=text18>
+<font color="red">1, 2, 4, 8, 16, . . . </font><br>
+For <i>n</i> = 5, five points are placed on the boundary of the circle. Exactly ten secant lines can be drawn.  
+The maximum (and minimum) number of regions into which the interior of the circle can be divided is 16.</span>
+</td><td colspan=2><img src=/~pearce/seq/seq_5.gif width=450 height=450></td></tr>
+
+<tr><td colspan=2><span class=text18>
+<font color="red">1, 2, 4, 8, 16, 31, . . . </font><br>
+For <i>n</i> = 6, six points are placed on the boundary of the circle. Exactly 15 secant lines can be drawn.  
+The maximum number of regions into which the interior of the circle can be divided is 31.  </span>
+</td><td colspan=2><img src=/~pearce/seq/seq_6a.gif width=450 height=450></td></tr>
+
+<tr><td colspan=2><span class=text18>
+(If the points are symmetrically distributed then the center triangular region may degenerate into an intesection
+point of the secant lines and only 30 regions will exist.)</span>
+</td><td colspan=2><img src=/~pearce/seq/seq_6b.gif width=450 height=450></td></tr>
+
+
+<tr><td colspan=4><span class=text18>
+					<table><tr><td>&nbsp;</td><td>
+					<table bgcolor="yellow" border=1><tr><td><span class=text10a>
+					Problem:  For <i>n</i> = 7, find the the next value of the sequence.
+					<p>
+					<div onClick="openClose('a1')" class="mainExpand">Answer</div>
+					<div id="a1" class="texter">
+					57
+					</div>
+					</span>
+					</td></tr></table>
+					</td></tr></table>
+</td></tr>
+
+<tr><td colspan=4><span class=text18>
+					<table><tr><td>&nbsp;</td><td>
+					<table bgcolor="yellow" border=1><tr><td><span class=text10a>
+					Problem:  For <i>n</i> = 8, find the the next value of the sequence.
+					<p>
+					<div onClick="openClose('a2')" class="mainExpand">Answer</div>
+					<div id="a2" class="texter">
+					I don't know
+					</div>
+					</span>
+					</td></tr></table>
+					</td></tr></table>
+</td></tr>
+
+</table>
+</center>
+                      
+<p>
+
+<!-- *********************************************************************************** -->
+
+<p>
+
+<hr width = "75%" size = 3>
+
+<p>
+
+<center>
+<img src="/~pearce/images/nav_bar2.gif" alt="Navigation Bar" usemap="#nav_bar" border=0 width=289 height=20>
+
+
+<map name="nav_bar">
+<area shape="rect" alt="Home" coords="3,3,36,16" href="/~pearce/home.shtml">
+<area shape="rect" alt="Vita" coords="40,3,65,16" href="/~pearce/vita.shtml">
+<area shape="rect" alt="Pre-Prints" coords="69,3,117,16" href="/~pearce/preprint.shtml">
+<area shape="rect" alt="Courses" coords="121,3,164,16" href="/~pearce/courses.shtml">
+<area shape="rect" alt="Pre Lims" coords="168,3,209,16" href="/~pearce/prelim.shtml">
+<area shape="rect" alt="Personal" coords="213,3,254,16" HREF="http://cauchy.math.ttu.edu/">
+<area shape="rect" alt="Jokes" coords="258,3,285,16" href="http://cauchy.math.ttu.edu/jokes/jokes.html">
+<area shape="default" nohref>
+</map>
+<p>
+<font size="-1"><a class=link href="/~pearce/home.shtml">Home</a> | <a class=link href="/~pearce/vita.shtml">Vita</a> | <a class=link href="/~pearce/preprint.shtml">Pre-Prints</a> | <a class=link href="/~pearce/courses.shtml">Courses</a> | <a class=link href="/~pearce/prelim.shtml">Pre Lims</a> | <a class=link HREF="http://cauchy.math.ttu.edu/">Personal</a> | <a class=link href="http://cauchy.math.ttu.edu/jokes/jokes.html">Jokes</a></font>
+</center>
+
+
+<p>
+
+<div class=tailer>
+Comments maybe be mailed to: <a class=taillink href=mailto:pearce@math.ttu.edu>kent.pearce@ttu.edu</A>
+</div>
+<p>
+
+<!-- *********************************************************************************** -->
+
+
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="home.shtml"-->
+</div>
+
+
+</body> 
+
+</html> 
