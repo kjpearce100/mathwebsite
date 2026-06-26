@@ -1,0 +1,34 @@
+BODY {
+       font-family:      Verdana,Arial,Times New;
+       color:            MIDNIGHTBLUE;
+       size:             2;
+       background-color: white;
+     }
+
+DIV {
+       font-family:      Verdana,Arial,Times New;
+       color:            MIDNIGHTBLUE;
+       size:             1;
+       background-color: white;
+     }
+
+
+.toplevel {
+       font-family:      Verdana,Arial,Times New;
+       font-weight:      bold;
+       color:            FIREBRICK;
+       size:             3;
+       align:            center;
+       background-color: white;
+     }
+
+
+.midlevel {
+       font-family:      Verdana,Arial,Times New;
+       font-weight:      bold;
+       color:            MIDNIGHTBLUE;
+       size:             2;
+       align:            center;
+       background-color: white;
+     }
+
