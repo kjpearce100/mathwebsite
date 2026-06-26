@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>primelist.htm</title>
+<!-- Created by Maple 6, IBM INTEL NT -->
+</head>
+<body bgcolor="FFFFFF">
+<basefont size=3>
+<a name="MapleAutoBookmark1">
+<p align=center>
+<font color=#000000>Supplement:  A horizontal list of primes</font>
+</p>
+<p align=left>
+<font color=#000000>See if you can analyze the following MAPLE command sequence prior to executing it.  (Note that    </font>
+<b><font color=#000000>:=</font></b>
+<font color=#000000>   is the standard MAPLE syntax for defining something.)  Then try it to see if it does what you thought it would do.</font>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#FF0000>for i from 1 to 100 <br>
+  do<br>
+    if <br>
+      isprime(i)=true then a[i]:=i else a[i]:=0<br>
+    fi;<br>
+  od;</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#FF0000>Primlist:=[seq(a[i],i=1..100)];</font></b>
+</p>
+<p align=left>
+<img src="temporary/primelist1.gif" width=762 height=20 alt="Primlist := [0, 2, 3, 0, 5, 0, 7, 0, 0, 0, 11, 0, 1...">
+<br>
+<img src="temporary/primelist2.gif" width=764 height=20 alt="Primlist := [0, 2, 3, 0, 5, 0, 7, 0, 0, 0, 11, 0, 1...">
+<br>
+<img src="temporary/primelist3.gif" width=359 height=20 alt="Primlist := [0, 2, 3, 0, 5, 0, 7, 0, 0, 0, 11, 0, 1...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#FF0000>f:=x-&gt;piecewise(x&gt;0,1,0);</font></b>
+</p>
+<p align=center>
+<img src="temporary/primelist4.gif" width=211 height=20 alt="f := proc (x) options operator, arrow; piecewise(0 ...">
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#FF0000>"primes less than 100"=select(f=1,Primlist);</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+<p align=center>
+<img src="temporary/primelist5.gif" width=740 height=20 alt=""primes less than 100" = [2, 3, 5, 7, 11, 13, 17, 1...">
+</p>
+<p align=left>
+</p>
+<p align=left>
+<font color=#000000>What is the function   f   doing? </font>
+</p>
+<p align=left>
+<font color=#000000>To see this try computing some values for f (x) for different values for x, then for </font>
+</p>
+<p align=left>
+<font color=#000000>general x. (eg.  f(0), f(-2), f(1), etc. and finally  f(x) ) </font>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<font color=#000000>Next try plotting the graph of  y=f(x).  Note that because we defined   f   as an opperation</font>
+</p>
+<p align=left>
+<font color=#000000>on the variable   x , sending    x    into something, we must include the notation</font>
+</p>
+<p align=left>
+<font color=#000000>    f(x)   in the plot command given below.</font>
+</p>
+<p align=left>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+<b><font color=#FF0000>plot(f(x),x=-10..10,y=-2..2);</font></b>
+</p>
+<p align=left>
+<tt>&gt; </tt>
+</p>
+</basefont>
+</body>
+</html>
