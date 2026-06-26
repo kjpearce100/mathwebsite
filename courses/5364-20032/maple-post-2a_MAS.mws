@@ -1,0 +1,246 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot
+" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Outpu
+t" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 
+}1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 259 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Normal" -1 260 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 
+261 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 262 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 263 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 264 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 15 "Maple Post Test" }}{PARA 256 "
+" 0 "" {TEXT -1 18 "Part II - In-Class" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 287 "In the text mode (click on the cap T
+ button) place your name(s) and date at the top of your worksheet.   S
+ave your current worksheet as test-01-yourlastname.mws.  Remember to s
+ave frequently to avoid losing data in case that the system would shut
+ down in the middle of a work session!   " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 64 "1.
+  Using Maple, solve the following system of linear equations:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPEDIT 18 0 "-x+y =
+ 2;" "6#/,&%\"xG!\"\"%\"yG\"\"\"\"\"#" }{TEXT -1 0 "" }}{PARA 11 "" 1 
+"" {XPPEDIT 18 0 "-2*x-y = -1;" "6#/,&*&\"\"#\"\"\"%\"xGF'!\"\"%\"yGF)
+,$F'F)" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "sol
+ve(\{-x+y = 2, -2*x-y = -1\},\{x,y\});" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#<$/%\"yG#\"\"&\"\"$/%\"xG#!\"\"F(" }}}{PARA 0 "" 0 "" {TEXT -1 
+4 "    " }}{PARA 0 "" 0 "" {TEXT -1 64 "2.  Using Maple, solve the fol
+lowing system of linear equations:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 11 "" 1 "" {XPPEDIT 18 0 "-x+y-5*z = 2;" "6#/,(%\"xG!\"\"%\"yG\"
+\"\"*&\"\"&F(%\"zGF(F&\"\"#" }{TEXT -1 0 "" }}{PARA 11 "" 1 "" 
+{XPPEDIT 18 0 "-2*x-y = -1;" "6#/,&*&\"\"#\"\"\"%\"xGF'!\"\"%\"yGF),$F
+'F)" }{TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPEDIT 18 0 "x-y+2*z = 1;" "6
+#/,(%\"xG\"\"\"%\"yG!\"\"*&\"\"#F&%\"zGF&F&F&" }{TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 6 "      " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+56 "solve(\{-x+y-5*z = 2,-2*x-y = -1,x-y+2*z = 1\},\{x,y,z\});  " }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#<%/%\"xG#\"\"%\"\"$/%\"zG!\"\"/%\"yG#!
+\"&F(" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 30 "3.  Consider the polynomial:  " }
+{XPPEDIT 18 0 "p := x^3+5*x^2+2*x-8;" "6#>%\"pG,**$%\"xG\"\"$\"\"\"*&
+\"\"&F)*$F'\"\"#F)F)*&F-F)F'F)F)\"\")!\"\"" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "     Find (and identify) each o
+f the following about the graph of  " }{TEXT 261 2 "p." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 56 "    a.   x-intercept
+s of the function                   " }}{PARA 0 "" 0 "" {TEXT -1 104 "
+    b.   regions (intervals) in the domain of the function where the v
+alues of the function are positive" }}{PARA 0 "" 0 "" {TEXT -1 104 "  \+
+  c.   regions (intervals) in the domain of the function where the val
+ues of the function are negative" }}{PARA 0 "" 0 "" {TEXT -1 36 "    d
+.   y-intercept of the function" }}{PARA 0 "" 0 "" {TEXT -1 19 "    e.
+   end limits" }}{PARA 0 "" 0 "" {TEXT -1 41 "    f.    critical point
+s of the function" }}{PARA 0 "" 0 "" {TEXT -1 65 "    g.   local maxim
+um points of the graph of a function y = f(x)" }}{PARA 0 "" 0 "" 
+{TEXT -1 66 "    h.   local minimum points of the graph of a function \+
+y = f(x) " }}{PARA 0 "" 0 "" {TEXT -1 107 "    i.    regions (interval
+s) in the domain of the function where the values of the function are \+
+increasing" }}{PARA 0 "" 0 "" {TEXT -1 107 "    j.    regions (interva
+ls) in the domain of the function where the values of the function are
+ decreasing" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 37 "     Present a plot which shows both " }{TEXT 262 1 "p" }{TEXT 
+-1 44 " and its derivative in the same plot window." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "p := x^3+5
+*x^2+2*x-12;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,**$)%\"xG\"\"$
+\"\"\"F**&\"\"&F*)F(\"\"#F*F**&F.F*F(F*F*\"#7!\"\"" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "p1 := diff
+(p,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#p1G,(*&\"\"$\"\"\")%\"xG
+\"\"#F(F(*&\"#5F(F*F(F(F+F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+32 "plot([p,p1],x=-10..5,y=-50..50);" }}{PARA 13 "" 1 "" {GLPLOT2D 
+434 434 434 {PLOTDATA 2 "6&-%'CURVESG6$7S7$$!#5\"\"!$!$K&F*7$$!3i++](o
+UIn*!#<$!3q#Q())y>#fo%!#:7$$!3++]7y)e&)Q*F0$!39))H\"*f!og<%F37$$!3%)**
+*\\73F'o!*F0$!37kE$oL6uk$F37$$!3'*)**\\(oXdY()F0$!3Yp+I*>d6;$F37$$!3e*
+*\\i:F0E%)F0$!3R6+uWC'4s#F37$$!3s**\\7Gz))G\")F0$!3ceXnZ*4,N#F37$$!3g*
+*\\7.5>@yF0$!3\"ykt%y`<-?F37$$!3_**\\7./(H](F0$!3s^3L0d4z;F37$$!3'***
+\\iS.x&=(F0$!3g8?qyVM#R\"F37$$!3O++](3\"\\foF0$!3\\vS^f!H@8\"F37$$!3%)
+***\\P9/@d'F0$!3\"4eYV'*RZI*!#;7$$!3S****\\7Xd[iF0$!3g-[YhXtCtF`o7$$!3
+V++]PkrBfF0$!3\"eK(=LF5EcF`o7$$!3()****\\([b1h&F0$!36Q,R\"HTWC%F`o7$$!
+3&***\\7`hOE`F0$!3cNn/k(z6>$F`o7$$!3%*****\\P'=$))\\F0$!3!\\s#3;mfo@F`
+o7$$!3Q+++]![>q%F0$!3!o<Zk&pW\"[\"F`o7$$!3a+]7y4$)oVF0$!3/W.G7#Q2p)F07
+$$!3W+++Df'R2%F0$!3gh8!4ig$yZF07$$!3!***\\7GAX]PF0$!3Bgw'Qb+\\#>F07$$!
+3%)**\\P%o!RUMF0$!3Qf_^NXFqU!#=7$$!3)****\\7yg47$F0$\"3OzSW*)**[mg!#>7
+$$!3I**\\i!z(yDGF0$!3VeZ')GYC.HFcr7$$!3p***\\P%QS2DF0$!3%['R<76nV8F07$
+$!37+]7.Cpw@F0$!33+lnf@ewHF07$$!3m+](=72)))=F0$!3Q]h9_j9yYF07$$!3C***
+\\78$)yd\"F0$!3Ksosg*pcj'F07$$!3I+++D#omD\"F0$!3&z!3;d1\"=g)F07$$!3e&*
+**\\i5AC%*Fcr$!3>*=-e\"o5G5F`o7$$!3q++D\"GGPQ'Fcr$!3#f<EGfH*\\6F`o7$$!
+3()3+]P%zx+$Fcr$!3ruF-iHk<7F`o7$$\"3IY*)****\\2mD!#?$!3U`)R4\\$[*>\"F`
+o7$$\"3?)****\\i0XE$Fcr$!3'HXk*>f%z2\"F`o7$$\"39$**\\(o/Q*>'Fcr$!3z7!R
+OV^-g)F07$$\"3Z<++vQ(zS*Fcr$!3]-A/&42-'[F07$$\"3()**\\(=-,FC\"F0$\"350
+^P`iTg7Fcr7$$\"3k+]P4tFe:F0$\"3-*Q]rM[:/(F07$$\"3#*)***\\73\"o'=F0$\"3
+3<N/*yLkc\"F`o7$$\"3=+](oz;)*=#F0$\"3MG6@&[%p&o#F`o7$$\"3\\+++]*44]#F0
+$\"3?+mLcSm\"*RF`o7$$\"3-,+DJw/>GF0$\"3unZ%>yHwd&F`o7$$\"3(3+v=(4bMJF0
+$\"33_NIu)R%>uF`o7$$\"3g,++vdYCMF0$\"3Y.0'[RNUO*F`o7$$\"3K,+Dc3ucPF0$
+\"3#=%H(Qd#)4>\"F37$$\"37******\\;$R0%F0$\"3+*\\c&>X.\\9F37$$\"3C,](=-
+*zqVF0$\"3!)p![Qc-wv\"F37$$\"3w+]7G:3uYF0$\"3[2,*3\">)p3#F37$$\"\"&F*$
+\"$[#F*-%'COLOURG6&%$RGBG$\"#5!\"\"$F*F*Fd[l-F$6$7S7$F($\"$-#F*7$F.$\"
+3-<fFw$G(f=F37$F5$\"3.$4GkC&\\D<F37$F:$\"3#oUQg?P.e\"F37$F?$\"3zEhsV&>
+/W\"F37$FD$\"3$GCK%fcM28F37$FI$\"3S!*zivdZ*=\"F37$FN$\"3G.%34w6I2\"F37
+$FS$\"3q9f#z0*R&e*F`o7$FX$\"3qyn$eF=[])F`o7$Fgn$\"3ayvM1VHcuF`o7$F\\o$
+\"3Qy(Q\"><m&e'F`o7$Fbo$\"35$Qz*=0$[m&F`o7$Fgo$\"3*)3B2#\\3M![F`o7$F\\
+p$\"39eTK75=LSF`o7$Fap$\"3u$o@gw'o%Q$F`o7$Ffp$\"3=c*o7@ymn#F`o7$F[q$\"
+36T'p%*eY08#F`o7$F`q$\"3k%R-lDurb\"F`o7$Feq$\"3<L$=Ce$>06F`o7$Fjq$\"3_
+JL4lM:$p'F07$F_r$\"3BV`'y-ai7$F07$Fer$\"3m(*G=!=y!e6Fir7$F[s$!3,]SJ$*z
+k-BF07$F`s$!3]!=V0L;G@%F07$Fes$!3CNPyxX&Hb&F07$Fjs$!3COG\"y=%H&='F07$F
+_t$!3O&3][y&o4jF07$Fdt$!3c[g#o;P!HeF07$Fit$!3?RRX$yU(fZF07$F^u$!33o]=y
+'o6;$F07$Fcu$!3GIdgJKxjtFcr7$Fhu$\"3=1FA/0oD?F07$F^v$\"3I(ppU`:Ue&F07$
+Fcv$\"3=g&RY,]BN*F07$Fhv$\"3>]!)z/tK19F`o7$F]w$\"3y]d!3x#*f!>F`o7$Fbw$
+\"3/)*)[7wXn[#F`o7$Fgw$\"3'32+af0B6$F`o7$F\\x$\"3ylx.ygSGQF`o7$Fax$\"3
+'>q-M7vsd%F`o7$Ffx$\"36toU&\\cJS&F`o7$F[y$\"3wa(f/\"R<#G'F`o7$F`y$\"3=
+4RCGbbUrF`o7$Fey$\"37*RbXTr1>)F`o7$Fjy$\"3a8:'o>SU=*F`o7$F_z$\"3;/i([U
+'>I5F37$Fdz$\"3E!GfnH>G9\"F37$Fiz$\"$F\"F*-F^[l6&F`[lFd[lFa[lFd[l-%+AX
+ESLABELSG6$Q\"x6\"Q\"yFael-%%VIEWG6$;F(Fiz;$!#]F*$\"#]F*" 1 2 0 1 10 
+0 2 9 1 4 2 1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve 2" }}}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "fsolve(p,x);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6%$!+xz1OK!\"*$!+++++IF%$\"+xz1O7F%" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "fsolve(p1,x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$$!+\")Hj>J!\"*$!+AN+P@!#5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "subs(x=0,p);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!\")
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "subs(x=-3.119632981,p);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"*fs11%!\")" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 23 "subs(x=-.2137003522,p);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$!+N2#)3#)!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 30 "4.  Consider the polynomial:  \+
+" }{XPPEDIT 18 0 "q := x^5-4*x^4-20*x^3+64*x^2+108*x-160;" "6#>%\"qG,.
+*$)%\"xG\"\"&\"\"\"F**&\"\"%F*)F(F,F*!\"\"*&\"#?F*)F(\"\"$F*F.*&\"#kF*
+)F(\"\"#F*F**&\"$3\"F*F(F*F*\"$g\"F." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 67 "     Find (and identify) each of the fo
+llowing about the graph of  " }{TEXT 260 2 "q." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 56 "    a.   x-intercepts of \+
+the function                   " }}{PARA 0 "" 0 "" {TEXT -1 104 "    b
+.   regions (intervals) in the domain of the function where the values
+ of the function are positive" }}{PARA 0 "" 0 "" {TEXT -1 104 "    c. \+
+  regions (intervals) in the domain of the function where the values o
+f the function are negative" }}{PARA 0 "" 0 "" {TEXT -1 36 "    d.   y
+-intercept of the function" }}{PARA 0 "" 0 "" {TEXT -1 19 "    e.   en
+d limits" }}{PARA 0 "" 0 "" {TEXT -1 41 "    f.    critical points of \+
+the function" }}{PARA 0 "" 0 "" {TEXT -1 65 "    g.   local maximum po
+ints of the graph of a function y = f(x)" }}{PARA 0 "" 0 "" {TEXT -1 
+66 "    h.   local minimum points of the graph of a function y = f(x) \+
+" }}{PARA 0 "" 0 "" {TEXT -1 107 "    i.    regions (intervals) in the
+ domain of the function where the values of the function are increasin
+g" }}{PARA 0 "" 0 "" {TEXT -1 107 "    j.    regions (intervals) in th
+e domain of the function where the values of the function are decreasi
+ng" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "   \+
+  Present a plot which shows both " }{TEXT 263 1 "q" }{TEXT -1 44 " an
+d its derivative in the same plot window." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "5.  The following is the graph of \+
+a function  " }{TEXT 264 2 "f " }{TEXT -1 20 " and its derivative " }
+{TEXT 270 1 "g" }{TEXT -1 18 ".  Which graph is " }{TEXT 271 2 "f " }
+{TEXT -1 14 " and which is " }{TEXT 272 1 "g" }{TEXT -1 1 "?" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 259 "" 0 "" {GLPLOT2D 434 434 434 
+{PLOTDATA 2 "6'-%'CURVESG6$7S7$$!#5\"\"!$!$a$F*7$$!3!pmmm\"p0k&*!#<$!3
+;&=dh&*yzD$!#:7$$!3uKL$3<XZ=*F0$!3i'QWe-r=-$F37$$!3WmmmT%p\"e()F0$!3M9
+$ob7cmw#F37$$!3/nmm\"4m(G$)F0$!3G$*3z.jx?DF37$$!3OLL$3i.9!zF0$!3KV&HEf
+\\qG#F37$$!3fmm;/R=0vF0$!39s3J(fW,3#F37$$!3k++]P8#\\4(F0$!3+%Q4QaKe(=F
+37$$!3Kmm;/siqmF0$!3!>0f6lb^n\"F37$$!3Q****\\(y$pZiF0$!3k#)47d>(e[\"F3
+7$$!3jKLL$yaE\"eF0$!3:Oi!f&zO-8F37$$!3<mmm\">s%HaF0$!3#)[C!*zL9]6F37$$
+!3]******\\$*4)*\\F0$!3ED6uV(eJ*)*!#;7$$!3o******\\_&\\c%F0$!3mm2N!3=1
+R)Feo7$$!3%)******\\1aZTF0$!39E2-BC:\\qFeo7$$!3Imm;/#)[oPF0$!3p!*H)f#R
+a@fFeo7$$!3%HLLL=exJ$F0$!3c*eA*=2\"Hp%Feo7$$!3lKLLL2$f$HF0$!3/g$z7Aluu
+$Feo7$$!3%)****\\PYx\"\\#F0$!3awksNqudFFeo7$$!3gLLLL7i)4#F0$!3/d#*HkgV
+!)>Feo7$$!3o)***\\P'psm\"F0$!3E7)Qd>)HM7Feo7$$!3?****\\74_c7F0$!3=([\\
+c))fcF'F07$$!3M:LL$3x%z#)!#=$!3uNK?t%yT-\"F07$$!3()HLL3s$QM%Ffr$\"3Bp
+\\AC+jFGF07$$!3]^omm;zr)*!#?$\"3()oy=$*oZSfF07$$\"3fVLLezw5VFfr$\"3S.A
+Gj\"z*G!)F07$$\"3-.++v$Q#\\\")Ffr$\"3;?GAU/C(*))F07$$\"3%\\LL$e\"*[H7F
+0$\"34tBiyT+U))F07$$\"3=++++dxd;F0$\"3&)H&oaQ$*>q(F07$$\"3e+++D0xw?F0$
+\"3]oOZ4dp@bF07$$\"35,+]i&p@[#F0$\"3glc*R;?&4CF07$$\"3++++vgHKHF0$!3N:
+7QkVI,AF07$$\"3ElmmmZvOLF0$!3eU\"='=&o7Q(F07$$\"3%4+++v+'oPF0$!39q,(Q.
+X&*R\"Feo7$$\"3UKL$eR<*fTF0$!3YKqa%QBb4#Feo7$$\"3K-++])Hxe%F0$!3Q6V(Hk
+T:'HFeo7$$\"3!fmm\"H!o-*\\F0$!3A))oP$orm(QFeo7$$\"3X,+]7k.6aF0$!32m-sp
+E<P\\Feo7$$\"3#emmmT9C#eF0$!3o\\B#=C/n2'Feo7$$\"33****\\i!*3`iF0$!3sNr
+c4M[ytFeo7$$\"3;NLLL*zym'F0$!3/1[g\"))eut)Feo7$$\"3'eLL$3N1#4(F0$!3=+q
+oLrRB5F37$$\"3,pm;HYt7vF0$!3[,%)\\q8Z#=\"F37$$\"37-+++xG**yF0$!3eR6-B^
++Q8F37$$\"3gpmmT6KU$)F0$!3kg4U#R!HF:F37$$\"3qNLLLbdQ()F0$!3QfJbQlc1<F3
+7$$\"3[++]i`1h\"*F0$!3q<*Hbj*33>F37$$\"3A-+]P?Wl&*F0$!3blJ$*=R+6@F37$$
+\"#5F*$!$M#F*-%'COLOURG6&%$RGBG$\")+++!)!\")$\")Vyg>Fb[lFc[l-F$6$7S7$F
+($\"%K7F*7$F.$\"3qe:PH['Q3\"!#97$F5$\"39iK`N2\"zk*F37$F:$\"3u1-a`in8%)
+F37$F?$\"3%Qx$*p`^)ysF37$FD$\"3)zLpVi**=D'F37$FI$\"3MF#z[TEqQ&F37$FN$
+\"3qG)pX,xed%F37$FS$\"3P$Q\"3/s#H#QF37$FX$\"3//a'pN`[:$F37$Fgn$\"3-D#)
+[u%o([DF37$F\\o$\"3g,T+h*p\"z?F37$Fao$\"3?:gn1!>\"=;F37$Fgo$\"3(Rw**G#
+)\\DA\"F37$F\\p$\"3qG<=D=u1!*Feo7$Fap$\"3o@#oY'y<^lFeo7$Ffp$\"3u2pUV'H
+O;%Feo7$F[q$\"3O5/^0%H]b#Feo7$F`q$\"3bs,$GgXZ6\"Feo7$Feq$\"3!*>flLnnj=
+F07$Fjq$!3<X%\\z[(fH]F07$F_r$!3I)=)4^&R(=))F07$Fdr$!3Hf%**=!QOM5Feo7$F
+jr$!3w\\f4]6Fe**F07$F_s$!3Md$f6VP*e!)F07$Fes$!3VH1#*3M;O\\F07$Fjs$!3ek
+aH9gMf;F07$F_t$\"3WoRk:jJ`?F07$Fdt$\"3bxR<IAQNcF07$Fit$\"3h5M*fa*[U%)F
+07$F^u$\"3:Z,T_cM35Feo7$Fcu$\"3F$>%*)=>f<5Feo7$Fhu$\"3i73p,Q7r#)F07$F]
+v$\"3g-4c)Rmcp$F07$Fbv$!3G/doX\\w7JF07$Fgv$!3-HB<3#*4*Q\"Feo7$F\\w$!3C
+R[3v)e@w#Feo7$Faw$!304`9Ews7YFeo7$Ffw$!3U%>hQ1!ouoFeo7$F[x$!3'RFy81!4o
+(*Feo7$F`x$!30MC6m%*o58F37$Fex$!3xo\"*Q+jn7<F37$Fjx$!3a-xzpmFw@F37$F_y
+$!3]XA$R$o8jEF37$Fdy$!3m*fX2\"HT(H$F37$Fiy$!3sZ4v@o\"y$RF37$F^z$!3)=#G
+F*[<5q%F37$Fcz$!3([zNRr+L^&F37$Fhz$!$['F*-F][l6&F_[l$F*F*$\"*++++\"Fb[
+lF_el-%+AXESLABELSG6$Q\"x6\"Q\"yFeel-%*THICKNESSG6#\"\"$-%%VIEWG6$;F(F
+hz;$!$+#F*$\"$+#F*" 1 2 0 1 10 3 2 9 1 4 2 1.000000 45.000000 
+45.000000 0 0 "Curve 1" "Curve 2" }}{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 179 "6.  For the following fu
+nction, provide a plot which shows the graph.  Use the range  -1 < x <
+ 1 and -1 < y < 1.  Rotate, where appropriate, to present a good view \+
+of the graph.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 260 "" 0 "" 
+{XPPEDIT 18 0 "z1 := x*y/(x^2+y^2);" "6#>%#z1G*(%\"xG\"\"\"%\"yGF',&*$
+)F&\"\"#F'F'*$)F(F,F'F'!\"\"" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+179 "7.  For the following function, provide a plot which shows the gr
+aph.  Use the range -2 < x  < 2 and -2 < y < 2.  Rotate, where appropr
+iate, to present a good view of the graph.  " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 261 "" 0 "" {XPPEDIT 18 0 "z2 := sin(x^2+y^2)*(x^2+y^2
+);" "6#>%#z2G*&-%$sinG6#,&*$)%\"xG\"\"#\"\"\"F.*$)%\"yGF-F.F.F.F)F." }
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 192 "8.  For the following function, provide a plot which shows the
+ graph.  Choose reasonable values for the ranges of x, y and z.  Rotat
+e, where appropriate, to present a good view of the graph.  " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 262 "" 0 "" {XPPEDIT 18 0 "x^2+1/9*y^2
++z^2 = 1;" "6#/,(*$)%\"xG\"\"#\"\"\"F)*&\"\"*!\"\"%\"yGF(F)*$)%\"zGF(F
+)F)F)" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 47 "9.  Consider the following system of equations:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 263 "" 0 "" {XPPEDIT 18 0 "eq1 :
+= x^2-2*x-y^2 = 9;" "6#>%$eq1G/,(*$)%\"xG\"\"#\"\"\"F+*&F*F+F)F+!\"\"*
+$)%\"yGF*F+F-\"\"*" }{TEXT -1 0 "" }}{PARA 264 "" 0 "" {XPPEDIT 18 0 "
+eq2 := 1/4*x^2+y^2+2*y = 16;" "6#>%$eq2G/,(*&#\"\"\"\"\"%F)*$)%\"xG\"
+\"#F)F)F)*$)%\"yGF.F)F)*&F.F)F1F)F)\"#;" }{TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }{MPLTEXT 1 0 2 "  " }{TEXT -1 156 "Present a plot \+
+which shows the graphs of both equations on the plot.  Use the range -
+10 < x  < 10 and -10 < y < 10.  How many intersection points are there
+?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 134 "10.
+  Use Maple to find decimal approximations for each of the solutions (
+intersection points) of the system of equations in Problem 9." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{MARK "44 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 
+2 33 1 1 }

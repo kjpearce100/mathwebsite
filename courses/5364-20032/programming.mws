@@ -1,0 +1,100 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+258 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 
+1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 258 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 28 "Maple Programming Supplement" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 102 "(This i
+s not a worksheet to be turned in.  It is only for your information sh
+ould you wish to use it.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 87 "Two Maple programming constructs which often will \+
+come in handy are what we will call  " }{TEXT 256 9 "for loops" }
+{TEXT -1 5 " and " }{TEXT 257 13 "if statements" }{TEXT -1 84 ".   Bot
+h involve concepts and syntax that is very familar to mathematics stud
+ents.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 258 
+9 "for loops" }{TEXT -1 477 "  These are structures that do some repet
+itive calculation based on changing an index by the same size step eac
+h time and repeating the calculation.  For example suppose we wanted t
+o comput the three numbers i, i^2, and i^2+i for each of the integers \+
+i from 10 to 20.  Here is the Maple program for doing this.  [Note whi
+le this entire structure could be written on one line; however, writin
+g it on separate lines renders the form of the structure better.  The \+
+key combination " }{TEXT 259 12 "shift-return" }{TEXT -1 77 " allows y
+ou to go to the next line without Maple trying to compute anything]:" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 43 "for i from 10 to 20\n do\n   i,i^2,i^2+i\n od;" }}}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 84 "Alternately, in a more
+ formal programming style we could render the above process as" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+47 "for i from 10 to 20\n do\n   i,i^2,i^2+i\n end do;" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 422 "We can think of the
+ \"od\" as finishing the \"do\" command or in the formal style \"end d
+o\" as finishing the \"do\".  Again, you could have put all this on on
+e line; however, you may find it easier to follow the logic of such a \+
+program if you use spacing somehow to identify pieces that are related
+ to each other, the \"do\" and the \"od\" for example.  This is more i
+mportant if your programs are nested.  For example let's use two " }
+{TEXT 260 9 "for loops" }{TEXT -1 95 " in conjunction. Before excuting
+ the following program see if you can describe what it will do." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+96 "for i from 5 to 10\n  do\n   for j from i to 10\n     do \n       \+
+print(i,j,lcm(i,j))\n     od;\n  od;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 71 "Notice what happens if you leave off \+
+the print command in this prgram. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 65 "Again in the formal style we could render
+ the above structure as:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 104 "for i from 5 to 10\n  do\n   for j
+ from i to 10\n     do \n       print(i,j,lcm(i,j))\n     end do;\n  e
+nd do;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT 261 13 "if statements" }{TEXT -1 59 "  The \+
+second important programming construct is that of an " }{TEXT 262 12 "
+if statement" }{TEXT -1 51 ", better known to math students as the con
+ditional " }{TEXT 263 17 "if-then statement" }{TEXT -1 28 ".  The gene
+ral syntax is    " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 258 "" 0 "
+" {TEXT -1 165 "                 if  <some statement which Maple can v
+erify>  \n                 then  \n                          <some Map
+le command sequence>  \n                 fi;" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 57 "This can be continued with a al
+ternative \"else\" statement" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 62 "                 if  <some statement which Mapl
+e can verify>  " }}{PARA 0 "" 0 "" {TEXT -1 23 "                 then \+
+ " }}{PARA 0 "" 0 "" {TEXT -1 57 "                          <some Mapl
+e command sequence>  " }}{PARA 0 "" 0 "" {TEXT -1 24 "                \+
+ else   " }}{PARA 0 "" 0 "" {TEXT -1 60 "                          <an
+ alternative command sequence> " }}{PARA 0 "" 0 "" {TEXT -1 24 "      \+
+            fi;   " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 89 "Let's look at two examples.  Again try to guess what will
+ happen prior to executing them." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "if gcd(1002,552) > 1\n then
+\n   print(great)\nfi;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 70 "if gcd(1002,37) > 1\n then \n    pr
+int(great)\n else \n    print(rats)\nfi;" }}}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 86 "Alternately, in a more formal prog
+ramming style we could render the above processes as" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "if gcd(100
+2,552) > 1\n then\n   print(great)\nend if;" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 74 "if gcd(1002,37) > \+
+1\n then \n    print(great)\n else \n    print(rats)\nend if;" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 99 "Now let's combine all into one.  Again guess th
+e output, if possible prior to excuting the program." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 172 "for i fro
+m 1 to 5\n do\n  for j from 1 to 5\n   do\n    if i<j \n    then \n   \+
+     print(i,j,`less`, j-i)\n    else \n        print(i,j,`not less`, \+
+i-j)\n    fi;\n   od;\n od;\n      " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 65 "N
+otice the last value in each line is the absolute value of  i-j." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}
+{PARA 0 "" 0 "" {TEXT -1 2 "  " }}}{MARK "0 0" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

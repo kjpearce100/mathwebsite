@@ -1,0 +1,254 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+297 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+302 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 307 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+308 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 312 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+313 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 316 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 317 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+318 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 321 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 322 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+323 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 327 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 328 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+329 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 331 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 332 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 333 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+334 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 337 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 338 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+339 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 341 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 342 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 343 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+344 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 
+1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT 276 34 "Introduction to Graphing Funct
+ions" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 179 "
+Save your current worksheet as work04-yourlastname.mws.  Remember to s
+ave frequently to avoid losing data in case that the system would shut
+ down in the middle of a work session! " }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 104 "In the text mode (click on the cap \+
+T button) place your name(s) and date at the top of your worksheet.  \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 31 "1.  Graphing functions and the " }{TEXT 
+297 4 "plot" }{TEXT -1 89 " command.  The Maple command for plotting t
+he graph of an explicitly defined function is:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "     " }{TEXT 298 0 "" }
+{TEXT 299 4 "plot" }{TEXT 300 0 "" }{TEXT -1 2 "( " }{TEXT 301 4 "expr
+" }{TEXT -1 2 ", " }{TEXT 307 1 "x" }{TEXT -1 20 "=range [, options]);
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 6 "where \+
+" }{TEXT 302 4 "expr" }{TEXT 308 1 " " }{TEXT -1 24 "is a symbolic exp
+ression" }{TEXT 305 1 " " }{TEXT -1 48 "which represents the function \+
+to be plotted and " }{TEXT 303 1 "x" }{TEXT -1 38 " is the independent
+ variable used in  " }{TEXT 306 4 "expr" }{TEXT -1 25 "  to define the
+ function." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 81 "Several options exist to change way the plot will appear.  Thes
+e options include:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 126 "            y=range                       this allows th
+e user to specifiy the range of output values which Maple will display
+" }}{PARA 0 "" 0 "" {TEXT -1 113 "            thickness=value         \+
+  this controls the thickness of the plotted curve.  value = 1, 2, 3, \+
+4, or 5" }}{PARA 0 "" 0 "" {TEXT -1 119 "            color=value      \+
+           this sets the color of the plotted curve.  value = red, gre
+en, blue, cyan, etc." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 160 "For each of the following functions provide a plot to \+
+represent the graph the function.  Choose a range that will optimally \+
+represent the features of the graph." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 16 "a.    y = 3x - 1" }}{PARA 0 "" 0 "" 
+{TEXT -1 6 "b.    " }{XPPEDIT 18 0 "y = 6*x^2+24*x-8;" "6#/%\"yG,(*&\"
+\"'\"\"\")%\"xG\"\"#F(F(*&\"#CF(F*F(F(\"\")!\"\"" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "c.   " }{XPPEDIT 18 0 "y =
+ ((1+x)/(1-x))^(1/2);" "6#/%\"yG*$*&,&\"\"\"F(%\"xGF(F(,&F(F(F)!\"\"F+
+#F(\"\"#" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 4 "d.  " }{XPPEDIT 18 0 "y = exp(-x^2)/(1+x^2);" "6#/%
+\"yG*&-%$expG6#,$*$)%\"xG\"\"#\"\"\"!\"\"F.,&F.F.F*F.F/" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 229 "2.  Polynomials:  Intercepts and Sign.  There are
+ several features about the graphs of polynomials which are important \+
+to track.  These features inform us about the behavior of the function
+.  Those features include the following:" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 57 "    a.    x-intercepts of the func
+tion                   " }}{PARA 0 "" 0 "" {TEXT -1 129 "             \+
+          Those values where the graph crosses the x-axis.  Those poin
+ts are solutions of the equation y = f(x) = 0." }}{PARA 0 "" 0 "" 
+{TEXT -1 105 "    b.    regions (intervals) in the domain of the funct
+ion where the values of the function are positive" }}{PARA 0 "" 0 "" 
+{TEXT -1 215 "                       Those regions where the graph lie
+s above the x-axis.  For a continuous function, and in particular for \+
+polynomials, these regions are bounded by the intercepts and may stret
+ch to +/- infinity." }}{PARA 0 "" 0 "" {TEXT -1 105 "    c.    regions
+ (intervals) in the domain of the function where the values of the fun
+ction are negative" }}{PARA 0 "" 0 "" {TEXT -1 215 "                  \+
+     Those regions where the graph lies below the x-axis.  For a conti
+nuous function, and in particular for polynomials, these regions are b
+ounded by the intercepts and may stretch to +/- infinity." }}{PARA 0 "
+" 0 "" {TEXT -1 36 "    d.   y-intercept of the function" }}{PARA 0 "
+" 0 "" {TEXT -1 107 "                       The value where the graph \+
+crosses the y-axis.  The value of the function when x = 0." }}{PARA 0 
+"" 0 "" {TEXT -1 19 "    e.   end limits" }}{PARA 0 "" 0 "" {TEXT -1 
+384 "                       For a polynomial, its values will become e
+ither arbitrarily large in a positive sense or arbitrarily large in a \+
+negative sense as the domain values tend to infinity.  Graphically, th
+e values on the graph will growth arbitrarily large positively (go up \+
+off the graph) or arbitrarily large negative (go down off the graph) a
+s the domain values tend to infinity.  " }}{PARA 0 "" 0 "" {TEXT -1 
+87 "                       Similar behavior holds true for approaches \+
+to negative infinity." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 150 "For each of the following polynomials,  provide a gra
+ph of the polynomial.  Choose a range that will optimally represent th
+e features of the graph.   " }{TEXT 309 4 "Also" }{TEXT -1 90 ", for e
+ach polynomial find each of the above five graphcial characteristics (
+a.  thru e.):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "a.   " }{XPPEDIT 18 0 "y = 6*x^2+24*x-8" "6#/%\"yG,(*&\"\"
+'\"\"\"*$%\"xG\"\"#F(F(*&\"#CF(F*F(F(\"\")!\"\"" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "b.   " }{XPPEDIT 18 0 "y =
+ 15-9*x-6*x^2;" "6#/%\"yG,(\"#:\"\"\"*&\"\"*F'%\"xGF'!\"\"*&\"\"'F')F*
+\"\"#F'F+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+5 "c.   " }{XPPEDIT 18 0 "y = x^3-3*x-2;" "6#/%\"yG,(*$)%\"xG\"\"$\"\"
+\"F**&F)F*F(F*!\"\"\"\"#F," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 4 "d.  " }{XPPEDIT 18 0 "y = x^6-6*x^5+16*x^4-48*x^3+
+80*x^2-96*x+128;" "6#/%\"yG,0*$)%\"xG\"\"'\"\"\"F**&F)F*)F(\"\"&F*!\"
+\"*&\"#;F*)F(\"\"%F*F**&\"#[F*)F(\"\"$F*F.*&\"#!)F*)F(\"\"#F*F**&\"#'*
+F*F(F*F.\"$G\"F*" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 841 "3.  Polynomials:  Local extreme values and monoto
+nicity.  Beyond information of the type gathered above about intercept
+s and signs of a polynomial,  other important information can be deter
+mined from the so called \"critical points\" of a polynomial.  The cri
+tical points of a polynomial are the intercepts of its derivative.  Si
+nce the derivative of a function at a point represents the slope of th
+e tangent line to the graph of the that function at the point, then th
+e intercepts of the derivative are places where the the tangent lines \+
+to the function are flat, i.e., are horizontal lines.  At such places \+
+the graph is neither increasing nor decreasing.  Elsewhere the graph m
+ust be either increasing or decreasing.  For a polynomial, local extre
+me values (local maximums or local minimums) must occur at the interce
+pts of the derivative.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 80 "     The follwing features are important in analyz
+ing the graph of a polynomial:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 41 "     f.   critical points of the function
+" }}{PARA 0 "" 0 "" {TEXT -1 99 "                      For a polynomia
+l these are the intercepts of the derivative of the polynomial" }}
+{PARA 0 "" 0 "" {TEXT -1 67 "     g.    local maximum points of the gr
+aph of a function y = f(x)" }}{PARA 0 "" 0 "" {TEXT -1 274 "          \+
+            These are points (x,y) on the graph of the function for wh
+ich the y-value is locally the largest value of the function.  Nearby \+
+values on the graph are lower.  For a polynomials the x-value of the p
+oint (x,y) must be a critical point of the polynomial." }}{PARA 0 "" 
+0 "" {TEXT -1 67 "     h.   local minimum points of the graph of a fun
+ction y = f(x) " }}{PARA 0 "" 0 "" {TEXT -1 276 "                     \+
+ These are points (x,y) on the graph of the function for which the y-v
+alue is locally the smallest value of the function.  Nearby values on \+
+the graph are higher.  For a polynomials the x-value of the point (x,y
+) must be a critical point of the polynomial." }}{PARA 0 "" 0 "" 
+{TEXT -1 108 "     i.    regions (intervals) in the domain of the func
+tion where the values of the function are increasing" }}{PARA 0 "" 0 "
+" {TEXT -1 249 "                       Those regions where the graph r
+ises as the graph is traversed from left to right.  For a continuous f
+unction, and in particular for polynomials, these regions are bounded \+
+by the critical points and may stretch to +/- infinity." }}{PARA 257 "
+" 0 "" {TEXT -1 108 "     j.    regions (intervals) in the domain of t
+he function where the values of the function are decreasing" }}{PARA 
+0 "" 0 "" {TEXT -1 249 "                       Those regions where the
+ graph falls as the graph is traversed from left to right.  For a cont
+inuous function, and in particular for polynomials, these regions are \+
+bounded by the critical points and may stretch to +/- infinity." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 275 "For each
+ of the following polynomials,  provide a graph of the polynomial.  Ch
+oose a range that will optimally represent the features of the graph. \+
+ Include the graph of the deriviative of the polynomial on the plot.  \+
+ Plot the function in red and the derviative in green.   " }{TEXT 310 
+4 "Also" }{TEXT -1 89 ", for each polynomial find each of the above te
+n graphcial characteristics (a.  thru j.):" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "a.  " }{XPPEDIT 18 0 "y = x^2-2*
+x-15;" "6#/%\"yG,(*$)%\"xG\"\"#\"\"\"F**&F)F*F(F*!\"\"\"#:F," }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "b.  " }{XPPEDIT 
+18 0 "y = x^3-6*x^2+9*x+6;" "6#/%\"yG,**$)%\"xG\"\"$\"\"\"F**&\"\"'F*)
+F(\"\"#F*!\"\"*&\"\"*F*F(F*F*F,F*" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 4 "c.  " }{XPPEDIT 18 0 "y = -3*x^4+4*x^3+30*
+x^2+36*x+6;" "6#/%\"yG,,*&\"\"$\"\"\")%\"xG\"\"%F(!\"\"*&F+F()F*F'F(F(
+*&\"#IF()F*\"\"#F(F(*&\"#OF(F*F(F(\"\"'F(" }}{PARA 257 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 121 "4.  Implicit functions
+.  Maple can also generate the graphs for functions defined implicitly
+ as well.  The Maple command " }{TEXT 330 0 "" }{TEXT 331 12 "implicit
+plot" }{TEXT 332 0 "" }{TEXT -1 24 " is part of the package " }{TEXT 
+333 0 "" }{TEXT 334 5 "plots" }{TEXT 335 0 "" }{TEXT -1 15 ".  The pac
+kage " }{TEXT 336 0 "" }{TEXT 337 5 "plots" }{TEXT 338 0 "" }{TEXT -1 
+34 " is loaded by issuing the command:" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 15 "   with(plots);" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 152 "For each of the followin
+g relationships, which a function is not being defined explicitly, pro
+vide a plot which shows the salient features of the graph." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "a.  " }{XPPEDIT 
+18 0 "x^2+x*y+y^2 = 1;" "6#/,(*$)%\"xG\"\"#\"\"\"F)*&F'F)%\"yGF)F)*$)F
++F(F)F)F)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+4 "b.  " }{XPPEDIT 18 0 "x^2-y^2 = 1;" "6#/,&*$)%\"xG\"\"#\"\"\"F)*$)%
+\"yGF(F)!\"\"F)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 204 "5.  Three-dimensional plots.  Maple can also prov
+ide representations for graphs of functions of two variables.  The gra
+phs of such functions are surfaces in three-dimensional space.  The Ma
+ple command is:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "     " }{TEXT 311 0 "" }{TEXT 312 4 "plot" }{TEXT 313 2 "3
+d" }{TEXT -1 2 "( " }{TEXT 314 4 "expr" }{TEXT -1 2 ", " }{TEXT 315 1 
+"x" }{TEXT -1 8 "=range, " }{TEXT 316 0 "" }{TEXT 317 2 "y=" }{TEXT 
+-1 19 "range [, options]);" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 6 "where " }{TEXT 318 4 "expr" }{TEXT 322 1 " " }
+{TEXT -1 24 "is a symbolic expression" }{TEXT 320 1 " " }{TEXT -1 48 "
+which represents the function to be plotted and " }{TEXT 319 1 "x" }
+{TEXT -1 5 " and " }{TEXT 323 0 "" }{TEXT 324 1 "y" }{TEXT 325 0 "" }
+{TEXT -1 44 " are the two independent variables used in  " }{TEXT 321 
+4 "expr" }{TEXT -1 25 "  to define the function." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "The " }{TEXT 327 0 "" }
+{TEXT 328 6 "plot3d" }{TEXT 329 0 "" }{TEXT -1 238 " command will gene
+rate a surface plot for the function over the rectangular range specfi
+ed in the command statement.  The surface plot can be rotated, tipped \+
+over and turned around to see the surface plot from all side and all v
+iewpoints." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 278 "For each of the following functions provide a plot which shows
+ the graph.  Choose reasonable values for the ranges of x and y.  Rota
+te, where appropriate, to present a good view of the graph.  The last \+
+two graphs are implicitly defined functions which require the Maple co
+mmand " }{TEXT 339 0 "" }{TEXT 340 15 "implicitplot3d " }{TEXT 341 0 "
+" }{TEXT -1 29 "which is part of the package " }{TEXT 342 0 "" }{TEXT 
+343 5 "plots" }{TEXT 344 0 "" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "a.   " }{XPPEDIT 18 0 "z" "6#%\"
+zG" }{TEXT -1 5 " =   " }{XPPEDIT 18 0 "cos(2*x-y^2)" "6#-%$cosG6#,&*&
+\"\"#\"\"\"%\"xGF)F)*$%\"yGF(!\"\"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 4 "b.  " }{XPPEDIT 18 0 "z = x^2+y^2;" "6#/%
+\"zG,&*$)%\"xG\"\"#\"\"\"F**$)%\"yGF)F*F*" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "c.  " }{XPPEDIT 18 0 "z = x^2-y^2;
+" "6#/%\"zG,&*$)%\"xG\"\"#\"\"\"F**$)%\"yGF)F*!\"\"" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "d.  " }{XPPEDIT 18 0 "4*
+x^2+9*y^2-5*z^2 = 1;" "6#/,(*&\"\"%\"\"\")%\"xG\"\"#F'F'*&\"\"*F')%\"y
+GF*F'F'*&\"\"&F')%\"zGF*F'!\"\"F'" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 4 "e.  " }{XPPEDIT 18 0 "4*x^2+9*y^2+5*z^2 = \+
+1;" "6#/,(*&\"\"%\"\"\")%\"xG\"\"#F'F'*&\"\"*F')%\"yGF*F'F'*&\"\"&F')%
+\"zGF*F'F'F'" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 
+1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

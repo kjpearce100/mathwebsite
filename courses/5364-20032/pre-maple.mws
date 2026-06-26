@@ -1,0 +1,97 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" 0 21 "" 0 1 0 0 0 1 0 0 0 0 2 0 0 0 0 1 }{PSTYLE "Normal" 
+-1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 14 "Maple Pre-Test" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "Use Maple to provide s
+olutions for each of the following problems." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 51 "1.  Completely factor each of t
+he following numbers" }}{PARA 0 "" 0 "" {TEXT -1 10 "      m = " }
+{XPPEDIT 18 0 "27783000;" "6#\")+IyF" }}{PARA 0 "" 0 "" {TEXT -1 11 " \+
+     n  = " }{XPPEDIT 18 0 "27467440;" "6#\")SuYF" }}{PARA 0 "" 0 "" 
+{TEXT -1 75 "    Find the GCD of m and n.  Call it c.  Find the LCM m \+
+and n.  Call it d." }}{PARA 0 "" 0 "" {TEXT -1 68 "    Is the product \+
+ c*d bigger than or smaller than the product m*n?" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "2.  Find the firs
+t 100 prime numbers." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 27 "3.  Expand (multiply out)  " }{XPPEDIT 
+18 0 "(x+y)^19;" "6#*$),&%\"xG\"\"\"%\"yGF'\"#>F'" }}{PARA 0 "" 0 "" 
+{TEXT -1 41 "     What is the sum of the coefficients?" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 52 "4.  Facto
+r the following expressions where possible." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 7 "   A.  " }{XPPEDIT 18 0 "8*w^4+2
+2*w^2*z-40*z^2;" "6#,(*&\"\")\"\"\")%\"wG\"\"%F&F&*(\"#AF&)F(\"\"#F&%
+\"zGF&F&*&\"#SF&)F.F-F&!\"\"" }}{PARA 0 "" 0 "" {TEXT -1 7 "   B.  " }
+{XPPEDIT 18 0 "4*w^3-12*w^2*z^2+10*z*w-30*z^3;" "6#,**&\"\"%\"\"\")%\"
+wG\"\"$F&F&*(\"#7F&)F(\"\"#F&)%\"zGF-F&!\"\"*(\"#5F&F/F&F(F&F&*&\"#IF&
+)F/F)F&F0" }}{PARA 0 "" 0 "" {TEXT -1 7 "   C.  " }{XPPEDIT 18 0 "2*x^
+4+9*x^3+11*x^2-4;" "6#,**&\"\"#\"\"\")%\"xG\"\"%F&F&*&\"\"*F&)F(\"\"$F
+&F&*&\"#6F&)F(F%F&F&F)!\"\"" }}{PARA 0 "" 0 "" {TEXT -1 7 "   D.  " }
+{XPPEDIT 18 0 "4*x^2+4*x+4;" "6#,(*&\"\"%\"\"\")%\"xG\"\"#F&F&*&F%F&F(
+F&F&F%F&" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 66 "5.  How many real roots do each of the following polynomi
+als have?" }}{PARA 0 "" 0 "" {TEXT -1 70 "     How many complex roots \+
+do each of the following polynomials have?" }}{PARA 0 "" 0 "" {TEXT 
+-1 68 "     How many total roots do each of the following polynomials \+
+have?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 " \+
+    " }{XPPEDIT 18 0 "p1 := 2*x^5-4*x^4-7*x^3+2*x+12;" "6#>%#p1G,,*&\"
+\"#\"\"\")%\"xG\"\"&F(F(*&\"\"%F()F*F-F(!\"\"*&\"\"(F()F*\"\"$F(F/*&F'
+F(F*F(F(\"#7F(" }}{PARA 0 "" 0 "" {TEXT -1 5 "     " }{XPPEDIT 18 0 "p
+2 := 2*x^4-5*x^3-24*x^2+92*x-80;" "6#>%#p2G,,*&\"\"#\"\"\")%\"xG\"\"%F
+(F(*&\"\"&F()F*\"\"$F(!\"\"*&\"#CF()F*F'F(F0*&\"##*F(F*F(F(\"#!)F0" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 52 "6
+.  Solve the following systems of linear equations." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 8 "    A.  " }{XPPEDIT 18 
+0 "2*x-3*y = 11;" "6#/,&*&\"\"#\"\"\"%\"xGF'F'*&\"\"$F'%\"yGF'!\"\"\"#
+6" }}{PARA 0 "" 0 "" {TEXT -1 10 "          " }{XPPEDIT 18 0 "3*x-5*y \+
+= -8;" "6#/,&*&\"\"$\"\"\"%\"xGF'F'*&\"\"&F'%\"yGF'!\"\"!\")" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 19 "    B.         \+
+    " }{XPPEDIT 18 0 "3*x-z = -1;" "6#/,&*&\"\"$\"\"\"%\"xGF'F'%\"zG!
+\"\"F*" }}{PARA 0 "" 0 "" {TEXT -1 9 "         " }{XPPEDIT 18 0 "-x+2*
+y+2*z = 2;" "6#/,(%\"xG!\"\"*&\"\"#\"\"\"%\"yGF)F)*&F(F)%\"zGF)F)F(" }
+}{PARA 0 "" 0 "" {TEXT -1 11 "           " }{XPPEDIT 18 0 "2*x+5*y-z =
+ -3;" "6#/,(*&\"\"#\"\"\"%\"xGF'F'*&\"\"&F'%\"yGF'F'%\"zG!\"\"!\"$" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 87 "7.  Plot graphs for each of the
+ following equations which show their relevant features." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 8 "   A.   " }
+{XPPEDIT 18 0 "y = x^3-10*x^2-3*x-10*k;" "6#/%\"yG,**$)%\"xG\"\"$\"\"
+\"F**&\"#5F*)F(\"\"#F*!\"\"*&F)F*F(F*F/*&F,F*%\"kGF*F/" }}{PARA 0 "" 
+0 "" {MPLTEXT 0 21 4 "    " }{XPPMATH 20 "6'/%\"kG!\"#!\"\"\"\"!\"\"\"
+\"\"#" }}{PARA 0 "" 0 "" {TEXT -1 41 "          (All 5 graphs on the s
+ame plot)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+9 "   B.    " }{XPPEDIT 18 0 "3*x^3-2*x^2+4*y^2+8*y = 7;" "6#/,**&\"\"
+$\"\"\")%\"xGF&F'F'*&\"\"#F')F)F+F'!\"\"*&\"\"%F')%\"yGF+F'F'*&\"\")F'
+F1F'F'\"\"(" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 8 "   C.   " }{XPPEDIT 18 0 "z = (x^3-4*y^2)/(x^2+y^2)^(1/2);" "6#/
+%\"zG*&,&*$)%\"xG\"\"$\"\"\"F+*&\"\"%F+)%\"yG\"\"#F+!\"\"F+,&*$)F)F0F+
+F+*$F.F+F+#F1F0" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 61 "8.  Use matrices to solve the following systems of
+ equations." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 8 "    A.  " }{XPPEDIT 18 0 "2*x-3*y = 11;" "6#/,&*&\"\"#\"\"\"%\"x
+GF'F'*&\"\"$F'%\"yGF'!\"\"\"#6" }}{PARA 0 "" 0 "" {TEXT -1 10 "       \+
+   " }{XPPEDIT 18 0 "3*x-5*y = -8;" "6#/,&*&\"\"$\"\"\"%\"xGF'F'*&\"\"
+&F'%\"yGF'!\"\",$\"\")F," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 19 "    B.             " }{XPPEDIT 18 0 "3*x-z = -1;" 
+"6#/,&*&\"\"$\"\"\"%\"xGF'F'%\"zG!\"\",$F'F*" }}{PARA 0 "" 0 "" {TEXT 
+-1 9 "         " }{XPPEDIT 18 0 "-x+2*y+2*z = 2;" "6#/,(%\"xG!\"\"*&\"
+\"#\"\"\"%\"yGF)F)*&F(F)%\"zGF)F)F(" }}{PARA 0 "" 0 "" {TEXT -1 11 "  \+
+         " }{XPPEDIT 18 0 "2*x+5*y-z = -3;" "6#/,(*&\"\"#\"\"\"%\"xGF'
+F'*&\"\"&F'%\"yGF'F'%\"zG!\"\",$\"\"$F-" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

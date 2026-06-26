@@ -1,0 +1,92 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+269 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 
+256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 27 "Sum and Sequence Supplement" }}
+{PARA 0 "" 0 "" {TEXT -1 102 "(This is not a worksheet to be turned in
+.  It is only for your information should you wish to use it.)" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 65 "Two MAPLE
+ constructs which often will come in handy are what the " }{TEXT 256 
+3 "sum" }{TEXT -1 17 " command and the " }{TEXT 257 8 "sequence" }
+{TEXT -1 92 " command.   Both involve concepts and syntax that is very
+ familar to mathematics students.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 260 "\"sum\"  This command sums a  repetitiv
+e calculation based on changing an index by the same size step each ti
+me and repeating the calculation.  For example, suppose we wanted to s
+um the squares of the first 20 numbers.   Here is the MAPLE command fo
+r doing this:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 17 "sum(i^2,i=1..20);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"%qG" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 151 "If we write the same command, but with a capitialized S, Maple
+ displays the command (in standard math notation) instead of doing the
+ calculation, e.g.," }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 17 "Sum(i^2,i=1..20);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$SumG6$*$)%\"iG\"\"#\"\"\"/F(;F*\"#?" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 70 "If you put the two t
+ogether, you can make what looks like an equation:" }}{PARA 0 "" 0 "" 
+{TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "Sum(i^2,i=1
+..20) = sum(i^2,i=1..20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$SumG6
+$*$)%\"iG\"\"#\"\"\"/F);F+\"#?\"%qG" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 34 "A couple more examples might be:  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "a.  Sum t
+he first 100 odd integers " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "Sum(2*i-1,i=1..100) = sum(2*i-1,i=1
+..100);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$SumG6$,&*&\"\"#\"\"\"%
+\"iGF*F*F*!\"\"/F+;F*\"$+\"\"&++\"" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 48 "b.  Sum the reciprocals of integers from
+ 1 to 50" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 36 "Sum(1/k,k=1..50) = sum(1/k,k=1..50);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/-%$SumG6$*&\"\"\"F(%\"kG!\"\"/F);F(\"#]#\"8f2'\\0
+CsdPK%R\"\"7+kq'*fC/X/*4$" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 165 "\"sequence\"  This command allows us to generate
+ a sequence of numbers based on some repetitive step where we change a
+n index value each time.  This is similar to the " }{TEXT 258 8 "for l
+oop" }{TEXT -1 63 " except that each sequence value is displayed on th
+e same line." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 89 "For example suppose we would like to generate the squares of th
+e first 10 numbers.  In a " }{TEXT 259 8 "for loop" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "for i from 1
+ to 10\ndo\n    i^2\nend do;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#D" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#O
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#\\" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#k" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#\")" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$+\"" }}}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 23 "In a sequence statement" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "seq(i
+^2,i=1..10);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6,\"\"\"\"\"%\"\"*\"#;\"
+#D\"#O\"#\\\"#k\"#\")\"$+\"" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 18 "Combining both a  " }{TEXT 266 8 "for loop" }
+{TEXT -1 100 "  and a sequence statement we can generate the first 5 p
+owers of the first 10 integers.  Notice the " }{TEXT 267 8 "for loop" 
+}}{PARA 0 "" 0 "" {TEXT -1 18 "fixes the integer " }{TEXT 269 1 "n" }
+{TEXT -1 9 " (on row " }{TEXT 270 1 "n" }{TEXT -1 2 ") " }{TEXT -1 98 
+"at 1, then 2, then 3, etc.  up to 10 while the sequence statement gen
+erates the powers (on row n)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 50 "for n from 1 to 10\ndo\n    \+
+seq(n^p,p=1..5);\nend do;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"\"F#F
+#F#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"#\"\"%\"\")\"#;\"#K" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"$\"\"*\"#F\"#\")\"$V#" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6'\"\"%\"#;\"#k\"$c#\"%C5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6'\"\"&\"#D\"$D\"\"$D'\"%DJ" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6'\"\"'\"#O\"$;#\"%'H\"\"%wx" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"
+\"(\"#\\\"$V$\"%,C\"&2o\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\")\"#k
+\"$7&\"%'4%\"&oF$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"\"*\"#\")\"$H(
+\"%hl\"&\\!f" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'\"#5\"$+\"\"%+5\"&++\"
+\"'++5" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0" 
+0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

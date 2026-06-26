@@ -1,0 +1,223 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"" -1 258 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" 
+-1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}}
+{SECT 0 {PARA 256 "" 0 "" {TEXT 263 23 "Algebraic Manipulations" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 179 "Save you
+r current worksheet as work02-yourlastname.mws.  Remember to save freq
+uently to avoid losing data in case that the system would shut down in
+ the middle of a work session! " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 104 "In the text mode (click on the cap T but
+ton) place your name(s) and date at the top of your worksheet.  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 531 "1.  Basi
+c Manipulations.  We can use Maple to manipulate algebraic expression \+
+as well as to perform arithmetic calculations.  The intent is to learn
+ some basic Maple syntax, while observing some of the neat features of
+ a Computer Algebra System (CAS).  We will also review some basic conc
+epts from arithmetic.   Perform the following calculations with Maple.
+  As you do these exercises enter notes and comments onto your workshe
+et in text mode.  Note the usage of operators +,-,*,/,^,!  and the usa
+ge or non-usage of parentheses.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 60 "Let the following variables represent alg
+ebraic expressions:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 6 "1.    " }{XPPEDIT 19 1 "f := x^3-x^2-2*x" "6#>%\"fG,(*$%
+\"xG\"\"$\"\"\"*$F'\"\"#!\"\"*&F+F)F'F)F," }{TEXT -1 11 "      2.   " 
+}{XPPEDIT 19 1 "g := 6*x^3+11*x^2+6*x+1" "6#>%\"gG,**&\"\"'\"\"\"*$%\"
+xG\"\"$F(F(*&\"#6F(*$F*\"\"#F(F(*&F'F(F*F(F(F(F(" }{TEXT -1 22 "      \+
+           3.   " }{XPPEDIT 19 1 "h := x^3-5*x+x^2-5;" "6#>%\"hG,**$%
+\"xG\"\"$\"\"\"*&\"\"&F)F'F)!\"\"*$F'\"\"#F)F+F," }{TEXT -1 19 "      \+
+             " }}{PARA 0 "" 0 "" {TEXT -1 6 "4.    " }{XPPEDIT 19 1 "F
+ := x^4-1" "6#>%\"FG,&*$%\"xG\"\"%\"\"\"F)!\"\"" }{TEXT -1 22 "       \+
+         5.    " }{XPPEDIT 19 1 "G := 3*x^4+4*x^3-2*x^2+x-6;" "6#>%\"G
+G,,*&\"\"$\"\"\"*$%\"xG\"\"%F(F(*&F+F(*$F*F'F(F(*&\"\"#F(*$F*F/F(!\"\"
+F*F(\"\"'F1" }{TEXT -1 14 "         6.   " }{XPPEDIT 19 1 "H := 2*x^2+
+3*x-2" "6#>%\"HG,(*&\"\"#\"\"\"*$%\"xGF'F(F(*&\"\"$F(F*F(F(F'!\"\"" }
+{TEXT -1 24 "                        " }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 49 "Calcuate the following (each on a sep
+arate line):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 123 "a.   f*g                       b.   g*(h-f)                  c
+.   f^3                 d.  (f + g)*(f - h) + (f - g)*(f + h)" }}
+{PARA 0 "" 0 "" {TEXT -1 141 "e.  F*H/G                  f.   (F/H)/G \+
+                g.  F/(H/G)           h.    F/H*G                     \+
+                   i.   F/(H*G)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 162 "As you may have noted the addi
+tion/subtraction operatios where carried out while the multiplication/
+division operations were just indicated.  The Maple commands  " }
+{TEXT 264 6 "expand" }{TEXT -1 6 " and  " }{TEXT 265 8 "simplify" }
+{TEXT -1 298 "  can be used to rearrange and manipulate algebraic sums
+ and products of polynomial expressions.  Go back to each of your calc
+ulations of a., b., c. and d. and add to each line a command to expand
+ the calculation and a command to simplify the caclulation.  E.g.,  th
+e line for a. would change from:" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "f*g;" }}}{PARA 0 "" 0 "" 
+{TEXT -1 3 "to " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "f*g; expa
+nd(f*g); simplify(f*g);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 17 "Note the effect  " }{TEXT 268 6 "expand" }{TEXT 
+-1 5 " and " }{TEXT 269 8 "simplify" }{TEXT -1 42 "  have on the way t
+he calculation appears." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 19 "The Maple commands " }{TEXT 266 16 "expand, simplify
+" }{TEXT -1 5 " and " }{TEXT 267 6 "normal" }{TEXT -1 483 " can be use
+ to rearrange, manipulate and simplify (cancel common factors) algebra
+ic sums, products and quotients of rational expressions.   When a rati
+onal expression is normalized, any common factors are cancelled.  Go b
+ack to each of your calculations of e., f., g., h. and i. and add to e
+ach line a command to expand the calculation, to normalize the calcula
+tion, to simplify the calculation and both expand and normalize the ca
+lculation.  E.g., the line for e. would change from:" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "F*H/G;" }}}
+{PARA 0 "" 0 "" {TEXT -1 2 "to" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 99 "F*H/G; expand(F*H/G); normal(F*H/G); simplify(F*H/G); expand(nor
+mal(F*H/G)); normal(expand(F*H/G));" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 17 "Note the effect  " }{TEXT 270 6 "expand
+" }{TEXT -1 2 ", " }{TEXT 272 6 "normal" }{TEXT -1 3 ",  " }{TEXT 271 
+8 "simplify" }{TEXT -1 10 " and both " }{TEXT 273 6 "expand" }{TEXT 
+-1 5 " and " }{TEXT 274 6 "normal" }{TEXT -1 42 "  have on the way the
+ calculation appears." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 35 "2.  Factoring.  The Maple command  " }{TEXT 275 6 "fac
+tor" }{TEXT -1 299 " can be used to factor algebraic polynomial expres
+sions and rational expressions.  When rational expressions are factors
+, any common factors are cancelled.  Factor each of the polynomials f,
+ g, h, F, G and H.  Also, factor the algebraic and rational expression
+s a., b., c., d., e., f., g., h. and i." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 271 "3.  Fundamental Theorem \+
+of Algebra.  The Fundamental Theorem of Algebra asserts that every non
+-constant polynomial (with complex-valued coefficients) has a root (a \+
+zero, a solution).  A consequence of the Fundamental Theorem of Algebr
+a is that every polynomial of degree " }{TEXT 276 1 "n" }{TEXT -1 13 "
+ has exactly " }{TEXT 277 1 "n" }{TEXT -1 108 " roots.  An alternate f
+ormulation of this consequence would be that every non-constant polyno
+mial of degree " }{TEXT 279 1 "n" }{TEXT -1 38 " can be factored into \+
+a product of a  " }{TEXT 278 1 "n" }{TEXT -1 16 " linear factors." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "Consider \+
+the following polynomials:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 6 "I.    " }{XPPEDIT 19 1 "f := x^3-x^2-2*x" "6#>%\"f
+G,(*$%\"xG\"\"$\"\"\"*$F'\"\"#!\"\"*&F+F)F'F)F," }{TEXT -1 15 "       \+
+  II.   " }{XPPEDIT 19 1 "g := 6*x^3+11*x^2+6*x+1" "6#>%\"gG,**&\"\"'
+\"\"\"*$%\"xG\"\"$F(F(*&\"#6F(*$F*\"\"#F(F(*&F'F(F*F(F(F(F(" }{TEXT 
+-1 24 "                 III.   " }{XPPEDIT 19 1 "h := x^3-5*x+x^2-5;" 
+"6#>%\"hG,**$%\"xG\"\"$\"\"\"*&\"\"&F)F'F)!\"\"*$F'\"\"#F)F+F," }
+{TEXT -1 19 "                   " }}{PARA 0 "" 0 "" {TEXT -1 7 "IV.   \+
+ " }{XPPEDIT 19 1 "F := x^4-144" "6#>%\"FG,&*$%\"xG\"\"%\"\"\"\"$W\"!
+\"\"" }{TEXT -1 19 "             V.    " }{XPPEDIT 19 1 "G := 3*x^4+4*
+x^3-2*x^2+x-6;" "6#>%\"GG,,*&\"\"$\"\"\"*$%\"xG\"\"%F(F(*&F+F(*$F*F'F(
+F(*&\"\"#F(*$F*F/F(!\"\"F*F(\"\"'F1" }{TEXT -1 15 "         VI.   " }
+{XPPEDIT 19 1 "H := x^5-x^2-2*x" "6#>%\"HG,(*$%\"xG\"\"&\"\"\"*$F'\"\"
+#!\"\"*&F+F)F'F)F," }{TEXT -1 24 "                        " }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 257 "" 0 "" {TEXT -1 172 "Factor each po
+lynomial and determine whether Maple was able to find enough linear fa
+ctors to demonstrate the above assertion about the appropriate number \+
+of linear factors." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 650 "In those cases where Maple did not find enough l
+inear factors, there is a reason why Maple did not.  Maple makes an as
+sumption that if the coefficients of a polynomial are all given exactl
+y (as integers or rational numbers [ratios of integer]), then you are \+
+only interested in finding exact factors (factors where the coefficien
+ts are integers or rational numbers).  The Fundamental Theorem of Alge
+bra doesn't guarantee that the factors of  a polynomial will necessari
+ly have the same kind of coefficients as the polynomial, only the poly
+nomial can be factored.  You can force Maple to report additional (app
+roximate) factors.  For example,  compare:" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "factor(h);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "factor(h,sqrt(5));" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 52 "What is t
+he difference?  The extra-term is called a " }{TEXT 280 18 "field exte
+nsion.  " }{TEXT -1 178 "Adding it tells Maple to consider additonal f
+actors where the coefficients are allowed to include elements from the
+ field extension.  It is fairly clear from the factoriztion of " }
+{TEXT 281 1 "h" }{TEXT -1 280 " all by itself that something involving
+  sqrt(5)  would have to be included.  However, there are problems whe
+re there is not a obvious clue as to which specific field extension sh
+ould be added.  If you are willing to accept an appropriate solution, \+
+then using the field extension " }{TEXT 282 4 "real" }{TEXT -1 179 " t
+ells Maple to factor the polynomial using a floating point approximati
+on scheme.  For example, consider (here I am pretending I don't see th
+at adding  sqrt(5) would be optimal):" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "factor(h);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "factor(h,real);" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 91 "Finally, the Fundamenta
+l Theorem of Algebra does not guarantee that a polynomial of degree " 
+}{TEXT 283 1 "n" }{TEXT -1 11 " will have " }{TEXT 284 1 "n" }{TEXT 
+-1 53 " real linear factors.  Rather, only hat it will have " }{TEXT 
+285 1 "n" }{TEXT -1 134 " linear factors.  What is the difference?  So
+me of the factors may involve complex roots rather than real roots.  F
+or example compare:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 10 "factor(F);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "factor(F,sqrt(12));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "factor(F,real);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "factor(F,complex);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 126 "For the following polynomials demonstr
+ate that each can be factored completely into linear factors.  Use the
+ field extensions " }{TEXT 286 4 "real" }{TEXT -1 5 " and " }{TEXT 
+287 7 "complex" }{TEXT -1 36 " only if non-rational factors occur." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 7 " V.    " }
+{XPPEDIT 19 1 "G := 3*x^4+4*x^3-2*x^2+x-6;" "6#>%\"GG,,*&\"\"$\"\"\"*$
+%\"xG\"\"%F(F(*&F+F(*$F*F'F(F(*&\"\"#F(*$F*F/F(!\"\"F*F(\"\"'F1" }
+{TEXT -1 15 "         VI.   " }{XPPEDIT 19 1 "H := x^5-x^2-2*x" "6#>%
+\"HG,(*$%\"xG\"\"&\"\"\"*$F'\"\"#!\"\"*&F+F)F'F)F," }{TEXT -1 10 "    \+
+      " }}{PARA 0 "" 0 "" {TEXT -1 7 "VII.   " }{XPPEDIT 19 1 "f1 := 1
+2*x^7+24*x^6-57*x^5-81*x^4+129*x^3+57*x^2-120*x+36;" "6#>%#f1G,2*&\"#7
+\"\"\"*$%\"xG\"\"(F(F(*&\"#CF(*$F*\"\"'F(F(*&\"#dF(*$F*\"\"&F(!\"\"*&
+\"#\")F(*$F*\"\"%F(F4*&\"$H\"F(*$F*\"\"$F(F(*&F1F(*$F*\"\"#F(F(*&\"$?
+\"F(F*F(F4\"#OF(" }}{PARA 0 "" 0 "" {TEXT -1 7 "VIII.  " }{XPPEDIT 19 
+1 "g1 := 12*x^9-29*x^8-17*x^7+76*x^6-7*x^5-68*x^4+17*x^3+24*x^2-5*x-3;
+" "6#>%#g1G,6*&\"#7\"\"\"*$%\"xG\"\"*F(F(*&\"#HF(*$F*\"\")F(!\"\"*&\"#
+<F(*$F*\"\"(F(F0*&\"#wF(*$F*\"\"'F(F(*&F4F(*$F*\"\"&F(F0*&\"#oF(*$F*\"
+\"%F(F0*&F2F(*$F*\"\"$F(F(*&\"#CF(*$F*\"\"#F(F(*&F;F(F*F(F0FBF0" }
+{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 6 "IX.   " }{XPPEDIT 19 1 "
+h1 := 12*x^6-41*x^5+60*x^4-47*x^3+15*x^2+4*x-3;" "6#>%#h1G,0*&\"#7\"\"
+\"*$%\"xG\"\"'F(F(*&\"#TF(*$F*\"\"&F(!\"\"*&\"#gF(*$F*\"\"%F(F(*&\"#ZF
+(*$F*\"\"$F(F0*&\"#:F(*$F*\"\"#F(F(*&F4F(F*F(F(F8F0" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 380 "A related theo
+rem about finding roots of polynomials (equivalently factoring polynom
+ials into a product of linear factors) asserts that if the polynomial \+
+has real coefficients -- all of the polynomials we have considered (an
+d will consider) have had real coefficients -- then any complex roots \+
+(or factors) must occur in conjugate pairs.  For example, both the com
+plex factors of " }{TEXT 288 5 "F, G " }{TEXT -1 4 "and " }{TEXT 289 
+2 "H " }{TEXT -1 236 "(above) all occurred in conjugate pairs.  Demons
+trate this theorem by creating three new polynomials, name them F1, G1
+ and H1, of degree 5, 6 and 7, resp., and show that the any complex fa
+ctors of F1, G1 and H1 occur in conjugate pairs." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 115 "For demonstratio
+n purposes it is very handy to be able to construct polynomials with p
+redetermined roots.  Use the " }{TEXT 258 6 "expand" }{TEXT -1 58 " co
+mmand to construct a polynomial with roots   -2, 5, 5, " }{XPPEDIT 18 
+0 "-1/2" "6#,$*&\"\"\"F%\"\"#!\"\"F'" }{TEXT -1 71 ", 1+I and  1-I.  (
+Here the \"5, 5\" indicates that 5 is a \"double root\".)" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "0 0" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
