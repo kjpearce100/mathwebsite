@@ -1,0 +1,506 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 257 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+266 "" 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+276 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+281 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+286 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+291 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 292 "" 0 1 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+296 "" 0 1 0 0 0 0 1 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Out
+put" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 
+1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 
+2 0 1 }{PSTYLE "Maple Output" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 
+0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT 276 37 "Binomial Theorem  & Solving Eq
+uations" }}{PARA 0 "" 0 "" {TEXT -1 14 "Lisa Alexander" }}{PARA 0 "" 
+0 "" {TEXT -1 7 "4-11-03" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 46 "1.  Binomial Theorem.  Use the Maple comm
+and  " }{TEXT 262 6 "expand" }{TEXT 256 2 "  " }{TEXT -1 34 "to calcul
+ate the expansion of     " }{XPPEDIT 18 0 "(a+b)^n;" "6#),&%\"aG\"\"\"
+%\"bGF&%\"nG" }{TEXT -1 63 "    for values n=1..10 .  In each case use
+ the Maple command   " }{TEXT 257 7 "coeffs " }{TEXT 264 1 " " }{TEXT 
+-1 84 "to pick off the coefficients.   For example,  if n=5 we would e
+xecute the following:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "ex
+pand((a+b)^5);\ncoeffs(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.*$)%\"
+aG\"\"&\"\"\"F(*(F'F()F&\"\"%F(%\"bGF(F(*(\"#5F()F&\"\"$F()F,\"\"#F(F(
+*(F.F()F&F2F()F,F0F(F(*(F'F(F&F()F,F+F(F(*$)F,F'F(F(" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6(\"\"&F#\"#5F$\"\"\"F%" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 54 "for n from 1 to 10\ndo\nexpand ((a+b)^n);\ncoeffs(%);
+\nod;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&%\"aG\"\"\"%\"bGF%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+$\"\"\"F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*$)%\"aG\"\"#\"\"\"F(*(
+F'F(F&F(%\"bGF(F(*$)F*F'F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"
+\"\"#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**$)%\"aG\"\"$\"\"\"F(*(F'
+F()F&\"\"#F(%\"bGF(F(*(F'F(F&F()F,F+F(F(*$)F,F'F(F(" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6&\"\"$\"\"\"F#F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,,
+*$)%\"aG\"\"%\"\"\"F(*(F'F()F&\"\"$F(%\"bGF(F(*(\"\"'F()F&\"\"#F()F,F0
+F(F(*(F'F(F&F()F,F+F(F(*$)F,F'F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'
+\"\"\"\"\"%\"\"'F$F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.*$)%\"aG\"\"
+&\"\"\"F(*(F'F()F&\"\"%F(%\"bGF(F(*(\"#5F()F&\"\"$F()F,\"\"#F(F(*(F.F(
+)F&F2F()F,F0F(F(*(F'F(F&F()F,F+F(F(*$)F,F'F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6(\"\"&F#\"#5F$\"\"\"F%" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#,0*$)%\"aG\"\"'\"\"\"F(*(F'F()F&\"\"&F(%\"bGF(F(*(\"#:F()F&\"\"%F()F
+,\"\"#F(F(*(\"#?F()F&\"\"$F()F,F6F(F(*(F.F()F&F2F()F,F0F(F(*(F'F(F&F()
+F,F+F(F(*$)F,F'F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6)\"\"'\"#:\"#?F$
+F#\"\"\"F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,2*$)%\"aG\"\"(\"\"\"F(*
+(F'F()F&\"\"'F(%\"bGF(F(*(\"#@F()F&\"\"&F()F,\"\"#F(F(*(\"#NF()F&\"\"%
+F()F,\"\"$F(F(*(F4F()F&F8F()F,F6F(F(*(F.F()F&F2F()F,F0F(F(*(F'F(F&F()F
+,F+F(F(*$)F,F'F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6*\"\"\"F#\"\"(\"#
+@\"#NF&F%F$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,4*$)%\"aG\"\")\"\"\"F(
+*(F'F()F&\"\"(F(%\"bGF(F(*(\"#GF()F&\"\"'F()F,\"\"#F(F(*(\"#cF()F&\"\"
+&F()F,\"\"$F(F(*(\"#qF()F&\"\"%F()F,F<F(F(*(F4F()F&F8F()F,F6F(F(*(F.F(
+)F&F2F()F,F0F(F(*(F'F(F&F()F,F+F(F(*$)F,F'F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6+\"\"\"F#\"\")\"#G\"#c\"#qF&F%F$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,6*$)%\"aG\"\"*\"\"\"F(*(F'F()F&\"\")F(%\"bGF(F(*(\"#OF
+()F&\"\"(F()F,\"\"#F(F(*(\"#%)F()F&\"\"'F()F,\"\"$F(F(*(\"$E\"F()F&\"
+\"&F()F,\"\"%F(F(*(F:F()F&F>F()F,F<F(F(*(F4F()F&F8F()F,F6F(F(*(F.F()F&
+F2F()F,F0F(F(*(F'F(F&F()F,F+F(F(*$)F,F'F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6,\"\"\"F#\"\"*\"#O\"#%)\"$E\"F'F&F%F$" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#,8*$)%\"aG\"#5\"\"\"F(*(F'F()F&\"\"*F(%\"bGF(F(*(\"#X
+F()F&\"\")F()F,\"\"#F(F(*(\"$?\"F()F&\"\"(F()F,\"\"$F(F(*(\"$5#F()F&\"
+\"'F()F,\"\"%F(F(*(\"$_#F()F&\"\"&F()F,FBF(F(*(F:F()F&F>F()F,F<F(F(*(F
+4F()F&F8F()F,F6F(F(*(F.F()F&F2F()F,F0F(F(*(F'F(F&F()F,F+F(F(*$)F,F'F(F
+(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6-\"\"\"F#\"#5\"#X\"$?\"\"$5#\"$_#F
+'F&F%F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 28 "Do the rest from 1 to 10.   " }}{PARA 0 "
+" 0 "" {TEXT -1 31 "Note:  it is possible to use a " }{TEXT 263 9 "for
+ loop " }{TEXT -1 69 " to simplify this task since we are doing a repe
+titive calculation.  " }}{PARA 0 "" 0 "" {TEXT -1 29 "Note:  Also, the
+ the command " }{TEXT 265 6 "coeffs" }{TEXT -1 15 " unfortunately " }
+{TEXT 266 8 "does not" }{TEXT -1 36 " pick off the coefficients in ord
+er." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "The
+ " }{TEXT 259 16 "Binomial Theorem" }{TEXT -1 66 " gives a formula for
+ finding the coefficients of the expansion of " }{XPPEDIT 18 0 "(a+b)^
+n;" "6#),&%\"aG\"\"\"%\"bGF&%\"nG" }{TEXT -1 10 "  for any " }{TEXT 
+267 1 "n" }{TEXT -1 53 ".  It is relatively obvious that the coefficie
+nt of  " }{XPPEDIT 18 0 "a^(n-k)*b^k;" "6#*&)%\"aG,&%\"nG\"\"\"%\"kG!
+\"\"F()%\"bGF)F(" }{TEXT -1 19 "  for any value of " }{TEXT 268 1 "k" 
+}{TEXT -1 11 " from 0 to " }{TEXT 269 1 "n" }{TEXT -1 46 " is given by
+ the number of ways we can choose " }{TEXT 270 1 "k" }{TEXT -1 8 " of \+
+the " }{TEXT 294 1 "b" }{TEXT -1 12 "'s from the " }{TEXT 271 1 "n" }
+{TEXT -1 1 " " }{TEXT 295 1 "b" }{TEXT -1 20 "'s in the expansion " }
+{XPPEDIT 18 0 "(a+b)*(a+b)" "6#*&,&%\"aG\"\"\"%\"bGF&F&,&F%F&F'F&F&" }
+{TEXT -1 7 " ....( " }{XPPEDIT 18 0 "(a+b)" "6#,&%\"aG\"\"\"%\"bGF%" }
+{TEXT -1 5 " ),  " }{TEXT 272 1 "n" }{TEXT -1 41 " times .   The numbe
+r of combinations of " }{TEXT 273 1 "n" }{TEXT -1 18 " objects choosin
+g " }{TEXT 274 1 "k" }{TEXT -1 12 " at a time, " }{XPPEDIT 18 0 "nCk" 
+"6#%$nCkG" }{TEXT -1 27 ", is given by the formula  " }{XPPEDIT 18 0 "
+nCk=n!/(k!*(n-k)!)" "6#/%$nCkG*&-%*factorialG6#%\"nG\"\"\"*&-F'6#%\"kG
+F*-F'6#,&F)F*F.!\"\"F*F2" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT 261 10 "State the " }{TEXT 260 16 "Binomi
+al Theorem" }{TEXT -1 1 " " }{TEXT 275 31 "and use Maple to demonstrat
+e it" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 297 220 "
+performed above: for polynomials that have two terms the exponents and
+ coeffeicents provide a factor list of all possible combinations and o
+ccuring in palandromic patterns.(not a text book definition, but one a
+s see it.)" }}{PARA 0 "" 0 "" {TEXT -1 8 "Compute " }{XPPEDIT 18 0 "su
+m(binomial(n,k),k=0..n)" "6#-%$sumG6$-%)binomialG6$%\"nG%\"kG/F*;\"\"!
+F)" }{TEXT -1 34 "  for n=1 to 10.  Here the symbol " }{XPPEDIT 18 0 "
+Sigma;" "6#%&SigmaG" }{TEXT -1 70 " (Greek letter Sigma) stands for su
+m.   (See the worksheet SumSeq.mws)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+258 59 "What general formula do the above calculations in  suggest?" }
+}{PARA 0 "" 0 "" {TEXT -1 48 "number of factors is related to linear e
+xponents" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 388 "2.  Pascal's Triangle.  Recall th
+e definition of Pascal's Triangle.   Use Maple to construct the first \+
+10 rows of Pascal's Triangle. (The trick will be to get the coefficien
+ts to occur in the correct order.  The Maple command for generating a \+
+sequence might be helpful. It is   seq(expression(i),i=m..n);   where \+
+expression(i) is an expression with index i and m..n is a range of num
+bers." }}{PARA 0 "" 0 "" {TEXT -1 3 "   " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 58 "for p from 0 to 10\ndo\nseq(coeff((a+1)^p,a,n), n=0..
+p);\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6$\"\"\"F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"\"\"\"
+\"#F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6&\"\"\"\"\"$F$F#" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6'\"\"\"\"\"%\"\"'F$F#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6(\"\"\"\"\"&\"#5F%F$F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6)\"\"\"\"\"'\"#:\"#?F%F$F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6*\"\"\"
+\"\"(\"#@\"#NF&F%F$F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6+\"\"\"\"\")\"
+#G\"#c\"#qF&F%F$F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6,\"\"\"\"\"*\"#O
+\"#%)\"$E\"F'F&F%F$F#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6-\"\"\"\"#5\"#
+X\"$?\"\"$5#\"$_#F'F&F%F$F#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 214 "3.  Functions.  In this exericse we study the ba
+sic properties of polynomials and rational functions.  Some revelant M
+APLE commands will be   factor, expand, solve, fsolve, denom, numer, s
+implify, subs,   ....... ." }}{PARA 0 "" 0 "" {TEXT -1 171 "     The f
+irst thing we need to learn is how to define a function.  There are tw
+o ways, each with its own advantages and disadvantages.  First define \+
+the polynomial p1 as " }{TEXT 282 2 "a " }{TEXT -1 1 "s" }{TEXT 283 
+23 "ymbolic expression in x" }{TEXT -1 119 " in the following way:    \+
+p1:=x^2-1;  (Note the colon before the =, this is always required when
+ defining something.)  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "p
+1:=x^2-1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#p1G,&*$)%\"xG\"\"#\"\"
+\"F*F*!\"\"" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 39 "     Now define the same polynomial as " }{TEXT 281 30 "an oper
+ation on the variable x" }{TEXT -1 40 " in the following way:     p2:=
+x->x^2-1;" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "p2:x->x^2-1;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#f*6#%\"xG6\"6$%)operatorG%&arrowGF&,&
+*$)9$\"\"#\"\"\"F/F/!\"\"F&F&F&" }}}{PARA 257 "" 0 "" {TEXT -1 0 "" }}
+{PARA 257 "" 1 "" {TEXT -1 190 "Try the following command sequences to
+ see some of the differences in how MAPLE  treats these two definition
+s.  As always record your observations and comments on the worksheet i
+n text mode." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 3 "p1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$)%\"xG\"
+\"#\"\"\"F(F(!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "p2;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#p2G" }}}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "p2(x);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#-%#p2G6#%\"xG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 8 "p2(t-3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#p2G6#,&%\"tG\"\"
+\"\"\"$!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "p2(u^3-u^2+
+2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#p2G6#,(*$)%\"uG\"\"$\"\"\"F+
+*$)F)\"\"#F+!\"\"F.F+" }}}{PARA 0 "" 0 "" {TEXT -1 5 "     " }}{PARA 
+0 "" 0 "" {TEXT -1 255 "     This works just like we expect substituti
+on to work because p2 is an operation on whatever is in the (  ).  How
+ever since p1 is a symbolic expression we have some difficulties with \+
+substituting into it directly.   Try the following command sequences.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 6 "p1(x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$)-%\"xG6#F'\"\"#
+\"\"\"F*F*!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "p1(t-3);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$)-%\"xG6#,&%\"tG\"\"\"\"\"$!\"
+\"\"\"#F+F+F+F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "p1(u^3-u
+^2+2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*$)-%\"xG6#,(*$)%\"uG\"\"$
+\"\"\"F.*$)F,\"\"#F.!\"\"F1F.F1F.F.F.F2" }}}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 135 "      Notice the extra x in front
+.  This is curious and not very reassuring.  To substitute into a symb
+olic expression we must use the " }{TEXT 284 4 "subs" }{TEXT -1 9 " co
+mmand." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "subs(x=t-3,p1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&
+*$),&%\"tG\"\"\"\"\"$!\"\"\"\"#F(F(F(F*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "subs(x=6,p1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#N
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "p2(6);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#-%#p2G6#\"\"'" }}}{PARA 0 "" 0 "" {TEXT -1 4 "    " 
+}}{PARA 0 "" 0 "" {TEXT -1 75 "     Now let's do some simple operation
+s on this polynomial.  In each case " }{TEXT 277 46 "Explain what the \+
+command appears to have done." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "factor(p1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%
+\"xG\"\"\"F&!\"\"F&,&F%F&F&F&F&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 
+"symbolic" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "factor(p2);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#p2G" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 7 "sybolic" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "fact
+or(p2(x));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#p2G6#%\"xG" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 7 "sybolic" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 10 "expand(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#p2
+G6#%\"xG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "symbolic" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "solve(%=0);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%'RootOfG6#-%#p2G6#%#_ZG" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 9 "operation" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "fs
+olve(%%=0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'fsolveG6$/-%#p2G6#%
+\"xG\"\"!F*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "symbolic" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "solve(p2=0);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"!" }}}{PARA 11 "" 1 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 9 "operation" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "solve(p2(x)=0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%
+'RootOfG6#-%#p2G6#%#_ZG" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "operati
+on" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "solve(p1=0);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"\"!\"\"" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 9 "operation" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "
+solve(p1=2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$*$\"\"$#\"\"\"\"\"#,$F
+#!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "operation" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "fsolve(p1=2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6$$!+330K<!\"*$\"+330K<F%" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 9 "operation" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "so
+lve(p2=2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 9 "operation" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 15 "solve(p2(x)=2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'RootOfG6
+#,&-%#p2G6#%#_ZG\"\"\"\"\"#!\"\"" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "operation" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 16 "p3:=a*x^2+b*x+c;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#p3G,(*&%\"aG\"\"\")%\"xG\"\"#F(F(*&%\"bGF(F*F(F(%\"cGF(" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 8 "symbolic" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 12 "solve(p3=0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<&
+/%\"xGF%/%\"cG,&*&%\"aG\"\"\")F%\"\"#F+!\"\"*&%\"bGF+F%F+F./F*F*/F0F0
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+9 "operation" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "solve(p3=0,
+x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$,$*(\"\"#!\"\"%\"aGF&,&%\"bGF&*
+$,&*$)F)F%\"\"\"F.*(\"\"%F.F'F.%\"cGF.F&#F.F%F.F.F.,$*(F%F&F'F&,&F)F&F
+*F&F.F." }}}{PARA 0 "" 0 "" {TEXT -1 12 "   operation" }}{PARA 0 "" 0 
+"" {TEXT 278 91 "   Why did we need to include the ,x in the solve com
+mand in order to find the roots of p3?" }{TEXT -1 2 "  " }}{PARA 0 "" 
+0 "" {TEXT -1 71 "there is more than one variable? had to tell it whic
+h one to solve for?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 107 "Use the solve command replacing x with a, b, c respect
+ively.  You should be able to anticipate the results." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "p3:=a*x^2
++b*x+c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#p3G,(*&%\"aG\"\"\")%\"xG
+\"\"#F(F(*&%\"bGF(F*F(F(%\"cGF(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "solve(p3=0,a);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&,&*&%\"bG\"\"\"%\"xGF(F(%\"cGF(F
+(F)!\"#!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "solve(p3=0,b);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*
+&,&*&%\"aG\"\"\")%\"xG\"\"#F(F(%\"cGF(F(F*!\"\"F-" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 14 "solve(p3=0,c);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,&*&%\"aG\"\"\")%\"xG\"\"#F&!\"\"*&%\"bGF&F(F&F*" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }{TEXT 279 58 "Wh
+at's the famous formula we get when we solve p3=0 for x?" }}{PARA 0 "
+" 0 "" {TEXT -1 17 "quadriac equation" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 169 "  Se
+e if MAPLE knows a general formula for solving general cubic polynomia
+ls, i.e. is there a 3rd order formula comparable to the quadratic form
+ula?  If so, exhibit it. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "p4:=x^3+x^2+x+1;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%#p4G,**$)%\"xG\"\"$\"\"\"F**$)F(\"\"#F*F*F(F*F*F*" 
+}}}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 14 "solve(p4=0,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%!\"\"^#\"\"
+\"^#F#" }}}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 1 " " }{TEXT 280 111 "Why do you think high school students a
+re never asked to remember the general formula for the roots of a cubi
+c?" }}{PARA 0 "" 0 "" {TEXT -1 11 "to complex?" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 113 "4.  Solving Equations in
+ One Variable.   There are two different commands to direct Maple to s
+olve an equation:  " }{TEXT 285 5 "solve" }{TEXT -1 5 " and " }{TEXT 
+286 7 "fsolve." }}{PARA 0 "" 0 "" {TEXT -1 35 "They have different pur
+poses.  The " }{TEXT 287 5 "solve" }{TEXT -1 63 " command attempts to \+
+find exact solutions.  If the expression  " }{TEXT 289 1 "f" }{TEXT 
+-1 116 "  is defined in terms of only one variable, there are several \+
+different ways to direct Maple to solve the equation  " }{TEXT 290 5 "
+f  = " }{TEXT 291 4 "0.  " }{TEXT -1 54 "The following all cause Maple
+ to solve the equation   " }{TEXT 292 5 "f  = " }{TEXT 293 2 "0." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "       so
+lve(f);" }}{PARA 0 "" 0 "" {TEXT -1 18 "       solve(f,x);" }}{PARA 0 
+"" 0 "" {TEXT -1 18 "       solve(f=0);" }}{PARA 0 "" 0 "" {TEXT -1 
+20 "       solve(f=0,x);" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 349 "Maple makes an assumption that if the coefficient
+s of a polynomial are all given exactly (as integers or rational numbe
+rs [ratios of integer]), then you are only interested in finding exact
+ solutions.  The Fundamental Theorem of Algebra doesn't guarantee that
+ the solutions of  a polynomial can be found exactly, only the polynom
+ial has solutions.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 78 "You can force Maple to report additional (approximate) \+
+solutions by using the " }{TEXT 288 6 "fsolve" }{TEXT -1 45 " command.
+  (What does the \"f\" stand for?)  In" }}{PARA 0 "" 0 "" {TEXT -1 
+249 "addition, to forcing Maple to report approximate solutions, you c
+an specify a field extension (typically real or complex) and require M
+aple to look for solutions which fit in that field extension.  Also, o
+ne can specify a range of x values and force" }{TEXT 296 7 " fsolve" }
+{TEXT -1 75 " to only look for solutions in that specified range.  For
+ example, compare:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 16 "fsolve(4*x-x^3);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%$!+++++?!\"*$\"\"!F'$\"+++++?F%" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 23 "fsolve(4*x-x^3,x=1..4);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#$\"+++++?!\"*" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 28 "For each of the polynomials " }{XPPEDIT 
+18 0 "p[1]" "6#&%\"pG6#\"\"\"" }{TEXT -1 9 " through " }{XPPEDIT 18 0 
+"p[14]" "6#&%\"pG6#\"#9" }{TEXT -1 19 ", do the following:" }}{PARA 0 
+"" 0 "" {TEXT -1 56 "     a.   solve for all exact roots whereever pos
+sible, " }}{PARA 0 "" 0 "" {TEXT -1 59 "     b.   find all approximate
+ roots to 10 decimal places, " }}{PARA 0 "" 0 "" {TEXT -1 43 "     c. \+
+ factor each into linear factors.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 106 "You will need to click on  [> in the to
+olbar to obtain new execution lines just below the cursor position." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 14 "p[1] := x^2-2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"
+\",&*$)%\"xG\"\"#F'F'F,!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 12 "solve(p1,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"\"!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "fsolve(p1,x);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6$$!+++++5!\"*$\"\"\"\"\"!" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "
+p[2] := x^2+2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"#,&*$)%
+\"xGF'\"\"\"F,F'F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "solve
+(p2,x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "p[3] := 2*x^2+3*x-2;" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>&%\"pG6#\"\"$,(*&\"\"#\"\"\")%\"xGF*F+F+*&F'F+F-F+F+F*!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "solve(p3,x);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6$,$*(\"\"#!\"\"%\"aGF&,&%\"bGF&*$,&*$)F)F%\"\"\"F.*
+(\"\"%F.F'F.%\"cGF.F&#F.F%F.F.F.,$*(F%F&F'F&,&F)F&F*F&F.F." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "p[4] :=
+ x^2+x+1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"%,(*$)%\"xG
+\"\"#\"\"\"F-F+F-F-F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "so
+lve(p4,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%!\"\"^#\"\"\"^#F#" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "p[5] := x^2+(sqrt(2)-2)*x-2*
+sqrt(2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"&,(*$)%\"xG\"
+\"#\"\"\"F-*&,&*$F,#F-F,F-F,!\"\"F-F+F-F-*&F,F-F,F1F2" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "solve(p5,x);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 11 "fsolve(p5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#$\"\"!F$" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "p[6] := x^2+(1-Pi)*x-Pi;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"',(*$)%\"xG\"\"#\"\"\"F-*&,&F-F
+-%#PiG!\"\"F-F+F-F-F0F1" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "
+solve(p6,x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 24 "p[7] := x^2+(a+b)*x+a*b;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"pG6#\"\"(,(*$)%\"xG\"\"#\"\"\"F-*&,&%\"aGF-%\"bGF-
+F-F+F-F-*&F0F-F1F-F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "sol
+ve(p7,x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "p[8] := x^3-x^2-2*x;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"\"),(*$)%\"xG\"\"$\"\"\"F-*
+$)F+\"\"#F-!\"\"*&F0F-F+F-F1" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 12 "solve(p8,x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 27 "p[9] := 6*x^3+11*x^2+6*x+1;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"pG6#\"\"*,**&\"\"'\"\"\")%\"xG\"\"$F+F+*&\"#6F+)F-
+\"\"#F+F+*&F*F+F-F+F+F+F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "solve(p9,x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 21 "p[10] := x^3+x^2+x+1;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>&%\"pG6#\"#5,**$)%\"xG\"\"$\"\"\"F-*$)F+\"\"#F-F-F+F-F-F-" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "solve(p10,x);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "p[11] :
+= x^4-1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"#6,&*$)%\"xG\"
+\"%\"\"\"F-F-!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "solve
+(p11,x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "p[12] :
+= x^4+1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"#7,&*$)%\"xG\"
+\"%\"\"\"F-F-F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "solve(p1
+2,x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "p[13] := 3*x^4+13*
+x^3+7*x^2-17*x-6;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"pG6#\"#8,,*&
+\"\"$\"\"\")%\"xG\"\"%F+F+*&F'F+)F-F*F+F+*&\"\"(F+)F-\"\"#F+F+*&\"#<F+
+F-F+!\"\"\"\"'F7" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "solve(p
+13,x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 39 "p[14] := 6*x^5-5*x^4+4*x^3-4*x^2-2*x+1;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"pG6#\"#9,.*&\"\"'\"\"\")%\"xG\"\"&F+F+*&F.F+)F-\"
+\"%F+!\"\"*&F1F+)F-\"\"$F+F+*&F1F+)F-\"\"#F+F2*&F8F+F-F+F2F+F+" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "solve(p14,x);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" 
+{TEXT -1 56 "5.  Solving Systems of Equations in Several Variables.  \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "When \+
+we have an equation in two variables, e.g.  " }{XPPEDIT 19 1 "3*x -2*y
+ = 5" "6#/,&*&\"\"$\"\"\"%\"xGF'F'*&\"\"#F'%\"yGF'!\"\"\"\"&" }{TEXT 
+-1 147 "  we often associate with it a graph, the set of points (x,y) \+
+in the two-dimensional plane which satisfy the equation.  For a linear
+ equation like " }{XPPEDIT 19 1 "3*x-2*y = 5" "6#/,&*&\"\"$\"\"\"%\"xG
+F'F'*&\"\"#F'%\"yGF'!\"\"\"\"&" }{TEXT -1 89 " the graph is a straight
+ line.  For more a complicated equation in two variables, e.g.,  " }
+{XPPEDIT 19 1 "2*x^3 -3*x + y^2 = x*y" "6#/,(*&\"\"#\"\"\"*$%\"xG\"\"$
+F'F'*&F*F'F)F'!\"\"*$%\"yGF&F'*&F)F'F.F'" }{TEXT -1 45 "  the graph be
+comes a more complicated curve." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 282 "When we have two equations in two variab
+les, we think of the solution set of this system of equations as being
+ the set of points (x,y) which satisfy both equations simultaneously. \+
+ In terms of their graphs, the solution set is the set of points where
+ the graphs intersect (cross).  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 622 "When we have two linear equations in two
+ variables, since their graphs are straight lines, then two straight l
+ines, if they cross, will cross in exactly one place.  Hence, the solu
+tion set of the system of equations will be exactly one point (x,y).  \+
+If we have two equations which are more complicated, then the number o
+f intersection points (crossing points) of their graphs can vary.  For
+ example, if the graph of one equation is a circle and the graph of th
+e other equation is a straight line, then, if their graphs cross, then
+ number of solutions (intersection points) of the system of equations \+
+could be 1 or 2.  Etc." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 128 "We can instruct Maple to find solutions of systems \+
+of equations using the solve or fsolve commands.  The syntax for doing
+ so is:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+30 "     solve( \{eq1,eq2\}, \{x,y\});" }}{PARA 0 "" 0 "" {TEXT -1 1 "
+ " }}{PARA 0 "" 0 "" {TEXT -1 85 "where eq1 and eq2 are equations in t
+he variables x and y.  This is illustrated below." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "solve(\{ x +
+ 2*y = 5, 2*x-3*y = -1\},\{x,y\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+<$/%\"yG#\"#6\"\"(/%\"xG#\"#8F(" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 22 "We could have defined " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 40 "eq1 := x + 2*y = 5;\neq2 := 2*x-3*y = -1;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$eq1G/,&%\"xG\"\"\"*&\"\"#F(%\"yGF(F
+(\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$eq2G/,&*&\"\"#\"\"\"%\"xG
+F)F)*&\"\"$F)%\"yGF)!\"\"F." }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 26 "and then given the command" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 25 "solve( \{eq1,eq2\}, \{x,y\});" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#<$/%\"yG#\"#6\"\"(/%\"xG#\"#8F(" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 55 "and achieved the same res
+ult.  Remember the solution  (" }{XPPEDIT 19 1 "13/7" "6#*&\"#8\"\"\"
+\"\"(!\"\"" }{TEXT -1 2 ", " }{XPPEDIT 19 1 "11/7" "6#*&\"#6\"\"\"\"\"
+(!\"\"" }{TEXT -1 127 ") represents a point in the two-dimensional pla
+ne (why two-dimensional?) where the graphs of the equations intersect \+
+(cross).  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 63 "Find the solutions, if they exist, for the following equations \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "a.  " 
+}{XPPEDIT 19 1 "3*x - 2*y = 6" "6#/,&*&\"\"$\"\"\"%\"xGF'F'*&\"\"#F'%
+\"yGF'!\"\"\"\"'" }{TEXT -1 3 ",  " }{XPPEDIT 19 1 "4*x + y = -2" "6#/
+,&*&\"\"%\"\"\"%\"xGF'F'%\"yGF',$\"\"#!\"\"" }}{PARA 0 "" 0 "" {TEXT 
+-1 4 "b.  " }{XPPEDIT 19 1 "6*x -9*y = 12" "6#/,&*&\"\"'\"\"\"%\"xGF'F
+'*&\"\"*F'%\"yGF'!\"\"\"#7" }{TEXT -1 3 ",  " }{XPPEDIT 19 1 "3*y - 2*
+x = 3" "6#/,&*&\"\"$\"\"\"%\"yGF'F'*&\"\"#F'%\"xGF'!\"\"F&" }}{PARA 0 
+"" 0 "" {TEXT -1 4 "c.  " }{XPPEDIT 19 1 "y = x - x^2" "6#/%\"yG,&%\"x
+G\"\"\"*$F&\"\"#!\"\"" }{TEXT -1 3 ",  " }{XPPEDIT 19 1 "y = x-4" "6#/
+%\"yG,&%\"xG\"\"\"\"\"%!\"\"" }}{PARA 0 "" 0 "" {TEXT -1 4 "d.  " }
+{XPPEDIT 19 1 "x^2 + y^2 = 16" "6#/,&*$%\"xG\"\"#\"\"\"*$%\"yGF'F(\"#;
+" }{TEXT -1 3 ",  " }{XPPEDIT 19 1 "x^2/36 + y^2/4 = 1" "6#/,&*&%\"xG
+\"\"#\"#O!\"\"\"\"\"*&%\"yGF'\"\"%F)F*F*" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "e.  " }{XPPEDIT 19 1 "x^2+y^2 = 16
+" "6#/,&*$%\"xG\"\"#\"\"\"*$%\"yGF'F(\"#;" }{TEXT -1 4 ",   " }
+{XPPEDIT 19 1 "x + y = 6" "6#/,&%\"xG\"\"\"%\"yGF&\"\"'" }{TEXT -1 4 "
+    " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "solve(\{3*x-2*y=6,4*
+x+y=-2\},\{x,y\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$/%\"xG#\"\"#\"
+#6/%\"yG#!#IF(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 24 "No answer means
+ parallel" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "solve(\{6*x-9*
+y=12,3*y-4*x=3\},\{x,y\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$/%\"yG
+#!#6\"\"$/%\"xG#!\"(\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+29 "solve(\{y=x-x^2,y=x-4\},\{x,y\});" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6$<$/%\"xG\"\"#/%\"yG!\"#<$/F%F)/F(!\"'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 45 "solve(\{x^2+y^2=16,(x^2/36)+(y^2/4)=1\},\{x,y\});" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#<$/%\"yG-%'RootOfG6#,&\"\"&!\"\"*&\"\"
+#\"\"\")%#_ZGF-F.F./%\"xG,$*&\"\"$F.-F'6$,&*&F-F.F/F.F.F5F+/%&labelG%$
+_L1GF.F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#<$/%\"yG$\"+I)Q6e\"!\"*/%\"xG$\"+;YBuO
+F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "solve(\{x^2+y^2=16,x+
+y=6\},\{x,y\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<$/%\"xG,&-%'RootOf
+G6$,(*$)%#_ZG\"\"#\"\"\"F/*&\"\"'F/F-F/!\"\"\"#5F//%&labelG%$_L4GF2F1F
+//%\"yGF'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#<$/%\"yG$!+nmmmO!\"*/%\"xG$!+++++NF(" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 64 "1.  State the binomial th
+eorem:  it needs to be more succinctly " }}{PARA 0 "" 0 "" {TEXT -1 
+20 "     Find the sums  " }{XPPEDIT 18 0 "sum(binomial(n,k),k = 0 .. n
+)" "6#-%$sumG6$-%)binomialG6$%\"nG%\"kG/F*;\"\"!F)" }{TEXT -1 37 "  fo
+r n = 1, 2, 3, etc.\n2.  Done\n3.  " }{TEXT 298 7 "General" }{TEXT -1 
+29 " Cubic equation solution???  " }}{PARA 0 "" 0 "" {TEXT -1 117 "4. \+
+ The polynomials defined in this section were defined via subscripts p
+[1], p[2], p[3], etc.\n5.  Explain b. again??" }}{PARA 0 "" 0 "" 
+{TEXT -1 32 "     On e.  what happened there?" }}{PARA 0 "" 0 "" 
+{TEXT -1 43 "\n\n1.  1.5\n2.  4\n3.  3\n4.  1\n5.  2.5\n\n12/20\n" }}}
+{MARK "260 0" 39 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 
+2 33 1 1 }

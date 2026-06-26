@@ -1,0 +1,792 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "Helvetica" 1 10 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+258 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 261 "Helvetica" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 
+-1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+268 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 272 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+273 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 277 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+278 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "Helvetica" 
+0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 
+}{CSTYLE "" -1 282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+283 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 
+255 0 0 1 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 255 0 0 1 0 1 
+0 0 0 0 0 0 0 0 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+}{CSTYLE "" -1 287 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+288 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 
+256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 258 "" 0 "" {TEXT -1 17 "Catherine Headley" }}{PARA 0 "
+" 0 "" {TEXT -1 14 "March 24, 2003" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 256 "" 0 "" {TEXT -1 1 " " }{TEXT 280 23 "Arithmetic Computation
+s" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 179 "Sav
+e your current worksheet as work01-yourlastname.mws.  Remember to save
+ frequently to avoid losing data in case that the system would shut do
+wn in the middle of a work session! " }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 104 "In the text mode (click on the cap T b
+utton) place your name(s) and date at the top of your worksheet.  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 518 "1.  Basi
+c Calculations.  We begin by experimenting with some very basic calcul
+ations.  The intent is to learn some basic Maple syntax, while observi
+ng some of the neat features of a Computer Algebra System (CAS).  We w
+ill also review some basic concepts from arithmetic.   Perform the fol
+lowing calculations with Maple.  As you do these exercises enter notes
+ and comments onto your worksheet in text mode.  In particular, the au
+thor of these worksheets sometimes purposefully leaves off certain req
+uired Maple syntax. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 834 "The first example is in the first problem below.  A CA
+S requires some syntaxual thing to tell it when you are through giving
+ it instructions on what you want it to do and when you are ready for \+
+it to do them.  Try the first calculation just as indicated, look at t
+he error message and see if you can figure out what syntax is required
+ by Maple to tell it that you are ready for it to do its thing. (Place
+ the cursor on the execution line indicated by the symbol [> and type \+
+in your Maple instructions, a.k.a. \"input.\")  Then, compute each of \+
+the indicated arithmetic calculations.  Use parathesis if and where yo
+u need to.  Note the usage of operators +,-,*,/,^,!  and the usage or \+
+non-usage of parentheses.   (You can always get new execution lines po
+sitioning your cursor in the worksheet and then clicking on [> from th
+e toolbar.) " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 67 "a.    6+5         b.   2*3+5       c.  2*(3+5)      d.  156/14/
+8   " }}{PARA 0 "" 0 "" {TEXT -1 71 "e.   15 - 7*5   f.  (15 - 7)*5   \+
+g.  15!/8!          h.  20!/(17!*3!)  " }}{PARA 0 "" 0 "" {TEXT -1 80 
+"i.    2^3           j. 2^3+2          k.   2^3^4        l. 2 + 3^4   \+
+   m.  2^3!" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 44 "Type each of these just as they are entered." }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "6+5;" }}{PARA 0 "> " 0 "" {MPLTEXT 
+1 0 4 "6+5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#6" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "2*3
++5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#6" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 8 "2*(3+5);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#;" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "156/14/8;" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6##\"#R\"#G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+7 "15-7*5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!#?" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 9 "(15-7)*5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"#S" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "15!/8!;" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#\")+CVK" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 13 "20!/(17!*3!);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%S6" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "2^3;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "2^3+
+2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#5" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 8 "2^(3^4);" }}{PARA 11 "" 1 "" {TEXT -1 0 "" }
+{XPPMATH 20 "6#\":_BT\\$e#H#R;&yT#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "(2^3)^4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%'4%" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "2+3^4;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#$)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "2^3!
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#k" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 356 "2.  Numbers Game.  Play the Nu
+mbers Game with the base set of numbers \{2, 3, 4\}.  I.e., determine \+
+how many of the integers between 0 and 20 (inclusively) can be generat
+ed by calculations on the base numbers usings the operators +,-,*,/,^,
+! .  In each calculation, at least two of the base numbers must be use
+d and no base number can be used more than once." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "4+2-3!;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 4 "3-2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "4-2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "4+2-
+3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 5 "3!-2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"%" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "3+2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "3*2;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"'" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 4 "4+3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "4*2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\")" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "4+3+
+2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"*" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 5 "3!+4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#5" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "4*2+3;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "4*3;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#7" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "3^2+4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#8" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "4*3+2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#9" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "4!-3^
+2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#:" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 4 "4^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#;" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT 283 46 "We could not find a solution for \+
+producing 17." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "4!-3*2;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#=" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "4^2+3;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#>" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "4*(3+2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#?" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 246 "3.  Built-in Functions and Constants.  We continue exp
+erimenting with some of the built-in functions in Maple.  Perform the \+
+following calculations with Maple.  As you do these exercises enter no
+tes and comments onto your worksheet in text mode.  " }}{PARA 0 "" 0 "
+" {TEXT -1 122 "Another example of \"omitted\" required Maple syntax i
+s in this set of  problems.  It's more subtle and you may have to ask.
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 85 "a. sq
+rt(729)         b.  sqrt(4 + 9)          c.  sqrt(4)  + sqrt(9)       \+
+d.  Pi    " }}{PARA 0 "" 0 "" {TEXT -1 80 "e.  log(100)          f.  l
+og(100 + 400)   g.  log(100) + log(400)   h.  ln(100)" }}{PARA 0 "" 0 
+"" {TEXT -1 92 "i.  exp(-2)             j.  sin(Pi/4)              k. \+
+ Gamma(3)                 l.  Gamma(4)" }}{PARA 0 "" 0 "" {TEXT -1 77 
+"m.  Gamma(5)      n.  Gamma(6)         o.   binomial(20,3)          p
+. 2(3+4)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "sqrt(729);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#F" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "sqrt(4+9);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#*$\"#8#\"\"\"\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "evalf(sqrt(13));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$
+\"+v7b0O!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "sqrt(4)+sqr
+t(9);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"&" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 3 "Pi;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%#PiG" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "log(100);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#-%#lnG6#\"$+\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "evalf(log(100));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$
+\"+'=q^g%!\"*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "log(100+40
+0);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%#lnG6#\"$+&" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 18 "log(100)+log(400);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&-%#lnG6#\"$+\"\"\"\"-F%6#\"$+%F(" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 8 "ln(100);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-
+%#lnG6#\"$+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "exp(-2);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$expG6#!\"#" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 10 "sin(Pi/4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+,$*&\"\"#!\"\"F%#\"\"\"F%F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+9 "Gamma(3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%&GammaG6#\"\"$" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "evalf(GAMMA(3));" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#$\"\"#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "Gamma(4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%&GammaG
+6#\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "Gamma(5);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%&GammaG6#\"\"&" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 9 "Gamma(6);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-
+%&GammaG6#\"\"'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "binomial
+(20,3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"%S6" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 7 "2(3+4);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"
+\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "2(t);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"#" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT 257 81 "Can you figure out what Maple was doing to come \+
+up with the answer it gave for p?" }{TEXT -1 209 "  In other words \"H
+ow did Maple interpret command  2(3+4)?\"  Or, alternately, why is thi
+s particular example in the built-in functions section?   To answer th
+is, try some more examples like 2(7), 2(34), 2(t). " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "2(7);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "2(34);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "2(t);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"#" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 53 "[Note the following convention for these exercises:  \+
+" }{TEXT 256 62 "All questions/statements in bold face require written
+ response" }{TEXT 279 2 ". " }{TEXT 261 1 "]" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 262 8 "Answer: " }{TEXT 284 92 "Maple \+
+interpreted this by always printing \"2\".  This is a function designa
+ted by \"2\", maybe?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT 286 2 "kp" }{TEXT -1 5 "  Yes" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 22 "4.  Prime Numbers.  A " }{TEXT 281 
+12 "prime number" }{TEXT -1 38 " is an integer (greater than 1 -- why \+
+" }{TEXT 258 12 "greater than" }{TEXT -1 124 " 1?) for which the only \+
+(positive integer) factors are 1 and itself.  Examples of prime number
+s are: 2, 13, 101, 20110771.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 18 "The Maple command " }{TEXT 259 7 "isprime
+" }{TEXT -1 58 " determines whether or not a given integer is prime.  \+
+Use " }{TEXT 260 7 "isprime" }{TEXT -1 105 " it to determine whether  \+
+the following numbers are prime:  29,  35,  1537,  your ss#,   10!+1, \+
+ 329891. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "isprime(29);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%tru
+eG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "isprime(35);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "isprime(1537);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&f
+alseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "isprime(402980568)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 15 "isprime(10!+1);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#%&falseG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "isprime(3298
+91);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 50 "Find all of the prime num
+bers between 0 and 200.  " }{TEXT 277 4 "Note" }{TEXT -1 63 ":  It wil
+l be helpful for you to review the information in the " }{TEXT 263 11 
+"programming" }{TEXT -1 15 " worksheet on  " }{TEXT 264 9 "for loops" 
+}{TEXT -1 6 " and  " }{TEXT 265 13 "if statements" }{TEXT -1 1 "." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+53 "for i from 0 to 200\ndo\nprint (i), isprime(i);\nend do;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&f
+alseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\"%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"\")" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#5" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#6" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"#7" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#8" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#9" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#:" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#<" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#=" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#>" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#?" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"#@" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#A" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#B" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#C" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#D" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#E" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#F" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#G" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#H" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"#I" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#J" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#K" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#L" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#M" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#N" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#O" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#P" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#Q" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"#R" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#S" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#T" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#U" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#V" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#W" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#X" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#Y" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#Z" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"#[" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#\\" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#]" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#^" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#_" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#`" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#a" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#b" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#c" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"#d" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#e" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#f" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#g" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#h" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#i" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#j" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#k" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#l" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"#m" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#n" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#o" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#p" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#q" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#r" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#s" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#t" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#u" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"#v" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#w" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#x" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#y" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#z" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#!)" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#\")" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"##)
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#$)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#%)" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#&)" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#')" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"#()" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#))" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#*)" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#!*" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#\"*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"##*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&false
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#$*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#%*" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#&*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"#'*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&false
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#(*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#)*" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"#**" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$+\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$,\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$-\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$.\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$/\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$0\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$1\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$2\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$3\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$4\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$5\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$6\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$7\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$8\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$9\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$:\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$;\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$<\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$=\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$>\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$?\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$@\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$A\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$B\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$C\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$D\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$E\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$F\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$G\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$H\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$I\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$J\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$K\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$L\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$M\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$N\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$O\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$P\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$Q\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$R\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$S\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$T\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$U\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$V\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$W\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$X\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$Y\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$Z\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$[\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$\\\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$]\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$^\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$_\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$`\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$a\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$b\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$c\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$d\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$e\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$f\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$g\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$h\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$i\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$j\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$k\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$l\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$m\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$n\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$o\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$p\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$q\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$r\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$s\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$t\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$u\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$v\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$w\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&fals
+eG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$x\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$y\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$z\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$!=" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&false
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$\"=" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$#=" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$$=" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$%=" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&false
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$&=" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$'=" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$(=" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$)=" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&false
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$*=" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$!>" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$\">" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$#>" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&false
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$$>" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$%>" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$&>" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"$'>" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&false
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$(>" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"$)>" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"$*>" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%%trueG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"$+#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%&falseG
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 287 2 "kp" 
+}{TEXT -1 70 "  Is there a way to just print the prime numbers and not
+ all the rest?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 404 "N.B.  There are various questions and properties about p
+rime numbers which are of interest and study.  For example, it is know
+n that there are infinitely many primes.  There is only one even prime
+. (Why?)  The distribution of the odd primes is not fully understood. \+
+ If two consecutive odd numbers are both prime (e.g., (5,7) ; (17,19),
+ (101,103)), then such a pair of consecutive odd primes is called a " 
+}{TEXT 282 19 "pair of twin primes" }{TEXT -1 174 ".  It is not known \+
+whether or not there are infinitely many such pairs of twin primes.  I
+t is known that there can be arbitrarily large gaps between consecutiv
+e primes.  Etc." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 372 "5.  Relatively Prime Numbers.  Two positive integers are
+ said to be relatively prime if the only positive integer which (evenl
+y) divides both of them is 1.  Examples of  (pairs of) relatively prim
+e integers are:  74, 51;   13, 120;   344280, 267317.  If two integers
+ are relatively prime, then the greatest common divisor of the two int
+egers must be 1.  The maple command " }{TEXT 278 3 "gcd" }{TEXT -1 
+296 " can be used to determine whether greatest common divisor of two \+
+integers is 1, i.e., whether the two integers are relatively prime.  S
+how that each of the above mentioned pairs of integers are relatively \+
+prime.  Find three other pairs of relatively prime integers with the f
+ollowing constraints:" }}{PARA 0 "" 0 "" {TEXT -1 72 "(a) neither inte
+ger is itself prime; (b) each integer is more than 1000." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "gcd(7
+4,51);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 12 "gcd(13,120);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "gcd(344280,267
+317);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 15 "gcd(1055,1062);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "gcd(1227,21
+92);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 15 "gcd(2040,1111);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 88 "List (once) eac
+h pair of integers from the range 100  to 110 that are relatively prim
+e. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(100,101);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(100,103);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(100,107);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(100,109);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(101,102);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(101,103);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(101,104);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(101,105);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(101,106);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(101,107);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(101,108);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(101,109);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(101,110);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(102,103);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(102,107);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(102,109);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(103,104);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(103,105);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(103,106);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(103,107);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(103,108);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(103,109);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(103,110);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(104,105);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(104,107);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(104,109);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(105,106);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(105,107);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(105,109);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(106,107);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(106,109);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(107,108);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(107,109);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(107,110);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "gcd(108,109);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "gcd(109,110);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT 288 3 "kp " }{TEXT -1 96 "  I am willing to
+ buy this.  But wasn't it a lot of work?  Is there another way?  An ea
+sier way?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+3 "6. " }{TEXT 267 33 "Fundamental Theorem of Arithmetic" }{TEXT -1 
+148 ".  The Fundamental Theorem of Arithmetic states that every intege
+r can be factored in a unique way into a product of powers of primes. \+
+ For example:" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" 
+{TEXT -1 5 "84 = " }{XPPEDIT 18 0 "``(2)^2*``(3)*``(7);" "6#*(-%!G6#\"
+\"#F'-F%6#\"\"$\"\"\"-F%6#\"\"(F+" }{TEXT -1 4 " ;  " }}{PARA 0 "" 0 "
+" {TEXT -1 9 "28490 =  " }{XPPEDIT 18 0 "``(2)*``(5)*``(7)*``(11)*``(3
+7);" "6#*,-%!G6#\"\"#\"\"\"-F%6#\"\"&F(-F%6#\"\"(F(-F%6#\"#6F(-F%6#\"#
+PF(" }{TEXT -1 4 " ;  " }}{PARA 0 "" 0 "" {TEXT -1 21 "581325814248300
+0  =  " }{XPPEDIT 18 0 "``(2)^3*``(3)^4*``(5)^3*``(11)^2*``(23)^3*``(2
+9)*``(41)^2;" "6#*0-%!G6#\"\"#\"\"$-F%6#F(\"\"%-F%6#\"\"&F(-F%6#\"#6F'
+-F%6#\"#BF(-F%6#\"#H\"\"\"-F%6#\"#TF'" }{TEXT -1 4 " .  " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 17 "It is called the \+
+" }{TEXT 270 11 "Fundamental" }{TEXT -1 217 " Theorem of Arithmetic be
+cause of the role it plays in both simple and deep results in algebra \+
+and number theory.  There are numerous and important facts which follo
+w because of  the Fundamental Theorem of Arithmetic." }}{PARA 0 "" 0 "
+" {TEXT -1 10 "          " }}{PARA 0 "" 0 "" {TEXT -1 111 "Use paper a
+nd pencil to factor the following integers into their prime decomposit
+ions:  340340, 38*865, 10!.   " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 266 8 "Answers:" }{TEXT 285 66 "340340=2^2*5*7*1
+1*13*17;   38*865=2*5*19*173;  10! = 2^8*3^4*5^2*7" }{TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 19 "The Maple
+ command  " }{TEXT 268 7 "ifactor" }{TEXT -1 32 " does this automatica
+lly.   Use " }{TEXT 269 7 "ifactor" }{TEXT -1 102 " to verify your res
+ults from above.  Now factor the following numbers:  384*8650,  10!+1 \+
+,  your ss#. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 16 "ifactor(340340);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*.)-%!G6#\"\"#F(\"\"\"-F&6#\"\"&F)-F&6#\"\"(F)-F&6#\"#6F)-F&6#\"
+#8F)-F&6#\"#<F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "ifactor(
+38*865);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#**-%!G6#\"\"#\"\"\"-F%6#\"
+\"&F(-F%6#\"#>F(-F%6#\"$t\"F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 13 "ifactor(10!);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#**)-%!G6#\"\"#
+\"\")\"\"\")-F&6#\"\"$\"\"%F*)-F&6#\"\"&F(F*-F&6#\"\"(F*" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "ifactor(384*8650);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#**)-%!G6#\"\"#\"\")\"\"\"-F&6#\"\"$F*)-F&6#\"\"&F(
+F*-F&6#\"$t\"F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "ifactor(
+10!+1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&-%!G6#\"#6\"\"\"-F%6#\"'
+\"*)H$F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "ifactor(4029805
+68);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#**)-%!G6#\"\"#\"\"$\"\"\"-F&6#
+F)F*-F&6#\"$P\"F*-F&6#\"'hD7F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+384 "7.  Greatest Common Divisors and Least Common Multiple (and the F
+undamental Theorem of Arithmetic).  Maple can compute for a pair of in
+tegers (a,b) both the greatest common divisor of  (a,b) and the least \+
+common multiple of (a,b) easily.  The commands for doing so are gcd(a,
+b) and lcm(a,b), respectively.  For each of the following pairs (a,b) \+
+find both the gcd(a,b) and the lcm(a,b)" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 105 "a.  74,148           b.  201, 1001 \+
+        c.  202, 1002     d.  2432902008176640000,41758540970065920000
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 12 "gcd(74,148);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"#u" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "lcm(74,148);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#\"$[\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+14 "gcd(201,1001);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "lcm(201,1001);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"',7?" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 46 "gcd(2432902008176640000,41758540970065920000);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"1++ofV?Kv" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 46 "lcm(2432902008176640000,41758540970065920000);" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"8++;#HJLt3!)[8" }}}{PARA 0 "" 0 "" {TEXT -1 74 "Fo
+r the pair of numbers 144 and 84 execute the following command sequenc
+e:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "144=ifactor(144);\n84=
+ifactor(84);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"$W\"*&)-%!G6#\"\"#
+\"\"%\"\"\")-F(6#\"\"$F*F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"#%)*(
+)-%!G6#\"\"#F*\"\"\"-F(6#\"\"$F+-F(6#\"\"(F+" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 23 "144*84=ifactor(144*84);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/\"&'47*()-%!G6#\"\"#\"\"'\"\"\")-F(6#\"\"$F0F,-F(6#\"
+\"(F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "gcd(144,84)=ifacto
+r(gcd(144,84));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"#7*&)-%!G6#\"\"#
+F*\"\"\"-F(6#\"\"$F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "lcm
+(144,84)=ifactor(lcm(144,84));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"%
+35*()-%!G6#\"\"#\"\"%\"\"\")-F(6#\"\"$F*F,-F(6#\"\"(F," }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "lcm(144,84)*gcd(144,84)=ifactor(lcm
+(144,84)*gcd(144,84));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"&'47*()-%
+!G6#\"\"#\"\"'\"\"\")-F(6#\"\"$F0F,-F(6#\"\"(F," }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 "For the pair of numbers 2
+744280 and 267300 execute the following command sequence:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "2744280=ifactor(2744280);\n267300=i
+factor(267300);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"(!GWF*,)-%!G6#\"
+\"#\"\"$\"\"\")-F(6#F+\"\"%F,-F(6#\"\"&F,-F(6#\"\"(F,)-F(6#\"#6F*F," }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"'+tE**)-%!G6#\"\"#F*\"\"\")-F(6#\"
+\"$\"\"&F+)-F(6#F0F*F+-F(6#\"#6F+" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 39 "2744280*267300=ifactor(2744280*267300);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/\"-+S/YNt*,)-%!G6#\"\"#\"\"&\"\"\")-F(6#\"\"$\"
+\"*F,)-F(6#F+F0F,-F(6#\"\"(F,)-F(6#\"#6F0F," }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 49 "gcd(2744280,267300)=ifactor(gcd(2744280,267300));
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/\"&?y\"**)-%!G6#\"\"#F*\"\"\")-F(
+6#\"\"$\"\"%F+-F(6#\"\"&F+-F(6#\"#6F+" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 49 "lcm(2744280,267300)=ifactor(lcm(2744280,267300));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/\")+U;T*,)-%!G6#\"\"#\"\"$\"\"\")-F(6
+#F+\"\"&F,)-F(6#F0F*F,-F(6#\"\"(F,)-F(6#\"#6F*F," }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 89 "lcm(2744280,267300)*gcd(2744280,267300)=ifact
+or(lcm(2744280,267300)*gcd(2744280,267300));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/\"-+S/YNt*,)-%!G6#\"\"#\"\"&\"\"\")-F(6#\"\"$\"\"*F,)-
+F(6#F+F0F,-F(6#\"\"(F,)-F(6#\"#6F0F," }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT 289 2 "kp" }{TEXT -1 14 "  Okay to here" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 11 "You assig
+n " }{TEXT 272 2 "x " }{TEXT -1 4 "and " }{TEXT 273 1 "y" }{TEXT -1 
+88 " to be any pair of numbers (positive integers).  Execute the follo
+wing command sequence:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "x \+
+:= ;\ny := ;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "x=ifactor(x
+);\ny=ifactor(y);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "x*y=if
+actor(x*y);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "gcd(x,y)=ifa
+ctor(gcd(x,y));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "lcm(x,y)
+=ifactor(lcm(x,y));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "lcm(
+x,y)*gcd(x,y)=ifactor(lcm(x,y)*gcd(x,y));" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 271 97 "What was the co
+mmon theme of the above three sets of calculations for different pairs
+ of numbers?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 147 "Use the Fundamental Theorem of Arithmetic to provide a written
+ argument to verify the general formula that for any pair of positive \+
+integers (m,n):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 34 "         mn = gcd(m,n) * lcm(m,n)." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 274 9 "Argument:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 198 "8.   Numerical Appr
+oximations.  While Maple can perform exact arithmetic, there are times
+ when it is important or helpful to obtain a decimal approximation for
+ some exact answer.  For instance, the " }{TEXT 275 5 "solve" }{TEXT 
+-1 66 " command can be used to find the \"exact\" roots of the polynom
+ial  " }{XPPEDIT 18 0 "p := x^3-11*x^2-70*x+600;" "6#>%\"pG,**$%\"xG\"
+\"$\"\"\"*&\"#6F)*$F'\"\"#F)!\"\"*&\"#qF)F'F)F.\"$+'F)" }{TEXT -1 34 "
+ .  Execute the following command:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "roots_of_p := solve(x^3-11*x
+^2-70*x+600,x);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 289 "That isn't very illuminating.  It maybe hard to tell, bu
+t there are three roots.  If you change the problem slightly, it may b
+e even harder.  (For example, change the number 70 in the above proble
+m to 80 and then do the calculation!)  To display each root separately
+, execute the commands:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "r1 := Re(roots_of_p[1]);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "r2 := Re(roots_of_p[2]);" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "r3 := Re(roots_of_p[3]);" }
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "Even th
+at isn't all that helpful.  The command " }{TEXT 276 5 "evalf" }{TEXT 
+-1 187 "  which stands for \"evaluate using floating point\" can be us
+ed to give a decimal approximation of an value.  The number of decimal
+ places can be specified.  Execute the following command:" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "evalf
+(r1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "evalf(r2);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "evalf(r3);" }}}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 98 "With these last comput
+ations,  we at least have a feel for the general location of the roots
+ of p." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+199 "To obtain a feel for what \"floating point arithmetic\" means, ex
+ecute the following command sequence and record any relevant observati
+ons about what the commands do, automatic features of Maple, etc. " }}
+{PARA 0 "" 0 "" {TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 6 "1+2/3;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "1/2+1/3+1/4;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 8 "2/(3*4);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "(7/3)^15;" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "Digits :=
+ 50;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "1+2/3;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 12 "1/2+1/3+1/4;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 
+"2/(3*4);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "(7/3)^15;" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "Digits := 10;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "sqrt(1/8);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 12 "(2/3)*(6/7);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "eval
+f(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "sqrt(2)/3;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{PARA 0 "" 0 "
+" {TEXT -1 7 "       " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "Dig
+its := 50;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "sqrt(1/8);" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 12 "(2/3)*(6/7);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+10 "sqrt(2)/3;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);
+" }}}{PARA 0 "" 0 "" {TEXT -1 7 "       " }}{PARA 0 "" 0 "" {TEXT -1 
+79 "Execute the following command sequence and again record relevant o
+bservations. " }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 13 "Digits := 10;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 5 "200!;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "200
+.!;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "200! + 1;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "200! + 1.;" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "1/6!;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 6 "10/6!;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 
+"100/6!;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "1000/6!;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "1/50!;" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 8 "1/50!+1;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "evalf(1/50!+1;);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "Digits:=100;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 15 "evalf(1/50!+1);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 37 " Consider the following computations:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "Digits \+
+:= 10;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "e_exact := 1/50!;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "e_approx := evalf(1/50!
+);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "e_approx;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "50!*e_exact;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "ans_10 \+
+:= 50!*e_approx;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 14 "Digits := 100;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "e_approx;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "50!*e_exact;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "ans_100
+ := 50!*e_approx;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 45 "Finally, consider the following computations:" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "Digi
+ts := 10;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 48 "a_e := 1234567
+89012345;  b_e := 987654321098765;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 38 "a_f := evalf(a_e);  b_f := evalf(b_e);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "ans_exact := a_e * b_e;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "ans_approx := a_f * b_f;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "diff_10 := ans_exact - ans_a
+pprox;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "Digits := 100;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 10 "ans_exact;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "ans_a
+pprox;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "diff_100 := ans_e
+xact - ans_approx;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 257 "" 0 
+"" {TEXT -1 386 "When the Digits value was changed, the values of ans_
+exact and ans_approx were not changed.  If they were not changed, then
+ why are the values diff_10 and diff_100 different?  What is Maple doi
+ng different when Digits = 10 as compared to Digits = 100, so that dif
+f_10 and diff_100 are different?  (The point of this question is to ve
+rbally clarify what floating point arithmetic means.)" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "215 0" 2 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

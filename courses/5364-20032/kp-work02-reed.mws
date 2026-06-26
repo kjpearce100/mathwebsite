@@ -1,0 +1,628 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 257 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 277 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 282 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+286 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 287 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 292 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 293 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 305 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+306 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 307 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 0 0 1 0 1 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 
+257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 28 "Teresa Reed   March 31, 2003" }
+}{PARA 256 "" 0 "" {TEXT 263 23 "Algebraic Manipulations" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 179 "Save your current
+ worksheet as work02-yourlastname.mws.  Remember to save frequently to
+ avoid losing data in case that the system would shut down in the midd
+le of a work session! " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 104 "In the text mode (click on the cap T button) place \+
+your name(s) and date at the top of your worksheet.  " }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 531 "1.  Basic Manipulatio
+ns.  We can use Maple to manipulate algebraic expression as well as to
+ perform arithmetic calculations.  The intent is to learn some basic M
+aple syntax, while observing some of the neat features of a Computer A
+lgebra System (CAS).  We will also review some basic concepts from ari
+thmetic.   Perform the following calculations with Maple.  As you do t
+hese exercises enter notes and comments onto your worksheet in text mo
+de.  Note the usage of operators +,-,*,/,^,!  and the usage or non-usa
+ge of parentheses.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 60 "Let the following variables represent algebraic express
+ions:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "1
+.  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "  f := x^3-x^2-2*x" }
+}}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 55 "    2.
+     g := 6*x^3+11*x^2+6*x+1                3.   " }{XPPEDIT 19 1 "h :
+= x^3-5*x+x^2-5;" "6#>%\"hG,**$%\"xG\"\"$\"\"\"*&\"\"&F)F'F)!\"\"*$F'
+\"\"#F)F+F," }{TEXT -1 19 "                   " }}{PARA 0 "" 0 "" 
+{TEXT -1 6 "4.    " }{XPPEDIT 19 1 "F := x^4-1" "6#>%\"FG,&*$%\"xG\"\"
+%\"\"\"F)!\"\"" }{TEXT -1 22 "                5.    " }{XPPEDIT 19 1 "
+G := 3*x^4+4*x^3-2*x^2+x-6;" "6#>%\"GG,,*&\"\"$\"\"\"*$%\"xG\"\"%F(F(*
+&F+F(*$F*F'F(F(*&\"\"#F(*$F*F/F(!\"\"F*F(\"\"'F1" }{TEXT -1 14 "      \+
+   6.   " }{XPPEDIT 19 1 "H := 2*x^2+3*x-2" "6#>%\"HG,(*&\"\"#\"\"\"*$
+%\"xGF'F(F(*&\"\"$F(F*F(F(F'!\"\"" }{TEXT -1 24 "                     \+
+   " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "Ca
+lcuate the following (each on a separate line):" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 123 "a.   f*g                \+
+       b.   g*(h-f)                  c.   f^3                 d.  (f +
+ g)*(f - h) + (f - g)*(f + h)" }}{PARA 0 "" 0 "" {TEXT -1 141 "e.  F*H
+/G                  f.   (F/H)/G                 g.  F/(H/G)          \+
+ h.    F/H*G                                        i.   F/(H*G)" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 19 "  f := x^3-x^2-2*x;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,(*
+$)%\"xG\"\"$\"\"\"F**$)F(\"\"#F*!\"\"*&F-F*F(F*F." }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 26 "  g := 6*x^3+11*x^2+6*x+1;" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%\"gG,**&\"\"'\"\"\")%\"xG\"\"$F(F(*&\"#6F()F*\"\"#
+F(F(*&F'F(F*F(F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "h :
+= x^3-5*x+x^2-5; " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"hG,**$)%\"xG
+\"\"$\"\"\"F**&\"\"&F*F(F*!\"\"*$)F(\"\"#F*F*F,F-" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 13 "F := x^4-1;  " }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"FG,&*$)%\"xG\"\"%\"\"\"F*F*!\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 27 "G := 3*x^4+4*x^3-2*x^2+x-6;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"GG,,*&\"\"$\"\"\")%\"xG\"\"%F(F(*&F+F()F*F'F(F(*&\"
+\"#F()F*F/F(!\"\"F*F(\"\"'F1" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 23 "H := 2*x^2+3*x-2;      " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 1 ";" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"HG,(*&\"\"#\"\"\")%\"xGF'F(F(*&
+\"\"$F(F*F(F(F'!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "f*g;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,(*$)%\"xG\"\"$\"\"\"F)*$)F'\"\"
+#F)!\"\"*&F,F)F'F)F-F),**&\"\"'F)F&F)F)*&\"#6F)F+F)F)*&F1F)F'F)F)F)F)F
+)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "g*(h-f);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#*&,**&\"\"'\"\"\")%\"xG\"\"$F'F'*&\"#6F')F)\"\"#
+F'F'*&F&F'F)F'F'F'F'F',(*&F*F'F)F'!\"\"*&F.F'F-F'F'\"\"&F2F'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "f^3;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*$),(*$)%\"xG\"\"$\"\"\"F**$)F(\"\"#F*!\"\"*&F-F*F(F*F.
+F)F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "(f+g)*(f-h)+(f-g)*(
+f+h);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&,**&\"\"(\"\"\")%\"xG\"\"
+$F(F(*&\"#5F()F*\"\"#F(F(*&\"\"%F(F*F(F(F(F(F(,(*&F/F(F.F(!\"\"*&F+F(F
+*F(F(\"\"&F(F(F(*&,**&F6F(F)F(F4*&\"#7F(F.F(F4*&\"\")F(F*F(F4F(F4F(,(*
+&F/F(F)F(F(*&F'F(F*F(F4F6F4F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 6 "F*H/G;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HGF%%
+\"GG!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "(F/H)/G;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "F/(H/G);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF%" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 6 "F/H*G;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG
+\"\"\"%\"HG!\"\"%\"GGF%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "F
+/(H*G);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"G
+GF'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 162 "As you may have noted the addition/subtraction operatios
+ where carried out while the multiplication/division operations were j
+ust indicated.  The Maple commands  " }{TEXT 264 6 "expand" }{TEXT -1 
+6 " and  " }{TEXT 265 8 "simplify" }{TEXT -1 298 "  can be used to rea
+rrange and manipulate algebraic sums and products of polynomial expres
+sions.  Go back to each of your calculations of a., b., c. and d. and \+
+add to each line a command to expand the calculation and a command to \+
+simplify the caclulation.  E.g.,  the line for a. would change from:" 
+}}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 4 "f*g;" }}}{PARA 0 "" 0 "" {TEXT -1 3 "to " }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 32 "f*g; expand(f*g); simplify(f*g);" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "f*g; \+
+expand(f*g); simplify(f*g);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,(*$)
+%\"xG\"\"$\"\"\"F)*$)F'\"\"#F)!\"\"*&F,F)F'F)F-F),**&\"\"'F)F&F)F)*&\"
+#6F)F+F)F)*&F1F)F'F)F)F)F)F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.*&\"
+\"'\"\"\")%\"xGF%F&F&*&\"\"&F&)F(F*F&F&*&\"#<F&)F(\"\"%F&!\"\"*&\"#FF&
+)F(\"\"$F&F0*&\"#8F&)F(\"\"#F&F0*&F8F&F(F&F0" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*(%\"xG\"\"\",(*$)F$\"\"#F%F%F$!\"\"F)F*F%,**&\"\"'F%)F
+$\"\"$F%F%*&\"#6F%F(F%F%*&F-F%F$F%F%F%F%F%" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 44 "g*(h-f);expand(g*(h-f)); simplify (g*(h-f));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,**&\"\"'\"\"\")%\"xG\"\"$F'F'*&\"#6
+F')F)\"\"#F'F'*&F&F'F)F'F'F'F'F',(*&F*F'F)F'!\"\"*&F.F'F-F'F'\"\"&F2F'
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.*&\"\"%\"\"\")%\"xGF%F&F&*&\"#7F
+&)F(\"\"&F&F&*&\"#^F&)F(\"\"$F&!\"\"*&\"#rF&)F(\"\"#F&F1*&\"#LF&F(F&F1
+F,F1" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,**&\"\"'\"\"\")%\"xG\"\"$F'
+F'*&\"#6F')F)\"\"#F'F'*&F&F'F)F'F'F'F'F',(*&F*F'F)F'!\"\"*&F.F'F-F'F'
+\"\"&F2F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "f^3; expand(f^
+3); simplify(f^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$),(*$)%\"xG\"
+\"$\"\"\"F**$)F(\"\"#F*!\"\"*&F-F*F(F*F.F)F*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,0*$)%\"xG\"\"*\"\"\"F(*&\"\"$F()F&\"\")F(!\"\"*&F*F()F
+&\"\"(F(F-*&\"#6F()F&\"\"'F(F(*&F4F()F&\"\"&F(F(*&\"#7F()F&\"\"%F(F-*&
+F,F()F&F*F(F-" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&)%\"xG\"\"$\"\"\"),
+(*$)F%\"\"#F'F'F%!\"\"F,F-F&F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 94 "(f+g)*(f-h)+(f-g)*(f+h); expand ((f+g)*(f-h)+(f-g)*(f+h)); sim
+plify ((f+g)*(f-h)+(f-g)*(f+h));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&
+*&,**&\"\"(\"\"\")%\"xG\"\"$F(F(*&\"#5F()F*\"\"#F(F(*&\"\"%F(F*F(F(F(F
+(F(,(*&F/F(F.F(!\"\"*&F+F(F*F(F(\"\"&F(F(F(*&,**&F6F(F)F(F4*&\"#7F(F.F
+(F4*&\"\")F(F*F(F4F(F4F(,(*&F/F(F)F(F(*&F'F(F*F(F4F6F4F(F(" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,0*&\"#Q\"\"\")%\"xG\"\"&F&!\"\"*&\"#?F&)F(
+\"\"%F&F&*&\"$k\"F&)F(\"\"$F&F&*&\"$w\"F&)F(\"\"#F&F&*&\"#qF&F(F&F&\"#
+5F&*&F9F&)F(\"\"'F&F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,0*&\"#Q\"\"
+\")%\"xG\"\"&F&!\"\"*&\"#?F&)F(\"\"%F&F&*&\"$k\"F&)F(\"\"$F&F&*&\"$w\"
+F&)F(\"\"#F&F&*&\"#qF&F(F&F&\"#5F&*&F9F&)F(\"\"'F&F*" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 17 "Note the effect  " }{TEXT 268 
+6 "expand" }{TEXT -1 5 " and " }{TEXT 269 8 "simplify" }{TEXT -1 42 " \+
+ have on the way the calculation appears." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }{TEXT 306 173 "In the first line it simply writes the problems. \+
+It will do the add and subtract. The second line multiplies and divide
+s the problem.  The third line simplifies the problem." }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 19 "The Maple commands \+
+" }{TEXT 266 16 "expand, simplify" }{TEXT -1 5 " and " }{TEXT 267 6 "n
+ormal" }{TEXT -1 483 " can be use to rearrange, manipulate and simplif
+y (cancel common factors) algebraic sums, products and quotients of ra
+tional expressions.   When a rational expression is normalized, any co
+mmon factors are cancelled.  Go back to each of your calculations of e
+., f., g., h. and i. and add to each line a command to expand the calc
+ulation, to normalize the calculation, to simplify the calculation and
+ both expand and normalize the calculation.  E.g., the line for e. wou
+ld change from:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 6 "F*H/G;" }}}{PARA 0 "" 0 "" {TEXT -1 2 "to" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 99 "F*H/G; expand(F*H/G); normal
+(F*H/G); simplify(F*H/G); expand(normal(F*H/G)); normal(expand(F*H/G))
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&*$)%\"xG\"\"%\"\"\"F)F)!\"\"F
+),(*&\"\"#F))F'F-F)F)*&\"\"$F)F'F)F)F-F*F),,*&F0F)F&F)F)*&F(F))F'F0F)F
+)*&F-F)F.F)F*F'F)\"\"'F*F*" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,.*(\"\"
+#\"\"\",,*&\"\"$F&)%\"xG\"\"%F&F&*&F,F&)F+F)F&F&*&F%F&)F+F%F&!\"\"F+F&
+\"\"'F1F1F+F2F&*(F)F&F'F1F+\"\"&F&*(F%F&F'F1F+F,F1*(F%F&F'F1F+F%F1*(F)
+F&F'F1F+F&F1*&F%F&F'F1F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&*&\"\"
+#\"\"\"%\"xGF'F'F'!\"\"F',**$)F(\"\"$F'F'*$)F(F&F'F'F(F'F'F'F',(*&F-F'
+F/F'F'F(F'F-F'F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&*&\"\"#\"\"\"%
+\"xGF'F'F'!\"\"F',**$)F(\"\"$F'F'*$)F(F&F'F'F(F'F'F'F',(*&F-F'F/F'F'F(
+F'F-F'F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,,*(\"\"#\"\"\",(*&\"\"$F&
+)%\"xGF%F&F&F+F&F)F&!\"\"F+\"\"%F&*&F'F,F+F)F&*&F'F,F+F%F&*&F'F,F+F&F&
+*&F&F&F'F,F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,,*&\"\"#\"\"\")%\"x
+G\"\"%F'F'*$)F)\"\"$F'F'*$)F)F&F'F'F)F'F'!\"\"F',(*&F-F'F/F'F'F)F'F-F'
+F0" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 108 "(F/H)/G;expand((F/H)/G); normal((F/H)/G); simplify((
+F/H)/G);expand(normal((F/H)/G));normal(expand((F/H)/G));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#*(,&*$)%\"xG\"\"%\"\"\"F)F)!\"\"F),(*&\"\"#F))F'
+F-F)F)*&\"\"$F)F'F)F)F-F*F*,,*&F0F)F&F)F)*&F(F))F'F0F)F)*&F-F)F.F)F*F'
+F)\"\"'F*F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*(,(*&\"\"#\"\"\")%\"
+xGF'F(F(*&\"\"$F(F*F(F(F'!\"\"F-,,*&F,F()F*\"\"%F(F(*&F1F()F*F,F(F(*&F
+'F(F)F(F-F*F(\"\"'F-F-F*F1F(*&F(F(*&F%F(F.F(F-F-" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*(,**$)%\"xG\"\"$\"\"\"F)*$)F'\"\"#F)F)F'F)F)F)F),**&F(
+F)F&F)F)*&\"\"(F)F+F)F)*&\"\"&F)F'F)F)\"\"'F)!\"\",(*&F,F)F+F)F)*&F(F)
+F'F)F)F,F4F4" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,**$)%\"xG\"\"$\"\"
+\"F)*$)F'\"\"#F)F)F'F)F)F)F),**&F(F)F&F)F)*&\"\"(F)F+F)F)*&\"\"&F)F'F)
+F)\"\"'F)!\"\",(*&F,F)F+F)F)*&F(F)F'F)F)F,F4F4" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#,**(,**&\"\"$\"\"\")%\"xGF'F(F(*&\"\"(F()F*\"\"#F(F(*&
+\"\"&F(F*F(F(\"\"'F(!\"\",(*&F.F(F-F(F(*&F'F(F*F(F(F.F2F2F*F'F(*(F%F2F
+3F2F*F.F(*(F%F2F3F2F*F(F(*&F(F(*&F%F(F3F(F2F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*(,**$)%\"xG\"\"$\"\"\"F)*$)F'\"\"#F)F)F'F)F)F)F),**&F(
+F)F&F)F)*&\"\"(F)F+F)F)*&\"\"&F)F'F)F)\"\"'F)!\"\",(*&F,F)F+F)F)*&F(F)
+F'F)F)F,F4F4" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 137 "F/(H/G);  \+
+  expand (F/(H/G)); normal (F/(H/G)); simplify(F/(H/G));\n            \+
+expand(normal(F/(H/G))); normal(expand(F/(H/G)));         " }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!
+\"\"%\"GGF%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"
+%\"GGF%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"G
+GF%" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF%
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF%" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF%" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 105 "F/H*G;       expand (F/H*G);normal(F/H*G);simplify
+ (F/H*G);expand (normal(F/H*G)); normal(expand(F/H*G));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF%" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF%" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF%" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 122 "F/(H*G);   expand(F/(H*G)); normal(F/(H*G));sim
+plify(F/(H*G));\n           expand(normal(F/(H*G)));normal(expand(F/(H
+*G)));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GG
+F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF'" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF'" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 17 "Note the effect  " }{TEXT 270 6 "expand" }{TEXT -1 2 ", " }
+{TEXT 272 6 "normal" }{TEXT -1 3 ",  " }{TEXT 271 8 "simplify" }{TEXT 
+-1 10 " and both " }{TEXT 273 6 "expand" }{TEXT -1 5 " and " }{TEXT 
+274 6 "normal" }{TEXT -1 42 "  have on the way the calculation appears
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "2.  \+
+Factoring.  The Maple command  " }{TEXT 275 6 "factor" }{TEXT -1 299 "
+ can be used to factor algebraic polynomial expressions and rational e
+xpressions.  When rational expressions are factors, any common factors
+ are cancelled.  Factor each of the polynomials f, g, h, F, G and H.  \+
+Also, factor the algebraic and rational expressions a., b., c., d., e.
+, f., g., h. and i." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 10 "factor(f);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#*(%\"xG\"\"\",&F$F%\"\"#!\"\"F%,&F$F%F%F%F%" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "factor (g);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&*&\"\"#\"\"\"%\"xGF'F'F'F'F',&
+*&\"\"$F'F(F'F'F'F'F',&F(F'F'F'F'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "factor(h);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"
+xG\"\"\"F&F&F&,&*$)F%\"\"#F&F&\"\"&!\"\"F&" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 11 "factor (F);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&
+%\"xG\"\"\"F&!\"\"F&,&F%F&F&F&F&,&*$)F%\"\"#F&F&F&F&F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "factor (3*x^4+4*x^3-2*x^2+x-6);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&%\"xG\"\"\"\"\"#F&F&,&F%F&F&!\"\"F
+&,(*&\"\"$F&)F%F'F&F&F%F&F,F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 21 "factor (2*x^2+3*x-2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%
+\"xG\"\"\"\"\"#F&F&,&*&F'F&F%F&F&F&!\"\"F&" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 11 "" 1 "" {TEXT -1 0 "" }}}{PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "factor(f*g);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&%\"fG\"\"\"%\"gG
+F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "factor (g*(h-f));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&%\"gG\"\"\",&%\"hG!\"\"%\"fGF&F&F)
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "factor (f^3);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*$)%\"fG\"\"$\"\"\"" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 33 "factor ((f+g)*(f-h)+(f-g)*(f+h));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,&*&\"\"#\"\"\")%\"fGF%F&F&*(F%F&%\"gGF&%\"hGF&!
+\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "factor (F*H/G);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HGF%%\"GG!\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "factor ((F/H)/G);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF'" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "factor (F/(H/G));" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF%" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 15 "factor( F/H*G);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*(%\"FG\"\"\"%\"HG!\"\"%\"GGF%" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 17 "factor (F/(H*G));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+*(%\"FG\"\"\"%\"HG!\"\"%\"GGF'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 
+0 "" {TEXT -1 271 "3.  Fundamental Theorem of Algebra.  The Fundamenta
+l Theorem of Algebra asserts that every non-constant polynomial (with \+
+complex-valued coefficients) has a root (a zero, a solution).  A conse
+quence of the Fundamental Theorem of Algebra is that every polynomial \+
+of degree " }{TEXT 276 1 "n" }{TEXT -1 13 " has exactly " }{TEXT 277 
+1 "n" }{TEXT -1 108 " roots.  An alternate formulation of this consequ
+ence would be that every non-constant polynomial of degree " }{TEXT 
+279 1 "n" }{TEXT -1 38 " can be factored into a product of a  " }
+{TEXT 278 1 "n" }{TEXT -1 16 " linear factors." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "Consider the following po
+lynomials:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 6 "I.    " }{XPPEDIT 19 1 "f := x^3-x^2-2*x" "6#>%\"fG,(*$%\"xG\"\"
+$\"\"\"*$F'\"\"#!\"\"*&F+F)F'F)F," }{TEXT -1 4 "    " }}{PARA 0 "" 0 "
+" {TEXT -1 23 "     II.               " }}{PARA 0 "" 0 "" {TEXT -1 25 
+"  III.                   " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{PARA 0 "" 0 "" {TEXT -1 7 "IV.    " }{XPPEDIT 19 1 "F := x^4-14
+4" "6#>%\"FG,&*$%\"xG\"\"%\"\"\"\"$W\"!\"\"" }{TEXT -1 12 "           \+
+ " }}{PARA 0 "" 0 "" {TEXT -1 7 " V.    " }{XPPEDIT 19 1 "G := 3*x^4+4
+*x^3-2*x^2+x-6;" "6#>%\"GG,,*&\"\"$\"\"\"*$%\"xG\"\"%F(F(*&F+F(*$F*F'F
+(F(*&\"\"#F(*$F*F/F(!\"\"F*F(\"\"'F1" }{TEXT -1 9 "         " }}{PARA 
+0 "" 0 "" {TEXT -1 6 "VI.   " }{XPPEDIT 19 1 "H := x^5-x^2-2*x" "6#>%
+\"HG,(*$%\"xG\"\"&\"\"\"*$F'\"\"#!\"\"*&F+F)F'F)F," }{TEXT -1 24 "    \+
+                    " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 257 "" 
+0 "" {TEXT -1 172 "Factor each polynomial and determine whether Maple \+
+was able to find enough linear factors to demonstrate the above assert
+ion about the appropriate number of linear factors." }}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 1 " " }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "f := x^3-x^2-2*x ;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"fG,(*$)%\"xG\"\"$\"\"\"F**$)F(\"\"#F*!\"
+\"*&F-F*F(F*F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "f := x^3-
+x^2-2*x ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,(*$)%\"xG\"\"$\"\"
+\"F**$)F(\"\"#F*!\"\"*&F-F*F(F*F." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "g := 6*x^3+11*x^2+6*x+1;   " }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"gG,**&\"\"'\"\"\")%\"xG\"\"$F(F(*&\"#6F()F*\"\"#F(F
+(*&F'F(F*F(F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "h := x
+^3-5*x+x^2-5;   " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"hG,**$)%\"xG\"
+\"$\"\"\"F**&\"\"&F*F(F*!\"\"*$)F(\"\"#F*F*F,F-" }}}{PARA 0 "" 0 "" 
+{TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "  F := x^4-
+144;   " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"FG,&*$)%\"xG\"\"%\"\"\"
+F*\"$W\"!\"\"" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 31 "G := 3*x^4+4*x^3-2*x^2+x-6;    " }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"GG,,*&\"\"$\"\"\")%\"xG\"\"%F(F(*&F+F()F*F'F(F
+(*&\"\"#F()F*F/F(!\"\"F*F(\"\"'F1" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "H := x^5-x^2-2*x; " }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%\"HG,(*$)%\"xG\"\"&\"\"\"F**$)F(\"\"#F*!\"\"*&F-F*F(F*F." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 650 "In those cases where Maple did not find \+
+enough linear factors, there is a reason why Maple did not.  Maple mak
+es an assumption that if the coefficients of a polynomial are all give
+n exactly (as integers or rational numbers [ratios of integer]), then \+
+you are only interested in finding exact factors (factors where the co
+efficients are integers or rational numbers).  The Fundamental Theorem
+ of Algebra doesn't guarantee that the factors of  a polynomial will n
+ecessarily have the same kind of coefficients as the polynomial, only \+
+the polynomial can be factored.  You can force Maple to report additio
+nal (approximate) factors.  For example,  compare:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "factor(h);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"F&F&F&,&*$)F%\"\"#F&F
+&\"\"&!\"\"F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "factor(h,s
+qrt(5));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&%\"xG\"\"\"*$\"\"&#F&
+\"\"#F&F&,&F%F&F'!\"\"F&,&F%F&F&F&F&" }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 52 "What is the difference?  The extra-te
+rm is called a " }{TEXT 280 18 "field extension.  " }{TEXT -1 178 "Add
+ing it tells Maple to consider additonal factors where the coefficient
+s are allowed to include elements from the field extension.  It is fai
+rly clear from the factoriztion of " }{TEXT 281 1 "h" }{TEXT -1 280 " \+
+all by itself that something involving  sqrt(5)  would have to be incl
+uded.  However, there are problems where there is not a obvious clue a
+s to which specific field extension should be added.  If you are willi
+ng to accept an appropriate solution, then using the field extension \+
+" }{TEXT 282 4 "real" }{TEXT -1 179 " tells Maple to factor the polyno
+mial using a floating point approximation scheme.  For example, consid
+er (here I am pretending I don't see that adding  sqrt(5) would be opt
+imal):" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "factor(h);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"
+xG\"\"\"F&F&F&,&*$)F%\"\"#F&F&\"\"&!\"\"F&" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 15 "factor(h,real);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+*(,&%\"xG\"\"\"$\"+xz1OA!\"*F&F&,&F%F&$F&\"\"!F&F&,&F%F&$\"+xz1OAF)!\"
+\"F&" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 91 "
+Finally, the Fundamental Theorem of Algebra does not guarantee that a \+
+polynomial of degree " }{TEXT 283 1 "n" }{TEXT -1 11 " will have " }
+{TEXT 284 1 "n" }{TEXT -1 53 " real linear factors.  Rather, only hat \+
+it will have " }{TEXT 285 1 "n" }{TEXT -1 134 " linear factors.  What \+
+is the difference?  Some of the factors may involve complex roots rath
+er than real roots.  For example compare:" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "factor(F);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*&,&*$)%\"xG\"\"#\"\"\"F)\"#7!\"\"F),&F%F)F*
+F)F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "factor(F,sqrt(3));
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&*$)%\"xG\"\"#\"\"\"F)\"#7F)F),
+&F'F)*&F(F)\"\"$#F)F(!\"\"F),&F'F)*&F(F)F-F.F)F)" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 15 "factor(F,real);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*(,&%\"xG\"\"\"$\"+:;5kM!\"*F&F&,&F%F&$\"+:;5kMF)!\"\"F&,&*$)F%
+\"\"#F&F&$\"+++++7!\")F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+18 "factor(F,complex);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#**,&%\"xG\"
+\"\"$\"+:;5kM!\"*F&F&,&F%F&^#F'F&F&,&F%F&^#$!+:;5kMF)F&F&,&F%F&$\"+:;5
+kMF)!\"\"F&" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 126 "For the following polynomials demonstrate that each can be fac
+tored completely into linear factors.  Use the field extensions " }
+{TEXT 286 4 "real" }{TEXT -1 5 " and " }{TEXT 287 7 "complex" }{TEXT 
+-1 36 " only if non-rational factors occur." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 " V.  " }{XPPEDIT 19 1 "G := 3*x^
+4+4*x^3-2*x^2+x-6" "6#>%\"GG,,*&\"\"$\"\"\"*$%\"xG\"\"%F(F(*&F+F(*$F*F
+'F(F(*&\"\"#F(*$F*F/F(!\"\"F*F(\"\"'F1" }}{PARA 0 "" 0 "" {TEXT -1 6 "
+VI.   " }{XPPEDIT 19 1 "H := x^5-x^2-2*x" "6#>%\"HG,(*$%\"xG\"\"&\"\"
+\"*$F'\"\"#!\"\"*&F+F)F'F)F," }{TEXT -1 10 "          " }}{PARA 0 "" 
+0 "" {TEXT -1 7 "VII.   " }{XPPEDIT 19 1 "f1 := 12*x^7+24*x^6-57*x^5-8
+1*x^4+129*x^3+57*x^2-120*x+36;" "6#>%#f1G,2*&\"#7\"\"\"*$%\"xG\"\"(F(F
+(*&\"#CF(*$F*\"\"'F(F(*&\"#dF(*$F*\"\"&F(!\"\"*&\"#\")F(*$F*\"\"%F(F4*
+&\"$H\"F(*$F*\"\"$F(F(*&F1F(*$F*\"\"#F(F(*&\"$?\"F(F*F(F4\"#OF(" }}
+{PARA 0 "" 0 "" {TEXT -1 7 "VIII.  " }{XPPEDIT 19 1 "g1 := 12*x^9-29*x
+^8-17*x^7+76*x^6-7*x^5-68*x^4+17*x^3+24*x^2-5*x-3;" "6#>%#g1G,6*&\"#7
+\"\"\"*$%\"xG\"\"*F(F(*&\"#HF(*$F*\"\")F(!\"\"*&\"#<F(*$F*\"\"(F(F0*&
+\"#wF(*$F*\"\"'F(F(*&F4F(*$F*\"\"&F(F0*&\"#oF(*$F*\"\"%F(F0*&F2F(*$F*
+\"\"$F(F(*&\"#CF(*$F*\"\"#F(F(*&F;F(F*F(F0FBF0" }{TEXT -1 2 "  " }}
+{PARA 0 "" 0 "" {TEXT -1 6 "IX.   " }{XPPEDIT 19 1 "h1 := 12*x^6-41*x^
+5+60*x^4-47*x^3+15*x^2+4*x-3;" "6#>%#h1G,0*&\"#7\"\"\"*$%\"xG\"\"'F(F(
+*&\"#TF(*$F*\"\"&F(!\"\"*&\"#gF(*$F*\"\"%F(F(*&\"#ZF(*$F*\"\"$F(F0*&\"
+#:F(*$F*\"\"#F(F(*&F4F(F*F(F(F8F0" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "G := 3*x^4+4*x^3-2*x^2+x-6;
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"GG,,*&\"\"$\"\"\")%\"xG\"\"%F(
+F(*&F+F()F*F'F(F(*&\"\"#F()F*F/F(!\"\"F*F(\"\"'F1" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 15 "factor(G,real);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$**$\"\"$\"\"!\"\"\",&%\"xGF($\"\"#F'F(F(,&F*F($F(F'!
+\"\"F(,(*$)F*F,F(F(*&$\"+MLLLL!#5F(F*F(F($\"+++++5!\"*F(F(F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 18 "factor(G,complex);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#,$*,$\"\"$\"\"!\"\"\",&%\"xGF($\"\"#F'F(F(,&F*F(^$$\"+nmmm;!#5$\"+s
+H8g)*F1F(F(,&F*F(^$F/$!+sH8g)*F1F(F(,&F*F($F(F'!\"\"F(F(" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "H := x^5-x^2-2*x;          " }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"HG,(*$)%\"xG\"\"&\"\"\"F**$)F(\"\"
+#F*!\"\"*&F-F*F(F*F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "fac
+tor(H);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%\"xG\"\"\",&F$F%F%F%F%,*
+*$)F$\"\"$F%F%*$)F$\"\"#F%!\"\"F$F%F-F.F%" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 18 "factor(H,complex);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#*,,&%\"xG\"\"\"$F&\"\"!F&F&,&F%F&^$$\"+@)\\gw\"!#5$\"+>3#G?\"!\"*F&
+F&,&F%F&^$F+$!+>3#G?\"F0F&F&F%F&,&F%F&$\"+k*4KN\"F0!\"\"F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "factor (x^5-x^2-2*x,real);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#**,&%\"xG\"\"\"$F&\"\"!F&F&F%F&,&F%F&$
+\"+k*4KN\"!\"*!\"\"F&,(*$)F%\"\"#F&F&*&$\"+U'*4KN!#5F&F%F&F&$\"+Vs'zZ
+\"F,F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "factor   (12*x^7+24*x^6-57*x^5-81*x
+^4+129*x^63+57*x^2-120*x+3,complex);" }}{PARA 12 "" 1 "" {XPPMATH 20 "
+6#,$*\\s$\"$H\"\"\"!\"\"\",&%\"xGF($\"+ofI/5!\"*F(F(,&F*F(^$$\"+z9!)))
+**!#5$\"+/OHC5F2F(F(,&F*F(^$F0$!+/OHC5F2F(F(,&F*F(^$$\"+*>Ir#)*F2$\"+(
+oI`.#F2F(F(,&F*F(^$F;$!+(oI`.#F2F(F(,&F*F(^$$\"+$=,:c*F2$\"+RC<?IF2F(F
+(,&F*F(^$FE$!+RC<?IF2F(F(,&F*F(^$$\"+TI.)>*F2$\"+,Y#p'RF2F(F(,&F*F(^$F
+O$!+,Y#p'RF2F(F(,&F*F(^$$\"+VTSX()F2$\"+r3Dm[F2F(F(,&F*F(^$FY$!+r3Dm[F
+2F(F(,&F*F(^$$\"+#RXI@)F2$\"+[#eKr&F2F(F(,&F*F(^$F]o$!+[#eKr&F2F(F(,&F
+*F(^$$\"+YC82wF2$\"+&Q3s]'F2F(F(,&F*F(^$Fgo$!+&Q3s]'F2F(F(,&F*F(^$$\"+
+zZ6GpF2$\"+8$)yYsF2F(F(,&F*F(^$Fap$!+8$)yYsF2F(F(,&F*F(^$$\"+\"p=T<'F2
+$\"+!R[_#zF2F(F(,&F*F(^$F[q$!+!R[_#zF2F(F(,&F*F(^$$\"+I6OY`F2$\"+pa6J&
+)F2F(F(,&F*F(^$Feq$!+pa6J&)F2F(F(,&F*F(^$$\"+u!y3X%F2$\"+$o8?0*F2F(F(,
+&F*F(^$F_r$!+$o8?0*F2F(F(,&F*F(^$$\"+>\\J(\\$F2$\"+n!frZ*F2F(F(,&F*F(^
+$Fir$!+n!frZ*F2F(F(,&F*F(^$$\"+AJT(\\#F2$\"+ha.)z*F2F(F(,&F*F(^$Fcs$!+
+ha.)z*F2F(F(,&F*F(^$$\"+\"elSY\"F2$\"+.0$3+\"F-F(F(,&F*F(^$F]t$!+.0$3+
+\"F-F(F(,&F*F(^$$\"+?k<3T!#6$\"+ApN55F-F(F(,&F*F(^$Fgt$!+ApN55F-F(F(,&
+F*F($\"+y`QIDFit!\"\"F(,&F*F(^$$!+.[1%['Fit$\"+mP635F-F(F(,&F*F(^$Ffu$
+!+mP635F-F(F(,&F*F(^$$!+U6Z*p\"F2$\"+.%z(R**F2F(F(,&F*F(^$F`v$!+.%z(R*
+*F2F(F(,&F*F(^$$!+M`8GFF2$\"+5#R$z'*F2F(F(,&F*F(^$Fjv$!+5#R$z'*F2F(F(,
+&F*F(^$$!+EO7?PF2$\"+sy!**H*F2F(F(,&F*F(^$Fdw$!+sy!**H*F2F(F(,&F*F(^$$
+!+n$)QhYF2$\"+E(Q%*z)F2F(F(,&F*F(^$F^x$!+E(Q%*z)F2F(F(,&F*F(^$$!+/#*zT
+bF2$\"+Fn<k\")F2F(F(,&F*F(^$Fhx$!+Fn<k\")F2F(F(,&F*F(^$$!+.m3;eF2$\"+
+\\x=%*oF2F(F(,&F*F(^$Fby$!+\\x=%*oF2F(F(,&F*F(^$$!+afMPkF2$\"+TC?ftF2F
+(F(,&F*F(^$F\\z$!+TC?ftF2F(F(,&F*F(^$$!+0iEGtF2$\"+())*>BmF2F(F(,&F*F(
+^$Ffz$!+())*>BmF2F(F(,&F*F(^$$!+m+j_!)F2$\"+fN7MeF2F(F(,&F*F(^$F`[l$!+
+fN7MeF2F(F(,&F*F(^$$!+Ghce')F2$\"+5s@q\\F2F(F(,&F*F(^$Fj[l$!+5s@q\\F2F
+(F(,&F*F(^$$!+Q^Ma\"*F2$\"+xGFXSF2F(F(,&F*F(^$Fd\\l$!+xGFXSF2F(F(,&F*F
+(^$$!+HreS&*F2$\"+dc>tIF2F(F(,&F*F(^$F^]l$!+dc>tIF2F(F(,&F*F(^$$!+Z@t;
+)*F2$\"+p?-n?F2F(F(,&F*F(^$Fh]l$!+p?-n?F2F(F(,&F*F(^$$!+h?V#)**F2$\"+u
+(p)Q5F2F(F(,&F*F(^$Fb^l$!+u(p)Q5F2F(F(,&F*F($\"+i`w.5F-FcuF(F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 65 "factor(12*x^7+24*x^6-57*x^5-
+81*x^4+129*x^63+57*x^2-120*x+3,real);" }}{PARA 12 "" 1 "" {XPPMATH 20 
+"6#,$*`o$\"$H\"\"\"!\"\"\",&%\"xGF($\"+ofI/5!\"*F(F(,&F*F($\"+y`QID!#6
+!\"\"F(,&F*F($\"+i`w.5F-F2F(,(*$)F*\"\"#F(F(*&$\"+'Hgx*>F-F(F*F(F($\"+
+CLD35F-F(F(,(F7F(*&$\"+SgUl>F-F(F*F(F($\"+!f]r+\"F-F(F(,(F7F(*&$\"+P-I
+7>F-F(F*F(F($\"+kuV05F-F(F(,(F7F(*&$\"+3mgR=F-F(F*F(F($\"+EIS.5F-F(F(,
+(F7F(*&$\"+H33\\<F-F(F*F(F($\"+7\\i,5F-F(F(,(F7F(*&$\"+y!4Ek\"F-F(F*F(
+F($\"+WV&4+\"F-F(F(,(F7F(*&$\"+*[E9_\"F-F(F*F(F($\"+]A7-5F-F(F(,(F7F(*
+&$\"+cHi&Q\"F-F(F*F(F($\"+_r905F-F(F(,(F7F(*&$\"+QP#[B\"F-F(F*F(F($\"+
+OIH45F-F(F(,(F7F(*&$\"+EAFp5F-F(F*F(F($\"+&3NO,\"F-F(F(,(F7F(*&$\"+[hv
+,*)!#5F(F*F(F($\"+uE\\<5F-F(F(,(F7F(*&$\"+Q)HY*pFcpF(F*F(F($\"+cvZ?5F-
+F(F(,(F7F(*&$\"+Wi#[*\\FcpF(F*F(F($\"+7dQA5F-F(F(,(F7F(*&$\"+i68GHFcpF
+(F*F(F($\"+wl4B5F-F(F(,(F7F(*&$\"+SGN;#)F1F(F*F(F($\"+@)3D-\"F-F(F(,(F
+7F(*&$\"+hH\"oH\"FcpF(F*F(F2$\"+vw\\?5F-F(F(,(F7F(*&$\"+%GU*)R$FcpF(F*
+F(F2$\"+nT(o,\"F-F(F(,(F7F(*&$\"+o1FcaFcpF(F*F(F2$\"+*HB8,\"F-F(F(,(F7
+F(*&$\"+_sCSuFcpF(F*F(F2$\"+igF.5F-F(F(,(F7F(*&$\"+MnxA$*FcpF(F*F(F2$
+\"+Sj'e\"**FcpF(F(,(F7F(*&$\"+T)f$36F-F(F*F(F2$\"+0?`O(*FcpF(F(,(F7F(*
+&$\"+@t@j6F-F(F*F(F2$\"+4)oc8)FcpF(F(,(F7F(*&$\"+\">puG\"F-F(F*F(F2$\"
++]$G(f&*FcpF(F(,(F7F(*&$\"+TKll9F-F(F*F(F2$\"+Ji-d(*FcpF(F(,(F7F(*&$\"
++8g_5;F-F(F*F(F2$\"+o[=)))*FcpF(F(,(F7F(*&$\"+EKrJ<F-F(F*F(F2$\"+]EQn*
+*FcpF(F(,(F7F(*&$\"+G!p3$=F-F(F*F(F2$\"+wEm,5F-F(F(,(F7F(*&$\"+Eu63>F-
+F(F*F(F2$\"+VLn/5F-F(F(,(F7F(*&$\"+HkMj>F-F(F*F(F2$\"+.\"3k+\"F-F(F(,(
+F7F(*&$\"+7k['*>F-F(F*F(F2$\"+.?G25F-F(F(F(" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 70 "g1 :=  12*x^9-29*x^8-17*x^7+
+76*x^6-7*x^5-68*x^4+17*x^3+24*x^; 2-5*x-3 " }}{PARA 11 "" 1 "" {TEXT 
+-1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,6*&\"#7\"\"\")%\"xG\"\"*F&F
+&*&\"#HF&)F(\"\")F&!\"\"*&\"#<F&)F(\"\"(F&F.*&\"#wF&)F(\"\"'F&F&*&F2F&
+)F(\"\"&F&F.*&\"#oF&)F(\"\"%F&F.*&F0F&)F(\"\"$F&F&*&\"#CF&)F(\"\"#F&F&
+*&F9F&F(F&F.F@F." }}}{EXCHG {PARA 11 "" 1 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 75 "factor (12*x^9-29*x^8-17*x^7+76*x^6
+-7*x^5-68*x^4+17*x^3+24*x^2-5*x-3,real);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,$*0$\"#7\"\"!\"\"\"),&%\"xGF($F(F'F(\"\"#F(,&F+F($\"+())R.='!#5
+F(F(,&F+F($\"+LLLLLF1F(F(,&F+F($\"+++++vF1!\"\"F(),&F+F($F(F'F8\"\"$F(
+,&F+F($\"+*)R.=;!\"*F8F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+77 "factor(12*x^9-29*x^8-17*x^7+76*x^6-7*x^5-68*x^4+17*x^3+24*x^2-5*x-
+3,complex);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*0$\"#7\"\"!\"\"\"),&
+%\"xGF($F(F'F(\"\"#F(,&F+F($\"+())R.='!#5F(F(,&F+F($\"+LLLLLF1F(F(,&F+
+F($\"+++++vF1!\"\"F(),&F+F($F(F'F8\"\"$F(,&F+F($\"+*)R.=;!\"*F8F(F(" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 47 "h1 := 12*x^6-41*x^5+60*x^4-47*x^3+15*x^2+4*x-3;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#h1G,0*&\"#7\"\"\")%\"xG\"\"'F(F(*&
+\"#TF()F*\"\"&F(!\"\"*&\"#gF()F*\"\"%F(F(*&\"#ZF()F*\"\"$F(F0*&\"#:F()
+F*\"\"#F(F(*&F4F(F*F(F(F8F0" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "factor (12*x^6-41*x^5+60*x^4
+-47*x^3+15*x^2+4*x-3,real);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*,$\"
+#7\"\"!\"\"\",&%\"xGF($\"+LLLLL!#5F(F(,&F*F($\"+++++vF-!\"\"F(),&F*F($
+F(F'F1\"\"#F(,(*$)F*F5F(F(*&$\"+++++5!\"*F(F*F(F1$F;F<F(F(F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "factor (12*x^6-41*x^5+60*x^4
+-47*x^3+15*x^2+4*x-3,complex);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,$*.
+$\"#7\"\"!\"\"\",&%\"xGF($\"+LLLLL!#5F(F(,&F*F(^$$!+++++]F-$\"+QSDg')F
+-F(F(,&F*F(^$F0$!+QSDg')F-F(F(,&F*F($\"+++++vF-!\"\"F(),&F*F($F(F'F;\"
+\"#F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 380 "A
+ related theorem about finding roots of polynomials (equivalently fact
+oring polynomials into a product of linear factors) asserts that if th
+e polynomial has real coefficients -- all of the polynomials we have c
+onsidered (and will consider) have had real coefficients -- then any c
+omplex roots (or factors) must occur in conjugate pairs.  For example,
+ both the complex factors of " }{TEXT 288 5 "F, G " }{TEXT -1 4 "and \+
+" }{TEXT 289 2 "H " }{TEXT -1 236 "(above) all occurred in conjugate p
+airs.  Demonstrate this theorem by creating three new polynomials, nam
+e them F1, G1 and H1, of degree 5, 6 and 7, resp., and show that the a
+ny complex factors of F1, G1 and H1 occur in conjugate pairs." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+10 "(F1/H1)/G;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%#F1G\"\"\"%#H1G!
+\"\"%\"GGF'" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 11 "F1/(H1/G1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%
+#F1G\"\"\"%#H1G!\"\"%#G1GF%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+9 "F1/H1*G1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(%#F1G\"\"\"%#H1G!\"
+\"%#G1GF%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 64 "I do not understand what else you w
+ant me to do in this section." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 115 "For demonstration purposes it \+
+is very handy to be able to construct polynomials with predetermined r
+oots.  Use the " }{TEXT 258 6 "expand" }{TEXT -1 58 " command to const
+ruct a polynomial with roots   -2, 5, 5, " }{XPPEDIT 18 0 "-1/2" "6#,$
+*&\"\"\"F%\"\"#!\"\"F'" }{TEXT -1 71 ", 1+I and  1-I.  (Here the \"5, \+
+5\" indicates that 5 is a \"double root\".)" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 307 2 "kp" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 45 "1.  Some of the functions
+ are not initialized" }}{PARA 0 "" 0 "" {TEXT -1 45 "2.  Some of the f
+unctions are not initialized" }}{PARA 0 "" 0 "" {TEXT -1 4 "3.  " }}
+{PARA 257 "" 0 "" {TEXT -1 27 "Factor each polynomial and " }{TEXT 
+308 9 "determine" }{TEXT -1 157 " whether Maple was able to find enoug
+h linear factors to demonstrate the above assertion about the appropri
+ate number of linear factors.    Did you do that??" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 70 "Why did f1 (which was a d
+egree 7 polynomial) have sooooooo many roots?" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 79 "Did you construct example
+s to show that roots occur in complex conjugate pairs?" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 5 "4.5/6" }}{PARA 0 "" 
+0 "" {TEXT -1 5 "2.5/4" }}{PARA 0 "" 0 "" {TEXT -1 4 "6/10" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 309 5 "13/20" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 46 "4.  Binomial Theorem.  Use the Maple command  " }
+{TEXT 290 6 "expand" }{TEXT 256 2 "  " }{TEXT -1 34 "to calculate the \+
+expansion of     " }{XPPEDIT 18 0 "(a+b)^n;" "6#),&%\"aG\"\"\"%\"bGF&%
+\"nG" }{TEXT -1 63 "    for values n=1..10 .  In each case use the Map
+le command   " }{TEXT 257 7 "coeffs " }{TEXT 292 1 " " }{TEXT -1 84 "t
+o pick off the coefficients.   For example,  if n=5 we would execute t
+he following:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "expand((a+b
+)^5);\ncoeffs(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,.*$)%\"aG\"\"&\"
+\"\"F(*(F'F()F&\"\"%F(%\"bGF(F(*(\"#5F()F&\"\"$F()F,\"\"#F(F(*(F.F()F&
+F2F()F,F0F(F(*(F'F(F&F()F,F+F(F(*$)F,F'F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6(\"#5\"\"&F#\"\"\"F%F$" }}}{PARA 0 "" 0 "" {TEXT -1 28 "
+Do the rest from 1 to 10.   " }}{PARA 0 "" 0 "" {TEXT -1 31 "Note:  it
+ is possible to use a " }{TEXT 291 9 "for loop " }{TEXT -1 69 " to sim
+plify this task since we are doing a repetitive calculation.  " }}
+{PARA 0 "" 0 "" {TEXT -1 29 "Note:  Also, the the command " }{TEXT 
+293 6 "coeffs" }{TEXT -1 15 " unfortunately " }{TEXT 294 8 "does not" 
+}{TEXT -1 36 " pick off the coefficients in order." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "The " }{TEXT 260 16 "Binom
+ial Theorem" }{TEXT -1 66 " gives a formula for finding the coefficien
+ts of the expansion of " }{XPPEDIT 18 0 "(a+b)^n;" "6#),&%\"aG\"\"\"%
+\"bGF&%\"nG" }{TEXT -1 10 "  for any " }{TEXT 295 1 "n" }{TEXT -1 53 "
+.  It is relatively obvious that the coefficient of  " }{XPPEDIT 18 0 
+"a^k*b^(n-k);" "6#*&)%\"aG%\"kG\"\"\")%\"bG,&%\"nGF'F&!\"\"F'" }{TEXT 
+-1 19 "  for any value of " }{TEXT 296 1 "k" }{TEXT -1 11 " from 0 to \+
+" }{TEXT 297 1 "n" }{TEXT -1 46 " is given by the number of ways we ca
+n choose " }{TEXT 298 1 "k" }{TEXT -1 8 " of the " }{TEXT 300 1 "a" }
+{TEXT -1 12 "'s from the " }{TEXT 299 1 "n" }{TEXT -1 1 " " }{TEXT 
+301 1 "a" }{TEXT -1 20 "'s in the expansion " }{XPPEDIT 18 0 "(a+b)*(a
++b)" "6#*&,&%\"aG\"\"\"%\"bGF&F&,&F%F&F'F&F&" }{TEXT -1 7 " ....( " }
+{XPPEDIT 18 0 "(a+b)" "6#,&%\"aG\"\"\"%\"bGF%" }{TEXT -1 4 " ), " }
+{TEXT 302 1 "n" }{TEXT -1 41 " times .   The number of combinations of
+ " }{TEXT 303 1 "n" }{TEXT -1 18 " objects choosing " }{TEXT 304 1 "k
+" }{TEXT -1 12 " at a time, " }{XPPEDIT 18 0 "nCk" "6#%$nCkG" }{TEXT 
+-1 27 ", is given by the formula  " }{XPPEDIT 18 0 "nCk=n!/(k!*(n-k)!)
+" "6#/%$nCkG*&-%*factorialG6#%\"nG\"\"\"*&-F'6#%\"kGF*-F'6#,&F)F*F.!\"
+\"F*F2" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT 262 10 "State the " }{TEXT 261 16 "Binomial Theorem" }
+{TEXT -1 1 " " }{TEXT 305 31 "and use Maple to demonstrate it" }{TEXT 
+-1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 8 
+"Compute " }{XPPEDIT 18 0 "sum(binomial(n,k),k=0..n)" "6#-%$sumG6$-%)b
+inomialG6$%\"nG%\"kG/F*;\"\"!F)" }{TEXT -1 34 "  for n=1 to 10.  Here \+
+the symbol " }{XPPEDIT 18 0 "Sigma;" "6#%&SigmaG" }{TEXT -1 70 " (Gree
+k letter Sigma) stands for sum.   (See the worksheet SumSeq.mws)" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 259 59 "What gen
+eral formula do the above calculations in  suggest?" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 388 "5.  Pascal's Triangle.
+  Recall the definition of Pascal's Triangle.   Use Maple to construct
+ the first 10 rows of Pascal's Triangle. (The trick will be to get the
+ coefficients to occur in the correct order.  The Maple command for ge
+nerating a sequence might be helpful. It is   seq(expression(i),i=m..n
+);   where expression(i) is an expression with index i and m..n is a r
+ange of numbers." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 4 "    " }}}{MARK "197 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }
