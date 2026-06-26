@@ -1,0 +1,568 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Homework: Math 1352-20004(001)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Homework: Math 1352-20004(001)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 1352">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<div class=text18red>Homework -- Calculus II</div>
+
+<table width=80%>
+<tr>
+<td valign=top width=30% align=left>
+<div class=text14blue>Math 1352-002<br>
+Summer II 2000</div>
+</td>
+<td valign=top width=30% align=left>
+<div class=text14blue>Bradley and Smith<br>
+<i>Calculus</i>, 2nd Ed.</div>
+</td>
+<td valign=top width=30% align=left>
+<div class=text14blue>Prentice Hall<br>
+Upper Saddle River, New Jersey</div>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+
+<table border=1 align=center width=80% cellpadding=5>
+
+<tr >
+<td valign=top width=45% align=center>
+Content
+</td>
+<td valign=top width=20% align=center>
+Homework
+</td>
+<td valign=top width=15% align=center>
+Hours
+</td>
+</tr>
+
+
+<tr >
+<td valign=top width=45% align=left>
+<B>6.1: Area Between Curves</B><br>
+f(x) >= g(x)<br>
+f, g intersecting<br>
+horizontal strips<br>
+economics examples
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-27, 33-42)
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+
+<tr >
+<td valign=top width=45% align=left>
+<B>6.2: Volume by Cross-Sectional Area</B><br>
+cross-sectional area<br>
+solids of revolution<br>
+disk method<br>
+washer method
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-48)
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>6.3: Volume by Shells</B>
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-33)
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>6.4: Arc Length and Surface Area</B><br>
+arclength y = f(x)<br>
+arclength x = g(y)<br>
+surface area: solids of revolution
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-27)
+</td>
+<td valign=top width=15% align=center>
+1
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>6.5: Applications</B><br>
+work<br>
+Hooke's law<br>
+fluid force<br>
+centroids and moments<br>
+theorem of Pappus
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (6-42)
+</td>
+<td valign=top width=15% align=center>
+3
+</td>
+</tr>
+
+</table>
+
+<p>
+<table border=1 align=center width=80% cellpadding=5>
+
+<tr >
+<td valign=top width=45% align=center>
+Content
+</td>
+<td valign=top width=20% align=center>
+Homework
+</td>
+<td valign=top width=15% align=center>
+Hours
+</td>
+</tr>
+
+
+<tr >
+<td valign=top width=45% align=left>
+<B>7.1: Review</B><br>
+anti-differnetiation formulae<br>
+substitution<br>
+tables
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-42, 48-60)
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>7.2: Integration by Parts</B><br>
+formula<br>
+definite integrals<br>
+repetition
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-45)
+</td>
+<td valign=top width=15% align=center>
+1
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>7.3: Trigonometric Methods</B><br>
+powers of sin<sup>m</sup>x cos<sup>n</sup>x<br>
+powers of tan<sup>m</sup>x sec<sup>n</sup>x<br>
+trigonometric substitution
+</td>
+<td valign=top width=20% align=left>
+Multiples of 5 (5-60)
+</td>
+<td valign=top width=15% align=center>
+1
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>7.4: Partial Fractions</B><br>
+reduced form<br>
+single linear factors<br>
+repeated linear factors<br>
+single quadactic factors<br>
+repeated quadratic factors<br>
+Heavyside covering method<br>
+rational functions of sin x and cos x
+</td>
+<td valign=top width=20% align=left>
+Multiples of 5 (5-55)
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>7.5: Summary of Methods</b><br>
+(a) simplification<br>
+(b) basic formulae<br>
+(c) substitution<br>
+(d) integration by parts<br>
+(e) trigonometric functions: reduction, identities<br>
+(f) radical functions: trigonometric substitution<br>
+(g) rational functions: partial fraction decomposition<br>
+<b>Computer Algebra Software</B>
+</td>
+<td valign=top width=20% align=left>
+Summary: Multiples of 7 (7-84)<br>
+Software: [Multiples of 7] + 1 (8-71)
+</td>
+<td valign=top width=15% align=center>
+1
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>7.6: First Order Differential Equations</B><br>
+review separable equations<br>
+linear differential equations<br>
+initial value problems<br>
+modelling exponential growth<br>
+modelling logistic growth
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-15, 21-30)<br>
+34, 39, 42
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>7.7: Improper Integrals</B><br>
+unbounded domains<br>
+unbounded integrands
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-42)<br>
+43, 46, 49, 51
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>7.8: Hyperbolic Functions</B><br>
+definitions<br>
+identities<br>
+differentiation formulae<br>
+integration formulae<br>
+inverse functions<br>
+differentiation / integration formulae
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-51)
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+</table>
+
+
+<p>
+<table border=1 align=center width=80% cellpadding=5>
+
+<tr >
+<td valign=top width=45% align=center>
+Content
+</td>
+<td valign=top width=20% align=center>
+Homework
+</td>
+<td valign=top width=15% align=center>
+Hours
+</td>
+</tr>
+
+
+<tr >
+<td valign=top width=45% align=left>
+<B>8.1: Sequences</B><br>
+definitions<br>
+limits: intuitive and formal<br>
+limit theorems<br>
+composition theorems<br>
+sandwich (squeeze) theorem<br>
+bounded and monotonic sequences
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-45)
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>8.2: Infinite and Geometric Series</B><br>
+definitions<br>
+convergence and divergence<br>
+convergence (limit) theorems<br>
+telescoping series<br>
+geometric series<br>
+decimals and proportional decay
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-27)<br>
+32, 39, 41, 48, 51, 54
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>8.3: Integral Test and p-series</B><br>
+divergence test<br>
+series with non-negative terms (<b>s.n.n.t.</b>)<br>
+integral test<br>
+p-series
+</td>
+<td valign=top width=20% align=left>
+Multiples of 5 (5-55)
+</td>
+<td valign=top width=15% align=center>
+1
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>8.4: Comparison Tests for <b>s.n.n.t.</b></B><br>
+direct comparison test<br>
+convergence and divergence<br>
+limit comparison test<br>
+convergence and divergence
+</td>
+<td valign=top width=20% align=left>
+1, 2<br>
+Multiples of 5 (5-50)
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>8.5: Ratio and Root Tests for <b>s.n.n.t.</b></B><br>
+ratio test<br>
+convergence, divergence and inconclusive<br>
+root test<br>
+convergence, divergence and inconclusive
+</td>
+<td valign=top width=20% align=left>
+1, 2<br>
+Multiples of 3 (3-45)
+</td>
+<td valign=top width=15% align=center>
+1
+</td>
+</tr>
+
+
+<tr >
+<td valign=top width=45% align=left>
+<B>8.6: Alternating Series and Absolute Convergence</B><br>
+alternating series test<br>
+error estimates<br>
+absolute convergence definition<br>
+absolute convergence implies convergence<br>
+conditional convergence definition<br>
+rearrangement of terms
+</td>
+<td valign=top width=20% align=left>
+1, 2<br>
+Multiples of 5 (5-40)<br>
+44, 45
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+
+<tr >
+<td valign=top width=45% align=left>
+<B>8.7: Power Series</B><br>
+definition<br>
+convergence theorem<br>
+radius of convergence<br>
+ratio test<br>
+interval of convergence<br>
+series in (x-c)<br>
+term-by-term differentiation<br>
+term-by-term integration
+</td>
+<td valign=top width=20% align=left>
+1, 2<br>
+Multiples of 3 (3-42)<br>
+43, 46, 47
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>8.8: Taylor Series</B><br>
+Taylor polynomials<br>
+Taylors theorem<br>
+remainder and representation<br>
+Taylor series<br>
+known representations<br>
+error estimates<br>
+operations on Taylor series<br>
+binomial series
+</td>
+<td valign=top width=20% align=left>
+Multiples of 5 (5-55)<br>
+53
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+</table>
+
+
+<p>
+<table border=1 align=center width=80% cellpadding=5>
+
+<tr >
+<td valign=top width=45% align=center>
+Content
+</td>
+<td valign=top width=20% align=center>
+Homework
+</td>
+<td valign=top width=15% align=center>
+Hours
+</td>
+</tr>
+
+
+<tr >
+<td valign=top width=45% align=left>
+<B>9.1: Polar Coordinates</B><br>
+polar coordinate system<br>
+multiple representations<br>
+conversion between coordinate systems<br>
+polar graphs
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-60)
+</td>
+<td valign=top width=15% align=center>
+1
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>9.2: Graphing</B><br>
+table of values<br>
+symmetry<br>
+standard curves<br>
+cardiod, rose, limacon, lemniscate, linear
+</td>
+<td valign=top width=20% align=left>
+4, 5, 6<br>
+Multiples of 5 (10-60)<br>
+61, 62
+</td>
+<td valign=top width=15% align=center>
+1
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>9.3: Area and Tangent Lines</B><br>
+intersection points<br>
+area via integration<br>
+tangent lines at pole<br>
+area between polar curves<br>
+tangent slopes to polar graphs
+</td>
+<td valign=top width=20% align=left>
+Multiples of 5 (5-60)
+</td>
+<td valign=top width=15% align=center>
+2
+</td>
+</tr>
+
+<tr >
+<td valign=top width=45% align=left>
+<B>9.4: Parametric Equations</B><br>
+graphing<br>
+differentiation<br>
+arclength<br>
+area under curves
+</td>
+<td valign=top width=20% align=left>
+Multiples of 3 (3-48)
+</td>
+<td valign=top width=15% align=center>
+1
+</td>
+</tr>
+
+
+
+
+</table>
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="1352-20004(001)-hwk.shtml"-->
+</div>
+
+</body>
+</html> 
