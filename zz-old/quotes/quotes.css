@@ -1,0 +1,26 @@
+.quoteColor {
+	font-size: 12px;
+	font-weight: plain;
+	color: black;
+	font-family: verdana, arial, helvetica, sans-serif;
+}
+
+a.quote:link  {
+	text-decoration: underline;
+	color: white;
+}
+
+a.quote:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+a.quote:visited {
+	text-decoration: underline;
+	color: silver;
+}
+
+a:active {
+	text-decoration: underline;
+	color: silver;
+}

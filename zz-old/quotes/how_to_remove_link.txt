@@ -1,0 +1,30 @@
+QUOTES.PHP
+Delete this line - $theLink = $element[2];
+
+Remove "$theLink" from the function -
+    $output = outputLine($theQuote, $theRef, $theLink);
+    so that it looks like this:
+    $output = outputLine($theQuote, $theRef);
+
+FUNC.PHP
+Remove "$theLink" from the function so that it looks like:
+function outputLine($theQuote, $theRef)
+
+Remove " - <a href="<?php echo $theLink; ?>" target="_blank">...</a>" so that it looks like:
+	<?php echo $theQuote; ?> - <?php echo $theRef; ?>
+
+For example:
+<?php
+function outputLine($theQuote, $theRef)
+	{
+    ?>
+<div align="center"><?php echo $theQuote; ?> - <?php echo $theRef; ?></div>
+	<?php
+    }
+?>
+
+QUOTES.DB
+Currently: QUOTE::REFERENCE::LINK
+Change to: QUOTE::REFERENCE
+
+For Example: To be, or not to be::William Shakespeare
