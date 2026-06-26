@@ -1,0 +1,152 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+258 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 
+2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" 
+-1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 258 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 
+2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 15 "Maple Post Test" }}{PARA 256 "
+" 0 "" {TEXT -1 18 "Part II - In-Class" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 293 "In the text mode (click on the cap T
+ button) place your name(s) and date at the top of your worksheet.   S
+ave your current worksheet as maple-post-02-yourlastname.mws.  Remembe
+r to save frequently to avoid losing data in case that the system woul
+d shut down in the middle of a work session!   " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 75 "1.  (8 points) Using Maple, solve the following system of linea
+r equations:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 11 "" 1 "" 
+{XPPEDIT 18 0 "-x+y = 2;" "6#/,&%\"xG!\"\"%\"yG\"\"\"\"\"#" }{TEXT -1 
+0 "" }}{PARA 11 "" 1 "" {XPPEDIT 18 0 "-2*x-y = -1;" "6#/,&*&\"\"#\"\"
+\"%\"xGF'!\"\"%\"yGF),$F'F)" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 4 "    " }}{PARA 0 "" 
+0 "" {TEXT -1 75 "2.  (8 points) Using Maple, solve the following syst
+em of linear equations:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 11 "
+" 1 "" {XPPEDIT 18 0 "-x+y-5*z = 2;" "6#/,(%\"xG!\"\"%\"yG\"\"\"*&\"\"
+&F(%\"zGF(F&\"\"#" }{TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPEDIT 18 0 "-2
+*x-y = -1;" "6#/,&*&\"\"#\"\"\"%\"xGF'!\"\"%\"yGF),$F'F)" }{TEXT -1 0 
+"" }}{PARA 11 "" 1 "" {XPPEDIT 18 0 "x-y+2*z = 1;" "6#/,(%\"xG\"\"\"%
+\"yG!\"\"*&\"\"#F&%\"zGF&F&F&" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 6 "      " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }{TEXT -1 
+0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 43 "3
+.  (22  points) Consider the polynomial:  " }{XPPEDIT 18 0 "p := x^3+5
+*x^2+2*x-12;" "6#>%\"pG,**$%\"xG\"\"$\"\"\"*&\"\"&F)*$F'\"\"#F)F)*&F-F
+)F'F)F)\"#7!\"\"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 67 "     Find (and identify) each of the following about the \+
+graph of  " }{TEXT 257 2 "p." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 56 "    a.   x-intercepts of the function          \+
+         " }}{PARA 0 "" 0 "" {TEXT -1 104 "    b.   regions (intervals
+) in the domain of the function where the values of the function are p
+ositive" }}{PARA 0 "" 0 "" {TEXT -1 104 "    c.   regions (intervals) \+
+in the domain of the function where the values of the function are neg
+ative" }}{PARA 0 "" 0 "" {TEXT -1 36 "    d.   y-intercept of the func
+tion" }}{PARA 0 "" 0 "" {TEXT -1 19 "    e.   end limits" }}{PARA 0 "
+" 0 "" {TEXT -1 41 "    f.    critical points of the function" }}
+{PARA 0 "" 0 "" {TEXT -1 65 "    g.   local maximum points of the grap
+h of a function y = f(x)" }}{PARA 0 "" 0 "" {TEXT -1 66 "    h.   loca
+l minimum points of the graph of a function y = f(x) " }}{PARA 0 "" 0 
+"" {TEXT -1 107 "    i.    regions (intervals) in the domain of the fu
+nction where the values of the function are increasing" }}{PARA 0 "" 
+0 "" {TEXT -1 107 "    j.    regions (intervals) in the domain of the \+
+function where the values of the function are decreasing" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "     Present a plo
+t which shows both " }{TEXT 258 1 "p" }{TEXT -1 44 " and its derivativ
+e in the same plot window." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 57 "4.  (8 points) The following is the grap
+h of a function  " }{TEXT 260 2 "f " }{TEXT -1 20 " and its derivative
+ " }{TEXT 261 1 "g" }{TEXT -1 18 ".  Which graph is " }{TEXT 262 2 "f \+
+" }{TEXT -1 14 " and which is " }{TEXT 263 1 "g" }{TEXT -1 1 "?" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {GLPLOT2D 434 434 
+434 {PLOTDATA 2 "6'-%'CURVESG6$7S7$$!#5\"\"!$!$a$F*7$$!3!pmmm\"p0k&*!#
+<$!3;&=dh&*yzD$!#:7$$!3uKL$3<XZ=*F0$!3i'QWe-r=-$F37$$!3WmmmT%p\"e()F0$
+!3M9$ob7cmw#F37$$!3/nmm\"4m(G$)F0$!3G$*3z.jx?DF37$$!3OLL$3i.9!zF0$!3KV
+&HEf\\qG#F37$$!3fmm;/R=0vF0$!39s3J(fW,3#F37$$!3k++]P8#\\4(F0$!3+%Q4QaK
+e(=F37$$!3Kmm;/siqmF0$!3!>0f6lb^n\"F37$$!3Q****\\(y$pZiF0$!3k#)47d>(e[
+\"F37$$!3jKLL$yaE\"eF0$!3:Oi!f&zO-8F37$$!3<mmm\">s%HaF0$!3#)[C!*zL9]6F
+37$$!3]******\\$*4)*\\F0$!3ED6uV(eJ*)*!#;7$$!3o******\\_&\\c%F0$!3mm2N
+!3=1R)Feo7$$!3%)******\\1aZTF0$!39E2-BC:\\qFeo7$$!3Imm;/#)[oPF0$!3p!*H
+)f#Ra@fFeo7$$!3%HLLL=exJ$F0$!3c*eA*=2\"Hp%Feo7$$!3lKLLL2$f$HF0$!3/g$z7
+Aluu$Feo7$$!3%)****\\PYx\"\\#F0$!3awksNqudFFeo7$$!3gLLLL7i)4#F0$!3/d#*
+HkgV!)>Feo7$$!3o)***\\P'psm\"F0$!3E7)Qd>)HM7Feo7$$!3?****\\74_c7F0$!3=
+([\\c))fcF'F07$$!3M:LL$3x%z#)!#=$!3uNK?t%yT-\"F07$$!3()HLL3s$QM%Ffr$\"
+3Bp\\AC+jFGF07$$!3]^omm;zr)*!#?$\"3()oy=$*oZSfF07$$\"3fVLLezw5VFfr$\"3
+S.AGj\"z*G!)F07$$\"3-.++v$Q#\\\")Ffr$\"3;?GAU/C(*))F07$$\"3%\\LL$e\"*[
+H7F0$\"34tBiyT+U))F07$$\"3=++++dxd;F0$\"3&)H&oaQ$*>q(F07$$\"3e+++D0xw?
+F0$\"3]oOZ4dp@bF07$$\"35,+]i&p@[#F0$\"3glc*R;?&4CF07$$\"3++++vgHKHF0$!
+3N:7QkVI,AF07$$\"3ElmmmZvOLF0$!3eU\"='=&o7Q(F07$$\"3%4+++v+'oPF0$!39q,
+(Q.X&*R\"Feo7$$\"3UKL$eR<*fTF0$!3YKqa%QBb4#Feo7$$\"3K-++])Hxe%F0$!3Q6V
+(HkT:'HFeo7$$\"3!fmm\"H!o-*\\F0$!3A))oP$orm(QFeo7$$\"3X,+]7k.6aF0$!32m
+-spE<P\\Feo7$$\"3#emmmT9C#eF0$!3o\\B#=C/n2'Feo7$$\"33****\\i!*3`iF0$!3
+sNrc4M[ytFeo7$$\"3;NLLL*zym'F0$!3/1[g\"))eut)Feo7$$\"3'eLL$3N1#4(F0$!3
+=+qoLrRB5F37$$\"3,pm;HYt7vF0$!3[,%)\\q8Z#=\"F37$$\"37-+++xG**yF0$!3eR6
+-B^+Q8F37$$\"3gpmmT6KU$)F0$!3kg4U#R!HF:F37$$\"3qNLLLbdQ()F0$!3QfJbQlc1
+<F37$$\"3[++]i`1h\"*F0$!3q<*Hbj*33>F37$$\"3A-+]P?Wl&*F0$!3blJ$*=R+6@F3
+7$$\"#5F*$!$M#F*-%'COLOURG6&%$RGBG$\")+++!)!\")$\")Vyg>Fb[lFc[l-F$6$7S
+7$F($\"%K7F*7$F.$\"3qe:PH['Q3\"!#97$F5$\"39iK`N2\"zk*F37$F:$\"3u1-a`in
+8%)F37$F?$\"3%Qx$*p`^)ysF37$FD$\"3)zLpVi**=D'F37$FI$\"3MF#z[TEqQ&F37$F
+N$\"3qG)pX,xed%F37$FS$\"3P$Q\"3/s#H#QF37$FX$\"3//a'pN`[:$F37$Fgn$\"3-D
+#)[u%o([DF37$F\\o$\"3g,T+h*p\"z?F37$Fao$\"3?:gn1!>\"=;F37$Fgo$\"3(Rw**
+G#)\\DA\"F37$F\\p$\"3qG<=D=u1!*Feo7$Fap$\"3o@#oY'y<^lFeo7$Ffp$\"3u2pUV
+'HO;%Feo7$F[q$\"3O5/^0%H]b#Feo7$F`q$\"3bs,$GgXZ6\"Feo7$Feq$\"3!*>flLnn
+j=F07$Fjq$!3<X%\\z[(fH]F07$F_r$!3I)=)4^&R(=))F07$Fdr$!3Hf%**=!QOM5Feo7
+$Fjr$!3w\\f4]6Fe**F07$F_s$!3Md$f6VP*e!)F07$Fes$!3VH1#*3M;O\\F07$Fjs$!3
+ekaH9gMf;F07$F_t$\"3WoRk:jJ`?F07$Fdt$\"3bxR<IAQNcF07$Fit$\"3h5M*fa*[U%
+)F07$F^u$\"3:Z,T_cM35Feo7$Fcu$\"3F$>%*)=>f<5Feo7$Fhu$\"3i73p,Q7r#)F07$
+F]v$\"3g-4c)Rmcp$F07$Fbv$!3G/doX\\w7JF07$Fgv$!3-HB<3#*4*Q\"Feo7$F\\w$!
+3CR[3v)e@w#Feo7$Faw$!304`9Ews7YFeo7$Ffw$!3U%>hQ1!ouoFeo7$F[x$!3'RFy81!
+4o(*Feo7$F`x$!30MC6m%*o58F37$Fex$!3xo\"*Q+jn7<F37$Fjx$!3a-xzpmFw@F37$F
+_y$!3]XA$R$o8jEF37$Fdy$!3m*fX2\"HT(H$F37$Fiy$!3sZ4v@o\"y$RF37$F^z$!3)=
+#GF*[<5q%F37$Fcz$!3([zNRr+L^&F37$Fhz$!$['F*-F][l6&F_[l$F*F*$\"*++++\"F
+b[lF_el-%+AXESLABELSG6$Q\"x6\"Q\"yFeel-%*THICKNESSG6#\"\"$-%%VIEWG6$;F
+(Fhz;$!$+#F*$\"$+#F*" 1 2 0 1 10 3 2 9 1 4 2 1.000000 45.000000 
+45.000000 0 0 "Curve 1" "Curve 2" }}{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 239 "5.  (10 points) For the \+
+following function, provide a plot which shows the graph.  Use the ran
+ge  -1 < x < 1 and -1 < y < 1.  Rotate, where appropriate, to present \+
+a good view of the graph.  What is happening at the origin to this sur
+face?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {XPPEDIT 
+18 0 "z1 := x*y/(x^2+y^2);" "6#>%#z1G*(%\"xG\"\"\"%\"yGF',&*$F&\"\"#F'
+*$F(F+F'!\"\"" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 191 "6.  (10 points) For the follow
+ing function, provide a plot which shows the graph.  Use the range -2 \+
+< x  < 2 and -2 < y < 2.  Rotate, where appropriate, to present a good
+ view of the graph.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 
+0 "" {XPPEDIT 18 0 "z2 := sin(x^2+y^2)*(x^2+y^2);" "6#>%#z2G*&-%$sinG6
+#,&*$%\"xG\"\"#\"\"\"*$%\"yGF,F-F-,&*$F+F,F-*$F/F,F-F-" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+204 "7.  (10 points) For the following equation, provide a plot which \+
+shows its graph.  Choose reasonable values for the ranges of x, y and \+
+z.  Rotate, where appropriate, to present a good view of the graph.  \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "x
+^2+1/9*y^2+z^2 = 1;" "6#/,(*$%\"xG\"\"#\"\"\"*(F(F(\"\"*!\"\"%\"yGF'F(
+*$%\"zGF'F(F(" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 59 "8.  (12 points) Consider the fo
+llowing system of equations:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+256 "" 0 "" {XPPEDIT 18 0 "eq1 := x^2-2*x-y^2 = 9;" "6#>%$eq1G/,(*$%\"
+xG\"\"#\"\"\"*&F)F*F(F*!\"\"*$%\"yGF)F,\"\"*" }{TEXT -1 0 "" }}{PARA 
+256 "" 0 "" {XPPEDIT 18 0 "eq2 := 1/4*x^2+y^2+2*y = 16;" "6#>%$eq2G/,(
+*(\"\"\"F(\"\"%!\"\"%\"xG\"\"#F(*$%\"yGF,F(*&F,F(F.F(F(\"#;" }{TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }{MPLTEXT 1 0 2 "  " }{TEXT 
+-1 156 "Present a plot which shows the graphs of both equations on the
+ plot.  Use the range -10 < x  < 10 and -10 < y < 10.  How many inters
+ection points are there?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 145 "9.  (12 points) Use Maple to find decim
+al approximations for each of the solutions (intersection points) of t
+he system of equations in Problem 8." }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

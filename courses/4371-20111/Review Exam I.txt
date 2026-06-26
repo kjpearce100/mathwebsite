@@ -1,0 +1,40 @@
+1.	Arithmetic Calculations
+
+	Order of Operations
+	
+	Combinations
+	
+2.	Floating Point Calculations
+
+	Experiment
+	
+3.	Elementary Number Theory
+
+	gcd, lcm
+	
+	Fundamental Theorem of Arithmetic
+	
+	Prime, composite, relatively prime, factorization
+	
+	Modular Arithmetic
+	
+	Even, odd
+	
+	Divisibility Rules
+	
+	Alternate Bases
+	
+4.	Statistics
+
+	Measures of central tendency
+	
+		Mean, median, mode, midrange
+		
+	Measures of dispersion
+	
+		Standard Deviation, Range, Quartiles, Inner Quartile Range
+		
+	Frequency Distribution, Histogram
+	
+	Scatter plot, regression line
+

@@ -1,0 +1,8 @@
+to mycircle :x :y :r
+pu
+setxy :x :y 
+pd
+arc 360 :r
+fill
+end
+

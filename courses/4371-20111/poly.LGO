@@ -1,0 +1,29 @@
+to mycircle :x :y :r
+pu
+setxy :x :y 
+pd
+arc 360 :r
+fill
+end
+
+to mysquare :x :y :s
+pu
+setxy :x-:s/2 :y-:s/2
+pd
+repeat 4 [fd :s right 90]
+pu
+setxy :x :y
+fill
+end
+
+to poly :n
+cs
+repeat :n [fd 100 right 360/:n]
+ht
+rt 10
+fd 10
+fill
+bk 10
+lt 10
+end
+

@@ -1,0 +1,344 @@
+to branches  :l 
+seth 90 fd :l
+repeat 8-1 [rt 180- (((8-2)*180)/8) fd :l]
+pu home pd
+limpoly  :l 
+end
+
+to door :width :height :startx :starty :knobx :knoby :radius
+rectangle :width :height :startx :starty
+pu setxy :knobx :knoby pd arc 360 :radius
+end
+
+to flagpole
+rectangle 10 300 215 -40
+rectangle 80 40 225 220
+rectangle 25 40 225 220
+pu setxy 250 240 pd
+setxy 305 240
+pu setxy 227 245 pd
+nstarh 5 20
+pu home pd
+end
+
+to flower1
+rectangle 5 20 -370 -200
+end
+
+to flower2
+rectangle 5 20 -355 -200
+end
+
+to flower3
+rectangle 5 20 -410 -200
+end
+
+to flower4
+rectangle 5 20 -425 -200
+end
+
+to flowers
+flower3
+flower4
+pu setxy -415 -180 pd
+nstar 9 15
+pu setxy -420 -183 pd
+nstar 9 15
+pu home pd
+end
+
+to house
+roof 
+wall
+housedoor
+windows
+ht
+end
+
+to housedoor
+door 100 100 150 0 230 45 5
+setfloodcolor [255 255 0] fill
+lt 55 pu fd 9 pd 
+setfloodcolor [0 255 0] fill
+pu home pd
+end
+
+to limpoly :n :l :m
+seth 90 fd :l
+repeat :n-1 [rt 180- (((:n-2)*180)/:n) fd :l]
+pu home pd
+if :n>:m [stop]
+limpoly :n+1 :l :m
+end
+
+to limstar :n :l :m
+home
+nstar :n :l
+if :n>:m [stop] 
+limstar :n+2 :l :m
+end
+
+to maze :l :a :m
+fd :l rt 90
+if :l>:m[stop]
+maze :l+:a :a :m 
+end
+
+to moon
+pu home
+setxy 400 400 pd
+arc 360 60
+setfloodcolor [183 183 183] fill
+setpencolor 7
+arc 360 60
+pu setxy 440 410 pd
+arc 360 60
+setfloodcolor [255 255 255] fill
+setpencolor 0
+nstar 5 20
+pu lt 75 fd 10 pd
+nstar 5 20
+pu rt 80 fd 16 pd
+nstar 5 20
+pu home pd
+end
+
+to myname :x :y
+setxy :x :y 
+label "Meredith
+end
+
+to npoly :n
+setxy -100 0
+rt 90 fd 100
+repeat :n-1 [rt 180- (((:n-2)*180)/:n) fd 100]
+home
+end
+
+to nstar :n :l
+fd :l
+repeat :n-1 [rt 180-(180-((180-((:n-2)*(180/:n)))*2)) fd :l]
+end
+
+to nstar2 :n
+fd 75	
+repeat :n-1 [rt (3*(360/:n))fd 75]
+home
+end
+
+to nstarh :n :l
+seth 90
+fd :l
+repeat :n-1 [rt 180-(180-((180-((:n-2)*(180/:n)))*2)) fd :l]
+pu home pd
+end
+
+to post
+pu home pd
+triangle 50 50 -500 -400
+rectangle2 50 100 -500 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 -440 -400
+rectangle2 50 100 -440 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 -380 -400
+rectangle2 50 100 -380 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 -320 -400
+rectangle2 50 100 -320 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 -260 -400
+rectangle2 50 100 -260 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 -200 -400
+rectangle2 50 100 -200 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 -140 -400
+rectangle2 50 100 -140 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 -80 -400
+rectangle2 50 100 -80 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 -20 -400
+rectangle2 50 100 -20 -400
+lt 90 pu fd 60 lt 90 pd 
+triangle 50 50 40 -400
+rectangle2 50 100 40 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 100 -400
+rectangle2 50 100 100 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 160 -400
+rectangle2 50 100 160 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 220 -400
+rectangle2 50 100 220 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 280 -400
+rectangle2 50 100 280 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 340 -400
+rectangle2 50 100 340 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 400 -400
+rectangle2 50 100 400 -400
+lt 90 pu fd 60 lt 90 pd
+triangle 50 50 460 -400
+rectangle2 50 100 460 -400
+rectangle 1000 25 -500 -450
+pu home pd
+end
+
+to rectangle :width :height :x :y
+pu setxy :x :y pd
+fd :height rt 90 fd :width rt 90 fd :height rt 90 fd :width rt 90
+end
+
+to rectangle2 :width :height :x :y
+pu setxy :x :y pd
+bk :height rt 90 fd :width lt 90 fd :height lt 90 fd :width lt 90
+end
+
+to roof
+triangle 400 200 0 200 
+rt 55 fd 4
+setfloodcolor [155 96 59] fill
+pu home pd
+end
+
+to schoolhouse
+rectangle 400 150 -200 0
+triangle 400 100 -200 150
+door 50 100 -50 0 -8 40 4
+door 50 100 0 0 8 40 4
+schoolwindows
+pu home pd
+end
+
+to schoolhouse1
+rectangle 800 300 -400 -400
+triangle 800 200 -400 -100
+door 100 200 0 -400 15 -300 7
+door 100 200 -100 -400 -15 -300 7
+schoolwindows
+pu home pd
+end
+
+to schoolwindows
+rectangle 60 60 -190 45
+rectangle 60 60 -120 45
+rectangle 60 60 60 45
+rectangle 60 60 130 45
+pu setxy -190 75 pd
+setxy -130 75
+pu setxy -120 75 pd
+setxy -60 75
+pu setxy 60 75 pd
+setxy 120 75 pd
+pu setxy 130 75 pd
+setxy 190 75 pd
+pu setxy -160 105 pd
+setxy -190 105
+pu setxy -160 105 pd
+setxy -160 45
+pu setxy -90 105 pd
+setxy -90 45
+pu setxy 90 105 pd
+setxy 90 45 
+pu setxy 160 105 pd
+setxy 160 45
+pu home pd
+end
+
+to schoolwindows1
+rectangle 120 120 -380 -280
+rectangle 120 120 -240 -280
+rectangle 120 120 120 -280
+rectangle 120 120 260 -280
+pu setxy -320 -160 pd st
+setxy -320 -280
+pu setxy -380 -220 pd
+setxy -260 -220
+pu setxy -240 -220 pd 
+setxy -120 -220
+pu setxy 120 -220 pd
+setxy 240 -220
+pu setxy 260 -220 pd
+setxy 380 -220
+pu setxy -180 -160 pd
+setxy -180 -280
+pu setxy 180 -160 pd
+setxy 180 -280
+pu setxy 320 -160 pd
+setxy 320 -280
+end
+
+to swing
+triangle 80 150 200 -200
+triangle 80 150 400 -200
+pu setxy 240 -50 pd
+setxy 440 -50
+pu setxy 300 -50 pd
+setxy 300 -130
+rectangle 35 20 295 -140
+pu setxy 325 -50 pd
+setxy 325 -130
+pu setxy 350 -50 pd
+setxy 350 -130
+rectangle 35 20 345 -140
+pu setxy 375 -50 pd
+setxy 375 -130
+pu setxy 200 -200 pd
+setpencolor 7
+setxy 280 -200
+pu setxy 400 -200
+pd setxy 480 -200
+setpencolor 0
+pu home pd
+end
+
+to traingle :base :height :x :y
+pu setxy :x :y pd
+fd :base rt 180-(90+(2*((1/2)*:base)/:height)) fd ((1/2)*:base+:height) rt 180-(2*((1/2)*:base)/:height) fd ((1/2)*:base+:height)
+end
+
+to tree
+rectangle 25 125 -400 -200
+pu setxy -412 40 pd 
+branches 50 
+pu home pd
+end
+
+to triangle :base :height :x :y
+pu setxy :x :y pd
+setxy :x+:base :y
+setxy :x+(1/2)*:base :y+:height
+setxy :x :y
+end
+
+to wall
+rectangle 400 200 0 0
+rt 55 fd 4 
+setfloodcolor [255 0 0] fill
+pu home pd
+end
+
+to windows
+rectangle 70 70 50 100
+rt 55 pu fd 4 pd
+setfloodcolor [0 0 255] fill
+pu home pd
+rectangle 70 70 280 100
+rt 55 pu fd 4 pd
+setfloodcolor [0 0 255] fill
+pu home pd
+pu setxy 85 170 pd
+setxy 85 100 
+pu setxy  50 135 pd
+setxy 120 135
+pu setxy 315 170 pd 
+setxy 315 100
+pu setxy 280 135 pd 
+setxy 350 135
+end
+
