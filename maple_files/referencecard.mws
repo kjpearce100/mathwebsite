@@ -1,0 +1,126 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 255 1 0 0 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 
+0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 255 1 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 265 "Helvetica" 1 14 0 0 0 0 0 2 1 0 0 0 0 
+0 0 1 }{CSTYLE "" -1 266 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 267 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+268 "" 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 
+255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 1 0 0 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 271 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 272 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+273 "" 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 
+128 0 1 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 275 "" 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 276 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 277 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+278 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 279 "" 0 1 0 
+0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 280 "" 0 1 255 0 0 1 0 0 0 
+0 0 0 0 0 0 1 }{CSTYLE "" -1 281 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 
+}{CSTYLE "" -1 282 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 283 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 284 "" 0 1 
+255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 285 "" 0 1 255 0 0 1 0 0 
+0 0 0 0 0 0 0 1 }{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+}{CSTYLE "" -1 287 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+288 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 289 "" 0 1 
+255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 290 "" 0 1 255 0 0 1 0 0 
+0 0 0 0 0 0 0 1 }{CSTYLE "" -1 291 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 292 "" 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 293 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 294 "" 0 1 
+0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 295 "" 0 1 0 0 255 1 0 0 
+0 0 0 0 0 0 0 1 }{CSTYLE "" -1 296 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 
+1 }{CSTYLE "" -1 297 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 298 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 299 "" 0 1 
+0 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 301 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 302 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+303 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 304 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 
+0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }1 0 0 0 8 
+4 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {SECT 0 {PARA 3 "" 0 "" {TEXT 265 26 "Maple Quick Reference Ca
+rd" }}{PARA 0 "" 0 "" {TEXT 294 8 "denom( )" }{TEXT -1 51 "           \+
+   Selects the denominator of a fraction" }}{PARA 0 "" 0 "" {TEXT 272 
+15 "display( )     " }{TEXT 273 64 "        Combines graphs of functio
+ns and points  (require with( " }{TEXT 274 7 "plots) " }{TEXT 275 1 ")
+" }}{PARA 0 "" 0 "" {TEXT 256 11 "evalf(expr)" }{TEXT 257 37 "        \+
+   Numercially evaluates the " }{TEXT -1 16 "given expression" }{TEXT 
+258 38 " to the default number of digits (10)." }}{PARA 0 "" 0 "" 
+{TEXT 259 13 "evalf(expr,n)" }{TEXT 260 34 "        Numercially evalua
+tes the " }{TEXT -1 16 "given expression" }{TEXT 261 12 " to n digits
+" }}{PARA 0 "" 0 "" {TEXT 266 12 "expand(expr)" }{TEXT -1 36 "        \+
+Expands the given expression" }}{PARA 0 "" 0 "" {TEXT 293 12 "factor(e
+xpr)" }{TEXT -1 39 "          Factors the given expression " }}{PARA 
+0 "" 0 "" {TEXT 276 11 "fsolve(eqn)" }{TEXT -1 64 "           Finds nu
+merical (approximate) solutions to equations." }}{PARA 0 "" 0 "" 
+{TEXT -1 29 "                             " }{TEXT 300 27 "fsolve(x^2=
+cos(x)+4,x=0..5)" }}{PARA 0 "" 0 "" {TEXT 267 11 "ifactor(n) " }{TEXT 
+268 67 "             Gives prime integer factorization for a given int
+eger " }}{PARA 0 "" 0 "" {TEXT 278 9 "lhs(eqn )" }{TEXT -1 56 "       \+
+        Selects the left hand side of an equation" }}{PARA 0 "" 0 "" 
+{TEXT 295 15 "implicitplot( )" }{TEXT -1 41 "       Plots implicitly d
+efined functions" }}{PARA 0 "" 0 "" {TEXT -1 29 "                     \+
+        " }{TEXT 301 74 "implicitplot(x^2/25 +y^2/9=1 , x=-5 . . 5,y=-
+5 . . 5,scaling=constrained);" }}{PARA 0 "" 0 "" {TEXT 296 8 "numer( )
+" }{TEXT -1 51 "                Selects the numerator of a fraction" }
+}{PARA 0 "" 0 "" {TEXT 269 17 "plot( )          " }{TEXT 270 61 "     \+
+    Plots functions defined by an algebraic expression: " }}{PARA 0 "
+" 0 "" {TEXT -1 29 "                             " }{TEXT 302 49 "    \+
+plot(3*x^2-8 , x=-5 . . 5 , y = -20 . . 40 );" }}{PARA 0 "" 0 "" 
+{TEXT -1 68 "                             Plots more than one function
+ at a time:" }}{PARA 0 "" 0 "" {TEXT -1 29 "                          \+
+   " }{TEXT 305 68 "    plot( [ 3*x^2-8 , sin(x) , cos(x) ] ,x=-5 . . \+
+5 , y=-20 .. 40 );" }}{PARA 0 "" 0 "" {TEXT -1 42 "                   \+
+          Plots points:" }}{PARA 0 "" 0 "" {TEXT -1 34 "              \+
+                    " }{XPPEDIT 18 0 "plot([ [2,3],[-2,5],[1,-4] ],x=-
+7..7,y=-7..7,style=point);" "6#-%%plotG6&7%7$\"\"#\"\"$7$,$F(!\"\"\"\"
+&7$\"\"\",$\"\"%F,/%\"xG;,$\"\"(F,F6/%\"yG;,$F6F,F6/%&styleG%&pointG" 
+}}{PARA 0 "" 0 "" {TEXT -1 29 "                             " }{TEXT 
+299 28 "Plots parametric equations :" }}{PARA 0 "" 0 "" {TEXT -1 33 " \+
+                                " }{TEXT 303 57 "plot( [cos(t), sin(t)
+, t=0 . . 2*Pi] , x=-2..2, y=-2..2);" }}{PARA 0 "" 0 "" {TEXT 262 18 "
+rationalize(expr) " }{TEXT 263 52 "  Rationalizes the denominator of a
+ given expression" }}{PARA 0 "" 0 "" {TEXT 297 7 "restart" }{TEXT -1 
+58 "                  Clears Maple's memory of all definitions" }}
+{PARA 0 "" 0 "" {TEXT 279 9 "rhs(eqn )" }{TEXT -1 56 "              Se
+lects the right hand side of an equation" }}{PARA 0 "" 0 "" {TEXT 271 
+14 "simplify(expr)" }{TEXT -1 38 "       Simplifies the given expressi
+on" }}{PARA 0 "" 0 "" {TEXT 277 10 "solve(eqn)" }{TEXT -1 95 "        \+
+    Finds exact solutions to equations, including literal equations an
+d linear systems." }}{PARA 0 "" 0 "" {TEXT 264 16 "subs(x= v,expr) " }
+{TEXT -1 50 "   Substitutes the value v for x in the expression" }}
+{PARA 0 "" 0 "" {TEXT -1 29 "                             " }{TEXT 
+304 18 "subs(x=4,3*x^2+8);" }}{PARA 0 "" 0 "" {TEXT 298 7 "with( )" }
+{TEXT -1 62 "                  Brings in additional libraries of funct
+ions." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 13 "
+The standard " }{TEXT 286 9 "constants" }{TEXT -1 5 " are:" }}{PARA 0 
+"" 0 "" {TEXT 280 2 "Pi" }{TEXT -1 12 "            " }{XPPEDIT 18 0 "P
+i" "6#%#PiG" }{TEXT -1 65 "        Caution: Do not use \"pi\", capital
+ \"P\" is required        " }}{PARA 0 "" 0 "" {TEXT 281 6 "exp(1)" }
+{TEXT -1 5 "     " }{XPPEDIT 18 0 "exp(1)" "6#-%$expG6#\"\"\"" }{TEXT 
+-1 11 "           " }}{PARA 0 "" 0 "" {TEXT 282 1 "I" }{TEXT -1 11 "  \+
+         " }{XPPEDIT 18 0 "sqrt(-1)" "6#-%%sqrtG6#,$\"\"\"!\"\"" }
+{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 27 " The names of the standard " }{TEXT 287 9 "functions" }
+{TEXT -1 5 " are:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT 283 7 "sqrt(x)" }{TEXT -1 3 "   " }{XPPEDIT 18 0 "sqrt(x)" "6#-%
+%sqrtG6#%\"xG" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT 284 6 "abs(x)
+" }{TEXT -1 3 "   " }{XPPEDIT 18 0 "abs(x)" "6#-%$absG6#%\"xG" }}
+{PARA 0 "" 0 "" {TEXT 285 6 "exp(x)" }{TEXT -1 3 "   " }{XPPEDIT 18 0 
+"exp(x)" "6#-%$expG6#%\"xG" }}{PARA 0 "" 0 "" {TEXT 290 5 "ln(x)" }
+{TEXT -1 16 "     natural log" }}{PARA 0 "" 0 "" {TEXT 291 9 "log(x)  \+
+ " }{TEXT 292 20 "common log (base 10)" }}{PARA 0 "" 0 "" {TEXT 288 
+46 "sin(x), cos(x), tan(x), cot(x), sec(x), csc(x)" }{TEXT -1 25 "    \+
+   sine of  x,   etc." }}{PARA 0 "" 0 "" {TEXT 289 32 "arcsin(x), arcc
+os(x), arctan(x) " }{TEXT -1 52 "                          the inverse
+ trig functions" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{MARK "1 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 
+33 1 1 }

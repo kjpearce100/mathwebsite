@@ -1,0 +1,14 @@
+
+.category { color: #ccc; font-style: italic; font-weight: bold; font-size: 14px; font-family: "Times New Roman", Georgia, Times; letter-spacing: 3pt }
+.footer { color: #660; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.header { color: #000; font-style: normal; font-weight: normal; font-size: 26px; font-family: "Times New Roman", Georgia, Times }
+.lists { color: #333; font-size: 10px; line-height: 14px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular }
+.mainlinks { color: #fff; font-weight: bold; font-size: 12px; line-height: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+.message { color: #000; font-size: 12px; line-height: 18px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+.message2 { color: red; font-size: 12px; line-height: 18px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+.message3 { color: blue; font-size: 12px; line-height: 18px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+.nav { color: #cc9; font-weight: bold; font-size: 12px; line-height: 12px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+.plainlink { color: #039; font-size: 12px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+.subcategory { color: #cc9; font-weight: 600; font-size: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; letter-spacing: 1pt }
+.subnav { color: #fff; font-weight: bold; font-size: 10px; line-height: 10px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none }
+.subnav2 { color: #fff; font-weight: bold; font-size: 10px; line-height: 12px; font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular; text-decoration: none; margin-bottom: 5px }

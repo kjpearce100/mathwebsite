@@ -1,0 +1,203 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 2 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 1 12 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 1 12 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 1 12 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 265 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 1 12 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 1 12 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 270 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 8 2 0 0 0 0 0 0 -1 0 }{PSTYLE "Headi
+ng 3" 4 5 1 {CSTYLE "" -1 -1 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }0 0 
+0 -1 0 0 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 4" 5 20 1 {CSTYLE "" -1 
+-1 "" 1 10 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }0 0 0 -1 0 0 0 0 0 0 0 0 -1 0 
+}}
+{SECT 0 {SECT 0 {PARA 3 "" 0 "" {TEXT 256 17 "Practice Problems" }}
+{SECT 1 {PARA 4 "" 0 "" {TEXT -1 13 "Problem No. 1" }}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 33 "Assign the name w to the number  " }{XPPEDIT 18 0 
+"2*Pi/3" "6#*(\"\"#\"\"\"%#PiGF%\"\"$!\"\"" }{TEXT -1 20 "  and then f
+ind the " }{TEXT 273 11 "exact value" }{TEXT -1 7 " and a " }{TEXT 
+274 21 "decimal approximation" }{TEXT -1 20 " for the following: " }
+{XPPEDIT 18 0 "w^2, sqrt(w)" "6$*$%\"wG\"\"#-%%sqrtG6#F$" }{TEXT -1 5 
+" and " }{XPPEDIT 18 0 "cos(w)" "6#-%$cosG6#%\"wG" }{TEXT -1 3 " . " }
+}}{SECT 1 {PARA 20 "" 0 "" {TEXT 258 18 "Student Workspace " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 13 "Problem \+
+No. 2" }}{PARA 0 "" 0 "" {TEXT -1 9 "Factor   " }{XPPEDIT 18 0 "x^8-2*
+x^4+1" "6#,(*$%\"xG\"\")\"\"\"*&\"\"#F'*$F%\"\"%F'!\"\"F'F'" }{TEXT 
+-1 2 " ." }}{SECT 1 {PARA 20 "" 0 "" {TEXT 259 18 "Student Workspace \+
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 13 "Problem \+
+No. 3" }}{PARA 0 "" 0 "" {TEXT -1 19 "Enter the function " }{XPPEDIT 
+18 0 "f(x)=20*x+30*x^2-sqrt(46-x^2)" "6#/-%\"fG6#%\"xG,(*&\"#?\"\"\"F'
+F+F+*&\"#IF+*$F'\"\"#F+F+-%%sqrtG6#,&\"#YF+*$F'F/!\"\"F6" }{TEXT -1 1 
+" " }}{PARA 0 "" 0 "" {TEXT -1 36 "Then find the approximate value of \+
+ " }{XPPEDIT 18 0 "f(3.29) + f(-3.1) " "6#,&-%\"fG6#$\"$H$!\"#\"\"\"-F
+%6#,$$\"#J!\"\"F0F*" }}{SECT 1 {PARA 20 "" 0 "" {TEXT 267 18 "Student \+
+Workspace " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "" 0 "
+" {TEXT -1 13 "Problem No. 4" }}{PARA 0 "" 0 "" {TEXT -1 50 "Find the \+
+approximate value of  T in the formula   " }{XPPEDIT 18 0 "T = sqrt((2
+*a-3*b^2)/(c-20))" "6#/%\"TG-%%sqrtG6#*&,&*&\"\"#\"\"\"%\"aGF,F,*&\"\"
+$F,*$%\"bGF+F,!\"\"F,,&%\"cGF,\"#?F2F2" }{TEXT -1 1 " " }}{PARA 0 "" 
+0 "" {TEXT -1 34 "when a=4.6  ,  b= -3.8  and c=2.9 " }}{SECT 1 {PARA 
+20 "" 0 "" {TEXT 268 18 "Student Workspace " }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 13 "Problem No. 5" }}{PARA 0 "" 0 "
+" {TEXT -1 4 "If  " }{XPPEDIT 18 0 "f(x)=x^2-2*x+3" "6#/-%\"fG6#%\"xG,
+(*$F'\"\"#\"\"\"*&F*F+F'F+!\"\"\"\"$F+" }{TEXT -1 26 " ,  find and sim
+plify ,   " }{XPPEDIT 18 0 "f(3*t+2)" "6#-%\"fG6#,&*&\"\"$\"\"\"%\"tGF
+)F)\"\"#F)" }{TEXT -1 3 " . " }}{SECT 1 {PARA 20 "" 0 "" {TEXT 260 18 
+"Student Workspace " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "" 0 "
+" {TEXT -1 13 "Problem No. 6" }}{PARA 0 "" 0 "" {TEXT -1 37 "When mult
+iplied out the expression   " }{XPPEDIT 18 0 "(x-4)^2*(x+1)^3" "6#*&,&
+%\"xG\"\"\"\"\"%!\"\"\"\"#,&F%F&F&F&\"\"$" }{TEXT -1 36 "  equals a fi
+fth-degree polynomial. " }}{PARA 0 "" 0 "" {TEXT -1 32 "What is the co
+efficient of the  " }{XPPEDIT 18 0 "x^2" "6#*$%\"xG\"\"#" }{TEXT -1 8 
+"  term ?" }}{SECT 1 {PARA 20 "" 0 "" {TEXT 269 18 "Student Workspace \+
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 13 "Problem \+
+No. 7" }}{PARA 0 "" 0 "" {TEXT -1 22 "Plot the expressions  " }
+{XPPEDIT 18 0 "cos(x) " "6#-%$cosG6#%\"xG" }{TEXT -1 6 " and  " }
+{XPPEDIT 18 0 "cos(x)*sin(10*x)" "6#*&-%$cosG6#%\"xG\"\"\"-%$sinG6#*&
+\"#5F(F'F(F(" }{TEXT -1 17 " on the interval " }{XPPEDIT 18 0 "[0,2*Pi
+]" "6#7$\"\"!*&\"\"#\"\"\"%#PiGF'" }{TEXT -1 52 " . Then plot these sa
+me expressions on the interval " }{XPPEDIT 18 0 "[0,4*Pi]" "6#7$\"\"!*
+&\"\"%\"\"\"%#PiGF'" }{TEXT -1 1 "." }}{SECT 1 {PARA 20 "" 0 "" {TEXT 
+261 18 "Student Workspace " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "
+" 0 "" {TEXT -1 13 "Problem No. 8" }}{PARA 0 "" 0 "" {TEXT -1 20 "Plot
+ the function   " }{XPPEDIT 18 0 "f(x)=sec(x) +4" "6#/-%\"fG6#%\"xG,&-
+%$secG6#F'\"\"\"\"\"%F," }{TEXT -1 17 " on the interval " }{XPPEDIT 
+18 0 "[0,2*Pi]" "6#7$\"\"!*&\"\"#\"\"\"%#PiGF'" }{TEXT -1 132 " . Auto
+matic scaling does not produce a useful picture. Specify a y-range tha
+t gives a good view of this function on this interval. " }}{SECT 1 
+{PARA 20 "" 0 "" {TEXT 272 18 "Student Workspace " }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 13 "Problem No. 9" }}{PARA 0 "
+" 0 "" {TEXT -1 17 "Recall that if a " }{TEXT 257 15 "rational number
+" }{TEXT -1 151 " has an infinite decimal expansion then somewhere in \+
+the expansion the digits must repeat. A familiar example is the decima
+l expansion of the fraction " }{XPPEDIT 18 0 "1/3" "6#*&\"\"\"F$\"\"$!
+\"\"" }{TEXT -1 103 " = .33333... where we have the digit 3 repeated. \+
+ A bit more interesting is the decimal expansion for  " }{XPPEDIT 18 
+0 "33/14" "6#*&\"#L\"\"\"\"#9!\"\"" }{TEXT -1 105 " = 2.3571428571428.
+.. with the repeating digits 571428. Now look at a decimal expansion o
+f the fraction  " }{XPPEDIT 18 0 "2/19" "6#*&\"\"#\"\"\"\"#>!\"\"" }
+{TEXT -1 102 ". Can you identify the repeating sequence. Check yoursel
+f by looking at one thousand decimal places.  " }}{SECT 1 {PARA 20 "" 
+0 "" {TEXT 262 18 "Student Workspace " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 14 "Problem \+
+No. 10" }}{PARA 0 "" 0 "" {TEXT -1 41 "a) Plot the following points on
+ a graph: " }}{PARA 0 "" 0 "" {TEXT -1 66 "( 1, 0.53) , (1.5, 0.65) , \+
+(2, 0.91) , (2.5 , 0.95) and (3, 1.10 )" }}{PARA 0 "" 0 "" {TEXT -1 
+53 "b) Create a single picture that has the points above " }{TEXT 264 
+4 "plus" }{TEXT -1 27 " graphs of the functions : " }{XPPEDIT 18 0 "f(
+x)=sin(x/2)" "6#/-%\"fG6#%\"xG-%$sinG6#*&F'\"\"\"\"\"#!\"\"" }{TEXT 
+-1 6 " and  " }{XPPEDIT 18 0 "g(x)=x^2/5" "6#/-%\"gG6#%\"xG*&F'\"\"#\"
+\"&!\"\"" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 95 "Use your pic
+ture to decide which of these two functions most closely fits this set
+ of points ? " }}{SECT 1 {PARA 20 "" 0 "" {TEXT 263 18 "Student Worksp
+ace " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "
+" 0 "" {TEXT -1 14 "Problem No. 11" }}{PARA 0 "" 0 "" {TEXT -1 49 "App
+roximate all real solutions of the equation   " }{XPPEDIT 18 0 "x^4-4*
+x^3+3*x-12=0" "6#/,**$%\"xG\"\"%\"\"\"*&F'F(*$F&\"\"$F(!\"\"*&F+F(F&F(
+F(\"#7F,\"\"!" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{SECT 1 {PARA 20 "" 0 "" {TEXT 265 18 "Student Workspace " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "" 0 "
+" {TEXT -1 14 "Problem No. 12" }}{PARA 0 "" 0 "" {TEXT -1 49 "Approxim
+ate all real solutions of the equation   " }{XPPEDIT 18 0 "x^4-4*x^3=c
+os(3*x)+3" "6#/,&*$%\"xG\"\"%\"\"\"*&F'F(*$F&\"\"$F(!\"\",&-%$cosG6#*&
+F+F(F&F(F(F+F(" }{TEXT -1 2 " ." }}{SECT 1 {PARA 20 "" 0 "" {TEXT 266 
+18 "Student Workspace " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 14 "Problem No. 13" }}{PARA 0 "" 0 "
+" {TEXT -1 16 "The graphs of   " }{XPPEDIT 18 0 "f(x)=20-x" "6#/-%\"fG
+6#%\"xG,&\"#?\"\"\"F'!\"\"" }{TEXT -1 8 "  and   " }{XPPEDIT 18 0 "h(x
+)=1.012^x" "6#/-%\"hG6#%\"xG)$\"%75!\"$F'" }{TEXT -1 26 "  intersect a
+t one point. " }}{PARA 0 "" 0 "" {TEXT -1 107 "Use the numerical solvi
+ng capabilities of Maple to approximate the coordinates of this inters
+ection point. " }}{PARA 0 "" 0 "" {TEXT -1 51 "Start by entering an ap
+propriate equation to solve." }}{PARA 0 "" 0 "" {TEXT -1 77 "Check you
+r answer by creating a picture that shows the graphs intersecting.  " 
+}}{SECT 1 {PARA 20 "" 0 "" {TEXT 270 18 "Student Workspace " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "" 0 "
+" {TEXT -1 14 "Problem No. 14" }}{PARA 0 "" 0 "" {TEXT -1 31 "Solve fo
+r r in the equation :  " }{XPPEDIT 18 0 "r*(p*k-18*m)=32*(2-p*r*m)/m^2
+" "6#/*&%\"rG\"\"\",&*&%\"pGF&%\"kGF&F&*&\"#=F&%\"mGF&!\"\"F&*(\"#KF&,
+&\"\"#F&*(F)F&F%F&F-F&F.F&*$F-F2F." }{TEXT -1 106 "  . Be sure that yo
+u have entered the equation correctly. In particular check that you ha
+ve used an * for " }{TEXT 275 5 "every" }{TEXT -1 16 " mulitplication.
+" }}{SECT 1 {PARA 20 "" 0 "" {TEXT 271 18 "Student Workspace " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "1 0 0
+" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

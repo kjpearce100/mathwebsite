@@ -1,0 +1,92 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "" -1 256 "Helvetica" 1 14 0 0 0 0 0 2 1 0 0 0 0 
+0 0 1 }{CSTYLE "" -1 257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "
+" -1 258 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "Helvet
+ica" 1 10 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 260 "Helvetica" 
+1 10 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 261 "Helvetica" 1 10 
+0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 262 "Helvetica" 1 10 0 0 0 
+0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "Helvetica" 1 10 0 0 0 0 0 1 
+0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "Helvetica" 1 10 0 0 0 0 0 0 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 265 "Helvetica" 1 10 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 }{CSTYLE "" -1 266 "Helvetica" 1 10 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 267 "" 0 1 255 0 255 1 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 
+-1 268 "Helvetica" 1 10 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+269 "Helvetica" 1 10 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 270 "H
+elvetica" 1 10 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 271 "Helveti
+ca" 1 10 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 272 "Helvetica" 1 
+10 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+}{CSTYLE "" -1 275 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+276 "" 0 1 255 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 277 "" 0 1 
+255 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 0 1 255 0 255 1 
+0 0 0 0 0 0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" 
+-1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 8 2 0 0 0 0 0 0 
+-1 0 }{PSTYLE "Heading 3" 4 5 1 {CSTYLE "" -1 -1 "" 1 12 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 }0 0 0 -1 0 0 0 0 0 0 0 0 -1 0 }}
+{SECT 0 {SECT 0 {PARA 3 "" 0 "" {TEXT 256 38 "Notes on the Maple Works
+heet Interface" }}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 27 "Creating a new \+
+command line" }}{PARA 0 "" 0 "" {TEXT -1 92 "There are several ways to
+ do this.\na quick keystroke : Ctrl-J , \nor click on the button:    \+
+" }{TEXT 258 2 "[>" }{TEXT -1 63 "   in the toolbar at the top of the \+
+screen ,\nor use the Menu:  " }{TEXT 259 6 "Insert" }{TEXT 264 3 " / \+
+" }{TEXT 260 15 "Execution Group" }{TEXT 265 3 " > " }{TEXT 261 12 "Af
+ter Cursor" }}}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 26 "Creating a new tex
+t region" }}{PARA 0 "" 0 "" {TEXT -1 236 "The easiest way to do this i
+s to first create a new command line as described above and then conve
+rt it to a text region.\nTo convert to a text region do any one of the
+ following:\na quick keystroke : Ctrl-T   \nor click on the button:   \+
+ " }{TEXT 257 1 "T" }{TEXT -1 67 "   in the toolbar at the top of the \+
+screen.    \nor use the Menu :  " }{TEXT 262 6 "Insert" }{TEXT -1 3 " \+
+/ " }{TEXT 263 10 "Text Input" }}}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 20 
+"Semicolon vs. Colon " }}{PARA 0 "" 0 "" {TEXT -1 191 "End a command l
+ine with a semicolon (;) to execute the line and display the result as
+ blue output or a graph. Alternatively suppress the display of output \+
+by ending the line with a colon (:)." }}}{SECT 1 {PARA 5 "" 0 "" 
+{TEXT -1 28 "Opening and closing sections" }}{PARA 0 "" 0 "" {TEXT -1 
+98 "Click on   +  button to open a section. The button changes to - . \+
+Click on - to close a section. \n" }{TEXT 273 26 "Quick close with spa
+ce bar" }{TEXT -1 184 ": To close a section if the button has scrolled
+ off the screen without having to scroll back up to find it, click on \+
+section line at left to make it a double line then press Space Bar." }
+}}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 27 "Moving through a worksheet " }}
+{PARA 0 "" 0 "" {TEXT -1 205 "Use the vertical scrollbar on the right \+
+or up/down arrow keys. If you press [Enter] when you are on a command \+
+line Maple executes the line and then the cursor automatically moves t
+o the next command line. " }}}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 43 "How
+ to remove all output from the worksheet" }}{PARA 0 "" 0 "" {TEXT -1 
+15 "Use the Menu:  " }{TEXT 266 37 "Edit / Remove Output > From Worksh
+eet" }}}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 36 "Expanding or Collapsing a
+ll Sections" }}{PARA 0 "" 0 "" {TEXT -1 10 "Use Menu: " }{TEXT 268 53 
+"View / Expand All Sections (or Collapse All Sections)" }}}{SECT 1 
+{PARA 5 "" 0 "" {TEXT -1 61 "Creating a New File/ Saving a File / Open
+ing an Existing File" }}{PARA 0 "" 0 "" {TEXT -1 11 "Use Menu : " }
+{TEXT 269 34 "File / New , Open , Save , Save As" }{TEXT -1 37 "   (st
+andard Windows file management)" }}}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 
+19 "Cutting and pasting" }}{PARA 0 "" 0 "" {TEXT -1 68 "Standard Windo
+ws editing: cut, copy and paste available from Menu : " }{TEXT 270 21 
+"Edit / Copy or Paste " }}{PARA 0 "" 0 "" {TEXT -1 26 "or use buttons \+
+on Toolbar." }}}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 22 "Using the Help sy
+stem " }}{PARA 0 "" 0 "" {TEXT 276 7 "To get " }{TEXT 267 10 "quick he
+lp" }{TEXT 277 67 " on a particular command: click on the command and \+
+press the F1 key" }{TEXT -1 47 ". A Help page for that command will ap
+pear. To " }{TEXT 274 5 "close" }{TEXT -1 59 " the Help page when you \+
+are done reading it use the Menu : " }{TEXT 272 23 "File , Close Help \+
+Topic" }{TEXT -1 86 "\nMaple's Help system is quite elaborate. To lear
+n more about it from the Menu choose: " }{TEXT 271 17 "Help / Using He
+lp" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 0 "" }{TEXT 275 43 "Execution \+
+groups with more than one command" }}{PARA 0 "" 0 "" {TEXT -1 65 "To i
+nclude more than one command in a single execution group use:" }}
+{PARA 0 "" 0 "" {TEXT -1 1 " " }{TEXT 278 64 "SHIFT - ENTER instead of
+ ENTER at the end of each command line. " }}{PARA 0 "" 0 "" {TEXT -1 
+45 "Instead of executing one command at at time: " }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 5 "a:=4;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 5 "b:=7;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "c:=8;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 39 "We can execute three commands at once: " }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 17 "a:=4;\nb:=7;\nc:=8;" }}}}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "1 0 0" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

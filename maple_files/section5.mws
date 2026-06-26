@@ -1,0 +1,235 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 1 1 2 1 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 1 12 0 0 
+0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 1 12 0 0 0 0 1 0 1 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 265 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 1 12 0 
+0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 1 12 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 270 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 1 12 0 0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 1 12 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 1 12 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 275 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 276 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 0 1 0 0 
+255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1
+" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }1 0 0 0 
+8 4 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 
+14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 8 2 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Heading 3" 4 5 1 {CSTYLE "" -1 -1 "" 1 12 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 }0 0 0 -1 0 0 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 4" 5 20 1 
+{CSTYLE "" -1 -1 "" 1 10 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }0 0 0 -1 0 0 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" -1 256 1 {CSTYLE "" -1 -1 "Times" 
+1 18 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 6 6 1 0 1 0 1 2 0 1 }}
+{SECT 0 {SECT 0 {PARA 256 "" 0 "" {TEXT 259 55 "Section 5: Functions: \+
+Defining, Evaluating and Graphing" }}{PARA 0 "" 0 "" {TEXT -1 186 "In \+
+this section you will learn how to define a function f(x) in Maple. Th
+e remainder of the section covers evaluating functions, solving equati
+ons with functions, and graphing functions." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{SECT 
+1 {PARA 4 "" 0 "" {TEXT -1 41 "Defining and Clearing a Function in Map
+le" }}{PARA 0 "" 0 "" {TEXT -1 138 "To distinguish a function from an \+
+expression, Maple requires special notation when defining a function. \+
+ For example, the function f(x) = " }{XPPEDIT 18 0 "cos (Pi*x) + 3" "6
+#,&-%$cosG6#*&%#PiG\"\"\"%\"xGF)F)\"\"$F)" }{TEXT -1 15 " is defined a
+s:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "f:=x->cos(Pi*x)+3;   \+
+" }}}{PARA 0 "" 0 "" {TEXT -1 36 "Take note of the syntax here. It is \+
+" }{TEXT 257 10 "absolutely" }{TEXT -1 97 " necessary to type the \"ar
+row\"   - >  made by typing a \"minus sign\" and a \"greater than\" sy
+mbol. " }{TEXT 256 44 "Maple will not define a function if you type" }
+{TEXT -1 22 "   f(x):=cos(Pi*x)+3 ;" }{TEXT 262 2 "  " }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 128 "Below is a comparison
+ of an expression and a function.  Note the difference in syntax and h
+ow Maple returns the output for each." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 27 "y:=(x + 2)/(x^3 + 5*x + 2);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 30 "f:=x->(x + 2)/(x^3 + 5*x + 2);" }}}{PARA 0 "" 0 
+"" {TEXT -1 188 "Functions always require an arrow when typing in; Map
+le should also have an arrow in its output.  Always check the output f
+or the arrow to confirm that you have in fact defined a function." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 5 "" 0 "" {TEXT 260 12 "
+Exercise 5.1" }}{PARA 0 "" 0 "" {TEXT -1 26 "Enter the function h(x) =
+ " }{XPPEDIT 18 0 "x^3*sin(2*x+1)" "6#*&%\"xG\"\"$-%$sinG6#,&*&\"\"#\"
+\"\"F$F,F,F,F,F," }{TEXT -1 26 "  in the workspace below. " }}{SECT 1 
+{PARA 5 "" 0 "" {TEXT -1 21 "Student Workspace 5.1" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "
+" 0 "" {TEXT -1 10 "Answer 5.1" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 23 "h:= x-> x^3*sin(2*x+1);" }}}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 283 "Once you have defined a function, Maple \+
+will remember that function during your entire working session.  If yo
+u want to overwrite the function with a new definition, you simply ret
+ype the definition.  For example, if you want to replace the function \+
+f(x) above with ln(cos 5x), type:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 19 "f:=x->ln(cos(5*x));" }}}{PARA 0 "" 0 "" {TEXT -1 57 "
+We can confirm the current value for the function  f(x) :" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "f(x);" }}}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "If you want to clear the function \+
+f(x) without redefining it, type:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 7 "f:='f';" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 121 "It's always a good idea to clear your functions w
+hen you start a new problem. Alternatively you can use restart to clea
+r " }{TEXT 279 10 "everything" }{TEXT -1 13 " from memory." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 21 "Evaluati
+ng a Function" }}{PARA 0 "" 0 "" {TEXT -1 209 "Once a function has bee
+n defined, you can evaluate it at various values or literal expression
+s using function notation.  It's always a good idea to clear the funct
+ion name first before entering a new function." }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 7 "f:='f';" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 14 "f:=x->3*x+x^2;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "f(-1
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "f(2+sqrt(5));" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "evalf(f(2+sqrt(5)));" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "f(x+4);" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 16 "(f(x+h)-f(x))/h;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "simplify(%);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 73 "If more than one function is involved, co
+mposing functions is easy to do." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 15 "g:=x->cos(x)+1;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "
+f(g(Pi/3));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "j:=x->g(f(x)
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "j(x);" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 5 "" 0 "" {TEXT 261 12 "Exercise 5.
+2" }}{PARA 0 "" 0 "" {TEXT -1 33 "Exercise 2 : Define the function " }
+{XPPEDIT 18 0 "s(t)= (3+t^2)/sqrt(3*t+1)" "6#/-%\"sG6#%\"tG*&,&\"\"$\"
+\"\"*$F'\"\"#F+F+-%%sqrtG6#,&*&F*F+F'F+F+F+F+!\"\"" }{TEXT -1 27 "  th
+en have Maple calculate" }}{PARA 0 "" 0 "" {TEXT -1 91 "s(2),and s(t-3
+) and s(t) - s(3) and simplify your results. Don't forget the arrow no
+tation!" }}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 21 "Student Workspace 5.2
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 10 "Answer 5.
+2" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "s:= t-> (3 + t^2)/(sqrt
+(3*t+1));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "s(2);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "s(t - 3);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 13 "simplify (%);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "s(t) - s(3);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 12 "simplify(%);" }}}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 136 "Notice that if you define a function, there is no nee
+d to evaluate the function using the \"subs\" command like you do with
+ expressions.  " }}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 37 "Solving Equat
+ions involving Functions" }}{PARA 0 "" 0 "" {TEXT -1 102 "Once your fu
+nction is defined, you can solve equations with functions either exact
+ly or approximately:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "g:='g
+';" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "g:=t->t^3-6*t^2+6*t+8
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "solve(g(t)=0,t);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "fsolve(g(t)=0,t);" }}}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 19 "Graphi
+ng a Function" }}{PARA 0 "" 0 "" {TEXT -1 4 "The " }{TEXT 258 4 "plot
+" }{TEXT -1 39 " function works the same for functions:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "h:='h';   y:='y';  x:='x';" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "h:=x->x*exp(-x);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "plot(h(x),x=-1..4,y=-2..1);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 79 "Several f
+unctions can be graphed simultaneously just at we did for expressions.
+" }}{PARA 0 "" 0 "" {TEXT -1 24 "Consider the function   " }{XPPEDIT 
+18 0 "f(x) =4/(x^2+1)" "6#/-%\"fG6#%\"xG*&\"\"%\"\"\",&*$F'\"\"#F*F*F*
+!\"\"" }{TEXT -1 65 ".  Below we graph this function along with the ho
+rizontal shifts " }{XPPEDIT 18 0 "f(x+1)" "6#-%\"fG6#,&%\"xG\"\"\"F(F(
+" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "f(x-3) " "6#-%\"fG6#,&%\"xG\"\"\"
+\"\"$!\"\"" }{TEXT -1 4 "and " }{XPPEDIT 18 0 "f(x-6)" "6#-%\"fG6#,&%
+\"xG\"\"\"\"\"'!\"\"" }{TEXT -1 26 " . Can you identify each ?" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+16 "f:=x->2/(x^2+1);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 51 "plo
+t([f(x),f(x+1),f(x-3),f(x-6)],x=-5..10,y=-1..3);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT 264 12 "Exercise 5.3" }
+}{PARA 0 "" 0 "" {TEXT 263 21 "Define the function  " }{XPPEDIT 18 0 "
+f(x)=2*x-abs(x^2-5)" "6#/-%\"fG6#%\"xG,&*&\"\"#\"\"\"F'F+F+-%$absG6#,&
+*$F'F*F+\"\"&!\"\"F2" }{TEXT -1 38 "  then answer the following questi
+ons." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 29 "a
+) Find the value of  f(6.5) " }}{PARA 0 "" 0 "" {TEXT -1 55 "b) Simpli
+fy the expression f(z-4) where z is a variable" }}{PARA 0 "" 0 "" 
+{TEXT -1 24 "c) Plot a graph of f(x) " }}{PARA 0 "" 0 "" {TEXT -1 42 "
+d) Find all values of x such that f(x)=0. " }}{SECT 1 {PARA 20 "" 0 "
+" {TEXT 265 21 "Student Workspace 5.3" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 20 "" 0 "
+" {TEXT 266 10 "Answer 5.3" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+21 "f:=x->2*x-abs(x^2-5);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 
+"f(6.5);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "simplify(f(z-4)
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "plot(f(x),x);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "fsolve(f(x)=0,x=0..2);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "fsolve(f(x)=0,x=3..4);" }}}}
+}{SECT 1 {PARA 4 "" 0 "" {TEXT 268 12 "Exercise 5.4" }}{PARA 0 "" 0 "
+" {TEXT 267 22 "Define the functions  " }{XPPEDIT 18 0 "g(x)= 5*exp(-0
+.5*x)" "6#/-%\"gG6#%\"xG*&\"\"&\"\"\"-%$expG6#,$*&$F)!\"\"F*F'F*F1F*" 
+}{TEXT 275 7 "  and  " }{XPPEDIT 18 0 "h(x)=x+1" "6#/-%\"hG6#%\"xG,&F'
+\"\"\"F)F)" }{TEXT 276 24 "  then do the following." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 111 "a) Plot a graph that s
+hows both functions g(x) and h(x). Experiment with different values fo
+r domain and range." }}{PARA 0 "" 0 "" {TEXT -1 110 "b) Estimate the c
+oordinates of the point of intersection of these two graphs by using l
+eft mouse-button click." }}{PARA 0 "" 0 "" {TEXT -1 7 "c) Use " }
+{TEXT 278 9 "fsolve( )" }{TEXT -1 108 " to solve the equation g(x)=h(x
+). How does the solution of this equation relate to your answer to par
+t (b). " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{SECT 1 {PARA 20 "" 0 "" {TEXT 269 21 "Student Work
+space 5.4" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{SECT 1 {PARA 20 "" 0 "" {TEXT 270 10 "Answer 5.4" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 20 "g:=x->5*exp(-0.5*x);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 10 "h:=x->x+1;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 36 "plot([g(x),h(x)],x=-5..5,y=-20..20);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "plot([g(x),h(x)],x=1..2,y=1..4);" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "xval:=fsolve(g(x)=h(x),x);
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 202 "The solution to g(x)=h(x) is
+ the x-coordinate of the point of intersection of g(x) and h(x). To fi
+nd the corresponding y-coordinate of the intersection point evaluate e
+ither g(x) or h(x) at this value. " }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "g(xval);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "
+h(xval);" }}}}}{SECT 1 {PARA 4 "" 0 "" {TEXT 272 12 "Exercise 5.5" }}
+{PARA 0 "" 0 "" {TEXT 271 20 "Define the function " }{XPPEDIT 18 0 "k(
+x)=x+3*sin(2*x)" "6#/-%\"kG6#%\"xG,&F'\"\"\"*&\"\"$F)-%$sinG6#*&\"\"#F
+)F'F)F)F)" }{TEXT -1 25 " , then do the following:" }}{PARA 0 "" 0 "" 
+{TEXT -1 58 "a) Plot the graph of this function on the domain [-1,8] .
+ " }}{PARA 0 "" 0 "" {TEXT -1 158 "b) Modify your plot from part (a) t
+o include the horizontal line y=4. Use this new plot to estimate the n
+umber and approximate values for x such that  k(x)=4." }}{PARA 0 "" 0 
+"" {TEXT -1 8 "c) What " }{TEXT 277 6 "single" }{TEXT -1 83 " function
+ could you graph that would give you the same information as in part (
+b)  " }}{PARA 0 "" 0 "" {TEXT -1 86 "d) Use Maple's fsolve( ) command \+
+to approximate all solutions to the equation  k(x)=4." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{SECT 1 {PARA 20 "" 0 "" {TEXT 273 21 "Student Work
+space 5.5" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 20 "" 0 "
+" {TEXT 274 10 "Answer 5.5" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 4 " a) \+
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "k:=x->x+3*sin(2*x);" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "plot(k(x),x=-1..8);" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 2 "b)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "plot([k(x),4],x=-1..8);" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 74 "There appears to be three intersection points at x=3.25 ,
+4.825 and 5.95 . " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 106 "c) We could graph k(x) - 4 and lo
+ok for x-intercepts. These will correspond to x-values found in part (
+b)." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "plot(k(x)-4,x=-1..8)
+;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 40 "Here are the solutions using
+ fsolve( ) :" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "fsolve(k(x)
+=4,x=2 .. 3.5);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "fsolve(k
+(x)=4,x=3.5 .. 5);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "fsolv
+e(k(x)=4,x=5 .. 7);" }}}}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}}{MARK "1 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 
+1 2 33 1 1 }

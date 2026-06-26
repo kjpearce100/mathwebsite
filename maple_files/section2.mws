@@ -1,0 +1,403 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 1 1 2 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 1 12 0 0 0 0 1 0 1 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 260 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 1 12 0 0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 1 12 0 0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 1 12 0 0 0 0 1 0 1 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 275 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 276 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+277 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 0 1 0 0 
+255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 281 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+282 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 283 "" 1 12 0 
+0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 284 "" 1 12 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 285 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+287 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 288 "" 1 12 0 
+0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 289 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 290 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 291 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+292 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 293 "" 1 12 0 
+0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 294 "" 1 12 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 295 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 296 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+297 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 298 "" 0 1 0 
+0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 299 "" 0 1 0 0 255 1 0 0 0 
+0 0 0 0 0 0 1 }{CSTYLE "" -1 300 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 
+}{CSTYLE "" -1 301 "" 1 12 0 0 0 0 1 1 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+302 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 303 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 304 "" 1 12 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 305 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 306 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+307 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 308 "" 1 12 0 0 
+0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 18 309 "" 1 12 0 0 0 0 0 2 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 310 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" 18 311 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+312 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" 18 313 "" 1 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 314 "" 1 12 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 315 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" 18 316 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+317 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 318 "" 1 12 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 319 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 320 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" 18 321 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+322 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 323 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 324 "" 0 1 0 0 255 1 0 0 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 326 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+327 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 328 "" 1 12 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 329 "" 1 12 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 330 "" 1 12 0 0 0 0 1 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 331 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+332 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 333 "" 0 1 0 0 
+0 0 0 2 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 0 2 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 0 2 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 336 "" 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+337 "" 0 1 0 0 0 0 0 2 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 338 "" 0 1 0 0 
+0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 339 "" 0 1 0 0 255 1 0 0 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 340 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 341 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+342 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 343 "" 1 12 0 
+0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 344 "" 1 12 0 0 0 0 1 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 345 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 346 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+347 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 348 "" 1 12 0 
+0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 349 "" 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 350 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 351 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+352 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 
+0 0 0 0 1 0 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 0 0 0 0 -1 0 }{PSTYLE "Head
+ing 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 
+0 0 -1 8 2 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 3" 4 5 1 {CSTYLE "" -1 
+-1 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }0 0 0 -1 0 0 0 0 0 0 0 0 -1 0 
+}{PSTYLE "Maple Output" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 4" 5 
+20 1 {CSTYLE "" -1 -1 "" 1 10 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }0 0 0 -1 0 
+0 0 0 0 0 0 0 -1 0 }{PSTYLE "" 11 256 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 
+0 0 0 0 0 0 0 0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 
+257 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 
+-1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 4 258 1 {CSTYLE "" -1 -1 "" 0 12 0 
+0 0 0 0 2 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "
+" 0 259 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 3 260 1 {CSTYLE "" -1 -1 "" 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 1 0 -1 0 }}
+{SECT 0 {SECT 0 {PARA 260 "" 0 "" {TEXT 257 33 "Section 2: Algebraic C
+alculations" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT 256 30 "Maple is \+
+a \"C.A.S\" , i.e.  a  " }{TEXT 333 1 "C" }{TEXT 334 8 "omputer " }
+{TEXT 335 1 "A" }{TEXT 336 7 "lgebra " }{TEXT 337 1 "S" }{TEXT 338 
+261 "ystem. This means that Maple knows every rule of algebra that you
+ know. As you progress through Calculus, Differential Equations and Li
+near Algebra you will find that Maple also has the essential operation
+s from those subjects built into its large command set. " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 332 204 "In this section \+
+you will learn how to enter an algebraic expression and substitute val
+ues in for the variables. Then you will learn the commands that allow \+
+you to expand, factor and simplify expressions. " }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{SECT 1 {PARA 4 "" 0 "subs(  )" {TEXT -1 4 "The " }{TEXT 
+339 7 "subs( )" }{TEXT -1 8 " command" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT 322 10 "Example 1:" }}{PARA 0 "" 0 "" {TEXT 
+-1 55 "For our first example let's start with the expression  " }
+{XPPEDIT 18 0 "3*x^2+8" "6#,&*&\"\"$\"\"\"*$%\"xG\"\"#F&F&\"\")F&" }
+{TEXT -1 28 "  and assign it the name W. " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "W:=3*x^2+8;" }}}{PARA 0 "" 0 "" {TEXT -1 77 "Suppose \+
+now that you want to substitute the value 4 for x in the expression  \+
+" }{XPPEDIT 18 0 "3x^2+8" "6#,&*&\"\"$\"\"\"*$%\"xG\"\"#F&F&\"\")F&" }
+{TEXT -1 48 ". The quickest way to do this is to use Maple's " }{TEXT 
+298 7 "subs( )" }{TEXT -1 36 " command. Here's what it looks like:" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "subs(x=4,3*x^2+8);" }}}
+{PARA 0 "" 0 "" {TEXT -1 32 "Alternatively you can apply the " }{TEXT 
+299 7 "subs( )" }{TEXT -1 14 " command to W." }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 12 "subs(x=4,W);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 323 10 "Example 2:" }}{PARA 0 "" 0 "" {TEXT -1 
+4 "The " }{TEXT 324 7 "subs( )" }{TEXT -1 49 " command works equally w
+ell with symbolic values:" }}{PARA 0 "" 0 "" {TEXT -1 17 "To replace x
+  by " }{XPPEDIT 18 0 "5+2*u" "6#,&\"\"&\"\"\"*&\"\"#F%%\"uGF%F%" }
+{TEXT -1 19 " in the expression " }{XPPEDIT 18 0 "3*x^2+8" "6#,&*&\"\"
+$\"\"\"*$%\"xG\"\"#F&F&\"\")F&" }{TEXT -1 64 " execute the following l
+ine. In this case we label the result M." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 11 "W:=3*x^2+8;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 19 "M:=subs(x=5+2*u,W);" }}}{PARA 0 "" 0 "" {TEXT -1 67 " And now to
+ get Maple to \"multiply out\" this expression we use the " }{TEXT 
+297 9 "expand( )" }{TEXT -1 11 "  command. " }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 10 "expand(M);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 325 10 "Example 3:" }}{PARA 0 "" 0 "" {TEXT -1 
+4 "The " }{TEXT 300 7 "subs( )" }{TEXT -1 101 " command is very versat
+ile. You can  use it to evaluate expressions involving more than one v
+ariable." }{MPLTEXT 1 0 1 " " }{TEXT -1 17 "Here we  replace " }
+{XPPEDIT 18 0 "x" "6#%\"xG" }{TEXT -1 39 " by 7 and y by 12  in the ex
+pression   " }{XPPEDIT 18 0 " U=2/5*x^2+3*y" "6#/%\"UG,&*(\"\"#\"\"\"
+\"\"&!\"\"%\"xGF'F(*&\"\"$F(%\"yGF(F(" }{TEXT -1 4 " .  " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "U:=(2/5)*x^2+3*y;" }}{PARA 0 "" 0 "
+" {TEXT -1 8 "        " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "s
+ubs(x=7,y=12,U);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%)
+;" }}}{PARA 0 "" 0 "" {TEXT 326 10 "Example 4:" }}{PARA 0 "" 0 "" 
+{TEXT -1 21 "You can also use the " }{TEXT 327 7 "subs( )" }{TEXT -1 
+229 " command to substitute a value into an equation. This is the sort
+ of thing you might want to do to test whether a particular value \"sa
+tisfies\" the equation. In the next few lines we substitute different \+
+values into the equation  " }{XPPEDIT 18 0 "x^3-5*x^2+7*x-12=0" "6#/,*
+*$%\"xG\"\"$\"\"\"*&\"\"&F(*$F&\"\"#F(!\"\"*&\"\"(F(F&F(F(\"#7F-\"\"!
+" }{TEXT -1 55 "  . Are any of these values a solution to the equation
+?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 77 "Note
+ we use  \" := \" to assign the name and  just \"=\" for the equation \+
+itself." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "eqn:=x^3-5*x^2+7*
+x-12=0;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "subs(x=3,eqn);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "subs(x=4,eqn);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "subs(x=5,eqn);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT 
+288 12 "Exercise 2.1" }}{PARA 0 "" 0 "" {TEXT -1 38 "Assign the name k
+ to the expression   " }{XPPEDIT 18 0 "x^2+4*x-3" "6#,(*$%\"xG\"\"#\"
+\"\"*&\"\"%F'F%F'F'\"\"$!\"\"" }{TEXT -1 45 " . Then assign the name M
+ to the expression  " }{XPPEDIT 18 0 "k^2-9" "6#,&*$%\"kG\"\"#\"\"\"\"
+\"*!\"\"" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 31 "Finally have \+
+Maple calculate   " }{XPPEDIT 18 0 "3*M+6" "6#,&*&\"\"$\"\"\"%\"MGF&F&
+\"\"'F&" }{TEXT -1 61 " . Note: to get Maple to multiply the expressio
+n out use the " }{TEXT 296 10 "expand( ) " }{TEXT -1 110 "command. Tha
+t is enter:   expand(3*M+6);  You will learn more about the expand com
+mand in the next subsection." }}{PARA 0 "" 0 "" {TEXT 289 2 "  " }}
+{SECT 1 {PARA 20 "" 0 "" {TEXT 290 21 "Student Workspace 2.1" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{SECT 1 {PARA 20 "" 0 "" {TEXT 291 10 "Answer 2.1" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 13 "k:=x^2+4*x-3;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "M:=k^2-9;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 
+"3*M+6;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "expand(3*M+6);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "" 
+0 "" {TEXT 293 12 "Exercise 2.2" }}{PARA 0 "" 0 "" {TEXT -1 8 "Expand \+
+ " }{XPPEDIT 18 0 "( 1+x)^4" "6#*$,&\"\"\"F%%\"xGF%\"\"%" }{TEXT -1 
+11 " using the " }{TEXT 352 9 "expand( )" }{TEXT -1 11 " command.  " }
+}{SECT 1 {PARA 20 "" 0 "" {TEXT 294 21 "Student Workspace 2.2" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 20 "" 0 "
+" {TEXT 295 10 "Answer 2.2" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+11 "w:=(1+x)^4;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expand(w
+);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 40 "or we can do this all in on
+e step with: " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "expand((1+
+x)^4);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 
+{PARA 258 "" 0 "" {TEXT 301 12 "Exercise 2.3" }}{PARA 4 "" 0 "" {TEXT 
+302 4 "Let " }{XPPEDIT 321 0 "P=ax^3+bx^2+c*x+d" "6#/%\"PG,**$%#axG\"
+\"$\"\"\"*$%#bxG\"\"#F)*&%\"cGF)%\"xGF)F)%\"dGF)" }{TEXT 320 7 " . Fin
+d" }{TEXT 318 1 " " }{TEXT 319 5 "P  if" }{TEXT 304 1 " " }{TEXT 303 
+16 "  x = 0.01 , a =" }{TEXT 314 1 " " }{XPPEDIT 309 0 "(-1/5)" "6#,$*
+&\"\"\"F%\"\"&!\"\"F'" }{TEXT 308 1 " " }{TEXT 315 2 ", " }{XPPEDIT 
+311 0 "b=2/5" "6#/%\"bG*&\"\"#\"\"\"\"\"&!\"\"" }{TEXT 310 2 ", " }
+{XPPEDIT 313 0 "c=0" "6#/%\"cG\"\"!" }{TEXT 312 6 ", and " }}{PARA 4 "
+" 0 "" {TEXT 307 1 " " }{XPPEDIT 316 0 "d=13/15" "6#/%\"dG*&\"#8\"\"\"
+\"#:!\"\"" }{TEXT 317 3 "  ." }}{SECT 1 {PARA 20 "" 0 "" {TEXT 305 21 
+"Student Workspace 2.3" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+}{SECT 1 {PARA 20 "" 0 "" {TEXT 306 10 "Answer 2.3" }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 21 "P:=a*x^3+b*x^2+c*x+d;" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 40 "subs(x=0.01,a=-1/5,b=2/5,c=0,d=13/15,P);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT 330 12 "Exercise 2.4" }}
+{PARA 0 "" 0 "" {TEXT -1 8 "Use the " }{TEXT 331 7 "subs( )" }{TEXT 
+-1 80 " command to check if any of the numbers: 1,2 or 3 is a solution
+ to the equation:" }}{PARA 259 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "
+x^3-16*x^2+51*x-36=0" "6#/,**$%\"xG\"\"$\"\"\"*&\"#;F(*$F&\"\"#F(!\"\"
+*&\"#^F(F&F(F(\"#OF-\"\"!" }{TEXT -1 2 "  " }}{SECT 1 {PARA 20 "" 0 "
+" {TEXT 328 21 "Student Workspace 2.4" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 20 "" 0 "" {TEXT 329 10 "Answer \+
+2.4" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "eqn:=x^3-16*x^2+51*x-36=0;" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 14 "subs(x=1,eqn);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "subs(x=2,eqn);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 14 "subs(x=3,eqn);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}{PARA 0 "" 0 "" {TEXT -1 118 "Therefore x=1 and x=3 are solutions o
+f the equation. (In Section 5 you will learn how to solve equations us
+ing Maple.)" }}}}}{SECT 1 {PARA 4 "" 0 "expand(  )" {TEXT -1 4 "The " 
+}{TEXT 340 9 "expand( )" }{TEXT -1 8 " command" }}{PARA 0 "" 0 "" 
+{TEXT -1 25 "The principal use of the " }{TEXT 278 10 "expand( ) " }
+{TEXT -1 144 "command is to \"multiply out\" products of polynomial ex
+pressions. It can also be used to expand trigonometric and other more \+
+general functions.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT 279 10 "Example 1:" }}{PARA 0 "" 0 "" {TEXT -1 8 "Use the " }
+{TEXT 281 9 "expand( )" }{TEXT -1 27 " command to multiply out   " }
+{XPPEDIT 18 0 "(x+2)^2*(3x-3)*(x+5)" "6#*(,&%\"xG\"\"\"\"\"#F&F',&*&\"
+\"$F&F%F&F&F*!\"\"F&,&F%F&\"\"&F&F&" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "k:=(x+2)^2
+*(3*x-3)*(x+5);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expand(k
+);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT 280 10 "Example 2:" }}{PARA 0 "" 0 "" {TEXT -1 63 "Maple applies
+ some familiar trigonometric identities to expand " }{XPPEDIT 18 0 "si
+n(2*x)" "6#-%$sinG6#*&\"\"#\"\"\"%\"xGF(" }{TEXT -1 5 " and " }
+{XPPEDIT 18 0 "cos(2*x)" "6#-%$cosG6#*&\"\"#\"\"\"%\"xGF(" }{TEXT -1 
+2 " ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "expand(sin(2*x));" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "expand(cos(2*x));" }}}
+{PARA 0 "" 0 "" {TEXT -1 85 "Try expanding the sine and cosine of some
+ other integer multiples of x. For example: " }{XPPEDIT 18 0 "sin(3*x)
+" "6#-%$sinG6#*&\"\"$\"\"\"%\"xGF(" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "
+cos(6*x)" "6#-%$cosG6#*&\"\"'\"\"\"%\"xGF(" }{TEXT -1 7 " , etc." }}
+{PARA 0 "" 0 "" {TEXT 286 10 "Example 3:" }}{PARA 0 "" 0 "" {TEXT -1 
+67 "Here is a final example. Have Maple multiply out the expression:  \+
+ " }{XPPEDIT 18 0 "x^(1/2)*(x^(3/2)+x^(-1/2))" "6#*&)%\"xG*&\"\"\"F'\"
+\"#!\"\"F',&)F%*&\"\"$F'F(F)F')F%,$*&F'F'F(F)F)F'F'" }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 30 "h:=x^(1/2)*(x^(3/2)+x^(-1/2));" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expand(h);" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 
+{PARA 4 "" 0 "" {TEXT 283 12 "Exercise 2.6" }}{PARA 0 "" 0 "" {TEXT 
+282 8 "Expand  " }{XPPEDIT 18 0 "( x +1 )^n" "6#),&%\"xG\"\"\"F&F&%\"n
+G" }{TEXT 285 20 "  for n =2,3 and 4. " }}{SECT 1 {PARA 20 "" 0 "" 
+{TEXT 284 21 "Student Workspace 2.6" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 20 "" 0 "
+" {TEXT 292 10 "Answer 2.6" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+16 "expand((x+1)^2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "exp
+and((x+1)^3);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "expand((x+
+1)^4);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 4 "" 0 "factor(  )" 
+{TEXT -1 4 "The " }{TEXT 341 9 "factor( )" }{TEXT -1 8 " command" }}
+{PARA 0 "" 0 "" {TEXT 263 10 "Example 1:" }}{PARA 0 "" 0 "" {TEXT -1 
+23 "Factor the expression: " }{XPPEDIT 18 0 "3*x^2-10*x-8" "6#,(*&\"\"
+$\"\"\"*$%\"xG\"\"#F&F&*&\"#5F&F(F&!\"\"\"\")F," }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 16 "w:=3*x^2-10*x-8;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "factor(w);" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 33 "Or
+ you can do it all on one line:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 21 "factor(3*x^2-10*x-8);" }}}{PARA 0 "" 0 "" {TEXT 266 10 "Exampl
+e 2:" }}{PARA 0 "" 0 "" {TEXT -1 29 "First expand the expression  " }
+{XPPEDIT 18 0 "2*(x-2)*(2*x^2+5*x+2)*(x+4)" "6#**\"\"#\"\"\",&%\"xGF%F
+$!\"\"F%,(*&F$F%*$F'F$F%F%*&\"\"&F%F'F%F%F$F%F%,&F'F%\"\"%F%F%" }
+{TEXT -1 19 "  . Then apply the " }{TEXT 287 9 "factor( )" }{TEXT -1 
+107 " command to the result. Can you explain why the final result look
+s different than the original expression ?" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 31 "H:=2*(x-2)*(2*x^2+5*x+2)*(x+4);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 15 "ans:=expand(H);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 12 "factor(ans);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 264 10 "Example 3:" }}{PARA 0 "" 0 "" {TEXT -1 
+57 "Maple can factor expressions with more than one variable." }}
+{PARA 0 "" 0 "" {TEXT -1 25 "Factor the expression:   " }{XPPEDIT 18 
+0 "x^2y+2xy+y" "6#,(*&%\"xG\"\"#%\"yG\"\"\"F(*&F&F(%#xyGF(F(F'F(" }}
+{PARA 11 "" 1 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 17 "h:=x^2*y+2*x*y+y;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "
+factor(h);" }}}{PARA 0 "" 0 "" {TEXT 265 10 "Example 4:" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 125 "If Maple can't fact
+or an expression using rational numbers (i.e. integers and fractions) \+
+then it returns the input unchanged." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "factor(3*x^2-10*x-9);" }}}{PARA 0 "" 0 "" {TEXT 267 
+10 "Example 5:" }}{PARA 0 "" 0 "" {TEXT -1 87 "The factor command is n
+ot limited to polynomials. It can be used to factor other forms." }}
+{PARA 0 "" 0 "" {TEXT -1 7 "Factor " }{XPPEDIT 18 0 "sin^2x   -cos^2x:
+" "6#,&*&%$sinG\"\"#%\"xG\"\"\"F(*&%$cosGF&F'F(!\"\"" }{TEXT -1 2 " .
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "factor((sin(x))^2-(cos(x
+)^2));" }}}{PARA 0 "" 0 "" {TEXT 268 10 "Example 6:" }}{PARA 0 "" 0 "
+" {TEXT -1 166 "If the factor command is used with a rational expressi
+on, the numerator and denominator are each factored and common factors
+ are cancelled to simplify the expression:" }{MPLTEXT 1 0 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "A:=(x^3-7*x^2+15*x-9)/(x^2+4
+*x+4);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "factor(A);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "B:=(x^3-7*x^2+15*x-9)/(x^2-4
+*x+3);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "factor(B);" }}}
+{PARA 0 "" 0 "" {TEXT -1 74 "The next example allows you to see the fa
+ctored form without cancellation." }}{PARA 0 "" 0 "" {TEXT 349 10 "Exa
+mple 7:" }}{PARA 0 "" 0 "" {TEXT -1 8 "Maple's " }{TEXT 350 8 "numer( \+
+)" }{TEXT -1 5 " and " }{TEXT 351 9 "denom( ) " }{TEXT -1 220 "command
+s allow you to isolate either the numerator or denominator of a fracti
+on. Here we use these commands to examine the factors of the numerator
+ and denominator separately (i.e. before cancellation of common factor
+s)." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "B:=(x^3-7*x^2+15*x-9)
+/(x^2-4*x+3);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "factor(num
+er(B));  factor(denom(B));" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 
+1 {PARA 4 "" 0 "" {TEXT 259 12 "Exercise 2.8" }}{PARA 0 "" 0 "" {TEXT 
+-1 22 "Factor the expression " }{XPPEDIT 18 0 "3x^4-2x^3+22x^2-18x-45 \+
+" "6#,,*&\"\"$\"\"\"*$%\"xG\"\"%F&F&*&\"\"#F&*$F(F%F&!\"\"*&\"#AF&*$F(
+F+F&F&*&\"#=F&F(F&F-\"#XF-" }{TEXT -1 2 " ." }}{SECT 1 {PARA 20 "" 0 "
+" {TEXT 260 18 "Student Workspace " }{TEXT 343 3 "2.8" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 7 "
+Answer " }{TEXT 344 3 "2.8" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "factor(3*x^4-2*x^3+22*x^2-18*x-45);
+" }}}}}{SECT 1 {PARA 4 "" 0 "" {TEXT 261 12 "Exercise 2.9" }}{PARA 0 "
+" 0 "" {TEXT -1 25 "Factor the expression    " }{XPPEDIT 18 0 "x^(1/2)
+-x^(3/2" "6#,&)%\"xG*&\"\"\"F'\"\"#!\"\"F')F%*&\"\"$F'F(F)F)" }{TEXT 
+-1 59 "      and then use the expand command to check the result. " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 20 "" 0 "" {TEXT 262 18 
+"Student Workspace " }{TEXT 345 3 "2.9" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{SECT 1 {PARA 5 "" 0 "" {TEXT -1 7 "Answer " }{TEXT 346 3 "2.9" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+20 "ww:=x^(1/2)-x^(3/2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 
+"factor(ww);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "expand(%);
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}}{SECT 1 {PARA 4 "" 0 "simplify
+(  )" {TEXT -1 4 "The " }{TEXT 342 11 "simplify( )" }{TEXT -1 8 " comm
+and" }}{PARA 0 "" 0 "" {TEXT 269 10 "Example 1:" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 258 24 "Consider the expression \+
+" }{XPPEDIT 18 0 "cos(x)^5 + sin(x)^4 + 2*cos(x)^2 - 2*sin(x)^2 - cos(
+2*x)" "6#,,*$-%$cosG6#%\"xG\"\"&\"\"\"*$-%$sinG6#F(\"\"%F**&\"\"#F**$-
+F&6#F(F1F*F**&F1F**$-F-6#F(F1F*!\"\"-F&6#*&F1F*F(F*F9" }{TEXT -1 116 "
+ . Maple can apply identities to simplify many lengthy mathematical ex
+pressions, such as trigonometric expressions. " }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 60 "V:=cos(x)^5 + sin(x)^4 + 2*cos(x)^2 - 2*sin(x)^2
+ - cos(2*x);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(V)
+;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 270 10 "Ex
+ample 2:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+137 "Trigonometric expressions with arguments in multiples of some ang
+le will be simplified to trig functions in the single angle if possibl
+e:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 28 "simplify(sin(5*t)+sin(3*t));" }}}{PARA 256 "" 0 "" 
+{TEXT 271 10 "Example 3:" }}{PARA 0 "" 0 "" {TEXT -1 65 "The simplify(
+ ) command can be used to add rational expressions. " }}{PARA 0 "" 0 "
+" {TEXT -1 17 "Rewrite the sum  " }{XPPEDIT 18 0 "1/(x+1)+x/(x-1)" "6#
+,&*&\"\"\"F%,&%\"xGF%F%F%!\"\"F%*&F'F%,&F'F%F%F(F(F%" }{TEXT -1 23 "  \+
+as a single fraction." }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 257 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "M:=(1
+/(x+1))+(x/(x-1));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simpl
+ify(M);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{SECT 1 
+{PARA 4 "" 0 "" {TEXT 272 14 "Exercise 2.11:" }}{PARA 0 "" 0 "" {TEXT 
+-1 24 "Simplify the expression " }{XPPEDIT 18 0 "7/(x+2)+(3*x)/(x+2)^2
+" "6#,&*&\"\"(\"\"\",&%\"xGF&\"\"#F&!\"\"F&*(\"\"$F&F(F&*$,&F(F&F)F&F)
+F*F&" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{SECT 1 {PARA 
+20 "" 0 "" {TEXT 277 18 "Student Workspace " }{TEXT 347 4 "2.11" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{SECT 1 {PARA 5 "" 0 "" {TEXT -1 7 "Answer " }{TEXT 348 4 "2.11" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+32 "simplify(7/(x+2)+(3*x)/(x+2)^2);" }}}}}{SECT 1 {PARA 4 "" 0 "" 
+{TEXT 274 13 "Exercise 2.12" }}{PARA 0 "" 0 "" {TEXT -1 24 "How does M
+aple simplify " }{XPPEDIT 18 0 "sin(3*t)-sin(7*t)" "6#,&-%$sinG6#*&\"
+\"$\"\"\"%\"tGF)F)-F%6#*&\"\"(F)F*F)!\"\"" }{TEXT -1 102 " ?  Whether \+
+or not this \"simplified\" form is of use to you will depend on what y
+ou plan to do with it." }}{PARA 0 "" 0 "" {TEXT 273 1 " " }}{SECT 1 
+{PARA 20 "" 0 "" {TEXT 275 22 "Student Workspace 2.12" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 20 "" 0 "" {TEXT 276 
+11 "Answer 2.12" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "h:=sin(3*
+t)-sin(7*t);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(h)
+;" }}}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}{MARK "1 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 
+1 }{PAGENUMBERS 0 1 2 33 1 1 }

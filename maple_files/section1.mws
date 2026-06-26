@@ -1,0 +1,323 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 2 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 
+0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 0 1 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 1 12 0 0 0 0 1 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 1 12 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 269 "" 1 12 0 0 0 0 1 0 1 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 270 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 271 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+272 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 1 12 0 
+0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 274 "" 1 12 0 0 0 0 0 2 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 275 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 276 "" 1 12 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+277 "" 1 12 0 0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 1 12 0 
+0 0 0 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 279 "" 1 12 0 0 0 0 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+282 "" 1 12 0 0 0 0 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 288 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+297 "" 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 299 "" 0 1 0 0 255 1 0 0 0 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 300 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 301 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+302 "" 0 1 0 0 255 1 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 303 "" 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 0 0 1 0 0 
+0 0 0 0 1 }{CSTYLE "" -1 305 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 306 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+307 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 308 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 311 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+312 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 313 "" 0 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 314 "" 0 1 0 0 255 1 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 0 3 1 
+{CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }1 0 0 0 8 4 0 0 
+0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 8 2 0 0 0 0 0 0 -1 0 }{PSTYLE "Headi
+ng 3" 4 5 1 {CSTYLE "" -1 -1 "" 1 12 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }0 0 
+0 -1 0 0 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 4" 5 20 1 {CSTYLE "" -1 
+-1 "" 1 10 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }0 0 0 -1 0 0 0 0 0 0 0 0 -1 0 
+}}
+{SECT 0 {SECT 0 {PARA 3 "" 0 "" {TEXT 256 33 "Section 1: Numerical Cal
+culations" }}{PARA 0 "" 0 "" {TEXT -1 203 "In this section you will us
+e Maple to do some standard numerical calculations. Maple's ability to
+ produce exact answers in addition to numerical approximations gives y
+ou more options in solving problems." }}{SECT 1 {PARA 4 "" 0 "" {TEXT 
+-1 33 "Doing Exact Arithmetic with Maple" }}{PARA 0 "" 0 "" {TEXT -1 
+126 "Using Maple to do numerical computations is very straightforward.
+ Just enter the numerical expression and end the line with a " }{TEXT 
+262 9 "semicolon" }{TEXT -1 11 ". Pressing " }{TEXT 263 7 "[Enter]" }
+{TEXT -1 97 " will then execute the line and the result will be displa
+yed in blue in the center of the screen." }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT 283 10 "Example 1:" }}{PARA 0 "" 0 "" 
+{TEXT -1 97 "A simple calculation has been entered on the next line. C
+lick anywhere in the red line and press " }{TEXT 264 7 "[Enter]" }
+{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "2+4;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "12*34567890;" }}}{PARA 0 "" 
+0 "" {TEXT -1 63 "Each red input line is \"live\" and can be modified \+
+at any time. " }}{PARA 0 "" 0 "" {TEXT -1 53 "Change the \"4\" in the \+
+line above to an \"8\" and press " }{TEXT 311 7 "[Enter]" }{TEXT -1 2 
+". " }}{PARA 0 "" 0 "" {TEXT -1 79 "Notice how the blue output is auto
+matically updated to display the new result. " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 284 10 "Example 2:" }}{PARA 0 "
+" 0 "" {TEXT -1 37 "For our next example let's calculate " }{XPPEDIT 
+18 0 "134^39" "6#*$\"$M\"\"#R" }{TEXT -1 3 ".  " }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 7 "134^39;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 96 "Unlike your calculator, Maple
+ gives you the exact answer to this problem, all 83 digits worth!  " }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 285 10 "Example
+ 3:" }}{PARA 0 "" 0 "" {TEXT -1 66 "Maple can calculate with fractions
+ without converting to decimals:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 17 "3/5 + 5/9 + 7/12;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 
+"" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 286 10 "Ex
+ample 4:" }}{PARA 0 "" 0 "" {TEXT -1 51 "To enter the square root of a
+ number use sqrt(  ) :" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "sqr
+t(24);" }}}{PARA 0 "" 0 "" {TEXT -1 34 "Notice that Maple has simplifi
+ed  " }{XPPEDIT 18 0 "sqrt(24)" "6#-%%sqrtG6#\"#C" }{TEXT -1 126 " but
+ has left the answer in exact form. In the next section you will learn
+ how to get a decimal approximation for this number." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 287 10 "Example 5:" }}{PARA 0 
+"" 0 "" {TEXT -1 73 "Maple has all of the important mathematical const
+ants built in. To enter " }{XPPEDIT 18 0 "Pi" "6#%#PiG" }{TEXT -1 12 "
+  type  Pi. " }}{PARA 0 "" 0 "" {TEXT -1 65 "Notice that an asterisk *
+ is required to indicate multiplication." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "4*(3+Pi);" }}}{PARA 0 "" 0 "" {TEXT -1 77 "Again Maple
+ carries out the calculation but leaves the answer in exact form. " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 290 10 "Example \+
+6:" }}{PARA 0 "" 0 "" {TEXT -1 95 "Unlike your calculator, Maple gives
+ you the exact answer when applying trigonometric functions." }}{PARA 
+0 "" 0 "" {TEXT -1 1 " " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "s
+in(5*Pi/3);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "sec(Pi/4);" 
+}}}{PARA 0 "" 0 "" {TEXT -1 44 "To get the inverse sine of a number us
+e the " }{TEXT 297 9 "arcsin( )" }{TEXT -1 10 " function:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "arcsin(-1);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 46 "If you ask Maple to calculate a value that is " }{TEXT 
+309 9 "undefined" }{TEXT -1 39 " it will respond with an error message
+:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "tan(Pi/2);" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 289 10 "Example 7:" }}
+{PARA 0 "" 0 "" {TEXT -1 43 "To enter the natural exponential function
+  " }{XPPEDIT 18 0 "exp(x)" "6#-%$expG6#%\"xG" }{TEXT -1 27 "  in Mapl
+e type:  exp(x) . " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "exp(x);
+" }}}{PARA 0 "" 0 "" {TEXT -1 49 "And to get the number e by itself ty
+pe:  exp(1) ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "exp(1);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+295 10 "Example 8:" }}{PARA 0 "" 0 "" {TEXT -1 37 "To enter the absolu
+te value function " }{XPPEDIT 18 0 "abs(x)" "6#-%$absG6#%\"xG" }{TEXT 
+-1 25 " in Maple type:  abs(x). " }}{PARA 0 "" 0 "" {TEXT -1 75 "Note \+
+that Maple gives the correct, exact answer for the third line since:  \+
+" }{XPPEDIT 18 0 "exp(1)-Pi < 0" "6#2,&-%$expG6#\"\"\"F(%#PiG!\"\"\"\"
+!" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 7 "abs(x);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "abs(-3);" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 15 "abs(exp(1)-Pi);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT 288 10 "Example 9:" }}{PARA 0 "" 0 "" {TEXT -1 
+235 "Maple has many special purpose commands for working with numbers.
+ You will learn these as you need them in your math course. Here is on
+e last example for now. If we have an integer and want to factor it in
+to primes we can use Maple's  " }{TEXT 257 11 "ifactor(  )" }{TEXT -1 
+59 " command. Feel free to experiment by changing the number.  " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "ifactor(31722722304);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+307 11 "Example 10:" }}{PARA 0 "" 0 "" {TEXT -1 131 "There may be time
+s when you want to enter more than one command on a single line. This \+
+is okay to do in Maple, just be sure to end " }{TEXT 308 4 "each" }
+{TEXT -1 92 " command with a semicolon. It also helps to put spaces be
+tween the commands. When you press " }{TEXT 310 7 "[Enter]" }{TEXT -1 
+100 " all of the expressions are executed and the results are listed, \+
+in order, in a single output field." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "sin(Pi/3);   cos(Pi/3);   t
+an(Pi/3);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "
+" 0 "" {TEXT 313 11 "Example 11:" }}{PARA 0 "" 0 "" {TEXT -1 55 "To ca
+lculate and display a sequence of numbers use the " }{TEXT 314 7 "seq(
+..)" }{TEXT -1 73 " command. Here we calculate the squares of the firs
+t 100 natural numbers." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "se
+q(k^2,k=1..100);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 4 "" 0 "evalf(  )" 
+{TEXT -1 35 "Numerical Approximations using the " }{TEXT 299 8 "evalf(
+ )" }{TEXT -1 8 " command" }}{PARA 0 "" 0 "" {TEXT -1 248 "Recall that
+ in the previous section we asked Maple to add three fractions and the
+ result was also displayed as a fraction. This sort of exact arithmeti
+c is very useful but there are times when we prefer an answer in decim
+al form. The Maple command " }{TEXT 258 11 " evalf(   )" }{TEXT -1 29 
+"  performs this task for us. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 292 10 "Example 1:" }}{PARA 0 "" 0 "" {TEXT -1 
+42 "Compare the results of the next two lines." }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 13 "3/5+5/9+7/12;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "evalf(3/5+5/9+7/12);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 291 10 "Example 2:" }}
+{PARA 0 "" 0 "" {TEXT -1 138 "Assigning a name to the result of a calc
+ulation makes it easier to use that result in a subsequent calculation
+. To assign a name we use a " }{TEXT 293 5 "colon" }{TEXT -1 147 " fol
+lowed by an equal sign ( i.e. name := result ;  ) . On the next line w
+e have assigned the letter k to the original output above. Then we app
+ly " }{XPPEDIT 18 0 "evalf( )" "6#-%&evalfG6\"" }{TEXT -1 8 "  to k. \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 16 "k:=3/5+5/9+7/12;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "
+evalf(k);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "
+" 0 "" {TEXT 296 20 "Important Maple Note" }{TEXT -1 95 ": Maple is ca
+se sensitive. So for example Maple considers k and K to be  different \+
+variables.. " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "k;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "K;" }}}{PARA 0 "" 0 "" {TEXT 
+-1 53 "By the way you can also use words as variable names. " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "joe:=2^5;" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 10 "sqrt(joe);" }}}{PARA 0 "" 0 "" {TEXT 294 
+10 "Example 3:" }}{PARA 0 "" 0 "" {TEXT -1 123 "If we want fewer or mo
+re digits of accuracy than the default number which is 10 digits we ca
+n add an extra argument to the " }{TEXT 312 9 "evalf(  )" }{TEXT -1 
+25 " command as shown below. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "w:=4*(3+Pi);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(w);" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 11 "evalf(w,4);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 12 "evalf(w,45);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{PARA 0 "" 0 "" {TEXT 298 10 "Example 4:" }{TEXT -1 3 "   " }}{PARA 
+0 "" 0 "" {TEXT -1 129 "If you enter numbers with a decimal point Mapl
+e automatically gives decimal results. Compare the results of the two \+
+lines below. " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "sqrt(34);" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "sqrt(34.0);" }}}{PARA 0 "
+" 0 "" {TEXT -1 24 "Here is another example:" }}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 6 "4-1/3;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 
+"4.0-1/3;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }{TEXT 315 10 "Example 5:" }}{PARA 0 "" 0 "" 
+{TEXT -1 190 "We can apply the evalf(  ) command to a sequence of numb
+ers. Below we first generate the exact square roots of  the first 10 n
+atural numbers, then apply evalf to get decimal approximations. " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 29 "result:=seq(sqrt(k),k=1..10)
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "evalf(result);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 259 46 "Maple Shortcut: Quick referenc
+e to last output" }}{PARA 0 "" 0 "" {TEXT -1 209 "There will be many t
+imes when using Maple that you will string together a sequence of comp
+utations. Rather than giving a name to each result as you go along, yo
+u can use the percent sign ( % ) to refer to the " }{TEXT 260 34 "last
+ expression computed by Maple." }{TEXT -1 1 " " }}{PARA 0 "" 0 "" 
+{TEXT -1 40 "Here are some examples of how it works. " }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "3/5+5/9+7
+/12;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 3 "Pi;" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 4 "%+5;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 
+"" 0 "" {TEXT -1 39 "For more on using the ditto symbol see " }{TEXT 
+280 12 "Exercise 1.4" }{TEXT -1 9 "  below. " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT 265 12 "Exercise 1.1" }}{PARA 
+0 "" 0 "" {TEXT 261 35 "Use Maple to calculate the number  " }
+{XPPEDIT 18 0 "37^43" "6#*$\"#P\"#V" }{TEXT 266 3 " . " }}{SECT 1 
+{PARA 20 "" 0 "" {TEXT 267 21 "Student Workspace 1.1" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 20 "" 0 "" {TEXT 268 10 "Answer \+
+1.1" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "37^43;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "" 0 "" 
+{TEXT 269 12 "Exercise 1.2" }}{PARA 0 "" 0 "" {TEXT 270 10 "Calculate \+
+" }{XPPEDIT 18 0 "sqrt(34)" "6#-%%sqrtG6#\"#M" }{TEXT 282 16 " to 18 d
+igits.  " }}{SECT 1 {PARA 20 "" 0 "" {TEXT 271 21 "Student Workspace 1
+.2" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}}{SECT 1 {PARA 20 "" 0 "" {TEXT 272 10 "Answer 1.2" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "m:=sqrt(34);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 12 "evalf(m,18);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}}}{SECT 1 {PARA 4 "" 0 "" {TEXT 273 12 "Exercise \+
+1.3" }}{PARA 0 "" 0 "" {TEXT 274 54 "Find a numerical approximation fo
+r the expression :   " }{XPPEDIT 18 0 "(3+Pi)/(7-sqrt(13))" "6#*&,&\"
+\"$\"\"\"%#PiGF&F&,&\"\"(F&-%%sqrtG6#\"#8!\"\"F." }}{SECT 1 {PARA 20 "
+" 0 "" {TEXT 275 21 "Student Workspace 1.3" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 20 "" 0 "
+" {TEXT 276 10 "Answer 1.3" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+28 "answer:=(3+Pi)/(7-sqrt(13));" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 14 "evalf(answer);" }}}}}{SECT 1 {PARA 4 "" 0 "" {TEXT 
+277 12 "Exercise 1.4" }}{PARA 0 "" 0 "" {TEXT -1 101 "The percent sign
+  ( %)  is a handy shortcut but it can occasionally lead to some unexp
+ected results. " }}{PARA 0 "" 0 "" {TEXT -1 20 "Here is an example. " 
+}}{PARA 0 "" 0 "" {TEXT -1 96 "First execute each of the next three li
+nes. You should be able to predict the result in advance." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "4+Pi;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalf(%);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "%+10;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 46 "Now go back and re-e
+xecute the last line (i.e." }{MPLTEXT 1 0 5 "%+10;" }{TEXT -1 37 "). N
+ote that the output changes from " }{XPPMATH 20 "6#$\"+l#fTr\"!\")" }
+{TEXT -1 4 " to " }{XPPMATH 20 "6#$\"+l#fTr#!\")" }}{PARA 0 "" 0 "" 
+{TEXT -1 20 "Can you explain why?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{SECT 1 {PARA 20 "" 0 "" {TEXT 278 21 "Student Workspace 1.4" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 20 "" 0 "" {TEXT 279 10 "Answer \+
+1.4" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 37 "The ditto symbol (%)  repre
+sents the " }{TEXT 281 31 "last number calculated by Maple" }{TEXT -1 
+45 ". So after you executed the first three lines" }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "% = " }{XPPMATH 20 "6#$\"+l#fTr\"!\")" }{TEXT -1 41 ".  Th
+e second time you executed the line " }{MPLTEXT 1 0 6 "%+10; " }{TEXT 
+-1 18 "Maple added 10 to " }{XPPMATH 20 "6#$\"+l#fTr\"!\")" }{TEXT -1 
+1 "." }}{PARA 0 "" 0 "" {TEXT -1 60 "To avoid this sort of confusion a
+ssign names to each output:" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+8 "a:=4+Pi;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "b:=evalf(a);
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "b+10;" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{SECT 1 {PARA 4 "" 0 "" {TEXT -1 18 "Clearing Variables" }}{PARA 0 "" 
+0 "" {TEXT -1 194 "Once you have defined a variable, Maple will rememb
+er its value during your entire working session.  If you want to overw
+rite the variable with a new value, you can simply make a new assignme
+nt." }}{PARA 0 "" 0 "" {TEXT -1 160 "For example each assignment below
+ redefines the value of the variable h. (Note: to check the current va
+lue for a variable just type it followed by a semicolon.)" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "h;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 6 "h:=56;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "h;
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "h:=sqrt(Pi);" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 2 "h;" }}}{PARA 0 "" 0 "" {TEXT 
+-1 100 "Sometimes you will want to \"clear\" a variable in memory so t
+hat you can use it in a new situation.  " }}{PARA 0 "" 0 "" {TEXT -1 
+51 "Here is an example. First we assign x the value 65." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 6 "x:=65;" }}}{PARA 0 "" 0 "" {TEXT -1 
+91 "Now assume that we start a new problem and want to enter the gener
+al algebraic expression  " }{XPPEDIT 18 0 "x^2-4*x+7" "6#,(*$%\"xG\"\"
+#\"\"\"*&\"\"%F'F%F'!\"\"\"\"(F'" }{TEXT -1 108 " and assign it the na
+me w. If we just enter this, Maple automatically substitutes the previ
+ous value for x. " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "w:=x^2-
+4*x+7;" }}}{PARA 0 "" 0 "" {TEXT -1 208 "In order to get x to be a gen
+eral variable again we must first \"clear\" (i.e. erase from Maple's m
+emory) our earlier value for x. This is accomplished by entering  x:='
+x';  Note that we use single quotes here." }}{PARA 0 "" 0 "" {TEXT -1 
+49 "Execute the next two lines to see how this works." }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 7 "x:='x';" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "w:=x^2-4*x+7;" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT 303 36 "Clearing all variables at once: the " }
+{TEXT 302 7 "restart" }{TEXT 304 10 " command. " }}{PARA 0 "" 0 "" 
+{TEXT -1 4 "The " }{TEXT 300 7 "restart" }{TEXT -1 176 " command will \+
+clear Maple's memory of all definitions that you have made. It is like
+ starting a new Maple session. If you are starting a completely new pr
+oblem you can use the " }{TEXT 301 7 "restart" }{TEXT -1 155 " command
+ to guarantee that there are no leftover definitions from your earlier
+ work.  Before you execute the second line below, quickly predict the \+
+output." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "p:=4;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "p;  x;  h;" }}}{EXCHG {PARA 0 "" 0 
+"" {TEXT -1 147 "You probably remembered that p was 4 and x had been r
+eassigned to be the variable x, but you may not have remembered that h
+ was assigned the value " }{XPPEDIT 18 0 "sqrt(Pi)" "6#-%%sqrtG6#%#PiG
+" }{TEXT -1 38 ".  That's why it's a good idea to use " }{TEXT 305 7 "
+restart" }{TEXT -1 127 " to remove all definitions at once.  (As you w
+ork through this tutorial you will notice that we start most new secti
+ons with a " }{TEXT 306 7 "restart" }{TEXT -1 11 " command.) " }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 10 "p;  x;  h;" }}}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

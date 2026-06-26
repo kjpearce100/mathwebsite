@@ -1,0 +1,21 @@
+Installation instructions 
+
+
+The file you have downloaded is in .zip format and will require an appropriate utility, 
+such as WinZip(r) (available for free download from http://www.winzip.com) to extract 
+the files onto your computer. 
+
+Once you have downloaded the file, use the extraction utility to expand and store the files
+in a folder on your computer, or network server. 
+
+To start the course, view CourseStart.html in your HTML browser. 
+
+To get Maple to run automatically when you select a link to a Maple worksheet, make sure 
+that the file type '.MWS' is assigned to Maple. You may also need to sert up Maple as a 
+Help Application in your browser. See your browser for instructions on doing this. 
+
+The course has been designed to run from a local drive, network server or internet server. 
+To run it from your internet, intranet or extranet server, you will need to ftp all the 
+files to the server and make the necessary links within your web content the file, 
+CourseStart.html. 
+

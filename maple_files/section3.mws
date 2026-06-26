@@ -1,0 +1,268 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 23 "Courier" 1 10 0 0 0 0 0 0 0 0 0 0 3 0 0 1 }{CSTYLE "
+" -1 256 "" 0 1 0 0 0 1 1 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 257 "" 0 1 
+0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 267 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 272 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 273 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+276 "" 1 12 0 0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 277 "" 1 12 0 
+0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 278 "" 1 12 0 0 0 0 1 0 1 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 279 "" 1 12 0 0 0 0 1 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 280 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 282 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 283 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 285 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+286 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 287 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 288 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 289 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 290 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+291 "" 0 1 0 128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 292 "" 0 1 0 
+128 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 293 "" 0 1 0 0 255 1 0 0 0 
+0 0 0 0 0 0 1 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 295 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+296 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 297 "" 1 12 0 
+0 0 0 1 0 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 298 "" 0 1 0 0 255 1 0 0 0 0 
+0 0 0 0 0 1 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 300 "" 0 1 0 0 0 1 0 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+301 "" 0 1 0 0 0 1 1 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 302 "" 0 1 0 0 
+0 1 1 2 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 303 "" 0 1 0 0 0 1 1 2 1 0 0 0 
+0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 1" 
+0 3 1 {CSTYLE "" -1 -1 "" 1 18 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }1 0 0 0 8 
+4 0 0 0 0 0 0 -1 0 }{PSTYLE "Heading 2" 3 4 1 {CSTYLE "" -1 -1 "" 1 
+14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }0 0 0 -1 8 2 0 0 0 0 0 0 -1 0 }
+{PSTYLE "Heading 3" 4 5 1 {CSTYLE "" -1 -1 "" 1 12 0 0 0 0 1 0 0 0 0 
+0 0 0 0 0 }0 0 0 -1 0 0 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Output" 0 11 
+1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 3 0 -1 -1 -1 
+0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Plot" 0 13 1 {CSTYLE "" -1 -1 "" 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Heading 1" -1 257 1 
+{CSTYLE "" -1 -1 "Times" 1 18 0 0 0 1 2 1 1 2 2 2 1 1 1 1 }1 1 0 0 6 
+6 1 0 1 0 1 2 0 1 }}
+{SECT 0 {SECT 0 {PARA 257 "" 0 "" {TEXT 256 12 "Section 3: G" }{TEXT 
+303 0 "" }{TEXT 302 7 "raphing" }}{PARA 0 "" 0 "" {TEXT -1 266 "In thi
+s section you will learn how to plot the graph of a function defined b
+y an expression. Other topics covered include: combining the graphs of
+ several expressions into a single plot, plotting points, and combinin
+g different plot structures into a single picture." }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{SECT 1 {PARA 4 "" 0 "plot(  )" 
+{TEXT -1 28 "Plotting an Expression: the " }{TEXT 295 7 "plot( )" }
+{TEXT -1 8 " command" }}{PARA 0 "" 0 "" {TEXT 280 10 "Example 1:" }}
+{PARA 0 "" 0 "" {TEXT -1 11 "We use the " }{TEXT 298 7 "plot( )" }
+{TEXT -1 31 " command to plot the graph of  " }{XPPEDIT 18 0 "3*x^2-8
+" "6#,&*&\"\"$\"\"\"*$%\"xG\"\"#F&F&\"\")!\"\"" }{TEXT -1 5 "  for" }
+{TEXT 257 2 " x" }{TEXT -1 20 " between - 5 and 5 ." }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 22 "plot(3*x^2-8,x=-5..5);" }}{PARA 13 "" 1 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 
+0 "" 0 "" {TEXT -1 29 "Notice that Maple scales the " }{TEXT 258 1 "y
+" }{TEXT -1 32 "-axis automatically, choosing a " }{TEXT 259 1 "y" }
+{TEXT -1 74 "-scale that shows the entire graph corresponding to the s
+pecified domain. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 149 "You can override automatic y-scaling by specifying a ran
+ge for y as well as x. On the next line we have limited the y-range to
+ the interval [-20,40]." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "p
+lot(3*x^2-8,x=-5..5,y=-20..40);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 261 "If you click on a graph with the left mouse button, the graph \+
+is selected and the bottom toolbar options are changed.  See the refer
+ence diagram below.  Now when you click on the graph, the point coordi
+nates of its location are shown.  The 1:1 button makes the " }{TEXT 
+260 1 "x" }{TEXT -1 11 "-scale and " }{TEXT 261 1 "y" }{TEXT -1 15 "-s
+cale equal.  " }}{PARA 0 "" 0 "" {TEXT -1 12 "Scroll back " }{TEXT 
+262 2 "up" }{TEXT -1 96 " to the previous graph and experiment with th
+ese features.  Try the other graph options as well." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 282 10 "Example 2:" }}{PARA 0 "
+" 0 "" {TEXT -1 87 "Automatic scaling is a useful feature but there ar
+e times when you may want to set the " }{TEXT 281 1 "y" }{TEXT -1 102 
+" range manually. For example automatic scaling isn't appropriate for \+
+graphs with vertical asymptotes. " }}{PARA 0 "" 0 "" {TEXT -1 122 "Com
+pare the next two graphs. Notice how we have set the limits for y to t
+he interval [-20,20] in the second plot command. " }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 22 "plot(x/(x-2),x=-5..5);" }}{PARA 13 "" 1 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "plot(x/(x-2
+),x=-5..5,y=-20..20);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}{PARA 0 "" 
+0 "" {TEXT 283 10 "Example 3:" }}{PARA 0 "" 0 "" {TEXT -1 20 "Plot the
+ graph of   " }{XPPEDIT 18 0 "y=x^3+1-exp(x)" "6#/%\"yG,(*$%\"xG\"\"$
+\"\"\"F)F)-%$expG6#F'!\"\"" }{TEXT -1 88 " over the domain [-8,8]. Cho
+ose a  y-range that allows you to see the four x-intercepts." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 65 "First let's tak
+e a look at the plot with automatic scaling of y. " }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 27 "plot(x^3+1-exp(x),x=-8..8);" }}{PARA 13 "" 
+1 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 119 "The large negative
+ values for y near 8 have forced the vertical scale to be too large to
+ see the x-intercepts clearly. " }}{PARA 0 "" 0 "" {TEXT -1 60 "A bett
+er view is achieved by setting limits on the y-range. " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "plot(x^3+1-exp(x),x=-8..8,y=-5..15)
+;" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT 
+276 12 "Exercise 3.1" }}{PARA 0 "" 0 "" {TEXT -1 23 "Plot   y = sin(x)
+ over " }{TEXT 263 3 "two" }{TEXT -1 18 " complete periods." }}{SECT 
+1 {PARA 5 "" 0 "" {TEXT -1 21 "Student Workspace 3.1" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 10 
+"Answer 3.1" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "plot (sin(x),
+x=-2*Pi..2*Pi);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{SECT 1 {PARA 4 "" 0 "" {TEXT 277 12 "Exercise 3.2" 
+}}{PARA 0 "" 0 "" {TEXT -1 6 "Plot  " }{XPPEDIT 18 0 "y = 3*x^4-6*x^2
+" "6#/%\"yG,&*&\"\"$\"\"\"*$%\"xG\"\"%F(F(*&\"\"'F(*$F*\"\"#F(!\"\"" }
+{TEXT -1 41 " over the domain [-10,10] with automatic " }{TEXT 264 1 "
+y" }{TEXT -1 124 " scaling.  After observing the graph, edit the domai
+n and range so that you can see the x-intercepts clearly.  Estimate th
+e " }{TEXT 272 1 "x" }{TEXT -1 34 "-intercepts with the mouse cursor.
+" }}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 21 "Student Workspace 3.2" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "
+" {TEXT -1 10 "Answer 3.2" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 
+"plot(3*x^4-6*x^2,x);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}{PARA 0 "" 
+0 "" {TEXT -1 17 "Notice how large " }{TEXT 265 1 "y" }{TEXT -1 15 " b
+ecomes when  " }{TEXT 270 1 "x" }{TEXT -1 11 " = -10 or  " }{TEXT 271 
+1 "x" }{TEXT -1 23 " = 10;  with automatic " }{TEXT 266 1 "y" }{TEXT 
+-1 61 " scaling it is difficult to see how the function behaves for " 
+}{TEXT 269 1 "x" }{TEXT -1 53 " between -2 and 2.  In the next plot we
+ restrict the " }{TEXT 267 1 "y" }{TEXT -1 57 " scale in order to bett
+er observe the behavior for small " }{TEXT 268 1 "y" }{TEXT -1 9 " out
+puts." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "plot (3*x^4-6*x^2,x
+=-3..3,y=-5..15);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 4 "The " }{TEXT 273 1 "x" }{TEXT -1 38 "-intercepts are abo
+ut -1.4, 1.4 and 0." }}}}}{SECT 1 {PARA 4 "" 0 "" {TEXT -1 29 "Plottin
+g Several Expressions " }}{PARA 0 "" 0 "" {TEXT -1 102 "To show more t
+han one graph in the same picture list them in square brackets [  ] se
+parated by commas." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "plot([
+cos(x),x^2],x=-1..4,y=-4..4);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 313 "Notice that each of the graphs is
+ displayed using a different color. You can specify the colors for eac
+h function by adding a color option at the end of the command. The col
+ors are assigned in the same order as the functions. Note that the col
+ors must also be listed in a square bracket [  ] . Here is an example.
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "plot([cos(x),x^2],x=-1.
+.5,y=-4..4,color=[blue,black]);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 40 "Here are the colors available in M
+aple. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 23 
+214 "aquamarine black  blue      navy   coral cyan  \nbrown      gold \+
+  green     gray   grey  khaki \nmagenta    maroon orange    pink   pl
+um  red   \nsienna     tan    turquoise violet wheat white \nyellow   \+
+             " }}}{SECT 1 {PARA 4 "" 0 "" {TEXT 278 12 "Exercise 3.3" 
+}}{PARA 0 "" 0 "" {TEXT -1 20 "Graph the functions " }{XPPEDIT 18 0 "y
+ = x^2-5*x+6" "6#/%\"yG,(*$%\"xG\"\"#\"\"\"*&\"\"&F)F'F)!\"\"\"\"'F)" 
+}{TEXT -1 7 "  and  " }{XPPEDIT 18 0 "y= 1/(x-2)^2" "6#/%\"yG*&\"\"\"F
+&*$,&%\"xGF&\"\"#!\"\"F*F+" }{TEXT -1 97 " together. Experiment with d
+ifferent y ranges so that complete pictures of both graphs are shown.
+" }}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 21 "Student Workspace 3.3" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "
+" {TEXT -1 10 "Answer 3.3" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 
+"y1:=x^2-5*x+6;" }}{PARA 11 "" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 14 "y2:=1/(x-2)^2;" }}{PARA 11 "" 1 "" {TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "plot([y1,y2],x=-3..8
+,y=-1..6);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}}}}{SECT 1 {PARA 4 "" 
+0 "" {TEXT -1 15 "Plotting points" }}{PARA 0 "" 0 "" {TEXT -1 50 "The \+
+plot command can also plot one or more points." }}{PARA 0 "" 0 "" 
+{TEXT 284 10 "Example 1:" }}{PARA 0 "" 0 "" {TEXT -1 22 "Plot the poin
+t (2,3) ." }}{PARA 0 "" 0 "" {TEXT -1 67 "Note in the following line t
+hat we use two sets of square brackets." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 28 "plot([ [2,3] ],style=point);" }}{PARA 13 "" 1 "" 
+{TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT 285 10 "Example 2:" }}{PARA 0 "
+" 0 "" {TEXT -1 103 "We can control the size of the x and y ranges sho
+wn by adding these to the command as in the next line." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "plot([ [2,3] ],x=-7..7,y=-7..7,styl
+e=point);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+286 10 "Example 3:" }}{PARA 0 "" 0 "" {TEXT -1 172 "To graph more than
+ one point list them in the plot command. Note the commas. Remember sq
+uare brackets for each point and an extra pair of square brackets surr
+ound the list." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "plot([ [2,
+3],[-2,5],[1,-4] ],x=-7..7,y=-7..7,style=point);" }}{PARA 13 "" 1 "" 
+{TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT 287 10 "Example 4:" }}{PARA 0 "
+" 0 "" {TEXT -1 66 "Changing style to \"line\" connects the points in \+
+the order listed. " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "plot([
+ [2,3],[-2,5],[1,-4] ],x=-7..7,y=-7..7,style=line);" }}{PARA 13 "" 1 "
+" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT 288 10 "Example 5:" }}{PARA 
+0 "" 0 "" {TEXT -1 131 "Optional extensions can be used to specify poi
+nt color and symbol (e.g. diamond, circle, cross is default) to indica
+te the points. " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 65 "plot([[3,
+2],[-2,3],[2,-1]],style=point,color=blue,symbol=circle);" }}{PARA 13 "
+" 1 "" {TEXT -1 0 "" }}}{SECT 1 {PARA 4 "" 0 "" {TEXT 297 12 "Exercise
+ 3.4" }}{PARA 0 "" 0 "" {TEXT -1 108 "Plot the following points using \+
+the color red and the diamond symbol:  [1,4] , [-2,-3], [4,-5] and [-6
+,5] . " }}{PARA 0 "" 0 "" {TEXT -1 62 "Then connect the points with li
+nes in a separate plot command." }}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 
+21 "Student Workspace 3.4" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}}{SECT 1 {PARA 5 "" 0 "" {TEXT -1 10 "Answ
+er 3.4" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 73 "plot([[1,4],[-2,-3
+],[4,-5],[-6,5]],style=point,color=red,symbol=diamond);" }}{PARA 13 "
+" 1 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 72 "plot
+([[1,4],[-2,-3],[4,-5],[-6,5]],style=line,color=red,symbol=diamond);" 
+}}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}}}}{SECT 1 {PARA 4 "" 0 "with(plot
+s)" {TEXT -1 48 "Combining Graphs of Expressions and Points: the " }
+{TEXT 296 10 "display( )" }{TEXT -1 8 " command" }}{PARA 0 "" 0 "" 
+{TEXT -1 34 "A special plotting package called " }{TEXT 290 5 "plots" 
+}{TEXT -1 122 " contains many additional graphing features.   To use t
+hese commands, you need to execute the following line which loads  " }
+{TEXT 291 5 "plots" }{TEXT -1 148 ".  Recall, the colon at the end of \+
+the statement allows this line to be executed without displaying any d
+istracting output.  To see the contents of " }{TEXT 292 5 "plots" }
+{TEXT -1 41 " you can change the colon to a semicolon." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "with(plots):" }}}{PARA 0 "" 0 "" 
+{TEXT -1 4 "The " }{TEXT 289 11 "display( ) " }{TEXT -1 173 "command a
+llows you to combine graphs of expressions and points in the same pict
+ure. The first step is to name the individual picture components. IMPO
+RTANT: Be sure to use a " }{TEXT 294 5 "colon" }{TEXT -1 79 " at the e
+nd of the line to suppress output (see first three lines below).  The \+
+" }{TEXT 293 11 "display( ) " }{TEXT -1 74 "command is then used to do
+ the actual plot (this ends with a semicolon).  " }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "
+pict1:=plot([-3*x+5,9-x^2],x=-3..5,color=[green,red]):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 66 "pict2:=plot([[-1,8],[4,-7]],style=p
+oint,color=blue,symbol=circle):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 23 "display([pict1,pict2]);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 130 "Alternatively we can list these three re
+lated plot commands in a single execution group by typing SHIFT-ENTER \+
+at end of each line." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "pict
+1:=plot([-3*x+5,9-x^2],x=-3..5,color=[green,red]):" }}{PARA 0 "> " 0 "
+" {MPLTEXT 1 0 66 "pict2:=plot([[-1,8],[4,-7]],style=point,color=blue,
+symbol=circle):" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "display([pict1,p
+ict2]);" }}{PARA 13 "" 1 "" {TEXT -1 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 
+22 "For more on this see \"" }{TEXT 299 0 "" }{TEXT 256 45 "Execution \+
+groups with more than one command\" " }{TEXT 300 14 "in the section" }
+{TEXT 301 40 " Notes on the Maple Worksheet Interface " }{TEXT 257 1 "
+ " }{TEXT -1 28 "at the end of this tutorial." }}{SECT 1 {PARA 4 "" 0 
+"" {TEXT 279 12 "Exercise 3.5" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 47 "D
+isplay a graph that contains both the function" }{MPLTEXT 1 0 1 " " }
+{XPPEDIT 18 0 "y = x^2+x-6" "6#/%\"yG,(*$%\"xG\"\"#\"\"\"F'F)\"\"'!\"
+\"" }{TEXT -1 10 "  and its " }{TEXT 274 1 "x" }{TEXT -1 5 " and " }
+{TEXT 275 1 "y" }{TEXT -1 33 " intercepts, marked with circles." }}}
+{SECT 1 {PARA 5 "" 0 "" {TEXT -1 21 "Student Workspace 3.5" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}
+{SECT 1 {PARA 5 "" 0 "" {TEXT -1 10 "Answer 3.5" }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 37 "pict4:=plot(x^2+x-6,x=-5..4,y=-8..8):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 73 "pict5:=plot([[0,-6],[-3,0],[
+2,0]],style=point,symbol=circle, color=blue):" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 23 "display([pict4,pict5]);" }}{PARA 13 "" 1 "" 
+{TEXT -1 0 "" }}}}}}}}{MARK "0 3" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 
+}{PAGENUMBERS 0 1 2 33 1 1 }
