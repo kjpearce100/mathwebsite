@@ -1,0 +1,361 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+256 "" 0 1 101 136 80 0 0 1 1 0 0 0 0 0 0 1 }{CSTYLE "" -1 257 "" 0 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "Maple Outpu
+t" 0 11 1 {CSTYLE "" -1 -1 "" 0 1 0 0 70 0 0 0 0 0 0 0 0 0 0 1 }3 3 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 256 1 {CSTYLE "" -1 -1 "" 0 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE 
+"" 0 257 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 
+-1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 258 1 {CSTYLE "" -1 -1 "" 0 1 
+0 0 136 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }
+{PSTYLE "" 0 259 1 {CSTYLE "" -1 -1 "" 0 1 16 0 0 0 0 0 0 0 0 0 0 0 0 
+1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 260 1 {CSTYLE "" -1 
+-1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 0 0 -1 
+0 }{PSTYLE "" 11 261 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 262 1 {CSTYLE "" 
+-1 -1 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 0 
+-1 0 }{PSTYLE "" 11 263 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 }1 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 264 1 {CSTYLE "
+" -1 -1 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }0 0 0 -1 -1 -1 0 0 0 0 0 
+0 -1 0 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 24 "MAPLE Worksheet Number 7" }}
+{PARA 257 "" 0 "" {TEXT -1 23 "Derivatives in Calculus" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 190 "The MAPLE command f
+or computing the derivative of a function depends on which  of the two
+ ways we used to define the function, as a symbol or as an operation. \+
+ We illustrate by defining the " }}{PARA 0 "" 0 "" {TEXT -1 9 "functio
+n " }{XPPEDIT 18 0 "f(x)=(2*x+3)^5" "6#/-%\"fG6#%\"xG*$,&*&\"\"#\"\"\"
+F'F,F,\"\"$F,\"\"&" }{TEXT -1 97 "   in each way and computing its der
+ivative in each case. Perform the following command sequence." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "f[1]:=(2*x+3)^5;0;" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "f[2]:=x->(2*x+3)^5;" }}}
+{PARA 0 "" 0 "" {TEXT -1 61 "We can compute the derivative of the symb
+olic expression     " }{XPPEDIT 18 0 "f[1] " "6#&%\"fG6#\"\"\"" }
+{TEXT -1 19 "  using the command" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 13 "diff(f[1],x);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT 257 65 "Why do you think we need to include the    ,x    in
+ this command?" }{TEXT -1 4 "    " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 50 "We can compute the derivative of the oper
+ation    " }{XPPEDIT 18 0 "f[2] " "6#&%\"fG6#\"\"#" }{TEXT -1 19 "   w
+ith the command" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "D(f[2])(x
+);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 133 "N
+ow, in each of these two derivative computations replace the x in the \+
+MAPLE syntax with a different variable and see what happens.  " }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 258 24 "Explain what's going on:" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 44 "We could \+
+also have used the diff command on " }{XPPEDIT 18 0 "f[2]" "6#&%\"fG6#
+\"\"#" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "dif
+f(f[2](x),x);" }}}{PARA 0 "" 0 "" {TEXT -1 104 "Here I bet you get 0 i
+f you replace either of the x's with another variable and leave the ot
+her alone.  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 259 12 "Why is this?" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 429 "Sometime
+s it will be more convenient to think of the function as a symbolic ex
+pression and other times we will prefer the operation approach.  Often
+  it will be up to you to decide which is best for your situation.  (Y
+ou should recall the above function is the same one as g1 in worksheet
+ #5.)  Use both approaches to compute the derivatives with respect to \+
+x of the other three functions at the end of worksheet #5. They were  \+
+ " }{XPPEDIT 18 0 "g2=ln(x)" "6#/%#g2G-%#lnG6#%\"xG" }{TEXT -1 3 ",  \+
+" }{XPPEDIT 18 0 "g3=1/x" "6#/%#g3G*&\"\"\"F&%\"xG!\"\"" }{TEXT -1 9 "
+,   and  " }{XPPEDIT 18 0 "g4=sin(a*x)" "6#/%#g4G-%$sinG6#*&%\"aG\"\"
+\"%\"xGF*" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{PARA 0 "" 0 "" {TEXT -1 136 "Note, as far as MAPLE is concerned \+
+all derivatives are partial derivatives.  To illustrate perform the fo
+llowing MAPLE command sequence." }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "g:=a*x^3*y^2+sin(x*y)+1/x;" "6#>%\"gG,(*(%\"aG\"\"\"*$%\"xG\"\"$
+F(%\"yG\"\"#F(-%$sinG6#*&F*F(F,F(F(*&F(F(F*!\"\"F(" }}}{EXCHG {PARA 0 
+"> " 0 "" {XPPEDIT 19 1 "dgx:=diff(g,x);" "6#>%$dgxG-%%diffG6$%\"gG%\"
+xG" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "dgy:=diff(g,y);" "6#>%$
+dgyG-%%diffG6$%\"gG%\"yG" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "d
+iff(dgx,y);" "6#-%%diffG6$%$dgxG%\"yG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "diff(dgy,x);" "6#-%%diffG6$%$dgyG%\"xG" }}}{PARA 263 "
+" 0 "" {TEXT -1 0 "" }}{PARA 261 "" 1 "" {TEXT 260 46 "Explain why the
+ last two answers are the same." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 232 "Next let's use MAPLE to recall all the b
+asic rules of differentiation: power rule, product rule, quotient rule
+, and chain rule.  Define each of the functions as operations.  This m
+akes substitution for the chain rule example easier." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "f:=x->cos(x/
+2);" "6#>%\"fGf*6#%\"xG7\"6$%)operatorG%&arrowG6\"-%$cosG6#*&F'\"\"\"
+\"\"#!\"\"F,F,F," }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "u:=x->x^2
+-3*x+1;" "6#>%\"uGf*6#%\"xG7\"6$%)operatorG%&arrowG6\",(*$F'\"\"#\"\"
+\"*&\"\"$F0F'F0!\"\"F0F0F,F,F," }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "h:=x->sqrt(x^2+2*x);" "6#>%\"hGf*6#%\"xG7\"6$%)operatorG%&arrowG
+6\"-%%sqrtG6#,&*$F'\"\"#\"\"\"*&F2F3F'F3F3F,F,F," }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "Compute the following der
+ivatives and " }{TEXT 261 71 "state which differentiation rule, or rul
+es,  MAPLE appears to be using." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "diff(u(x),x);\n" "6#-%%diffG6$
+-%\"uG6#%\"xGF)" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "diff(f(x)*
+u(x),x);" "6#-%%diffG6$*&-%\"fG6#%\"xG\"\"\"-%\"uG6#F*F+F*" }}}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "diff(f(x)/u(x),x);" "6#-%%diffG6$*&-%
+\"fG6#%\"xG\"\"\"-%\"uG6#F*!\"\"F*" }}}{PARA 0 "" 0 "" {TEXT -1 54 "Th
+is last one looks like the product rule used on     " }{XPPEDIT 18 0 "
+ f(x)*(1/u(x)) " "6#*&-%\"fG6#%\"xG\"\"\"*&F(F(-%\"uG6#F'!\"\"F(" }
+{TEXT -1 27 "  .   Try the next command." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 10 "normal(%);" }}}{PARA 0 "" 0 "" {TEXT -1 66 "This look
+s like the quotient rule with the numerator expanded out." }}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "diff(f(u(x)),x);" "6#-%%diffG6$-%\"fG
+6#-%\"uG6#%\"xGF," }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "diff(f(u
+),u);" "6#-%%diffG6$-%\"fG6#%\"uGF)" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "diff(u(x),x);" "6#-%%diffG6$-%\"uG6#%\"xGF)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 5 "%*%%;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 15 "subs(u=u(x),%);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "diff(u(h(x)),x);" "6#-%%diffG6$-%\"uG6#-%\"hG6#%\"xGF,
+" }}}{PARA 0 "" 0 "" {TEXT -1 185 "The second derivative can be comput
+ed either of two ways,  one is simply to compute the derivative of the
+ derivative , try it on f(x).  Also check out the symbolic version of \+
+the input." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "diff(diff(f(x)
+,x),x);" }}}{PARA 0 "" 0 "" {TEXT -1 85 "The other is to use a shortcu
+t syntax as follows and check out its symbolic version.:" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "diff(f(x),x$2);" }}}{PARA 0 "" 0 "
+" {TEXT -1 83 "The latter has the advantage that it is just as easy to
+ compute 15 derivatives via:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+16 "diff(f(x),x$15);" }}}{PARA 0 "" 0 "" {TEXT -1 62 "Compute the seco
+nd and third derivatives of f, u, and h above." }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 32 "Next try the fo
+llowing commands." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "dd2h:=d
+iff(h(x)*f(x),x$2);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "diff
+(f(u(x)),x$3);" }}}{PARA 0 "" 0 "" {TEXT -1 199 "Here's a problem that
+ used to be on every standard calculus test known to mankind.  First t
+ry doing it by hand to see how well you would have done on such a test
+. (Thank goodness for our technology.)" }}{PARA 0 "" 0 "" {TEXT -1 9 "
+Compute  " }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "diff(sqrt(1+sqrt(
+1+sqrt(1+sqrt(x^2+1)))),x);" "6#-%%diffG6$-%%sqrtG6#,&\"\"\"F*-F'6#,&F
+*F*-F'6#,&F*F*-F'6#,&*$%\"xG\"\"#F*F*F*F*F*F*F5" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 256 22 "Graphs and Derivatives" 
+}{TEXT -1 7 ".      " }}{PARA 0 "" 0 "" {TEXT -1 5 "     " }{TEXT 262 
+99 "What is the basic relation between the graph of a function and the
+ derivative of the same function?" }}{PARA 264 "" 0 "" {TEXT -1 0 "" }
+}{PARA 262 "" 0 "" {TEXT -1 111 "     What is the basic relation betwe
+en the graph of a function and the second derivative of the same funct
+ion?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 304 "
+Find all intercepts, local maxima, local minima, and inflection points
+ of the following functions.  Also comment on any asymptotic behavior \+
+and sketch the graphs of the function, its first derivative, and its s
+econd derivative on the same coordinate axes. Color the function red a
+nd its derivative green." }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "p1
+:=2*x^4-4*x^3-11*x^2+8*x+4;" "6#>%#p1G,,*&\"\"#\"\"\"*$%\"xG\"\"%F(F(*
+&F+F(*$F*\"\"$F(!\"\"*&\"#6F(*$F*F'F(F/*&\"\")F(F*F(F(F+F(" }{MPLTEXT 
+1 0 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "p2:=x^5-5
+*x^4+5*x^3+7;" "6#>%#p2G,**$%\"xG\"\"&\"\"\"*&F(F)*$F'\"\"%F)!\"\"*&F(
+F)*$F'\"\"$F)F)\"\"(F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "r1:=(x^2-2*x)/(x^2+4);" "6#
+>%#r1G*&,&*$%\"xG\"\"#\"\"\"*&F)F*F(F*!\"\"F*,&*$F(F)F*\"\"%F*F," }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {XPPEDIT 19 1 "r2:=(x^3+x-5)/(x^2-3);" "6#>%#r2G*&,(*$%\"xG\"\"$\"\"
+\"F(F*\"\"&!\"\"F*,&*$F(\"\"#F*F)F,F," }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 271 "Another type of dif
+ferentiation we encountered in Calculus I is \"implicit differentiatio
+n.\"  Recall that the word \"implicit\" is used to refer to a relation
+ between the variables which does not usually yield one variable expli
+citly as a function of the others, for example" }}{EXCHG {PARA 0 "> " 
+0 "" {XPPEDIT 19 1 "rel:=x^3*y+y^2-x^2+x*y=3;" "6#>%$relG/,**&%\"xG\"
+\"$%\"yG\"\"\"F+*$F*\"\"#F+*$F(F-!\"\"*&F(F+F*F+F+F)" }}}{PARA 0 "" 0 
+"" {TEXT -1 208 "is such a relation. Obviously any given value for y p
+uts some kind of restriction on the possible values x can have. But th
+e restriction is not explicitly given.  Plot the graph of rel. (Recall
+ implicitplot.)" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 125 "Notice the two pieces, called \"branches
+\" of this graph.  At each point on the graph there is a tangent line \+
+and its slope is " }{XPPEDIT 18 0 "diff(y,x)" "6#-%%diffG6$%\"yG%\"xG
+" }{TEXT -1 59 " . We use implicit differentiation to compute these sl
+opes." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "drel:=implicitdiff(
+rel,y,x);" }}}{PARA 0 "" 0 "" {TEXT -1 169 "Puting the y before the x \+
+in this command tells MAPLE to treat y as a function of x.  We could h
+ave just as easily told MAPLE to treat x as a function of y and comput
+ed " }{XPPEDIT 18 0 "diff(x,y)" "6#-%%diffG6$%\"xG%\"yG" }{TEXT -1 1 "
+." }}{PARA 0 "" 0 "" {TEXT -1 105 "Find the slopes of the tangent line
+s to this graph (thinking of y as a function of x) at the point x=0 , \+
+" }{XPPEDIT 18 0 "y=sqrt(3)" "6#/%\"yG-%%sqrtG6#\"\"$" }{TEXT -1 21 " \+
+ and the point x=0, " }{XPPEDIT 18 0 "y=-sqrt(3)" "6#/%\"yG,$-%%sqrtG6
+#\"\"$!\"\"" }{TEXT -1 166 "  . You can use the subs command with two \+
+or more variables, just make sure the expression into which the substi
+tution is to be made is the last entry in the command." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 356 "Plot the graphs of rel and these two ta
+ngent lines on the same axes.  (Recall that when using implicitplot yo
+u must enter the expression to be plotted as a relation, even if it is
+ an explicit function.  So to plot the function f(x) using implicitplo
+t you have to enter it as y=f(x). This how you will get the graphs of \+
+the two tangent lines on the picture." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 389 "In the above we have concentrated mostly on the use of t
+he derivative to give information about the shape of the graph of the \+
+original function.  However, this last bit about tangent lines leads t
+o another, and probably more important, use of derivatives: to approxi
+mate functions with lines. To begin we approximate a differentialble f
+unction by its tangent line.  Recall the function f :" }{XPPEDIT 18 0 
+"x->cos(x/2)" "6#f*6#%\"xG7\"6$%)operatorG%&arrowG6\"-%$cosG6#*&F%\"\"
+\"\"\"#!\"\"F*F*F*" }{TEXT -1 58 " defined above and perform the follo
+wing command sequence." }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "dqf:
+=(f(x)-(f(Pi)+D(f)(Pi)*(x-Pi)))/(x-Pi);" "6#>%$dqfG*&,&-%\"fG6#%\"xG\"
+\"\",&-F(6#%#PiGF+*&--%\"DG6#F(6#F/F+,&F*F+F/!\"\"F+F+F7F+,&F*F+F/F7F7
+" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(dqf,x=Pi);" "6#-%&l
+imitG6$%$dqfG/%\"xG%#PiG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 
+"numer(dqf);" }}}{PARA 0 "" 0 "" {TEXT -1 152 "Notice that the numerat
+or of dqf is    f(x)     minus     the value of a line at x.  This lin
+e is the tangent line to the graph of f(x) at the point  ( " }
+{XPPEDIT 18 0 "Pi,f(Pi)" "6$%#PiG-%\"fG6#F#" }{TEXT -1 12 " )  .  That
+ " }{XPPEDIT 18 0 "limit(dqf,x=Pi)=0" "6#/-%&limitG6$%$dqfG/%\"xG%#PiG
+\"\"!" }{TEXT -1 190 "  is equivalent to the limit of the difference q
+uotient for f equalling the derivative of f.  It also shows that the v
+alues of f are so close to those of the tangent line when x is close t
+o " }{XPPEDIT 18 0 "Pi" "6#%#PiG" }{TEXT -1 165 "  the quotient is sma
+ll even though the denominator is going to 0!  This is exactly what we
+ mean when we say the tangent line approximates the graph of f(x) near
+  ( " }{XPPEDIT 18 0 "Pi,f(Pi)" "6$%#PiG-%\"fG6#F#" }{TEXT -1 87 " ). \+
+ The equation of the tangent line is called the \"linearization of f\"
+ in Calculus I." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 68 "Sketch the graph of f along with this tangent line on the
+ same axes." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 118 "In each of the fo
+llowing sketch the graph of the function and its tangent line at the p
+oint with x=1 on the same axes:" }}{PARA 258 "" 0 "" {XPPEDIT 18 0 "sq
+rt(x+2)" "6#-%%sqrtG6#,&%\"xG\"\"\"\"\"#F(" }{TEXT -1 15 "  ,  ln(x)  \+
+,  " }{XPPEDIT 18 0 "exp(2*x)" "6#-%$expG6#*&\"\"#\"\"\"%\"xGF(" }
+{TEXT -1 3 "  ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 207 "In the m
+ultiple variable case the tangent line is replaced with the tangent pl
+ane.  It is defined much the same way and approximates the graph for m
+uch the same reason.  The tangent plane to the graph of    " }
+{XPPEDIT 18 0 "z=f(x,y)" "6#/%\"zG-%\"fG6$%\"xG%\"yG" }{TEXT -1 17 "  \+
+at the point ( " }{XPPEDIT 18 0 "x[0],y[0]" "6$&%\"xG6#\"\"!&%\"yG6#F&
+" }{TEXT -1 2 " )" }}{PARA 0 "" 0 "" {TEXT -1 24 "is given by the equa
+tion" }}{PARA 259 "" 0 "" {XPPEDIT 18 0 "z=f(x[0],y[0])+diff(f,x)(x[0]
+,y[0])*(x-x[0])+diff(f,y)(x[0],y[0])*(y-y[0])" "6#/%\"zG,(-%\"fG6$&%\"
+xG6#\"\"!&%\"yG6#F,\"\"\"*&--%%diffG6$F'F*6$&F*6#F,&F.6#F,F0,&F*F0&F*6
+#F,!\"\"F0F0*&--F46$F'F.6$&F*6#F,&F.6#F,F0,&F.F0&F.6#F,F>F0F0" }{TEXT 
+-1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 19 "Plot the graph of  " }
+{XPPEDIT 18 0 "z=-x^2+y^2+3" "6#/%\"zG,(*$%\"xG\"\"#!\"\"*$%\"yGF(\"\"
+\"\"\"$F," }{TEXT -1 51 "  and its tangent plane at  (0,1) on the same
+ axes." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 170 "A better approximation
+ to a curved graph would probably be a polynomial approximation, such \+
+is called the Taylor Polynomial approximation to the graph of f at the
+ point (" }{XPPEDIT 18 0 "x[0],y[0]" "6$&%\"xG6#\"\"!&%\"yG6#F&" }
+{TEXT -1 39 ").  Try the following command sequence." }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 21 "taylor(sin(x),x=0,2);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 23 "t1:=convert(%,polynom);" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 21 "taylor(sin(x),x=0,3);" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 21 "taylor(sin(x),x=0,4);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 23 "t3:=convert(%,polynom);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 22 "taylor(sin(x),x=0,10);" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 23 "t9:=convert(%,polynom);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 99 "On the same axes sketch the graphs of y=sin(x), and its t
+aylor polynomials of orders 1, 3, and 9.  " }}{PARA 0 "" 0 "" {TEXT 
+-1 14 "Use the range " }{XPPEDIT 18 0 "x=-2*Pi..2*Pi" "6#/%\"xG;,$*&\"
+\"#\"\"\"%#PiGF)!\"\"*&F(F)F*F)" }{TEXT -1 6 "  and " }{XPPEDIT 18 0 "
+y=-2..2" "6#/%\"yG;,$\"\"#!\"\"F'" }{TEXT -1 61 ".  Use colors and a l
+egend to distinguish one from the other." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 57 "Compute the taylor p
+olynomials of orders 1, 2, 3, 4 for  " }{XPPEDIT 18 0 "exp(x)" "6#-%$e
+xpG6#%\"xG" }{TEXT -1 19 " centered at x=1.  " }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 134 "Sketch the gra
+phs of all these on the same axes. Note that the Taylor Polynomial of \+
+order 1 is just the equation for the tangent line." }}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 216 "Actually MAPLE has certain common general constr
+ucts built into it.  To see some examples consider the following comma
+nds.  Note that here k(x) has NOT BEEN EXPLICITELY DEFINED, it is just
+ general funcation notation." }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 
+1 "limit((k(x)-k(a))/(x-a),x=a);" "6#-%&limitG6$*&,&-%\"kG6#%\"xG\"\"
+\"-F)6#%\"aG!\"\"F,,&F+F,F/F0F0/F+F/" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "limit((k(x)-(k(a)+D(k)(a)*(x-a)))/(x-a),x=a);" "6#-%&li
+mitG6$*&,&-%\"kG6#%\"xG\"\"\",&-F)6#%\"aGF,*&--%\"DG6#F)6#F0F,,&F+F,F0
+!\"\"F,F,F8F,,&F+F,F0F8F8/F+F0" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "taylor(k(x),x=a,7);" "6#-%'taylorG6%-%\"kG6#%\"xG/F)%\"aG\"\"(" 
+}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 25 "What d
+oes the expression " }{XPPEDIT 18 0 "O((x-a)^7)" "6#-%\"OG6#*$,&%\"xG
+\"\"\"%\"aG!\"\"\"\"(" }{TEXT -1 271 " represent?  (To answer this que
+stion look at the Taylor expansions for sin(x), taylor(sin(x),x=0,n), \+
+for several different values of n.  Then if you're nice in class I mig
+ht show you a fancy \"general\" limit calculation that gives some indi
+cation of what it represents.) " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 
+61 "MAPLE can compute multivariable taylor approximations also.  " }}
+{PARA 0 "" 0 "" {TEXT -1 57 "Now let's compute the 1st order Taylor ap
+proximation to  " }{XPPEDIT 18 0 "z=-x^2+y^2+3" "6#/%\"zG,(*$%\"xG\"\"
+#!\"\"*$%\"yGF(\"\"\"\"\"$F," }{TEXT -1 161 "  .  Of course this shoul
+d be the same as the equation of the tangent plane, so try it at the p
+oint (0,1) and compare with your previous result.  Is it the same?" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "mtaylor(-x^2+y^2+3,[x=0,y=1]
+,2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&\"\"#\"\"\"*&F$F%%\"yGF%F%" 
+}}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 10 "Next t
+ry, " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "mtaylor(-x^2+y^2+3,[
+x=0,y=1],3);" }{TEXT -1 113 "but first try to guess the answer.  Think
+! You want a degree 2 polynomial in x and y that approximates the grap
+h." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,*\"\"#\"\"\"*&F$F%%\"yGF%F%*$),
+&F'F%F%!\"\"F$F%F%*$)%\"xGF$F%F+" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "simplify(%);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*$)
+%\"xG\"\"#\"\"\"!\"\"*$)%\"yGF'F(F(\"\"$F(" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 57 "Compute the degree 1, 2, and 3 \+
+Taylor approximations to  " }{XPPEDIT 18 0 "z=exp(x^2+y^2)" "6#/%\"zG-
+%$expG6#,&*$%\"xG\"\"#\"\"\"*$%\"yGF+F," }{TEXT -1 12 "  at (0,0). " }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 72 " Plot the graphs of z with each of these approximations on thre
+e graphs." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 163 "Experiment to see t
+he extent to whcih it appears that MAPLE can derive a \"general\" form
+ula for the Taylor Polynomial for a given function of two or more vari
+ables." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 91 "To have a Taylor Approx
+imation at a point the function must be differentiable at the point." 
+}}{PARA 0 "" 0 "" {TEXT -1 134 "Let's look at some functions that are \+
+continuous at x=a but not differentiable at x=a.  The first is gotten \+
+with the MAPLE command    " }{XPPEDIT 18 0 "abs " "6#%$absG" }{TEXT 
+-1 91 " .  Plot the graph of y=abs(x) with x= -10..10 and see if it is
+ a familiar function to you." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+23 "plot(abs(x),x=-10..10);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 95 "To see if it is continuous at x=0 compute the l
+imit as x->0 and compare the result with abs(0)." }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 25 "limit(abs(x),x=0);abs(0);" }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 91 "To see if abs is differen
+tiable at 0 compute the limit of its difference quotient at x=0.  " }}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit((abs(x)-abs(0))/(x-0),x=
+0);" "6#-%&limitG6$*&,&-%$absG6#%\"xG\"\"\"-F)6#\"\"!!\"\"F,,&F+F,F/F0
+F0/F+F/" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+53 "Try approaching 0 from the left and from the right.  " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 263 28 "W
+hat happens in each case?  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 121 "Is this consistent with the above graph near 0
+?  Of course abs(x) is the absolute value of x and is usually denoted \+
+by   " }{XPPEDIT 18 0 " abs(x)" "6#-%$absG6#%\"xG" }{TEXT -1 5 "  .  \+
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 139 "For \+
+each of these functions, show the function is continuous at x=0, then \+
+test  to see which are, and which are not, differentiable at x=0." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "abs(x^3
+)  " "6#-%$absG6#*$%\"xG\"\"$" }{TEXT -1 12 "  ,         " }{XPPEDIT 
+18 0 " abs(sin(x))" "6#-%$absG6#-%$sinG6#%\"xG" }{TEXT -1 9 "  ,      \+
+" }{XPPEDIT 18 0 "piecewise(x=0,0,x*sin(1/x))" "6#-%*piecewiseG6%/%\"x
+G\"\"!F(*&F'\"\"\"-%$sinG6#*&F*F*F'!\"\"F*" }{TEXT -1 7 "  ,    " }
+{XPPEDIT 18 0 "piecewise(x=0,0,x^2*sin(1/x))" "6#-%*piecewiseG6%/%\"xG
+\"\"!F(*&F'\"\"#-%$sinG6#*&\"\"\"F/F'!\"\"F/" }{TEXT -1 2 "  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 120 "We finis
+h by looking at a function that is differentiable but not twice differ
+entiable at x=0.  Consider the function   " }}{PARA 260 "" 0 "" 
+{XPPEDIT 18 0 "piecewise(x<=0,x^2,x^3)" "6#-%*piecewiseG6%1%\"xG\"\"!*
+$F'\"\"#*$F'\"\"$" }{TEXT -1 6 "  .   " }}{PARA 0 "" 0 "" {TEXT -1 22 
+"Plot it for x=-2..2   " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" 
+}}}{PARA 0 "" 0 "" {TEXT -1 58 "Show that it's differentiable at x=0 w
+ith derivative =0.  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 20 "Plot its derivative." }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 73 "Now show tha
+t its derivative is CONTINUOUS but NOT DIFFERENTIABLE at x=0." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 5 "     " }}{PARA 0 "" 0 "" {TEXT -1 3 "   " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{MARK "0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

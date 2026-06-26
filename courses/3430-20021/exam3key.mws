@@ -1,0 +1,418 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 265 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 266 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 267 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 18 
+268 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 270 "" 1 14 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 271 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 272 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+273 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+278 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 281 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 282 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+289 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 293 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+294 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 298 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 303 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+304 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 "" 1 14 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 1 14 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 }{CSTYLE "" -1 312 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 313 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+314 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 315 "" 1 14 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 316 "" 1 14 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 }{CSTYLE "" -1 317 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 318 "" 1 14 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Warning" -1 7 1 {CSTYLE "" -1 -1 "
+Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple O
+utput" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 
+1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "
+" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 
+2 2 0 1 }{PSTYLE "Maple Plot" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 
+0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 20 "MATH 3430-001 EXAM 3" }}{PARA 
+256 "" 0 "" {TEXT -1 16 "20 November 2002" }}{PARA 0 "" 0 "" {TEXT -1 
+122 "Name:                                                            \+
+                                                         " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 119 "Put your name on \+
+the worksheet and save your worksheet as exam3.mws.   All statements a
+re to appear on the worksheet.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 161 "Annotate your conclusions so that the re
+ader does not have to interpolate the relationships between the stated
+ exam questions and the printed Maple computations." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 80 "Turn in a printed versi
+on of worksheet at the end of the testing period today.  " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 373 "Should there be p
+roblems on the exam for which you do not find the answers during the t
+esting period today, you may submit an electronic version of the works
+heet to me (through the WebCT e-mail interface or to pearce@math.ttu.e
+du) by 4:00 pm tomorrow and I will grade those problems at half credit
+ and add their scores to the scores on the printed version of the work
+sheet." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+101 "Please provide to me:  Last 3 Digits of Your Social Security Numb
+er                    (S)      _____" }}{PARA 0 "" 0 "" {TEXT -1 113 "
+                                  Number of the Month of Your Birthdat
+e                             (M)     _____" }}{PARA 0 "" 0 "" {TEXT 
+-1 106 "                                  Number of the Day-of-the-Mon
+th of Your Birthdate           (D)     _____" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 19 "1.  (8 points)  An " }{TEXT 
+289 10 "arithmetic" }{TEXT -1 147 " sequence is one in which the diffe
+rence between consective terms is always the same.  In such a sequence
+ there is an identifiable first term, say " }{TEXT 290 1 "a" }{TEXT 
+-1 37 ", and a fixed common difference, say " }{TEXT 291 1 "d" }{TEXT 
+-1 41 ".  Then, the sequence takes on the form \{" }{TEXT 292 10 "a, a
++d, a+" }{TEXT -1 1 "2" }{TEXT 295 5 "d, a+" }{TEXT -1 1 "3" }{TEXT 
+296 5 "d, a+" }{TEXT -1 1 "4" }{TEXT 297 9 "d,  . . ." }{TEXT -1 94 "
+\}.  Use Maple to construct the first thirty terms of the arithmetic s
+equence whose first term " }{TEXT 293 1 "a" }{TEXT -1 74 " is the numb
+er of month of your birthdate (M) and whose common difference " }
+{TEXT 294 1 "d" }{TEXT -1 136 " is the number of the day-of-the-month \+
+of your birthdate (D) if the last 3 digits of your social security num
+ber (S) is even, otherwise " }{TEXT 298 1 "d" }{TEXT -1 8 " is the " }
+{TEXT 299 8 "negative" }{TEXT -1 128 " of the number of the day-of-the
+-month of your birthdate (-D) if if the last 3 digits of your social s
+ecurity number (S) is odd." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "seq(3 + k*27,k=0..29);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6@\"\"$\"#I\"#d\"#%)\"$6\"\"$Q\"\"$l\"\"$#>\"$>#
+\"$Y#\"$t#\"$+$\"$F$\"$a$\"$\"Q\"$3%\"$N%\"$i%\"$*[\"$;&\"$V&\"$q&\"$(
+f\"$C'\"$^'\"$y'\"$0(\"$K(\"$f(\"$'y" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 17 "2.  (8 points) A " }{TEXT 300 9 "geometric" }{TEXT -1 
+153 " sequence is one in which the ratio between consecutive terms is \+
+always the same.  In  such a sequence there is an identifiable non-zer
+o first term, say " }{TEXT 301 1 "a" }{TEXT -1 32 ", and a fixed commo
+n ratio, say " }{TEXT 302 1 "r" }{TEXT -1 48 ".  Then, the sequence ta
+kes on the form \{a, ar, " }{XPPEDIT 18 0 "ar^2;" "6#*$%#arG\"\"#" }
+{TEXT -1 3 " , " }{XPPEDIT 18 0 "ar^3;" "6#*$%#arG\"\"$" }{TEXT -1 2 "
+, " }{XPPEDIT 18 0 "ar^4;" "6#*$%#arG\"\"%" }{TEXT -1 101 ", . . . \}.
+  Use Maple to construct the first thirty terms of the geometric seque
+nce whose first term " }{TEXT 303 1 "a" }{TEXT -1 89 " is the last thr
+ee digits of your social security number (S) and and whose common rati
+on " }{TEXT 304 1 "r" }{TEXT -1 120 " is the ratio of your number the \+
+month of your birthdate to the number of the day-of-the-month of your \+
+birthdate (M/D). " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 26 "seq(494*(3/27)^k,k=0..29);" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6@\"$%\\#F#\"\"*#F#\"#\")#F#\"$H(#F#\"%hl#F#\"&\\!f#F#
+\"'T9`#F#\"(pHy%#F#\")@n/V#F#\"**[?uQ#F#\"+,Wy'[$#F#\",4'f5QJ#F#\"-\"[
+O&HCG#F#\".H$Ge'=a##F#\"/h\\X#zwG##F#\"0\\Y4K6*e?#F#\"1T=&))=?I&=#F#\"
+2plm*p\"=xm\"#F#\"3@\"**pHNY4]\"#F#\"4*3#*Hn<<&3N\"#F#\"5,)Gp0famd@\"#
+F#\"64#fB^J\"*)*=%4\"#F#\"6\")GB6O=-4x%)*#F#\"7Hf4,Dl>\"QH'))#F#\"8hL'
+)4D(o2Vkwz#F#\"9\\-x)e_=p()z*yr#F#\":TA$*)HtmA*)=3hk#F#\";p,R!pf+/.qt
+\\\"e#F#\"<@:^8s`gt-LwMB&#F#\"=*o.;#\\$[CYspG,r%" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 19 "3.  (8 points) The " }{TEXT 256 9 "Fibonacci" }
+{TEXT -1 333 " sequence is neither arithmetic for geometric.  It is a \+
+recursive sequence, whose first two terms are both 1 and for which the
+reafter each successive term is the sum of the two preceding terms.  T
+hus, the sequence takes on the form \{1, 1, 2, 3, 5, 8, . . . \}.  Use
+ Maple to construct the first thirty terms of the Fibonacci sequence.
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "f[1] := 1; f[2] := 1;" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"fG6#\"\"\"F'" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>&%\"fG6#\"\"#\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 49 "for k from 3 to 30 do f[k] := f[k-1] + f[k-2] od:" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "seq(f[k],k=1..30);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6@\"\"\"F#\"\"#\"\"$\"\"&\"\")\"#8\"#@\"
+#M\"#b\"#*)\"$W\"\"$L#\"$x$\"$5'\"$()*\"%(f\"\"%%e#\"%\"=%\"%ln\"&Y4\"
+\"&6x\"\"&d'G\"&oj%\"&D](\"'$R@\"\"'=k>\"'6yJ\"'HU^\"'S?$)" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 204 "4.   (16 points) Solve the following li
+near system by using elementary row operations and back substitution o
+n its augmented matrix.  Clearly identify the solution set for this sy
+stem of linear equations." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#/,**&\"\"#\"\"\"&%\"xG6#F'F'F'*&F&F'&F)6#F&F'F'
+*&\"\"%F'&F)6#\"\"$F'F'*&\"\"&F'&F)6#F/F'F'!\"#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/,,&%\"xG6#\"\"\"F(*&\"\"$F(&F&6#\"\"#F(F(*&F-F(&F&6#F*
+F(!\"\"*&\"\"&F(&F&6#\"\"%F(F(*&\"\"'F(&F&6#F3F(F(F*" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#/,,*&\"\"%\"\"\"&%\"xG6#F'F'F'*&\"\")F'&F)6#\"\"#F'F
+'*&F&F'&F)6#\"\"$F'F'*&\"\"&F'&F)6#F&F'F'*&\"\"'F'&F)6#F5F'F'\"\"!" }}
+{PARA 11 "" 1 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 13 "with(linalg);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7^r%.BlockDiago
+nalG%,GramSchmidtG%,JordanBlockG%)LUdecompG%)QRdecompG%*WronskianG%'ad
+dcolG%'addrowG%$adjG%(adjointG%&angleG%(augmentG%(backsubG%%bandG%&bas
+isG%'bezoutG%,blockmatrixG%(charmatG%)charpolyG%)choleskyG%$colG%'cold
+imG%)colspaceG%(colspanG%*companionG%'concatG%%condG%)copyintoG%*cross
+prodG%%curlG%)definiteG%(delcolsG%(delrowsG%$detG%%diagG%(divergeG%(do
+tprodG%*eigenvalsG%,eigenvaluesG%-eigenvectorsG%+eigenvectsG%,entermat
+rixG%&equalG%,exponentialG%'extendG%,ffgausselimG%*fibonacciG%+forward
+subG%*frobeniusG%*gausselimG%*gaussjordG%(geneqnsG%*genmatrixG%%gradG%
+)hadamardG%(hermiteG%(hessianG%(hilbertG%+htransposeG%)ihermiteG%*inde
+xfuncG%*innerprodG%)intbasisG%(inverseG%'ismithG%*issimilarG%'iszeroG%
+)jacobianG%'jordanG%'kernelG%*laplacianG%*leastsqrsG%)linsolveG%'matad
+dG%'matrixG%&minorG%(minpolyG%'mulcolG%'mulrowG%)multiplyG%%normG%*nor
+malizeG%*nullspaceG%'orthogG%*permanentG%&pivotG%*potentialG%+randmatr
+ixG%+randvectorG%%rankG%(ratformG%$rowG%'rowdimG%)rowspaceG%(rowspanG%
+%rrefG%*scalarmulG%-singularvalsG%&smithG%,stackmatrixG%*submatrixG%*s
+ubvectorG%)sumbasisG%(swapcolG%(swaprowG%*sylvesterG%)toeplitzG%&trace
+G%*transposeG%,vandermondeG%*vecpotentG%(vectdimG%'vectorG%*wronskianG
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 63 "A := matrix( [ [2,2,4,5
+,0,-2], [1,3,-2,5,6,3], [4,8,4,5,6,0]]);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"AG-%'matrixG6#7%7(\"\"#F*\"\"%\"\"&\"\"!!\"#7(\"\"\"\"\"$F.F
+,\"\"'F17(F+\"\")F+F,F2F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+21 "A1 := swaprow(A,1,2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#A1G-%'
+matrixG6#7%7(\"\"\"\"\"$!\"#\"\"&\"\"'F+7(\"\"#F0\"\"%F-\"\"!F,7(F1\"
+\")F1F-F.F2" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "A2 := addrow
+(A1,1,2,-2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#A2G-%'matrixG6#7%7(
+\"\"\"\"\"$!\"#\"\"&\"\"'F+7(\"\"!!\"%\"\")!\"&!#7!\")7(\"\"%F2F7F-F.F
+0" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "A3 := addrow(A2,1,3,-4
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#A3G-%'matrixG6#7%7(\"\"\"\"\"
+$!\"#\"\"&\"\"'F+7(\"\"!!\"%\"\")!\"&!#7!\")7(F0F1\"#7!#:!#=F4" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "A4 := mulrow(A3,2,-1/4);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#A4G-%'matrixG6#7%7(\"\"\"\"\"$!\"#
+\"\"&\"\"'F+7(\"\"!F*F,#F-\"\"%F+\"\"#7(F0!\"%\"#7!#:!#=!#7" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "A5 := addrow(A4,2,3,4);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#A5G-%'matrixG6#7%7(\"\"\"\"\"$!\"#
+\"\"&\"\"'F+7(\"\"!F*F,#F-\"\"%F+\"\"#7(F0F0F2!#5!\"'!\"%" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "A6 := mulrow(A5,3,1/4);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#A6G-%'matrixG6#7%7(\"\"\"\"\"$!\"#\"\"&\"
+\"'F+7(\"\"!F*F,#F-\"\"%F+\"\"#7(F0F0F*#!\"&F3#!\"$F3!\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "Sol :=backsub(A6);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%$SolG-%'vectorG6#7',(\"\"\"F**&#\"#X\"\"%F*&%#_t
+G6#\"\"#F*!\"\"*&\"\"$F*&F06#F*F*F3,$*&#\"#:F.F*F/F*F*,(F*F3*&#\"\"&F2
+F*F/F*F**&#F5F2F*F6F*F*F/F6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+38 "for i from 1 to 5 do x[i] = Sol[i] od;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/&%\"xG6#\"\"\",(F'F'*&#\"#X\"\"%F'&%#_tG6#\"\"#F'!\"\"
+*&\"\"$F'&F.F&F'F1" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"xG6#\"\"#,$
+*&#\"#:\"\"%\"\"\"&%#_tGF&F-F-" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%
+\"xG6#\"\"$,(\"\"\"!\"\"*&#\"\"&\"\"#F)&%#_tG6#F.F)F)*&#F'F.F)&F06#F)F
+)F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"xG6#\"\"%&%#_tG6#\"\"#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/&%\"xG6#\"\"&&%#_tG6#\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 91 "5.  (12 points)  Find all value
+s of a and b for which the following system of equations has" }}{PARA 
+0 "" 0 "" {TEXT -1 31 "          i.  a unique solution" }}{PARA 0 "" 
+0 "" {TEXT -1 45 "          ii. an infinite number of solutions" }}
+{PARA 0 "" 0 "" {TEXT -1 25 "         iii. no solution" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/,(%\"xG\"\"\"%\"yGF&%\"zGF&%\"bG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/,(*&\"\"#\"\"\"%\"xGF'F'*&F&F'%\"yGF'F'*&%\"aGF'%
+\"zGF'F'F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/,(*&\"\"#\"\"\"%\"xGF'!
+\"\"*&F&F'%\"yGF'F)*&%\"bGF'%\"zGF'F'*$)F-F&F'" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 121 "restart: with(linalg):\nCM := matrix([ [1,1,1],
+[2,2,a], [-2,-2,b] ]);\nM := matrix([ [1,1,1,b],[2,2,a,2], [-2,-2,b,b^
+2] ]);" }}{PARA 7 "" 1 "" {TEXT -1 80 "Warning, the protected names no
+rm and trace have been redefined and unprotected\n" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%#CMG-%'matrixG6#7%7%\"\"\"F*F*7%\"\"#F,%\"aG7%!\"#F
+/%\"bG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"MG-%'matrixG6#7%7&\"\"\"
+F*F*%\"bG7&\"\"#F-%\"aGF-7&!\"#F0F+*$)F+F-F*" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 8 "det(CM);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 314 61 "No case of a and b for which
+ there is a unique solution set.\n" }{TEXT -1 0 "" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 23 "M1 := addrow(M,1,2,-2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#M1G-%'matrixG6#7%7&\"\"\"F*F*%\"bG7&\"\"!F-,&%\"aGF*
+\"\"#!\"\",&*&F0F*F+F*F1F0F*7&!\"#F5F+*$)F+F0F*" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 23 "M2 := addrow(M1,1,3,2);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#M2G-%'matrixG6#7%7&\"\"\"F*F*%\"bG7&\"\"!F-,&%\"aGF*
+\"\"#!\"\",&*&F0F*F+F*F1F0F*7&F-F-,&F+F*F0F*,&*&F0F*F+F*F**$)F+F0F*F*
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 315 91 "If a = 2 and  b<>1, then no \+
+solutions.\nIf a = 2 and b = 1, then infinitely many solutions.\n" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 316 53 "If a <> 2 and b = -2, the
+n infinitely many solutions\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 23 "M3 := addrow(M2,2,3,1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#M3
+G-%'matrixG6#7%7&\"\"\"F*F*%\"bG7&\"\"!F-,&%\"aGF*\"\"#!\"\",&*&F0F*F+
+F*F1F0F*7&F-F-,&F/F*F+F*,&F0F**$)F+F0F*F*" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 305 28 "If a+b=0, then no solutions." }}{PARA 0 "
+" 0 "" {TEXT 313 28 "\nSuppose a <> 2 and  b <> -2" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 27 "M4 := mulrow(M3,2,1/(a-2));" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%#M4G-%'matrixG6#7%7&\"\"\"F*F*%\"bG7&\"\"!F-F**&
+,&%\"aGF*\"\"#!\"\"F2,&*&F1F*F+F*F2F1F*F*7&F-F-,&F0F*F+F*,&F1F**$)F+F1
+F*F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "M5 := addrow(M4,2,3
+,-(a+b));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#M5G-%'matrixG6#7%7&\"
+\"\"F*F*%\"bG7&\"\"!F-F**&,&%\"aGF*\"\"#!\"\"F2,&*&F1F*F+F*F2F1F*F*7&F
+-F-F-,(*(,&F0F2F+F2F*F/F2F3F*F*F1F**$)F+F1F*F*" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 17 "map(simplify,M5);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%'matrixG6#7%7&\"\"\"F(F(%\"bG7&\"\"!F+F(,$*(\"\"#F(,&
+F)F(F(!\"\"F(,&%\"aGF(F.F0F0F07&F+F+F+*&,**(F.F(F2F(F)F(F(*&F.F(F)F(F0
+\"\"%F0*&)F)F.F(F2F(F(F(F1F0" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 75 "solve((2*a*b-2*b-4+b^2*a)/(a-2)=0,a);\nsolve((2*a*b-2*b-4+b^2*a)
+/(a-2)=0,b);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&\"\"#\"\"\"%\"bG!
+\"\"F&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$!\"#,$*&\"\"#\"\"\"%\"aG!\"
+\"F'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 318 60 "Under the
+ above suppostion that a <> 2 and b <> -2, we have " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 317 30 "If ab <> 2, then no so
+lutions." }}{PARA 0 "" 0 "" {TEXT 312 42 "If ab = 2, then infinitely m
+any solutions." }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 104 "6.  (18 points)  Using M
+aple, use three different ways to solve the following system of linear
+ equations" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/,(%\"xG!\"\"%\"yGF&*&\"\"#\"\"\"%\"zGF*F*F&" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/,(*&\"\"$\"\"\"%\"xGF'!\"\"*&\"\"#F'%\"yGF'
+F'%\"zGF)F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/,(%\"xG\"\"\"%\"yG!\"
+\"%\"zGF&F&" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 93 "A := matrix([
+ [-1,-1,2],[-3,2,-1],[1,-1,1] ]);\nB := matrix(3,1,[-1,-1,1]);\nC := a
+ugment(A,B);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'matrixG6#7%7%
+!\"\"F*\"\"#7%!\"$F+F*7%\"\"\"F*F/" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%\"BG-%'matrixG6#7%7#!\"\"F)7#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%\"CG-%'matrixG6#7%7&!\"\"F*\"\"#F*7&!\"$F+F*F*7&\"\"\"F*F/F/" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 265 35 "Method #1  Gauss-J
+ordan elimination" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "rref(C)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7%7&\"\"\"\"\"!F)\"\"
+$7&F)F(F)\"\"'7&F)F)F(\"\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+12 "x=3,y=6,z=4;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%/%\"xG\"\"$/%\"yG
+\"\"'/%\"zG\"\"%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 266 
+46 "Method #2 Multiply matrix equation AX = B by  " }{XPPEDIT 268 0 "A
+^\{-1\};" "6#)%\"AG<#,$\"\"\"!\"\"" }{TEXT 267 1 " " }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 21 "evalm(inverse(A)&*B);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%'matrixG6#7%7#\"\"$7#\"\"'7#\"\"%" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 12 "x=3,y=6,z=4;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%/%\"xG\"\"$/%\"yG\"\"'/%\"zG\"\"%" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 0 "" }{TEXT 269 27 "Method #3 Use solve command" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "solve(\{-x-y+2*z = -1,-3*x+2
+*y-z = -1,x-y+z = 1\},\{x,y,z\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#<
+%/%\"xG\"\"$/%\"yG\"\"'/%\"zG\"\"%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }{TEXT 311 30 "Method #4 Use Linsolve command" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "linsolve(A,B);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%'matrixG6#7%7#\"\"$7#\"\"'7#\"\"%" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 12 "x=3,y=6,z=4;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6%/%\"xG\"\"$/%\"yG\"\"'/%\"zG\"\"%" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }{TEXT 270 23 "Method #5 Cramer's Rule" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 144 "Ax := matrix([ [-1,-1,2],[-1,2,-1],[1,-1
+,1] ]);\nAy := matrix([ [-1,-1,2],[-3,-1,-1],[1,1,1] ]);\nAz := matrix
+([ [-1,-1,-1],[-3,2,-1],[1,-1,1] ]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%#AxG-%'matrixG6#7%7%!\"\"F*\"\"#7%F*F+F*7%\"\"\"F*F." }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%#AyG-%'matrixG6#7%7%!\"\"F*\"\"#7%!\"$F*F*7%\"
+\"\"F/F/" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#AzG-%'matrixG6#7%7%!\"
+\"F*F*7%!\"$\"\"#F*7%\"\"\"F*F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 51 "x=det(Ax)/det(A);y=det(Ay)/det(A);z=det(Az)/det(A);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#/%\"xG\"\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/%\"yG\"\"'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/%\"zG\"\"%" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 
+-1 69 "    Note:  Only one of the three methods may use an augmented m
+atrix." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 
+"7.  (30 points)  Consider the matrix " }}{PARA 256 "" 0 "" {XPPEDIT 
+18 0 "A = matrix([[0, -1, -2, -3, -4, -5], [1, 0, -1, -2, -3, -4], [2,
+ 1, 0, -1, -2, -3]]);" "6#/%\"AG-%'matrixG6#7%7(\"\"!,$\"\"\"!\"\",$\"
+\"#F-,$\"\"$F-,$\"\"%F-,$\"\"&F-7(F,F*,$F,F-,$F/F-,$F1F-,$F3F-7(F/F,F*
+,$F,F-,$F/F-,$F1F-" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 9 "    Let  " }{XPPEDIT 18 0 "A^T;" "6#)%\"AG
+%\"TG" }{TEXT -1 25 " denote the transpose of " }{TEXT 258 2 "A." }
+{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 47 "        i.  Find an orthonormal basis (call it " }{TEXT 
+274 3 "BNS" }{TEXT -1 24 ")  for the nullspace of " }{TEXT 257 1 "A" }
+{TEXT -1 3 ".  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 43 "       ii.  Show that the column space of  " }{XPPEDIT 
+18 0 "A^T;" "6#)%\"AG%\"TG" }{TEXT -1 34 " is the same as the row spac
+e of  " }{TEXT 259 2 "A." }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}{PARA 0 
+"" 0 "" {TEXT -1 46 "      iii.  Find an othonormal basis (call it " }
+{TEXT 273 3 "BCS" }{TEXT -1 29 " ) for the column space of   " }
+{XPPEDIT 18 0 "A^T;" "6#)%\"AG%\"TG" }{TEXT -1 1 "." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 22 "      iv.  Show that  \+
+" }{TEXT 275 3 "BNS" }{TEXT -1 19 "  is orthogonal to " }{TEXT 277 3 "
+BCS" }{TEXT -1 22 ",  i.e., every vector " }{TEXT 260 1 "v" }{TEXT -1 
+4 " in " }{TEXT 276 3 "BNS" }{TEXT -1 31 " is orthogonal to every vect
+or " }{TEXT 261 1 "w" }{TEXT -1 5 " in  " }{TEXT 278 3 "BCS" }{TEXT 
+-1 15 "               " }}{PARA 0 "" 0 "" {TEXT -1 3 "   " }}{PARA 0 "
+" 0 "" {TEXT -1 14 "      v.  Let " }{TEXT 262 1 "B" }{TEXT -1 18 " be
+ the union of  " }{TEXT 279 3 "BNS" }{TEXT -1 6 "  and " }{TEXT 280 3 
+"BCS" }{TEXT -1 21 ".  Determine whether " }{TEXT 263 1 "B" }{TEXT -1 
+17 "  is a basis for " }{XPPEDIT 18 0 "R^6;" "6#*$%\"RG\"\"'" }{TEXT 
+-1 6 ".     " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 86 "A := matrix(
+[[0, -1, -2, -3, -4, -5], [1, 0, -1, -2, -3, -4], [2, 1, 0, -1, -2, -3
+]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"AG-%'matrixG6#7%7(\"\"!!\"
+\"!\"#!\"$!\"%!\"&7(\"\"\"F*F+F,F-F.7(\"\"#F1F*F+F,F-" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "NS := nullspace(A);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%#NSG<&-%'vectorG6#7(\"\"\"!\"#F*\"\"!F,F,-F'6#7(
+\"\"#!\"$F,F*F,F,-F'6#7(\"\"$!\"%F,F,F*F,-F'6#7(\"\"%!\"&F,F,F,F*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "GNS := GramSchmidt(NS);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$GNSG<&7(\"\"\"!\"#F'\"\"!F)F)7(#\"
+\"#\"\"$#!\"\"F-#!\"%F-F'F)F)7(#F'F,F)#F/F,F/F'F)7(#F,\"\"&#F'\"#5#F/F
+7F4#F1F7F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "BNS := seq(sc
+alarmul(GNS[i],1/norm(GNS[i],frobenius)),i=1..4);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$BNSG6&-%'vectorG6#7(,$*&\"\"'!\"\"F,#\"\"\"\"\"#F/,$
+*&\"\"$F-F,F.F-F*\"\"!F4F4-F'6#7(,$*&\"#:F-\"#IF.F/,$*&F;F-F;F.F-,$*(F
+0F/F:F-F;F.F-,$*&\"#5F-F;F.F/F4F4-F'6#7(,$*&FBF-FBF.F/F4,$*&FBF-FBF.F-
+,$*&\"\"&F-FBF.F-,$*&FLF-FBF.F/F4-F'6#7(,$*(F0F/\"$0\"F-\"$5#F.F/,$*&F
+UF-FUF.F/,$*&FTF-FUF.F-,$*&\"#UF-FUF.F-,$*(\"\"%F/FTF-FUF.F-,$*&\"#@F-
+FUF.F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "AT := transpose(A
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#ATG-%'matrixG6#7(7%\"\"!\"\"
+\"\"\"#7%!\"\"F*F+7%!\"#F.F*7%!\"$F0F.7%!\"%F2F07%!\"&F4F2" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "RS := rowspace(A);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%#RSG<$-%'vectorG6#7(\"\"\"\"\"!!\"\"!\"#!\"$!\"%
+-F'6#7(F+F*\"\"#\"\"$\"\"%\"\"&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 19 "CS := colspace(AT);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#CSG<
+$-%'vectorG6#7(\"\"\"\"\"!!\"\"!\"#!\"$!\"%-F'6#7(F+F*\"\"#\"\"$\"\"%
+\"\"&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 271 43 "\nHence,
+ rowspace of A and column space of  " }{XPPEDIT 18 0 "A^T" "6#)%\"AG%
+\"TG" }{TEXT 272 16 " are the same.\n " }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "GCS := GramSchmidt(CS);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%$GCSG<$7(#\"#S\"#J\"\"\"#\"#AF)#\"#8F)#\"\"%F)#!\"&F)7(F*\"\"!
+!\"\"!\"#!\"$!\"%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "BCS :=
+ seq(scalarmul(GCS[i],1/norm(GCS[i],frobenius)),i=1..2);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%$BCSG6$-%'vectorG6#7(,$*(\"\")\"\"\"\"$^'!\"\"
+\"%bK#F-\"\"#F-,$*&\"$0\"F/F0F1F-,$*(\"#AF-F0F/F0F1F-,$*(\"#8F-F0F/F0F
+1F-,$*(\"\"%F-F0F/F0F1F-,$*&F.F/F0F1F/-F'6#7(,$*&\"#JF/FFF1F-\"\"!,$*&
+FFF/FFF1F/,$*(F2F-FFF/FFF1F/,$*(\"\"$F-FFF/FFF1F/,$*(F>F-FFF/FFF1F/" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 111 "for i from 1 to 4 do\nfor
+ j from 1 to 2 do\nprint(BNS[i],`dot`,BCS[j],`value is`,dotprod(BNS[i]
+,BCS[j]) )\nod;\nod;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'-%'vectorG6#7(
+,$*&\"\"'!\"\"F)#\"\"\"\"\"#F,,$*&\"\"$F*F)F+F*F'\"\"!F1F1%$dotG-F$6#7
+(,$*(\"\")F,\"$^'F*\"%bKF+F,,$*&\"$0\"F*F:F+F,,$*(\"#AF,F:F*F:F+F,,$*(
+\"#8F,F:F*F:F+F,,$*(\"\"%F,F:F*F:F+F,,$*&F9F*F:F+F*%)value~isGF1" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'-%'vectorG6#7(,$*&\"\"'!\"\"F)#\"\"\"
+\"\"#F,,$*&\"\"$F*F)F+F*F'\"\"!F1F1%$dotG-F$6#7(,$*&\"#JF*F8F+F,F1,$*&
+F8F*F8F+F*,$*(F-F,F8F*F8F+F*,$*(F0F,F8F*F8F+F*,$*(\"\"%F,F8F*F8F+F*%)v
+alue~isGF1" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'-%'vectorG6#7(,$*&\"#:!
+\"\"\"#I#\"\"\"\"\"#F-,$*&F+F*F+F,F*,$*(F.F-F)F*F+F,F*,$*&\"#5F*F+F,F-
+\"\"!F6%$dotG-F$6#7(,$*(\"\")F-\"$^'F*\"%bKF,F-,$*&\"$0\"F*F?F,F-,$*(
+\"#AF-F?F*F?F,F-,$*(\"#8F-F?F*F?F,F-,$*(\"\"%F-F?F*F?F,F-,$*&F>F*F?F,F
+*%)value~isGF6" }}{PARA 11 "" 1 "" {XPPMATH 20 "6'-%'vectorG6#7(,$*&\"
+#:!\"\"\"#I#\"\"\"\"\"#F-,$*&F+F*F+F,F*,$*(F.F-F)F*F+F,F*,$*&\"#5F*F+F
+,F-\"\"!F6%$dotG-F$6#7(,$*&\"#JF*F=F,F-F6,$*&F=F*F=F,F*,$*(F.F-F=F*F=F
+,F*,$*(\"\"$F-F=F*F=F,F*,$*(\"\"%F-F=F*F=F,F*%)value~isGF6" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6'-%'vectorG6#7(,$*&\"#5!\"\"F)#\"\"\"\"\"#F,
+\"\"!,$*&F)F*F)F+F*,$*&\"\"&F*F)F+F*,$*&F3F*F)F+F,F.%$dotG-F$6#7(,$*(
+\"\")F,\"$^'F*\"%bKF+F,,$*&\"$0\"F*F>F+F,,$*(\"#AF,F>F*F>F+F,,$*(\"#8F
+,F>F*F>F+F,,$*(\"\"%F,F>F*F>F+F,,$*&F=F*F>F+F*%)value~isGF." }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6'-%'vectorG6#7(,$*&\"#5!\"\"F)#\"\"\"\"\"#F,
+\"\"!,$*&F)F*F)F+F*,$*&\"\"&F*F)F+F*,$*&F3F*F)F+F,F.%$dotG-F$6#7(,$*&
+\"#JF*F<F+F,F.,$*&F<F*F<F+F*,$*(F-F,F<F*F<F+F*,$*(\"\"$F,F<F*F<F+F*,$*
+(\"\"%F,F<F*F<F+F*%)value~isGF." }}{PARA 11 "" 1 "" {XPPMATH 20 "6'-%'
+vectorG6#7(,$*(\"\"#\"\"\"\"$0\"!\"\"\"$5##F*F)F*,$*&F-F,F-F.F*,$*&F+F
+,F-F.F,,$*&\"#UF,F-F.F,,$*(\"\"%F*F+F,F-F.F,,$*&\"#@F,F-F.F*%$dotG-F$6
+#7(,$*(\"\")F*\"$^'F,\"%bKF.F*,$*&F+F,FDF.F*,$*(\"#AF*FDF,FDF.F*,$*(\"
+#8F*FDF,FDF.F*,$*(F8F*FDF,FDF.F*,$*&FCF,FDF.F,%)value~isG\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6'-%'vectorG6#7(,$*(\"\"#\"\"\"\"$0\"!\"
+\"\"$5##F*F)F*,$*&F-F,F-F.F*,$*&F+F,F-F.F,,$*&\"#UF,F-F.F,,$*(\"\"%F*F
++F,F-F.F,,$*&\"#@F,F-F.F*%$dotG-F$6#7(,$*&\"#JF,FBF.F*\"\"!,$*&FBF,FBF
+.F,,$*(F)F*FBF,FBF.F,,$*(\"\"$F*FBF,FBF.F,,$*(F8F*FBF,FBF.F,%)value~is
+GFC" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "MB := matrix( [ BNS[
+1],BNS[2],BNS[3],BNS[4],BCS[1],BCS[2] ] );" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#MBG-%'matrixG6#7(7(,$*&\"\"'!\"\"F,#\"\"\"\"\"#F/,$*
+&\"\"$F-F,F.F-F*\"\"!F4F47(,$*&\"#:F-\"#IF.F/,$*&F9F-F9F.F-,$*(F0F/F8F
+-F9F.F-,$*&\"#5F-F9F.F/F4F47(,$*&F@F-F@F.F/F4,$*&F@F-F@F.F-,$*&\"\"&F-
+F@F.F-,$*&FHF-F@F.F/F47(,$*(F0F/\"$0\"F-\"$5#F.F/,$*&FOF-FOF.F/,$*&FNF
+-FOF.F-,$*&\"#UF-FOF.F-,$*(\"\"%F/FNF-FOF.F-,$*&\"#@F-FOF.F/7(,$*(\"\"
+)F/\"$^'F-\"%bKF.F/,$*&FNF-F\\oF.F/,$*(\"#AF/F\\oF-F\\oF.F/,$*(\"#8F/F
+\\oF-F\\oF.F/,$*(FYF/F\\oF-F\\oF.F/,$*&F[oF-F\\oF.F-7(,$*&\"#JF-F\\pF.
+F/F4,$*&F\\pF-F\\pF.F-,$*(F0F/F\\pF-F\\pF.F-,$*(F3F/F\\pF-F\\pF.F-,$*(
+FYF/F\\pF-F\\pF.F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "rank(M
+B);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"'" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+281 119 "Since the rank of MB is 6, the rows of MB are linearly indepe
+ndent, which implies that the rows of MB form a basis for " }{XPPEDIT 
+18 0 "R^6" "6#*$%\"RG\"\"'" }{TEXT 282 3 ".  " }}}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "69 0 1" 60 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

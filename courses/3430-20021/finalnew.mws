@@ -1,0 +1,263 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+274 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 276 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+308 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 311 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 312 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+315 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 317 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+332 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 333 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 341 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+342 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 
+257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 258 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 259 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 24 "MATH 3430-001 Final Exam" }}
+{PARA 256 "" 0 "" {TEXT -1 15 "6 December 2002" }}{PARA 0 "" 0 "" 
+{TEXT -1 122 "Name:                                                   \+
+                                                                  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 119 "Put your
+ name on the worksheet and save your worksheet as Final.mws.   All sta
+tements are to appear on the worksheet.  " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 161 "Annotate your conclusions so that
+ the reader does not have to interpolate the relationships between the
+ stated exam questions and the printed Maple computations." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 101 "1.  (10 points) \+
+ Use Maple to determine how many pairs of twin primes there are betwee
+n 1 and 10,000." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 41 "2.  (20 points) Analyze the graph of     " }}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "f := x^4-x^3-1199999/100000*x^2-80001
+/20000*x+400001/25000;" "6#>%\"fG,,*$%\"xG\"\"%\"\"\"*$F'\"\"$!\"\"*(
+\"(****>\"F)\"'++5F,F'\"\"#F,*(\"&,+)F)\"&++#F,F'F)F,*&\"',+SF)\"&+]#F
+,F)" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "F
+ind all intercepts of the graph of  " }{TEXT 299 1 "f" }{TEXT -1 49 ",
+ all local maximum and local minimum values of  " }{TEXT 300 2 "f," }
+{TEXT -1 44 " and all inflection points of the graph of  " }{TEXT 291 
+1 "f" }{TEXT -1 74 ".  Also, identify all, if any, asymptotic behavior
+(s) which the graph of  " }{TEXT 292 2 "f " }{TEXT -1 46 " possesses. \+
+Provide a sketch of the graph of  " }{TEXT 335 1 "f" }{TEXT -1 47 "  (
+or, where needed, sketches of the graph of  " }{TEXT 341 1 "f" }{TEXT 
+-1 84 " ) which illustrate the above information.  On a separate graph
+, plot the graph of  " }{TEXT 332 1 "f" }{TEXT -1 55 " (in red) togeth
+er with the tangent lines to graph of  " }{TEXT 333 1 "f" }{TEXT -1 
+52 "  at the points of the inflections of the graph of  " }{TEXT 334 
+1 "f" }{TEXT -1 12 " (in green)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 41 "3.  (20 points) Analyze the graph of     \+
+" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "f := (10*x^2-10*x-60)/(2*x
+^3-4*x^2+x-2);" "6#>%\"fG*&,(*&\"#5\"\"\"*$%\"xG\"\"#F)F)*&F(F)F+F)!\"
+\"\"#gF.F),**&F,F)*$F+\"\"$F)F)*&\"\"%F)*$F+F,F)F.F+F)F,F.F." }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "Find all \+
+intercepts of the graph of  " }{TEXT 338 1 "f" }{TEXT -1 49 ", all loc
+al maximum and local minimum values of  " }{TEXT 339 2 "f," }{TEXT -1 
+44 " and all inflection points of the graph of  " }{TEXT 336 1 "f" }
+{TEXT -1 74 ".  Also, identify all, if any, asymptotic behavior(s) whi
+ch the graph of  " }{TEXT 337 2 "f " }{TEXT -1 46 " possesses. Provide
+ a sketch of the graph of  " }{TEXT 340 1 "f" }{TEXT -1 47 "  (or, whe
+re needed, sketches of the graph of  " }{TEXT 342 1 "f" }{TEXT -1 44 "
+ ) which illustrate the above information.  " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 93 "4.  (10 points) Find the area, \+
+in the first quadrant, which is bounded between the graph of  " }
+{XPPEDIT 19 1 "f := 10/3*sin(x)/x - exp(-x)-3/10;" "6#>%\"fG,(**\"#5\"
+\"\"\"\"$!\"\"-%$sinG6#%\"xGF(F.F*F(-%$expG6#,$F.F*F**&F)F(F'F*F*" }
+{TEXT -1 10 "  and the " }{TEXT 304 1 "x" }{TEXT -1 6 "-axis." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "5.  (10 p
+oints) Consider the ellipse " }{XPPEDIT 19 1 "x^2/16+y^2/4 = 1;" "6#/,
+&*&%\"xG\"\"#\"#;!\"\"\"\"\"*&%\"yGF'\"\"%F)F*F*" }{TEXT -1 20 " and t
+he hyperbola  " }{XPPEDIT 19 1 "x^2/4-y^2/16 = 1;" "6#/,&*&%\"xG\"\"#
+\"\"%!\"\"\"\"\"*&%\"yGF'\"#;F)F)F*" }{TEXT -1 153 " .  Find the area \+
+of the \"quadralateral\" region which is (simultaneously) inside the e
+llipse and in between the left and right branches of the hyperbola." }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "6.  (10 \+
+points) For the following function, determine whether (i)  " }{TEXT 
+305 1 "f" }{TEXT -1 19 "  is continuous at " }{TEXT 306 1 "x" }{TEXT 
+-1 13 " = 0;  (ii)  " }{TEXT 307 1 "f" }{TEXT -1 23 "  is differentiab
+le at " }{TEXT 308 1 "x" }{TEXT -1 5 " = 0." }}{EXCHG {PARA 0 "> " 0 "
+" {XPPEDIT 19 1 "f := piecewise([0, x = 0],[1/10*(1-cos(x))*(1+sin(x))
+/exp(x^3)/abs(x), otherwise]);" "6#>%\"fG-%*piecewiseG6$7$\"\"!/%\"xGF
+)7$*.\"\"\"F.\"#5!\"\",&F.F.-%$cosG6#F+F0F.,&F.F.-%$sinG6#F+F.F.-%$exp
+G6#*$F+\"\"$F0-%$absG6#F+F0%*otherwiseG" }}{PARA 11 "" 1 "" {TEXT -1 
+0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "7
+.  (10 points) Using Maple, find an explicit anti-derivative for  " }
+{XPPEDIT 19 1 "f := arcsin(x)/(1-x^2);" "6#>%\"fG*&-%'arcsinG6#%\"xG\"
+\"\",&F*F**$F)\"\"#!\"\"F." }{TEXT -1 39 " .  Verify that your answer \+
+is correct." }}{PARA 0 "" 0 "" {TEXT -1 105 "8.  (10 points)  Reproduc
+e in Maple the \"sin\" plot which appears on the Math 3430 WebCT cours
+e home page." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 133 "9.   (10 points) Solve the following linear system .  Clearly \+
+identify the complete solution set for this system of linear equations
+." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/
+,**&\"\"#\"\"\"&%\"xG6#F'F'F'*&F&F'&F)6#F&F'F'*&\"\"%F'&F)6#\"\"$F'F'*
+&\"\"&F'&F)6#F4F'F'!\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/,,&%\"xG6#
+\"\"\"F(*&\"\"$F(&F&6#\"\"#F(F(*&F-F(&F&6#F*F(!\"\"&F&6#\"\"%F(*&F-F(&
+F&6#\"\"&F(F(F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/,*&%\"xG6#\"\"\"F(
+*&\"\"%F(&F&6#\"\"$F(F(&F&6#F*!\"\"*&F-F(&F&6#\"\"&F(F(\"\"!" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 103 "10.  (10 point
+s)  Using Maple, use two different ways to solve the following system \+
+of linear equations" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#/,(%\"xG!\"\"%\"yGF&*&\"\"&\"\"\"%\"zGF*F&\"\"#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/,&*&\"\"#\"\"\"%\"xGF'!\"\"%\"zGF)F)
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/,(%\"xG\"\"\"%\"yG!\"\"*&\"\"#F&%
+\"zGF&F&F&" }}{PARA 0 "" 0 "" {TEXT -1 18 "      Note:  Only " }{TEXT 
+274 3 "one" }{TEXT -1 48 " of the two methods may use an augmented mat
+rix." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "1
+1.  (30 points)  Consider the matrix " }}{PARA 256 "" 0 "" {XPPEDIT 
+18 0 "A := matrix([[0, -1, -2, -3, -4, -5], [1, 1, -2, -1, -3, -1], [2
+, 1, 0, 1, 2, -2], [1, -1, 0, -1, 1, -6]]);" "6#>%\"AG-%'matrixG6#7&7(
+\"\"!!\"\"!\"#!\"$!\"%!\"&7(\"\"\"F1F,F+F-F+7(\"\"#F1F*F1F3F,7(F1F+F*F
++F1!\"'" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 9 "    Let  " }{XPPEDIT 18 0 "A^T;" "6#)%\"AG%\"TG" }
+{TEXT -1 25 " denote the transpose of " }{TEXT 276 2 "A." }{TEXT -1 
+50 "   Show that every vector in the column space of  " }{XPPEDIT 18 
+0 "A^T" "6#)%\"AG%\"TG" }{TEXT -1 52 "  is orthogonal to every vector \+
+in the nullspace of " }{TEXT 311 1 "A" }{TEXT -1 1 "." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "12.  (30 points)  Cons
+ider the matrix" }}{PARA 259 "" 0 "" {XPPEDIT 18 0 "A := matrix([[0, -
+1, -1, -3], [1, 1, -2, -1], [2, 1, 0, 1], [1, -1, 1, -1]]);" "6#>%\"AG
+-%'matrixG6#7&7&\"\"!!\"\"F+!\"$7&\"\"\"F.!\"#F+7&\"\"#F.F*F.7&F.F+F.F
++" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 27 "   Find the eignvalue
+s of  " }{TEXT 312 4 "A.  " }}{PARA 0 "" 0 "" {TEXT -1 27 "   For each
+ eigenvalue of  " }{TEXT 313 1 "A" }{TEXT -1 75 " determine the dimens
+ion of the eigenspace associated with that eigenvalue." }}{PARA 0 "" 
+0 "" {TEXT -1 17 "   Show that if  " }{XPPEDIT 18 0 "lambda[1]" "6#&%'
+lambdaG6#\"\"\"" }{TEXT -1 5 ",...," }{XPPEDIT 18 0 "lambda[k]" "6#&%'
+lambdaG6#%\"kG" }{TEXT -1 35 "  are the distinct eigenvalues of  " }
+{TEXT 314 1 "A" }{TEXT -1 33 " with corresponding eigenvectors " }
+{XPPEDIT 18 0 "x[1]" "6#&%\"xG6#\"\"\"" }{TEXT -1 4 ",..," }{XPPEDIT 
+18 0 "x[k]" "6#&%\"xG6#%\"kG" }{TEXT -1 8 ",  then " }{XPPEDIT 18 0 "x
+[1]" "6#&%\"xG6#\"\"\"" }{TEXT -1 4 ",..," }{XPPEDIT 18 0 "x[k]" "6#&%
+\"xG6#%\"kG" }{TEXT -1 27 " are linearly independent. " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 85 "13.  (10 points)  Fi
+nd the general solution of the system of differential equations  " }
+{XPPEDIT 19 1 "\{diff(x[1](t),t) = x[1](t)+2*x[2](t)-t, diff(x[2](t),t
+) = 2*x[1](t)-2*x[2](t)+3+t\};" "6#<$/-%%diffG6$-&%\"xG6#\"\"\"6#%\"tG
+F.,(F(F,*&\"\"#F,-&F*6#F1F-F,F,F.!\"\"/-F&6$F2F.,**&F1F,F(F,F,*&F1F,F2
+F,F5\"\"$F,F.F," }}{PARA 0 "" 0 "" {TEXT -1 99 "14.  (10 points)  Find
+ the general (real-valued) solution of the system of differential equa
+tions  " }{XPPEDIT 19 1 "\{diff(x[1](t),t) = -x[1](t)+2*x[2](t), diff(
+x[2](t),t) = -2*x[1](t)-3*x[2](t)\};" "6#<$/-%%diffG6$-&%\"xG6#\"\"\"6
+#%\"tGF.,&F(!\"\"*&\"\"#F,-&F*6#F2F-F,F,/-F&6$F3F.,&*&F2F,F(F,F0*&\"\"
+$F,F3F,F0" }}{PARA 0 "" 0 "" {TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT 
+-1 78 "15.  (10 points)  Apply the Fundamental Theorem of Arithmetic t
+o the number   " }{XPPEDIT 18 0 "52!" "6#-%*factorialG6#\"#_" }{TEXT 
+-1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+43 "16.  (10 points)  Find the coefficient of  " }{XPPEDIT 18 0 "x^12*
+y^13" "6#*&%\"xG\"#7%\"yG\"#8" }{TEXT -1 24 "  in the expansion of   \+
+" }{XPPEDIT 18 0 "(x+y)^25" "6#*$,&%\"xG\"\"\"%\"yGF&\"#D" }{TEXT -1 
+3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 
+"17.  (10 points)   Find all roots of the polynomials  \n        a)  \+
+" }{XPPEDIT 19 1 "p[1] := x^4-2*x^3+7*x-4;" "6#>&%\"pG6#\"\"\",**$%\"x
+G\"\"%F'*&\"\"#F'*$F*\"\"$F'!\"\"*&\"\"(F'F*F'F'F+F0" }{TEXT -1 11 "  \+
+     b)  " }{XPPMATH 20 "6#>&%\"pG6#\"\"\",**$)%\"xG\"\"$F'F'*&\"\"#F'
+)F+F.F'!\"\"*&\"\")F'F+F'F'\"\"%F0" }{MPLTEXT 1 0 2 " \n" }{TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 78 "18.   (10 points)  On the same axes \+
+plot the following conics:                " }{XPPEDIT 19 1 "k*x^2+y^2=
+1" "6#/,&*&%\"kG\"\"\"*$%\"xG\"\"#F'F'*$%\"yGF*F'F'" }{TEXT -1 11 "   \+
+  for   " }{XPPEDIT 18 0 "k=-3,-2,-1,0,1,2,3" "6)/%\"kG,$\"\"$!\"\",$
+\"\"#F',$\"\"\"F'\"\"!F+F)F&" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 166 "19.   (10 points)  10. The fol
+lowing is the graph of a function F, its derivative dF, and its second
+ derivative ddF.  Which graph is F, which is dF, and which is ddF?" }}
+{PARA 256 "" 0 "" {GLPLOT2D 400 300 300 {PLOTDATA 2 "6'-%'CURVESG6$7S7
+$$!\"$\"\"!$!39++++++gH!#;7$$!3!******\\2<#pG!#<$!3/tJjOdpGFF-7$$!3#)*
+**\\7bBav#F1$!3IeznD'=T`#F-7$$!36++]K3XFEF1$!3d'=H-z@FK#F-7$$!3%)****
+\\F)H')\\#F1$!3>V%p9)H'y6#F-7$$!3#****\\i3@/P#F1$!3dqKKhm)=#>F-7$$!3;+
++Dr^b^AF1$!3uGQ0F+CZ<F-7$$!3$****\\7Sw%G@F1$!39cF@M.bt:F-7$$!3*****\\7
+;)=,?F1$!3^<Xm6(o:S\"F-7$$!3/++DO\"3V(=F1$!3U2rbm$yyB\"F-7$$!3#******
+\\V'zV<F1$!3W!\\7#e\\cx5F-7$$!3******\\d;%)G;F1$!3XKw\\:.LJ%*F17$$!3!*
+*****\\!)H%*\\\"F1$!3%>h$HuE%Q*zF17$$!3/+++vl[p8F1$!3h_D&)>gLJmF17$$!3
+\"******\\>iUC\"F1$!3;A\\x&3'*\\R&F17$$!3-++DhkaI6F1$!3Hax+$)>\\PVF17$
+$!3s******\\XF`**!#=$!3akUU?I!3;$F17$$!3u*******>#z2))Fgp$!3=S6_u!eEB#
+F17$$!3S++]7RKvuFgp$!3LjI#3$yCK7F17$$!3s,+++P'eH'Fgp$!3+]Y&\\D0#yTFgp7
+$$!3q)***\\7*3=+&Fgp$\"3)=a!oRd9*)RFgp7$$!3[)***\\PFcpPFgp$\"3'pBLp$p#
+>5\"F17$$!3;)****\\7VQ[#Fgp$\"33m$H\\.\\xv\"F17$$!32)***\\i6:.8Fgp$\"3
+_*>W1r3,H#F17$$!3Wb+++v`hH!#?$\"3#o_4`T<$*y#F17$$\"3]****\\(QIKH\"Fgp$
+\"3$)=jXjUUDKF17$$\"38****\\7:xWCFgp$\"3,V+ae>nONF17$$\"3E,++vuY)o$Fgp
+$\"3B53YvKL,QF17$$\"3!z******4FL(\\Fgp$\"33LPNx@y'*RF17$$\"3A)****\\d6
+.B'Fgp$\"3#[5#G\"R486%F17$$\"3s****\\(o3lW(Fgp$\"33*o2$G8$*\\TF17$$\"3
+5*****\\A))oz)Fgp$\"3/aXOURj4TF17$$\"3e******Hk-,5F1$\"3w$\\favl()*RF1
+7$$\"36+++D-eI6F1$\"3myMhh3Q-QF17$$\"3u***\\(=_(zC\"F1$\"3)p8Ecj\\[b$F
+17$$\"3M+++b*=jP\"F1$\"3N)\\e)f*Q&3KF17$$\"3g***\\(3/3(\\\"F1$\"3*3ko3
+2!\\5GF17$$\"33++vB4JB;F1$\"3+795tse>BF17$$\"3u*****\\KCnu\"F1$\"3#z!z
+)y[(pl<F17$$\"3s***\\(=n#f(=F1$\"3&=m6wl$\\26F17$$\"3P+++!)RO+?F1$\"3M
+:aW?!e\"yRFgp7$$\"30++]_!>w7#F1$!3?\\RY\"4A![SFgp7$$\"3O++v)Q?QD#F1$!3
+O&[))y#=ax7F17$$\"3G+++5jypBF1$!3m+A:c%)*o9#F17$$\"3<++]Ujp-DF1$!3<24j
+DnmAKF17$$\"3++++gEd@EF1$!3gUF)>8#ocUF17$$\"39++v3'>$[FF1$!3T4a\"4-vQV
+&F17$$\"37++D6EjpGF1$!3'oy=gx@Gj'F17$$\"\"$F*$!3y,++++++!)F1-%'COLOURG
+6&%$RGBG$F*F*F_[l$\"*++++\"!\")-F$6$7W7$F($\"#CF*7$$!3&*****\\P&3Y$HF1
+$\"3%pt#pStE5AF-7$F/$\"3i%\\<MM(4G?F-7$$!3')**\\78.K7GF1$\"31Wv\"RcSc(
+=F-7$F5$\"3Um<>)=>(G<F-7$$!3'***\\(=>P9p#F1$\"3'=N3yq$**p:F-7$F:$\"3()
+=oO%[J!=9F-7$$!3w******H./jDF1$\"3M>CqE`wr7F-7$F?$\"3+/\\W)p'4K6F-7$FD
+$\"3b!\\FE(Q:K()F17$FI$\"3Cjj$\\:b@b'F17$FN$\"3**HKCnpI4XF17$FS$\"3)o6
+TidVmh#F17$FX$\"3rqD(=`]*H%*Fgp7$Fgn$!3odAHf'z2n&Fgp7$F\\o$!3[,sOsZ\"z
+s\"F17$Fao$!3)=o([/)fX&GF17$Ffo$!3>fGqMO!R!QF17$F[p$!3+K?#3;8hb%F17$F`
+p$!3#R<VjZ$*)3^F17$Fep$!3tp)o$G0'[h&F17$F[q$!3gQ_BW];BfF17$F`q$!3E0LA-
+E1`hF17$Feq$!3Ou+k*y:(\\iF17$Fjq$!3aK.LeA2]iF17$F_r$!3Wx'Qc^`o:'F17$Fd
+r$!3O(\\y^Gm@(fF17$Fir$!3&)fpBgUaKdF17$F^s$!3$*GB&p\\w#3aF17$Fds$!3wGI
+lp<_4]F17$Fis$!3'>!o1w$p&>YF17$F^t$!3#eX4D^([iTF17$Fct$!3?Bu:w[mgOF17$
+Fht$!3E!\\td>$G]JF17$F]u$!3EoGCs()>ZEF17$Fbu$!3E.HX&RO&)3#F17$Fgu$!3w^
+-+8\\*ef\"F17$F\\v$!37\\r@c5p*3\"F17$Fav$!3OMd$[')G>d'Fgp7$Ffv$!3l[ah$
+ozKA#Fgp7$F[w$\"3M`y&=@)4=9Fgp7$F`w$\"3#\\z>xB0Sm%Fgp7$Few$\"3AFUcZ%=C
+>(Fgp7$Fjw$\"3gR/#>bhr0*Fgp7$F_x$\"3\\-r^%>X,+\"F17$Fdx$\"3!*y_km\\_+5
+F17$Fix$\"3y\\y@h#><&*)Fgp7$F^y$\"3OR%[D[lB(pFgp7$Fcy$\"3z'>M@`6MT$Fgp
+7$Fhy$!3>M!)4vgXD5Fgp7$F]z$!3y#fBs<a&erFgp7$Fbz$!3#R&yA*)[1Z9F17$Fgz$!
+3M+++++++CF1-F\\[l6&F^[lF*F*F*-F$6$7\\o7$F(F_[l7$$!3)****\\(oUInHF1$\"
+31Ibbs\"3)*o(Fgp7$Fj[l$\"3k([M9&[%p]\"F17$$!3#****\\i!G\">!HF1$\"36q@8
+7I^9AF17$F/$\"3I-*zNs+B*GF17$Fb\\l$\"3:f\\&GS'e-SF17$F5$\"33&y!)f.3x-&
+F17$Fj\\l$\"3Kx;V(>2F3'F17$F:$\"3b@yp)=9$QqF17$Fb]l$\"30+**HUC@/zF17$F
+?$\"3cO>Tk:.y')F17$$!3))**\\(oXDXV#F1$\"3ek]]f3#4O*F17$FD$\"3Ar%o<zR3'
+**F17$$!3/++vG\"))4J#F1$\"3/o)f;fRY/\"F-7$FI$\"3aK]m9vr'3\"F-7$FN$\"3-
+PMW7)pX:\"F-7$$!3=++D\"GK[1#F1$\"3u,mAX59!=\"F-7$FS$\"3%=$p\\*3!p*>\"F
+-7$$!3!****\\([\"[x$>F1$\"3%f(Rf\\b_87F-7$FX$\"3\\(RPM%G0A7F-7$$!36+v$
+4@!oT=F1$\"3)oJA#**zZC7F-7$$!3)***\\i&G_!4=F1$\"3Q$*e#*p(GcA\"F-7$$!3%
+)*\\7.OCkx\"F1$\"3)z#3A%4[bA\"F-7$Fgn$\"3X+'znOyUA\"F-7$$!3%****\\i/>j
+o\"F1$\"3sVOPmmF>7F-7$F\\o$\"3mI>64$R4@\"F-7$$!3%****\\7tNTc\"F1$\"37E
+UU,b$y>\"F-7$Fao$\"3-K%4WO(3\"=\"F-7$Ffo$\"3)zK.L`Mw8\"F-7$F[p$\"3k.X3
+x!H^3\"F-7$F`p$\"3/U+x`>1I5F-7$Fep$\"3'\\lT%e*)zt&*F17$F[q$\"3@.b'Q&Q&
+>\"*)F17$F`q$\"3s&fF&oT\"f5)F17$Feq$\"3a`%yQ%3attF17$Fjq$\"3744&odIOc'
+F17$F_r$\"3g.C]s;K)z&F17$Fdr$\"3o.1q/Bp<]F17$Fir$\"3;:j7#)44EVF17$F^s$
+\"3$G'e)ec/gh$F17$Fds$\"39ep*3f6j#HF17$Fis$\"3Yx&zu#HbrBF17$F^t$\"3RJD
+z[85D=F17$Fct$\"3;8lcL)\\AK\"F17$Fht$\"39E_F\"Ri.%*)Fgp7$F]u$\"3t5:o<f
+W9aFgp7$Fbu$\"32_WmX$Qv@#Fgp7$Fgu$!3#RM7%*4\"=S;F`s7$F\\v$!33FJ4\"G%H`
+<Fgp7$Fav$!3_0^L='Gex#Fgp7$Ffv$!3Yih9d)zaL$Fgp7$F[w$!3/vv^,*f#zLFgp7$F
+`w$!3ofuqYz')))HFgp7$Few$!3_Hk)[(p@]AFgp7$Fjw$!3UBag_$=8>\"Fgp7$F_x$\"
+3F(\\V1[k+k$!#@7$Fdx$\"3e5ldG%[uG\"Fgp7$Fix$\"35R.93\"H_\\#Fgp7$F^y$\"
+3qs+_XtHGMFgp7$Fcy$\"3d(e%***f?V8%Fgp7$Fhy$\"3#>'4UnJV)G%Fgp7$F]z$\"3c
+g'QiYVby$Fgp7$Fbz$\"3wGzv5cH)[#Fgp7$FgzF_[l-F\\[l6&F^[lF`[lF_[lF_[l-%+
+AXESLABELSG6$Q\"x6\"Q\"yF[dm-%%VIEWG6$;F(Fgz;$Fb[lF*$\"#:F*" 1 2 0 1 
+10 0 2 9 1 4 2 1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve 2" "C
+urve 3" }}{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "20.  Find an example
+ of an non-diagonal matrix " }{TEXT 315 1 "A" }{TEXT -1 11 " such that
+ " }{TEXT 317 2 "tr" }{TEXT -1 1 "(" }{TEXT 318 1 "A" }{TEXT -1 4 ") =
+ " }{TEXT 319 3 "det" }{TEXT -1 1 "(" }{TEXT 320 1 "A" }{TEXT -1 2 ").
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{MARK "27 0" 16 }{VIEWOPTS 1 1 0 1 1 1803 
+1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

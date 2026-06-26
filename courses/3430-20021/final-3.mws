@@ -1,0 +1,216 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 
+257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 24 "MATH 3430-001 Final Exam" }}
+{PARA 256 "" 0 "" {TEXT -1 15 "14 January 2003" }}{PARA 256 "" 0 "" 
+{TEXT -1 7 "Part II" }}{PARA 256 "" 0 "" {TEXT -1 12 "Due: 4:00 pm" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 122 "Name:   \+
+                                                                      \+
+                                            " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 119 "Put your name on the worksheet
+ and save your worksheet as Final.mws.   All statements are to appear \+
+on the worksheet.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 161 "Annotate your conclusions so that the reader does not \+
+have to interpolate the relationships between the stated exam question
+s and the printed Maple computations." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 44 "II-1.  (10 points) Analyze the graph \+
+of     " }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "f := (10*x^2-50*x+6
+0)/(2*x^3+x+4*x^2+2);" "6#>%\"fG*&,(*&\"#5\"\"\"*$%\"xG\"\"#F)F)*&\"#]
+F)F+F)!\"\"\"#gF)F),**&F,F)*$F+\"\"$F)F)F+F)*&\"\"%F)*$F+F,F)F)F,F)F/
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "Find
+ all intercepts of the graph of  " }{TEXT 262 1 "f" }{TEXT -1 49 ", al
+l local maximum and local minimum values of  " }{TEXT 263 2 "f," }
+{TEXT -1 44 " and all inflection points of the graph of  " }{TEXT 260 
+1 "f" }{TEXT -1 74 ".  Also, identify all, if any, asymptotic behavior
+(s) which the graph of  " }{TEXT 261 2 "f " }{TEXT -1 46 " possesses. \+
+Provide a sketch of the graph of  " }{TEXT 264 1 "f" }{TEXT -1 47 "  (
+or, where needed, sketches of the graph of  " }{TEXT 265 1 "f" }{TEXT 
+-1 44 " ) which illustrate the above information.  " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 136 "II-2.   (10 points) So
+lve the following linear system .  Clearly identify the complete solut
+ion set for this system of linear equations." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "2*x[1]+3*x[2]-4*x[3]+5*x[5] =
+ -2;" "6#/,**&\"\"#\"\"\"&%\"xG6#F'F'F'*&\"\"$F'&F)6#F&F'F'*&\"\"%F'&F
+)6#F,F'!\"\"*&\"\"&F'&F)6#F5F'F',$F&F3" }{TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {XPPEDIT 18 0 "x[1]+3*x[2]-2*x[3]+x[4] = 3;" "6#/,*&%\"xG6#\"\"\"F(
+*&\"\"$F(&F&6#\"\"#F(F(*&F-F(&F&6#F*F(!\"\"&F&6#\"\"%F(F*" }{TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "x[1]+2*x[3]-x[4]+x[5] = 0;" "6#/
+,*&%\"xG6#\"\"\"F(*&\"\"#F(&F&6#\"\"$F(F(&F&6#\"\"%!\"\"&F&6#\"\"&F(\"
+\"!" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 107 "II-3.  (10 points)  Using Maple, solve the following sys
+tem of linear equations using two different methods" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPEDIT 18 0 "-x+y-5*z = 2;" "6#/,
+(%\"xG!\"\"%\"yG\"\"\"*&\"\"&F(%\"zGF(F&\"\"#" }{TEXT -1 0 "" }}{PARA 
+11 "" 1 "" {XPPEDIT 18 0 "-2*x-y = -1;" "6#/,&*&\"\"#\"\"\"%\"xGF'!\"
+\"%\"yGF)F)" }{TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPEDIT 18 0 "x-y+2*z \+
+= 1;" "6#/,(%\"xG\"\"\"%\"yG!\"\"*&\"\"#F&%\"zGF&F&F&" }{TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 6 "      " }}{PARA 0 "" 0 "" {TEXT -1 20 " \+
+       Note:  Only " }{TEXT 256 3 "one" }{TEXT -1 48 " of the two meth
+ods may use an augmented matrix." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 39 "II-4.  (10 points)  Consider the matrix" 
+}}{PARA 256 "" 0 "" {XPPEDIT 18 0 "A := matrix([[2, 0, 3, 5], [1, -1, \+
+2, 2], [0, 1, 0, 1], [1, 0, 1, 2]]);" "6#>%\"AG-%'matrixG6#7&7&\"\"#\"
+\"!\"\"$\"\"&7&\"\"\",$F/!\"\"F*F*7&F+F/F+F/7&F/F+F/F*" }{TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 27 "   Find the eignvalues of  " }{TEXT 
+257 4 "A.  " }}{PARA 0 "" 0 "" {TEXT -1 27 "   For each eigenvalue of \+
+ " }{TEXT 258 1 "A" }{TEXT -1 75 " determine the dimension of the eige
+nspace associated with that eigenvalue." }}{PARA 0 "" 0 "" {TEXT -1 
+17 "   Show that if  " }{XPPEDIT 18 0 "lambda[1]" "6#&%'lambdaG6#\"\"
+\"" }{TEXT -1 5 ",...," }{XPPEDIT 18 0 "lambda[k]" "6#&%'lambdaG6#%\"k
+G" }{TEXT -1 35 "  are the distinct eigenvalues of  " }{TEXT 259 1 "A
+" }{TEXT -1 33 " with corresponding eigenvectors " }{XPPEDIT 18 0 "x[1
+]" "6#&%\"xG6#\"\"\"" }{TEXT -1 4 ",..," }{XPPEDIT 18 0 "x[k]" "6#&%\"
+xG6#%\"kG" }{TEXT -1 8 ",  then " }{XPPEDIT 18 0 "x[1]" "6#&%\"xG6#\"
+\"\"" }{TEXT -1 4 ",..," }{XPPEDIT 18 0 "x[k]" "6#&%\"xG6#%\"kG" }
+{TEXT -1 27 " are linearly independent. " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 85 "II-5.  (10 points)  Find the gener
+al solution of the system of differential equations" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }{XPPEDIT 19 1 "\{di
+ff(x[1](t),t) = x[1](t)-2*x[2](t)+t, diff(x[2](t),t) = -2*x[1](t)-2*x[
+2](t)-3+t\};" "6#<$/-%%diffG6$-&%\"xG6#\"\"\"6#%\"tGF.,(-&F*6#F,6#F.F,
+*&\"\"#F,-&F*6#F56#F.F,!\"\"F.F,/-F&6$-&F*6#F56#F.F.,**&F5F,-&F*6#F,6#
+F.F,F:*&F5F,-&F*6#F56#F.F,F:\"\"$F:F.F," }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 72 "II-6.  (10 points)  Determine how ma
+ny primes lie between 1001 and 9999." }}{PARA 0 "" 0 "" {TEXT -1 45 "I
+I-7.  (10 points)  Find the coefficient of  " }{XPPEDIT 18 0 "x^37*y^6
+0" "6#*&%\"xG\"#P%\"yG\"#g" }{TEXT -1 24 "  in the expansion of   " }
+{XPPEDIT 18 0 "(x+y^2)^67" "6#*$,&%\"xG\"\"\"*$%\"yG\"\"#F&\"#n" }
+{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 69 "II-8.  (10 points)   Find all roots of the polynomials  \+
+\n        a)  " }{XPPEDIT 19 1 "p[1] := x^4+2*x^3-7*x-4;" "6#>&%\"pG6#
+\"\"\",**$%\"xG\"\"%F'*&\"\"#F'*$F*\"\"$F'F'*&\"\"(F'F*F'!\"\"F+F2" }
+{TEXT -1 11 "       b)  " }{XPPEDIT 19 1 "p[2] := x^5+2*x^2+8*x-4 \n" 
+"6#>&%\"pG6#\"\"#,**$%\"xG\"\"&\"\"\"*&F'F,*$F*F'F,F,*&\"\")F,F*F,F,\"
+\"%!\"\"" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 69 "II-9.   (10 po
+ints)  On the same axes plot the following conics:     " }{XPPEDIT 19 
+1 "k*x^2-(1-k)*y = y*sin(y);" "6#/,&*&%\"kG\"\"\"*$%\"xG\"\"#F'F'*&,&F
+'F'F&!\"\"F'%\"yGF'F-*&F.F'-%$sinG6#F.F'" }{TEXT -1 12 "      for   " 
+}{XPPEDIT 18 0 "k=-3,-2,-1,0,1,2,3  " "6)/%\"kG,$\"\"$!\"\",$\"\"#F',$
+\"\"\"F'\"\"!F+F)F&" }{TEXT -1 3 ".  " }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 68 "II-10.   (10 points)  10. The followi
+ng is the graph of a function  " }{TEXT 266 1 "f" }{TEXT -1 19 ", its \+
+derivative d " }{TEXT 267 1 "f" }{TEXT -1 30 ", and its second derivat
+ive dd" }{TEXT 268 2 " f" }{TEXT -1 19 ".  Which graph is  " }{TEXT 
+269 1 "f" }{TEXT -1 13 ", which is d " }{TEXT 270 1 "f" }{TEXT -1 18 "
+, and which is dd " }{TEXT 271 1 "f" }{TEXT -1 2 " ?" }}{PARA 256 "" 
+0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{GLPLOT2D 569 559 559 {PLOTDATA 2 "6(-%'CURVESG6$7gn7$$!#5\"\"!$!3M#p2
+Bp2B9\"!#;7$$!3!pmmm\"p0k&*!#<$!3+#oFY*fQ&4\"F-7$$!3uKL$3<XZ=*F1$!37x=
+Xi2Ea5F-7$$!3WmmmT%p\"e()F1$!3q'zJ,ZFw+\"F-7$$!3/nmm\"4m(G$)F1$!3q$*HO
+@%*3-'*F17$$!3OLL$3i.9!zF1$!3k(=is4(eC\"*F17$$!3fmm;/R=0vF1$!35>pY%pMg
+n)F17$$!3k++]P8#\\4(F1$!3Dp<qdEd/#)F17$$!3Kmm;/siqmF1$!3!y%y=8q/3xF17$
+$!3Q****\\(y$pZiF1$!3$3z!46b@-sF17$$!3jKLL$yaE\"eF1$!3_#GUR_j!omF17$$!
+3<mmm\">s%HaF1$!35Y;x5sQ$='F17$$!3]******\\$*4)*\\F1$!3oJli>p9=cF17$$!
+3o******\\_&\\c%F1$!3C_o[99jC]F17$$!3%)******\\1aZTF1$!3>?T>++w@WF17$$
+!3Imm;/#)[oPF1$!3;8Rz5r]TQF17$$!3%HLLL=exJ$F1$!3`&G1]n+35$F17$$!3lKLLL
+2$f$HF1$!3Dk(4)G$=0U#F17$$!3%)****\\PYx\"\\#F1$!3)HW0X\"oRc:F17$$!3gLL
+LL7i)4#F1$!3U4X3f;>+s!#=7$$!3o)***\\P'psm\"F1$\"3!\\IYSYdMm#Fhq7$$!3?*
+***\\74_c7F1$\"3o-n+/!p$H7F17$$!3M:LL$3x%z#)Fhq$\"3]odW&))ft9#F17$$!3g
+AL$e9d;J'Fhq$\"3+%)R!y!G(**[#F17$$!3()HLL3s$QM%Fhq$\"3uv55'e&>bFF17$$!
+3akmT&QdDG$Fhq$\"3eK2g=FBgGF17$$!3>****\\ivF@AFhq$\"3]F0@))*oj$HF17$$!
+3'QL$eRx**f6Fhq$\"3+f(oWaZG)HF17$$!3]^omm;zr)*!#?$\"3Km!Gr%z()**HF17$$
+\"3^ML3_Nl.5Fhq$\"3+tz<RAp()HF17$$\"3aPL$3-Dg5#Fhq$\"3UQ$3P(eZZHF17$$
+\"3cSLe*['R3KFhq$\"3eQO)R:0E)GF17$$\"3fVLLezw5VFhq$\"3)RFXm[lrz#F17$$
+\"3JtmmmJ+IiFhq$\"3X\\AuE]&Gh#F17$$\"3-.++v$Q#\\\")Fhq$\"3R&oyWO0TS#F1
+7$$\"3%\\LL$e\"*[H7F1$\"3wX2`ke)e'>F17$$\"3=++++dxd;F1$\"3()*o0mSv)Q;F
+17$$\"3Q++]7JFn=F1$\"3$yI'GGp-T:F17$$\"3e+++D0xw?F1$\"3)z&4-EoN$[\"F17
+$$\"3%3+]P/q%zAF1$\"3w9;xcd#GY\"F17$$\"35,+]i&p@[#F1$\"3#zE%*[mFLZ\"F1
+7$$\"3++++vgHKHF1$\"3%\\3EWX&z)e\"F17$$\"3ElmmmZvOLF1$\"3Wny'flhjx\"F1
+7$$\"3%4+++v+'oPF1$\"3=5HU$)H?R?F17$$\"3UKL$eR<*fTF1$\"3N6**e3Ik<BF17$
+$\"3K-++])Hxe%F1$\"3w#\\'z)foNl#F17$$\"3!fmm\"H!o-*\\F1$\"3#[$GU&)[h\"
+*HF17$$\"3X,+]7k.6aF1$\"3OxJt!)>jhLF17$$\"3#emmmT9C#eF1$\"3u,J]GshNPF1
+7$$\"33****\\i!*3`iF1$\"3j[&QM7'zOTF17$$\"3;NLLL*zym'F1$\"353!Q>06-`%F
+17$$\"3'eLL$3N1#4(F1$\"3'H9rl`Wz$\\F17$$\"3,pm;HYt7vF1$\"3#)\\'pKuTkM&
+F17$$\"37-+++xG**yF1$\"3$>rkj^GYs&F17$$\"3gpmmT6KU$)F1$\"3#f'\\)*Q#f1;
+'F17$$\"3qNLLLbdQ()F1$\"3'\\q%\\D/\\_lF17$$\"3[++]i`1h\"*F1$\"3s,NLZ\\
+wrpF17$$\"3A-+]P?Wl&*F1$\"3#[\\%e\"p9UP(F17$$\"#5F*$\"3\\2Bp2Bp2yF1-%'
+COLOURG6&%$RGBG$F*F*$\"*++++\"!\")Fa^l-F$6$7ho7$F($\"3E\"f+r?&[s5F17$F
+/$\"3=?U?d%e.3\"F17$F5$\"3AB))4vuA)3\"F17$F:$\"3c+OWBcV)4\"F17$F?$\"3#
+zEK&z]Y56F17$FD$\"3z\"Rq3SwX7\"F17$FI$\"3#oKBC3***R6F17$FN$\"3w$e]g*G*
+)e6F17$FS$\"3UymA7,K#=\"F17$FX$\"3#*p6rZxh57F17$Fgn$\"3G4#Q&*[\"GY7F17
+$F\\o$\"3#)**Q\"[\\*o%G\"F17$Fao$\"3+f]_+_&zL\"F17$Ffo$\"3#*R1@!yK^S\"
+F17$F[p$\"3_yd#3rJl[\"F17$F`p$\"3Q`Y'*GE<y:F17$Fep$\"3$3)y0\"4'o8<F17$
+Fjp$\"3iSGaS/W`=F17$F_q$\"3+:H7Cq5T?F17$Fdq$\"3zQ;WUTR6AF17$$!39mmTNa%
+H)=F1$\"3%4!4+Oo&4H#F17$Fjq$\"3Z;x0m?qWBF17$$!3v)*\\(o/Efh\"F1$\"37\"
+\\(eYat^BF17$$!3#))**\\iX#ek:F1$\"35,&[cFhfN#F17$$!3())*\\il)QK^\"F1$
+\"3'R^O`ziqN#F17$$!3%*)****\\F&*=Y\"F1$\"3CzXTP%3ZN#F17$$!3+**\\P%o^0T
+\"F1$\"3o?81\")Qb[BF17$$!31***\\P43#f8F1$\"3Ibg`UZCQBF17$$!38**\\7.X'y
+I\"F1$\"3_?yGj*>MK#F17$F_r$\"3w0%*Hbfr.BF17$$!3PlmT5VBU5F1$\"3/*4Xz0v4
+;#F17$Fdr$\"3v\\Nr*z=Y!>F17$$!3'*=Le9rc&H(Fhq$\"3Oa'4fT*QX<F17$Fir$\"3
+o6(>!R!Q.c\"F17$$!3BEL3xruF`Fhq$\"3+7C#e`v7N\"F17$F^s$\"3f,TN@tS@6F17$
+Fcs$\"3U;6-r#*oa&)Fhq7$Fhs$\"3Asj44aE\"y&Fhq7$F]t$\"33O0V:x$4)HFhq7$Fb
+t$\"3q'zI5HO^Z#!#>7$Fht$!3y!**oB*3J@CFhq7$F]u$!3&4Y45T<O#[Fhq7$Fbu$!3m
+@mRhx[$)oFhq7$Fgu$!31)p_t;w)[&)Fhq7$F\\v$!3q&Gj_ZhW/\"F17$Fav$!3(H$[Kc
+m$=6\"F17$$\"3Mr;/E]Wn')Fhq$!3T['**=Af96\"F17$$\"3iRL3x;l&=*Fhq$!3+rtA
+\\p9/6F17$$\"3$z+D\"G$eQq*Fhq$!3+CoT>8Y!4\"F17$$\"3inm\"z\\1A-\"F1$!3!
+p9y!>&y42\"F17$$\"3G,]7Gy%e7\"F1$!3A7&=GcPp,\"F17$Ffv$!373GWD8fl%*Fhq7
+$$\"3cnm;HCjV9F1$!3_H*)\\nQ[qwFhq7$F[w$!3UfK%*)Hu5m&Fhq7$F`w$!31c,$*=(
+y=p$Fhq7$Few$!3sa5>h**pR=Fhq7$Fjw$!39aeq_0^i@Ffgl7$F_x$\"39u.Q!yT5A\"F
+hq7$Fdx$\"3k-z%[8]*oPFhq7$Fix$\"33<^*oaF%=aFhq7$F^y$\"3#G\\()[@w>o'Fhq
+7$Fcy$\"35ZN^E0c1vFhq7$Fhy$\"3GphML\\$=;)Fhq7$F]z$\"3BRhRe*)R6')Fhq7$F
+bz$\"3![7(*o/5(e*)Fhq7$Fgz$\"3x)y3$GsG6#*Fhq7$F\\[l$\"3&)Q!\\[M%Q4%*Fh
+q7$Fa[l$\"3;L(\\^>NMb*Fhq7$Ff[l$\"3!plzvt@fm*Fhq7$F[\\l$\"3[]#px%zf^(*
+Fhq7$F`\\l$\"3KI)oV/aJ\")*Fhq7$Fe\\l$\"3S=(*GBtKo)*Fhq7$Fj\\l$\"3\"\\k
+ZPb^p!**Fhq7$F_]l$\"3dy>\"y(z`R**Fhq7$Fd]l$\"3%*yiTsSAk**Fhq7$Fi]l$\"3
+M:<f+r?&)**Fhq-F^^l6&F`^lFa^lFb^lFb^l-F$6$7ip7$F($\"3a!pq^7D%y;Ffgl7$F
+/$\"39qXPPgvT>Ffgl7$F5$\"3ROdsJ<%\\@#Ffgl7$F:$\"3_]mA%3iIe#Ffgl7$F?$\"
+345,.\\N4NIFfgl7$FD$\"3_N)HLfT\")e$Ffgl7$FI$\"3p$)RNG)=z@%Ffgl7$FN$\"3
+sR\"zs6,;-&Ffgl7$FS$\"3!4'=mWvOhgFfgl7$FX$\"3mWtqueBstFfgl7$Fgn$\"3)*z
+kv_+x&4*Ffgl7$F\\o$\"3hkTApCQ-6Fhq7$Fao$\"3)>XH\\'=0z8Fhq7$Ffo$\"3Fka9
+zs+Q<Fhq7$F[p$\"3%oaQ'>t1z@Fhq7$F`p$\"3)\\\"Q:+*p3n#Fhq7$Fep$\"3%3q9cL
+3mN$Fhq7$Fjp$\"3%o;Mz%*>b&RFhq7$$!3CmmT&o_Qr#F1$\"3YXbd)\\._C%Fhq7$F_q
+$\"30[6zpv$QT%Fhq7$$!3Lm\"z>YIEW#F1$\"3[qq'*R.6DWFhq7$$!3EL$ekG'[$R#F1
+$\"35F7Em#>SU%Fhq7$$!3A+v$46UVM#F1$\"3+@\"Q>b%)*3WFhq7$$!3smmTNz>&H#F1
+$\"3ouc!R]\"HyVFhq7$$!3;+]P%e4p>#F1$\"3kH'\\!ppOiUFhq7$Fdq$\"3u$)frD@m
+fSFhq7$Febl$\"3y/%f$fxq9KFhq7$Fjq$\"3^v@ij;\\B;Fhq7$Fbcl$\"3M+'=,^!G$H
+&Ffgl7$F\\dl$!3U95Snzks\")Ffgl7$Ffdl$!32%[,r$*GeV#Fhq7$F_r$!3'f7'pW:PO
+VFhq7$$!3GK$e9hx$\\6F1$!3mq6'yIG_h'Fhq7$Fcel$!3'3'G/z5.p\"*Fhq7$$!3]%)
+*\\P454N*Fhq$!3!)=s))=Z:%>\"F17$Fdr$!3kH,%z$\\I%[\"F17$F[fl$!31@W<&)e[
+^<F17$Fir$!3`EJG%)*=q+#F17$Fcfl$!3Utwtb)zrB#F17$F^s$!3DX<b]'RvU#F17$Fc
+s$!3c\\\\&fQ#RsDF17$Fhs$!3))y'zk\\)QSEF17$$!3'G$3x1w&f&>Fhq$!3p4+A4%GT
+k#F17$$!3_m;/^wj!p\"Fhq$!3Jqm:l(\\Bk#F17$$!3>+DJ&p<`U\"Fhq$!3&z'fmbA*
+\\j#F17$F]t$!3J4(G\"oT-AEF17$$!3%=,]7GyNH'Ffgl$!3'4yar*fFzDF17$Fbt$!3C
+q\"o71TW^#F17$Fht$!3Vzj@_7<8BF17$F]u$!3y:3HSspL?F17$$\"3/R$3_v5sl#Fhq$
+!3AwPd<&e0(=F17$Fbu$!3gv_`B\"fbp\"F17$$\"33U$eRA#efPFhq$!3+)>la[,<^\"F
+17$Fgu$!3<85\"p8G?K\"F17$$\"3W3+]ibQq_Fhq$!335a9Y\"4v')*Fhq7$F\\v$!3G+
++P)oZVd'Fhq7$$\"3=QL$3x?'*=(Fhq$!3'Ru,teBTY$Fhq7$Fav$!3P'H,SlZCJ'Ffgl7
+$F_il$\"3,-j+\"H$QW?Fhq7$Fiil$\"3Wv%pzw^;G%Fhq7$F^jl$\"3iLYD&R0N2'Fhq7
+$Ffv$\"3f#[oVnT$RuFhq7$$\"3D,+v$zglL\"F1$\"3*yO%)ev$)HW)Fhq7$Ffjl$\"3%
+\\G%*>s>`3*Fhq7$$\"3s+](oCor\\\"F1$\"39KJy%\\6\"*G*Fhq7$$\"3)QL$ekSq]:
+F1$\"3$3[m^\\3WU*Fhq7$$\"3.n;H#))RUg\"F1$\"3%4q)[fqM)\\*Fhq7$F[w$\"3DN
+k-6$)z<&*Fhq7$$\"3B+]7`+:5<F1$\"3YU\\:3&z.\\*Fhq7$$\"3G++D1W_i<F1$\"36
+$G\\HxCGU*Fhq7$$\"3M+]Pf()*[\"=F1$\"3#=Iu*pj]?$*Fhq7$F`w$\"3AUeC(4%R)=
+*Fhq7$$\"3]++v==-s>F1$\"3m*fu:!)HE&))Fhq7$Few$\"3#)eIB%zJsW)Fhq7$F_x$
+\"3U()=:b3AFmFhq7$Fdx$\"3+7-nKT'*eZFhq7$Fix$\"37h?d7elfMFhq7$F^y$\"3Wx
+%oBg<0X#Fhq7$Fcy$\"3g&Hm7ct$*z\"Fhq7$Fhy$\"3U*3Cl+jTH\"Fhq7$F]z$\"3'zz
+Ctx]2e*Ffgl7$Fbz$\"3o'Gq]/K#pqFfgl7$Fgz$\"3/*[t?rBYI&Ffgl7$F\\[l$\"3cC
+&e7:xq'RFfgl7$Fa[l$\"3ZJt$*y%\\f-$Ffgl7$Ff[l$\"3.h+)RW8JJ#Ffgl7$F[\\l$
+\"3g.K*QQ,`y\"Ffgl7$F`\\l$\"3*G*os$3N_T\"Ffgl7$Fe\\l$\"3IPTsUur!4\"Ffg
+l7$Fj\\l$\"3#eu:BTO$y')Fdt7$F_]l$\"3G3J/V>!e#oFdt7$Fd]l$\"32#fr'[UCQaF
+dt7$Fi]l$\"3_Q.i@D=nUFdt-F^^l6&F`^lFb^lFa^lFa^l-%+AXESLABELSG6$Q\"x6\"
+Q\"yFadn-%*THICKNESSG6#\"\"#-%%VIEWG6$;F(Fi]lFjdn" 1 2 0 1 10 2 2 9 1 
+4 2 1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve 2" "Curve 3" }}}
+}{MARK "44 1" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 
+33 1 1 }

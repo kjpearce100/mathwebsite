@@ -1,0 +1,123 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 257 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 20 "MATH 3430-001 EXAM 1" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 174 "Name:         \+
+                                                                      \+
+                                                                  Date
+: 25 September 2002\n" }}{PARA 0 "" 0 "" {TEXT -1 119 "Put your name o
+n the worksheet and save your worksheet as exam1.mws.   All statements
+ are to appear on the worksheet.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 80 "Turn in a printed version of worksheet at
+ the end of the testing period today.  " }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 347 "Should there be problems on the exa
+m for which you do not find the answers during the testing period toda
+y, you may submit an electronic version of the worksheet to me (throug
+h the WebCT e-mail interface) by 4:00 pm tomorrow and I will grade tho
+se problems at half credit and add their scores to the scores on the p
+rinted version of the worksheet." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 59 "I.  a.  (4 pts) What is the definition of
+ a \"prime number\"?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 90 "    b1.  (4 pts) Use Maple to determine whether there a
+re five primes in the range 1 - 29." }}{PARA 0 "" 0 "" {TEXT -1 95 "\n
+    b2.  (4 pts) Use Maple to determine whether there are five primes \+
+in the range 701 - 729.\n" }}{PARA 0 "" 0 "" {TEXT -1 98 "    b3.  (4 \+
+pts) Use Maple to determine whether there are five primes in the range
+ 100701 -100729." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 75 "         In number theory, a number k (a positive integer
+) is said to be a " }{TEXT 257 14 "proper divisor" }{TEXT -1 85 " of a
+ number n (a positive integer) if \n                         (i)  k di
+vides n    " }{TEXT 258 3 "and" }{TEXT -1 101 "      (ii) if k < n.\n \+
+        In number theory, a number n (a positive integer) said to be:
+\n         " }{TEXT 256 23 "               abundant" }{TEXT -1 54 " if
+ the sum of the proper divisors of n is more than n" }}{PARA 0 "" 0 "
+" {TEXT -1 24 "                        " }{TEXT 259 7 "perfect" }
+{TEXT -1 78 " if the sum of the proper divisors of n is equal to n\n  \+
+                      " }{TEXT 260 9 "deficient" }{TEXT -1 55 " if the
+ sum of the proper divisors of n is less than n\n" }}{PARA 0 "" 0 "" 
+{TEXT -1 215 "      c1.   (4 pts) Use Maple to find 2 numbers which ar
+e abundant.  (Hint:  it may help you to know the prime factorizations \+
+(guaranteed by the Fundamental Theorem of Algebra) of your abundant ca
+ndidates.)         " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 218 "      c2.   (4 pts) Use Maple to find 2 non-prime numb
+ers which are deficient.  (Hint:  it may help you to know the prime fa
+ctorizations (guaranteed by the Fundamental Theorem of Algebra) of you
+r deficient candidates.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 78 "         Notice we didn't say \"Use Maple to find \+
+4 numbers which are perfect.\"" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 72 "     e. Explain why the sum of  two odd i
+ntegers always an even integer." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 62 "     f.  (4 pts) Which of the following t
+wo numbers is larger?" }}{PARA 0 "" 0 "" {TEXT -1 44 "                \+
+                        (i) " }{XPPEDIT 18 0 " exp(Pi)  " "6#-%$expG6#
+%#PiG" }{TEXT -1 0 "" }{MPLTEXT 1 0 2 "  " }{TEXT -1 12 "or  (ii)    \+
+" }{XPPEDIT 18 0 "Pi^exp(1)" "6#)%#PiG-%$expG6#\"\"\"" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "     g.  (4 pts) Which
+ of the following two numbers is larger?" }}{PARA 0 "" 0 "" {TEXT -1 
+44 "                                        (i) " }{XPPEDIT 18 0 " exp
+(Pi)  " "6#-%$expG6#%#PiG" }{TEXT -1 0 "" }{MPLTEXT 1 0 2 "  " }{TEXT 
+-1 12 "or  (ii)    " }{XPPEDIT 18 0 "Pi^(exp(1)+440708883/16875933135)
+;" "6#)%#PiG,&-%$expG6#\"\"\"F)*&\"*$))32WF)\",NJ$f(o\"!\"\"F)" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 244 "II.  For
+ each of the following: (i)  find all the zeros of the polynomial and \+
+(ii) factor the polynomial completely into linear factors.  Include gr
+aph or graphs which clearly exhibit the x- and y-intercepts and all re
+lative maxima and minima. " }}{PARA 0 "" 0 "" {TEXT -1 15 "a.  (12 pts
+)   " }{XPPEDIT 18 0 "p1 := 6*x^3-12*x+7" "6#>%#p1G,(*&\"\"'\"\"\"*$%
+\"xG\"\"$F(F(*&\"#7F(F*F(!\"\"\"\"(F(" }{TEXT -1 5 "     " }}{PARA 0 "
+" 0 "" {TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 15 "b.  (12 pts)   \+
+" }{XPPEDIT 18 0 "p2 := -25*x+40*x^3-84*x^2+4*x^6-15*x^5+41*x^4+3" "6#
+>%#p2G,0*&\"#D\"\"\"%\"xGF(!\"\"*&\"#SF(*$F)\"\"$F(F(*&\"#%)F(*$F)\"\"
+#F(F**&\"\"%F(*$F)\"\"'F(F(*&\"#:F(*$F)\"\"&F(F**&\"#TF(*$F)F4F(F(F.F(
+" }{TEXT -1 5 "9    " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 82 "III.  (4 pts)  Use Maple to find all of the intersectio
+n points of the graphs of  " }{XPPEDIT 18 0 "y = x^3-2*x" "6#/%\"yG,&*
+$%\"xG\"\"$\"\"\"*&\"\"#F)F'F)!\"\"" }{TEXT -1 8 "   and  " }{XPPEDIT 
+18 0 "y = 2*cos(x)" "6#/%\"yG*&\"\"#\"\"\"-%$cosG6#%\"xGF'" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 20 "IV.  (20 pts)  Le
+t  " }{XPPEDIT 18 0 "f := (x^4-x^3-4*x^2+2*x+4)/(x^4-3*x^3+3*x^2-3*x+2
+);" "6#>%\"fG*&,,*$%\"xG\"\"%\"\"\"*$F(\"\"$!\"\"*&F)F**$F(\"\"#F*F-*&
+F0F*F(F*F*F)F*F*,,*$F(F)F**&F,F**$F(F,F*F-*&F,F**$F(F0F*F**&F,F*F(F*F-
+F0F*F-" }}{PARA 0 "" 0 "" {TEXT -1 9 "Consider " }{TEXT 261 1 "f" }
+{TEXT -1 67 " as a function of a real variable.  Find: (i) all of the \+
+zeros of  " }{TEXT 263 2 "f " }{TEXT -1 33 ", (ii) all values of x for
+ which " }{TEXT 262 1 "f" }{TEXT -1 65 " is not defined,  (iii) all ve
+rtical asymptotes to the graph of  " }{TEXT 264 2 "f " }{TEXT -1 63 ",
+ and (iv) any horizontal or slant asymptotes to the graph of  " }
+{TEXT 265 2 "f " }{TEXT -1 141 ".  Provide a graph (or graphs) which c
+learly displays all the intercepts and all the asymptotic behavior, an
+d any relative maxima and minima." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 113 "V.  Provide a picture which illustrates \+
+the effect of changing the parameter i on the graphs of the relations \+
+   " }}{PARA 257 "" 0 "" {TEXT -1 22 "      a. (4 pts)      " }
+{XPPEDIT 18 0 "x^3+3*x^2+(y+i)^2 = 1;" "6#/,(*$%\"xG\"\"$\"\"\"*&F'F(*
+$F&\"\"#F(F(*$,&%\"yGF(%\"iGF(F+F(F(" }{TEXT -1 4 "   \n" }}{PARA 257 
+"" 0 "" {TEXT -1 21 "      b. (4 pts)     " }{XPPEDIT 18 0 "x^3+i*x^2+
+y^2 = 1;" "6#/,(*$%\"xG\"\"$\"\"\"*&%\"iGF(*$F&\"\"#F(F(*$%\"yGF,F(F(
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 154 "VI. \+
+ Plot a graph for the following.  Choose reasonable values for the ran
+ges of x and y.  Rotate, where appropriate, to present a good view of \+
+the graph." }}{PARA 0 "" 0 "" {TEXT -1 22 "      a.  (4 pts)     " }
+{XPPEDIT 18 0 "z" "6#%\"zG" }{TEXT -1 5 " =   " }{XPPEDIT 18 0 "cos(2*
+x-y^2)" "6#-%$cosG6#,&*&\"\"#\"\"\"%\"xGF)F)*$%\"yGF(!\"\"" }{TEXT -1 
+1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 30 "      b.  (4 pts)    \{(x,y) | " }
+{XPPEDIT 18 0 "x = exp(-1/t)*cos(1/t);" "6#/%\"xG*&-%$expG6#,$*&\"\"\"
+F+%\"tG!\"\"F-F+-%$cosG6#*&F+F+F,F-F+" }{TEXT -1 2 ", " }{XPPEDIT 18 
+0 "y = exp(-1/t)*sin(1/t);" "6#/%\"yG*&-%$expG6#,$*&\"\"\"F+%\"tG!\"\"
+F-F+-%$sinG6#*&F+F+F,F-F+" }{TEXT -1 13 ", 0 < t < 10\}" }}}{MARK "49 \+
+0" 18 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

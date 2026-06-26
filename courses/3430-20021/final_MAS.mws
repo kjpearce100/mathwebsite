@@ -1,0 +1,149 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"" -1 256 "" 0 1 0 0 72 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 257 "" 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 
+0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Nor
+mal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 
+1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 
+2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 16 "MATH 3430 FINAL " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }{TEXT 257 5 "Name:" }{TEXT 258 7 "       " }}
+{PARA 0 "" 0 "" {TEXT -1 66 "#1.  Apply the FUNDAMENTAL THEOREM OF ARI
+THEMATIC to the number   " }{XPPEDIT 18 0 "52!" "6#-%*factorialG6#\"#_
+" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 16 "#2.  Estimate   " }
+{XPPEDIT 18 0 "Pi" "6#%#PiG" }{TEXT -1 23 "  to 12 decimal places." }}
+{PARA 0 "" 0 "" {TEXT -1 30 "#3.  Find the coefficient of  " }
+{XPPEDIT 18 0 "x^12*y^13" "6#*&%\"xG\"#7%\"yG\"#8" }{TEXT -1 24 "  in \+
+the expansion of   " }{XPPEDIT 18 0 "(x+y)^25" "6#*$,&%\"xG\"\"\"%\"yG
+F&\"#D" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 19 "#4.  Suppose \+
+that  " }{XPPEDIT 18 0 "p(x)=x^3+2*x-3" "6#/-%\"pG6#%\"xG,(*$F'\"\"$\"
+\"\"*&\"\"#F+F'F+F+F*!\"\"" }{TEXT -1 31 "  .  Compute the following: \+
+   " }}{PARA 0 "" 0 "" {TEXT -1 42 "        a)  p(1001)               \+
+    b)  " }{XPPEDIT 18 0 "p(sin(25))" "6#-%\"pG6#-%$sinG6#\"#D" }
+{TEXT -1 18 "             c)   " }{XPPEDIT 18 0 "p(u^3+a)" "6#-%\"pG6#
+,&*$%\"uG\"\"$\"\"\"%\"aGF*" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT 
+-1 63 "#5.  Provide an example which illustrates the BINOMIAL THEOREM.
+" }}{PARA 0 "" 0 "" {TEXT -1 38 "#6.  Find all roots of the polynomial
+ " }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "q(x) := x^4-5*x^3+10*x-10
+;" "6#>-%\"qG6#%\"xG,**$F'\"\"%\"\"\"*&\"\"&F+*$F'\"\"$F+!\"\"*&\"#5F+
+F'F+F+F2F0" }}}{PARA 0 "" 0 "" {TEXT -1 48 "#7.  On the same axes plot
+ the following conics:" }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "k*x^2+y^2=1
+" "6#/,&*&%\"kG\"\"\"*$%\"xG\"\"#F'F'*$%\"yGF*F'F'" }{TEXT -1 11 "    \+
+ for   " }{XPPEDIT 18 0 "k=-3,-2,-1,0,1,2,3" "6)/%\"kG,$\"\"$!\"\",$\"
+\"#F',$\"\"\"F'\"\"!F+F)F&" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT 
+-1 25 "#8.  Plot the graph of   " }{XPPEDIT 18 0 "y=x*sin(x)^2" "6#/%
+\"yG*&%\"xG\"\"\"*$-%$sinG6#F&\"\"#F'" }{TEXT -1 8 "  from  " }
+{XPPEDIT 18 0 "x=-5" "6#/%\"xG,$\"\"&!\"\"" }{TEXT -1 5 "  to " }
+{XPPEDIT 18 0 "x=5" "6#/%\"xG\"\"&" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "
+" {TEXT -1 70 "#9.  Plot the same graph as in #8, this time with the t
+angent line at " }{XPPEDIT 18 0 "x=2" "6#/%\"xG\"\"#" }{TEXT -1 15 "  \+
+also plotted." }}{PARA 0 "" 0 "" {TEXT -1 148 "#10. The following is t
+he graph of a function F, its derivative dF, and its second derivative
+ ddF.  Which graph is F, which is dF, and which is ddF?" }}{PARA 257 "
+" 0 "" {GLPLOT2D 400 300 300 {PLOTDATA 2 "6'-%'CURVESG6$7S7$$!\"$\"\"!
+$!39++++++gH!#;7$$!3!******\\2<#pG!#<$!3/tJjOdpGFF-7$$!3#)***\\7bBav#F
+1$!3IeznD'=T`#F-7$$!36++]K3XFEF1$!3d'=H-z@FK#F-7$$!3%)****\\F)H')\\#F1
+$!3>V%p9)H'y6#F-7$$!3#****\\i3@/P#F1$!3dqKKhm)=#>F-7$$!3;++Dr^b^AF1$!3
+uGQ0F+CZ<F-7$$!3$****\\7Sw%G@F1$!39cF@M.bt:F-7$$!3*****\\7;)=,?F1$!3^<
+Xm6(o:S\"F-7$$!3/++DO\"3V(=F1$!3U2rbm$yyB\"F-7$$!3#******\\V'zV<F1$!3W
+!\\7#e\\cx5F-7$$!3******\\d;%)G;F1$!3XKw\\:.LJ%*F17$$!3!******\\!)H%*
+\\\"F1$!3%>h$HuE%Q*zF17$$!3/+++vl[p8F1$!3h_D&)>gLJmF17$$!3\"******\\>i
+UC\"F1$!3;A\\x&3'*\\R&F17$$!3-++DhkaI6F1$!3Hax+$)>\\PVF17$$!3s******\\
+XF`**!#=$!3akUU?I!3;$F17$$!3u*******>#z2))Fgp$!3=S6_u!eEB#F17$$!3S++]7
+RKvuFgp$!3LjI#3$yCK7F17$$!3s,+++P'eH'Fgp$!3+]Y&\\D0#yTFgp7$$!3q)***\\7
+*3=+&Fgp$\"3)=a!oRd9*)RFgp7$$!3[)***\\PFcpPFgp$\"3'pBLp$p#>5\"F17$$!3;
+)****\\7VQ[#Fgp$\"33m$H\\.\\xv\"F17$$!32)***\\i6:.8Fgp$\"3_*>W1r3,H#F1
+7$$!3Wb+++v`hH!#?$\"3#o_4`T<$*y#F17$$\"3]****\\(QIKH\"Fgp$\"3$)=jXjUUD
+KF17$$\"38****\\7:xWCFgp$\"3,V+ae>nONF17$$\"3E,++vuY)o$Fgp$\"3B53YvKL,
+QF17$$\"3!z******4FL(\\Fgp$\"33LPNx@y'*RF17$$\"3A)****\\d6.B'Fgp$\"3#[
+5#G\"R486%F17$$\"3s****\\(o3lW(Fgp$\"33*o2$G8$*\\TF17$$\"35*****\\A))o
+z)Fgp$\"3/aXOURj4TF17$$\"3e******Hk-,5F1$\"3w$\\favl()*RF17$$\"36+++D-
+eI6F1$\"3myMhh3Q-QF17$$\"3u***\\(=_(zC\"F1$\"3)p8Ecj\\[b$F17$$\"3M+++b
+*=jP\"F1$\"3N)\\e)f*Q&3KF17$$\"3g***\\(3/3(\\\"F1$\"3*3ko32!\\5GF17$$
+\"33++vB4JB;F1$\"3+795tse>BF17$$\"3u*****\\KCnu\"F1$\"3#z!z)y[(pl<F17$
+$\"3s***\\(=n#f(=F1$\"3&=m6wl$\\26F17$$\"3P+++!)RO+?F1$\"3M:aW?!e\"yRF
+gp7$$\"30++]_!>w7#F1$!3?\\RY\"4A![SFgp7$$\"3O++v)Q?QD#F1$!3O&[))y#=ax7
+F17$$\"3G+++5jypBF1$!3m+A:c%)*o9#F17$$\"3<++]Ujp-DF1$!3<24jDnmAKF17$$
+\"3++++gEd@EF1$!3gUF)>8#ocUF17$$\"39++v3'>$[FF1$!3T4a\"4-vQV&F17$$\"37
+++D6EjpGF1$!3'oy=gx@Gj'F17$$\"\"$F*$!3y,++++++!)F1-%'COLOURG6&%$RGBG$F
+*F*F_[l$\"*++++\"!\")-F$6$7W7$F($\"#CF*7$$!3&*****\\P&3Y$HF1$\"3%pt#pS
+tE5AF-7$F/$\"3i%\\<MM(4G?F-7$$!3')**\\78.K7GF1$\"31Wv\"RcSc(=F-7$F5$\"
+3Um<>)=>(G<F-7$$!3'***\\(=>P9p#F1$\"3'=N3yq$**p:F-7$F:$\"3()=oO%[J!=9F
+-7$$!3w******H./jDF1$\"3M>CqE`wr7F-7$F?$\"3+/\\W)p'4K6F-7$FD$\"3b!\\FE
+(Q:K()F17$FI$\"3Cjj$\\:b@b'F17$FN$\"3**HKCnpI4XF17$FS$\"3)o6TidVmh#F17
+$FX$\"3rqD(=`]*H%*Fgp7$Fgn$!3odAHf'z2n&Fgp7$F\\o$!3[,sOsZ\"zs\"F17$Fao
+$!3)=o([/)fX&GF17$Ffo$!3>fGqMO!R!QF17$F[p$!3+K?#3;8hb%F17$F`p$!3#R<VjZ
+$*)3^F17$Fep$!3tp)o$G0'[h&F17$F[q$!3gQ_BW];BfF17$F`q$!3E0LA-E1`hF17$Fe
+q$!3Ou+k*y:(\\iF17$Fjq$!3aK.LeA2]iF17$F_r$!3Wx'Qc^`o:'F17$Fdr$!3O(\\y^
+Gm@(fF17$Fir$!3&)fpBgUaKdF17$F^s$!3$*GB&p\\w#3aF17$Fds$!3wGIlp<_4]F17$
+Fis$!3'>!o1w$p&>YF17$F^t$!3#eX4D^([iTF17$Fct$!3?Bu:w[mgOF17$Fht$!3E!\\
+td>$G]JF17$F]u$!3EoGCs()>ZEF17$Fbu$!3E.HX&RO&)3#F17$Fgu$!3w^-+8\\*ef\"
+F17$F\\v$!37\\r@c5p*3\"F17$Fav$!3OMd$[')G>d'Fgp7$Ffv$!3l[ah$ozKA#Fgp7$
+F[w$\"3M`y&=@)4=9Fgp7$F`w$\"3#\\z>xB0Sm%Fgp7$Few$\"3AFUcZ%=C>(Fgp7$Fjw
+$\"3gR/#>bhr0*Fgp7$F_x$\"3\\-r^%>X,+\"F17$Fdx$\"3!*y_km\\_+5F17$Fix$\"
+3y\\y@h#><&*)Fgp7$F^y$\"3OR%[D[lB(pFgp7$Fcy$\"3z'>M@`6MT$Fgp7$Fhy$!3>M
+!)4vgXD5Fgp7$F]z$!3y#fBs<a&erFgp7$Fbz$!3#R&yA*)[1Z9F17$Fgz$!3M+++++++C
+F1-F\\[l6&F^[lF*F*F*-F$6$7\\o7$F(F_[l7$$!3)****\\(oUInHF1$\"31Ibbs\"3)
+*o(Fgp7$Fj[l$\"3k([M9&[%p]\"F17$$!3#****\\i!G\">!HF1$\"36q@87I^9AF17$F
+/$\"3I-*zNs+B*GF17$Fb\\l$\"3:f\\&GS'e-SF17$F5$\"33&y!)f.3x-&F17$Fj\\l$
+\"3Kx;V(>2F3'F17$F:$\"3b@yp)=9$QqF17$Fb]l$\"30+**HUC@/zF17$F?$\"3cO>Tk
+:.y')F17$$!3))**\\(oXDXV#F1$\"3ek]]f3#4O*F17$FD$\"3Ar%o<zR3'**F17$$!3/
+++vG\"))4J#F1$\"3/o)f;fRY/\"F-7$FI$\"3aK]m9vr'3\"F-7$FN$\"3-PMW7)pX:\"
+F-7$$!3=++D\"GK[1#F1$\"3u,mAX59!=\"F-7$FS$\"3%=$p\\*3!p*>\"F-7$$!3!***
+*\\([\"[x$>F1$\"3%f(Rf\\b_87F-7$FX$\"3\\(RPM%G0A7F-7$$!36+v$4@!oT=F1$
+\"3)oJA#**zZC7F-7$$!3)***\\i&G_!4=F1$\"3Q$*e#*p(GcA\"F-7$$!3%)*\\7.OCk
+x\"F1$\"3)z#3A%4[bA\"F-7$Fgn$\"3X+'znOyUA\"F-7$$!3%****\\i/>jo\"F1$\"3
+sVOPmmF>7F-7$F\\o$\"3mI>64$R4@\"F-7$$!3%****\\7tNTc\"F1$\"37EUU,b$y>\"
+F-7$Fao$\"3-K%4WO(3\"=\"F-7$Ffo$\"3)zK.L`Mw8\"F-7$F[p$\"3k.X3x!H^3\"F-
+7$F`p$\"3/U+x`>1I5F-7$Fep$\"3'\\lT%e*)zt&*F17$F[q$\"3@.b'Q&Q&>\"*)F17$
+F`q$\"3s&fF&oT\"f5)F17$Feq$\"3a`%yQ%3attF17$Fjq$\"3744&odIOc'F17$F_r$
+\"3g.C]s;K)z&F17$Fdr$\"3o.1q/Bp<]F17$Fir$\"3;:j7#)44EVF17$F^s$\"3$G'e)
+ec/gh$F17$Fds$\"39ep*3f6j#HF17$Fis$\"3Yx&zu#HbrBF17$F^t$\"3RJDz[85D=F1
+7$Fct$\"3;8lcL)\\AK\"F17$Fht$\"39E_F\"Ri.%*)Fgp7$F]u$\"3t5:o<fW9aFgp7$
+Fbu$\"32_WmX$Qv@#Fgp7$Fgu$!3#RM7%*4\"=S;F`s7$F\\v$!33FJ4\"G%H`<Fgp7$Fa
+v$!3_0^L='Gex#Fgp7$Ffv$!3Yih9d)zaL$Fgp7$F[w$!3/vv^,*f#zLFgp7$F`w$!3ofu
+qYz')))HFgp7$Few$!3_Hk)[(p@]AFgp7$Fjw$!3UBag_$=8>\"Fgp7$F_x$\"3F(\\V1[
+k+k$!#@7$Fdx$\"3e5ldG%[uG\"Fgp7$Fix$\"35R.93\"H_\\#Fgp7$F^y$\"3qs+_XtH
+GMFgp7$Fcy$\"3d(e%***f?V8%Fgp7$Fhy$\"3#>'4UnJV)G%Fgp7$F]z$\"3cg'QiYVby
+$Fgp7$Fbz$\"3wGzv5cH)[#Fgp7$FgzF_[l-F\\[l6&F^[lF`[lF_[lF_[l-%+AXESLABE
+LSG6$Q\"x6\"Q\"yF[dm-%%VIEWG6$;F(Fgz;$Fb[lF*$\"#:F*" 1 2 0 1 10 0 2 9 
+1 4 2 1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve 2" "Curve 3" }
+}{TEXT -1 0 "" }}{PARA 256 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 118 "#11. Find the x,y coordinates of all local maxima and mi
+nima and inflection points of the following rational function:" }}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "f(x):= (x^4+x^3-7*x^2-5*x+10)/
+(x^3-x^2-3*x+3);" "6#>-%\"fG6#%\"xG*&,,*$F'\"\"%\"\"\"*$F'\"\"$F,*&\"
+\"(F,*$F'\"\"#F,!\"\"*&\"\"&F,F'F,F3\"#5F,F,,**$F'F.F,*$F'F2F3*&F.F,F'
+F,F3F.F,F3" }}}{PARA 256 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 65 "#12.  Describe all asymptotic behavior of the function f \+
+in # 11." }}{PARA 0 "" 0 "" {TEXT -1 109 "#13.  Plot the graph of the \+
+function f in # 11.  Be sure your graph exhibits all the important fea
+tures of f." }}{PARA 0 "" 0 "" {TEXT -1 69 "#14.  Find the area of the
+ finite region determined by the graphs of " }{XPPEDIT 18 0 "x+y^2=1" 
+"6#/,&%\"xG\"\"\"*$%\"yG\"\"#F&F&" }{TEXT -1 8 "  and   " }{XPPEDIT 
+18 0 "x+y=1" "6#/,&%\"xG\"\"\"%\"yGF&F&" }{TEXT -1 3 "  ." }}{PARA 0 "
+" 0 "" {TEXT -1 41 "#15.  Compute the difinite integral of   " }
+{XPPEDIT 18 0 "exp(-x^2)" "6#-%$expG6#,$*$%\"xG\"\"#!\"\"" }{TEXT -1 
+7 "  from " }{XPPEDIT 18 0 "x=-1" "6#/%\"xG,$\"\"\"!\"\"" }{TEXT -1 4 
+" to " }{XPPEDIT 18 0 "x=1" "6#/%\"xG\"\"\"" }{TEXT -1 43 "  . (Provid
+e floating point approximation.)" }}{PARA 0 "" 0 "" {TEXT -1 14 "#16. \+
+ Compute " }{XPPEDIT 18 0 "exp(A)" "6#-%$expG6#%\"AG" }{TEXT -1 22 "  \+
+for the matrix    A=" }{XPPEDIT 18 0 "MATRIX([[2, 0], [0, -1]])" "6#-%
+'MATRIXG6#7$7$\"\"#\"\"!7$F),$\"\"\"!\"\"" }{TEXT -1 1 "." }}{PARA 0 "
+" 0 "" {TEXT -1 33 "#17.  Diagonalize the matrix  M= " }{XPPEDIT 18 0 
+"MATRIX([[-1, 2], [1, 3]])" "6#-%'MATRIXG6#7$7$,$\"\"\"!\"\"\"\"#7$F)
+\"\"$" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 51 "#18.  Show that \+
+the matrix M in # 17 satisfies the " }{TEXT 256 23 "Caley-Hamilton The
+orem." }}{PARA 0 "" 0 "" {TEXT -1 52 "#19.  Find all the eigenvalues o
+f the matrix    B = " }{XPPEDIT 18 0 "MATRIX([[0, 0, 0, 0, -4], [4, 0,
+ 0, 0, 1], [0, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 1, 1]])" "6#-%'
+MATRIXG6#7'7'\"\"!F(F(F(,$\"\"%!\"\"7'F*F(F(F(\"\"\"7'F(F-F(F(F(7'F(F(
+F-F(F(7'F(F(F(F-F-" }{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 138 "#2
+0.  Show that the sum of the eigenvalues of B equals the trace of B an
+d the product of the eigenvalues of B equals the determinate of B." }}
+}{MARK "14 0" 1 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 
+33 1 1 }

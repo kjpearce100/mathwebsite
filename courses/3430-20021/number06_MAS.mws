@@ -1,0 +1,371 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Error" -1 8 1 {CSTYLE "" -1 -1 "Co
+urier" 1 10 255 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple P
+lot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 
+1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 
+2 0 1 }{PSTYLE "Maple Plot" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 
+0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Norma
+l" -1 258 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 
+}3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 259 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Normal" -1 260 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 18 "Limits in Calculus" }}{PARA 
+258 "" 0 "" {TEXT -1 14 "(number06.mws)" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 286 "The basic concept that defines \"Ca
+lculus\" it that of the \"limit.\"  The MAPLE command for computing th
+e limit of some expression as some variable goes to some value is     \+
+limit(expression, variable=value);   Define the function f1 and perfor
+m the indicated sequence of MAPLE commands.  " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "f1:=(x^3-x^2-8
+*x+12)/(x^2+x-6);" "6#>%#f1G*&,**$%\"xG\"\"$\"\"\"*$F(\"\"#!\"\"*&\"\"
+)F*F(F*F-\"#7F*F*,(*$F(F,F*F(F*\"\"'F-F-" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#f1G*&,**$)%\"xG\"\"$\"\"\"F+*$)F)\"\"#F+!\"\"*&\"\")F+F)F+F/
+\"#7F+F+,(F,F+F)F+\"\"'F/F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+13 "subs(x=4,f1);" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "limit(f1,x=4);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"#" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "sub
+s(x=2,f1);" }}{PARA 8 "" 1 "" {TEXT -1 43 "Error, numeric exception: d
+ivision by zero\n" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f1
+,x=2);" "6#-%&limitG6$%#f1G/%\"xG\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "subs(x=-3,f1
+);" }}{PARA 8 "" 1 "" {TEXT -1 43 "Error, numeric exception: division \+
+by zero\n" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f1,x=-3);
+" "6#-%&limitG6$%#f1G/%\"xG,$\"\"$!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#!\"&" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 109 "To see just what is going on here, factor the numerator and de
+nominator of f1 and notice the common factors. " }}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 36 "factor(numer(f1));factor(denom(f1));" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"\"\"$F&F&),&F%F&\"\"#!\"\"F*F
+&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&,&%\"xG\"\"\"\"\"$F&F&,&F%F&\"
+\"#!\"\"F&" }}}{PARA 0 "" 0 "" {TEXT -1 18 "Define g as below." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "g:=factor(f1);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"gG,&%\"xG\"\"\"\"\"#!\"\"" }}}{PARA 0 "" 0 "
+" {TEXT -1 96 "Does the function g equal the function f?  To see that \+
+the answer is \"no\" perform the following:" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 79 "Limit(g,x=2)=limit(g,x=2);subs(x=2,g);Limit(g,x=-3)
+=limit(g,x=-3);subs(x=-3,g);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%&Li
+mitG6$,&%\"xG\"\"\"\"\"#!\"\"/F(F*\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%&LimitG6$,&%\"xG\"\"
+\"\"\"#!\"\"/F(!\"$!\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!\"&" }}}
+{PARA 0 "" 0 "" {TEXT -1 72 "Note that g is defined and \"continuous\"
+ at x=2 amd x=-3 while f1 is not." }}{PARA 0 "" 0 "" {TEXT -1 105 "Now
+ check the limiting behavior of f1 and 1/f1 at infinity via the follow
+ing sequence of MAPLE commands. " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "Limit(f1,x=infinity)=limit(f
+1,x=infinity);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%&LimitG6$*&,**$)%
+\"xG\"\"$\"\"\"F-*$)F+\"\"#F-!\"\"*&\"\")F-F+F-F1\"#7F-F-,(F.F-F+F-\"
+\"'F1F1/F+%)infinityGF8" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "
+Limit(f1,x=-infinity)=limit(f1,x=-infinity);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/-%&LimitG6$*&,**$)%\"xG\"\"$\"\"\"F-*$)F+\"\"#F-!\"\"*
+&\"\")F-F+F-F1\"#7F-F-,(F.F-F+F-\"\"'F1F1/F+,$%)infinityGF1F8" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "Limit(1/f1,x=infinity)=limit
+(1/f1,x=infinity);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%&LimitG6$*&,*
+*$)%\"xG\"\"$\"\"\"F-*$)F+\"\"#F-!\"\"*&\"\")F-F+F-F1\"#7F-F1,(F.F-F+F
+-\"\"'F1F-/F+%)infinityG\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 32 "Limit(1/f1,x=2)=limit(1/f1,x=2);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#/-%&LimitG6$*&,**$)%\"xG\"\"$\"\"\"F-*$)F+\"\"#F-!\"\"*&\"\")F-F
++F-F1\"#7F-F1,(F.F-F+F-\"\"'F1F-/F+F0%*undefinedG" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 44 "Limit(1/f1,x=2,right)=limit(1/f1,x=2,right);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%&LimitG6%*&,**$)%\"xG\"\"$\"\"
+\"F-*$)F+\"\"#F-!\"\"*&\"\")F-F+F-F1\"#7F-F1,(F.F-F+F-\"\"'F1F-/F+F0%&
+rightG%)infinityG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "Limit(
+1/f1,x=2,left)=limit(1/f1,x=2,left);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#/-%&LimitG6%*&,**$)%\"xG\"\"$\"\"\"F-*$)F+\"\"#F-!\"\"*&\"\")F-F+F-F
+1\"#7F-F1,(F.F-F+F-\"\"'F1F-/F+F0%%leftG,$%)infinityGF1" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 93 "Compute the partia
+l fraction decomposition of f1 and 1/f1 and see if these limits make s
+ense." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "convert(f1,parfrac,
+x);convert(1/f1,parfrac,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&%\"xG
+\"\"\"\"\"#!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&\"\"\"F$,&%\"xGF
+$\"\"#!\"\"F(" }}}{PARA 0 "" 0 "" {TEXT -1 30 "Now plot the graphs of \+
+f1 and " }{XPPEDIT 18 0 "1/f1" "6#*&\"\"\"F$%#f1G!\"\"" }{TEXT -1 47 "
+ to see if these limits make sense graphically." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "plot(f1,x=-3
+..3);" }}{PARA 13 "" 1 "" {GLPLOT2D 597 597 597 {PLOTDATA 2 "6%-%'CURV
+ESG6$7fn7$$!3)******R.8f*H!#<$!3_6++MI\"f*\\F*7$$!3')*****p1E=*HF*$!39
+&3+q1E=*\\F*7$$!3%)*****45Rx)HF*$!3%4.+55Rx)\\F*7$$!3=+++M@l$)HF*$!3'y
+6+S8_O)\\F*7$$!3/+++,#ya(HF*$!3%p****4?ya(\\F*7$$!3++++pUInHF*$!3Sc++p
+UIn\\F*7$$!3=+++.k&4&HF*$!3k!)***HSc4&\\F*7$$!3*******z`3Y$HF*$!3V'***
+*z`3Y$\\F*7$$!3)******p!G\">!HF*$!3v8++2G\">!\\F*7$$!3!******\\2<#pGF*
+$!3A(****\\2<#p[F*7$$!3$******RJ?B\"GF*$!3$******RJ?B\"[F*7$$!3!)*****
+4bBav#F*$!3/)****4bBav%F*7$$!32+++K3XFEF*$!3'4++?$3XFYF*7$$!3))*****z#
+)H')\\#F*$!3K+++G)H')\\%F*7$$!3!******f3@/P#F*$!3Y*****f3@/P%F*7$$!39+
+++r^b^AF*$!3q*****4<b:D%F*7$$!3\"******4Sw%G@F*$!3Y*****4Sw%GTF*7$$!3(
+******4;)=,?F*$!3(******4;)=,SF*7$$!3-+++O\"3V(=F*$!3y*****f83V(QF*7$$
+!3#******\\V'zV<F*$!3q*****\\V'zVPF*7$$!3.+++e;%)G;F*$!3O*****zlT)GOF*
+7$$!3!******\\!)H%*\\\"F*$!3c+++0)H%*\\$F*7$$!3/+++vl[p8F*$!3E+++vl[pL
+F*7$$!3\"******\\>iUC\"F*$!38+++&>iUC$F*7$$!3++++hkaI6F*$!3B+++hkaIJF*
+7$$!3s******\\XF`**!#=$!3)******\\XF`*HF*7$$!3u*******>#z2))Fbs$!3)***
+****>#z2)GF*7$$!3=+++5RKvuFbs$!3e*****4RKvu#F*7$$!3]*******pjeH'Fbs$!3
+<+++qjeHEF*7$$!3h******4*3=+&Fbs$!3&)*****4*3=+DF*7$$!3!)******RFcpPFb
+s$!3')*****RFcpP#F*7$$!3'*******>J%Q[#Fbs$!3A+++7VQ[AF*7$$!34+++g6:.8F
+bs$!3z*****f6:.8#F*7$$!35++++!Q:'H!#?$!35+++Q:'H+#F*7$$\"3++++!RIKH\"F
+bs$!3C+++hpnq=F*7$$\"3/+++5:xWCFbs$!37+++\\G_b<F*7$$\"3-+++![n%)o$Fbs$
+!31+++_K:J;F*7$$\"37++++rKt\\Fbs$!3*********GnE]\"F*7$$\"3u******z:JIi
+Fbs$!39+++U)opP\"F*7$$\"3%********o3lW(Fbs$!3-+++J\"\\`D\"F*7$$\"3!)**
+****>#))oz)Fbs$!3\"******z<6.7\"F*7$$\"3-+++Ik-,5F*$!3m)******pN(*)**F
+bs7$$\"36+++D-eI6F*$!3;,++]x>%p)Fbs7$$\"3)*******=_(zC\"F*$!3J+++5yC?v
+Fbs7$$\"3!******\\&*=jP\"F*$!3!*******\\/\"oB'Fbs7$$\"31+++4/3(\\\"F*$
+!36'*****4f>H]Fbs7$$\"35+++C4JB;F*$!3o+++g2*ow$Fbs7$$\"3)******\\KCnu
+\"F*$!3L+++]nvKDFbs7$$\"3'*******=n#f(=F*$!3t6++5GtS7Fbs7$$\"3$*******
+zRO+?F*$\"3>ms*o++)RO!#@7$$\"3,+++_!>w7#F*$\"3K2++?0>w7Fbs7$$\"3#*****
+**)Q?QD#F*$\"3p)******)Q?QDFbs7$$\"3%)******4jypBF*$\"3;,+++J'yp$Fbs7$
+$\"38+++Ujp-DF*$\"3H,++?M'p-&Fbs7$$\"3++++gEd@EF*$\"3*********fEd@'Fbs
+7$$\"3;+++4'>$[FF*$\"3I)******3'>$[(Fbs7$$\"35+++6EjpGF*$\"3?-++5hK'p)
+Fbs7$$\"\"$\"\"!$\"\"\"Fe]l-%'COLOURG6&%$RGBG$\"#5!\"\"$Fe]lFe]lF_^l-%
++AXESLABELSG6$Q\"x6\"Q!Fd^l-%%VIEWG6$;$!\"$Fe]lFc]l%(DEFAULTG" 1 2 0 
+1 10 0 2 9 1 4 2 1.000000 45.000000 45.000000 0 0 "Curve 1" }}}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "plot(1/f1,x=-10..10,y=-10..1
+0);" }}{PARA 13 "" 1 "" {GLPLOT2D 597 597 597 {PLOTDATA 2 "6%-%'CURVES
+G6$7`p7$$!#5\"\"!$!3(GLLLLLLL)!#>7$$!3!pmmm\"p0k&*!#<$!3]'o=aC%[Z')F-7
+$$!3uKL$3<XZ=*F1$!3PWBSr!\\2%*)F-7$$!3WmmmT%p\"e()F1$!3?roIl;E&H*F-7$$
+!3/nmm\"4m(G$)F1$!3A7\\sz&)p\"o*F-7$$!3OLL$3i.9!zF1$!3.O0S=y&*45!#=7$$
+!3fmm;/R=0vF1$!3K*y%R)\\d?0\"FH7$$!3k++]P8#\\4(F1$!3K*)RLKZ^*4\"FH7$$!
+3Kmm;/siqmF1$!3-BW?/\">L:\"FH7$$!3Q****\\(y$pZiF1$!3V&>KV9gC@\"FH7$$!3
+jKLL$yaE\"eF1$!3!)*3,3ku*z7FH7$$!3<mmm\">s%HaF1$!35*QXfj!*fM\"FH7$$!3]
+******\\$*4)*\\F1$!3ks\\n@%f*G9FH7$$!3o******\\_&\\c%F1$!3iE'*3H'RK_\"
+FH7$$!3%)******\\1aZTF1$!3b\\/%\\vmmi\"FH7$$!3Imm;/#)[oPF1$!3]01ghkbL<
+FH7$$!3%HLLL=exJ$F1$!3=!4Pin\"\\!)=FH7$$!3lKLLL2$f$HF1$!3>o!)*)e.'f-#F
+H7$$!3%)****\\PYx\"\\#F1$!3D')o\"yc\"HEAFH7$$!3gLLLL7i)4#F1$!3([#eQs[%
+)RCFH7$$!3o)***\\P'psm\"F1$!3o*)3J5V#os#FH7$$!3?****\\74_c7F1$!3CnO;%z
+h22$FH7$$!3M:LL$3x%z#)FH$!3Vi>/yK8ONFH7$$!3()HLL3s$QM%FH$!3G57FOe\"y5%
+FH7$$!3]^omm;zr)*!#?$!33=r&ytTa(\\FH7$$\"3fVLLezw5VFH$!3'QJWrE)ztjFH7$
+$\"3JtmmmJ+IiFH$!3?B)y\\zl@E(FH7$$\"3-.++v$Q#\\\")FH$!3))>*H#>iFQ%)FH7
+$$\"3inm\"z\\1A-\"F1$!3y\"*H#e#3rA5F17$$\"3%\\LL$e\"*[H7F1$!3I5[dr-%yH
+\"F17$$\"3cnm;HCjV9F1$!3o:lK5HP(z\"F17$$\"3=++++dxd;F1$!3$*[#)*4=g?#HF
+17$$\"3B+]7`+:5<F1$!3mP\"*R351]MF17$$\"3G++D1W_i<F1$!3*z$*Qs/f4@%F17$$
+\"3?+D\"Ge6()y\"F1$!3)omhz5nGt%F17$$\"3M+]Pf()*[\"=F1$!33#3yM$*[CS&F17
+$$\"3Z+v$f$f3T=F1$!3M-]XW#4FH'F17$$\"3Q++]7JFn=F1$!3IOEyU%oU`(F17$$\"3
+M]7y+nO!)=F1$!3G:*o=sw)e$)F17$$\"3I+D1*GgM*=F1$!3?>@$[^rhQ*F17$$\"3E]P
+MxQb1>F1$!3?1)H)e`8q5!#;7$$\"3W+]iluk>>F1$!3=alU<e^W7Fcx7$$\"3i]i!R0TF
+$>F1$!3kN)4O1\"z'[\"Fcx7$$\"3e+v=UY$e%>F1$!3=4$*pc%)>Y=Fcx7$$\"3a](o/B
+G*e>F1$!3:E#)>'RiZV#Fcx7$$\"3]++v==-s>F1$!3-kndXP@uNFcx7$$\"3W]7.2a6&)
+>F1$!3x/U!4Pc$=nFcx7$$\"3i+DJ&**3#)*>F1$!3k$))QmIeMe&!#:7$$\"3!3v$f$e-
+8,#F1$\"3A(Hg<lMv%))Fcx7$$\"3w+](=<'RC?F1$\"3apu%*\\P+*4%Fcx7$$\"3s]i:
+g(*[P?F1$\"31gDAK]RnEFcx7$$\"3o+vV[Le]?F1$\"3oleFf^$p(>Fcx7$$\"3k](=n$
+pnj?F1$\"3aWe3.tUq:Fcx7$$\"3e+++D0xw?F1$\"3Y&)y`]Ke-8Fcx7$$\"3sv=#\\CR
+%*3#F1$\"3CHKm<u2=6Fcx7$$\"3%3vV['z5-@F1$\"3)\\<ytHbNz*F17$$\"3_Dcw%ow
+Z6#F1$\"3q_F(y'3d7()F17$$\"3l+vo/aWF@F1$\"3_+qU8r\\YyF17$$\"3Y]7`WGy_@
+F1$\"3uB+'yZP_a'F17$$\"3q+]P%G?\"y@F1$\"3Bxg%er$=9cF17$$\"3y+D1k^zGAF1
+$\"3-=(*f]<sqVF17$$\"3%3+]P/q%zAF1$\"3?!pBd.,#yNF17$$\"3'4+DJ!)>3Q#F1$
+\"32n68iQ\"fi#F17$$\"35,+]i&p@[#F1$\"3s$Ry(*>fR2#F17$$\"3b++v=GB2FF1$
+\"3&z1p@`hRT\"F17$$\"3++++vgHKHF1$\"3!*yjWE1is5F17$$\"3jKL$3UDX8$F1$\"
+3+()Hc0#eU\"))FH7$$\"3ElmmmZvOLF1$\"3;>Tl'p.3[(FH7$$\"3%4+++v+'oPF1$\"
+3WW&poN(=acFH7$$\"3UKL$eR<*fTF1$\"3pPxz&o1)HYFH7$$\"3K-++])Hxe%F1$\"3m
+#Q:@-\"RkQFH7$$\"3!fmm\"H!o-*\\F1$\"3/hhmE==WLFH7$$\"3X,+]7k.6aF1$\"3V
+&320Hg;$HFH7$$\"3#emmmT9C#eF1$\"3q(4'*3_Zhh#FH7$$\"33****\\i!*3`iF1$\"
+3'*y&**4@K7N#FH7$$\"3;NLLL*zym'F1$\"3=AeTv,IU@FH7$$\"3'eLL$3N1#4(F1$\"
+3S`xs#RSQ'>FH7$$\"3,pm;HYt7vF1$\"3]7R?[<)R\"=FH7$$\"37-+++xG**yF1$\"3=
+W@0/*>^p\"FH7$$\"3gpmmT6KU$)F1$\"3w\\U&f\")4nd\"FH7$$\"3qNLLLbdQ()F1$
+\"33sy0gJ*R[\"FH7$$\"3[++]i`1h\"*F1$\"3o\"fbKESkR\"FH7$$\"3A-+]P?Wl&*F
+1$\"3D\"eE,$)*z@8FH7$$\"#5F*$\"3+++++++]7FH-%'COLOURG6&%$RGBG$Fiel!\"
+\"$F*F*Fbfl-%+AXESLABELSG6$Q\"x6\"Q\"yFgfl-%%VIEWG6$;F(FhelF\\gl" 1 2 
+0 1 10 0 2 9 1 4 2 1.000000 45.000000 45.000000 0 0 "Curve 1" }}}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 342 "1.  For \+
+each of the following functions compute the indicated substitutions an
+d limits, and plot the graph to see if the limiting behavior looks cor
+rect.  Recall that a function is called \"continuous a x=a\" if its va
+lue at x=a equals its limit at x=a.  In each case say whether the func
+tion is, or is not, continuous at the point in question." }}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "f2:=(-2*x-4)/(x^3+2*x^2);" "6#>%#f2G*
+&,&*&\"\"#\"\"\"%\"xGF)!\"\"\"\"%F+F),&*$F*\"\"$F)*&F(F)*$F*F(F)F)F+" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f2G*&,&*&\"\"#\"\"\"%\"xGF)!\"\"
+\"\"%F+F),&*$)F*\"\"$F)F)*&F(F))F*F(F)F)F+" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "subs(x=
+0,f2);" "6#-%%subsG6$/%\"xG\"\"!%#f2G" }}{PARA 8 "" 1 "" {TEXT -1 43 "
+Error, numeric exception: division by zero\n" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limi
+t(f2,x=0);" "6#-%&limitG6$%#f2G/%\"xG\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$%)infinityG!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "subs(x=2,
+f2);" "6#-%%subsG6$/%\"xG\"\"#%#f2G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+##!\"\"\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f2,x=2);" "6#-%&limitG6$%#f2G/%
+\"xG\"\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##!\"\"\"\"#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "f3:=(1+h)^(1/h);" "6#>%#f3G),&\"\"\"F'%\"hGF'*&F'F'F(!
+\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f3G),&\"\"\"F'%\"hGF'*&F'F'
+F(!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "subs(h=0,f3);" "6#-%%subsG6$/%\"hG\"
+\"!%#f3G" }}{PARA 8 "" 1 "" {TEXT -1 43 "Error, numeric exception: div
+ision by zero\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f3,h=0);" "6#-%&limitG6$
+%#f3G/%\"hG\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$expG6#\"\"\"" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {XPPEDIT 19 1 "f4:=sin(x)/x;" "6#>%#f4G*&-%$sinG6#%\"xG\"\"\"F)!\"
+\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f4G*&-%$sinG6#%\"xG\"\"\"F)!
+\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {XPPEDIT 19 1 "subs(x=0,f4);" "6#-%%subsG6$/%\"xG\"\"!%#f4G
+" }}{PARA 8 "" 1 "" {TEXT -1 43 "Error, numeric exception: division by
+ zero\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f4,x=0);" "6#-%&limitG6$%#f4G/%
+\"xG\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 40 "2.  Simi
+larly consider the behavior of  " }{XPPEDIT 18 0 "sin(1/x)" "6#-%$sinG
+6#*&\"\"\"F'%\"xG!\"\"" }{TEXT -1 4 "  , " }{XPPEDIT 18 0 "x*sin(1/x)
+" "6#*&%\"xG\"\"\"-%$sinG6#*&F%F%F$!\"\"F%" }{TEXT -1 8 "  , and " }
+{XPPEDIT 18 0 "x^2*sin(1/x)" "6#*&%\"xG\"\"#-%$sinG6#*&\"\"\"F*F$!\"\"
+F*" }{TEXT -1 12 "  near x=0 ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "f5:=piecewise(x=0,0,
+sin(1/x));" "6#>%#f5G-%*piecewiseG6%/%\"xG\"\"!F*-%$sinG6#*&\"\"\"F/F)
+!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#f5G-%*PIECEWISEG6$7$\"\"!/
+%\"xGF)7$-%$sinG6#*&\"\"\"F1F+!\"\"%*otherwiseG" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {XPPEDIT 19 1 "limit(f5,x=0);" "6#-%&limitG6$%#f5G/%\"xG\"\"!" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%&limitG6$-%*PIECEWISEG6$7$\"\"!/%
+\"xGF*7$-%$sinG6#*&\"\"\"F2F,!\"\"%*otherwiseGF+" }}}{PARA 0 "" 0 "" 
+{TEXT -1 34 "     a.  Plot the graph of f5 and " }{TEXT 256 28 "explai
+n the MAPLE output for" }{TEXT -1 2 "  " }{XPPEDIT 18 0 "limit(f5,x=0)
+" "6#-%&limitG6$%#f5G/%\"xG\"\"!" }{TEXT -1 4 "  . " }}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }{TEXT 
+257 12 "Explanation:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 9 "Continue." }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "f6:
+=piecewise(x=0,0,x*sin(1/x));" "6#>%#f6G-%*piecewiseG6%/%\"xG\"\"!F**&
+F)\"\"\"-%$sinG6#*&F,F,F)!\"\"F," }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 13 "subs(x=0,f6);" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "limit(f6,x=0);" "6#-%&limitG6$%#f6G/%\"xG\"\"!" }}}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "     b.  On the plot o
+f f6 include the graphs of the lines   " }{XPPEDIT 18 0 "y=x" "6#/%\"y
+G%\"xG" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "y=-x" "6#/%\"yG,$%\"xG!\"
+\"" }{TEXT -1 1 "." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 9 "Continue.
+" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "f7:=piecewise(x=0,0,x^2*si
+n(1/x));" "6#>%#f7G-%*piecewiseG6%/%\"xG\"\"!F**&F)\"\"#-%$sinG6#*&\"
+\"\"F1F)!\"\"F1" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f7,x
+=0);" "6#-%&limitG6$%#f7G/%\"xG\"\"!" }}}{PARA 0 "" 0 "" {TEXT -1 1 " \+
+" }}{PARA 0 "" 0 "" {TEXT -1 64 "     c.  On the plot of f7 include th
+e graphs of the parabolas  " }{XPPEDIT 18 0 "  y=x^2   " "6#/%\"yG*$%
+\"xG\"\"#" }{TEXT -1 5 " and " }{XPPEDIT 18 0 "y=-x^2  " "6#/%\"yG,$*$
+%\"xG\"\"#!\"\"" }{TEXT -1 2 " ." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 83 "Execute the following command
+ sequences.  They are intended to indicate more of the" }}{PARA 0 "" 
+0 "" {TEXT -1 32 "MAPLE computer algebra features." }}{EXCHG {PARA 0 "
+> " 0 "" {XPPEDIT 19 1 "f8:= (a*x^3+c*x^2-1)/(b*x^3-2);" "6#>%#f8G*&,(
+*&%\"aG\"\"\"*$%\"xG\"\"$F)F)*&%\"cGF)*$F+\"\"#F)F)F)!\"\"F),&*&%\"bGF
+)*$F+F,F)F)F0F1F1" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "subs(x=1
+,f8);" "6#-%%subsG6$/%\"xG\"\"\"%#f8G" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "limit(f8,x=1);" "6#-%&limitG6$%#f8G/%\"xG\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f8,x=infinity);" "6#-%&l
+imitG6$%#f8G/%\"xG%)infinityG" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "f9:=subs(a=0,f8);" "6#>%#f9G-%%subsG6$/%\"aG\"\"!%#f8G" }}}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f9,x=infinity);" "6#-%&l
+imitG6$%#f9G/%\"xG%)infinityG" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "f10:=subs(b=0,f8);" "6#>%$f10G-%%subsG6$/%\"bG\"\"!%#f8G" }}}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f10,x=infinity);" "6#-%&
+limitG6$%$f10G/%\"xG%)infinityG" }}}{PARA 0 "" 0 "" {TEXT -1 49 "3.  E
+xperiment with the function  signum(x)  and " }{TEXT 258 50 "explain w
+hat  signum(a)  means in this expression." }{TEXT -1 1 " " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+{TEXT 259 12 "Explanation:" }}{PARA 0 "" 0 "" {TEXT -1 4 "    " }}
+{PARA 0 "" 0 "" {TEXT -1 100 "Continue. First graph the function and s
+ee if you can \"guess\" the limit before computing with MAPLE." }}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "f11:=sqrt(x+54)-sqrt(x);" "6#>
+%$f11G,&-%%sqrtG6#,&%\"xG\"\"\"\"#aF+F+-F'6#F*!\"\"" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 
+1 "limit(f11,x=infinity);" "6#-%&limitG6$%$f11G/%\"xG%)infinityG" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {XPPEDIT 19 1 "f12:=piecewise(x<0,x^3,x+2);" "6#>%$f12G-%*piecewiseG
+6%2%\"xG\"\"!*$F)\"\"$,&F)\"\"\"\"\"#F." }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f12
+,x=0);" "6#-%&limitG6$%$f12G/%\"xG\"\"!" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f12
+,x=0,left);" "6#-%&limitG6%%$f12G/%\"xG\"\"!%%leftG" }}}{EXCHG {PARA 
+0 "> " 0 "" {XPPEDIT 19 1 "limit(f12,x=0,right);" "6#-%&limitG6%%$f12G
+/%\"xG\"\"!%&rightG" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "f13:=x
+-floor(x);" "6#>%$f13G,&%\"xG\"\"\"-%&floorG6#F&!\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "limit(f13,x=4);" "6#-%&limitG6$%$f13G/%\"xG\"\"%" }}}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f13,x=4,left);" "6#-%&li
+mitG6%%$f13G/%\"xG\"\"%%%leftG" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "limit(f13,x=4,right);" "6#-%&limitG6%%$f13G/%\"xG\"\"%%&rightG" 
+}}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "f15:=Heaviside(t+4);" "6#>%
+$f15G-%*HeavisideG6#,&%\"tG\"\"\"\"\"%F*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(f15
+,t=-4);" "6#-%&limitG6$%$f15G/%\"tG,$\"\"%!\"\"" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {XPPEDIT 19 1 "limit(f15,t=-4,left);" "6#-%&limitG6%%$f15G/%\"t
+G,$\"\"%!\"\"%%leftG" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit
+(f15,t=-4,right);" "6#-%&limitG6%%$f15G/%\"tG,$\"\"%!\"\"%&rightG" }}}
+{PARA 257 "" 1 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 33 "Compute
+ the following limits and " }{TEXT 260 129 "comment on what the result
+s tell us about the relative growth rates of the two functions involve
+d with the quotient in each case." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(x/ln(x),x=0);" "6#-%&lim
+itG6$*&%\"xG\"\"\"-%#lnG6#F'!\"\"/F'\"\"!" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 261 9 "Comments." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(x/ln(x),
+x=infinity);" "6#-%&limitG6$*&%\"xG\"\"\"-%#lnG6#F'!\"\"/F'%)infinityG
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 262 9 "Comm
+ents." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "limit(x^100/exp(x),x=infinity);" "6#-%&limitG6$*&%\"xG
+\"$+\"-%$expG6#F'!\"\"/F'%)infinityG" }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT 263 9 "Comments." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(ln(x)/sqrt(x),
+x=infinity);" "6#-%&limitG6$*&-%#lnG6#%\"xG\"\"\"-%%sqrtG6#F*!\"\"/F*%
+)infinityG" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+264 9 "Comments." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 113 "Let's consider a multivariable limit.  Investigate the l
+imiting behavior with the limit and plot commands for the" }}{PARA 0 "
+" 0 "" {TEXT -1 9 "function " }{XPPEDIT 18 0 "(x^2-y^2)/(x^2+y^2)" "6#
+*&,&*$%\"xG\"\"#\"\"\"*$%\"yGF'!\"\"F(,&*$F&F'F(*$F*F'F(F+" }{TEXT -1 
+70 " .  For example the MAPLE command for computing this limit at (1,2
+) is" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 76 "Limit((x^2-y^2)/(x^2+y^2),[x,y]=[1,0])=limit((x^2-y^2
+)/(x^2+y^2),\{x=1,y=0\});" }}}{PARA 0 "" 0 "" {TEXT -1 51 "Now compute
+ the limit at (1,0), (0,1), and (0,0).  " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 48 "Plot the graph and s
+ee if the limits make sense." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 150 "
+Recall the definition of the \"difference quotient for a function G\".
+  Namely, if G (x) is a function then the difference quotient is defin
+ed as       " }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "(G(x+h)-G(x))/h " "6#*&
+,&-%\"GG6#,&%\"xG\"\"\"%\"hGF*F*-F&6#F)!\"\"F*F+F." }{TEXT -1 23 "  , \+
+or equivalently    " }{XPPEDIT 18 0 "(G(x)-G(h))/(x-h)" "6#*&,&-%\"GG6
+#%\"xG\"\"\"-F&6#%\"hG!\"\"F),&F(F)F,F-F-" }{TEXT -1 9 "     .   " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 265 51 "What doe
+s the difference quotient actually measure?" }{TEXT -1 1 " " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 139 "For each of th
+e following functions compute its difference quotient and then compute
+ the limit of the difference quotient as h goes to 0.  " }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "g1:=x->(2
+*x+3)^5;" "6#>%#g1Gf*6#%\"xG7\"6$%)operatorG%&arrowG6\"*$,&*&\"\"#\"\"
+\"F'F1F1\"\"$F1\"\"&F,F,F," }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 
+"dqg1:=(g1(x+h)-g1(x))/h;" "6#>%%dqg1G*&,&-%#g1G6#,&%\"xG\"\"\"%\"hGF,
+F,-F(6#F+!\"\"F,F-F0" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit
+(dqg1,h=0);" "6#-%&limitG6$%%dqg1G/%\"hG\"\"!" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 10 "factor(%);" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 44 "Continue in the same way for g2, g3, and \+
+g4." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "g2:=x->ln(x);" "6#>%#g2Gf*6#%\"xG7\"6$%)operatorG%&arro
+wG6\"-%#lnG6#F'F,F,F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "g3:=x->1/x;" "6#>%#g3Gf*6#%
+\"xG7\"6$%)operatorG%&arrowG6\"*&\"\"\"F.F'!\"\"F,F,F," }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "g4:=x->sin(a*x);" "6#>%#g4Gf*6#%\"xG7\"6$%)operatorG%&a
+rrowG6\"-%$sinG6#*&%\"aG\"\"\"F'F2F,F,F," }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 95 "Now compute the following limits of the difference quotie
+nt for a general expression    G(x) . " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 54 "Limit((G(x+h)-G(x))/h,h=0)=limit((G(x+h)-G(x))/h,h=0)
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "Limit((G(x)-G(h))/(x-h
+),h=x)=limit((G(x)-G(h))/(x-h),h=x);" }}}{PARA 260 "" 0 "" {TEXT -1 0 
+"" }}{PARA 259 "" 0 "" {TEXT -1 126 "In calculus what do we call the l
+imit of the difference quotient as h goes to 0 in the first or as h go
+es to x in the second.?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "148
+ 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

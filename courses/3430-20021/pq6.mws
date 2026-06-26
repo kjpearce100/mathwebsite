@@ -1,0 +1,19 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 2 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 
+0 0 1 }0 0 0 -1 -1 -1 0 0 0 0 0 0 -1 0 }{PSTYLE "" 0 256 1 {CSTYLE "" 
+-1 -1 "" 0 1 64 134 215 0 0 0 0 0 0 0 0 0 0 1 }3 0 0 -1 -1 -1 0 0 0 0 
+0 0 -1 0 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 21 "MAPLE Practice Quiz 6" }}{PARA 
+0 "" 0 "" {TEXT -1 4 "    " }}{PARA 0 "" 0 "" {TEXT -1 114 "Find antid
+erivatives for each of the following functions.  Use differentiation t
+o show your answers to be correct." }}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "f:=sqrt(1-x^2)*arcsin(x);" "6#>%\"fG*&-%%sqrtG6#,&\"\"
+\"F**$%\"xG\"\"#!\"\"F*-%'arcsinG6#F,F*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "g:=x/sqrt(1+sqrt(1+x^2));" "6#>%\"gG*&%\"xG\"\"\"-%%sqr
+tG6#,&F'F'-F)6#,&F'F'*$F&\"\"#F'F'!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "h:=x^3*arctan(x);" "6#>%\"hG*&%\"xG\"\"$-%'arctanG6#F&
+\"\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0" 
+21 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

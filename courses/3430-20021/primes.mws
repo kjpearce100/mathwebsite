@@ -1,0 +1,61 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 102 "s := 0;  \nN := 100
+;\nfor i from 1 to N do if isprime(i) then s := s + 1 fi od:\nprint (N
+,s, evalf(s/N));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"NG\"$+\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"$+\"\"#D$\"+++++D!#5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 103 "s := 0;  \nN := 1000;\nfor i from 1 to N do if ispri
+me(i) then s := s + 1 fi od:\nprint (N,s, evalf(s/N));" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"sG\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"NG\"%+5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"%+5\"$o\"$\"++++!o\"!#5
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 104 "s := 0;  \nN := 10000;
+\nfor i from 1 to N do if isprime(i) then s := s + 1 fi od:\nprint (N,
+s, evalf(s/N));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"NG\"&++\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"&++\"\"%H7$\"++++H7!#5" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 105 "s := 0;  \nN := 100000;\nfor i from 1 to N do if isp
+rime(i) then s := s + 1 fi od:\nprint (N,s, evalf(s/N));" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%\"sG\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%\"NG\"'++5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6%\"'++5\"%#f*$\"++++#f*!
+#6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 106 "s := 0;  \nN := 1000
+000;\nfor i from 1 to N do if isprime(i) then s := s + 1 fi od:\nprint
+ (N,s, evalf(s/N));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"sG\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"NG\"(+++\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6%\"(+++\"\"&)\\y$\"+++!)\\y!#6" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 12 "NN := 1000!;" }}{PARA 0 "> " 0 "" {MPLTEXT 1 0 
+0 "" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#NNG\"c[u++++++++++++++++++++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+++++++++++++++++++++++++++++++++++?Z`x-q4TRzxNQ)R$f5!p`T+4pTV7FC1q.f&3
+cIU_sj*p4S=3e`8I#H3;&yTdf/unj5S#et@uaU4)**[F(=%f!o:d%*Ra@=S1^G?%p3*)37
+4$H!z.Ehk^W7qr[*4X@h&4GE)f*4pRj)[Qvi\"G*oz3D))\\p0jtv??UM_dw'ed([A#Gu'
+>xUbj)*Q(f-]4<i]$3R6Kk)*y-Y')p#)GyKV_J2*4pXkxI[`,H%p*R^],G[MBT,e,_=TV
+\"G%pS*=sLv)\\m#>`Gu8qR9`$\\m=C]7B6H#Qd'R[hU')Qs$>oH>&3Hs)zg\\7Yc&=7(Q
+%))o5#>k,f%)H7<@5J=*H(*)=\"3/gy,(*Q>cBq*zh][Elc=g)=!*RV!fw@AA!\\**)f-k
+Y/Jn29+\\\"QQF>Yw*)olQ[I#QvQxB'e%GU:F'pM89,u(\\(GUlf0seR^lv\\tK\\OJ-H4
+i!>N4Z__)=#GS9]CdcYQCVCS3!z.Jd#o%fguzJYM1UAFXpN9I+'e&Q@h!=))R4O?bc68bf
+Yz-:'Q)yg=$Gh**p<gwOVgE$*f#[M[V;3Al*))y\"e=R\"yvq!GF#o_'e*pn_m!ekAorKe
+a7!f#[oz*3phI$pGuR9EUI$[q^ESbA%G;:v?Nye,E<h!pyO?$eY5sh\"=`TKC!*Hqb&HIG
+mu\"ecHk#*fuht=7?G9WW&>0!))**GAYFJSv.>\"*z(4*o\"z@w;;nVKE=X'R*)*)3y`,;
+3#RC3M7\"Hc(pum9nH'oF1&)3w9(*QQAgz=#*G1h9alQAd_a%>9\"yJR>!)y24^@f<oR5-
+<hJt9N&))e,+_i_V.\\o#>wFrI:w$y8]2GO(*R]%R@gcbNB<5>L&*f\\)z[UaQ,*)>3MNl
+2;X\\CY'z'*)=UGx%eZ;w`]4!Hgv*3n/%)paOeh`:\"o6'=L8#33sD$oc@AM4*>a(\\'\\
+60(G*fj*[ChF48-\"[E\"G)R\"p`T-lV;q\"oej%y/x(z#=MF5:$oh-+3-y3DTJhBE%[C8
+prw?$*eya-7$[8(en4wuoh@/tN,o(p.6'e:B\"G.W%GRJ%3tHy34G>?$f'e@U_M&z`3Ohu
+J(fXPQy'o73)\\#)e>P&Q9zt?\"H?)omR(zn;hwlkGMbZ$\\VZ<CE9\"4ubvIYeRK&=8DV
+Nd&f$)*)GjwC,x*\\yk$yDe/\"=>rL([')yV()QRc5H'\\YY4y#=9gVq\\ia(\\(37w_*4
+&f]z(>Dt)=FxiB)=*fP2(3/XU(*4fW*p'HQK,*e&3[*H(omJ'eg>(>5'))*z/![Spp[3U/
+#f?!H')R7&Q*H/\"**zVDj92@k[P>d)R+BRV-PatP4x+E(Q-%" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 84 "s := 0;\nfor i from NN+2 to N+1000 do if isp
+rime(i) then s := s + 1 fi od:\nprint (s);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"sG\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "8" 0 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

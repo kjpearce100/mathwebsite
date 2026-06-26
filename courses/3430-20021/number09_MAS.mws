@@ -1,0 +1,288 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Out
+put" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 
+1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 
+1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 258 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 259 1 {CSTYLE "" -1 -1 "Times" 
+1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 260 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 261 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 262 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 263 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+264 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 265 1 {CSTYLE "" -1 -1 "T
+imes" 1 12 0 0 0 1 2 1 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 24 "MAPLE Worksheet Number 9" }}
+{PARA 257 "" 0 "" {TEXT -1 41 "Integrals in Calculus via Antiderivativ
+es" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 14 "Rec
+all that   " }{XPPEDIT 18 0 " F(x) = int(f(x),x) " "6#/-%\"FG6#%\"xG-%
+$intG6$-%\"fG6#F'F'" }{TEXT -1 10 "  means   " }{XPPEDIT 18 0 "diff(F(
+x),x)" "6#-%%diffG6$-%\"FG6#%\"xGF)" }{TEXT -1 208 " = f(x) .  We call
+ F(x) the \"indefinite integral\" of f(x) with respect to x.  Sometime
+s we also call F(x) the \"antiderivative\" of f(x) with respect to x. \+
+ Notice that if C is constant with respect to x then  " }}{PARA 258 "
+" 0 "" {XPPEDIT 18 0 "diff(F(x)+C,x)" "6#-%%diffG6$,&-%\"FG6#%\"xG\"\"
+\"%\"CGF+F*" }{TEXT -1 3 " = " }{XPPEDIT 18 0 "diff(F(x),x)" "6#-%%dif
+fG6$-%\"FG6#%\"xGF)" }{TEXT -1 11 "  =  f(x) ." }}{PARA 0 "" 0 "" 
+{TEXT -1 116 "hence the use of the word \"indefinite\" to describe F(x
+).  So the more common notation for the indefinite integral is" }}
+{PARA 259 "" 0 "" {XPPEDIT 18 0 "int(f(x),x) " "6#-%$intG6$-%\"fG6#%\"
+xGF)" }{TEXT -1 12 "= F(x) + C ." }}{PARA 0 "" 0 "" {TEXT -1 223 "Late
+r it will be important for us to remember to include the integration c
+onstant  C .  The MAPLE command for computing the indefinite integral \+
+is annologous to that for computting the derivative of f with respect \+
+to x.:   " }}{PARA 260 "" 0 "" {TEXT -1 40 "int(expression,variable of
+ integration);" }}{PARA 0 "" 0 "" {TEXT -1 98 "Of course the derivativ
+e and indefinite integral are \"inverse operations\" of each other, th
+at is, " }}{PARA 261 "" 0 "" {XPPEDIT 18 0 "diff(int(f(x),x),x)  =  f(
+x)   and int(diff(F(x),x),x)  =  F(x)" "6#3/-%%diffG6$-%$intG6$-%\"fG6
+#%\"xGF.F.-F,6#F./-F)6$-F&6$-%\"FG6#F.F.F.-F76#F." }{TEXT -1 1 " " }}
+{PARA 0 "" 0 "" {TEXT -1 145 "and MAPLE knows this.   As we did in Cha
+pter 7 perform the following commands, remember we haven't defined f o
+r F to be any particular functions." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 40 "Diff(int(f(x),x),x)=diff(int(f(x),x),x);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#/-%%DiffG6$-%$intG6$-%\"fG6#%\"xGF-F-F*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "Int(diff(F(x),x),x)=int(diff
+(F(x),x),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$IntG6$-%%diffG6$-%
+\"FG6#%\"xGF-F-F*" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 107 "Use MAPLE to compute each of the following indefinite in
+tegrals, ckecking each result with differentiation." }}{EXCHG {PARA 0 
+"> " 0 "" {XPPEDIT 19 1 "int(x^3,x);" "6#-%$intG6$*$%\"xG\"\"$F'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&\"\"%!\"\"%\"xGF%\"\"\"" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {XPPEDIT 19 1 "int(sin(a*x),x);" "6#-%$intG6$-%$sinG6#*&%\"aG\"\"\"%
+\"xGF+F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&%\"aG!\"\"-%$cosG6#*&F
+%\"\"\"%\"xGF+F+F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "int(ln(x),x);" "6#-%$intG6$-%#
+lnG6#%\"xGF)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&%\"xG\"\"\"-%#lnG6
+#F%F&F&F%!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "int(exp(3*x),x);" "6#-%$intG6$
+-%$expG6#*&\"\"$\"\"\"%\"xGF+F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*
+&#\"\"\"\"\"$F&-%$expG6#,$*&F'F&%\"xGF&F&F&F&" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 312 "Notice that MA
+PLE left off the integration constant each time, or more accurately, M
+APLE defaults to integration constant 0. Sometimes this causes MAPLE s
+ome grief. Consider the following integration, first do it \"by hand\"
+ and include the answer, then use MAPLE to compute what is supposed to
+ be the same answer." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT 256 21 "By hand the answer is" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "Int(2*x*(x^2+1)^20,x)=int(
+2*x*(x^2+1)^20,x);" "6#/-%$IntG6$*(\"\"#\"\"\"%\"xGF),&*$F*F(F)F)F)\"#
+?F*-%$intG6$*(F(F)F*F),&*$F*F(F)F)F)F-F*" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#/-%$IntG6$,$*(\"\"#\"\"\"%\"xGF*),&*$)F+F)F*F*F*F*\"#?F*F*F+,L*&
+#F*\"#@F**$)F+\"#UF*F*F**$)F+\"#SF*F**&\"#5F*)F+\"#QF*F**&#\"$!>\"\"$F
+**$)F+\"#OF*F*F**&\"$&GF*)F+\"#MF*F**&\"$p*F*)F+\"#KF*F**&\"%%e#F*)F+
+\"#IF*F**&#\"&g(Q\"\"(F**$)F+\"#GF*F*F**&\"%!p*F*)F+\"#EF*F**&#\"&!*>%
+FBF**$)F+\"#CF*F*F**&\"&'z;F*)F+\"#AF*F**&F^oF*)F+F0F*F**&FhnF**$)F+\"
+#=F*F*F**&FZF*)F+\"#;F*F**&FSF**$)F+\"#9F*F*F**&FOF*)F+\"#7F*F**&FKF*)
+F+F<F*F**&FGF*)F+\"\")F*F**&F@F**$)F+\"\"'F*F*F**&F<F*)F+\"\"%F*F*F.F*
+" }}}{PARA 0 "" 0 "" {TEXT -1 26 "Woah!  Try factoring this." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "ans:=factor(rhs(%));" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$ansG,$*,\"#@!\"\"%\"xG\"\"#,(*$)F)
+\"\"%\"\"\"F/*&\"\"$F/)F)F*F/F/F1F/F/,0*$)F)\"#7F/F/*&\"\"(F/)F)\"#5F/
+F/*&F'F/)F)\"\")F/F/*&\"#NF/)F)\"\"'F/F/*&F?F/F-F/F/*&F'F/F2F/F/F8F/F/
+,<*$)F)\"#CF/F/*&\"#6F/)F)\"#AF/F/*&\"#bF/)F)\"#?F/F/*&\"$m\"F/)F)\"#=
+F/F/*&\"$Q$F/)F)\"#;F/F/*&\"$!\\F/)F)\"#9F/F/*&\"$>&F/F5F/F/*&\"$1%F/F
+9F/F/*&\"$N#F/F<F/F/*&\"$+\"F/F@F/F/*&\"#JF/F-F/F/*&FAF/F2F/F/F/F/F/F/
+" }}}{PARA 0 "" 0 "" {TEXT -1 117 "Well, this isn't much help.  Let's \+
+make sure it is right by differentiating it to see if we get what we s
+tarted with." }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "diff(ans,x);" 
+"6#-%%diffG6$%$ansG%\"xG" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,**.\"\"#
+\"\"\"\"#@!\"\"%\"xGF&,(*$)F)\"\"%F&F&*&\"\"$F&)F)F%F&F&F/F&F&,0*$)F)
+\"#7F&F&*&\"\"(F&)F)\"#5F&F&*&F'F&)F)\"\")F&F&*&\"#NF&)F)\"\"'F&F&*&F=
+F&F,F&F&*&F'F&F0F&F&F6F&F&,<*$)F)\"#CF&F&*&\"#6F&)F)\"#AF&F&*&\"#bF&)F
+)\"#?F&F&*&\"$m\"F&)F)\"#=F&F&*&\"$Q$F&)F)\"#;F&F&*&\"$!\\F&)F)\"#9F&F
+&*&\"$>&F&F3F&F&*&\"$1%F&F7F&F&*&\"$N#F&F:F&F&*&\"$+\"F&F>F&F&*&\"#JF&
+F,F&F&*&F?F&F0F&F&F&F&F&F&*,F'F(F)F%,&*&F-F&)F)F/F&F&*&F?F&F)F&F&F&F1F
+&FBF&F&*,F'F(F)F%F*F&,.*&F4F&)F)FGF&F&*&\"#qF&)F)\"\"*F&F&*&\"$o\"F&)F
+)F6F&F&*&\"$5#F&)F)\"\"&F&F&*&\"$S\"F&FboF&F&*&\"#UF&F)F&F&F&FBF&F&*,F
+'F(F)F%F*F&F1F&,:*&FEF&)F)\"#BF&F&*&\"$U#F&)F)F'F&F&*&\"%+6F&)F)\"#>F&
+F&*&\"%))HF&)F)\"#<F&F&*&\"%3aF&)F)\"#:F&F&*&\"%goF&)F)\"#8F&F&*&\"%Gi
+F&FgoF&F&*&\"%gSF&FjoF&F&*&\"%!)=F&F^pF&F&*&\"$+'F&FapF&F&*&\"$C\"F&Fb
+oF&F&*&F4F&F)F&F&F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "fact
+or(diff(ans,x));" "6#-%'factorG6#-%%diffG6$%$ansG%\"xG" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,$*(\"\"#\"\"\"%\"xGF&),&*$)F'F%F&F&F&F&\"#?F&F&" 
+}}}{PARA 0 "" 0 "" {TEXT -1 43 "OK that seems to work, so what's going
+ on? " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 257 94 
+"To answer this note what integration constant you got when you did th
+e calculation \"by hand\"? " }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 105 "Notice the constant term in th
+e above integral is 0.  Try adding your constant to it and factoring a
+gain." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "factor(ans+1/21);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&\"#@!\"\",&*$)%\"xG\"\"#\"\"\"F,
+F,F,F%F," }}}{PARA 0 "" 0 "" {TEXT -1 114 "Both answers are correct, t
+hey represent the same indefinite integral, I personally prefer the on
+e we get by hand." }}{PARA 0 "" 0 "" {TEXT -1 95 "Now we'll do some mo
+re complicated integration problems, you know, like those \"neat\" one
+s from " }}{PARA 0 "" 0 "" {TEXT -1 20 "Cal II.   Try these." }}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "int(sin(x)^2*cos(x),x);" "6#-%
+$intG6$*&-%$sinG6#%\"xG\"\"#-%$cosG6#F*\"\"\"F*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$*&#\"\"\"\"\"$F&*$)-%$sinG6#%\"xGF'F&F&F&" }}}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 258 47 "What integrati
+on method was used here? (Above.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "int(sin(x)^2*cos(x)^2,x);" "6#
+-%$intG6$*&-%$sinG6#%\"xG\"\"#-%$cosG6#F*F+F*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,(*&#\"\"\"\"\"%F&*&-%$sinG6#%\"xGF&)-%$cosGF+\"\"$F&F&
+!\"\"*&#F&\"\")F&*&F.F&F)F&F&F&*&F4F1F,F&F&" }}}{EXCHG {PARA 0 "> " 0 
+"" {XPPEDIT 19 1 "int(x*exp(x),x);" "6#-%$intG6$*&%\"xG\"\"\"-%$expG6#
+F'F(F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&%\"xG\"\"\"-%$expG6#F%F&
+F&F'!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "int(x^3*exp(x),x
+);" "6#-%$intG6$*&%\"xG\"\"$-%$expG6#F'\"\"\"F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,**&)%\"xG\"\"$\"\"\"-%$expG6#F&F(F(*(F'F()F&\"\"#F(F)F
+(!\"\"*(\"\"'F(F&F(F)F(F(*&F1F(F)F(F/" }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT 259 69 "What integration method was used in \+
+these last two examples? (Above.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "int(1/sqrt(1-x^2),x);" "6#-%$i
+ntG6$*&\"\"\"F'-%%sqrtG6#,&F'F'*$%\"xG\"\"#!\"\"F/F-" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#-%'arcsinG6#%\"xG" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "int(x/sqrt(1-x^2),x);" "6#-%$intG6$*&%\"xG\"\"\"-%%sqrt
+G6#,&F(F(*$F'\"\"#!\"\"F/F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*$,&
+\"\"\"F&*$)%\"xG\"\"#F&!\"\"#F&F*F+" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "int(x^3/sqrt(1-x^2),x);" "6#-%$intG6$*&%\"xG\"\"$-%%sqr
+tG6#,&\"\"\"F-*$F'\"\"#!\"\"F0F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&
+*(\"\"$!\"\"%\"xG\"\"#,&\"\"\"F**$)F'F(F*F&#F*F(F&*(F(F*F%F&F)F-F&" }}
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 260 78 "What in
+tegration method(s) was(were) used in these last two examples? (Above.
+)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 126 "We \+
+can compute double integrals just as easily as we computed mixed deriv
+atives.  Compute the following multiple integration: " }}{EXCHG {PARA 
+0 "> " 0 "" {XPPEDIT 19 1 "int(int(x*y+x^3-y^2+2,x),y);" "6#-%$intG6$-
+F$6$,**&%\"xG\"\"\"%\"yGF+F+*$F*\"\"$F+*$F,\"\"#!\"\"F0F+F*F," }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,**&#\"\"\"\"\"%F&*&)%\"xG\"\"#F&)%\"y
+GF+F&F&F&*&F%F&*&)F*F'F&F-F&F&F&*&#F&\"\"$F&*&)F-F3F&F*F&F&!\"\"*(F+F&
+F*F&F-F&F&" }}}{PARA 0 "" 0 "" {TEXT -1 67 "Compute the same integral \+
+with the order of integration reversed.  " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 28 "int(int(x*y+x^3-y^2+2,y),x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,**&#\"\"\"\"\"%F&*&)%\"xG\"\"#F&)%\"yGF+F&F&F&*&F%F&*&
+)F*F'F&F-F&F&F&*&#F&\"\"$F&*&)F-F3F&F*F&F&!\"\"*(F+F&F*F&F-F&F&" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 261 20 "What do \+
+you observe?" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 232 "Does the order of integration ever make any difference?  Actua
+lly in definite integration sometimes it make a lot of difference when
+ trying to compute \"by hand.\".  Try to compute  the following double
+ integration problem by hand:   " }{XPPEDIT 18 0 "int(int(exp(x^2),x=y
+..1),y=0..1)" "6#-%$intG6$-F$6$-%$expG6#*$%\"xG\"\"#/F,;%\"yG\"\"\"/F0
+;\"\"!F1" }{TEXT -1 4 "  . " }}{PARA 0 "" 0 "" {TEXT 262 48 "What is t
+he problem you incounter immediately?  " }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 265 "" 0 "" {TEXT -1 186 "Now reverse the order of integrat
+ion and compute the same integral.  (Remember you must draw the region
+ of integration and choose the appropriate limits of integration in th
+e new order.)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 74 "Now compute the integral in both orders with MAPLE. Inclu
+de both results. " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "int(int
+(exp(x^2),x=y..1),y=0..1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&#\"
+\"\"\"\"#F&-%$expG6#F&F&F&#F&F'!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "int(int(exp(x^2),y=0..x),x=0..1);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#,&*&#\"\"\"\"\"#F&-%$expG6#F&F&F&#F&F'!\"\"" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 263 20 "What do \+
+you observe?" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 202 "There are lots of continuous functions which s
+imply don't have a \"closed form antiderivative.\"  By this we mean th
+ere are functions f(x) for which there is no formula expression in x, \+
+ F(x), for which  " }}{PARA 0 "" 0 "" {TEXT -1 1 " " }{XPPEDIT 18 0 "d
+iff(F(x),x)=f(x)" "6#/-%%diffG6$-%\"FG6#%\"xGF*-%\"fG6#F*" }{TEXT -1 
+52 "  . We have already seen one such function, namely, " }{XPPEDIT 
+18 0 "exp(x^2) " "6#-%$expG6#*$%\"xG\"\"#" }{TEXT -1 14 " ,another is \+
+ " }{XPPEDIT 18 0 "sin(x^2)" "6#-%$sinG6#*$%\"xG\"\"#" }{TEXT -1 81 " \+
+. Ask MAPLE to compute the indefinite integral of both and display the
+ result.  " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "int(exp(x^2),x
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(^##!\"\"\"\"#\"\"\"%#PiG#F(F'-
+%$erfG6#*&%\"xGF(^#F(F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+16 "int(sin(x^2),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&#\"\"\"\"
+\"#F&*(F'F%%#PiGF%-%)FresnelSG6#*(F'F%F)#!\"\"F'%\"xGF&F&F&F&" }}}
+{PARA 0 "" 0 "" {TEXT -1 85 "Of course the Fundamental Theorem tells u
+s there is a function whose derivative is   " }{XPPEDIT 18 0 "sin(x^2)
+" "6#-%$sinG6#*$%\"xG\"\"#" }{TEXT -1 13 "  ,namely    " }{XPPEDIT 18 
+0 "int(sin(t^2),t=0..x)" "6#-%$intG6$-%$sinG6#*$%\"tG\"\"#/F*;\"\"!%\"
+xG" }{TEXT -1 201 "  is such a function, but we would have to use some
+ numerical integration technique to compute its value for particular v
+alues of x.  For example use the trapezoidal rule to compute the value
+ for x=5. " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "with(student):
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "evalf(trapezoid(sin(t^2
+),t=0..5,100));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#$\"+A(3**H&!#5" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 88 "There are
+ other integrals that MAPLE needs some help in solving.  For example a
+sk MAPLE " }}{PARA 0 "" 0 "" {TEXT -1 12 "to compute  " }{XPPEDIT 18 
+0 "int(h,x)" "6#-%$intG6$%\"hG%\"xG" }{TEXT -1 31 "  for the function \+
+h defined as" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "h:=1/sqrt(1+sq
+rt(x));" "6#>%\"hG*&\"\"\"F&-%%sqrtG6#,&F&F&-F(6#%\"xGF&!\"\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"hG*&\"\"\"F&*$,&F&F&*$%\"xG#F&\"\"
+#F&#F&F,!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "int(h,x);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*(\"\"#\"\"\"%#PiG#!\"\"F%,&*(\"\"
+%F&\"\"$F)F'#F&F%F&**\"\"'F)F'F.,&*&F,F&%\"xGF.F&\"\")F)F&,&F&F&*$F3F.
+F&F.F&F&F&" }}}{PARA 262 "" 1 "" {TEXT -1 65 "Load the student package
+ and try the following command sequence: " }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "changev
+ar(1+sqrt(x)=u^2,Int(h,x),u);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$In
+tG6$,$*&\"\"%\"\"\",(F)F)*&\"\"#F))%\"uGF,F)!\"\"*$)F.F(F)F)#F)F,F)F.
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "value(%);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#,$*.\"\"%\"\"\"\"\"$!\"\"*$),&F&F(*$)%\"uG\"\"#F
+&F&F/F&#F&F/F.F&,&F,F&F'F(F&F+F(F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 31 "ans:=subs(u=sqrt(1+sqrt(x)),%);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$ansG,$**\"\"%\"\"\"\"\"$!\"\",&F(F(*$%\"xG#F(\"\"#F(
+F.,&F/F*F,F(F(F(" }}}{PARA 0 "" 0 "" {TEXT -1 43 "We can check the ans
+wer by differentiating." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "d
+iff(ans,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&**\"\"$!\"\",&\"\"\"F
+(*$%\"xG#F(\"\"#F(#F&F,,&F,F&F)F(F(F*F-F(**F,F(F%F&F'F+F*F-F(" }}}
+{PARA 0 "" 0 "" {TEXT -1 44 "This doesn't look right, try simplifying \+
+it." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&\"\"\"F$*$,&F$F$*$%\"xG#F$\"\"#F$#F$
+F*!\"\"" }}}{PARA 0 "" 0 "" {TEXT -1 25 "Now ask MAPLE to compute " }
+{XPPEDIT 18 0 "int(g,x)" "6#-%$intG6$%\"gG%\"xG" }{TEXT -1 31 "  for t
+he function g defined by" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "g:
+=ln(x+sqrt(1+x^2));" "6#>%\"gG-%#lnG6#,&%\"xG\"\"\"-%%sqrtG6#,&F*F**$F
+)\"\"#F*F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"gG-%#lnG6#,&%\"xG\"
+\"\"*$,&F*F**$)F)\"\"#F*F*#F*F/F*" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "int(g,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&-%#ln
+G6#,&%\"xG\"\"\"*$,&F*F**$)F)\"\"#F*F*#F*F/F*F*F)F*F*F+!\"\"" }}}
+{PARA 0 "" 0 "" {TEXT -1 87 "Again, MAPLE needs help.  This time we'll
+ try integration by parts.  Recall the formula" }}{PARA 263 "" 0 "" 
+{XPPEDIT 18 0 "int(u,v)" "6#-%$intG6$%\"uG%\"vG" }{TEXT -1 3 " = " }
+{XPPEDIT 18 0 "uv-int(v,u)" "6#,&%#uvG\"\"\"-%$intG6$%\"vG%\"uG!\"\"" 
+}{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 36 "Our only option seems \+
+to be to let  " }{XPPEDIT 18 0 "u = ln(x+sqrt(1+x^2))" "6#/%\"uG-%#lnG
+6#,&%\"xG\"\"\"-%%sqrtG6#,&F*F**$F)\"\"#F*F*" }{TEXT -1 12 "    and   \+
+  " }{XPPEDIT 18 0 "dv=dx" "6#/%#dvG%#dxG" }{TEXT -1 21 "  . Try the f
+ollowing" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "intparts(int(g,x
+),ln(x+sqrt(1+x^2)));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&-%#lnG6#,
+&%\"xG\"\"\"*$,&F*F**$)F)\"\"#F*F*#F*F/F*F*F)F*F*F+!\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 186 "Try simplifying this and computing the \+
+value of the result to see if MAPLE can handle it now. Of course you a
+re to check your answer by differentiation (and simplification if nece
+ssary)." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 264 "" 1 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 33 "Use the same method to compute   " }
+{XPPEDIT 18 0 "int((arcsin(x))^2,x)" "6#-%$intG6$*$-%'arcsinG6#%\"xG\"
+\"#F*" }{TEXT -1 49 "  .  Again  check you answer via differentiation.
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "int(arcsin(x)^2,x);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$intG6$*$)-%'arcsinG6#%\"xG\"\"#\"\"
+\"F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "intparts(int(arcsin
+(x)^2,x),arcsin(x)^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,&*&)-%'arcs
+inG6#%\"xG\"\"#\"\"\"F)F+F+-%$IntG6$,$**F*F+F&F+,&F+F+*$)F)F*F+!\"\"#F
+4F*F)F+F+F)F4" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "diff(%,x);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*$)-%'arcsinG6#%\"xG\"\"#\"\"\"" }
+}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 11 "" 1 "" 
+{TEXT -1 0 "" }}}{MARK "87 0 0" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

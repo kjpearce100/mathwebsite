@@ -1,0 +1,342 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 18 258 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 18 
+261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 18 262 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" 18 263 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Warning" -1 7 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple O
+utput" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 
+1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "
+" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 
+2 2 0 1 }}
+{SECT 0 {PARA 257 "" 0 "" {TEXT -1 20 "MAPLE WORKSHEET #15 " }}{PARA 
+257 "" 0 "" {TEXT -1 27 "Matrices and Systems of ODE" }}{PARA 257 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 84 "We wish to be able t
+o solve systems of linear diffierential equations of the type   " }
+{XPPEDIT 263 0 "Diff(X(t),t) = AX(t)+B;" "6#/-%%DiffG6$-%\"XG6#%\"tGF*
+,&-%#AXG6#F*\"\"\"%\"BGF/" }{TEXT -1 9 ",  where " }{TEXT 256 4 "X(t)
+" }{TEXT -1 5 " and " }{TEXT 257 1 "B" }{TEXT -1 23 " are column vecto
+rs in " }{XPPEDIT 258 0 "R^n" "6#)%\"RG%\"nG" }{TEXT -1 7 ",  and " }
+{TEXT 259 1 "A" }{TEXT -1 64 " is an n by n matrix of constants.  The \+
+major result is that if " }{XPPEDIT 18 0 "lambda" "6#%'lambdaG" }
+{TEXT -1 21 " is an eigenvalue of " }{TEXT 260 1 "A" }{TEXT -1 18 " wi
+th eigenvector " }{XPPEDIT 261 0 "E[lambda]" "6#&%\"EG6#%'lambdaG" }
+{TEXT -1 21 ", then the function  " }{XPPEDIT 262 0 "X[lambda] = E[lam
+bda]*exp(lambda*t)" "6#/&%\"XG6#%'lambdaG*&&%\"EG6#F'\"\"\"-%$expG6#*&
+F'F,%\"tGF,F," }{TEXT -1 73 "  is a solution of the system of differen
+tial equations.  This is because" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "dif
+f(E[lambda]*exp(lambda*t),t)" "6#-%%diffG6$*&&%\"EG6#%'lambdaG\"\"\"-%
+$expG6#*&F*F+%\"tGF+F+F0" }{TEXT -1 2 "= " }{XPPEDIT 18 0 "lambda*E[la
+mbda]*e^(lambda*t) = A*E[lambda]*e^(lambda*t);" "6#/*(%'lambdaG\"\"\"&
+%\"EG6#F%F&)%\"eG*&F%F&%\"tGF&F&*(%\"AGF&&F(6#F%F&)F+*&F%F&F-F&F&" }
+{TEXT -1 189 " .  Moreover, solutions formed in this way from distinct
+ eigenvalues are linearly independent.  In particular, if A has n dist
+inct eigenvalues, then all solutions are found by this process." }}
+{PARA 0 "" 0 "" {TEXT -1 83 "Let's apply this thinking to find solutio
+ns to the following homogeneous system  \{ " }{XPPEDIT 18 0 "Diff(x[1]
+,t) = x[1]+3*x[2]" "6#/-%%DiffG6$&%\"xG6#\"\"\"%\"tG,&&F(6#F*F**&\"\"$
+F*&F(6#\"\"#F*F*" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "Diff(x[2],t) = x[1
+]-x[2]" "6#/-%%DiffG6$&%\"xG6#\"\"#%\"tG,&&F(6#\"\"\"F/&F(6#F*!\"\"" }
+{TEXT -1 60 " \}. We first write the system in vector form as given ab
+ove." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "restart:with(linalg)
+;" }}{PARA 7 "" 1 "" {TEXT -1 80 "Warning, the protected names norm an
+d trace have been redefined and unprotected\n" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#7^r%.BlockDiagonalG%,GramSchmidtG%,JordanBlockG%)LUdeco
+mpG%)QRdecompG%*WronskianG%'addcolG%'addrowG%$adjG%(adjointG%&angleG%(
+augmentG%(backsubG%%bandG%&basisG%'bezoutG%,blockmatrixG%(charmatG%)ch
+arpolyG%)choleskyG%$colG%'coldimG%)colspaceG%(colspanG%*companionG%'co
+ncatG%%condG%)copyintoG%*crossprodG%%curlG%)definiteG%(delcolsG%(delro
+wsG%$detG%%diagG%(divergeG%(dotprodG%*eigenvalsG%,eigenvaluesG%-eigenv
+ectorsG%+eigenvectsG%,entermatrixG%&equalG%,exponentialG%'extendG%,ffg
+ausselimG%*fibonacciG%+forwardsubG%*frobeniusG%*gausselimG%*gaussjordG
+%(geneqnsG%*genmatrixG%%gradG%)hadamardG%(hermiteG%(hessianG%(hilbertG
+%+htransposeG%)ihermiteG%*indexfuncG%*innerprodG%)intbasisG%(inverseG%
+'ismithG%*issimilarG%'iszeroG%)jacobianG%'jordanG%'kernelG%*laplacianG
+%*leastsqrsG%)linsolveG%'mataddG%'matrixG%&minorG%(minpolyG%'mulcolG%'
+mulrowG%)multiplyG%%normG%*normalizeG%*nullspaceG%'orthogG%*permanentG
+%&pivotG%*potentialG%+randmatrixG%+randvectorG%%rankG%(ratformG%$rowG%
+'rowdimG%)rowspaceG%(rowspanG%%rrefG%*scalarmulG%-singularvalsG%&smith
+G%,stackmatrixG%*submatrixG%*subvectorG%)sumbasisG%(swapcolG%(swaprowG
+%*sylvesterG%)toeplitzG%&traceG%*transposeG%,vandermondeG%*vecpotentG%
+(vectdimG%'vectorG%*wronskianG" }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "A:=matrix(2,2,[1,3,1,-1]);" "6#>%\"AG-%'matrixG6%\"\"#F(7&\"\"\"
+\"\"$F*,$F*!\"\"" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}
+}{PARA 0 "" 0 "" {TEXT -1 49 "A is called the coefficient matrix of th
+e system." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "X:=matrix(2,1,[
+x[1],x[2]]);" }}}{PARA 0 "" 0 "" {TEXT -1 15 "The equation is" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "Diff(X,t)=evalm(A&*X);" }}}
+{PARA 0 "" 0 "" {TEXT -1 11 "Which is   " }{XPPEDIT 18 0 "diff(X,t)=AX
+" "6#/-%%diffG6$%\"XG%\"tG%#AXG" }{TEXT -1 101 " .  To derive the solu
+tion as above we need both the eigenvalues and corresponding eigenvect
+ors of A." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "evals:=eigenvals(A);evects:=eigenvectors(A); " "6#C$>%&
+evalsG-%*eigenvalsG6#%\"AG>%'evectsG-%-eigenvectorsG6#F)" }{TEXT -1 3 
+"   " }}}{PARA 0 "" 0 "" {TEXT -1 61 "The two linearly independent sol
+utions coming from above are " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 81 "Sol1:=matrix(2,1,[3,1])*exp(evals[1]*t);Sol2:=matrix(2,1,[-1,1])
+*exp(evals[2]*t);" }}}{PARA 256 "" 1 "" {TEXT -1 35 "We can test these
+ two solutions via" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "diff(S
+ol1,t);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "Diff(Sol1,t)=eva
+lm(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "A&*evalm(Sol1);" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "\"A*Sol1\"=evalm(%);" }}}
+{PARA 0 "" 0 "" {TEXT -1 101 "Similarly for Sol2.   The general soluti
+on is gotten by taking a linear combination of Sol1 and Sol2." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "Sol := c[1]*Sol1+c[2]*Sol2;
+" }{TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 9 "evalm(%);" }{TEXT -1 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 173 "Note this is the matrix whose column vectors are eigen
+ vectors for the corresponding eigenvalues times the column vector mad
+e up of the corresponding exponentials:   that is" }}{PARA 257 "" 0 "
+" {XPPEDIT 18 0 "`&*`(matrix([[3, -1], [1, 1]]),matrix([[c[1]*exp(2*t)
+], [c[2]*exp(-2*t)]]));" "6#-%#&*G6$-%'matrixG6#7$7$\"\"$,$\"\"\"!\"\"
+7$F-F--F'6#7$7#*&&%\"cG6#F-F--%$expG6#*&\"\"#F-%\"tGF-F-7#*&&F66#F<F--
+F96#,$*&F<F-F=F-F.F-" }{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "diff(Sol,t);" "6#-%%diffG6$%$SolG%\"tG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalm(%);" }}}{EXCHG {PARA 0 "> " 0 
+"" {XPPEDIT 19 1 "A&*Sol;" "6#-%#&*G6$%\"AG%$SolG" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 9 "evalm(%);" }}}{PARA 0 "" 0 "" {TEXT -1 15 "Or
+ all at once:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "Diff(Sol,t)
+-`&*`(A,Sol)=evalm(diff(Sol,t)-`&*`(A,Sol));" }}}{PARA 11 "" 1 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 264 52 "Find the general solutio
+ns of the following systems:" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 4 "A.  " }{XPPEDIT 18 0 "\{diff(x[1],t) = -3*x[1]+8
+*x[2], diff(x[2],t) = 2*x[1]+3*x[2]\}" "6#<$/-%%diffG6$&%\"xG6#\"\"\"%
+\"tG,&*&\"\"$F+&F)6#F+F+!\"\"*&\"\")F+&F)6#\"\"#F+F+/-F&6$&F)6#F7F,,&*
+&F7F+&F)6#F+F+F+*&F/F+&F)6#F7F+F+" }{TEXT -1 1 " " }}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 3 "B. " }{XPPEDIT 18 0 "\{diff(x[1],t) = x[1]-x[2]+4*x[3], di
+ff(x[2],t) = 3*x[1]+2*x[2]-x[3], diff(x[3],t) = 2*x[1]+x[2]-x[3]\}" "6
+#<%/-%%diffG6$&%\"xG6#\"\"\"%\"tG,(&F)6#F+F+&F)6#\"\"#!\"\"*&\"\"%F+&F
+)6#\"\"$F+F+/-F&6$&F)6#F2F,,(*&F8F+&F)6#F+F+F+*&F2F+&F)6#F2F+F+&F)6#F8
+F3/-F&6$&F)6#F8F,,(*&F2F+&F)6#F+F+F+&F)6#F2F+&F)6#F8F3" }{TEXT -1 1 ".
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 131 "MAPLE ha
+s a built-in program for doing this directly.  To use it we need to lo
+ad a special ordinary differential equations package." }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 14 "with(DEtools);" }}}{PARA 0 "" 0 "" {TEXT 
+-1 39 "Now try the following command sequence:" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 14 "matrixDE(A,t);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 29 "Notice the second co
+lumn is -" }{XPPEDIT 18 0 "Sol2 := matrix([[1], [-1]])*exp(-2*t);" "6#
+>%%Sol2G*&-%'matrixG6#7$7#\"\"\"7#,$F+!\"\"F+-%$expG6#,$*&\"\"#F+%\"tG
+F+F.F+" }{TEXT -1 52 "  , hence another solution, and the first column
+ is " }}{PARA 0 "" 0 "" {TEXT -1 4 "1/3 " }{XPPEDIT 18 0 "Sol1 := matr
+ix([[1], [1/3]])*exp(2*t);" "6#>%%Sol1G*&-%'matrixG6#7$7#\"\"\"7#*&F+F
++\"\"$!\"\"F+-%$expG6#*&\"\"#F+%\"tGF+F+" }{TEXT -1 128 "    , hence a
+nother solution.  MAPLE is using different eigenvectors for the same e
+igenvalues.  We immediately get solutions    " }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 83 "Sol3:=matrix(2,1,[1,1/3])*exp(evals[1]*t);Sol4:=
+matrix(2,1,[1,-1])*exp(evals[2]*t);" }}}{PARA 0 "" 0 "" {TEXT -1 23 "W
+hich we test as before" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 97 "Di
+ff(c1*Sol3+c2*Sol4,t)-A&*(c1*Sol3+c2*Sol4)=evalm(diff(c1*Sol3+c2*Sol4,
+t)-A&*(c1*Sol3+c2*Sol4));" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT 265 70 "Use the matrixDE command to obtain solutions to \+
+systems A and B above." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 96 "Finally we have another way for solving t
+he same system of ODE,s.  Excute the following sequence" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 97 "dsolve(\{diff(x[1](t),t)=x[1](t)+3*
+x[2](t), diff(x[2](t),t) = x[1](t)-x[2](t)\},\{x[1](t),x[2](t)\});" }}
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 266 65 "Find so
+lutions to each of A and B above using the dsolve command." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{PARA 0 "" 0 "" {TEXT -1 31 "Now consider our first system, " }
+{XPPEDIT 18 0 "Diff(x[1],t) = x[1]+3*x[2]+sin(t) , Diff(x[2],t) = x[1]
+-x[2]-cos(t) \}  " "6#<$/-%%DiffG6$&%\"xG6#\"\"\"%\"tG,(&F)6#F+F+*&\"
+\"$F+&F)6#\"\"#F+F+-%$sinG6#F,F+/-F&6$&F)6#F4F,,(&F)6#F+F+&F)6#F4!\"\"
+-%$cosG6#F,FB" }{TEXT -1 480 " with a nonhomogeneous term added.  We n
+ote that the general solution of the nonhomogeneous system is given by
+ the sum of a general solution of the homogeneous system and a particu
+lar solution of the nonhomogeneous system.  That is, Soln = Sol + SolP
+, where  SolP is a particular solution to the system.  Since sin(t) an
+d cos(t) are the only terms in the nonhomogeneous part, we will use th
+e method of undertermined coefficienat to try to find a particular sol
+ution to the system." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "SolP
+:=matrix(2,1,[a*sin(t)+b*cos(t),c*sin(t)+d*cos(t)]);  " }{TEXT -1 24 "
+A general form for SolP." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 
+"B:=matrix(2,1,[sin(t),-cos(t)]);  " }{TEXT -1 34 "Nonhomogeneous part
+ of the system." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "ss:=eval
+m(map(diff,SolP,t)-(A&*SolP+B));" }{TEXT -1 37 "     Substitute SolP i
+nto the system " }{XPPEDIT 18 0 "diff(SolP,t)-(ASolP+B) = 0;" "6#/,&-%
+%diffG6$%%SolPG%\"tG\"\"\",&%&ASolPGF*%\"BGF*!\"\"\"\"!" }{TEXT -1 2 "
+. " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 96 "collect(ss[1,1],sin(t
+));collect(ss[2,1],sin(t));collect(ss[1,1],cos(t));collect(ss[2,1],cos
+(t));" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 54 "solve(\{-a-3*c-b-1
+,c-d-a,-b+a-3*d,-b+c+d+1\},\{a,b,c,d\});" }{TEXT -1 26 "  Solve for a,
+ b, c and d." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 66 "SolP:=matri
+x(2,1,[-1/5*sin(t)+2/5*cos(t),-2/5*sin(t)-1/5*cos(t)]);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "SOLN:=evalm(Sol+SolP);  " }{TEXT 
+-1 21 "The general solution." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 36 "evalm(map(diff,SOLN,t)-(A&*SOLN+B));" }{TEXT -1 20 "   Check the
+ result." }}}{PARA 0 "" 0 "" {TEXT -1 49 "The matrixDE command applies
+ to this as well, try" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "SOL
+N1:=matrixDE(A,B,t);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "SOL
+N1[1]&*matrix(2,1,[c1,c2]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+9 "evalm(%);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "C:=matrix(2
+,1,[SOLN1[2][1],SOLN1[2][2]]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 32 "SOLN1[1]&*matrix(2,1,[c1,c2])+C;" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 9 "evalm(%);" }}}{PARA 0 "" 0 "" {TEXT -1 30 "Using dsolv
+e should work also." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 111 "dsol
+ve(\{diff(x[1](t),t)=x[1](t)+3*x[2](t)+sin(t), diff(x[2](t),t) = x[1](
+t)-x[2](t)-cos(t)\},\{x[1](t),x[2](t)\});" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT 267 79 "Find a general solution to the
+ nonhomogeneous system of differential equations:" }{TEXT -1 1 " " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "\{diff(
+x[1],t) = 2*x[1]-x[2]+t, diff(x[2],t) = 3*x[1]-2*x[2]+2*t\}" "6#<$/-%%
+diffG6$&%\"xG6#\"\"\"%\"tG,(*&\"\"#F+&F)6#F+F+F+&F)6#F/!\"\"F,F+/-F&6$
+&F)6#F/F,,(*&\"\"$F+&F)6#F+F+F+*&F/F+&F)6#F/F+F4*&F/F+F,F+F+" }{TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "If  " }{XPPEDIT 18 0 "la
+mbda=alpha+beta*I" "6#/%'lambdaG,&%&alphaG\"\"\"*&%%betaGF'%\"IGF'F'" 
+}{TEXT -1 53 "  is a complex eigenvalue for the n by n real matrix " }
+{XPPEDIT 18 0 "A" "6#%\"AG" }{TEXT -1 10 ", and let " }{XPPEDIT 18 0 "
+E[lambda]" "6#&%\"EG6#%'lambdaG" }{TEXT -1 32 " be an eigenvector belo
+nging to " }{XPPEDIT 18 0 "lambda" "6#%'lambdaG" }{TEXT -1 23 ".  Then
+ the functions  " }{XPPEDIT 18 0 "X[1](t)=exp(alpha*t)(G[lambda]*cos(b
+eta*t)+H[lambda]*sin(beta*t)" "6#/-&%\"XG6#\"\"\"6#%\"tG--%$expG6#*&%&
+alphaGF(F*F(6#,&*&&%\"GG6#%'lambdaGF(-%$cosG6#*&%%betaGF(F*F(F(F(*&&%
+\"HG6#F7F(-%$sinG6#*&F<F(F*F(F(F(" }{TEXT -1 4 ",   " }{XPPEDIT 19 1 "
+X[2](t) = exp(alpha*t)(G[lambda]*cos(beta*t)-H[lambda]*sin(beta*t))" "
+6#/-&%\"XG6#\"\"#6#%\"tG--%$expG6#*&%&alphaG\"\"\"F*F16#,&*&&%\"GG6#%'
+lambdaGF1-%$cosG6#*&%%betaGF1F*F1F1F1*&&%\"HG6#F8F1-%$sinG6#*&F=F1F*F1
+F1!\"\"" }{TEXT -1 8 "  where " }{XPPEDIT 18 0 "G[lambda] = (E[lambda]
++conjugate(E[lambda]))/2" "6#/&%\"GG6#%'lambdaG*&,&&%\"EG6#F'\"\"\"-%*
+conjugateG6#&F+6#F'F-F-\"\"#!\"\"" }{TEXT -1 7 "  and  " }{XPPEDIT 19 
+1 "H[lambda]=(E[lambda]-conjugate(E[lambda]))*I/2" "6#/&%\"HG6#%'lambd
+aG*(,&&%\"EG6#F'\"\"\"-%*conjugateG6#&F+6#F'!\"\"F-%\"IGF-\"\"#F3" }
+{TEXT -1 39 " are linearly independent solutions of " }{XPPEDIT 18 0 "
+Diff(X,t)=AX" "6#/-%%DiffG6$%\"XG%\"tG%#AXG" }{TEXT -1 2 ". " }}{PARA 
+0 "" 0 "" {TEXT -1 26 "We will solve the system  " }{XPPEDIT 18 0 "\{D
+iff(x[1],t)=-x[2]" "6#<#/-%%DiffG6$&%\"xG6#\"\"\"%\"tG,$&F)6#\"\"#!\"
+\"" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "Diff(x[2],t)=x[1]" "6#/-%%DiffG6
+$&%\"xG6#\"\"#%\"tG&F(6#\"\"\"" }{TEXT -1 27 "\}  as in the first sect
+ion." }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "B := matrix(2,2,[0, -1
+, 1, 0]);" "6#>%\"BG-%'matrixG6%\"\"#F(7&\"\"!,$\"\"\"!\"\"F,F*" }
+{TEXT -1 41 "  Coefficient matrix of the system above." }{MPLTEXT 1 0 
+3 "   " }{TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"BG-%'matr
+ixG6#7$7$\"\"!!\"\"7$\"\"\"F*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "
+" }{XPPEDIT 19 1 "evals := eigenvals(B); evects := eigenvectors(B);" "
+6#C$>%&evalsG-%*eigenvalsG6#%\"BG>%'evectsG-%-eigenvectorsG6#F)" }
+{TEXT -1 47 "    Find the eigenvectors and eigenvalues of A." }}}
+{PARA 0 "" 0 "" {TEXT -1 55 "Notice that the eigenvalues occur in cong
+ugate pairs.  " }{TEXT 268 4 "Why?" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 
+0 "" }{XPPEDIT 19 1 "E[I]:=matrix(2,1,[I,1]);G[I]:=(E[I]+conjugate(E[I
+]))/2; H[I]:=(E[I]-conjugate(E[I]))*I/2;" "6#C%>&%\"EG6#%\"IG-%'matrix
+G6%\"\"#\"\"\"7$F(F->&%\"GG6#F(*&,&&F&6#F(F--%*conjugateG6#&F&6#F(F-F-
+F,!\"\">&%\"HG6#F(*(,&&F&6#F(F--F86#&F&6#F(F<F-F(F-F,F<" }{TEXT -1 
+101 "An  eigenvector corresponding to I and two linearly independent s
+olutions to the system of equations." }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }{XPPEDIT 19 1 "XX := exp(0*t)*(c[1]*(G[I]*cos(t)+H[I]*sin(t))
+)+c[2]*(H[I]*cos(t) -G[I]*sin(t));evalm(XX);" "6#C$>%#XXG,&*&-%$expG6#
+*&\"\"!\"\"\"%\"tGF-F-*&&%\"cG6#F-F-,&*&&%\"GG6#%\"IGF--%$cosG6#F.F-F-
+*&&%\"HG6#F8F--%$sinG6#F.F-F-F-F-F-*&&F16#\"\"#F-,&*&&F>6#F8F--F:6#F.F
+-F-*&&F66#F8F--FA6#F.F-!\"\"F-F--%&evalmG6#F%" }{TEXT -1 23 "  The gen
+eral solution." }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "evalm(map(d
+iff,XX,t)-`&*`(B,XX));" "6#-%&evalmG6#,&-%$mapG6%%%diffG%#XXG%\"tG\"\"
+\"-%#&*G6$%\"BGF+!\"\"" }{TEXT -1 54 "    Verify that XX really is a s
+olution of the system." }}}{PARA 0 "" 0 "" {TEXT -1 41 "Find a general
+ solution of the system  \{ " }{XPPEDIT 19 1 "Diff(x[1],t) = -x[1]-x[2
+]" "6#/-%%DiffG6$&%\"xG6#\"\"\"%\"tG,&&F(6#F*!\"\"&F(6#\"\"#F/" }
+{TEXT -1 4 " ,  " }{XPPEDIT 19 1 "Diff(x[1],t) = 2*x[1]-x[2]" "6#/-%%D
+iffG6$&%\"xG6#\"\"\"%\"tG,&*&\"\"#F*&F(6#F*F*F*&F(6#F.!\"\"" }{TEXT 
+-1 4 " \}. " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "B := matrix(2
+,2,[-1, -1, 2, -1]);" }{TEXT -1 41 "  Coefficient matrix of the system
+ above." }{MPLTEXT 1 0 3 "   " }{TEXT -1 0 "" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"BG-%'matrixG6#7$7$!\"\"F*7$\"\"#F*" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }{XPPEDIT 19 1 "evals := eigenvals(B); e
+vects := eigenvectors(B);" "6#C$>%&evalsG-%*eigenvalsG6#%\"BG>%'evects
+G-%-eigenvectorsG6#F)" }{TEXT -1 47 "    Find the eigenvectors and eig
+envalues of A." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&evalsG6$,&\"\"\"!
+\"\"*&\"\"##F'F*^#F'F'F',&F'F(*&^#F(F'F*F+F'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%'evectsG6$7%,&\"\"\"!\"\"*&\"\"##F(F+^#F(F(F(F(<#-%'v
+ectorG6#7$F(*&^#F)F(F+F,7%,&F(F)F3F(F(<#-F06#7$F(F*" }}}{PARA 0 "" 0 "
+" {TEXT -1 55 "Notice that the eigenvalues occur in congugate pairs.  \+
+" }{TEXT 269 4 "Why?" }}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }
+{MPLTEXT 1 0 98 "E[I]:=matrix(2,1,[1,-I*sqrt(2)]);G[I]:=(E[I]+conjugat
+e(E[I]))/2; H[I]:=(E[I]-conjugate(E[I]))*I/2;" }{TEXT -1 101 "An  eige
+nvector corresponding to I and two linearly independent solutions to t
+he system of equations." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"EG6#^#
+\"\"\"-%'matrixG6#7$7#F(7#*&^#!\"\"F(\"\"##F(F2" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%\"GG6#^#\"\"\",&*&#F(\"\"#F(&%\"EGF&F(F(*&F+F(-%*con
+jugateG6#F-F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%\"HG6#^#\"\"\"*&
+^##F(\"\"#F(,&&%\"EGF&F(-%*conjugateG6#F.!\"\"F(" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 109 "s1 := c[1]*(G[I]*cos(sqrt(2)*t)+H[I]*sin(sqr
+t(2)*t)); s2 := c[2]*(H[I]*cos(sqrt(2)*t) - G[I]*sin(sqrt(2)*t));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#s1G*&&%\"cG6#\"\"\"F),&*&,&*&#F)\"
+\"#F)&%\"EG6#^#F)F)F)*&F.F)-%*conjugateG6#F0F)F)F)-%$cosG6#*&F/F.%\"tG
+F)F)F)*(^#F.F),&F0F)F5!\"\"F)-%$sinGF:F)F)F)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#s2G*&&%\"cG6#\"\"#\"\"\",&*(^##F*F)F*,&&%\"EG6#^#F*F
+*-%*conjugateG6#F0!\"\"F*-%$cosG6#*&F)F.%\"tGF*F*F**&,&*&F.F*F0F*F**&F
+.F*F4F*F*F*-%$sinGF:F*F7F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+46 "XX := exp(-1*t)*(s1)+exp(-1*t)*(s2);evalm(XX);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%#XXG,&*(-%$expG6#,$%\"tG!\"\"\"\"\"&%\"cG6#F-F-,&*&
+,&*&#F-\"\"#F-&%\"EG6#^#F-F-F-*&F5F--%*conjugateG6#F7F-F-F--%$cosG6#*&
+F6F5F+F-F-F-*(^#F5F-,&F7F-F<F,F--%$sinGFAF-F-F-F-*(F'F-&F/6#F6F-,&*(FD
+F-FEF-F?F-F-*&F3F-FFF-F,F-F-" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'mat
+rixG6#7$7#,&*(-%$expG6#,$%\"tG!\"\"\"\"\"&%\"cG6#F0F0-%$cosG6#*&\"\"##
+F0F8F.F0F0F0*(F*F0&F26#F8F0-%$sinGF6F0F/7#,&**F*F0F1F0F=F0F8F9F0**F*F0
+F;F0F4F0F8F9F0" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "evalm(map
+(diff,XX,t)-`&*`(B,XX));    " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'mat
+rixG6#7$7#\"\"!F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "XXX :=
+ scalarmul((matadd(s1,s2)),exp(-1*t));evalm(XXX);  " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$XXXG-%'matrixG6#7
+$7#*&-%$expG6#,$%\"tG!\"\"\"\"\",&*&&%\"cG6#F1F1-%$cosG6#*&\"\"##F1F;F
+/F1F1F1*&&F56#F;F1-%$sinGF9F1F0F17#*&F+F1,&*(F4F1F@F1F;F<F1*(F>F1F7F1F
+;F<F1F1" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7$7#*&-%$expG6#
+,$%\"tG!\"\"\"\"\",&*&&%\"cG6#F/F/-%$cosG6#*&\"\"##F/F9F-F/F/F/*&&F36#
+F9F/-%$sinGF7F/F.F/7#*&F)F/,&*(F2F/F>F/F9F:F/*(F<F/F5F/F9F:F/F/" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "evalm(map(diff,XXX,t)-`&*`(B
+,XXX));    " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7$7#,&*&-%$
+expG6#,$%\"tG!\"\"\"\"\",&*(&%\"cG6#F0F0-%$sinG6#*&\"\"##F0F:F.F0F0F:F
+;F/*(&F46#F:F0-%$cosGF8F0F:F;F/F0F0*&F*F0,&F2F0F<F0F0F07#,&*&F*F0,&*(F
+:F0F3F0F?F0F0*(F:F0F=F0F6F0F/F0F0*(F:F0F*F0,&*&F3F0F?F0F0*&F=F0F6F0F/F
+0F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "map(simplify,%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7$7#\"\"!F'" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "M := matrix([[exp(t),0],[0,sin(t)]]
+);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"MG-%'matrixG6#7$7$-%$expG6#%
+\"tG\"\"!7$F.-%$sinGF," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "N
+ := matrix([[0,t^2],[t^3,0]]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"
+NG-%'matrixG6#7$7$\"\"!*$)%\"tG\"\"#\"\"\"7$*$)F-\"\"$F/F*" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "f := 2*(M+N);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"fG,&*&\"\"#\"\"\"%\"MGF(F(*&F'F(%\"NGF(F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalm(f);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%'matrixG6#7$7$,$*&\"\"#\"\"\"-%$expG6#%\"tGF+F+,$*&
+F*F+)F/F*F+F+7$,$*&F*F+)F/\"\"$F+F+,$*&F*F+-%$sinGF.F+F+" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "g := 2*M + 2*N;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"gG,&*&\"\"#\"\"\"%\"MGF(F(*&F'F(%\"NGF(F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalm(g);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%'matrixG6#7$7$,$*&\"\"#\"\"\"-%$expG6#%\"tGF+F+,$*&
+F*F+)F/F*F+F+7$,$*&F*F+)F/\"\"$F+F+,$*&F*F+-%$sinGF.F+F+" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "map(diff,evalm(f),t);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#-%'matrixG6#7$7$,$*&\"\"#\"\"\"-%$expG6#%\"tGF+F
++,$*&\"\"%F+F/F+F+7$,$*&\"\"'F+)F/F*F+F+,$*&F*F+-%$cosGF.F+F+" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "map(diff,evalm(g),t);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#-%'matrixG6#7$7$,$*&\"\"#\"\"\"-%$expG
+6#%\"tGF+F+,$*&\"\"%F+F/F+F+7$,$*&\"\"'F+)F/F*F+F+,$*&F*F+-%$cosGF.F+F
++" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "126 0 0" 
+0 }{VIEWOPTS 0 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

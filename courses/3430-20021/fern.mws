@@ -1,0 +1,64 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Warning" -1 7 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 0 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 
+0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple P
+lot" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 
+1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "with(plots);" }}
+{PARA 7 "" 1 "" {TEXT -1 50 "Warning, the name changecoords has been r
+edefined\n" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7Z%(animateG%*animate3dG
+%-animatecurveG%&arrowG%-changecoordsG%,complexplotG%.complexplot3dG%*
+conformalG%,conformal3dG%,contourplotG%.contourplot3dG%*coordplotG%,co
+ordplot3dG%-cylinderplotG%,densityplotG%(displayG%*display3dG%*fieldpl
+otG%,fieldplot3dG%)gradplotG%+gradplot3dG%,graphplot3dG%-implicitplotG
+%/implicitplot3dG%(inequalG%,interactiveG%-listcontplotG%/listcontplot
+3dG%0listdensityplotG%)listplotG%+listplot3dG%+loglogplotG%(logplotG%+
+matrixplotG%(odeplotG%'paretoG%,plotcompareG%*pointplotG%,pointplot3dG
+%*polarplotG%,polygonplotG%.polygonplot3dG%4polyhedra_supportedG%.poly
+hedraplotG%'replotG%*rootlocusG%,semilogplotG%+setoptionsG%-setoptions
+3dG%+spacecurveG%1sparsematrixplotG%+sphereplotG%)surfdataG%)textplotG
+%+textplot3dG%)tubeplotG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 79 
+"one_poly := [[0,0],[0,1],[1,1] ,[1,0]];\nsq := polygonplot(one_poly,a
+xes=boxed):" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%)one_polyG7&7$\"\"!F'
+7$F'\"\"\"7$F)F)7$F)F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 111 "
+poly_a := [ [.4,.045], [.6,.275], [.34,.495], [.14,.265] ];\na := poly
+gonplot(poly_a,axes=boxed):\ndisplay(sq,a);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%'poly_aG7&7$$\"\"%!\"\"$\"#X!\"$7$$\"\"'F)$\"$v#F,7$$
+\"#M!\"#$\"$&\\F,7$$\"#9F5$\"$l#F," }}{PARA 13 "" 1 "" {GLPLOT2D 393 
+393 393 {PLOTDATA 2 "6%-%)POLYGONSG6#7&7$$\"\"!F)F(7$F($\"\"\"F)7$F+F+
+7$F+F(-F$6#7&7$$\"\"%!\"\"$\"#X!\"$7$$\"\"'F5$\"$v#F87$$\"#M!\"#$\"$&
+\\F87$$\"#9FA$\"$l#F8-%*AXESSTYLEG6#%$BOXG" 1 2 0 1 10 0 2 9 1 2 2 
+1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve 2" }}}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 114 "poly_b := [ [.075,.18], [.925,.14], [.96
+5,.99], [.115,1.00] ];\nb := polygonplot(poly_b,axes=boxed):\ndisplay(
+sq,b);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'poly_bG7&7$$\"#v!\"$$\"#=
+!\"#7$$\"$D*F)$\"#9F,7$$\"$l*F)$\"#**F,7$$\"$:\"F)$\"$+\"F," }}{PARA 
+13 "" 1 "" {GLPLOT2D 393 393 393 {PLOTDATA 2 "6%-%)POLYGONSG6#7&7$$\"
+\"!F)F(7$F($\"\"\"F)7$F+F+7$F+F(-F$6#7&7$$\"#v!\"$$\"#=!\"#7$$\"$D*F5$
+\"#9F87$$\"$l*F5$\"#**F87$$\"$:\"F5$\"$+\"F8-%*AXESSTYLEG6#%$BOXG" 1 
+2 0 1 10 0 2 9 1 2 2 1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve
+ 2" }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 101 "poly_c := [ [.5,0],
+ [.5,0], [.5,.16], [.5,.15] ];\nc := polygonplot(poly_c,axes=boxed):\n
+display(sq,c);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'poly_cG7&7$$\"\"&
+!\"\"\"\"!F&7$F'$\"#;!\"#7$F'$\"#:F." }}{PARA 13 "" 1 "" {GLPLOT2D 
+393 393 393 {PLOTDATA 2 "6%-%)POLYGONSG6#7&7$$\"\"!F)F(7$F($\"\"\"F)7$
+F+F+7$F+F(-F$6#7&7$$\"\"&!\"\"F(F27$F3$\"#;!\"#7$F3$\"#:F9-%*AXESSTYLE
+G6#%$BOXG" 1 2 0 1 10 0 2 9 1 2 2 1.000000 45.000000 45.000000 0 0 "Cu
+rve 1" "Curve 2" }}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 110 "poly_d
+ := [ [.575,0], [.425,.26], [.705,.5], [.885,.24] ];\nd := polygonplot
+(poly_d,axes=boxed):\ndisplay(sq,d);" }}{PARA 11 "" 1 "" {XPPMATH 20 "
+6#>%'poly_dG7&7$$\"$v&!\"$\"\"!7$$\"$D%F)$\"#E!\"#7$$\"$0(F)$\"\"&!\"
+\"7$$\"$&))F)$\"#CF0" }}{PARA 13 "" 1 "" {GLPLOT2D 393 393 393 
+{PLOTDATA 2 "6%-%)POLYGONSG6#7&7$$\"\"!F)F(7$F($\"\"\"F)7$F+F+7$F+F(-F
+$6#7&7$$\"$v&!\"$F(7$$\"$D%F5$\"#E!\"#7$$\"$0(F5$\"\"&!\"\"7$$\"$&))F5
+$\"#CF;-%*AXESSTYLEG6#%$BOXG" 1 2 0 1 10 0 2 9 1 2 2 1.000000 
+45.000000 45.000000 0 0 "Curve 1" "Curve 2" }}}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 0 "" }}}}{MARK "3 2" 1 }{VIEWOPTS 1 1 0 1 1 1803 1 1 
+1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

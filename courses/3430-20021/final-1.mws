@@ -1,0 +1,116 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 
+0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Ti
+mes" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 
+2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 
+257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 24 "MATH 3430-001 Final Exam" }}
+{PARA 256 "" 0 "" {TEXT -1 15 "6 December 2002" }}{PARA 256 "" 0 "" 
+{TEXT -1 6 "Part I" }}{PARA 256 "" 0 "" {TEXT -1 20 "Due: 4:00 pm (Dec
+ 6)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 122 "N
+ame:                                                                  \+
+                                                   " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 119 "Put your name on the w
+orksheet and save your worksheet as Final.mws.   All statements are to
+ appear on the worksheet.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 161 "Annotate your conclusions so that the reader d
+oes not have to interpolate the relationships between the stated exam \+
+questions and the printed Maple computations." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 103 "I-1.  (10 points)  Use M
+aple to determine how many pairs of twin primes there are between 1 an
+d 10,000." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+43 "I-2.  (10 points) Analyze the graph of     " }}{EXCHG {PARA 0 "> \+
+" 0 "" {XPPEDIT 19 1 "f := x^4-x^3-1199999/100000*x^2-80001/20000*x+40
+0001/25000;" "6#>%\"fG,,*$%\"xG\"\"%\"\"\"*$F'\"\"$!\"\"*(\"(****>\"F)
+\"'++5F,F'\"\"#F,*(\"&,+)F)\"&++#F,F'F)F,*&\"',+SF)\"&+]#F,F)" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "Find all \+
+intercepts of the graph of  " }{TEXT 259 1 "f" }{TEXT -1 49 ", all loc
+al maximum and local minimum values of  " }{TEXT 260 2 "f," }{TEXT -1 
+44 " and all inflection points of the graph of  " }{TEXT 257 1 "f" }
+{TEXT -1 74 ".  Also, identify all, if any, asymptotic behavior(s) whi
+ch the graph of  " }{TEXT 258 2 "f " }{TEXT -1 46 " possesses. Provide
+ a sketch of the graph of  " }{TEXT 275 1 "f" }{TEXT -1 47 "  (or, whe
+re needed, sketches of the graph of  " }{TEXT 276 1 "f" }{TEXT -1 84 "
+ ) which illustrate the above information.  On a separate graph, plot \+
+the graph of  " }{TEXT 272 1 "f" }{TEXT -1 70 " (in red) together with
+ the tangent lines (in green) to the graph of  " }{TEXT 273 1 "f" }
+{TEXT -1 52 "  at the points of the inflections of the graph of  " }
+{TEXT 274 1 "f" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 95 "I-3.  (10 points) Find the area, in the f
+irst quadrant, which is bounded between the graph of  " }{XPPEDIT 19 
+1 "f := 10/3*sin(x)/x - exp(-x)-3/10;" "6#>%\"fG,(**\"#5\"\"\"\"\"$!\"
+\"-%$sinG6#%\"xGF(F.F*F(-%$expG6#,$F.F*F**&F)F(F'F*F*" }{TEXT -1 10 " \+
+ and the " }{TEXT 261 1 "x" }{TEXT -1 6 "-axis." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 39 "I-4.  (10 points) Conside
+r the ellipse " }{XPPEDIT 19 1 "x^2/16+y^2/4 = 1;" "6#/,&*&%\"xG\"\"#
+\"#;!\"\"\"\"\"*&%\"yGF'\"\"%F)F*F*" }{TEXT -1 20 " and the hyperbola \+
+ " }{XPPEDIT 19 1 "x^2/4-y^2/16 = 1;" "6#/,&*&%\"xG\"\"#\"\"%!\"\"\"\"
+\"*&%\"yGF'\"#;F)F)F*" }{TEXT -1 153 " .  Find the area of the \"quadr
+alateral\" region which is (simultaneously) inside the ellipse and in \+
+between the left and right branches of the hyperbola." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 69 "I-5.  (10 points) For \+
+the following function, determine whether (i)  " }{TEXT 262 1 "f" }
+{TEXT -1 19 "  is continuous at " }{TEXT 263 1 "x" }{TEXT -1 13 " = 0;
+  (ii)  " }{TEXT 264 1 "f" }{TEXT -1 23 "  is differentiable at " }
+{TEXT 265 1 "x" }{TEXT -1 5 " = 0." }}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "f := piecewise([0, x = 0],[1/10*(1-cos(x))*(1+sin(x))/e
+xp(x^3)/abs(x), otherwise]);" "6#>%\"fG-%*piecewiseG6$7$\"\"!/%\"xGF)7
+$*.\"\"\"F.\"#5!\"\",&F.F.-%$cosG6#F+F0F.,&F.F.-%$sinG6#F+F.F.-%$expG6
+#*$F+\"\"$F0-%$absG6#F+F0%*otherwiseG" }}{PARA 11 "" 1 "" {TEXT -1 0 "
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 70 "I-6.
+  (10 points)  Using Maple, find an explicit anti-derivative for  " }
+{XPPEDIT 19 1 "f := arcsin(x)/(1-x^2);" "6#>%\"fG*&-%'arcsinG6#%\"xG\"
+\"\",&F*F**$F)\"\"#!\"\"F." }{TEXT -1 39 " .  Verify that your answer \+
+is correct." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 107 "I-7.  (10 points)  Reproduce in Maple the \"sin\" plot which a
+ppears on the Math 3430 WebCT course home page." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 39 "I-8.  (10 points)  Consid
+er the matrix " }}{PARA 256 "" 0 "" {XPPEDIT 18 0 "A := matrix([[0, -1
+, -2, -3, -4, -5], [1, 1, -2, -1, -3, -1], [2, 1, 0, 1, 2, -2], [1, -1
+, 0, -1, 1, -6]]);" "6#>%\"AG-%'matrixG6#7&7(\"\"!,$\"\"\"!\"\",$\"\"#
+F-,$\"\"$F-,$\"\"%F-,$\"\"&F-7(F,F,,$F/F-,$F,F-,$F1F-,$F,F-7(F/F,F*F,F
+/,$F/F-7(F,,$F,F-F*,$F,F-F,,$\"\"'F-" }{TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 9 "    Let  " }{XPPEDIT 18 
+0 "A^T;" "6#)%\"AG%\"TG" }{TEXT -1 25 " denote the transpose of " }
+{TEXT 256 2 "A." }{TEXT -1 50 "   Show that every vector in the column
+ space of  " }{XPPEDIT 18 0 "A^T" "6#)%\"AG%\"TG" }{TEXT -1 52 "  is o
+rthogonal to every vector in the nullspace of " }{TEXT 266 1 "A" }
+{TEXT -1 1 "." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 100 "I-9.  (10 points)  Find \+
+the general (real-valued) solution of the system of differential equat
+ions  " }{XPPEDIT 19 1 "\{diff(x[1](t),t) = -x[1](t)+2*x[2](t), diff(x
+[2](t),t) = -2*x[1](t)-3*x[2](t)\};" "6#<$/-%%diffG6$-&%\"xG6#\"\"\"6#
+%\"tGF.,&-&F*6#F,6#F.!\"\"*&\"\"#F,-&F*6#F66#F.F,F,/-F&6$-&F*6#F66#F.F
+.,&*&F6F,-&F*6#F,6#F.F,F4*&\"\"$F,-&F*6#F66#F.F,F4" }}{PARA 0 "" 0 "" 
+{TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 39 "    Verify that your a
+nswer is correct." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 63 "I-10.  Find an example of an non-diagonal, non-singular m
+atrix " }{TEXT 267 1 "A" }{TEXT -1 11 " such that " }{TEXT 268 5 "trac
+e" }{TEXT -1 1 "(" }{TEXT 269 1 "A" }{TEXT -1 4 ") = " }{TEXT 270 3 "d
+et" }{TEXT -1 1 "(" }{TEXT 271 1 "A" }{TEXT -1 2 ")." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{MARK "25 0" 19 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }
+{PAGENUMBERS 0 1 2 33 1 1 }

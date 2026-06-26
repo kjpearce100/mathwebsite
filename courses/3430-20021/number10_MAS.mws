@@ -1,0 +1,348 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" 0 
+21 "" 0 1 0 0 0 1 0 0 0 0 2 0 0 0 0 1 }{CSTYLE "" -1 256 "" 0 1 0 0 0 
+0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 
+0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "
+" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 
+0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple
+ Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" 0 13 1 
+{CSTYLE "" -1 -1 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 }3 0 0 -1 -1 -1 0 
+0 0 0 0 0 -1 0 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 
+12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "
+Normal" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 
+1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 258 1 
+{CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 
+0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 25 "MAPLE Worksheet Number 10" }}
+{PARA 256 "" 0 "" {TEXT -1 20 "Sequences and Series" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {MPLTEXT 0 21 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 133 "Students often confuse the terms \"sequence\" and \"se
+ries.\"  \"Sequence\" refers to an ordered, usually infinitely long, l
+ist of numbers " }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}{PARA 256 "" 0 "
+" {TEXT -1 3 " \{ " }{XPPEDIT 18 0 "a[1]" "6#&%\"aG6#\"\"\"" }{TEXT 
+-1 3 " , " }{XPPEDIT 18 0 "a[2]" "6#&%\"aG6#\"\"#" }{TEXT -1 3 " , " }
+{XPPEDIT 18 0 "a[3]" "6#&%\"aG6#\"\"$" }{TEXT -1 3 " , " }{XPPEDIT 18 
+0 "a[4]" "6#&%\"aG6#\"\"%" }{TEXT -1 3 " , " }{XPPEDIT 18 0 "a[5]" "6#
+&%\"aG6#\"\"&" }{TEXT -1 10 " ,.....,  " }{XPPEDIT 18 0 "a[i]" "6#&%\"
+aG6#%\"iG" }{TEXT -1 19 " , . . . . . . \}  ." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 85 "As we saw before, the MAP
+LE command for generating a finite portion of a sequence  is" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {TEXT -1 91 "seq(expressio
+n in terms of some index, index=starting integer value..ending integer
+ value);" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+96 "Use this command to generate the first 20 numbers in the following
+ sequences beginning with i=1." }}{PARA 257 "" 0 "" {TEXT -1 3 "a. " }
+{XPPEDIT 18 0 "\{1/i\}" "6#<#*&\"\"\"F%%\"iG!\"\"" }{TEXT -1 9 "      \+
+   " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "seq(1/i,i=1..20);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "66\"\"\"#F#\"\"##F#\"\"$#F#\"\"%#F#\"\"&
+#F#\"\"'#F#\"\"(#F#\"\")#F#\"\"*#F#\"#5#F#\"#6#F#\"#7#F#\"#8#F#\"#9#F#
+\"#:#F#\"#;#F#\"#<#F#\"#=#F#\"#>#F#\"#?" }}}{PARA 257 "" 0 "" {TEXT 
+-1 4 "b.  " }{XPPEDIT 18 0 "\{(1/i)^2\}" "6#<#*$*&\"\"\"F&%\"iG!\"\"\"
+\"#" }{TEXT -1 5 "     " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "s
+eq(1/i^2,i=1..20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "66\"\"\"#F#\"\"%#F
+#\"\"*#F#\"#;#F#\"#D#F#\"#O#F#\"#\\#F#\"#k#F#\"#\")#F#\"$+\"#F#\"$@\"#
+F#\"$W\"#F#\"$p\"#F#\"$'>#F#\"$D##F#\"$c##F#\"$*G#F#\"$C$#F#\"$h$#F#\"
+$+%" }}}{PARA 257 "" 0 "" {TEXT -1 4 "c.  " }{XPPEDIT 18 0 "\{(1/2)^i
+\}" "6#<#)*&\"\"\"F&\"\"#!\"\"%\"iG" }{TEXT -1 7 "       " }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "seq((1/2)^i,i=1..20);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "66#\"\"\"\"\"##F$\"\"%#F$\"\")#F$\"#;#F$\"#K#F$\"#
+k#F$\"$G\"#F$\"$c##F$\"$7&#F$\"%C5#F$\"%[?#F$\"%'4%#F$\"%#>)#F$\"&%Q;#
+F$\"&oF$#F$\"&Ob'#F$\"'s58#F$\"'W@E#F$\"')GC&#F$\"(w&[5" }}}{PARA 0 "
+" 0 "" {TEXT -1 67 "\"Series\" refers to the sum of a sequence and the
+ notation used is  " }{XPPEDIT 18 0 "sum(a[i],i=i[0]..infinity)" "6#-%
+$sumG6$&%\"aG6#%\"iG/F);&F)6#\"\"!%)infinityG" }{TEXT -1 205 ".  Of co
+urse we can't add infinitely many numbers together so we do what we al
+ways do in Caluclus, we add more and more finitely many of the numbers
+ together and hope for a limit.  To this end we call     " }{XPPEDIT 
+18 0 "S[n]=sum(a[i],i=i[0]..n)" "6#/&%\"SG6#%\"nG-%$sumG6$&%\"aG6#%\"i
+G/F.;&F.6#\"\"!F'" }{TEXT -1 34 "   the n-th partial sum and define" }
+}{PARA 256 "" 0 "" {TEXT -1 3 "   " }{XPPEDIT 18 0 "sum(a[i],i=i[0]..i
+nfinity)" "6#-%$sumG6$&%\"aG6#%\"iG/F);&F)6#\"\"!%)infinityG" }{TEXT 
+-1 3 " = " }{XPPEDIT 18 0 "limit(S[n],n=infinity)" "6#-%&limitG6$&%\"S
+G6#%\"nG/F)%)infinityG" }{TEXT -1 3 "  ." }}{PARA 0 "" 0 "" {TEXT -1 
+49 "The MAPLE command for generating a partial sum is" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 256 "" 0 "" {TEXT -1 92 "sum(expression in te
+rms of some index, index=beginning integer value..ending integer value
+);" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 225 "Us
+e this command to generate the 20-th partial sums for a, b, and c abov
+e.  Using cap S will display the notation. For example to display the \+
+notation and compute the sum of the first 20 terms of (a) use the comm
+and sequence " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "Sum(1/i,i=1
+..20)=sum(1/i,i=1..20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$SumG6$*
+&\"\"\"F(%\"iG!\"\"/F);F(\"#?#\")N^$e&\")/&>b\"" }}}{PARA 0 "" 0 "" 
+{TEXT -1 25 "Now do the same thing for" }}{PARA 0 "" 0 "" {TEXT -1 4 "
+ b) " }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "Sum(1/i^2,i=1..20)=s
+um(1/i^2,i=1..20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$SumG6$*&\"\"
+\"F(*$)%\"iG\"\"#F(!\"\"/F+;F(\"#?#\"2TEaJd(**H<\"2?2F)>v%Q3\"" }}}
+{PARA 0 "" 0 "" {TEXT -1 4 "and " }}{PARA 0 "" 0 "" {TEXT -1 2 "c)" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 42 "Sum((1/2)^i,i=1..20)=sum((1/
+2)^i,i=1..20);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$SumG6$)#\"\"\"\"
+\"#%\"iG/F+;F)\"#?#\"(v&[5\"(w&[5" }}}{PARA 0 "" 0 "" {TEXT -1 13 "The
+ series   " }{XPPEDIT 18 0 "sum(1/i,i=1..infinity)" "6#-%$sumG6$*&\"\"
+\"F'%\"iG!\"\"/F(;F'%)infinityG" }{TEXT -1 50 "  is called the \"harmo
+nic\" series.   The series   " }{XPPEDIT 18 0 "sum(r^i, i=0..infinity)
+" "6#-%$sumG6$)%\"rG%\"iG/F(;\"\"!%)infinityG" }{TEXT -1 65 "  is call
+ed the \"geometric series with ratio r\"  and the series  " }{XPPEDIT 
+18 0 "sum((1/i^p),i=1..infinity)" "6#-%$sumG6$*&\"\"\"F')%\"iG%\"pG!\"
+\"/F);F'%)infinityG" }{TEXT -1 125 "   is called a \"p-series.\"  The \+
+series in (b) is a p-series with p=2 and the series in (c) is a geomet
+ric series with ratio  " }{XPPEDIT 18 0 "1/2" "6#*&\"\"\"F$\"\"#!\"\"
+" }{TEXT -1 4 "  . " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 10 " A series " }{XPPEDIT 18 0 "sum(a[i],i=i[0]..infinity)
+" "6#-%$sumG6$&%\"aG6#%\"iG/F);&F)6#\"\"!%)infinityG" }{TEXT -1 44 "  \+
+ is called \"convergent with limit S\" if   " }{XPPEDIT 18 0 "limit(S[
+n],n=infinity) =S" "6#/-%&limitG6$&%\"SG6#%\"nG/F*%)infinityGF(" }
+{TEXT -1 27 "  and we use the notation  " }{XPPEDIT 18 0 "sum(a[i],i=i
+[0]..infinity)=S" "6#/-%$sumG6$&%\"aG6#%\"iG/F*;&F*6#\"\"!%)infinityG%
+\"SG" }{TEXT -1 4 "  , " }}{PARA 0 "" 0 "" {TEXT -1 217 "otherwise it \+
+is said to \"diverge.\"  For each of the harmonic, p-series, and geome
+tric series above, determine if the series diverges or converges by co
+mputing first the n-th partial sum then taking its' limit as n -> " }
+{XPPEDIT 18 0 "infinity" "6#%)infinityG" }{TEXT -1 47 " by performing \+
+the following command sequences:" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "Sa[n]:=sum(1/i,i=1..n);" "6#>&%#SaG6#%\"nG-%$sumG6$*&\"\"\"F,%\"
+iG!\"\"/F-;F,F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#SaG6#%\"nG,&-%$
+PsiG6#,&F'\"\"\"F-F-F-%&gammaGF-" }}}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "limit(Sa[n],n=infinity);" "6#-%&limitG6$&%#SaG6#%\"nG/F
+)%)infinityG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#%)infinityG" }}}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 256 29 "Does it conver
+ge or diverge? " }{TEXT -1 7 "Diverge" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "Sb[n]:=sum(1/i^2,i=1..n);
+" "6#>&%#SbG6#%\"nG-%$sumG6$*&\"\"\"F,*$%\"iG\"\"#!\"\"/F.;F,F'" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#SbG6#%\"nG,&-%$PsiG6$\"\"\",&F'F,F
+,F,!\"\"*&\"\"'F.%#PiG\"\"#F," }}}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 
+19 1 "limit(Sb[n],n=infinity);" "6#-%&limitG6$&%#SbG6#%\"nG/F)%)infini
+tyG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*&\"\"'!\"\"%#PiG\"\"#\"\"\"
+" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 257 28 "Doe
+s it converge or diverge?" }{TEXT -1 1 " " }{TEXT 262 0 "" }{TEXT -1 
+7 "Convere" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "
+" {XPPEDIT 19 1 "Sc[n]:=sum((1/2)^i,i=0..n);" "6#>&%#ScG6#%\"nG-%$sumG
+6$)*&\"\"\"F-\"\"#!\"\"%\"iG/F0;\"\"!F'" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>&%#ScG6#%\"nG,&*&\"\"#\"\"\")#F+F*,&F'F+F+F+F+!\"\"F*F+" }}}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "limit(Sc[n],n=infinity);" "6#-
+%&limitG6$&%#ScG6#%\"nG/F)%)infinityG" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"\"#" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+258 28 "Does it converge or diverge?" }{TEXT -1 9 " Converge" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 12 "Now define  " }
+{XPPEDIT 18 0 "Sp[n]" "6#&%#SpG6#%\"nG" }{TEXT -1 69 "   to be the n-t
+h partial sum for a general p-series.  In other words" }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 25 "Sp[n]:=sum(1/i^p,i=1..n);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>&%#SpG6#%\"nG-%$sumG6$*&\"\"\"F,)%\"iG%\"pG!\"\"/
+F.;F,F'" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+221 "Experiment by substituting various values of p into this expressi
+on and computing the limit, to determine for what values of p does the
+ p-series converge, and for what values does it diverge.  For example \+
+to compute with " }{XPPEDIT 18 0 "p=1/3" "6#/%\"pG*&\"\"\"F&\"\"$!\"\"
+" }{TEXT -1 40 " perform the following command sequence:" }}{EXCHG 
+{PARA 0 "> " 0 "" {XPPEDIT 19 1 "subs(p=1/3,Sp[n]);" "6#-%%subsG6$/%\"
+pG*&\"\"\"F)\"\"$!\"\"&%#SpG6#%\"nG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#-%$sumG6$*&\"\"\"F'*$)%\"iG#F'\"\"$F'!\"\"/F*;F'%\"nG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "limit(%,n=infinity);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%)infinityG" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "subs(p = 4/3,Sp[n]);" "6#-%%su
+bsG6$/%\"pG*&\"\"%\"\"\"\"\"$!\"\"&%#SpG6#%\"nG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#-%$sumG6$*&\"\"\"F'*$)%\"iG#\"\"%\"\"$F'!\"\"/F*;F'%\"n
+G" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "limit(%,n=infinity);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%%ZetaG6##\"\"%\"\"$" }}}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "subs(p \+
+= 1,Sp[n]);" "6#-%%subsG6$/%\"pG\"\"\"&%#SpG6#%\"nG" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#-%$sumG6$*&\"\"\"F'%\"iG!\"\"/F(;F'%\"nG" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "limit(%,n=infinity);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#%)infinityG" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {XPPEDIT 19 1 "subs(p = 2,Sp[n]);" "6#-%%subs
+G6$/%\"pG\"\"#&%#SpG6#%\"nG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#-%$sumG
+6$*&\"\"\"F'*$)%\"iG\"\"#F'!\"\"/F*;F'%\"nG" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 20 "limit(%,n=infinity);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,$*&\"\"'!\"\"%#PiG\"\"#\"\"\"" }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT 259 25 "What is your conclusion? " }{TEXT 
+-1 19 "Converges for p > 1" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 59 "Show sufficiently many examples to support your c
+onclusion." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 170 "Similarily experiment with different va
+lues of r in the geometric series to determine for what values of r th
+e geometric series converges and for what values it diverges." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "Sc[n] := sum((c)^i,i = 1 .. \+
+n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#ScG6#%\"nG,&*&)%\"cG,&F'\"
+\"\"F-F-F-,&F+F-F-!\"\"F/F-*&F+F-F.F/F/" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "subs(c=1.1,Sc[n]);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#,&*&$\"\"\"F&F&)$\"#6!\"\",&%\"nGF&F&F&F&F&$\"+++++6!\")F*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "limit(%,n=infinity);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#;!\"\"\"\"!" }}}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 260 
+26 "What is your conclusion?  " }{TEXT -1 24 "Converges for -1 < c < 1
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 49 "Let's try to use MAPLE to \"prove\" our \+
+conclusion." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 14 "with(student):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 26 "Int(1/x^p,x)=int(1/x^p,x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/-%$IntG6$*&\"\"\"F()%\"xG%\"pG!\"\"F**&)F*,&F+F,F(F(F(
+F/F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 36 "Int(1/x^p,x=1..n)=i
+nt(1/x^p,x=1..n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$IntG6$*&\"\"
+\"F()%\"xG%\"pG!\"\"/F*;F(%\"nG,$*&,&)F/,&F+F,F(F(F(F(F,F(,&F+F(F(F,F,
+F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "simplify(%);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$IntG6$)%\"xG,$%\"pG!\"\"/F(;\"\"\"
+%\"nG,$*&,&)F/,&F*F+F.F.F.F.F+F.,&F*F.F.F+F+F+" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 50 "Int(1/x^p,x=1..infinity)=limit(rhs(%),n=infini
+ty);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$IntG6$*&\"\"\"F()%\"xG%\"p
+G!\"\"/F*;F(%)infinityG-%&limitG6$,$*&,&)%\"nG,&F+F,F(F(F(F(F,F(,&F+F(
+F(F,F,F,/F7F/" }}}{PARA 258 "" 1 "" {TEXT -1 92 "Notice that this expr
+ession goes to infinity if the \"effect\" of n is in the numerator, i.
+e. " }{XPPEDIT 18 0 "1-p>0" "6#2\"\"!,&\"\"\"F&%\"pG!\"\"" }{TEXT -1 
+14 ", and goes to " }{XPPEDIT 18 0 "1/(p-1)" "6#*&\"\"\"F$,&%\"pGF$F$!
+\"\"F'" }{TEXT -1 53 "   when the effect of n is in the denominator, i
+.e.  " }{XPPEDIT 18 0 "1-p<0" "6#2,&\"\"\"F%%\"pG!\"\"\"\"!" }{TEXT 
+-1 78 " .  What does this have to do with a p series?  Well if we grap
+h the function " }{XPPEDIT 18 0 "x^(-p)" "6#)%\"xG,$%\"pG!\"\"" }
+{TEXT -1 523 " from x=0 to x=n we observe that the n rightboxes are al
+ways under the graph while for x=1..n+1 the n left boxes are always ab
+ove the graph. But the sum of the n rightboxes from 0 to n is the n-th
+ partial sum of the p-series and the sum of the n leftboxes from 1 to \+
+n+1 are the n-th partial sum of the p-series. Thus the limit of the in
+tegral is infinite or finite if and only if the p-series is correspond
+ingly infinite and finite.  To illustrate this observation do the appr
+opriate left and right box plots and sums  for " }{XPPEDIT 18 0 "x^(1/
+2)" "6#)%\"xG*&\"\"\"F&\"\"#!\"\"" }{TEXT -1 109 " using 10 boxes and \+
+observe the relationship between the area under the graph and that inc
+luded in the boxes." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "right
+box(1/x^(1/2),x=0..10,10);" }}{PARA 13 "" 1 "" {GLPLOT2D 597 597 597 
+{PLOTDATA 2 "6/-%)POLYGONSG6$7&7$$\"\"!F)F(7$F($\"\"\"F)7$F+F+7$F+F(-%
+&COLORG6&%$RGBG$\"\"(!\"\"$\"\"*F5F3-F$6$7&F.7$F+$\"+5y1rq!#57$$\"\"#F
+)F<7$F@F(F/-F$6$7&FB7$F@$\"+$p-Nx&F>7$$\"\"$F)FG7$FJF(F/-F$6$7&FL7$FJ$
+\"+++++]F>7$$\"\"%F)FQ7$FTF(F/-F$6$7&FV7$FT$\"+af8sWF>7$$\"\"&F)Fen7$F
+hnF(F/-F$6$7&Fjn7$Fhn$\"+1H[#3%F>7$$\"\"'F)F_o7$FboF(F/-F$6$7&Fdo7$Fbo
+$\"+JZkzPF>7$$F4F)Fio7$F\\pF(F/-F$6$7&F]p7$F\\p$\"+1R`NNF>7$$\"\")F)Fb
+p7$FepF(F/-F$6$7&Fgp7$Fep$\"+LLLLLF>7$$F7F)F\\q7$F_qF(F/-F$6$7&F`q7$F_
+q$\"+gwFiJF>7$$\"#5F)Feq7$FhqF(F/-%'CURVESG6&7jo7$$\"3S+++v1h6o!#?$\"3
+FBc6aTk67!#;7$$\"33+++N@Ki8!#>$\"3?b>gxzhn&)!#<7$$\"3<+++-K[V?Fir$\"3]
+OFE'yIa*pF\\s7$$\"3;+++qUkCFFir$\"3O;\"y0x?#egF\\s7$$\"32+++P`!eS$Fir$
+\"3V!G$o'QP'=aF\\s7$$\"3s*****\\Smp3%Fir$\"3)eO#oXl^Y\\F\\s7$$\"3)****
+**>ZF\"oZFir$\"35R.4UWezXF\\s7$$\"3K+++S&)G\\aFir$\"3gx4!)))*3QG%F\\s7
+$$\"3(******zg\\/8'Fir$\"3mut)o%Q\")QSF\\s7$$\"3B+++v1h6oFir$\"3a[MjS_
+bJQF\\s7$$\"3))*****HurF\\(Fir$\"3C%**\\/eWKl$F\\s7$$\"3W******4G$R<)F
+ir$\"3mdMq#R:x\\$F\\s7$$\"3S+++xQ4b))Fir$\"3i9.J]i\\gLF\\s7$$\"3/+++X
+\\DO&*Fir$\"3>/([Q@b#QKF\\s7$$\"3%******4gT<-\"!#=$\"3ncc*Rv^%GJF\\s7$
+$\"31+++3x&)*3\"F\\w$\"3=e!*G&Q5\"HIF\\s7$$\"3.+++A**3E7F\\w$\"3sQ$='e
+E(e&GF\\s7$$\"3/+++N@Ki8F\\w$\"33lF9$p=$4FF\\s7$$\"3#******zMa&)\\\"F
+\\w$\"3!*Rjo;SB$e#F\\s7$$\"3*)*****>c'yM;F\\w$\"3%H=TGFeKZ#F\\s7$$\"37
++++w(=5x\"F\\w$\"35qQM'oHiP#F\\s7$$\"3,+++*)4D2>F\\w$\"3E7^#4A#z*G#F\\
+s7$$\"3*)*****>?$[V?F\\w$\"3ix_')\\%\\@@#F\\s7$$\"3')*****fT:(z@F\\w$
+\"3!))[+W\\/>9#F\\s7$$\"33+++d_y;CF\\w$\"3u!=T>gST.#F\\s7$$\"3u*****z4
+bQl#F\\w$\"3VKqa#Gg6%>F\\s7$$\"3C+++R\\#4*GF\\w$\"3[_n2Id')f=F\\s7$$\"
+3?+++!y%*z7$F\\w$\"3)4dM:%y*zy\"F\\s7$$\"34+++iW8-OF\\w$\"3kvK%yzshm\"
+F\\s7$$\"33+++XTFwSF\\w$\"3a8C^_gFm:F\\s7$$\"3t*****zY8F9&F\\w$\"3q8E&
+f&GX%R\"F\\s7$$\"3&******4z_\"4iF\\w$\"3SV([F)[1p7F\\s7$$\"3e*****f;hE
+G(F\\w$\"3C98^BR!=<\"F\\s7$$\"3C+++S&phN)F\\w$\"3kFz:Ws%R4\"F\\s7$$\"3
+%*******)=)H\\5F\\s$\"3+)*Ha\"yjAw*F\\w7$$\"31+++[!3uC\"F\\s$\"3ws4%eg
+fN&*)F\\w7$$\"35+++J$RDX\"F\\s$\"3;@Fn*z&G(H)F\\w7$$\"3'******zR'ok;F
+\\s$\"3a))frDDd]xF\\w7$$\"31+++1J:w=F\\s$\"3_\"HlJ%Gs+tF\\w7$$\"3))***
+**zgsO4#F\\s$\"3#y`_S8v5\"pF\\w7$$\"3!)*****R!RE&G#F\\s$\"3wj@9H+.:mF
+\\w7$$\"3\")*****\\K]4]#F\\s$\"3>4.L'e`LK'F\\w7$$\"3;+++vB_<FF\\s$\"3!
+4(ycfS:mgF\\w7$$\"33+++v'Hi#HF\\s$\"3uh()z$zCe%eF\\w7$$\"36+++(*ev:JF
+\\s$\"3/<Nxk'R_m&F\\w7$$\"3;+++347TLF\\s$\"3?e!e'='Q3Z&F\\w7$$\"3()***
+**HjM?`$F\\s$\"3KGCaF(H4K&F\\w7$$\"31+++\"o7Tv$F\\s$\"3!>^:iT[6;&F\\w7
+$$\"3%)*****HQ*o]RF\\s$\"3wN9bSq5J]F\\w7$$\"3u*****4=lj;%F\\s$\"3Abm$=
+tc\"**[F\\w7$$\"3M+++V&R<P%F\\s$\"37.>^:pp#y%F\\w7$$\"3%******\\9Ege%F
+\\s$\"31R#fA6A'pYF\\w7$$\"37+++R\"3Gy%F\\s$\"3?'zA5g]Dd%F\\w7$$\"3!)**
+***H5k]*\\F\\s$\"3mUY\"4*\\MuWF\\w7$$\"3W+++(RQb@&F\\s$\"3)[I\"H%y_(yV
+F\\w7$$\"34+++=>Y2aF\\s$\"3e%)Q'ymW.I%F\\w7$$\"3#)*****zdWZh&F\\s$\"3h
+8l7\"4>-A%F\\w7$$\"3,+++\\y))GeF\\s$\"3!\\B8,#>(>9%F\\w7$$\"3D+++i_QQg
+F\\s$\"3'y%H$**H'[pSF\\w7$$\"3c******zZ3TiF\\s$\"3U%f3h#f&G+%F\\w7$$\"
+3))*****f.[hY'F\\s$\"3SCN*))[wD$RF\\w7$$\"31+++#Qx$omF\\s$\"3oL=#R_'[s
+QF\\w7$$\"3Q+++u.I%)oF\\s$\"3'*QN)yJt7\"QF\\w7$$\"3O+++(pe*zqF\\s$\"33
+=HO-6CePF\\w7$$\"3=+++C\\'QH(F\\s$\"3'4t2:IAFq$F\\w7$$\"3Q+++8S8&\\(F
+\\s$\"3wC2cJ)oEl$F\\w7$$\"3t*****\\?=bq(F\\s$\"3smwwI#fCg$F\\w7$$\"3N+
+++2s?6zF\\s$\"3?K!o/Q>`b$F\\w7$$\"3K+++IXaE\")F\\s$\"3v1)=Vn)*y]$F\\w7
+$$\"3y+++l*RRL)F\\s$\"3?fq*f`vRY$F\\w7$$\"3S*****HvJga)F\\s$\"3U=BI\\<
+s?MF\\w7$$\"3;+++8tOc()F\\s$\"3u!f#HkwQzLF\\w7$$\"3?******[Qk\\*)F\\s$
+\"33fclhypULF\\w7$$\"3a******o0;r\"*F\\s$\"3Dfxz\")>3-LF\\w7$$\"3E****
+*\\w(Gp$*F\\s$\"3=X!R'p<)pE$F\\w7$$\"3C******zE`!e*F\\s$\"3AvFQHNwIKF
+\\w7$$\"33+++<5s#y*F\\s$\"3!=@t3m-s>$F\\w7$Fhq$\"3Sz$o,mxA;$F\\w-%'COL
+OURG6&F2$\"*++++\"!\")F(F(-%*THICKNESSG6#FA-%&STYLEG6#%%LINEG-%+AXESLA
+BELSG6$Q\"x6\"Q!Fi[m-%%VIEWG6$;F(Fhq%(DEFAULTG" 1 2 0 1 10 0 2 9 1 4 
+2 1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve 2" "Curve 3" "Curv
+e 4" "Curve 5" "Curve 6" "Curve 7" "Curve 8" "Curve 9" "Curve 10" "Cur
+ve 11" }}}}{PARA 0 "" 0 "" {TEXT -1 48 "Notice it is obvious from this
+ picture that if  " }}{PARA 0 "" 0 "" {XPPEDIT 18 0 "int(1/x^(1/2),x=1
+..infinity)" "6#-%$intG6$*&\"\"\"F')%\"xG*&F'F'\"\"#!\"\"F,/F);F'%)inf
+inityG" }{TEXT -1 16 " is finite then " }{XPPEDIT 18 0 "sum(1/i^(1/2),
+i=1..infinity)" "6#-%$sumG6$*&\"\"\"F')%\"iG*&F'F'\"\"#!\"\"F,/F);F'%)
+infinityG" }{TEXT -1 16 " is also finite." }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 75 "Int(1/(x^(1/2)),x = 1 .. infinity)=Limit(Int(1/x^(1/2
+),x=1..n),n=infinity);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$IntG6$*&
+\"\"\"F(*$%\"xG#F(\"\"#!\"\"/F*;F(%)infinityG-%&LimitG6$-F%6$F'/F*;F(%
+\"nG/F8F0" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "Int(1/x^(1/2),
+x=1..n)=int(1/x^(1/2),x=1..n);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$
+IntG6$*&\"\"\"F(*$%\"xG#F(\"\"#!\"\"/F*;F(%\"nG,&*&F,F(F0#F(F,F(F,F-" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 80 "Limit(Int(1/x^(1/2),x=1..
+n),n=infinity)=limit(int(1/x^(1/2),x=1..n),n=infinity);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#/-%&LimitG6$-%$IntG6$*&\"\"\"F+*$%\"xG#F+\"\"#!
+\"\"/F-;F+%\"nG/F3%)infinityGF5" }}}{PARA 0 "" 0 "" {TEXT -1 49 "Thus \+
+we have no information about whether or not " }{XPPEDIT 18 0 "sum(1/(i
+^(1/2)),i = 1 .. infinity)" "6#-%$sumG6$*&\"\"\"F')%\"iG*&F'F'\"\"#!\"
+\"F,/F);F'%)infinityG" }{TEXT -1 55 "   is finite or infinite.  Contin
+ue with the following:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "le
+ftbox(1/x^(1/2),x=1..11,10);" }}{PARA 13 "" 1 "" {GLPLOT2D 597 597 
+597 {PLOTDATA 2 "6/-%'CURVESG6&7U7$$\"\"\"\"\"!F(7$$\"3FLL$3x&)*36!#<$
+\"3SF^]a#>f\\*!#=7$$\"3bmmmT:(z@\"F.$\"3/)\\@)f06h!*F17$$\"34+]7y%*z78
+F.$\"3)4)znZ*>xs)F17$$\"3SLLe9ui29F.$\"3!f&4!ea8'G%)F17$$\"3ymm;z_\"4i
+\"F.$\"3i!fCTZBX&yF17$$\"3#pmmT&phN=F.$\"3)4d3m-%*3Q(F17$$\"3KLLe*=)H
+\\?F.$\"33K*Q2z)\\&)pF17$$\"3smm\"z/3uC#F.$\"3[LW];*40n'F17$$\"3o***\\
+7LRDX#F.$\"3AHd*eOdaQ'F17$$\"3%om;zR'okEF.$\"3Kf%\\`O**f7'F17$$\"3I++D
+1J:wGF.$\"3q6V<!)e\\'*eF17$$\"3oLLL3En$4$F.$\"3')GsT[NU&o&F17$$\"3#pmm
+T!RE&G$F.$\"3/C5(=)4:<bF17$$\"3D+++D.&4]$F.$\"33I&\\WJ*\\W`F17$$\"3;++
++vB_<PF.$\"3gTpMMf['=&F17$$\"33+++v'Hi#RF.$\"31\")4!o:an/&F17$$\"3Inm
+\"z*ev:TF.$\"3$=Ieg(e=H\\F17$$\"3(RLL$347TVF.$\"334;W]Q`*z%F17$$\"3nLL
+LLY.KXF.$\"3q4)Rc2btp%F17$$\"3k***\\7o7Tv%F.$\"3O&RS:iHje%F17$$\"3kLLL
+$Q*o]\\F.$\"3)>BJyz_V\\%F17$$\"3m++D\"=lj;&F.$\"3-=1e8=a*R%F17$$\"3S++
+vV&R<P&F.$\"3@i4HV(>YJ%F17$$\"3CML$e9Ege&F.$\"3QW8k5N0JUF17$$\"3]LLeR
+\"3Gy&F.$\"3iuLo8;WeTF17$$\"3emm;/T1&*fF.$\"3C=JFnJ;%3%F17$$\"3=nm\"zR
+Qb@'F.$\"3l?Z9FN26SF17$$\"3:++v=>Y2kF.$\"3QF:1FZa]RF17$$\"3Znm;zXu9mF.
+$\"3u(*e%H-a\"))QF17$$\"34+++]y))GoF.$\"3aK!o(G_qEQF17$$\"3H++]i_QQqF.
+$\"3kV%R'4TKpPF17$$\"3b++D\"y%3TsF.$\"3T$p@+M#>;PF17$$\"3+++]P![hY(F.$
+\"3)4N;wP_(fOF17$$\"3iKLL$Qx$owF.$\"3O?.+AF<6OF17$$\"3Y+++v.I%)yF.$\"3
+y&p\\1&3QhNF17$$\"3?mm\"zpe*z!)F.$\"3^4j.:n*z^$F17$$\"3;,++D\\'QH)F.$
+\"3wY0&[AMBZ$F17$$\"31KLe9S8&\\)F.$\"3XI`f+R&4V$F17$$\"3h,+D1#=bq)F.$
+\"3+@K\")HGC*Q$F17$$\"3!QLL$3s?6*)F.$\"3#z(o0@\"**)\\LF17$$\"3a***\\7`
+Wl7*F.$\"3\"3k.FUV,J$F17$$\"3enmmm*RRL*F.$\"3I^([L)>;tKF17$$\"3%zmmTvJ
+ga*F.$\"35[\"p'=lfOKF17$$\"3]MLe9tOc(*F.$\"30-lWey^,KF17$$\"31,++]Qk\\
+**F.$\"3-#*3_j)p-<$F17$$\"3[LL3dg6<5!#;$\"3]&H1FKdb8$F17$$\"3zmmmw(Gp.
+\"F[z$\"3?raq;rX0JF17$$\"3-+]7oK0e5F[z$\"3q?/9=**HuIF17$$\"37+](=5s#y5
+F[z$\"3;,W&4?S`/$F17$$\"#6F*$\"3HOwxXM6:IF1-%'COLOURG6&%$RGBG$\"*++++
+\"!\")$F*F*Fi[l-%*THICKNESSG6#\"\"#-%&STYLEG6#%%LINEG-%)POLYGONSG6$7&7
+$F(Fi[lF'7$$F]\\lF*F(7$Fh\\lFi[l-%&COLORG6&Fe[l$\"\"(!\"\"$\"\"*F_]lF]
+]l-Fc\\l6$7&Fi\\l7$Fh\\l$\"+5y1rq!#57$$\"\"$F*Ff]l7$Fj]lFi[lFj\\l-Fc\\
+l6$7&F\\^l7$Fj]l$\"+$p-Nx&Fh]l7$$\"\"%F*Fa^l7$Fd^lFi[lFj\\l-Fc\\l6$7&F
+f^l7$Fd^l$\"+++++]Fh]l7$$\"\"&F*F[_l7$F^_lFi[lFj\\l-Fc\\l6$7&F`_l7$F^_
+l$\"+af8sWFh]l7$$\"\"'F*Fe_l7$Fh_lFi[lFj\\l-Fc\\l6$7&Fj_l7$Fh_l$\"+1H[
+#3%Fh]l7$$F^]lF*F_`l7$Fb`lFi[lFj\\l-Fc\\l6$7&Fc`l7$Fb`l$\"+JZkzPFh]l7$
+$\"\")F*Fh`l7$F[alFi[lFj\\l-Fc\\l6$7&F]al7$F[al$\"+1R`NNFh]l7$$Fa]lF*F
+bal7$FealFi[lFj\\l-Fc\\l6$7&Ffal7$Feal$\"+LLLLLFh]l7$$\"#5F*F[bl7$F^bl
+Fi[lFj\\l-Fc\\l6$7&F`bl7$F^bl$\"+gwFiJFh]l7$F^[lFebl7$F^[lFi[lFj\\l-%+
+AXESLABELSG6$Q\"x6\"Q!F]cl-%%VIEWG6$;F(F^[l%(DEFAULTG" 1 2 0 1 10 0 2 
+9 1 4 2 1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve 2" "Curve 3
+" "Curve 4" "Curve 5" "Curve 6" "Curve 7" "Curve 8" "Curve 9" "Curve 1
+0" "Curve 11" }}}}{PARA 0 "" 0 "" {TEXT -1 39 "From this picture it fo
+llows that if   " }{XPPEDIT 18 0 "int(1/(x^(1/2)),x = 1 .. infinity)" 
+"6#-%$intG6$*&\"\"\"F')%\"xG*&F'F'\"\"#!\"\"F,/F);F'%)infinityG" }
+{TEXT -1 20 "  is infinite  then " }{XPPEDIT 18 0 "sum(1/(i^(1/2)),i =
+ 1 .. infinity)" "6#-%$sumG6$*&\"\"\"F')%\"iG*&F'F'\"\"#!\"\"F,/F);F'%
+)infinityG" }{TEXT -1 114 " is also infinite. Thus the sum is infinite
+ from above.  Of course MAPLE can arrive at either conclusion directly
+:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "Int(1/x^(1/2),x=1..infi
+nity)=int(1/x^(1/2),x=1..infinity);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#/-%$IntG6$*&\"\"\"F(*$%\"xG#F(\"\"#!\"\"/F*;F(%)infinityGF0" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "Sum(1/i^(1/2),i=1..infinity)
+=sum(1/i^(1/2),i=1..infinity);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%$
+SumG6$*&\"\"\"F(*$%\"iG#F(\"\"#!\"\"/F*;F(%)infinityGF0" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "105 0 0" 0 }{VIEWOPTS 
+1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

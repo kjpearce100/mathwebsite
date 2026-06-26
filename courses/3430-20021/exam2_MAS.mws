@@ -1,0 +1,114 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 0 
+0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Input" 2 19 "" 0 1 255 0 0 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE 
+"2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 257 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 262 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 267 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 272 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 
+2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plo
+t" -1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 
+}1 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 20 "MATH 3430-001 EXAM 2" }}{PARA 
+256 "" 0 "" {TEXT -1 15 "23 October 2002" }}{PARA 0 "" 0 "" {TEXT -1 
+122 "Name:                                                            \+
+                                                         " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 119 "Put your name on \+
+the worksheet and save your worksheet as exam2.mws.   All statements a
+re to appear on the worksheet.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 161 "Annotate your conclusions so that the re
+ader does not have to interpolate the relationships between the stated
+ exam questions and the printed Maple computations." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 80 "Turn in a printed versi
+on of worksheet at the end of the testing period today.  " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 373 "Should there be p
+roblems on the exam for which you do not find the answers during the t
+esting period today, you may submit an electronic version of the works
+heet to me (through the WebCT e-mail interface or to pearce@math.ttu.e
+du) by 4:00 pm tomorrow and I will grade those problems at half credit
+ and add their scores to the scores on the printed version of the work
+sheet." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 2 "
+I." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 41 "1. \+
+ (20 points) Analyze the graph of     " }}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "f := x^4+3*x^3-9*x^2-23*x-12;" "6#>%\"fG,,*$%\"xG\"\"%
+\"\"\"*&\"\"$F)*$F'F+F)F)*&\"\"*F)*$F'\"\"#F)!\"\"*&\"#BF)F'F)F1\"#7F1
+" }}}{PARA 0 "" 0 "" {TEXT -1 37 "Find all intercepts of the graph of \+
+ " }{TEXT 271 1 "f" }{TEXT -1 37 ", all local maxima, local minima of \+
+ " }{TEXT 272 1 "f" }{TEXT -1 44 " and all inflection points of the gr
+aph of  " }{TEXT 257 1 "f" }{TEXT -1 68 ".  Also, identify all, if any
+, asymptotic behavior(s) the graph of  " }{TEXT 258 2 "f " }{TEXT -1 
+177 " possesses. Provide a sketch of the graph (or, where needed, sket
+ches of the graph) which illustrate the above information.  On that sk
+tech (those sketches) color the function  " }{TEXT 270 1 "f" }{TEXT 
+-1 30 " red, the first derivative of " }{TEXT 269 2 " f" }{TEXT -1 37 
+"  green and the second derivative of " }{TEXT 268 2 " f" }{TEXT -1 7 
+"  blue." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+41 "2.  (20 points) Analyze the graph of     " }}{EXCHG {PARA 0 "> " 
+0 "" {XPPEDIT 19 1 "f := (100*x^3-500*x^2+699*x-297)/(90*x^2-270*x-900
+);" "6#>%\"fG*&,**&\"$+\"\"\"\"*$%\"xG\"\"$F)F)*&\"$+&F)*$F+\"\"#F)!\"
+\"*&\"$*pF)F+F)F)\"$(HF1F),(*&\"#!*F)*$F+F0F)F)*&\"$q#F)F+F)F1\"$+*F1F
+1" }}}{PARA 0 "" 0 "" {TEXT -1 37 "Find all intercepts of the graph of
+  " }{TEXT 274 1 "f" }{TEXT -1 37 ", all local maxima, local minima of
+  " }{TEXT 275 1 "f" }{TEXT -1 44 " and all inflection points of the g
+raph of  " }{TEXT 273 1 "f" }{TEXT -1 70 ".    Also, identify all, if \+
+any, asymptotic behavior(s) the graph of  " }{TEXT 256 2 "f " }{TEXT 
+-1 177 " possesses. Provide a sketch of the graph (or, where needed, s
+ketches of the graph) which illustrate the above information.  On that
+ sktech (those sketches) color the function  " }{TEXT 267 1 "f" }
+{TEXT -1 30 " red, the first derivative of " }{TEXT 266 2 " f" }{TEXT 
+-1 37 "  green and the second derivative of " }{TEXT 265 2 " f" }
+{TEXT -1 7 "  blue." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 53 "3. (10 points) On a common graph, plot the function  " 
+}{XPPEDIT 18 0 "f := exp(-2*x)*cos(x);" "6#>%\"fG*&-%$expG6#,$*&\"\"#
+\"\"\"%\"xGF,!\"\"F,-%$cosG6#F-F," }{TEXT -1 80 "  with its approximat
+ing Taylor polynomials of orders 1, 2, 3 (each centered at " }{TEXT 
+259 1 "x" }{TEXT -1 8 " = 0).  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 3 "II." }}{PARA 0 "" 0 "" {TEXT -1 93 "4.  (1
+0 points) Find the area, in the first quadrant, which is bounded betwe
+en the graph of  " }{XPPEDIT 18 0 "f := -exp(1/10*x)-x^2+9*x;" "6#>%\"
+fG,(-%$expG6#*(\"\"\"F*\"#5!\"\"%\"xGF*F,*$F-\"\"#F,*&\"\"*F*F-F*F*" }
+{TEXT -1 10 "  and the " }{TEXT 260 1 "x" }{TEXT -1 6 "-axis." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "5.  (10 p
+oints) Consider the ellipse  " }{XPPEDIT 18 0 "x^2/36+y^2/4 = 1;" "6#/
+,&*&%\"xG\"\"#\"#O!\"\"\"\"\"*&%\"yGF'\"\"%F)F*F*" }{TEXT -1 16 " and \+
+the circle " }{XPPEDIT 18 0 "x^2+y^2 = 16;" "6#/,&*$%\"xG\"\"#\"\"\"*$
+%\"yGF'F(\"#;" }{TEXT -1 99 ".  Find the area of the region which is (
+simultaneously) inside the circle and outside the ellipse." }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 67 "6.  (10 points) F
+or the following function, determine whether (i)  " }{TEXT 261 1 "f" }
+{TEXT -1 19 "  is continuous at " }{TEXT 262 1 "x" }{TEXT -1 13 " = 0;
+  (ii)  " }{TEXT 263 1 "f" }{TEXT -1 23 "  is differentiable at " }
+{TEXT 264 1 "x" }{TEXT -1 5 " = 0." }}{EXCHG {PARA 0 "> " 0 "" 
+{XPPEDIT 19 1 "f := piecewise(x = 0,0,sin(x^3)/abs(x));" "6#>%\"fG-%*p
+iecewiseG6%/%\"xG\"\"!F**&-%$sinG6#*$F)\"\"$\"\"\"-%$absG6#F)!\"\"" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG-%*PIECEWISEG6$7$\"\"!/%\"xGF)7$
+*&-%$sinG6#*$)F+\"\"$\"\"\"F4-%$absG6#F+!\"\"%*otherwiseG" }}}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "III." }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 57 "7. (10 points) Usi
+ng Maple, find an anti-derivative for  " }{XPPEDIT 18 0 "f := x^3*arct
+an(x^2);" "6#>%\"fG*&%\"xG\"\"$-%'arctanG6#*$F&\"\"#\"\"\"" }{TEXT -1 
+39 " .  Verify that your answer is correct." }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 57 "8. (10 points) Using Maple, fin
+d an anti-derivative for  " }{XPPEDIT 18 0 "f := x*arcsin(x)/(1-x^2)^(
+1/2);" "6#>%\"fG*(%\"xG\"\"\"-%'arcsinG6#F&F'),&F'F'*$F&\"\"#!\"\"*&F'
+F'F.F/F/" }{TEXT -1 39 " .  Verify that your answer is correct." }}
+{PARA 0 "" 0 "" {TEXT -1 3 "   " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{MARK "34 0" 0 }{VIEWOPTS 1 1 0 1 1 
+1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

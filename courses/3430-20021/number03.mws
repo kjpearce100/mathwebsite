@@ -1,0 +1,77 @@
+{VERSION 5 0 "IBM INTEL NT" "5.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 0 1 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" 
+-1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 257 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 0 "" }{TEXT 256 38 "Binomial Theore
+m and Pascal's Triangle" }}{PARA 257 "" 0 "" {TEXT -1 15 "( number03.m
+ws)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 29 "1.
+  Use the MAPLE command    " }{TEXT 257 15 "expand(    );  " }{TEXT 
+-1 34 "to calculate the expansion of     " }{XPPEDIT 18 0 "(a+b)^n;" "
+6#),&%\"aG\"\"\"%\"bGF&%\"nG" }{TEXT -1 63 "    for values n=1..10 .  \+
+In each case use the MAPLE command   " }{TEXT 260 12 "coeffs(  ); " }
+{TEXT -1 82 "to pick off the coefficients.   For example if n=5 we wou
+ld execute the following:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 
+"expand((a+b)^5);\ncoeffs(%);" }}}{PARA 0 "" 0 "" {TEXT -1 24 "Do the \+
+rest from 1 to 10" }}{PARA 0 "" 0 "" {TEXT -1 4 "The " }{TEXT 265 16 "
+Binomial Theorem" }{TEXT -1 66 " gives a formula for finding the coeff
+icients of the expansion of " }{XPPEDIT 18 0 "(a+b)^n;" "6#),&%\"aG\"
+\"\"%\"bGF&%\"nG" }{TEXT -1 64 "  for any n.  It is relatively obvious
+ that the coefficient of  " }{XPPEDIT 18 0 "a^k*b^(n-k);" "6#*&)%\"aG%
+\"kG\"\"\")%\"bG,&%\"nGF'F&!\"\"F'" }{TEXT -1 123 "  for any value of \+
+k from 0 to n is given by the number of ways we can choose k of the a'
+s from the n a's in the expansion " }{XPPEDIT 18 0 "(a+b)*(a+b)" "6#*&
+,&%\"aG\"\"\"%\"bGF&F&,&F%F&F'F&F&" }{TEXT -1 7 " ....( " }{XPPEDIT 
+18 0 "(a+b)" "6#,&%\"aG\"\"\"%\"bGF%" }{TEXT -1 18 " ), n times .     \+
+" }}{PARA 0 "" 0 "" {TEXT -1 62 "The number of combinations of n objec
+ts choosing k at a time, " }{XPPEDIT 18 0 "nCk" "6#%$nCkG" }{TEXT -1 
+27 ", is given by the formula  " }{XPPEDIT 18 0 "nCk=n!/(k!*(n-k)!)" "
+6#/%$nCkG*&-%*factorialG6#%\"nG\"\"\"*&-F'6#%\"kGF*-F'6#,&F)F*F.!\"\"F
+*F2" }{TEXT -1 2 " ." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 48 "2.  Verify that the MAPLE syntax for computing  " }
+{XPPEDIT 18 0 "nCk" "6#%$nCkG" }{TEXT -1 6 "  is  " }{TEXT 258 16 "bin
+omial(n,k);  " }{TEXT 264 1 "i" }{TEXT -1 41 "n other words, show that
+ binomial(n,k) = " }{XPPEDIT 18 0 "n!/(k!*(n-k)!)" "6#*&-%*factorialG6
+#%\"nG\"\"\"*&-F%6#%\"kGF(-F%6#,&F'F(F,!\"\"F(F0" }{TEXT -1 5 " for " 
+}{TEXT 263 3 "all" }{TEXT -1 11 " integers n" }{TEXT 259 1 ">" }{TEXT 
+-1 2 "k." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+5 "3.  S" }{TEXT 261 9 "tate the " }{TEXT 266 16 "Binomial Theorem" }
+{TEXT 267 1 " " }{TEXT -1 32 "and use MAPLE to demonstrate it." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 15 "4.  Compu
+te    " }{XPPEDIT 18 0 "sum(binomial(n,k),k=0..n)" "6#-%$sumG6$-%)bino
+mialG6$%\"nG%\"kG/F*;\"\"!F)" }{TEXT -1 16 "  for n=1 to 10." }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "5.  " }{TEXT 
+262 61 "What general formula do the above calculations in 4. suggest?
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "6.  U
+se MAPLE to verify this general formula for " }{TEXT 268 3 "all" }
+{TEXT -1 3 " n." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 12 "7.  Use the " }{TEXT 269 16 "Binomial Theorem" }{TEXT -1 
+33 " to \"prove\" this general formula." }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 45 "Recall the definition of Pascal's Tr
+iangle.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+313 "8.  Use MAPLE to construct the first 10 rows of Pascal's Triangle
+. (The trick will be to get the coefficients to occur in the correct o
+rder.  The MAPLE command for generating a sequence might be helpful. I
+t is   seq(expr(i),i=m..n);   where expr(i) is an expression with inde
+x i and m and n are integers with m<n." }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 77 "9.  Look for patterns in Pascal's tri
+angle and demonstrate them using MAPLE. " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 4 "   \+
+ " }}}{MARK "19 2" 16 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 
+0 1 2 33 1 1 }

@@ -1,0 +1,218 @@
+{VERSION 4 0 "IBM INTEL NT" "4.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 0 1 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 
+2 0 1 }{PSTYLE "Normal" -1 256 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 
+1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" 
+-1 257 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Normal" -1 258 1 {CSTYLE "" -1 -1 
+"Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 
+}{PSTYLE "Normal" -1 259 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 
+2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" 
+-1 260 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 261 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 
+2 0 1 }{PSTYLE "Maple Output" -1 262 1 {CSTYLE "" -1 -1 "Times" 1 12 
+0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Map
+le Output" -1 263 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 
+1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {PARA 256 "" 0 "" {TEXT -1 25 "MAPLE  Worksheet Number13" }}
+{PARA 257 "" 0 "" {TEXT -1 26 "Matrices and Vector Spaces" }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 82 "We recall that mul
+tiplication by an nxm matrix A is a \"linear map\" from the space " }
+{XPPEDIT 18 0 "R^m" "6#)%\"RG%\"mG" }{TEXT -1 37 " of vectors of lengt
+h m to the space " }{XPPEDIT 18 0 "R^n" "6#)%\"RG%\"nG" }{TEXT -1 248 
+" of vectors of lenght n.  Let's use MAPLE to demonstrate what we mean
+ by a linear map.  Define A to be an arbitrary 2x3 matrix , v and w to
+ be arbitrary 3x1 matrices, (ie column 3-vectors) and let a and b be a
+rbitrary scalars.  Linearity means that" }}{PARA 258 "" 0 "" {XPPEDIT 
+18 0 "A(au+bw) = aAu+bAw" "6#/-%\"AG6#,&%#auG\"\"\"%#bwGF),&%$aAuGF)%$
+bAwGF)" }{TEXT -1 3 ".  " }}{PARA 0 "" 0 "" {TEXT -1 125 "Load linalg \+
+and execute the following commands to check this identity with MAPLE. \+
+In each case explain what the command does." }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 17 "A:=(matrix(2,3));" }}}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }{TEXT 256 12 "Explanation:" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 9 "evalm(A);" }}}{PARA 0 "" 0 "" {TEXT 257 12 "Explanation:" }{TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "v:=matrix(3,1);w:=
+matrix(3,1);" }}}{PARA 0 "" 0 "" {TEXT 258 12 "Explanation:" }{TEXT 
+-1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "evalm(v);evalm(w);
+" }}}{PARA 0 "" 0 "" {TEXT 259 12 "Explanation:" }{TEXT -1 0 "" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "evalm(A&*(a*v+b*w));" }}}
+{PARA 0 "" 0 "" {TEXT 260 12 "Explanation:" }{TEXT -1 0 "" }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 24 "leftside:=map(expand,%);" }}}{PARA 
+0 "" 0 "" {TEXT 261 12 "Explanation:" }{TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 209 "The MAPLE command   map(command,matrix)  is used to ca
+use the specified command (expand in this case) to work on each entry \+
+of the indicated matrix. Now lets compute the other side of the identi
+ty and compare." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "aA:=evalm
+(a*A);bA:=evalm(b*A);" }}}{PARA 0 "" 0 "" {TEXT 262 12 "Explanation:" 
+}{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "rightside:=
+evalm(aA&*v+bA&*w);" }}}{PARA 0 "" 0 "" {TEXT 263 12 "Explanation:" }
+{TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "leftside-rig
+htside;" }}}{PARA 0 "" 0 "" {TEXT 264 12 "Explanation:" }{TEXT -1 0 "
+" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 9 "evalm(%);" }}}{PARA 0 "" 
+0 "" {TEXT 265 12 "Explanation:" }{TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 26 "The set of all vectors in " }{XPPEDIT 18 0 "R^m" "6#)%\"R
+G%\"mG" }{TEXT -1 32 " which go to the zero vector in " }{XPPEDIT 18 
+0 "R^n" "6#)%\"RG%\"nG" }{TEXT -1 115 "  is called the \"null space\" \+
+of A. If A is nonsingular then the null space of A consists of only th
+e zero vector.  " }}{PARA 0 "" 0 "" {TEXT 266 4 "Why?" }{TEXT -1 2 "  \+
+" }}{PARA 0 "" 0 "" {TEXT -1 63 "Use MAPLE to demonstrate.  A handy MA
+PLE command to use here is" }}{PARA 259 "" 0 "" {TEXT -1 15 "linsolve(
+A,B) ." }}{PARA 0 "" 0 "" {TEXT -1 49 "This automatically tries to sol
+ve the equation   " }{XPPEDIT 18 0 "A*X=B" "6#/*&%\"AG\"\"\"%\"XGF&%\"
+BG" }{TEXT -1 20 "  for the values of " }{XPPEDIT 18 0 "X" "6#%\"XG" }
+{TEXT -1 213 ". Apply it to try to find the null space for an arbitrar
+y 2x2 matrix M.  Note that MAPLE will assume that M is nonsingular, ju
+st as it did when we computed the formula for the inverse of such an M
+ in worksheet 11." }}{PARA 0 "" 0 "" {TEXT -1 48 "Find the null space \+
+of the following matrix     " }{XPPEDIT 18 0 "K:=MATRIX([[2, 3, 4, 5, \+
+6, 7, 8], [3, 4, 5, 6, 7, 8, 9], [4, 5, 6, 7, 8, 9, 10], [5, 6, 7, 8, \+
+9, 10, 11], [6, 7, 8, 9, 10, 11, 12]])" "6#>%\"KG-%'MATRIXG6#7'7)\"\"#
+\"\"$\"\"%\"\"&\"\"'\"\"(\"\")7)F+F,F-F.F/F0\"\"*7)F,F-F.F/F0F2\"#57)F
+-F.F/F0F2F4\"#67)F.F/F0F2F4F6\"#7" }{TEXT -1 4 "  . " }}{PARA 0 "" 0 "
+" {TEXT -1 121 "Note that the element in the position (i,j) is i+j.  S
+o we can use one of our shortcut methods from Number 11 to define K" }
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "K:=matrix(5,7,(i,j)->i+j);
+" }}}{PARA 0 "" 0 "" {TEXT -1 14 "So to solve   " }{XPPEDIT 18 0 "K*X=
+0" "6#/*&%\"KG\"\"\"%\"XGF&\"\"!" }{TEXT -1 5 " for " }{XPPEDIT 18 0 "
+X" "6#%\"XG" }{TEXT -1 19 " we use the command" }}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 13 "with(linalg):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 30 "NK:=linsolve(K,matrix(5,1,0));" }}}{PARA 0 "" 0 "" 
+{TEXT 267 88 "How many independent variables are used to describe the \+
+vectors in the null space of K? " }{TEXT -1 1 " " }}{PARA 0 "" 0 "" 
+{TEXT -1 407 "This number is the \"dimension\" of the null space of K.
+  It is also called the \"nullity of K.\"  To actually find some vecto
+rs in the null space of K we need only to choose values for these 5 in
+dependent variables and compute the resulting vector. List 5 different
+ vectors in the null space of K gotten by choosing all but one of thes
+e variables equal to 0 and the remaining one equal to 1. For example d
+efine" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "x[1]:=matrix(7,1,[5
+,-6,0,0,0,0,1]);" }}}{PARA 0 "" 0 "" {TEXT -1 27 "In similar fashion d
+efine  " }{XPPEDIT 18 0 "x[2], x[3], x[4], x[5]" "6&&%\"xG6#\"\"#&F$6#
+\"\"$&F$6#\"\"%&F$6#\"\"&" }{TEXT -1 3 " . " }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT -1 46 "The null space of \+
+K is the \"span\" of the set \{" }{XPPEDIT 18 0 "x[1]" "6#&%\"xG6#\"\"
+\"" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "x[2], x[3], x[4], x[5]" "6&&%\"xG
+6#\"\"#&F$6#\"\"$&F$6#\"\"%&F$6#\"\"&" }{TEXT -1 58 "\}, in other word
+s the set of all \"linear combinations\" of " }{XPPEDIT 18 0 "x[1]" "6
+#&%\"xG6#\"\"\"" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "x[2], x[3], x[4], x[
+5]" "6&&%\"xG6#\"\"#&F$6#\"\"$&F$6#\"\"%&F$6#\"\"&" }{TEXT -1 34 ".  T
+o see that any combination of " }{XPPEDIT 18 0 "x[1]" "6#&%\"xG6#\"\"
+\"" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "x[2], x[3], x[4], x[5]" "6&&%\"xG
+6#\"\"#&F$6#\"\"$&F$6#\"\"%&F$6#\"\"&" }{TEXT -1 46 " is in the null s
+pace of K compute and view   " }{XPPEDIT 18 0 "K*(a*x[1]+b*x[2]+c*x[3]
++d*x[4]+e*x[5]);" "6#*&%\"KG\"\"\",,*&%\"aGF%&%\"xG6#F%F%F%*&%\"bGF%&F
+*6#\"\"#F%F%*&%\"cGF%&F*6#\"\"$F%F%*&%\"dGF%&F*6#\"\"%F%F%*&%\"eGF%&F*
+6#\"\"&F%F%F%" }{TEXT -1 44 " for arbitrary parameters a, b, c, d, and
+ e." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" 
+{TEXT -1 101 "That everything in the null space is of this form is a c
+onsequence of the above solution.  The set  \{" }{XPPEDIT 18 0 "x[1],x
+[2],x[3],x[4],x[5] " "6'&%\"xG6#\"\"\"&F$6#\"\"#&F$6#\"\"$&F$6#\"\"%&F
+$6#\"\"&" }{TEXT -1 164 "\}is called a \"basis\" for the null space of
+ K.  The MAPLE command  nullspace(matrix)  automatically computes a ba
+sis for the null space of the matrix.  Try it on K. " }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "NSK:=nulls
+pace(K);" }}}{PARA 0 "" 0 "" {TEXT 268 44 "Does it yield the same basi
+s we found above?" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT 269 33 "Is
+ the basis uniquely determined?" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" 
+{TEXT 270 8 "Explain." }}{PARA 0 "" 0 "" {TEXT -1 39 "Now try our row \+
+reduction command on K." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 13 "R
+RK:=rref(K);" }}}{PARA 0 "" 0 "" {TEXT -1 255 "How many independent ro
+w vectors are in the reduced eschelon form of K?  The space spanned by
+ these rows is called the \"row space of K.\"  A basis for the row spa
+ce of a matrix can be obtained immediately via the command    rowspace
+(matrix)  . Try it on K." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "
+rowspace(K);" }}}{PARA 0 "" 0 "" {TEXT 271 56 "Is it the same basis we
+ obtained form our row reduction?" }}{PARA 0 "" 0 "" {TEXT 272 80 "How
+ many independent column vectors are there in the reduced eschelon for
+m of K?" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 213 "The space sp
+anned by the column vectors of the original K is called the \"column s
+pace\" of K.  A basis for the column space of a matrix can be obtained
+ immediately via the command    colspace(matirx).  Try it on K." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "colspace(K);" }}}{PARA 0 "" 
+0 "" {TEXT 273 93 "Is the column space of K the same as the collumn sp
+ace of the row reduced eschelon form of K?" }{TEXT -1 2 "  " }}{PARA 
+0 "" 0 "" {TEXT -1 519 "The moral of this story is that the row operat
+ions leading to rref(K) preserve the row space but not the column spac
+e.  However the dimension of the column space is unchanged by the row \+
+operations and always equals the dimension of the row space.  In the c
+ase of K the dimension of the row space equals 2 and is the same as th
+at of the column space.  The dimension of the row (or column) space of
+ a matrix is called the \"rank\" of the matrix and is denoted by rank(
+matrix), which is also the MAPLE command.  Try it on K." }}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "rank(K);" }}}{PARA 260 "" 0 "" 
+{TEXT -1 99 "Recall that the nulllity of K is 5, we see that nullity(K
+)+rank(K)=7 is the number of columns in K." }}{PARA 261 "" 1 "" {TEXT 
+-1 38 "It is a fact that for any matrix M,   " }}{PARA 11 "" 0 "" 
+{TEXT -1 50 " rank(M)+nullity(M)= the number of columns of M.  " }}
+{PARA 262 "" 0 "" {TEXT -1 390 "Basically this says that if T is the l
+inear transformation defined via multiplication by M  then the dimensi
+on of the image of T plus the dimension of the null space of  T equals
+ the dimension of the domain of T. It follows that an nxn square matri
+x M is nonsingular, meaning the only vector it sends to 0 is the zero \+
+vector itself, if and only if rank(M)=n  (or equivalently nullity(M)=0
+)." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 63 "Now
+ let's look at the basis for the null space of K.  Recall it" }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "NSK;" }}}{PARA 0 "" 0 "" 
+{TEXT 274 32 "Is this an \"orthonormal\" basis? " }{TEXT -1 1 " " }}
+{PARA 0 "" 0 "" {TEXT -1 140 "In other words are these basis vectors a
+ll of norm (length) 1 and all perpendicular to each other. Recall that
+ the length of a vector v = ( " }{XPPEDIT 18 0 "x[1]" "6#&%\"xG6#\"\"
+\"" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "x[2]" "6#&%\"xG6#\"\"#" }{TEXT 
+-1 7 ",...., " }{XPPEDIT 18 0 "x[n]" "6#&%\"xG6#%\"nG" }{TEXT -1 45 " \+
+) is given by the squareroot of the sum of  " }{XPPEDIT 18 0 "x[i]^2" 
+"6#*$&%\"xG6#%\"iG\"\"#" }{TEXT -1 106 " .  MAPLE has a command  norm.
+  Let's see if this is what we need. Preform the following command seq
+uence." }}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "v:=vector([0,2,-3,
+1]);" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "norm(v);" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "sqrt(sum(v[i]^2,i=1..4));" }}}
+{PARA 0 "" 0 "" {TEXT -1 159 "Obviously this is not the norm we want. \+
+ Experiment with some more vectors to see if you can determine what th
+e command norm is computing.  It's not too hard. " }}{PARA 0 "" 0 "" 
+{TEXT -1 96 "Looking in help we find optional statements can be added \+
+to the norm command. Try the following:" }}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "norm(v,frobenius);" }}}{PARA 0 "" 0 "" {TEXT -1 54 "L
+et's use MAPLE to determine if NSK is orthonormal..  " }}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 7 "NSK[1];" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "norm(%,frobenius);" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "dotprod(NSK[1],NSK[2]);" }}}{PARA 0 "" 0 "" {TEXT -1 
+341 "The first one we picked is not of norm 1, nor is it perpendicular
+ to the second.  There is a process we learned in linear algebra calle
+d the Gram Schmidt process which turns any set of basis vectors into a
+n orthogonal basis.  The MAPLE command for it is cleverly            G
+ramSchmidt(the set of vectors in question)  .  Lets try it on NKS." }}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "OSK:=GramSchmidt(NSK);" }}}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 275 139 "Check t
+o see if these are all mutually orthogonal. (Write a little program to
+ check otthogonality for each pair of vectors in the set OSK.)" }}
+{PARA 0 "" 0 "" {TEXT -1 84 "Next produce an orthonormal basis by divi
+ding each of the above vectors by its norm." }}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 50 "ONSK:=\{seq(OSK[i]/norm(OSK[i],frobenius),i=1..5)\}
+;" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{PARA 0 "" 0 "" {TEXT 276 38 "Check to see
+ if these all have norm 1." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+263 "" 1 "" {TEXT -1 0 "" }}}{MARK "95" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 
+1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
