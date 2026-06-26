@@ -1,0 +1,288 @@
+<!DOCTYPE HTML PUBLIC -//IETF//DTD HTML 3.0//EN>
+<HTML>
+
+<HEAD>
+
+<TITLE>Texas Tech University: Mathematics & Statistics -- Complex Preliminary Examination Topics</TITLE>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Texas Tech University: Mathematics & Statistics -- Complex Preliminary Examination Topics">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Texas Tech University Mathematics Statistics Complex Preliminary Examination Topics">
+
+<!-- *********************************************************************************** -->
+
+<META http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen false comment "RSACi North America Server" r (n 0 s 0 v 0 l 0))'> 
+
+
+<link rel=stylesheet type="text/css" href="http://www.math.ttu.edu/~pearce/includes/basic.css">
+<link rel=stylesheet type="text/css" href="http://www.math.ttu.edu/~pearce/includes/fonts.css">
+
+
+
+<style>
+<!--
+#quakenotice_ie{font:normal 14px Arial;
+					 position:absolute;
+					 width:300px; height:55px;
+					 border:2px solid black;
+					 background-color:lightyellow;
+					 visibility:hidden;}
+-->
+</style>
+
+</head>
+
+<body background="/~pearce/images/watermark.gif" onLoad="earthquake()"> 
+
+<layer id="quakenotice_ns" width=300 height=55 bgColor=lightyellow visibility=hide></layer>
+
+
+<script language="JavaScript" src="/~pearce/includes/quake1.js"></script>
+
+<!-- <script language="JavaScript" src="/~pearce/includes/snow1.js"></script> -->
+
+<script type="text/javascript" src="/~pearce/includes/collapsibletext.js"></script> 
+
+
+<script language="JavaScript">
+<!--
+function HighLight(url, names)
+{
+	if(document.images) document[names].src = url;
+}
+//-->
+</script>
+
+
+<hr width="45%" size=5 align="right">
+
+<center><table width="90%" cellpadding=10 cellspacing= 10 border=0>
+<tr valign="center" halign="center">      
+
+   <td><center>
+      <a class=text18rednone href="http://www.math.ttu.edu/">Mathematics & Statistics</a>
+
+      <hr width="10%"> 
+
+	<a class=text16bluenone href="http://www.ttu.edu/">Texas Tech University</a><br>
+   </center></td>
+   <td><a href="http://www.ttu.edu"><img align=middle src="/~pearce/images/double-t.gif" alt="" border=0></a></td>
+   <td><span class=text><center>
+
+      <a class=mainlink href="/~pearce/home.shtml">Kent Pearce</a> <br>
+
+      <hr width="10%"> 
+
+       Department of Mathematics and Statistics<br> 
+       Texas Tech University  <br> 
+       Lubbock, Texas 79409-1042  <br> 
+       Voice: (806)742-2566 x 226 <br> 
+       FAX: (806)742-1112  <br>
+       Email: <a class=link href="mailto:kent.pearce@ttu.edu ">kent.pearce@ttu.edu</a>  <br> 
+
+   </center></span></td>
+</tr>
+
+</table></center>
+
+<hr width="45%" size=5 align="left">
+
+<!-- *********************************************************************************** -->
+
+
+<br>
+<center><div class=text18red>Complex Preliminary Examination Topics</div></center>
+
+
+<p>
+
+<ol>
+<li>Complex Number System and
+Extended Complex Plane
+
+<p>
+<li>Properties of Analytic Functions and Harmonic Functions
+
+<ol>
+<li>Cauchy-Riemann Equations
+
+<li>Conformality
+</ol>
+
+<p>
+<li>Power Series and Analyticity
+
+<p>
+<li>Properties of Elementary Functions
+
+<ol>
+<li>Mapping Properties
+
+<li>Branch-of-Log
+	
+<li>Power Functions
+
+<li>M&ouml;bius Transformations
+</ol>
+
+<p>
+<li>Complex Integration
+
+<ol>
+<li> Complex Line Integral	
+	
+<li>Index of a Closed Curve
+
+<li>Cauchy's Theorems
+
+<li>Cauchy Integral Formulae
+
+<li>Morera's Theorem
+	
+<li>Cauchy-Goursat Theorem
+</ol>
+
+<p>
+<li>Properties of Analytic Functions
+
+<ol>
+<li>Zeros of an Analytic Function
+
+<li>Identity Theorem
+
+<li>Open Mapping Theorem
+
+<li>Maximum Modulus Theorem
+
+<li>Schwarz's Lemma
+
+<li>Liouville's Theorem
+
+<li>Fundamental Theorem of Algebra
+</ol>
+
+<p>
+<li>Singularities
+
+<ol>
+<li>Laurent Expansions
+
+<li>Residue Theorem
+
+<li>Argument Principle
+
+<li>Rouch&eacute;'s Theorem
+
+<li>Jensen's Theorem
+</ol>
+
+<p>
+<li>Spaces of Analytic Functions
+
+<ol>
+<li>Normality and Montel's Theorem
+
+<li>Hurwitz's Theorem
+
+<li>Riemann Mapping Theorem
+
+<li>Weierstrass Factorization
+</ol>
+
+<p>
+<li>Spaces of Meremorphic Functions
+
+<ol>
+<li>Runge's Theorem
+
+<li>Mittag-Leffler Theorem
+</ol>
+
+<p>	
+<li>Special Functions
+
+<ol>
+<li>Gamma Function
+
+<li>Beta Function
+
+<li>Zeta Function
+</ol>
+
+<p>
+<li>Harmonic Functions
+
+<ol>
+<li>Dirichlet Problem
+
+<li>Mean-Value Theorem
+
+<li>Maximum Principle
+
+<li>Poisson Formula
+
+<li>Harnack's Theorem
+
+<li>Green's Function
+</ol>
+
+<p>
+<li>Analytic Continuation
+
+<ol>
+<li>Schwarz Reflection Principle
+
+<li>Schwarz-Christoffel Formula
+</ol>
+
+</ol>
+
+<!-- *********************************************************************************** -->
+
+<p>
+
+<hr width = "75%" size = 3>
+
+<p>
+
+<center>
+<img src="/~pearce/images/nav_bar2.gif" alt="Navigation Bar" usemap="#nav_bar" border=0 width=289 height=20>
+
+
+<map name="nav_bar">
+<area shape="rect" alt="Home" coords="3,3,36,16" href="/~pearce/home.shtml">
+<area shape="rect" alt="Vita" coords="40,3,65,16" href="/~pearce/vita.shtml">
+<area shape="rect" alt="Pre-Prints" coords="69,3,117,16" href="/~pearce/preprint.shtml">
+<area shape="rect" alt="Courses" coords="121,3,164,16" href="/~pearce/courses.shtml">
+<area shape="rect" alt="Pre Lims" coords="168,3,209,16" href="/~pearce/prelim.shtml">
+<area shape="rect" alt="Personal" coords="213,3,254,16" HREF="http://cauchy.math.ttu.edu/">
+<area shape="rect" alt="Jokes" coords="258,3,285,16" href="http://cauchy.math.ttu.edu/jokes/jokes.html">
+<area shape="default" nohref>
+</map>
+<p>
+<font size="-1"><a class=link href="/~pearce/home.shtml">Home</a> | <a class=link href="/~pearce/vita.shtml">Vita</a> | <a class=link href="/~pearce/preprint.shtml">Pre-Prints</a> | <a class=link href="/~pearce/courses.shtml">Courses</a> | <a class=link href="/~pearce/prelim.shtml">Pre Lims</a> | <a class=link HREF="http://cauchy.math.ttu.edu/">Personal</a> | <a class=link href="http://cauchy.math.ttu.edu/jokes/jokes.html">Jokes</a></font>
+</center>
+
+
+<p>
+
+<div class=tailer>
+Comments maybe be mailed to: <a class=taillink href=mailto:pearce@math.ttu.edu>kent.pearce@ttu.edu</A>
+</div>
+<p>
+
+<!-- *********************************************************************************** -->
+
+
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="complex_prelim_topics.shtml"-->
+</div>
+
+
+</body> 
+
+</html> 
