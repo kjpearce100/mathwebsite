@@ -1,0 +1,789 @@
+\documentclass[12pt]{article}%[11pt]{report}{book}
+\usepackage{graphicx,amssymb,latexsym}
+%\def\thesection{\Roman{section}}
+%\textwidth=6in
+%\advance\hoffset -2.5truein
+%\renewcommand{\theequation}{\thesection.\arabic{equation}} %set counter at
+%\beginning of each section`\setcounter{equation}{0}'
+%\textheight %text height in inches
+%\topmargin % 0 is the default which gives a one inch margin
+%\headheight % about 1/4 in is the default, 0 removes
+%\headsep % the distance between the head and the body of the text the
+%default is about 1/4 in
+%\pagestyle{normal} %{empty}
+\def\negate#1{\mbox{$\;$\begin{picture}(10,12)
+\put(0,-2){\line(1,1){10}}
+\put(6,0){\makebox(0,0)[b]{#1}}
+\end{picture}$\;$}}
+%\advance\hoffset by .5truein\relax%controls horizontal position on the page
+\input bigc
+\newtheorem{example}{Example}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{algorithm}{Algorithm}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{notations}{Notations}[section]
+\newtheorem{assumption}{Assumption}[section]
+\newtheorem{remark}{Remark}
+\newtheorem{problem}{Problem}[section]
+\def\span{\mbox{span}}
+\begin{document}
+\baselineskip=18pt
+\begin{center}
+{\large \bf A CONSTRUCTIVE METHOD FOR NUMERICALLY COMPUTING CONFORMAL
+MAPPINGS FOR GEARLIKE DOMAINS}
+\end{center}
+\vspace*{.5in}
+
+
+\noindent {\bf INTRODUCTION}\vspace*{12pt}
+
+The Riemann mapping theorem asserts that the 
+open unit disk  ${\cal D}  = \{z | \  \  |z| < 1\}$ is conformally equivalent to 
+each simply connected domain  ${\cal G}$  in the complex plane, whose 
+boundary consists of at least two points, i.e., there exists a 
+function $f$, analytic and univalent function on  ${\cal D}$ , such that $f$ 
+maps  ${\cal D}$  onto  ${\cal G}$ .  More precisely, if $d_o$  is an
+arbitrary point in  ${\cal D}$  
+and $g_o$  is an arbitrary point in  ${\cal G}$, then the Riemann mapping 
+theorem asserts that there exists a unique conformal mapping $f$ of 
+ ${\cal D}$  onto  ${\cal G}$  such that $f(d_o) = g_o  \  {\rm and} \  f'(d_o) > 0.$  If the boundary of 
+ ${\cal G}$  is piece-wise analytic and $g_1$  is a point on the
+boundary of  ${\cal G}$, 
+then the uniqueness assertion of the Riemann mapping theorem can 
+be reformulated alternately as the statement that there exists a
+unique conformal  mapping $f$ of  ${\cal D}$ onto  ${\cal G}$ such
+that $f(d_o) = g_o \   {\rm and} \  f(1) = g_1 .$
+
+The problem of constructing the explicit conformal mapping 
+guaranteed by the Riemann mapping theorem is usually difficult, 
+even numerically.  There are constructive proofs \cite{6} of the 
+Riemann mapping theorem, but, because of their general nature, 
+they often converge only slowly to the desired solution.
+
+For polygonal domains, i.e., simply connected domains bounded by
+segments of straight lines, there is a well-known representation
+formula, called the Schwarz-Christoffel formula (see \cite{7}, p.
+189), which the conformal mapping functions must satisfy.  The
+difficulty with using the Schwarz-Christoffel formula to construct
+the conformal mapping for an explicit polygonal domain has always
+been that the formula contains unknown parameters, called the
+accessory parameters, which have to be determined before the mapping
+function can be computed.  D. Gaier in his monograph \cite{Ga} on
+conformal mapping surveyed several methods which had been proposed for
+solving the accessory parameter problem and proposed a method for
+reducing the problem to a system of nonlinear
+equations.  In 1980 L. N. Trefethen \cite{10} devised an effective
+procedure for solving the accessory parameter problem and, hence,
+constructing the conformal mapping function for a polygonal domain.
+Trefethen used the geometry of the polygonal domain to construct a
+constrained system of nonlinear equations, the solution set of which
+would be the accessory parameter set.
+
+In \cite{3}, following work of A. W. Goodman \cite{5}, necessary
+and sufficient conditions were given for representing the conformal
+mapping function which would map ${\cal D}$ onto a image domain
+${\cal G}$ which is gearlike.  A gearlike domain is a simply
+connected domain which contains the origin and is bounded by arcs of
+circles centered at the origin and by segments of straight lines
+through the origin.  (See Figure 1.)  We note that the logarithmic
+image of a gearlike domain is a periodic polygonal domain.  Hence,
+one possible method for solving the conformal mapping problem for a
+gearlike domain would be to apply an adaption of Trefethen's method
+to the logarithmic image.  In this paper we propose to directly use
+the representation formula for gearlike functions and a development
+motivated by the work of Trefethen to construct a procedure for
+numerically computing the conformal mapping function for a gearlike
+domain.  The kernel of that procedure is an algorithm which
+prescribes a system of nonlinear equations whose solution set is the
+unknown accessory parameter set for the gearlike domain being
+considered.  \newpage
+
+$$\includegraphics[scale=0.25]{fig-01.eps}$$
+
+
+\centerline{Figure 1}
+\vspace*{12pt}
+
+We will give several examples using this procedure for constructing
+both the forward mappings from ${\cal D}$ to explicit gearlike
+domains ${\cal G}_i$
+and the inverse mappings from the domains ${\cal G}_i$ back to ${\cal
+D}$.  We will
+conclude with an application which shows that a coefficient
+conjecture of R. W. Barnard [Ba] fails.
+
+There are several recent references which give alternate
+constructions for related conformal mapping problems.  K. P. Jackson
+and J. C. Mason \cite{6.5} treated a problem of crack stress
+around holes in two-dimensional plates by mapping the crack region
+conformally to the exterior to the unit circle.  They used an
+adaption, made by Trefethen \cite{11}, of the SCPACK programs
+Trefethen developed for solving Schwarz-Christoffel mapping problems.
+ Recently, P. Bj\o rstad and E. Grosse \cite{3.2} devised a method
+for constructing the conformal mapping functions (from the unit disk)
+to circular arc polygons.  A circular arc polygon is a polygon where
+the sides of the polygon are allowed to be general arcs of circles.
+Their method applies an o.d.e. solver to a specific second order
+differential equation which represents the circular arc polygon
+mapping function.\vspace{12pt}
+
+\noindent {\bf GEARLIKE DOMAINS}\vspace*{12pt}
+
+Let  ${\cal G}$  be a gearlike domain in the complex 
+plane with $n$ sides.  Let $w_k , 1 \leq k \leq n,$ denote the vertices of 
+ ${\cal G}$, some of which may lie at infinity.  For convenience, we
+will also denote $w_n$ as $w_0$.  For each finite vertex $w_k$ let
+$\pi \alpha_k$ denote the interior angle at $w_k$ and let
+$\pi\beta_k$ denote the exterior angle at $w_k$.  By definition
+$\alpha_k$ and $\beta_k$ satisfy the relation $\alpha_k + \beta_k =
+1$.  For each infinite vertex $w_k$ set $\beta_k = 1$.  We note, in
+this latter case, that $\pi\beta_k$ is generally not the exterior
+angle at $w_k$.
+
+For example, in Figure 2 at the corner vertices $w_3$  and
+$w_6$  we  
+have  $\beta_3  = \frac{1}{2}$ and $\beta_6  =-\frac{1}{2}.$  At
+$w_2,$ the tip of a slit, the external angle is $-\pi,$ so  $\beta_2
+= -1.$\vspace*{12pt}
+
+$$\includegraphics[scale=0.25]{fig-02.eps}$$
+
+\centerline{Figure 2}
+\vspace*{12pt}
+
+In \cite{3} we showed that the following representation formula
+describes the conformal function $f$ mapping ${\cal D}$ onto ${\cal
+G}$ with $f(0) =
+0$\begin{equation}\frac{zf'(z)}{f(z)}=\prod^n_{k=1}(1-\bar{z}_kz)^{-\beta_k}\label{eq:1}\end{equation}
+where the points $z_k$ are the preimages on $|z| = 1$ of the vertices
+$w_k$ and where the following constraint conditions must be
+satisfied: \renewcommand{\theequation}{\roman{equation}} \setcounter{equation}{0}\begin{equation}
+\beta_k\in\left\{-1,-\frac{1}{2},0,\frac{1}{2},1\right\}, \  \ 1\leq
+k \leq
+n,\label{eq:i}\end{equation}\begin{equation}\sum^n_{k=1}\beta_k=0,\label{eq:ii}\end{equation} and \begin{equation}
+\sum^n_{k=1}\beta_k Arg(z_k)\equiv 0 \  \ (mod \
+\pi).\label{eq:iii}\end{equation}
+
+We note that if ${\cal G}$ is gearlike, then it is easily seen 
+for the mapping function $f$ we must have that $zf^\prime (z)/f(z)$ is
+either pure real or pure imaginary on the boundary of ${\cal D}$.  If
+a function $f$ satisfies (i) and (ii), but not (iii), then $zf^\prime
+(z)/f(z)$ will map ${\cal D}$ to a domain bounded by radial segments
+which emanate from the origin, but which are twisted away from the
+coordinate axes and, hence, $f$ will map ${\cal D}$ to a domain which
+is not gearlike.
+
+Equation (\ref{eq:1}) can be solved to explicitly represent the conformal 
+mapping $f$ on  ${\cal D}$ as
+\renewcommand{\theequation}{\arabic{equation}}\setcounter{equation}{1}
+\begin{equation} f(z)=cz
+\exp\left\{\int^z_0\frac{\left[\displaystyle{\prod^n_{k=1}}(1-\bar{z}_kw)^{-\beta_k}-1\right]}{w}dw\right\}.\label{eq:2}\end{equation}
+
+In the representation formula (\ref{eq:2}) the parameter $c$ and the 
+prevertices $z_k, 1 \leq k \leq n,$ are accessory parameters which must 
+be determined before the conformal mapping $f$ can be computed.  
+For each accessory parameter set satisfying (i), (ii) and (iii) a  
+function $f$ given by (\ref{eq:2}) will map  ${\cal D}$ onto a gearlike
+domain $f({\cal D})$  
+whose local boundary at each vertex $w(k) = f(z_k)$ will be 
+conformally homotopic to the local boundary of ${\cal G}$ at $w_k.$  However, 
+corresponding sides of $f({\cal D})$ and  ${\cal G}$  which are arcs of
+circles will  
+generally not have the same modulus and corresponding sides of
+$f({\cal D})$ 
+and  ${\cal G}$  which are segments of straight lines will generally not have 
+the same argument.  
+
+Using the second formulation for uniqueness in the statement 
+of the Riemann mapping theorem we may suppose that the prevertex 
+$z_n  = 1,$ i.e.,  that $f(1) = w_n,$ and that $w_n$  is finite.  The later 
+assumption can always be made via a suitable reindexing of the 
+vertices of  ${\cal G}$.  The parameter $c$ can be computed directly.  If we 
+let $$w^*=
+\exp\left\{\int^1_0\frac{\left[\displaystyle{\prod^n_{k=1}}(1-\bar{z}_kw)^{-\beta_k}-1\right]}
+{w}dw\right\}$$ then $$c = w_n /w^* .$$
+
+Thus, there remain $n-1$ unknown accessory parameters to be
+calculated.  To determine the accessory parameters we will construct
+a system of $n-1$ real equations, dependent on the parameters
+$z_1,\ldots,z_{n-1}$, whose solution set will be the correct
+accessory parameter set.
+
+If the domain ${\cal G}$ is starlike, then there exists a unique
+function $f$ which will map ${\cal D}$ onto ${\cal G}$ as determined
+by the vertices $\{w_k\}$ and the exterior angles $\{\beta_k \pi\}$.
+However, if the domain ${\cal G}$ is non-starlike,there exist several
+functions which will map ${\cal D}$ onto a domain determined only by
+specifying the vertices $\{w_k\}$ and the exterior angles $\{\beta_k\pi\}$ ---
+precisely because $\arg (w_k)$ is not uniquely determined.  However,
+only one of these functions will be globally univalent on ${\cal D}$.
+ In order to construct the univalent mapping $f$ from ${\cal D}$ to
+${\cal G}$, i.e., in order to solve the accessory parameter problem
+for the univalent mapping, we will need to measure the total changes
+in argument over the circular sides of ${\cal G}$ rather than
+measuring the absolute arguments at the vertices of ${\cal G}$.  We
+will denote the change in argument over a circular side of ${\cal G}$
+from vertex $w_{k-1}$ to $w_k$ by $\Delta \arg (w_k)$ and we will denote
+the total change in argument for the mapping function $f$ over the
+arc (on the boundary of ${\cal D}$) from $z_{k-1}$ to $z_k$ by $\Delta
+\arg (w(k))$, where, again, $w(k) = f(z_k)$.
+
+For each vertex $w_k , 1 \leq k \leq n-2,$ there are four (mutually
+exclusive) possibilities that can arise: 
+\begin{itemize}
+\item[(a)] the vertex $w_k$  lies at infinity;
+\item[(b)] the vertex $w_k$ is finite and lies on a radial side of
+${\cal G}$ which comes in from infinity (as the boundary of ${\cal
+G}$ is traversed positively), but not at the end of the radial side,
+i.e., the interior angle at $w_k$ is $\pi$;  
+\item[(c)] the vertex $w_k$ is finite and lies at the end of a radial
+side of ${\cal G}$, which comes in from infinity;
+\item[(d)] the vertex $w_k$ is otherwise finite.
+\end{itemize}
+
+If (a) holds, then we will not impose any condition on $w(k)$;
+however, the geometry of ${\cal G}$ will force the next vertex to be
+finite.
+
+If (b) holds, then we will impose a modulus condition on $w(k)$ and
+require that
+\renewcommand{\theequation}{3a}
+\begin{equation}
+|w(k)| - |w_k| = 0.\label{eq:3a}\end{equation}
+
+If (c) holds, then we will impose two conditions on $w(k)$.  We will
+require that the modulus condition (\ref{eq:3a}) holds and we will
+require that
+\renewcommand{\theequation}{3b}
+\begin{equation}
+Arg (w(k)) - Arg (w_k) =0.\label{eq:3b}\end{equation}
+
+In the last case, then either $|w_k| = |w_{k-1}|$ or else $Arg
+(w_k) = Arg (w_{k-1})$.  If $|w_k| = |w_{k-1}|$, then we will
+require
+\renewcommand{\theequation}{3c}
+\begin{equation}
+\Delta \arg (w(k)) - \Delta \arg (w_k) = 0,\label{eq:3c}\end{equation}
+\setcounter{equation}{3}otherwise we will require (\ref{eq:3a}) to
+hold.
+
+The above construction will generate $n-2$ equations if the vertex
+$w_{n-2}$ does not lie at infinity.  If, however, $w_{n-2}$ does lie
+at infinity, then one additional equation will need to be generated.
+The vertex $w_{n-1}$ must be finite and satisfy condition
+(c).  Thus, we can add one equation to the system by adding
+the modulus equation (\ref{eq:3a}) with $k = n-1$.
+
+The system of equations generated at this point may not be sufficient
+to characterize the accessory parameter set for the correct mapping
+function, especially in the case that ${\cal G}$ is unbounded and
+non-starlike.  We may need to replace one of the equations in the
+system with a secondary equation to control the total argument
+change for the mapping function or to control the location of the tip
+of a slit.  There are three cases which need to be considered.
+
+Case 1.  The vertex $w_{n-1}$ or $w_n$ lies at the end of a radial
+side of ${\cal G}$ going out to infinity and the interior angle at
+that end is $\pi/2$.  If $w_{n-1}$ lies at the end of the radial
+side, then the last equation in the system of type (\ref{eq:3b}) must
+be replaced by an argument condition (\ref{eq:3c}) with $k = n-1$.
+Alternately, if $w_n$ lies at the end of the radial side, then either
+$w_{n-1}$ is the tip of a circular slit or the boundary of ${\cal G}$
+has a right angle corner at $w_{n-1}$.  If $w_{n-1}$ is the tip of a
+circular slit, then the last equation in the system of type
+(\ref{eq:3a}) must be replaced by an argument condition (\ref{eq:3c})
+with $k =n$; otherwise, the last equation in the system of type
+(\ref{eq:3b}) must be replaced by an argument condition (\ref{eq:3c})
+with $k=n$.
+
+Case 2.  Case 1 does not apply and condition (c) holds for some
+vertex $w_{k_0},\ 1 \leq k_0 \leq n-1$, such that $w_{k_0}$ lies on
+the component of the boundary of ${\cal G}$ which contains $w_n$ and
+the boundary of ${\cal G}$ has a right angle corner at $w_k$.  If
+$w_{n-1}$ is the tip of a radial slit, then the argument equation
+(\ref{eq:3b}) generated by condition (c) at $k = k_0$ must be
+replaced by a modulus condition (\ref{eq:3a}) with $k = n-1$.
+Alternatively, if $k_0 = n-1$, then the modulus equation (\ref{eq:3a})
+generated by condition (c) at $k = k_0$ must be replaced by an
+argument condition (\ref{eq:3c}) with $k=n$.  Alternately, if
+$w_{n-1}$ lies at the tip of a circular slit, then the last equation
+in the system of type (\ref{eq:3a}) must be replaced by an argument
+condition (\ref{eq:3c}) with $k = n-1$.  Otherwise, if the segment on
+the boundary of ${\cal G}$ between $w_{n-2}$ and $w_{n-1}$ is a
+circular arc, then the argument equation (\ref{eq:3b}) generated by
+condition (c) at $k = k_0$ must be replaced by an argument condition (\ref{eq:3c})
+with $k = n-1$.
+
+Case 3.  The domain ${\cal G}$ is bounded and the vertex $w_{n-1}$
+lies at the tip of a slit.  The above construction does not
+completely characterize the geometry of ${\cal G}$, i.e., the
+generated mapping function $f$ may not satisfy $f(z_{n-1}) =
+w_{n-1}$.  The last equation of the system, that is, the equation
+representing the vertex $w_{n-2}$, must be replaced by a condition
+determined by the geometry at the vertex $w_{n-1}$.  If $w_{n-1}$
+lies at the tip of a radial slit, then we will require that
+(\ref{eq:3a}) holds for $k = n-1$, otherwise we will require that
+(\ref{eq:3c}) holds for $k = n-1$.
+
+To determine the full set of $n-1$ accessory parameters we need to
+add one additional equation to the above system of equations.  We
+have not yet imposed the constraint condition (\ref{eq:iii}) in the
+representation formula for gearlike mappings.  While we could solve
+(\ref{eq:iii}) for one of the prevertices (in terms of the others)
+and thus reduce the number of unknown accessory parameters from $n-1$
+to $n-2$, our computational experience has been that we have been
+able to treat a variety of problems (i.e., solve the accessory
+parameter problem) using a full set of $n-1$ equations, with its
+extra degree of freedom, which we could not successfully treat using
+a reduced set of $n-2$ equations.  We will, therefore, impose
+(\ref{eq:iii}) as the $n-1^{st}$ system equation.
+
+Let us note that if the interior angle at $w_{n-1}$ is $\pi$,
+then the generated mapping $f$ may not satisfy $f(z_{n-1}) = w_{n-1}$.
+ No auxiliary condition can be added to the above construction
+without over-determining the problem. On the other hand, the point
+$w_{n-1}$ can be removed from the set of vertices of ${\cal G}$
+without changing the geometry of ${\cal G}$.  We will require, in the
+presentation of the vertices of ${\cal G}$, that $\beta_{n-1}$ be not
+$0$.\vspace*{12pt}
+
+\renewcommand{\theequation}{\arabic{equation}}\setcounter{equation}{3}
+\noindent {\bf COMPUTATION}\vspace*{12pt}
+
+In the actual practice of solving the nonlinear system of equations
+(3) and computing the conformal mapping $f,$ we have generally
+employed the techniques described by Trefethen.  (See \cite{10},[ pp.
+86-90].)  The given form (3) requires solving for the unknown complex
+prevertices $z_k$ on the unit circle $|z| = 1.$ (As with the
+vertices, we will also denote $z_n$ as $z_0.$) It is numerically more
+convenient to transform the points $z_k$ to their arguments
+$\theta_k$ by 
+$$z_k=e^{i\theta_k}, 0\leq\theta_k\leq 2\pi.$$ The
+arguments $\theta_k$ are, however, severely constrained by a set of
+linear inequalities because the points $z_k$ are ordered around the
+unit circle.  The ordering constraints on (3) can be removed by
+transforming the arguments $\theta_k$ to a set of unconstrained
+variables $y\lower 5pt\hbox{$\scriptstyle k$}$ via the equations
+\begin{equation}
+y_k=\log\frac{\theta_k-\theta_{k-1}}{\theta_{k+1}-\theta_k}, \ 1\leq
+k\leq n-1,\label{eq:4}\end{equation} where we take $\theta_0$ to be
+$Arg(z_0) = 0$.  Because the arguments $\theta_k$ in (\ref{eq:4}) are
+coupled, the transformation can be inverted to recover the arguments
+$\theta_k$ from the images $y\lower 5pt\hbox{$\scriptstyle k$}$.
+
+At each step in the iteration we will calculate from the
+unconstrained variables $y_k , 1 \leq k \leq n-1,$ a set of arguments
+$\theta_k$ and then a set of prevertices $z_k.$ (The prevertex $z_n$
+is fixed at 1.)  Finally, we will calculate the values of the $n-1$
+nonlinear equations (3) for the current set of prevertices.
+
+In the computation of the values $f(z_k),$ we generally choose 
+a path for the integration in (\ref{eq:2}) which is the straight line 
+segment $[0,z_k ]$ in ${\cal D}.$  The integrand in (\ref{eq:2}) will have a
+singularity  
+at both $0$ and at $z_k.$  However, the singularity at $0$ is removable and 
+can be controlled directly.  The singularity at $z_k$  is of the
+form $(1 -\bar{z}_k z)^{-\beta_k}$  where  $\beta_k$  can take on only
+one of five possible  
+values.  Normally, such a singularity in an integral could be 
+easily, and highly accurately, treated by Gauss-Jacobi quadrature.  
+However, there may be, and typically there are, other prevertices 
+$z_j$  clustered near $z_k,$ which could affect the accuracy of the 
+quadrature result.  Trefethen described a type of compound Gauss-
+Jacobi quadrature (see \cite{10}, [p. 87]) which divides the path of 
+integration into subpaths, where the length of each subpath is 
+dependent on how closely other prevertices $z_j$  are clustered to $z_k.$  
+This type of compound Gauss-Jacobi quadrature has produced both 
+highly accurate and efficient quadrature results.
+
+We have used the library subroutine GAUSSQ by G. H. Golub and 
+J. H. Welsch \cite{4} to calculate the nodes and weights for the 
+Gauss-Jacobi quadrature.  We have usually set the number of nodes, 
+NPTSQ, to be computed by GAUSSQ at 8.  Since the compound Gauss-
+Jacobi quadrature always divides the path of integrations into two 
+halves and one of the halves may be further subdivided, dependent 
+on the distribution of the current set of prevertices $z_k,$ we 
+achieve, in practice, at least 16 nodes for integration on each 
+path.  
+
+To solve the system of unconstrained nonlinear equations we 
+have used the library subroutine NS01A by M. J. D. Powell \cite{8}, 
+which employs a hybrid between the method of steepest descent 
+(initially) and Newton's method (terminally).  
+
+While the solution driver which calls NS01A can pass 
+specialized initial sets of prevertices, should such information 
+be available, the general initialization does not take into 
+account any information about the geometry of the particular 
+gearlike conformal mapping problem.  In general, the 
+initialization allocates a set of initial prevertices uniformly 
+distributed around the unit circle.  
+
+Two of the control parameters required by NSO1A are: DSTEP, the step
+size used by NS01A to calculate the Jacobian of (3) by
+finite difference methods -- generally fixed at $10^{-8}$ and TOL,
+the convergence criterion for returning from NS01A to the calling
+program after having successfully solved (3).  The value of TOL is
+closely related to the number of nodes NPTSQ selected for the
+compound Gauss-Jacobi quadrature.  For a problem with vertices close
+to unit norm TOL is typically set at $10^{{\rm -(NPTSQ+1)}}.$
+
+Once the accessory parameters have been determined, values of the
+mapping function $f$ can be computed for given initial points $z$ in
+${\cal D}$ or on the boundary of ${\cal D}.$ In either case, the
+values are computed by using compound Gauss-Jacobi quadrature.  While
+the value of $f$ at a point $z$ can always be computed using (\ref{eq:2})
+directly, if $z$ is near a point $z^* , z^* \neq 0,$ where the value
+of $f$ is known, then the value $f(z)$ can be alternately computed as
+$$f(z)=\frac{f(z^*)}{z^*}z\
+\exp\left\{\int^z_{z^*}\frac{\left[\displaystyle{\prod^n_{k=1}}(1-\bar{z}_kw)^{-\beta_k}-1
+\right]}{w}dw\right\}.$$ The point $z^*$ can be one of the prevertices
+corresponding to a known finite vertex of ${\cal G}$ or the point
+$z^*$ can be point where the value of $f$ has been previously
+computed. 
+
+Values for the inverse mapping function from the gearlike domain
+${\cal G}$ to the unit disk ${\cal D}$ can also be generated.  Let
+$w$ be in ${\cal G}$ or on the boundary of ${\cal G}.$ If, for $z =
+f^{-1} (w),$ a nearby initial estimate $z^*$ can be given, then
+Newton's method can be employed to solve for $z.$ (The value of the
+derivative of $f$ can be calculated from equation (\ref{eq:1}).)  On
+the other hand, when no initial estimate $z^*$ is known, we can
+rewrite equation (\ref{eq:1}) as
+\begin{equation}\frac{dw}{dz}=\frac{w}{z}\prod^n_{k=1}(1-\bar{z}_kz)^{-\beta_k}\label{eq:5}\end{equation}
+where $w = f(z).$ The univalence of the mapping function implies that
+equation
+(\ref{eq:5}) can inverted to obtain
+\begin{equation}\frac{dz}{dw}=\frac{z}{w}\prod^n_{k=1}(1-\bar{z}_kz).^{+\beta_k}\label{eq:6}\end{equation}
+Equation (\ref{eq:6}) can be viewed as an ordinary differential
+equation which lifts a straight line segment $[\tilde{w} ,w]$ in
+${\cal G}$ to a solution curve in ${\cal D}$ from a point $\tilde{z}
+= f^{-1} (\tilde{w})$ to the point $z.$ The point $\tilde{w}$ can be
+any point in ${\cal G}$ provided that the straight line segment
+$[\tilde{w} ,w]$ lies entirely in ${\cal G}.$ To solve the ordinary
+differential equation we have used the library subroutine ODE by
+Shampine and Gordon \cite{9}.  The code in ODE treats real differential
+equations, which requires that we transform (\ref{eq:6}) to a coupled
+pair of real differential equations.
+
+We have, following Trefethen, combined the above two 
+approaches, unless an initial estimate is known for which Newton's 
+method can be applied directly.  We will first solve (\ref{eq:6}), starting 
+typically at $\tilde{w}  = 0,$ to obtain a low order approximation $z^*$  to $z.$  
+We will then follow up using Newton's method to move from $z^*$  to a 
+final approximation of $z$ with high order accuracy.  
+
+It is important that not only are we able to construct the 
+approximate numerical mapping by solving the accessory parameter 
+problem, but that we are able to estimate the accuracy of the 
+approximation we have generated.  After the nonlinear solver NS01A 
+returns a solution for the accessory parameter problem we check 
+the accuracy of the computed solution by checking at each finite 
+node $w_k$  the difference $|w_k  - w(k)|.$  At each infinite node $w_k$  we 
+check the difference $\|w_{k-1}  - w_{k+1} | - |w(k-1) - w(k+1)\|.$   An 
+error routine returns the maximum of the above tested 
+differences as an error estimate for the accuracy of the generated 
+mapping function.\vspace*{12pt}
+
+\noindent {\bf EXAMPLES}\vspace*{12pt}
+  
+In Figure 3 we show conformal mappings generated at several of the
+iterative steps which arise in constructing the conformal mapping in
+Figure 2.  We start the process with no assumption about the geometry
+of the prevertices for the image domain ${\cal G}$ in Figure 2, i.e.,
+we begin with an initial uniform distribution about the unit circle
+for the prevertices.  Also, we have set the number of nodes for the
+compound Gauss-Jacobi quadrature at NPTSQ $= 8$ and have set the
+level of desired accuracy at ${\rm TOL} = 10^{-8}.$ The plots in
+Figure 3 show several contours (images of circles centered at the
+origin) and the images of the six radial segments which join the
+origin to the prevertices.  As Trefethen noted, the conformality of
+the mappings at the origin can be used to interpolate on the plots in
+Figure 3 the arguments of the prevertices via the arguments of the
+images of the radial segments at they approach the origin.  The
+example in Figure 3 is typical in that it shows some of the
+prevertices to be clustering as the iterations move towards the
+mapping solution at stage I20.\vspace*{12pt}
+
+$\includegraphics[scale=0.22]{fig-03-a.eps}$ \hspace{0.25in} $\includegraphics[scale=0.22]{fig-03-b.eps}$
+ 
+\noindent\hspace{1.25in}I5\hfill I7\hspace{1.25in}
+
+\centerline{Figure 3}
+
+\newpage
+
+$\includegraphics[scale=0.22]{fig-03-c.eps}$ \hspace{0.25in} $\includegraphics[scale=0.22]{fig-03-d.eps}$
+ 
+\noindent\hspace{1.25in}I8\hfill I9\hspace{1.25in}
+
+\vspace*{12pt}
+
+$\includegraphics[scale=0.22]{fig-03-e.eps}$ \hspace{0.25in} $\includegraphics[scale=0.22]{fig-03-f.eps}$
+ 
+\noindent\hspace{1.25in}I11\hfill I20\hspace{1.25in}
+
+\centerline{Figure 3 (cont.)}
+
+\vspace*{12pt}
+
+In Figures 4 and 5 we show examples which illustrate the 
+dispersion of the contours for several sets of bounded and 
+unbounded gearlike domains.  In each case the contours are the 
+images of the circles $|z| = r,\ 0 < r < 1$.\vspace*{12pt}
+
+
+In Figures 6 and 7 we show examples which illustrate 
+the dispersion of the level sets for the inverse mappings for the 
+gearlike domains depicted in Figures 4 and 5.  In each case the 
+level sets are the images under $f^{-1}$  of $|w| = R,\ R >
+0$.  The ticks shown on the boundary of ${\cal D}$ mark the location
+of the prevertices $z_k$.
+
+
+Finally, let us note one difficulty which we have encountered.
+The only requirement for applying the above algorithm to a
+gearlike domain mapping problem is that one of the finite vertices
+must be distinguished as the last vertex, $w_n$, (and, or course,
+then $w_{n-1}$ must not be removable).  There may be for a given
+gearlike domain several vertices which could be so distinguished.
+Our experience, however, in implementing the algorithm, i.e., in
+solving the nonlinear system of parameter equations via NS01A, has
+been that frequently only one of the several choices (for the
+distinguished vertex) has led to a tractable system of equations.
+
+\newpage
+
+\vspace{20pt}
+
+$\includegraphics[scale=0.22]{fig-04-a.eps}$ \hspace{0.25in} $\includegraphics[scale=0.22]{fig-04-b.eps}$
+ 
+\noindent\hspace{1.25in}(a)\hfill (b)\hspace{1.25in}
+
+\vspace*{12pt}
+
+$\includegraphics[scale=0.22]{fig-04-c.eps}$ \hspace{0.25in} $\includegraphics[scale=0.22]{fig-04-d.eps}$
+ 
+\noindent\hspace{1.25in}(c)\hfill (d)\hspace{1.25in}
+
+\centerline{Figure 4}
+
+\newpage
+
+\vspace{20pt}
+
+$\includegraphics[scale=0.22]{fig-05-a.eps}$ \hspace{0.25in} $\includegraphics[scale=0.22]{fig-05-b.eps}$
+ 
+\noindent\hspace{1.25in}(a)\hfill (b)\hspace{1.25in}
+
+\vspace*{12pt}
+
+$\includegraphics[scale=0.22]{fig-05-c.eps}$ \hspace{0.25in} $\includegraphics[scale=0.22]{fig-05-d.eps}$
+ 
+\noindent\hspace{1.25in}(c)\hfill (d)\hspace{1.25in}
+
+\centerline{Figure 5}
+
+\newpage
+
+\vspace{20pt}
+
+$\includegraphics[scale=0.22]{fig-06-a.eps}$ \hspace{0.25in} $\includegraphics[scale=0.22]{fig-06-b.eps}$
+ 
+\noindent\hspace{1.25in}(a)\hfill (b)\hspace{1.25in}
+
+\vspace*{12pt}
+
+$\includegraphics[scale=0.22]{fig-06-c.eps}$ \hspace{0.25in} $\includegraphics[scale=0.22]{fig-06-d.eps}$
+ 
+\noindent\hspace{1.25in}(c)\hfill (d)\hspace{1.25in}
+
+\centerline{Figure 6}
+
+\newpage
+
+\vspace{20pt}
+
+$\includegraphics[scale=0.22]{fig-07-a.eps}$ \hspace{0.25in} $\includegraphics[scale=0.22]{fig-07-b.eps}$
+ 
+\noindent\hspace{1.25in}(a)\hfill (b)\hspace{1.25in}
+
+$\includegraphics[scale=0.22]{fig-07-c.eps}$ \hspace{0.25in} $\includegraphics[scale=0.22]{fig-07-d.eps}$
+ 
+\noindent\hspace{1.25in}(c)\hfill (d)\hspace{1.25in}
+
+\centerline{Figure 7}
+
+\newpage
+
+\noindent {\bf APPLICATION}\vspace*{12pt}
+   
+Let $St$ be the class of analytic univalent functions $f$ on ${\cal
+D},$ normalized by $f(0) = 0$ and $f'(0) = 1,$ which map ${\cal D}$
+to an image domain which is starlike with respect to the origin.  For
+$M \geq 1$ let ${\cal D} (M) = \{ z | \ |z| < M\}$ and let $St(M)$ be
+the subclass of $St$ of functions which satisfy the property that
+$f({\cal D} ) \subset {\cal D} (M).$ Let $f \in St (M)$ and have a
+power series representation 
+$$f(z)=z+\sum^\infty_{n=2}a_nz^n.$$
+R. W. Barnard and J. L. Lewis \cite{1}, \cite{2} considered the problem of
+finding \begin{equation}\begin{array}{cc} max & Re a_3\\ f\ \in\ St
+(M)&\end{array}.\label{eq:7}\end{equation} They showed that if $M \geq
+5$ and if $f$ is extremal for the coefficient problem (\ref{eq:7}),
+then $f$ is the Pick function in $St (M),$ i.e., $f$ maps ${\cal D}$
+onto the disk ${\cal D} (M)$ minus a radial slit on the negative real
+axis.  (See Figure 8a.)  If $1 < M \leq e,$ they showed that if $f$
+is extremal for (\ref{eq:7}), then $f$ is the SRT (square root
+transform) Pick function in $St (M),$ i.e., $f$ maps ${\cal D}$ onto
+the disk ${\cal D}(M)$ minus a pair of symmetric radial slits on the
+imaginary axis.  (See Figure 8b.)\vspace*{12pt}
+
+$$\includegraphics[scale=0.25]{fig-08.eps}$$
+
+\noindent\hspace{1.2in}a\hfill b\hfill c\hspace{1.2in}
+
+\centerline{Figure 8}
+\vspace*{12pt}
+
+While they were not able to solve the extremal problem for $e < M <
+5,$ they were able to show that the extremal function must map ${\cal
+D}$ onto ${\cal D} (M)$ minus a pair of real-axis symmetric radial
+slits.  (See Figure 8c.)  They noted that if $M = 3,$ then the third
+coefficient for the Pick function in $St (M)$ and the third
+coefficient for the SRT Pick function in $St (M)$ are the same.  Lewis
+posed the coefficient problem (\ref{eq:7}) for $e < M < 5$ as Problem
+6.65 in \cite{3.5} and Barnard conjectured \cite{1} for $M \geq 3$ that
+(\ref{eq:7}) was maximized by the Pick function in $St (M)$ and for $1 < M \leq 3$ that (\ref{eq:7}) was maximized by the SRT Pick
+function in $St (M).$ 
+
+To support that conjecture the problem was posed to show numerically
+for $e < M < 5, M$ fixed, and for the real-axis symmetric double
+radial slit mappings in $St (M)$ that $Rea_3$ was concave as a
+function of the argument $\alpha$ of the omitted slit, $\pi /2 \leq
+\alpha \leq \pi.$  Each such function $f$ is a bounded gearlike
+mapping and can be represented by (from the geometry of the image
+domain)
+$$\frac{zf^\prime(z)}{f(z)} = \sqrt{\frac{p^2_2 (z)}{p_1 (z) p_3
+(z)}} = Q(z)$$
+where $p_j (z) = 1 - 2x_j z + z^2,\ x_j = Rez_j = \cos \theta_j,\ z_j
+= e^{i\theta}j$ and $0 \leq \theta_1 \leq \theta_2 \leq \theta_3 \leq
+ \pi$.  If we let
+$$Q(z) = 1 + \sum^\infty_{k=1} q_k z^k$$
+then
+$$a_3 = \frac{q^2_1 + q_2}{2}$$
+where 
+\begin{eqnarray*}
+q_1 & = & x_1 + x_3 - 2x_2\\[2ex]
+q_2 & = & \frac{3(x_1 + x_3)^2 - 4(x_1 x_2 + x_2 x_3 + x_3
+x_1)}{2}.\end{eqnarray*}
+
+
+We specifically considered the case $M = 3.$ As
+we constructed the values of $Rea_3$, for incremental values of
+argument $\alpha$ of the omitted slit, we found (using a value for
+$TOL = 10^{-8}$), however, (see Table
+1) that the conjecture was not correct.  Indeed, Table 1 suggests
+for $M=3$ that $Rea_3$ is unimodal as a function of $\alpha$ over the
+interval $[\pi/2,\pi]$ and that the maximum value occurs for some
+$\alpha$ in $[0.80\pi,0.90\pi]$.  
+
+We considered various values for $M$ and found evidence to suggest
+that the argument $\alpha$ of the omitted slit for the extremal
+function for (\ref{eq:7}) appears to vary monotonically with $M$ from
+$\pi /2$ to $\pi$ as $M$ varies from $e$ to $5.$
+
+\vspace*{12pt}
+\centerline{Table 1}
+\vspace*{12pt}
+
+\begin{center}
+\begin{tabular}{ll}
+\multicolumn{1}{c}{$\alpha/\pi$} & \multicolumn{1}{c}{$Re a_3$}\\\\
+0.500 & 0.88888889\\
+0.550 & 0.89011287\\
+0.600 & 0.89358764\\
+0.650 & 0.89873157\\
+0.700 & 0.90461073\\
+0.750 & 0.91000424\\
+0.800 & 0.91353195\\
+0.850 & 0.91388099\\
+0.900 & 0.91009490\\
+0.950 & 0.90174616\\
+1.000 & 0.88888889\end{tabular}\end{center}\vspace*{12pt}
+
+Barnard remarked, after seeing the numerical results in Table 1, that
+it should be possible to show analytically that the conjecture was
+false.  Indeed, a long, extensive calculus argument can be given
+which shows that the conjecture fails for $2.83912 < M \leq 3$.
+Specifically, the argument shows for $2.83912 < M$ that $Rea_3$ takes
+on a local minimum value at the SRT Pick function over the set of
+real-axis symmetric double radial slit mappings in $St(M)$.
+
+We would like to thank Professor R. W. Barnard his helpful comments
+and suggestions during the preparation of this paper. 
+
+\newpage
+
+\begin{thebibliography}{9999999999999}
+\bibitem[Ba]{1} R. W. Barnard, ``A variational technique
+for bounded starlike functions,'' {\em Can. J. Math.} 2 (75) 337-347.
+
+\bibitem[Ba \& Le]{2} R. W. Barnard and J. L. Lewis,
+``Coefficient bounds for some classes of starlike functions,'' {\em Pac. J.
+Math.}  75   (1975), 325-331.
+
+\bibitem[Ba \& Pe]{3} R. W. Barnard and K. Pearce, ``Rounding corners of 
+gearlike domains and the omitted area problem,'' {\em J. Comp. 
+Appl. Math.}  14  (1986), 217-226.
+
+\bibitem[Bj \& Gr]{3.2} P. Bj\o rstad and E. Grosse, ``Conformal Mapping
+of Circular Arc Polygons,'' SIAM J. Sci. Stat. Comp., to
+appear.
+
+\bibitem[Ca, Cl \& Ha]{3.5} D. M. Campbell, J. G. Clunie and W. K.
+Hayman, ``Research problems in complex analysis,'' {\em Aspects of
+contemporary complex analysis}, (Proc. NATO Adv. Study Inst., Univ.
+Durham, 1979), 527-572, Academic Press, London, 1980.
+
+\bibitem[Ga]{Ga} D. Gaier, Konstruktive Methoden der konformen
+Abbildung, Springer Verlag, Berlin, 1964.
+
+\bibitem[Go \& We]{4} 
+G. H. Golub and J. H. Welsch, ``Calculation of Gaussian 
+quadrature rules,'' {\em Math. Comp.}   23   (1969), 221-230.
+
+\bibitem[Go]{5} A. W. Goodman, ``Conformal mapping onto certain
+curvilinear polygons,'' Univ. Nac. Tucuman {\em A 13} (1960) 20-26.
+
+\bibitem[He]{6} P. Henrici, {\em Applied and computational complex
+analysis,} Vol. III, John Wiley \& Sons, New York, 1986.
+
+\bibitem[Ja \& Ma]{6.5} K. P. Jackson and J. C. Mason, ``The
+Approximation by Complex Functions of Stresses in Cracked Domains,''
+{\em Algorithms for Approximation}, Oxford University Press, 1987.
+
+\bibitem[Ne]{7} Z. Nehari, {\em Conformal Mapping}, McGraw-Hill Book Co.,
+Inc., New York, 1952.
+
+\bibitem[Po]{8} M. J. D. Powell, Technical Report AERE-R.5947, Harwell, 
+England, 1968.
+
+\bibitem[Sh \& Go]{9} L. Shampine and M. Gordon, {\em Computer
+solution of ordinary differential equations: The initial value
+problem}, Freeman, San Francisco, 1975.
+
+\bibitem[Tr]{10} L. N. Trefethen, ``Numerical computation of the Schwarz-
+Christoffel transformation,'' {\em SIAM J. Sci. Stat. Comp.}   1   
+(1980), 82-102.
+
+\bibitem[Tr, 83]{11} L. N. Trefethen, ``Radial and Gearlike
+Domains,'' unpublished memo, 1983.
+
+\end{thebibliography}
+\end{document}
+
+
+                 

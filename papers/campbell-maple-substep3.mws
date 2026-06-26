@@ -1,0 +1,1518 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" -1 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" 18 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+277 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 278 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 279 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 280 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 281 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+282 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 283 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 284 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 285 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 286 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+287 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 288 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 289 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 290 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 291 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+292 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 293 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 294 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 295 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 296 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+297 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 298 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 299 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 300 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 301 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+302 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 303 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 304 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 305 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 306 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+307 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 308 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 309 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 310 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 311 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+312 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 313 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 314 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 315 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 316 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+317 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 318 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 319 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 320 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 321 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+322 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 323 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 324 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 325 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 326 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+327 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 328 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 329 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 330 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 331 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+332 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 333 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 334 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 335 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 336 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+337 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 338 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 339 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 340 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 341 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+342 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 343 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 344 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 345 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 346 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+347 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 348 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 349 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 350 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 351 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+352 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 353 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Outpu
+t" -1 12 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+1 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot" -1 13 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 1 0 0 0 0 1 0 1 0 2 
+2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 92 "file:  campbell-maple-substep3.mws -- verify that H(c,x,a) has \+
+no local extreme point on O_x" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 7 "Define " }{XPPEDIT 
+258 0 "m = m(alpha);" "6#/%\"mG-F$6#%&alphaG" }{TEXT -1 84 "  which is
+ the bound on the radius of majorization specified in Campbell's Theor
+em 2" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 37 "m := alpha+1 - sqrt(alpha^2+2*alpha);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%\"mG,(%&alphaG\"\"\"F'F'*$,&*$)F&\"\"#F'F'*&F,F'
+F&F'F'#F'F,!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 16 "Define the left " }{XPPEDIT 18 0 "l[1] = l[1](alph
+a);" "6#/&%\"lG6#\"\"\"-&F%6#F'6#%&alphaG" }{TEXT -1 11 " and right " 
+}{XPPEDIT 18 0 "l[2] = l[2](alpha);" "6#/&%\"lG6#\"\"#-&F%6#F'6#%&alph
+aG" }{TEXT -1 33 " sides of the critical trapezoid " }{TEXT 256 1 "T" 
+}{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 5 "     " }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 41 "l1 := (alpha-1)/5;\nl2 := (2-alpha)/(5/2)
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#l1G,&*&\"\"&!\"\"%&alphaG\"\"
+\"F*#F*F'F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#l2G,&#\"\"%\"\"&\"\"
+\"*(\"\"#F)F(!\"\"%&alphaGF)F," }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 30 "We define below the functions " }
+{TEXT 257 17 "F, E, D, C, B, H " }{TEXT -1 15 " (functions of " }
+{TEXT 259 7 "c, x, a" }{TEXT -1 81 " ) which arise in the formulation \+
+of the basic inequality in line (4) and page 4." }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 102 "Note, for convenience in
+ this worksheet each such function is represented as a (capital) DOUBL
+E letter" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+101 "Note further, for each such XX the function XXc will be construct
+ed to be the complex conjugate of XX" }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 46 "Finally, aXX is the product (XX)(XXc) =
+ |XX|^2" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 302 "FF := a + 2*c + a*c^2;\nFFc := a + 2*cc + a*cc^2;\na
+FF := simplify(4*x^2*sin(theta)^2+4*x^3*cos(theta)*a*sin(theta)^2+2*x^
+4*a^2*cos(theta)^2*sin(theta)^2+4*a*x*cos(theta)+2*a^2*x^2*cos(theta)^
+2+a^2-2*a^2*x^2*sin(theta)^2+4*x^2*cos(theta)^2+4*x^3*cos(theta)^3*a+x
+^4*a^2*cos(theta)^4+x^4*a^2*sin(theta)^4);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#FFG,(%\"aG\"\"\"*&\"\"#F'%\"cGF'F'*&F&F')F*F)F'F'" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$FFcG,(%\"aG\"\"\"*&\"\"#F'%#ccGF'F
+'*&F&F')F*F)F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$aFFG,0**\"\"%\"
+\"\")%\"aG\"\"#F()%\"xGF+F()-%$cosG6#%&thetaGF+F(F(**F'F(F*F(F-F(F/F(F
+(*$F)F(F(*(F+F(F)F(F,F(!\"\"*&F'F(F,F(F(**F'F()F-\"\"$F(F/F(F*F(F(*&)F
+-F'F(F)F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 93 "EE := 1-c;\n
+EEc := 1-cc;\naEE := simplify(1-2*x*cos(theta)+x^2*cos(theta)^2+x^2*si
+n(theta)^2);\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#EEG,&\"\"\"F&%\"c
+G!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$EEcG,&\"\"\"F&%#ccG!\"\"
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$aEEG,(\"\"\"F&*(\"\"#F&%\"xGF&-
+%$cosG6#%&thetaGF&!\"\"*$)F)F(F&F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 285 "DD := 1 + a*c - x^2*(a+c);\nDDc := 1 + a*cc - x^2*(a
++cc);\naDD := simplify(1+x^6*sin(theta)^2+2*a*x*cos(theta)+a^2*x^2*cos
+(theta)^2-2*x^2*a-2*x^3*cos(theta)+x^4*a^2+x^6*cos(theta)^2-2*a^2*x^3*
+cos(theta)-2*a*x^4*cos(theta)^2-2*a*x^4*sin(theta)^2+2*x^5*cos(theta)*
+a+a^2*x^2*sin(theta)^2);\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#DDG,(
+\"\"\"F&*&%\"aGF&%\"cGF&F&*&)%\"xG\"\"#F&,&F(F&F)F&F&!\"\"" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%$DDcG,(\"\"\"F&*&%\"aGF&%#ccGF&F&*&)%\"xG
+\"\"#F&,&F(F&F)F&F&!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$aDDG,6
+\"\"\"F&*(\"\"#F&)%\"xG\"\"$F&-%$cosG6#%&thetaGF&!\"\"**F(F&)F*\"\"&F&
+F,F&%\"aGF&F&**F(F&F4F&F*F&F,F&F&**F(F&)F4F(F&F)F&F,F&F0*&)F*\"\"%F&F7
+F&F&*(F(F&)F*F(F&F4F&F0*$)F*\"\"'F&F&*(F(F&F4F&F9F&F0*&F7F&F<F&F&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "CC := abs(FF)*(1-x^2)^2;\nBB
+ := abs(DD)-x*(1-a)*abs(EE);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#CCG
+*&-%$absG6#,(%\"aG\"\"\"*&\"\"#F+%\"cGF+F+*&F*F+)F.F-F+F+F+),&F+F+*$)%
+\"xGF-F+!\"\"F-F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#BBG,&-%$absG6#
+,(\"\"\"!\"\"*&%\"aGF*%\"cGF*F+*&)%\"xG\"\"#F*,&F-F*F.F*F*F*F**(F1F*,&
+F*F*F-F+F*-F'6#,&F.F*F*F+F*F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 15 "HH := CC/BB^2;\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#HHG*(-%$a
+bsG6#,(%\"aG\"\"\"*&\"\"#F+%\"cGF+F+*&F*F+)F.F-F+F+F+,&F+F+*$)%\"xGF-F
++!\"\"F-,&-F'6#,(F+F5*&F*F+F.F+F5*&F3F+,&F*F+F.F+F+F+F+*(F4F+,&F+F+F*F
+5F+-F'6#,&F.F+F+F5F+F5!\"#" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 40 "We introduce here the complex parameter \+
+" }{XPPEDIT 18 0 "c = xe^(i*theta);" "6#/%\"cG)%#xeG*&%\"iG\"\"\"%&the
+taGF)" }{TEXT -1 28 "  and its complex conjugate " }{XPPEDIT 18 0 "cc \+
+= xe^(-i*theta);" "6#/%#ccG)%#xeG,$*&%\"iG\"\"\"%&thetaGF*!\"\"" }
+{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 3 "   " }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 72 "c := x*(cos(theta) + I*sin(theta));\ncc := x
+*(cos(theta) - I*sin(theta));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"c
+G*&%\"xG\"\"\",&-%$cosG6#%&thetaGF'*&-%$sinGF+F'^#F'F'F'F'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#ccG*&%\"xG\"\"\",&-%$cosG6#%&thetaGF'*&^#
+!\"\"F'-%$sinGF+F'F'F'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 23 "We introduce functions " }{TEXT 262 2 "fx
+" }{TEXT -1 5 " and " }{TEXT 263 2 "ft" }}{PARA 0 "" 0 "" {TEXT -1 17 
+"The real part of " }{TEXT 260 2 "fx" }{TEXT -1 46 " is the numerator \+
+of the partial derivative   " }{XPPEDIT 18 0 "diff(abs(FF)(c,x,a),x);
+" "6#-%%diffG6$--%$absG6#%#FFG6%%\"cG%\"xG%\"aGF-" }{TEXT -1 2 "  " }}
+{PARA 0 "" 0 "" {TEXT -1 17 "The real part of " }{TEXT 261 2 "ft" }
+{TEXT -1 46 " is the numerator of the partial derivative   " }
+{XPPEDIT 18 0 "diff(abs(FF)(c,x,a),theta);" "6#-%%diffG6$--%$absG6#%#F
+FG6%%\"cG%\"xG%\"aG%&thetaG" }{TEXT -1 3 "   " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "The denomimator of each p
+artial derivative is  " }{XPPEDIT 18 0 "abs(FF);" "6#-%$absG6#%#FFG" }
+}{PARA 0 "" 0 "" {TEXT -1 1 " " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 70 "fx := expand(FFc*(2*c+2*a*c^2)/x);\nft := expand(FFc*I*(2*c+2*
+a*c^2));\n" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#fxG,>*(\"\"%\"\"\"%\"
+xGF()-%$sinG6#%&thetaG\"\"#F(F(*(F'F(F)F()-%$cosGF-F/F(F(**F/F()F)\"\"
+$F()%\"aGF/F()F2F'F(F(**F/F(F5F(F7F()F+F'F(F(*(F/F(F8F(F2F(F(**F/F(F)F
+(F7F(F1F(F(**F/F(F)F(F7F(F*F(!\"\"**\"\"'F()F)F/F()F2F6F(F8F(F(*,FAF(F
+BF(F2F(F8F(F*F(F(*,F'F(F5F(F7F(F1F(F*F(F(**^#F/F(FBF(F8F()F+F6F(F(*(FG
+F(F8F(F+F(F(*,^#F'F(F)F(F7F(F2F(F+F(F(*,FGF(FBF(F8F(F1F(F+F(F(" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#ftG,>*(^#\"\"%\"\"\")%\"xG\"\"#F))-
+%$sinG6#%&thetaGF,F)F)*(F'F)F*F))-%$cosGF0F,F)F)**^#F,F))F+F(F))%\"aGF
+,F))F4F(F)F)**F7F)F8F)F9F))F.F(F)F)**F7F)F:F)F+F)F4F)F)**F7F)F9F)F*F)F
+3F)F)**^#!\"#F)F9F)F*F)F-F)F)**^#\"\"'F))F+\"\"$F))F4FGF)F:F)F)*,FDF)F
+FF)F4F)F:F)F-F)F)*,F'F)F8F)F9F)F3F)F-F)F)**F,F)FFF))F.FGF)F:F)!\"\"**F
+,F)F:F)F+F)F.F)FM*,F(F)F*F)F9F)F4F)F.F)FM*,F,F)FFF)F3F)F:F)F.F)FM" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "We
+ temporarily substitute a variable " }{TEXT 267 1 "y" }{TEXT -1 5 " fo
+r " }{TEXT 264 1 "i" }{TEXT -1 43 "  so that we can pick off the real \+
+part of " }{TEXT 265 2 "fx" }{TEXT -1 8 " and of " }{TEXT 266 2 "ft" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 41 "fxs := subs(I=y,fx);\nfts := subs(I=y,ft);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%$fxsG,>*(\"\"%\"\"\"%\"xGF()-%$sinG6#%&thetaG\"\"#F(F
+(*(F'F(F)F()-%$cosGF-F/F(F(**F/F()F)\"\"$F()%\"aGF/F()F2F'F(F(**F/F(F5
+F(F7F()F+F'F(F(*(F/F(F8F(F2F(F(**F/F(F)F(F7F(F1F(F(**F/F(F)F(F7F(F*F(!
+\"\"**\"\"'F()F)F/F()F2F6F(F8F(F(*,FAF(FBF(F2F(F8F(F*F(F(*,F'F(F5F(F7F
+(F1F(F*F(F(*,F/F(%\"yGF(FBF(F8F()F+F6F(F(**F/F(FGF(F8F(F+F(F(*.F'F(FGF
+(F)F(F7F(F2F(F+F(F(*.F/F(FGF(FBF(F8F(F1F(F+F(F(" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%$ftsG,>**\"\"%\"\"\"%\"yGF()%\"xG\"\"#F()-%$sinG6#%&t
+hetaGF,F(F(**F'F(F)F(F*F()-%$cosGF0F,F(F(*,F,F(F)F()F+F'F()%\"aGF,F()F
+4F'F(F(*,F,F(F)F(F7F(F8F()F.F'F(F(*,F,F(F)F(F9F(F+F(F4F(F(*,F,F(F)F(F8
+F(F*F(F3F(F(*,F,F(F)F(F8F(F*F(F-F(!\"\"*,\"\"'F(F)F()F+\"\"$F()F4FDF(F
+9F(F(*.FBF(F)F(FCF(F4F(F9F(F-F(F(*.F'F(F)F(F7F(F8F(F3F(F-F(F(**F,F(FCF
+()F.FDF(F9F(F@**F,F(F9F(F+F(F.F(F@*,F'F(F*F(F8F(F4F(F.F(F@*,F,F(FCF(F3
+F(F9F(F.F(F@" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 6 "Here, " }{TEXT 268 3 "rfx" }{TEXT -1 21 " is the real pa
+rt of " }{TEXT 269 2 "fx" }{TEXT -1 7 "  and  " }{TEXT 270 4 " rft" }
+{TEXT -1 21 " is the real part of " }{TEXT 271 2 "ft" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 65 "rfx := si
+mplify(coeff(fxs,y,0));\nrft := simplify(coeff(fts,y,0));" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%$rfxG,.**\"\"%\"\"\"%\"xGF()%\"aG\"\"#F()-%$c
+osG6#%&thetaGF,F(F(*(F,F(F+F(F.F(F(*&F'F(F)F(F(*(F,F(F*F(F)F(!\"\"**\"
+\"'F()F)F,F(F.F(F+F(F(*(F,F(F*F()F)\"\"$F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$rftG,$*,\"\"#\"\"\",(**F'F(%\"aGF(%\"xGF(-%$cosG6#%&
+thetaGF(F(F(F(*$)F,F'F(F(F(F+F(F,F(-%$sinGF/F(!\"\"" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 23 "We introduce fu
+nctions " }{TEXT 274 2 "ex" }{TEXT -1 5 " and " }{TEXT 275 2 "et" }}
+{PARA 0 "" 0 "" {TEXT -1 17 "The real part of " }{TEXT 272 2 "ex" }
+{TEXT -1 46 " is the numerator of the partial derivative   " }
+{XPPEDIT 18 0 "diff(abs(EE)(c,x,a),x);" "6#-%%diffG6$--%$absG6#%#EEG6%
+%\"cG%\"xG%\"aGF-" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 17 "The
+ real part of " }{TEXT 273 2 "et" }{TEXT -1 45 " is the numerator of t
+he partial derivative  " }{XPPEDIT 18 0 "diff(abs(EE)(c,x,a),theta);" 
+"6#-%%diffG6$--%$absG6#%#EEG6%%\"cG%\"xG%\"aG%&thetaG" }{TEXT -1 3 "  \+
+ " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "The \+
+denomimator of each partial derivative is  " }{XPPEDIT 18 0 "abs(EE);
+" "6#-%$absG6#%#EEG" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 51 "ex := expand(EEc*(-c/x));\net := expand(E
+Ec*I*(-c));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#exG,*-%$cosG6#%&thet
+aG!\"\"*&^#F*\"\"\"-%$sinGF(F-F-*&%\"xGF-)F&\"\"#F-F-*&F1F-)F.F3F-F-" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#etG,**(^#!\"\"\"\"\"%\"xGF)-%$cos
+G6#%&thetaGF)F)*&F*F)-%$sinGF-F)F)*()F*\"\"#F))F+F4F)^#F)F)F)*(F3F))F0
+F4F)F6F)F)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 37 "We temporarily substitute a variable " }{TEXT 279 1 "y" }
+{TEXT -1 5 " for " }{TEXT 276 1 "i" }{TEXT -1 43 "  so that we can pic
+k off the real part of " }{TEXT 277 2 "ex" }{TEXT -1 8 " and of " }
+{TEXT 278 2 "et" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 41 "exs := subs(I=y,ex);\nets := subs(I=y,et);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$exsG,*-%$cosG6#%&thetaG!\"\"*&%\"yG
+\"\"\"-%$sinGF(F-F**&%\"xGF-)F&\"\"#F-F-*&F1F-)F.F3F-F-" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%$etsG,**(%\"yG\"\"\"%\"xGF(-%$cosG6#%&thetaGF(
+!\"\"*&F)F(-%$sinGF,F(F(*(F'F()F)\"\"#F()F*F4F(F(*(F'F(F3F()F0F4F(F(" 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 6 "Here, " }{TEXT 280 3 "rex" }
+{TEXT -1 21 " is the real part of " }{TEXT 281 2 "ex" }{TEXT -1 7 "  a
+nd  " }{TEXT 282 4 " ret" }{TEXT -1 21 " is the real part of " }{TEXT 
+283 2 "et" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 65 "rex := simplify(coeff(exs,y,0));\nret := simplify(c
+oeff(ets,y,0));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$rexG,&-%$cosG6#%
+&thetaG!\"\"%\"xG\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$retG*&%
+\"xG\"\"\"-%$sinG6#%&thetaGF'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 23 "We introduce functions " }{TEXT 287 
+2 "dx" }{TEXT -1 5 " and " }{TEXT 286 2 "dt" }}{PARA 0 "" 0 "" {TEXT 
+-1 17 "The real part of " }{TEXT 284 2 "dx" }{TEXT -1 46 " is the nume
+rator of the partial derivative   " }{XPPEDIT 18 0 "diff(abs(DD)(c,x,a
+),x);" "6#-%%diffG6$--%$absG6#%#DDG6%%\"cG%\"xG%\"aGF-" }{TEXT -1 2 " \+
+ " }}{PARA 0 "" 0 "" {TEXT -1 17 "The real part of " }{TEXT 285 2 "dt
+" }{TEXT -1 45 " is the numerator of the partial derivative  " }
+{XPPEDIT 18 0 "diff(abs(DD)(c,x,a),theta);" "6#-%%diffG6$--%$absG6#%#D
+DG6%%\"cG%\"xG%\"aG%&thetaG" }{TEXT -1 3 "   " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 47 "The denomimator of each p
+artial derivative is  " }{XPPEDIT 18 0 "abs(DD);" "6#-%$absG6#%#DDG" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 66 "dx := expand(DDc*(c/x)*(a-x^2));\ndt := expand(DDc*I*(c)*(a-x^2)
+);\n" }{XPPMATH 20 "6#>%#d1G,>*&%\"aG\"\"\"-%$cosG6#%&thetaGF(F(*&F)F(
+)%\"xG\"\"#F(!\"\"*(^#F1F(-%$sinGF+F(F.F(F(*(F4F(F'F(^#F(F(F(*(%\"rGF(
+)F'F0F()F)F0F(F(*,F0F(F'F(F9F(F;F(F.F(F1*(F9F(F:F()F4F0F(F(*,F0F(F9F(F
+'F(F>F(F.F(F1*(F.F(F:F(F)F(F1*()F/\"\"%F(F'F(F)F(F(**F3F(F.F(F:F(F4F(F
+(**FBF(F'F(F4F(F7F(F(*(FBF(F9F(F;F(F(*(FBF(F9F(F>F(F(" }}{PARA 12 "" 
+1 "" {XPPMATH 20 "6#>%#dxG,>*&%\"aG\"\"\"-%$cosG6#%&thetaGF(F(*&F)F()%
+\"xG\"\"#F(!\"\"*(-%$sinGF+F(F'F(^#F(F(F(*(^#F1F(F3F(F.F(F(*(F/F()F'F0
+F()F)F0F(F(**F0F()F/\"\"$F(F:F(F'F(F1*(F/F(F9F()F3F0F(F(**F0F(F'F(F<F(
+F?F(F1*(F.F(F9F(F)F(F1*()F/\"\"%F(F)F(F'F(F(**F7F(F.F(F9F(F3F(F(**FCF(
+F'F(F3F(F5F(F(*&)F/\"\"&F(F:F(F(*&FHF(F?F(F(" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%#dtG,>**%\"xG\"\"\"%\"aGF(-%$cosG6#%&thetaGF(^#F(F(F(
+*(^#!\"\"F()F'\"\"$F(F*F(F(*(F)F(F'F(-%$sinGF,F(F1*&F2F(F5F(F(**)F'\"
+\"#F()F)F:F()F*F:F(F.F(F(**^#!\"#F()F'\"\"%F(F<F(F)F(F(**F9F(F;F()F5F:
+F(F.F(F(**F>F(F@F(F)F(FCF(F(**F0F(F2F(F;F(F*F(F(**)F'\"\"&F(F*F(F)F(F.
+F(F(*(F2F(F;F(F5F(F(*(FGF(F)F(F5F(F1*()F'\"\"'F(F<F(F.F(F(*(FLF(FCF(F.
+F(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 37 "We temporarily substitute a variable " }{TEXT 291 1 "y" }{TEXT 
+-1 5 " for " }{TEXT 288 1 "i" }{TEXT -1 43 "  so that we can pick off \+
+the real part of " }{TEXT 289 2 "dr" }{TEXT -1 8 " and of " }{TEXT 
+290 2 "dt" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 41 "dxs := subs(I=y,dx);\ndts := subs(I=y,dt);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$dxsG,>*&%\"aG\"\"\"-%$cosG6#%&theta
+GF(F(*&F)F()%\"xG\"\"#F(!\"\"*(%\"yGF(F'F(-%$sinGF+F(F(*(F3F(F4F(F.F(F
+1*(F/F()F'F0F()F)F0F(F(**F0F()F/\"\"$F(F9F(F'F(F1*(F/F(F8F()F4F0F(F(**
+F0F(F'F(F;F(F>F(F1*(F.F(F8F(F)F(F1*()F/\"\"%F(F)F(F'F(F(**F3F(F.F(F8F(
+F4F(F1**F3F(FBF(F'F(F4F(F(*&)F/\"\"&F(F9F(F(*&FGF(F>F(F(" }}{PARA 12 "
+" 1 "" {XPPMATH 20 "6#>%$dtsG,>**%\"yG\"\"\"%\"aGF(%\"xGF(-%$cosG6#%&t
+hetaGF(F(*(F'F()F*\"\"$F(F+F(!\"\"*(F)F(F*F(-%$sinGF-F(F2*&F0F(F4F(F(*
+*F'F()F)\"\"#F()F*F9F()F+F9F(F(*,F9F(F'F()F*\"\"%F(F;F(F)F(F2**F'F(F8F
+(F:F()F4F9F(F(*,F9F(F'F(F=F(F)F(F@F(F2**F'F(F0F(F8F(F+F(F2**F'F()F*\"
+\"&F(F+F(F)F(F(*(F0F(F8F(F4F(F(*(FDF(F)F(F4F(F2*(F'F()F*\"\"'F(F;F(F(*
+(F'F(FIF(F@F(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 6 "Here, " }{TEXT 292 3 "rdx" }{TEXT -1 21 " is the real
+ part of " }{TEXT 293 2 "dx" }{TEXT -1 7 "  and  " }{TEXT 294 4 " rdt
+" }{TEXT -1 21 " is the real part of " }{TEXT 295 2 "dt" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 65 "rdx :=
+ simplify(coeff(dxs,y,0));\nrdt := simplify(coeff(dts,y,0));" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%$rdxG*&,**()%\"xG\"\"#\"\"\"-%$cosG6#%&the
+taGF+%\"aGF+F+F,!\"\"*&F0F+F)F+F1*$)F)\"\"$F+F+F+,&F0F1*$F(F+F+F+" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$rdtG,$*(%\"xG\"\"\"-%$sinG6#%&theta
+GF(,*%\"aGF(*$)F'\"\"#F(!\"\"*&F.F()F'\"\"%F(F(*&)F.F1F(F0F(F2F(F2" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 95 "F
+rom the above constructed functions and the above referenced partial d
+erivatives we construct " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT 296 4 "CC_x" }{TEXT -1 4 " =  " }{XPPEDIT 18 0 "diff(abs(
+CC)(c,x,a),x);" "6#-%%diffG6$--%$absG6#%#CCG6%%\"cG%\"xG%\"aGF-" }
+{TEXT -1 2 ", " }{TEXT 297 7 "   BB_x" }{TEXT -1 3 " = " }{XPPEDIT 18 
+0 "diff(abs(BB)(c,x,a),x);" "6#-%%diffG6$--%$absG6#%#BBG6%%\"cG%\"xG%
+\"aGF-" }}{PARA 0 "" 0 "" {TEXT 298 4 "CC_t" }{TEXT -1 3 " = " }
+{XPPEDIT 18 0 "diff(abs(CC)(c,x,a),theta);" "6#-%%diffG6$--%$absG6#%#C
+CG6%%\"cG%\"xG%\"aG%&thetaG" }{TEXT -1 2 ", " }{TEXT 299 7 "   BB_t" }
+{TEXT -1 2 "= " }{XPPEDIT 18 0 "diff(abs(BB)(c,x,a),theta);" "6#-%%dif
+fG6$--%$absG6#%#BBG6%%\"cG%\"xG%\"aG%&thetaG" }{TEXT -1 2 "  " }}
+{PARA 0 "" 0 "" {TEXT -1 37 "                                     " }}
+{PARA 0 "" 0 "" {TEXT -1 38 "in order to construct the determinant " }
+{XPPEDIT 18 0 "Delta[x];" "6#&%&DeltaG6#%\"xG" }{TEXT -1 14 "  in line
+ (14)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 58 "CC_x := (1-x^2)^2*rfx/abs(FF) + abs(FF)*2*(1-x^2)*(-2
+*x) ;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%CC_xG,&*(,&\"\"\"F(*$)%\"x
+G\"\"#F(!\"\"F,,.**\"\"%F(F+F()%\"aGF,F()-%$cosG6#%&thetaGF,F(F(*(F,F(
+F2F(F4F(F(*&F0F(F+F(F(*(F,F(F1F(F+F(F-**\"\"'F(F*F(F4F(F2F(F(*(F,F(F1F
+()F+\"\"$F(F(F(-%$absG6#,(F2F-*(F,F(F+F(,&F4F(*&-%$sinGF6F(^#F(F(F(F(F
+-*(F2F(F*F()FEF,F(F-F-F(**F0F(F@F(F'F(F+F(F-" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 57 "BB_x := rdx/abs(DD) - x*(1-a)*rex/abs(EE)- (1-a)
+*abs(EE);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%BB_xG,(*(,**()%\"xG\"
+\"#\"\"\"-%$cosG6#%&thetaGF,%\"aGF,F,F-!\"\"*&F1F,F*F,F2*$)F*\"\"$F,F,
+F,,&F1F2*$F)F,F,F,-%$absG6#,(F,F2*(F1F,F*F,,&F-F,*&-%$sinGF/F,^#F,F,F,
+F,F2*&F)F,,&F1F,*&F*F,F>F,F,F,F,F2F,**F*F,,&F,F,F1F2F,,&F-F2F*F,F,-F:6
+#,&F,F2FEF,F2F2*&FGF,FIF,F2" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+30 "CC_t := (1-x^2)^2*rft/abs(FF);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%%CC_tG,$*0\"\"#\"\"\",&F(F(*$)%\"xGF'F(!\"\"F',(**F'F(%\"aGF(F,F(-%$
+cosG6#%&thetaGF(F(F(F(F*F(F(F0F(F,F(-%$sinGF3F(-%$absG6#,(F0F-*(F'F(F,
+F(,&F1F(*&F5F(^#F(F(F(F(F-*(F0F(F+F()F<F'F(F-F-F-" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 42 "BB_t := rdt/abs(DD) - x*(1-a)*ret/abs(EE);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%BB_tG,&**%\"xG\"\"\"-%$sinG6#%&th
+etaGF(,*%\"aGF(*$)F'\"\"#F(!\"\"*&F.F()F'\"\"%F(F(*&)F.F1F(F0F(F2F(-%$
+absG6#,(F(F2*(F.F(F'F(,&-%$cosGF+F(*&F)F(^#F(F(F(F(F2*&F0F(,&F.F(*&F'F
+(F=F(F(F(F(F2F2**F'F1,&F(F(F.F2F(F)F(-F96#,&F(F2FDF(F2F2" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "The deter
+minant " }{XPPEDIT 18 0 "Delta[x];" "6#&%&DeltaG6#%\"xG" }{TEXT -1 27 
+"  in line (14) is given by " }{TEXT 300 5 "detCB" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "detCB := CC
+_x*BB_t - BB_x*CC_t;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%&detCBG,&*&,
+&*(,&\"\"\"F**$)%\"xG\"\"#F*!\"\"F.,.**\"\"%F*F-F*)%\"aGF.F*)-%$cosG6#
+%&thetaGF.F*F**(F.F*F4F*F6F*F**&F2F*F-F*F**(F.F*F3F*F-F*F/**\"\"'F*F,F
+*F6F*F4F*F**(F.F*F3F*)F-\"\"$F*F*F*-%$absG6#,(F4F/*(F.F*F-F*,&F6F**&-%
+$sinGF8F*^#F*F*F*F*F/*(F4F*F,F*)FGF.F*F/F/F***F2F*FBF*F)F*F-F*F/F*,&**
+F-F*FIF*,*F4F*F+F/*&F4F*)F-F2F*F**&F3F*F,F*F/F*-FC6#,(F*F/*(F4F*F-F*FG
+F*F/*&F,F*,&F4F**&F-F*FGF*F*F*F*F/F/**F-F.,&F*F*F4F/F*FIF*-FC6#,&F*F/F
+enF*F/F/F*F**2F.F*,(*(,**(F,F*F6F*F4F*F*F6F/*&F4F*F-F*F/*$F@F*F*F*,&F4
+F/F+F*F*FUF/F***F-F*FgnF*,&F6F/F-F*F*FhnF/F/*&FgnF*FhnF*F/F*F)F.,(**F.
+F*F4F*F-F*F6F*F*F*F*F+F*F*F4F*F-F*FIF*FBF/F*" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "We temporarily reset th
+e variables " }{TEXT 301 10 "FF, EE, DD" }{TEXT -1 77 " to their undef
+ined (primitive) states so that we can treat them as variables" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 17 "We then r
+edefine " }{TEXT 303 5 "detCB" }{TEXT -1 31 " using the primitive vari
+ables " }{TEXT 302 10 "FF, EE, DD" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 226 "FF := 'FF': EE := 'EE': DD \+
+:= 'DD':\nCC_x := (1-x^2)^2*rfx/abs(FF) + abs(FF)*2*(1-x^2)*(-2*x):\nB
+B_x := rdx/abs(DD) - x*(1-a)*rex/abs(EE) - (1-a)*abs(EE):\nCC_t := (1-
+x^2)^2*rft/abs(FF):\nBB_t := rdt/abs(DD) - x*(1-a)*ret/abs(EE):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 31 "detCB := CC_x*BB_t - BB_x*CC
+_t;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%&detCBG,&*&,&*(,&\"\"\"F**$)%
+\"xG\"\"#F*!\"\"F.,.**\"\"%F*F-F*)%\"aGF.F*)-%$cosG6#%&thetaGF.F*F**(F
+.F*F4F*F6F*F**&F2F*F-F*F**(F.F*F3F*F-F*F/**\"\"'F*F,F*F6F*F4F*F**(F.F*
+F3F*)F-\"\"$F*F*F*-%$absG6#%#FFGF/F***F2F*FBF*F)F*F-F*F/F*,&**F-F*-%$s
+inGF8F*,*F4F*F+F/*&F4F*)F-F2F*F**&F3F*F,F*F/F*-FC6#%#DDGF/F/**F-F.,&F*
+F*F4F/F*FIF*-FC6#%#EEGF/F/F*F**2F.F*,(*(,**(F,F*F6F*F4F*F*F6F/*&F4F*F-
+F*F/*$F@F*F*F*,&F4F/F+F*F*FOF/F***F-F*FSF*,&F6F/F-F*F*FTF/F/*&FSF*FTF*
+F/F*F)F.,(**F.F*F4F*F-F*F6F*F*F*F*F+F*F*F4F*F-F*FIF*FBF/F*" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 11 "We rewrit
+e " }{TEXT 304 5 "detCB" }{TEXT -1 111 " in a normalized format, i.e.,
+ we rewrite the compound fraction as a single fraction with a common d
+enominator." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 21 "nCB := normal(detCB);" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%$nCBG,$*2\"\"#\"\"\",&F(!\"\"*$)%\"xGF'F(F(F(F-F(-%$s
+inG6#%&thetaGF(,fq**F'F()%\"aG\"\"$F(F-F(-%$absG6#%#EEGF(F(*()F-\"\"(F
+()F5F'F(F7F(F(*(F5F(F7F()F-\"\"*F(F***F'F(F4F()F-F6F(F7F(F***F'F(F4F()
+F-\"\"%F(-F86#%#DDGF(F(*(F,F(FGF(F5F(F(*.F'F()F7F'F(FGF(F>F(F-F(-%$cos
+GF0F(F**(F'F(F7F()F-\"\"&F(F**()F-\"\"'F(FGF(F5F(F(*.F'F(FLF(FGF(F>F(F
+CF(FMF(F(**F'F(F-F(F7F(F5F(F**(FLF(FGF(F>F(F(**F'F(F7F(FCF(F5F(F(*(F7F
+(F5F(FPF(F**(F7F(F>F(FCF(F**(F4F(FPF(F7F(F(*()F5FFF(FCF(F7F(F***F'F(F>
+F(F,F(FGF(F(*(F4F(F,F(FGF(F***F'F(F4F(F<F(F7F(F***F'F(FgnF(FPF(F7F(F(*
+*F'F(F>F(FEF(FGF(F***F'F(F<F(F7F(F5F(F(**F'F(FEF(FGF(F5F(F**(F@F(F4F(F
+7F(F(*(F<F(FgnF(F7F(F**(FSF(F4F(FGF(F***F'F()-F86#%#FFGF'F(FCF(F7F(F**
+*F'F(FcoF(F,F(FGF(F(*,F'F(F7F(F,F(F>F(FMF(F**,F'F(F7F(FEF(FMF(F5F(F(*,
+F'F(F>F(FMF(F7F(FEF(F(*,F'F(FEF(FMF(F4F(F7F(F**,F'F(FCF(FMF(F5F(FGF(F*
+*,F'F(FSF(FMF(F5F(F7F(F**,F'F(FSF(FMF(F4F(F7F(F(*,F'F(FPF(FMF(F5F(FGF(
+F(*,F'F(FcoF(F-F(F7F(F5F(F(*,F'F(FcoF(FPF(F7F(F5F(F(*,F'F(FcoF(FCF(F7F
+(F>F(F**,F'F(FcoF(F,F(FGF(F5F(F***FLF(FGF(F5F(FEF(F(*,F'F(FgnF(FMF(F7F
+(F,F(F(*,F'F(FEF(FMF(FgnF(F7F(F**,F'F(FCF(FMF(F4F(FGF(F(*,F'F(FPF(FMF(
+F4F(FGF(F***FLF(FGF(F>F(FEF(F**(F'F(F,F(FGF(F**(F'F(F7F(FCF(F(*(FLF(FG
+F(F5F(F**(F'F(FEF(FGF(F(*.F'F(FLF(FGF(F4F(F-F(FMF(F(*.F'F(FLF(FGF(F4F(
+FCF(FMF(F*F(FdoF*FGF*F7F*F*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 25 "Since the denominator of " }{TEXT 305 3 
+"nCB" }{TEXT -1 53 " is positive, we pick off the numerator and factor
+ it" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 24 "n := factor(numer(nCB));" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%\"nG,$*.\"\"#\"\"\",&%\"xGF(F(!\"\"F(,&F*F(F(F(F(F*F(
+-%$sinG6#%&thetaGF(,fq**F'F()%\"aG\"\"$F(F*F(-%$absG6#%#EEGF(F(*()F*\"
+\"(F()F4F'F(F6F(F(*(F4F(F6F()F*\"\"*F(F+**F'F(F3F()F*F5F(F6F(F+**F'F(F
+3F()F*\"\"%F(-F76#%#DDGF(F(*()F*F'F(FFF(F4F(F(*.F'F()F6F'F(FFF(F=F(F*F
+(-%$cosGF/F(F+*(F'F(F6F()F*\"\"&F(F+*()F*\"\"'F(FFF(F4F(F(*.F'F(FLF(FF
+F(F=F(FBF(FMF(F(**F'F(F*F(F6F(F4F(F+*(FLF(FFF(F=F(F(**F'F(F6F(FBF(F4F(
+F(*(F6F(F4F(FPF(F+*(F6F(F=F(FBF(F+*(F3F(FPF(F6F(F(*()F4FEF(FBF(F6F(F+*
+*F'F(F=F(FJF(FFF(F(*(F3F(FJF(FFF(F+**F'F(F3F(F;F(F6F(F+**F'F(FgnF(FPF(
+F6F(F(**F'F(F=F(FDF(FFF(F+**F'F(F;F(F6F(F4F(F(**F'F(FDF(FFF(F4F(F+*(F?
+F(F3F(F6F(F(*(F;F(FgnF(F6F(F+*(FSF(F3F(FFF(F+**F'F()-F76#%#FFGF'F(FBF(
+F6F(F+**F'F(FcoF(FJF(FFF(F(*,F'F(F6F(FJF(F=F(FMF(F+*,F'F(F6F(FDF(FMF(F
+4F(F(*,F'F(F=F(FMF(F6F(FDF(F(*,F'F(FDF(FMF(F3F(F6F(F+*,F'F(FBF(FMF(F4F
+(FFF(F+*,F'F(FSF(FMF(F4F(F6F(F+*,F'F(FSF(FMF(F3F(F6F(F(*,F'F(FPF(FMF(F
+4F(FFF(F(*,F'F(FcoF(F*F(F6F(F4F(F(*,F'F(FcoF(FPF(F6F(F4F(F(*,F'F(FcoF(
+FBF(F6F(F=F(F+*,F'F(FcoF(FJF(FFF(F4F(F+**FLF(FFF(F4F(FDF(F(*,F'F(FgnF(
+FMF(F6F(FJF(F(*,F'F(FDF(FMF(FgnF(F6F(F+*,F'F(FBF(FMF(F3F(FFF(F(*,F'F(F
+PF(FMF(F3F(FFF(F+**FLF(FFF(F=F(FDF(F+*(F'F(FJF(FFF(F+*(F'F(F6F(FBF(F(*
+(FLF(FFF(F4F(F+*(F'F(FDF(FFF(F(*.F'F(FLF(FFF(F3F(F*F(FMF(F(*.F'F(FLF(F
+FF(F3F(FBF(FMF(F+F(F+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 81 "The term n1 is obtained from the n by rem
+oving the leading (positive) factors    " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 47 "n1 := normal(n/ (2*x
+*sin(theta)*(1-x)*(x+1)) );" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#n1G,
+fq**\"\"#\"\"\")%\"aG\"\"$F(%\"xGF(-%$absG6#%#EEGF(F(*()F,\"\"(F()F*F'
+F(F-F(F(*(F*F(F-F()F,\"\"*F(!\"\"**F'F(F)F()F,F+F(F-F(F8**F'F(F)F()F,
+\"\"%F(-F.6#%#DDGF(F(*()F,F'F(F>F(F*F(F(*.F'F()F-F'F(F>F(F4F(F,F(-%$co
+sG6#%&thetaGF(F8*(F'F(F-F()F,\"\"&F(F8*()F,\"\"'F(F>F(F*F(F(*.F'F(FDF(
+F>F(F4F(F:F(FEF(F(**F'F(F,F(F-F(F*F(F8*(FDF(F>F(F4F(F(**F'F(F-F(F:F(F*
+F(F(*(F-F(F*F(FJF(F8*(F-F(F4F(F:F(F8*(F)F(FJF(F-F(F(*()F*F=F(F:F(F-F(F
+8**F'F(F4F(FBF(F>F(F(*(F)F(FBF(F>F(F8**F'F(F)F(F2F(F-F(F8**F'F(FWF(FJF
+(F-F(F(**F'F(F4F(F<F(F>F(F8**F'F(F2F(F-F(F*F(F(**F'F(F<F(F>F(F*F(F8*(F
+6F(F)F(F-F(F(*(F2F(FWF(F-F(F8*(FMF(F)F(F>F(F8**F'F()-F.6#%#FFGF'F(F:F(
+F-F(F8**F'F(F]oF(FBF(F>F(F(*,F'F(F-F(FBF(F4F(FEF(F8*,F'F(F-F(F<F(FEF(F
+*F(F(*,F'F(F4F(FEF(F-F(F<F(F(*,F'F(F<F(FEF(F)F(F-F(F8*,F'F(F:F(FEF(F*F
+(F>F(F8*,F'F(FMF(FEF(F*F(F-F(F8*,F'F(FMF(FEF(F)F(F-F(F(*,F'F(FJF(FEF(F
+*F(F>F(F(*,F'F(F]oF(F,F(F-F(F*F(F(*,F'F(F]oF(FJF(F-F(F*F(F(*,F'F(F]oF(
+F:F(F-F(F4F(F8*,F'F(F]oF(FBF(F>F(F*F(F8**FDF(F>F(F*F(F<F(F(*,F'F(FWF(F
+EF(F-F(FBF(F(*,F'F(F<F(FEF(FWF(F-F(F8*,F'F(F:F(FEF(F)F(F>F(F(*,F'F(FJF
+(FEF(F)F(F>F(F8**FDF(F>F(F4F(F<F(F8*(F'F(FBF(F>F(F8*(F'F(F-F(F:F(F(*(F
+DF(F>F(F*F(F8*(F'F(F<F(F>F(F(*.F'F(FDF(F>F(F)F(F,F(FEF(F(*.F'F(FDF(F>F
+(F)F(F:F(FEF(F8" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 81 "In n1 we replace |EE|^2 and |FF|^2, by the formulati
+ons which we introduced above" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "n1s := subs(abs(EE)^2=aEE,ab
+s(FF)^2=aFF,n1);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$n1sG,fq**\"\"#
+\"\"\")%\"aG\"\"$F(%\"xGF(-%$absG6#%#EEGF(F(*()F,\"\"(F()F*F'F(F-F(F(*
+(F*F(F-F()F,\"\"*F(!\"\"**F'F(F)F()F,F+F(F-F(F8**F'F(F)F()F,\"\"%F(-F.
+6#%#DDGF(F(*()F,F'F(F>F(F*F(F(*(F'F(F-F()F,\"\"&F(F8*()F,\"\"'F(F>F(F*
+F(F(**F'F(F,F(F-F(F*F(F8**F'F(F-F(F:F(F*F(F(*(F-F(F*F(FDF(F8*(F-F(F4F(
+F:F(F8*(F)F(FDF(F-F(F(*()F*F=F(F:F(F-F(F8**F'F(F4F(FBF(F>F(F(*(F)F(FBF
+(F>F(F8**F'F(F)F(F2F(F-F(F8**F'F(FOF(FDF(F-F(F(**F'F(F4F(F<F(F>F(F8**F
+'F(F2F(F-F(F*F(F(**F'F(F<F(F>F(F*F(F8*(F6F(F)F(F-F(F(*(F2F(FOF(F-F(F8*
+(FGF(F)F(F>F(F8*,F'F(F-F(FBF(F4F(-%$cosG6#%&thetaGF(F8*,F'F(F-F(F<F(Fe
+nF(F*F(F(*,F'F(F4F(FenF(F-F(F<F(F(*,F'F(F<F(FenF(F)F(F-F(F8*,F'F(F:F(F
+enF(F*F(F>F(F8*,F'F(FGF(FenF(F*F(F-F(F8*,F'F(FGF(FenF(F)F(F-F(F(*,F'F(
+FDF(FenF(F*F(F>F(F(*,F'F(FOF(FenF(F-F(FBF(F(*,F'F(F<F(FenF(FOF(F-F(F8*
+,F'F(F:F(FenF(F)F(F>F(F(*,F'F(FDF(FenF(F)F(F>F(F8*(F'F(FBF(F>F(F8*(F'F
+(F-F(F:F(F(*(F'F(F<F(F>F(F(*(,(F(F(*(F'F(F,F(FenF(F8*$FBF(F(F(F>F(F4F(
+F(*(FhoF(F>F(F*F(F8**FhoF(F>F(F*F(F<F(F(**FhoF(F>F(F4F(F<F(F8*,F'F(,0*
+*F=F(F4F(FBF()FenF'F(F(**F=F(F*F(F,F(FenF(F(*$F4F(F(*(F'F(F4F(FBF(F8*&
+F=F(FBF(F(**F=F(F:F(FenF(F*F(F(*&F<F(F4F(F(F(F,F(F-F(F*F(F(*,F'F(F_pF(
+FDF(F-F(F*F(F(*,F'F(F_pF(F:F(F-F(F4F(F8*,F'F(F_pF(FBF(F>F(F*F(F8*.F'F(
+FhoF(F>F(F4F(F,F(FenF(F8*.F'F(FhoF(F>F(F4F(F:F(FenF(F(*.F'F(FhoF(F>F(F
+)F(F,F(FenF(F(*.F'F(FhoF(F>F(F)F(F:F(FenF(F8**F'F(F_pF(F:F(F-F(F8**F'F
+(F_pF(FBF(F>F(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 9 "Let |GG|=" }{TEXT 306 1 "x" }{TEXT -1 3 "(1-" }
+{TEXT 307 1 "a" }{TEXT -1 44 ")*(|EE|/|DD|) , i.e., let |EE| = |GG|*|D
+D|/(" }{TEXT 309 1 "x" }{TEXT -1 4 "*(1-" }{TEXT 308 1 "a" }{TEXT -1 
+2 "))" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "
+We substitute, using the above substituion, for |EE| into n1 " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 68 "We normal
+ize n2 by mutlitplying through by the positive factor (1-a)" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 61 "Note:  we have \+
+shown in Step 1 that |GG| is bounded above by " }{XPPEDIT 18 0 "(6-alp
+ha)/(6+9*alpha);" "6#*&,&\"\"'\"\"\"%&alphaG!\"\"F&,&F%F&*&\"\"*F&F'F&
+F&F(" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 66 "n2 := normal(((1-a))*subs(abs(EE)=a
+bs(GG)*abs(DD)/(x*(1-a)),n1s));" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#
+n2G*&-%$absG6#%#DDG\"\"\",`s%\"aG!\"\"*&\"\"#F*)%\"xGF/F*F-*&\"#5F*)F1
+\"\"%F*F**&F/F*)F,F/F*F***F/F*F,F*F1F*-%$cosG6#%&thetaGF*F***F5F*F7F*F
+0F*)F9F/F*F***\"\")F*)F1\"\"&F*F9F*F,F*F**(F/F*)F1\"\"'F*F,F*F***F5F*-
+F'6#%#GGGF*F4F*F7F*F-*(FBF*F7F*F0F*F**(F/F*F4F*F7F*F***\"#9F*F7F*)F1\"
+\"$F*F9F*F-**FEF*FNF*F9F*F,F*F***FOF*)F,F5F*F0F*FGF*F-*(F5F*FDF*)F,FOF
+*F-*(FDF*F7F*FGF*F-*(F/F*F0F*F,F*F**,F/F*FNF*F9F*FRF*FGF*F-*(\"#>F*F,F
+*F4F*F-*$FTF*F-*(FOF*FDF*FRF*F**&FDF*F7F*F-*(F@F*FTF*F0F*F-*(\"#8F*F4F
+*FTF*F**(FEF*F4F*FRF*F-*(FOF*FRF*F0F*F**,FEF*FGF*F1F*F7F*F9F*F**,FEF*F
+AF*F9F*FTF*FGF*F-*,FEF*FGF*FNF*F9F*F,F*F-*,F3F*F7F*F9F*FGF*FNF*F**,F3F
+*FNF*F9F*FTF*FGF*F-*,F3F*FAF*F9F*F,F*FGF*F-*,F/F*FRF*F9F*FGF*F1F*F**,F
+@F*FGF*F4F*FRF*F>F*F-*,F@F*FGF*FTF*F0F*F>F*F**,F@F*FGF*F4F*F7F*F>F*F-*
+,F@F*FGF*FDF*FTF*F>F*F**,F@F*FGF*FAF*F7F*F9F*F**,F@F*FGF*)F1\"\"(F*F7F
+*F9F*F***F5F*FAF*F9F*FRF*F**(FGF*F4F*F,F*F-**FOF*FDF*FRF*FGF*F-**FBF*F
+TF*F4F*FGF*F***FOF*)F1F@F*FTF*FGF*F**(F,F*FGF*F`pF*F-**FEF*FTF*F0F*FGF
+*F-**F3F*FGF*F0F*F,F*F***FOF*FGF*F0F*F7F*F-**FEF*FTF*FDF*FGF*F-**FEF*F
+RF*F4F*FGF*F***F3F*FDF*FGF*F,F*F**(F/F*FGF*F0F*F**(F3F*FGF*F4F*F-*(F5F
+*FTF*FGF*F**(F/F*FGF*F,F*F-**FEF*F7F*F1F*F9F*F-**FEF*FTF*F1F*F9F*F***F
+@F*FTF*F0F*F>F*F-**F5F*F4F*F7F*F>F*F***F@F*F4F*FTF*F>F*F-**\"#7F*FAF*F
+9F*F7F*F-**F3F*FTF*FNF*F9F*F***F/F*FRF*FNF*F9F*F-**F5F*F4F*FRF*F>F*F**
+*F/F*FRF*F1F*F9F*F-**F5F*FRF*F0F*F>F*F*F*" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 43 "Note: in n2 there is a co
+mmon factor (|DD|)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 82 "The term n3 is obtained from the n2 by removing the leadi
+ng (positive) factor |DD|" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "n3 := normal(n2/abs(DD));" }}{PARA 
+12 "" 1 "" {XPPMATH 20 "6#>%#n3G,`s%\"aG!\"\"*&\"\"#\"\"\")%\"xGF)F*F'
+*&\"#5F*)F,\"\"%F*F**&F)F*)F&F)F*F***F)F*F&F*F,F*-%$cosG6#%&thetaGF*F*
+**F0F*F2F*F+F*)F4F)F*F***\"\")F*)F,\"\"&F*F4F*F&F*F**(F)F*)F,\"\"'F*F&
+F*F***F0F*-%$absG6#%#GGGF*F/F*F2F*F'*(F=F*F2F*F+F*F**(F)F*F/F*F2F*F***
+\"#9F*F2F*)F,\"\"$F*F4F*F'**F@F*FJF*F4F*F&F*F***FKF*)F&F0F*F+F*FBF*F'*
+(F0F*F?F*)F&FKF*F'*(F?F*F2F*FBF*F'*(F)F*F+F*F&F*F**,F)F*FJF*F4F*FNF*FB
+F*F'*(\"#>F*F&F*F/F*F'*$FPF*F'*(FKF*F?F*FNF*F**&F?F*F2F*F'*(F;F*FPF*F+
+F*F'*(\"#8F*F/F*FPF*F**(F@F*F/F*FNF*F'*(FKF*FNF*F+F*F**,F@F*FBF*F,F*F2
+F*F4F*F**,F@F*F<F*F4F*FPF*FBF*F'*,F@F*FBF*FJF*F4F*F&F*F'*,F.F*F2F*F4F*
+FBF*FJF*F**,F.F*FJF*F4F*FPF*FBF*F'*,F.F*F<F*F4F*F&F*FBF*F'*,F)F*FNF*F4
+F*FBF*F,F*F**,F;F*FBF*F/F*FNF*F9F*F'*,F;F*FBF*FPF*F+F*F9F*F**,F;F*FBF*
+F/F*F2F*F9F*F'*,F;F*FBF*F?F*FPF*F9F*F**,F;F*FBF*F<F*F2F*F4F*F**,F;F*FB
+F*)F,\"\"(F*F2F*F4F*F***F0F*F<F*F4F*FNF*F**(FBF*F/F*F&F*F'**FKF*F?F*FN
+F*FBF*F'**F=F*FPF*F/F*FBF*F***FKF*)F,F;F*FPF*FBF*F**(F&F*FBF*F\\pF*F'*
+*F@F*FPF*F+F*FBF*F'**F.F*FBF*F+F*F&F*F***FKF*FBF*F+F*F2F*F'**F@F*FPF*F
+?F*FBF*F'**F@F*FNF*F/F*FBF*F***F.F*F?F*FBF*F&F*F**(F)F*FBF*F+F*F**(F.F
+*FBF*F/F*F'*(F0F*FPF*FBF*F**(F)F*FBF*F&F*F'**F@F*F2F*F,F*F4F*F'**F@F*F
+PF*F,F*F4F*F***F;F*FPF*F+F*F9F*F'**F0F*F/F*F2F*F9F*F***F;F*F/F*FPF*F9F
+*F'**\"#7F*F<F*F4F*F2F*F'**F.F*FPF*FJF*F4F*F***F)F*FNF*FJF*F4F*F'**F0F
+*F/F*FNF*F9F*F***F)F*FNF*F,F*F4F*F'**F0F*FNF*F+F*F9F*F*" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 42 "Linearity
+:  the term n3 is linear in |GG| " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "collect(n3,abs(GG));" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#,bo%\"aG!\"\"*&\"\"#\"\"\")%\"xGF'F(F%
+*&\"#5F()F*\"\"%F(F(*&F'F()F$F'F(F(**F'F(F$F(F*F(-%$cosG6#%&thetaGF(F(
+**F.F(F0F(F)F()F2F'F(F(**\"\")F()F*\"\"&F(F2F(F$F(F(*(F'F()F*\"\"'F(F$
+F(F(*(F;F(F0F(F)F(F(*(F'F(F-F(F0F(F(**\"#9F(F0F()F*\"\"$F(F2F(F%**F>F(
+FCF(F2F(F$F(F(*(F.F(F=F()F$FDF(F%*(F'F(F)F(F$F(F(*(\"#>F(F$F(F-F(F%*$F
+GF(F%*(FDF(F=F()F$F.F(F(*&F=F(F0F(F%*(F9F(FGF(F)F(F%*(\"#8F(F-F(FGF(F(
+*(F>F(F-F(FMF(F%*(FDF(FMF(F)F(F(**F.F(F:F(F2F(FMF(F(**F>F(F0F(F*F(F2F(
+F%**F>F(FGF(F*F(F2F(F(**F9F(FGF(F)F(F7F(F%**F.F(F-F(F0F(F7F(F(**F9F(F-
+F(FGF(F7F(F%**\"#7F(F:F(F2F(F0F(F%**F,F(FGF(FCF(F2F(F(**F'F(FMF(FCF(F2
+F(F%**F.F(F-F(FMF(F7F(F(**F'F(FMF(F*F(F2F(F%**F.F(FMF(F)F(F7F(F(*&,\\o
+*&F'F(F$F(F%*&F'F(F)F(F(*&F,F(F-F(F%**F,F(F:F(F2F(F$F(F%*(F,F(F=F(F$F(
+F(*(FDF(F0F(F)F(F%*(F.F(F-F(F0F(F%**F,F(F0F(FCF(F2F(F(**F>F(FCF(F2F(F$
+F(F%*(F>F(F=F(FGF(F%*(F,F(F)F(F$F(F(*&F$F(F-F(F%*&F.F(FGF(F(*(FDF(F=F(
+FMF(F%FNF%*(F>F(FGF(F)F(F%*(F;F(F-F(FGF(F(*(F>F(F-F(FMF(F(*(FDF(FMF(F)
+F(F%**F>F(F0F(F*F(F2F(F(**F9F(FGF(F)F(F7F(F(**F9F(F-F(F0F(F7F(F%**F9F(
+F:F(F2F(F0F(F(**F,F(FGF(FCF(F2F(F%**F'F(FMF(FCF(F2F(F%**F9F(F-F(FMF(F7
+F(F%**F'F(FMF(F*F(F2F(F(*(FDF()F*F9F(FGF(F(*&F$F(FhpF(F%**F>F(F:F(F2F(
+FGF(F%**F9F(F=F(FGF(F7F(F(**F9F()F*\"\"(F(F0F(F2F(F(F(-%$absG6#%#GGGF(
+F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 123 "Hence, we can obtain lower and upper bounds for n3 by replacin
+g |GG| by its lower and upper bounds, which are 0 <= |GG| <= " }
+{XPPEDIT 18 0 "(6-alpha)/(6+9*alpha);" "6#*&,&\"\"'\"\"\"%&alphaG!\"\"
+F&,&F%F&*&\"\"*F&F'F&F&F(" }{TEXT -1 2 "  " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 66 "We normalize n3g1 by mutlitplyi
+ng through by the positive factor  " }{XPPEDIT 18 0 "6+9*alpha;" "6#,&
+\"\"'\"\"\"*&\"\"*F%%&alphaGF%F%" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 95 "n3g0 := subs(abs(GG)=0,n3);
+\nn3g1 := normal((6+9*alpha)*subs(abs(GG)=(6-alpha)/(6+9*alpha),n3));
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%n3g0G,`o%\"aG!\"\"*&\"\"#\"\"\"
+)%\"xGF)F*F'*&\"#5F*)F,\"\"%F*F**&F)F*)F&F)F*F***F)F*F&F*F,F*-%$cosG6#
+%&thetaGF*F***F0F*F2F*F+F*)F4F)F*F***\"\")F*)F,\"\"&F*F4F*F&F*F**(F)F*
+)F,\"\"'F*F&F*F**(F=F*F2F*F+F*F**(F)F*F/F*F2F*F***\"#9F*F2F*)F,\"\"$F*
+F4F*F'**F@F*FEF*F4F*F&F*F**(F0F*F?F*)F&FFF*F'*(F)F*F+F*F&F*F**(\"#>F*F
+&F*F/F*F'*$FIF*F'*(FFF*F?F*)F&F0F*F**&F?F*F2F*F'*(F;F*FIF*F+F*F'*(\"#8
+F*F/F*FIF*F**(F@F*F/F*FOF*F'*(FFF*FOF*F+F*F***F0F*F<F*F4F*FOF*F***F@F*
+F2F*F,F*F4F*F'**F@F*FIF*F,F*F4F*F***F;F*FIF*F+F*F9F*F'**F0F*F/F*F2F*F9
+F*F***F;F*F/F*FIF*F9F*F'**\"#7F*F<F*F4F*F2F*F'**F.F*FIF*FEF*F4F*F***F)
+F*FOF*FEF*F4F*F'**F0F*F/F*FOF*F9F*F***F)F*FOF*F,F*F4F*F'**F0F*FOF*F+F*
+F9F*F*" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%n3g1G,ds**\"#I\"\"\")%\"a
+G\"\"%F()%\"xG\"\"#F(%&alphaGF(F(*&\"#=F(F*F(!\"\"*&\"#7F()F*F.F(F(**F
+4F(F*F(F-F(-%$cosG6#%&thetaGF(F(**\"#CF(F5F(F,F()F7F.F(F(**\"#AF()F-F+
+F(F5F(F/F(F(**F4F()F-\"\"&F(F7F(F*F(F2**\"$q\"F(F*F(F@F(F/F(F2*(\"#sF(
+)F-\"\"'F(F*F(F(*(F4F(F5F(F,F(F(*(F4F(F@F(F5F(F2**F<F(F5F()F-\"\"$F(F7
+F(F2*(\"#gF(FHF()F*FNF(F2*(FGF(F,F(F*F(F(*(\"$?\"F(F*F(F@F(F2*&F1F(FQF
+(F(*(F4F(FHF(F5F(F2*(\"#%)F(FQF(F,F(F2*(\"$3\"F(F@F(FQF(F(**F<F(FBF(F7
+F(F)F(F(**\"#OF(FQF(F-F(F7F(F(**F<F(F@F(F5F(F=F(F2**\"#[F(F@F(FQF(F=F(
+F2**F<F(FBF(F7F(F5F(F2**F<F(F)F(FMF(F7F(F2**F<F(F@F(F)F(F=F(F2**F<F(F)
+F(F,F(F=F(F(*(F1F()F-\"\")F(FQF(F(*(FIF(F*F(F`oF(F2**FgnF(FBF(F7F(FQF(
+F2**FjnF(FHF(FQF(F=F(F(**FjnF()F-\"\"(F(F5F(F7F(F(*(\"#?F(F,F(F/F(F2*(
+\"$+\"F(F@F(F/F(F(*(\"#8F(FQF(F/F(F2*(FgoF(F*F(F/F(F2**FaoF(FHF(F5F(F/
+F(F2**F'F(FHF(F)F(F/F(F(**\"$7\"F(F@F(FQF(F/F(F(**FNF(F`oF(FQF(F/F(F2*
+(F*F(F`oF(F/F(F(**\"#mF(FQF(F,F(F/F(F2**FaoF(F,F(F*F(F/F(F(**FjnF(F5F(
+F,F(F/F(F(**F'F(FHF(FQF(F/F(F2**FPF(F@F(F)F(F/F(F2**FaoF(FHF(F*F(F/F(F
+(*,FgnF(F5F(F,F(F=F(F/F(F(*,FPF(FMF(F7F(F*F(F/F(F(*,FPF(F5F(F-F(F7F(F/
+F(F2*,\"#aF(FQF(F-F(F7F(F/F(F(*,\"#!)F(FQF(F,F(F=F(F/F(F2*,\"$O\"F(FMF
+(F7F(F5F(F/F(F2*,\"#WF(F@F(F5F(F=F(F/F(F(*,FGF(F@F(FQF(F=F(F/F(F2*,\"#
+#)F(FBF(F7F(F*F(F/F(F(*,\"$;\"F(FBF(F7F(F5F(F/F(F2*,F[pF(FQF(FMF(F7F(F
+/F(F(*,\"#;F(F)F(FMF(F7F(F/F(F2*,FfqF(F@F(F)F(F=F(F/F(F(*,FioF(F)F(F-F
+(F7F(F/F(F2*,FgnF(F)F(F,F(F=F(F/F(F(*,FaoF(FHF(FQF(F=F(F/F(F2*,FIF(FBF
+(F7F(FQF(F/F(F(*,FaoF(FfoF(F5F(F7F(F/F(F2*(F1F(F5F(F/F(F(*,FgnF(FBF(F7
+F(F)F(F/F(F(*,F1F(F*F(F-F(F7F(F/F(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 90 "We will factor each of the term
+s n3g0, n3g1 and then remove any leading (positive) factors" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 27 "f
+actor(n3g0);\nfactor(n3g1);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#*&),&\"
+\"\"!\"\"%\"aGF&\"\"#F&,D*(\"\"$F&)%\"xG\"\"'F&)F(F)F&F&**\"\"%F&)F.\"
+\"&F&-%$cosG6#%&thetaGF&F0F&F&*(F/F&)F.F2F&F0F&F'*(F,F&F0F&)F.F)F&F&**
+F)F&F0F&)F.F,F&F5F&F'**F2F&F:F&F0F&)F5F)F&F&**F)F&F0F&F.F&F5F&F'**F2F&
+F0F&F<F&F@F&F&F(F'**F)F&F(F&F.F&F5F&F&*(F)F&F-F&F(F&F&*&F(F&F:F&F&*(F)
+F&F<F&F(F&F'**F/F&F>F&F5F&F(F&F&**\"\")F&F3F&F5F&F(F&F&*&F)F&F<F&F'*&
+\"#5F&F:F&F&F&" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,ds**\"#I\"\"\")%\"a
+G\"\"%F&)%\"xG\"\"#F&%&alphaGF&F&*&\"#=F&F(F&!\"\"*&\"#7F&)F(F,F&F&**F
+2F&F(F&F+F&-%$cosG6#%&thetaGF&F&**\"#CF&F3F&F*F&)F5F,F&F&**\"#AF&)F+F)
+F&F3F&F-F&F&**F2F&)F+\"\"&F&F5F&F(F&F0**\"$q\"F&F(F&F>F&F-F&F0*(\"#sF&
+)F+\"\"'F&F(F&F&*(F2F&F3F&F*F&F&*(F2F&F>F&F3F&F0**F:F&F3F&)F+\"\"$F&F5
+F&F0*(\"#gF&FFF&)F(FLF&F0*(FEF&F*F&F(F&F&*(\"$?\"F&F(F&F>F&F0*&F/F&FOF
+&F&*(F2F&FFF&F3F&F0*(\"#%)F&FOF&F*F&F0*(\"$3\"F&F>F&FOF&F&**F:F&F@F&F5
+F&F'F&F&**\"#OF&FOF&F+F&F5F&F&**F:F&F>F&F3F&F;F&F0**\"#[F&F>F&FOF&F;F&
+F0**F:F&F@F&F5F&F3F&F0**F:F&F'F&FKF&F5F&F0**F:F&F>F&F'F&F;F&F0**F:F&F'
+F&F*F&F;F&F&*(F/F&)F+\"\")F&FOF&F&*(FGF&F(F&F^oF&F0**FenF&F@F&F5F&FOF&
+F0**FhnF&FFF&FOF&F;F&F&**FhnF&)F+\"\"(F&F3F&F5F&F&*(\"#?F&F*F&F-F&F0*(
+\"$+\"F&F>F&F-F&F&*(\"#8F&FOF&F-F&F0*(FeoF&F(F&F-F&F0**F_oF&FFF&F3F&F-
+F&F0**F%F&FFF&F'F&F-F&F&**\"$7\"F&F>F&FOF&F-F&F&**FLF&F^oF&FOF&F-F&F0*
+(F(F&F^oF&F-F&F&**\"#mF&FOF&F*F&F-F&F0**F_oF&F*F&F(F&F-F&F&**FhnF&F3F&
+F*F&F-F&F&**F%F&FFF&FOF&F-F&F0**FNF&F>F&F'F&F-F&F0**F_oF&FFF&F(F&F-F&F
+&*,FenF&F3F&F*F&F;F&F-F&F&*,FNF&FKF&F5F&F(F&F-F&F&*,FNF&F3F&F+F&F5F&F-
+F&F0*,\"#aF&FOF&F+F&F5F&F-F&F&*,\"#!)F&FOF&F*F&F;F&F-F&F0*,\"$O\"F&FKF
+&F5F&F3F&F-F&F0*,\"#WF&F>F&F3F&F;F&F-F&F&*,FEF&F>F&FOF&F;F&F-F&F0*,\"#
+#)F&F@F&F5F&F(F&F-F&F&*,\"$;\"F&F@F&F5F&F3F&F-F&F0*,FioF&FOF&FKF&F5F&F
+-F&F&*,\"#;F&F'F&FKF&F5F&F-F&F0*,FdqF&F>F&F'F&F;F&F-F&F&*,FgoF&F'F&F+F
+&F5F&F-F&F0*,FenF&F'F&F*F&F;F&F-F&F&*,F_oF&FFF&FOF&F;F&F-F&F0*,FGF&F@F
+&F5F&FOF&F-F&F&*,F_oF&FdoF&F3F&F5F&F-F&F0*(F/F&F3F&F-F&F&*,FenF&F@F&F5
+F&F'F&F-F&F&*,F/F&F(F&F+F&F5F&F-F&F&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 25 "Further, we will replace " }
+{XPPEDIT 18 0 "cos(theta);" "6#-%$cosG6#%&thetaG" }{TEXT -1 9 " for 0 \+
+< " }{XPPEDIT 18 0 "theta;" "6#%&thetaG" }{TEXT -1 3 " < " }{XPPEDIT 
+18 0 "pi;" "6#%#piG" }{TEXT -1 6 " by  2" }{TEXT 310 1 "y" }{TEXT -1 
+18 "-1 where 0 < y < 1" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 102 "After dividing out any leading (positive) factors, \+
+the ensuing terms ng0, ng1 will be polynomials in  " }{TEXT 311 11 "r,
+ y, a, x," }{TEXT -1 1 " " }{XPPEDIT 18 0 "alpha;" "6#%&alphaG" }
+{TEXT -1 27 "  with integer coefficients" }}{PARA 0 "" 0 "" {TEXT -1 
+2 "  " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 95 "ng0 := subs(cos(th
+eta)=2*y-1,normal(n3g0/(1-a)^2));\nng1 := subs(cos(theta)=2*y-1,normal
+(n3g1));" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$ng0G,D*(\"\"$\"\"\")%\"
+xG\"\"'F()%\"aG\"\"#F(F(**\"\"%F()F*\"\"&F(,&*&F.F(%\"yGF(F(F(!\"\"F(F
+,F(F(*(F+F()F*F0F(F,F(F6*(F'F(F,F()F*F.F(F(**F.F(F,F()F*F'F(F3F(F6**F0
+F(F8F(F,F()F3F.F(F(**F.F(F,F(F*F(F3F(F6**F0F(F,F(F:F(F>F(F(F-F6**F.F(F
+-F(F*F(F3F(F(*(F.F(F)F(F-F(F(*&F-F(F8F(F(*(F.F(F:F(F-F(F6**F+F(F<F(F3F
+(F-F(F(**\"\")F(F1F(F3F(F-F(F(*&F.F(F:F(F6*&\"#5F(F8F(F(" }}{PARA 12 "
+" 1 "" {XPPMATH 20 "6#>%$ng1G,ds**\"#I\"\"\")%\"aG\"\"%F()%\"xG\"\"#F(
+%&alphaGF(F(*&\"#=F(F*F(!\"\"*&\"#7F()F*F.F(F(**\"#AF()F-F+F(F5F(F/F(F
+(**\"$q\"F(F*F(F8F(F/F(F2*(\"#sF()F-\"\"'F(F*F(F(*(F4F(F5F(F,F(F(*(F4F
+(F8F(F5F(F2**\"#[F()F-\"\"(F(F5F(,&*&F.F(%\"yGF(F(F(F2F(F(*(\"#gF(F=F(
+)F*\"\"$F(F2**\"#CF(F5F()F-FKF(FEF(F2*(F<F(F,F(F*F(F(*(\"$?\"F(F*F(F8F
+(F2*&F1F(FJF(F(*(F4F(F=F(F5F(F2*(\"#%)F(FJF(F,F(F2*(\"$3\"F(F8F(FJF(F(
+*(F1F()F-\"\")F(FJF(F(*(F>F(F*F(FYF(F2*(\"#?F(F,F(F/F(F2*(\"$+\"F(F8F(
+F/F(F(*(\"#8F(FJF(F/F(F2*(FDF(F*F(F/F(F2**FZF(F=F(F5F(F/F(F2**F'F(F=F(
+F)F(F/F(F(**\"$7\"F(F8F(FJF(F/F(F(**FKF(FYF(FJF(F/F(F2*(F*F(FYF(F/F(F(
+**\"#mF(FJF(F,F(F/F(F2**FZF(F,F(F*F(F/F(F(**FBF(F5F(F,F(F/F(F(**F'F(F=
+F(FJF(F/F(F2**FIF(F8F(F)F(F/F(F2**FZF(F=F(F*F(F/F(F(*(F1F(F5F(F/F(F(*,
+\"#OF(F5F(F,F()FEF.F(F/F(F(*,FIF(FNF(FEF(F*F(F/F(F(*,FIF(F5F(F-F(FEF(F
+/F(F2*,\"#aF(FJF(F-F(FEF(F/F(F(*,\"#!)F(FJF(F,F(F]pF(F/F(F2*,\"$O\"F(F
+NF(FEF(F5F(F/F(F2*,\"#WF(F8F(F5F(F]pF(F/F(F(*,F<F(F8F(FJF(F]pF(F/F(F2*
+,\"##)F()F-\"\"&F(FEF(F*F(F/F(F(*,\"$;\"F(F[qF(FEF(F5F(F/F(F2*,FinF(FJ
+F(FNF(FEF(F/F(F(*,\"#;F(F)F(FNF(FEF(F/F(F2*,FgpF(F8F(F)F(F]pF(F/F(F(*,
+FgnF(F)F(F-F(FEF(F/F(F2*,F\\pF(F)F(F,F(F]pF(F/F(F(*,FZF(F=F(FJF(F]pF(F
+/F(F2*,F>F(F[qF(FEF(FJF(F/F(F(**FMF(F[qF(FEF(F5F(F2**FMF(F8F(F5F(F]pF(
+F2**FMF(F5F(F,F(F]pF(F(**F4F(F*F(F-F(FEF(F(**F4F(F[qF(FEF(F*F(F2**FMF(
+F[qF(FEF(F)F(F(**F\\pF(FJF(F-F(FEF(F(**FBF(F8F(FJF(F]pF(F2**FMF(F)F(FN
+F(FEF(F2**FMF(F8F(F)F(F]pF(F2**FMF(F)F(F,F(F]pF(F(**F\\pF(F[qF(FEF(FJF
+(F2**FBF(F=F(FJF(F]pF(F(*,FZF(FCF(F5F(FEF(F/F(F2*,F\\pF(F[qF(FEF(F)F(F
+/F(F(*,F1F(F*F(F-F(FEF(F/F(F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 39 "Graphical view for specific values of
+  " }{TEXT 337 1 "a" }{TEXT -1 2 ", " }{XPPEDIT 18 0 "alpha;" "6#%&alp
+haG" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 35 "Note the output has been suppressed" }}{PARA 0 "" 0 "" 
+{TEXT -1 2 "  " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 106 "alpha :=
+ 1.3: j := 4:\nplot3d(subs(a=l1 + (j/10)*(l2-l1),ng1),x=0..m,y=-1..1,a
+xes=boxed):\nalpha := 'alpha':" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 7 "Let (a," }{XPPEDIT 18 0 "alpha;" "6#%&
+alphaG" }{TEXT -1 51 ") belong to the interior of the critical trapezo
+id " }{TEXT 312 1 "T" }{TEXT -1 3 ".  " }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 61 "We have reduced the problem of showin
+g for 0 < x < m and 0 < " }{XPPEDIT 18 0 "theta;" "6#%&thetaG" }{TEXT 
+-1 3 " < " }{XPPEDIT 18 0 "pi;" "6#%#piG" }{TEXT -1 6 " that " }{TEXT 
+314 2 "HH" }{TEXT -1 36 "(c,x,a) has no local extreme values " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 53 "     to t
+he problem of showing for 0 < x < m and 0 < " }{XPPEDIT 18 0 "theta;" 
+"6#%&thetaG" }{TEXT -1 3 " < " }{XPPEDIT 18 0 "pi;" "6#%#piG" }{TEXT 
+-1 22 " that the determinant " }{TEXT 313 5 "detCB" }{TEXT -1 3 " = " 
+}{XPPEDIT 18 0 "Delta[x];" "6#&%&DeltaG6#%\"xG" }{TEXT -1 13 " is non-
+zero " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 53 "
+     to the problem of showing for 0 < x < m and 0 < " }{XPPEDIT 18 0 
+"theta;" "6#%&thetaG" }{TEXT -1 3 " < " }{XPPEDIT 18 0 "pi;" "6#%#piG
+" }{TEXT -1 50 " that each of the terms  ng0,  ng1  is non-zero.  " }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 50 "Specifica
+lly, we will show  for 0 < x < m and 0 < " }{XPPEDIT 18 0 "theta;" "6#
+%&thetaG" }{TEXT -1 3 " < " }{XPPEDIT 18 0 "pi;" "6#%#piG" }{TEXT -1 
+47 " that each of the terms  ng0,  ng1 is negative." }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 31 "    ********  Case ng0 ********" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "collect(ng0
+,y);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,D*&,&*(\"#;\"\"\")%\"aG\"\"#F
+()%\"xGF+F(F(*(F'F()F-\"\"%F(F)F(F(F()%\"yGF+F(F(*&,2*(F0F(F)F(F-F(!\"
+\"*(\"#7F()F-\"\"$F(F*F(F(*(F'F(F)F(F,F(F6*(\"\")F()F-\"\"&F(F)F(F(*(F
+0F(F*F(F-F(F(*(F0F(F)F(F9F(F6*(F'F(F>F(F*F(F(*(F'F(F/F(F)F(F6F(F2F(F(*
+(F:F()F-\"\"'F(F)F(F(*(F0F(F>F(F)F(F6F*F6*(F+F(F/F(F)F(F6*(\"\"(F(F)F(
+F,F(F(*(F+F(F)F(F9F(F(*&F*F(F/F(F(*(FFF(F9F(F*F(F6*&\"#5F(F/F(F(*(F+F(
+F)F(F-F(F(*(F=F(F>F(F*F(F6*&F+F(F,F(F6*(F+F(FEF(F*F(F(*(F+F(F*F(F-F(F6
+*(F+F(F,F(F*F(F6" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 40 "Clearly ng0 concave up as function of y " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 59 "c
+2 := factor(coeff(ng0,y,2));\nc1 := factor(coeff(ng0,y,1));" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#c2G,$**\"#;\"\"\")%\"aG\"\"#F()%\"xGF+F(,
+&F(F(*$F,F(F(F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#c1G,$**\"\"%\"
+\"\"%\"aGF(%\"xGF(,2F)!\"\"*&\"\"$F()F*\"\"#F(F(*(F'F(F)F(F*F(F,*(F0F(
+F)F()F*F'F(F(F(F(*&F/F(F)F(F,*&F'F(F3F(F(*(F'F()F*F.F(F)F(F,F(F(" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 90 "We
+ will show that  c1 > 0  which will imply that the maximum value of ng
+0 occurs at y = 1\n" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "fact
+or(c1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$**\"\"%\"\"\"%\"aGF&%\"xG
+F&,2F'!\"\"*&\"\"$F&)F(\"\"#F&F&*(F%F&F'F&F(F&F**(F.F&F'F&)F(F%F&F&F&F
+&*&F-F&F'F&F**&F%F&F1F&F&*(F%F&)F(F,F&F'F&F*F&F&" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 26 "c1f := normal(c1/(4*a*x));" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%$c1fG,2%\"aG!\"\"*&\"\"$\"\"\")%\"xG\"\"#F*F**(\"\"
+%F*F&F*F,F*F'*(F-F*F&F*)F,F/F*F*F*F**&F+F*F&F*F'*&F/F*F1F*F**(F/F*)F,F
+)F*F&F*F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "plot3d(c1f,a=0
+..0.4,x=0..0.3,axes=boxed):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+15 "collect(c1f,a);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**&,,\"\"\"!\"
+\"*&\"\"%F&%\"xGF&F'*&\"\"#F&)F*F)F&F&*$)F*F,F&F'*&F)F&)F*\"\"$F&F'F&%
+\"aGF&F&F&F&*&F2F&F/F&F&*&F)F&F-F&F&" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 110 "plot(coeff(c1f,a,1),x=0..0.3):\nss := sturmseq(coeff
+(c1f,a,1),x):\nsturm(ss,x,0,3/10);\nsubs(x=0,coeff(c1f,a,1));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 58 "By the above (Sturm sequence argument) the coefficient of
+ " }{TEXT 338 1 "a" }{TEXT -1 54 " of c1f  has no zeros.  Therefore, t
+he coefficient of " }{TEXT 339 1 "a" }{TEXT -1 76 " of c1f  has consta
+nt sign.\n\nSince the value at x = 0 of the coefficient of " }{TEXT 
+340 1 "a" }{TEXT -1 41 " of c1f  is negative, the coefficient of " }
+{TEXT 341 1 "a" }{TEXT -1 48 " of c1f  is negative.\n\nSince the coeff
+icient of " }{TEXT 315 1 "a" }{TEXT -1 42 " of c1f  negative => c1f is
+ decreasing in " }{TEXT 316 1 "a" }{TEXT -1 1 " " }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "Therefore, the minimum va
+lue of c1f occurs at " }{TEXT 342 1 "a" }{TEXT -1 36 " = 2/5 ;  multip
+ly by 5 to normalize" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 27 "c1fsa := 5*subs(a=2/5,c1f);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%&c1fsaG,,\"\"$\"\"\"*&\"#8F')%\"xG\"\"#F'F'*&
+\"\")F'F+F'!\"\"*&\"#CF')F+\"\"%F'F'*&F.F')F+F&F'F/" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 82 "plot(c1fsa,x=0..0.3):\nss := sturmseq(c1f
+sa,x):\nsturm(ss,x,0,0.3);\nsubs(x=0,c1fsa);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"$" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 200 "B
+y the above (Sturm sequence argument) c1fsa has no zeros.  Therefore, \+
+c1fsa has constant sign.\n\nSince the value at x = 0 of c1fsa is posit
+ive, c1fa is positive => c1f is positive  => c1 is positive \n" }}
+{PARA 0 "" 0 "" {TEXT -1 43 "=> the maximum value of ng0 occurs at y =
+ 1" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 28 "vy := factor(subs(y=1,ng0));" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%#vyG,@*(\"\"$\"\"\")%\"xG\"\"'F()%\"aG\"\"#F(F(*(\"\"
+%F()F*\"\"&F(F,F(F(*(F.F()F*F0F(F,F(!\"\"*(\"\"(F(F,F()F*F.F(F(*(F.F(F
+,F()F*F'F(F5*(F.F(F,F(F*F(F5F-F5*(F.F(F-F(F*F(F(*(F.F(F)F(F-F(F(*&F-F(
+F4F(F(*(F.F(F8F(F-F(F5*(F+F(F:F(F-F(F(*(\"\")F(F1F(F-F(F(*&F.F(F8F(F5*
+&\"#5F(F4F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "collect(vy
+,a);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**&,.*&\"\"$\"\"\")%\"xG\"\"'
+F(F(*&\"\"%F()F*\"\"&F(F(*&\"\"#F()F*F-F(!\"\"*&\"\"(F()F*F1F(F(*&F1F(
+)F*F'F(F3*&F1F(F*F(F3F()%\"aGF1F(F(*&,0F(F3*&F1F(F*F(F(*&F1F(F)F(F(*$F
+2F(F(*&F1F(F6F(F3*&F+F(F8F(F(*&\"\")F(F.F(F(F(F;F(F(*&F1F(F6F(F3*&\"#5
+F(F2F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "plot3d(vy,a=0..
+0.4,x=0..0.3,axes=boxed):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+29 "dvy := collect(diff(vy,a),a);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%$dvyG,2*&,.*&\"\")\"\"\")%\"xG\"\"&F*F**&\"\"'F*)F,F/F*F**&\"\"%F*F,F
+*!\"\"*&F2F*)F,F2F*F3*&\"#9F*)F,\"\"#F*F**&F2F*)F,\"\"$F*F3F*%\"aGF*F*
+F*F3*&F9F*F,F*F**&F9F*F0F*F**$F5F*F**&F9F*F8F*F3*&F/F*F;F*F**&F)F*F+F*
+F*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 29 "We see that dvy is linear in " }{TEXT 343 1 "a" }{TEXT -1 3 ". \+
+ " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 65 "Henc
+e, we can obtain lower and upper bounds for dvy by replacing " }{TEXT 
+344 1 "a" }{TEXT -1 31 " by lower and upper bounds for " }{TEXT 345 1 
+"a" }{TEXT -1 17 ", which are  0 < " }{TEXT 346 1 "a" }{TEXT -1 6 " < \+
+2/5" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 34 "No
+rmalize dvy1 by multiplying by 5" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "dvy0 := subs(a=0,dvy);\ndvy1
+ := 5*subs(a=2/5,dvy);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%dvy0G,0\"
+\"\"!\"\"*&\"\"#F&%\"xGF&F&*&F)F&)F*\"\"'F&F&*$)F*\"\"%F&F&*&F)F&)F*F)
+F&F'*&F-F&)F*\"\"$F&F&*&\"\")F&)F*\"\"&F&F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%%dvy1G,0*&\"#c\"\"\")%\"xG\"\"&F(F(*&\"#AF()F*\"\"'F(
+F(*&\"\"#F(F*F(F(*&\"\"$F()F*\"\"%F(!\"\"*&\"#=F()F*F1F(F(*&F-F()F*F3F
+(F(F+F6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "plot(dvy0,x=0..2
+-sqrt(3)):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 117 "ss := sturms
+eq(dvy0,x):\nsturm(ss,x,0,0.3);\nsubs(x=0,dvy0);\nss := sturmseq(dvy1,
+x):\nsturm(ss,x,0,0.3);\nsubs(x=0,dvy1);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!\"\"" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!\"&" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 285 "B
+y the above (Sturm sequence arguments) each of the terms dvy0 and dvy1
+ has no zeros.  Therefore, each of the terms dvy0 and dvy1 has constan
+t sign.\n\nSince the value at x = 0 of each of the terms dvy0 and dvy1
+ is negative, each of the terms dvy0 and dvy1 is negative => dvy is ne
+gative" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 23 
+"=> vy is decreasing in " }{TEXT 317 1 "a" }{TEXT -1 39 " and the maxi
+mum value of vy occurs at " }{TEXT 318 1 "a" }{TEXT -1 4 " = 0" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 28 "vys := factor(subs(a=0,vy));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>%$vysG,$*(\"\"#\"\"\")%\"xGF'F(,&F(!\"\"*&\"\"&F(F)F(F(F(F(" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "Cl
+early vys is negative on (0,3/10)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 26 "Therefore, ng0 is negative" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 33 "  **********  Case ng1 **********" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "collect(
+ng1,y);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,br**\"#m\"\"\")%\"aG\"\"%F
+&)%\"xG\"\"#F&%&alphaGF&F&*&\"#=F&F(F&!\"\"*&\"#7F&)F(F,F&F&**F%F&)F+F
+)F&F3F&F-F&F&**\"$q\"F&F(F&F5F&F-F&F0*(\"#sF&)F+\"\"'F&F(F&F&*&,<*(\"$
+#>F&F5F&)F(\"\"$F&F0**\"$)GF&F5F&F@F&F-F&F0*(\"#'*F&F'F&F*F&F&**\"$?$F
+&F@F&F*F&F-F&F0**\"$w\"F&F5F&F'F&F-F&F&*(FEF&F5F&F3F&F0**\"$W\"F&F3F&F
+*F&F-F&F&**FIF&F5F&F3F&F-F&F&*(FEF&F3F&F*F&F&**FLF&F'F&F*F&F-F&F&*(F?F
+&F:F&F@F&F&*(FEF&F5F&F'F&F0**\"#KF&F:F&F@F&F-F&F0F&)%\"yGF,F&F&*&,bo**
+FLF&F'F&F*F&F-F&F0**FIF&F5F&F3F&F-F&F0*(FEF&F3F&F*F&F0*(FEF&F5F&F3F&F&
+*(\"#CF&F(F&F+F&F&*(F?F&F:F&F@F&F0*(F9F&)F+\"\"&F&F@F&F0*(\"#[F&FjnF&F
+'F&F&*(F]oF&F3F&)F+FAF&F0**\"#SF&F'F&F+F&F-F&F0**\"$k\"F&FjnF&F(F&F-F&
+F&**\"$K#F&FjnF&F3F&F-F&F0**\"$+#F&F@F&F_oF&F-F&F&**FSF&F'F&F_oF&F-F&F
+0*(F]oF&FjnF&F3F&F0*(F9F&F@F&F+F&F&**F2F&FjnF&F@F&F-F&F&**\"#;F&)F+\"
+\"(F&F3F&F-F&F0**F9F&FjnF&F'F&F-F&F&**\"#OF&F(F&F+F&F-F&F&*(FgnF&FjnF&
+F(F&F0**\"$?\"F&F_oF&F(F&F-F&F&**FepF&F3F&F+F&F-F&F0**\"$3\"F&F@F&F+F&
+F-F&F&**\"$s#F&F3F&F_oF&F-F&F0*(F?F&F5F&F@F&F&*(FEF&F5F&F'F&F&*(FEF&F'
+F&F*F&F0*(F]oF&F'F&F_oF&F0**FCF&F5F&F@F&F-F&F&**FGF&F@F&F*F&F-F&F&**FL
+F&F3F&F*F&F-F&F0**FSF&F:F&F@F&F-F&F&**FIF&F5F&F'F&F-F&F0*(FEF&F^pF&F3F
+&F&F&FUF&F&*(FbpF&F3F&F*F&F&*(FbpF&F5F&F3F&F0*(F2F&F(F&F+F&F0*(F2F&F:F
+&F@F&F0*(FbpF&FjnF&F@F&F&*(FgnF&FjnF&F'F&F0*(F9F&F*F&F(F&F&*(FepF&F(F&
+F5F&F0*(FgnF&F3F&F_oF&F&**\"#?F&F'F&F+F&F-F&F&**\"##)F&FjnF&F(F&F-F&F0
+**\"$;\"F&FjnF&F3F&F-F&F&**\"$+\"F&F@F&F_oF&F-F&F0**F]pF&F'F&F_oF&F-F&
+F&*&F/F&F@F&F&*(FgnF&FjnF&F3F&F&*(FbpF&F@F&F+F&F0**F;F&FjnF&F@F&F-F&F0
+**\"\")F&F^pF&F3F&F-F&F&**FbpF&FjnF&F'F&F-F&F0**F/F&F(F&F+F&F-F&F0*(F2
+F&FjnF&F(F&F&**\"#gF&F_oF&F(F&F-F&F0**FasF&F3F&F+F&F-F&F&**\"#aF&F@F&F
++F&F-F&F0**\"$O\"F&F3F&F_oF&F-F&F&*(F2F&F:F&F3F&F0*(\"#%)F&F@F&F*F&F0*
+(FasF&F5F&F@F&F&*(FgnF&F5F&F'F&F0*(FgnF&F'F&F*F&F&*(F/F&)F+F\\sF&F@F&F
+&*(F;F&F(F&F^tF&F0*(FgnF&F'F&F_oF&F&*(F_rF&F*F&F-F&F0*(FerF&F5F&F-F&F&
+*(\"#8F&F@F&F-F&F0*(F_pF&F(F&F-F&F0**F\\sF&F:F&F3F&F-F&F0**\"#IF&F:F&F
+'F&F-F&F&**FaoF&F5F&F@F&F-F&F&**FAF&F^tF&F@F&F-F&F0*(F(F&F^tF&F-F&F&**
+\"$Y\"F&F@F&F*F&F-F&F0**F\\sF&F*F&F(F&F-F&F&**FisF&F3F&F*F&F-F&F&**\"#
+QF&F:F&F@F&F-F&F0**F]pF&F5F&F'F&F-F&F0**F\\sF&F:F&F(F&F-F&F&*(F/F&F3F&
+F-F&F&*(F]oF&F^pF&F3F&F0" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 94 "We will show that the quadratic coefficie
+nt of ng1 (in y) is positive => ng1 concave up (in y)" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "cy2 := f
+actor(coeff(ng1,y,2));" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$cy2G,$**
+\"#;\"\"\")%\"aG\"\"#F()%\"xGF+F(,<*(\"#7F(F,F(F*F(F(**\"#=F(F,F(F*F(%
+&alphaGF(F(*&\"\"'F(F)F(!\"\"*(\"#?F(F*F(F3F(F(**\"#6F(F)F(F,F(F3F(F6*
+&F5F(F,F(F(*&\"\"*F(F3F(F6*(F:F(F,F(F3F(F6F5F6*(F=F(F)F(F3F(F6*(F0F(F*
+F()F-\"\"%F(F6*(F5F(F)F(F,F(F(**F+F(F*F(FAF(F3F(F(F(F6" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 60 "Normalize
+ cy2 by dividing out the leading (positive) factors" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "cy2f := c
+y2/(16*a^2*x^2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%cy2fG,<*(\"#7\"
+\"\")%\"xG\"\"#F(%\"aGF(!\"\"**\"#=F(F)F(F,F(%&alphaGF(F-*&\"\"'F()F,F
++F(F(*(\"#?F(F,F(F0F(F-**\"#6F(F3F(F)F(F0F(F(*&F2F(F)F(F-*&\"\"*F(F0F(
+F(*(F7F(F)F(F0F(F(F2F(*(F:F(F3F(F0F(F(*(F'F(F,F()F*\"\"%F(F(*(F2F(F3F(
+F)F(F-**F+F(F,F(F>F(F0F(F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+58 "plot3d(subs(alpha=1.6,cy2f),a=0..0.4,x=0..0.3,axes=boxed):" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "collect(cy2f,alpha);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,0*&,0*(\"#=\"\"\")%\"xG\"\"#F(%\"aGF(
+!\"\"*&\"#?F(F,F(F-*(\"#6F()F,F+F(F)F(F(\"\"*F(*&F1F(F)F(F(*&F3F(F2F(F
+(*(F+F(F,F()F*\"\"%F(F-F(%&alphaGF(F(*(\"#7F(F)F(F,F(F-*&\"\"'F(F)F(F-
+*&F=F(F2F(F(*(F=F(F2F(F)F(F-F=F(*(F;F(F,F(F7F(F(" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "We see that cy2f i
+s linear in alpha.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 135 "Hence, we can obtain lower and upper bounds for cy2f b
+y replacing alpha by lower and upper bounds for alpha, which are  1 <=
+ alpha <= 2" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 57 "cy2f1 := subs(alpha=1,cy2f);\ncy2f2 := subs(alpha=
+2,cy2f);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&cy2f1G,0*(\"#I\"\"\")%
+\"xG\"\"#F(%\"aGF(!\"\"*&\"#:F()F,F+F(F(*&\"#?F(F,F(F-*(\"\"&F(F0F(F)F
+(F(*&F4F(F)F(F(F/F(*(\"#5F(F,F()F*\"\"%F(F(" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%&cy2f2G,0*(\"#[\"\"\")%\"xG\"\"#F(%\"aGF(!\"\"*&\"#CF
+()F,F+F(F(*&\"#SF(F,F(F-*(\"#;F(F0F(F)F(F(*&F4F(F)F(F(F/F(*(\"\")F(F,F
+()F*\"\"%F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "plot3d(cy2
+f1,a=0..0.4,x=0..0.3,axes=boxed):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 35 "collect(cy2f1,a);\ncollect(cy2f2,a);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,**&,&*&\"\"&\"\"\")%\"xG\"\"#F(F(\"#:F(F()%\"aGF+
+F(F(*&,(\"#?!\"\"*&\"#IF(F)F(F2*&\"#5F()F*\"\"%F(F(F(F.F(F(*&F'F(F)F(F
+(F,F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**&,&*&\"#;\"\"\")%\"xG\"\"#
+F(F(\"#CF(F()%\"aGF+F(F(*&,(\"#S!\"\"*&\"#[F(F)F(F2*&\"\")F()F*\"\"%F(
+F(F(F.F(F(*&F'F(F)F(F(F,F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 52 "We will show that cy2f1 and cy2f2 are dec
+reasing in " }{TEXT 319 1 "a" }{TEXT -1 22 " => minimum occurs at " }
+{TEXT 320 1 "a" }{TEXT -1 6 " = 2/5" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }
+}{PARA 0 "" 0 "" {TEXT -1 71 "i.e., we will show that the derivatives \+
+of cy2f1 and cy2f2 are negative" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "dcy2f1 := diff(cy2f1,a);\ndc
+y2f2 := diff(cy2f2,a);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'dcy2f1G,,
+*&\"#I\"\"\")%\"xG\"\"#F(!\"\"*&F'F(%\"aGF(F(\"#?F,*(\"#5F(F)F(F.F(F(*
+&F1F()F*\"\"%F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'dcy2f2G,,*&\"#
+[\"\"\")%\"xG\"\"#F(!\"\"*&F'F(%\"aGF(F(\"#SF,*(\"#KF(F)F(F.F(F(*&\"\"
+)F()F*\"\"%F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "collect(
+dcy2f1,a);\ncollect(dcy2f2,a);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**&
+,&\"#I\"\"\"*&\"#5F')%\"xG\"\"#F'F'F'%\"aGF'F'\"#?!\"\"*&F&F'F*F'F/*&F
+)F')F+\"\"%F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**&,&\"#[\"\"\"*&
+\"#KF')%\"xG\"\"#F'F'F'%\"aGF'F'\"#S!\"\"*&F&F'F*F'F/*&\"\")F')F+\"\"%
+F'F'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 41 "Clearly dcy2f1, dcy2f2 are increasing in " }{TEXT 321 1 "a" }
+{TEXT -1 53 " => maximum values of dcy2f1, dcy2f2 occur at a = 2/5" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 63 "dcy2f1s := subs(a=2/5,dcy2f1);\ndcy2f2s := 5*subs(a=2/5,dcy2f2);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%(dcy2f1sG,(*&\"#E\"\"\")%\"xG\"
+\"#F(!\"\"\"\")F,*&\"#5F()F*\"\"%F(F(" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%(dcy2f2sG,(*&\"$w\"\"\"\")%\"xG\"\"#F(!\"\"\"$/\"F,*&\"#SF()F*\"
+\"%F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "plot(dcy2f2s,x=0
+..0.3):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 129 "ss := sturmseq(
+dcy2f1s,x):\nsturm(ss,x,0,1/3);\nsubs(x=0,dcy2f1s);\nss := sturmseq(dc
+y2f2s,x):\nsturm(ss,x,0,1/3);\nsubs(x=0,dcy2f2s);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!\")" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#!$/
+\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 291 "By the above (Sturm sequence arguments) each of the terms dcy2
+f1s and dcy2f2s has no zeros.  Therefore, each of the terms dcy2f1s an
+d dcy2f2s has constant sign.\n\nSince the value at x = 0 of each of th
+e terms dcy2f1s and dcy2f2s is negative, each of the terms dcy2f1s and
+ dcy2f2s is negative " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 94 "Hence, each of the terms dcy2f1 and dcy2f2 are negativ
+e => cy2f1 and cy2f2 are decreasing (in " }{TEXT 347 1 "a" }{TEXT -1 
+1 ")" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 51 "H
+ence, the minimum values of cy2f1, cy2f2 occur at " }{TEXT 322 1 "a" }
+{TEXT -1 6 " = 2/5" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 57 "cy2f1s := subs(a=2/5,cy2f1);\ncy2f2s := sub
+s(a=2/5,cy2f2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'cy2f1sG,(*&#\"#J
+\"\"&\"\"\"*$)%\"xG\"\"#F*F*!\"\"#\"#ZF)F**&\"\"%F*)F-F3F*F*" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%'cy2f2sG,(*&#\"#;\"#D\"\"\"*$)%\"xG\"\"#F*
+F*!\"\"#\"$'HF)F**&#F(\"\"&F**$)F-\"\"%F*F*F*" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 22 "plot(cy2f1s,x=0..0.3):" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 125 "ss := sturmseq(cy2f1s,x):\nsturm(ss,x,0,1/3);\n
+subs(x=0,cy2f1s);\nss := sturmseq(cy2f2s,x):\nsturm(ss,x,0,1/3);\nsubs
+(x=0,cy2f2s);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6##\"#Z\"\"&" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"
+!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"$'H\"#D" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 62 "Therefore, the quadr
+atic coefficient of ng1 (in y) is positive" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 61 "We will show that the linear coeff of ng1 (in y) is posit
+ive " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 22 "cy1 := coeff(ng1,y,1);" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#>%$cy1G,bo**\"$W\"\"\"\")%\"aG\"\"%F()%\"xG\"\"#F(%&alphaGF(!\"
+\"**\"$w\"F()F-F+F()F*F.F(F/F(F0*(\"#'*F(F4F(F,F(F0*(F6F(F3F(F4F(F(*(
+\"#CF(F*F(F-F(F(*(\"$#>F()F-\"\"'F()F*\"\"$F(F0*(\"#sF()F-\"\"&F(F>F(F
+0*(\"#[F(FBF(F)F(F(*(FEF(F4F()F-F?F(F0**\"#SF(F)F(F-F(F/F(F0**\"$k\"F(
+FBF(F*F(F/F(F(**\"$K#F(FBF(F4F(F/F(F0**\"$+#F(F>F(FGF(F/F(F(**\"#KF(F)
+F(FGF(F/F(F0*(FEF(FBF(F4F(F0*(FAF(F>F(F-F(F(**\"#7F(FBF(F>F(F/F(F(**\"
+#;F()F-\"\"(F(F4F(F/F(F0**FAF(FBF(F)F(F/F(F(**\"#OF(F*F(F-F(F/F(F(*(F9
+F(FBF(F*F(F0**\"$?\"F(FGF(F*F(F/F(F(**FinF(F4F(F-F(F/F(F0**\"$3\"F(F>F
+(F-F(F/F(F(**\"$s#F(F4F(FGF(F/F(F0*(F;F(F3F(F>F(F(*(F6F(F3F(F)F(F(*(F6
+F(F)F(F,F(F0*(FEF(F)F(FGF(F0**\"$)GF(F3F(F>F(F/F(F(**\"$?$F(F>F(F,F(F/
+F(F(**F'F(F4F(F,F(F/F(F0**FQF(F<F(F>F(F/F(F(**F2F(F3F(F)F(F/F(F0*(F6F(
+FXF(F4F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "factor(cy1);
+" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,$**\"\"%\"\"\"%\"aGF&%\"xGF&,bo\"
+\"'!\"\"*&F*F&)F(F%F&F&*&\"#=F&)F'\"\"#F&F+*&\"\"*F&%&alphaGF&F+**\"\"
+$F&F-F&F0F&F4F&F+**\"#eF&F'F&F-F&F4F&F&*(\"#CF&)F(F*F&F'F&F+*(F/F&F-F&
+F0F&F&*(F:F&F'F&F(F&F&*(\"#7F&)F(F1F&F'F&F&*(F?F&F'F&F-F&F&*(\"#[F&F0F
+&)F(F6F&F+**\"\")F&)F(\"\"&F&F0F&F4F&F+**\"#WF&)F'F6F&FDF&F4F&F&*(FCF&
+FGF&F0F&F&*(F:F&FKF&F(F&F&*(F:F&FKF&FDF&F+**\"#OF&F'F&F(F&F4F&F&*(F:F&
+FDF&F'F&F+**FJF&FDF&F'F&F4F&F&**\"#!)F&F0F&F(F&F4F&F+**FPF&FKF&F(F&F4F
+&F&**\"#sF&F0F&FDF&F4F&F+*(F?F&FKF&F@F&F&*(F?F&F-F&FKF&F+*(\"#IF&F@F&F
+4F&F+*(\"#TF&F-F&F4F&F+*(\"#5F&FKF&F4F&F&*(FenF&F'F&F4F&F&**F/F&F-F&FK
+F&F4F&F+**FFF&FKF&F@F&F4F&F&**\"#oF&F@F&F'F&F4F&F&**\"#]F&F0F&F@F&F4F&
+F+**F%F&F;F&F'F&F4F&F&*(\"#FF&F0F&F4F&F+F&F+" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 60 "Normalize cy1 by dividi
+ng out the leading (positive) factors" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "cy1f := normal(cy1/(4*a
+*x));" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%%cy1fG,bo\"\"'\"\"\"*&F&F')
+%\"xG\"\"%F'!\"\"*&\"#=F')%\"aG\"\"#F'F'*&\"\"*F'%&alphaGF'F'**\"\"$F'
+F)F'F/F'F4F'F'**\"#eF'F0F'F)F'F4F'F,*(\"#CF')F*F&F'F0F'F'*(F.F'F)F'F/F
+'F,*(F:F'F0F'F*F'F,*(\"#7F')F*F1F'F0F'F,*(F?F'F0F'F)F'F,*(\"#[F'F/F')F
+*F6F'F'**\"\")F')F*\"\"&F'F/F'F4F'F'**\"#WF')F0F6F'FDF'F4F'F,*(FCF'FGF
+'F/F'F,*(F:F'FKF'F*F'F,*(F:F'FKF'FDF'F'**\"#OF'F0F'F*F'F4F'F,*(F:F'FDF
+'F0F'F'**FJF'FDF'F0F'F4F'F,**\"#!)F'F/F'F*F'F4F'F'**FPF'FKF'F*F'F4F'F,
+**\"#sF'F/F'FDF'F4F'F'*(F?F'FKF'F@F'F,*(F?F'F)F'FKF'F'*(\"#IF'F@F'F4F'
+F'*(\"#TF'F)F'F4F'F'*(\"#5F'FKF'F4F'F,*(FenF'F0F'F4F'F,**F.F'F)F'FKF'F
+4F'F'**FFF'FKF'F@F'F4F'F,**\"#oF'F@F'F0F'F4F'F,**\"#]F'F/F'F@F'F4F'F'*
+*F+F'F;F'F0F'F4F'F,*(\"#FF'F/F'F4F'F'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "collect(cy1f,alpha);" }}{PARA 12 "" 1 "" {XPPMATH 20 
+"6#,B*&,J\"\"*\"\"\"*(\"\"$F')%\"xG\"\"%F')%\"aG\"\"#F'F'*(\"#eF'F.F'F
+*F'!\"\"*(\"\")F')F+\"\"&F'F-F'F'*(\"#WF')F.F)F')F+F)F'F2*(\"#OF'F.F'F
++F'F2*(F8F'F:F'F.F'F2*(\"#!)F'F-F'F+F'F'*(F<F'F9F'F+F'F2*(\"#sF'F-F'F:
+F'F'*&\"#IF')F+F/F'F'*&\"#TF'F*F'F'*&\"#5F'F9F'F2*&FDF'F.F'F2*(\"#=F'F
+*F'F9F'F'*(F4F'F9F'FEF'F2*(\"#oF'FEF'F.F'F2*(\"#]F'F-F'FEF'F'*(F,F')F+
+\"\"'F'F.F'F2*&\"#FF'F-F'F'F'%&alphaGF'F'FTF'*&FTF'F*F'F2*&FLF'F-F'F'*
+(\"#CF'F9F'F:F'F'*(FenF'F.F'F+F'F2*(FenF'F:F'F.F'F'*(FenF'FSF'F.F'F'*(
+FLF'F*F'F-F'F2*(\"#7F'F*F'F9F'F'*(F[oF'FEF'F.F'F2*(F[oF'F.F'F*F'F2*(\"
+#[F'F-F'F:F'F'*(F_oF'F5F'F-F'F2*(FenF'F9F'F+F'F2*(F[oF'F9F'FEF'F2" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "We
+ see that cy1f is linear in alpha.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" 
+}}{PARA 0 "" 0 "" {TEXT -1 135 "Hence, we can obtain lower and upper b
+ounds for cy1f by replacing alpha by lower and upper bounds for alpha,
+ which are  1 <= alpha <= 2" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "cy1f1 := subs(alpha=1,cy1f);
+\ncy1f2 := subs(alpha=2,cy1f);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%&c
+y1f1G,J\"#:\"\"\"*&\"#IF'%\"aGF'!\"\"*&F)F')%\"xG\"\"#F'F'*&\"#NF')F.
+\"\"%F'F'*&\"#XF')F*F/F'F'*(\"#?F')F.\"\"'F'F*F'F'*(\"#]F'F6F'F-F'F'*(
+F&F'F2F'F6F'F+*(\"#gF'F*F'F.F'F+*(\"#!)F'F-F'F*F'F+*(\"#qF'F*F'F2F'F+*
+(\"$?\"F'F6F')F.\"\"$F'F'*(FAF'F6F'F.F'F'*&\"#5F')F*FGF'F+*(\"#SF')F.
+\"\"&F'F6F'F+*(F?F'FKF'F.F'F+*(F8F'FKF'FFF'F+*(F8F'FFF'F*F'F+*(F8F'FKF
+'F-F'F+*(F)F'F2F'FKF'F'" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%&cy1f2G,J
+\"#C\"\"\"*&\"#gF'%\"aGF'!\"\"*&F)F')%\"xG\"\"#F'F'*&\"#wF')F.\"\"%F'F
+'*&\"#sF')F*F/F'F'*(\"#;F')F.\"\"'F'F*F'F'*(\"$+\"F'F6F'F-F'F'*(\"#7F'
+F2F'F6F'F+*(\"#'*F'F*F'F.F'F+*(\"$[\"F'F-F'F*F'F+*(\"$G\"F'F*F'F2F'F+*
+(\"$#>F'F6F')F.\"\"$F'F'*(\"$g\"F'F6F'F.F'F'*&\"#?F')F*FHF'F+*(\"#KF')
+F.\"\"&F'F6F'F+*(F@F'FMF'F.F'F+*(\"#kF'FMF'FGF'F+*(FTF'FGF'F*F'F+*(\"#
+GF'FMF'F-F'F+*(\"#[F'F2F'FMF'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 
+1 0 43 "plot3d(cy1f2,a=0..0.4,x=0..0.3,axes=boxed):" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 35 "collect(cy1f1,x);\ncollect(cy1f2,x);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#,6*(\"#?\"\"\")%\"xG\"\"'F&%\"aGF&F&*(
+\"#SF&)F(\"\"&F&)F*\"\"#F&!\"\"*&,**&\"#qF&F*F&F1*&\"#:F&F/F&F1\"#NF&*
+&\"#IF&)F*\"\"$F&F&F&)F(\"\"%F&F&*&,(*&F%F&F;F&F1*&\"$?\"F&F/F&F&*&F%F
+&F*F&F1F&)F(F<F&F&*&,*F:F&*&\"#]F&F/F&F&*&F%F&F;F&F1*&\"#!)F&F*F&F1F&)
+F(F0F&F&*&,(*&\"#gF&F;F&F1*&FQF&F*F&F1*&FLF&F/F&F&F&F(F&F&F7F&*&F:F&F*
+F&F1*&\"#XF&F/F&F&*&\"#5F&F;F&F1" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,6
+*(\"#;\"\"\")%\"xG\"\"'F&%\"aGF&F&*(\"#KF&)F(\"\"&F&)F*\"\"#F&!\"\"*&,
+**&\"$G\"F&F*F&F1*&\"#7F&F/F&F1\"#wF&*&\"#[F&)F*\"\"$F&F&F&)F(\"\"%F&F
+&*&,(*&\"#kF&F;F&F1*&\"$#>F&F/F&F&*&FBF&F*F&F1F&)F(F<F&F&*&,*\"#gF&*&
+\"$+\"F&F/F&F&*&\"#GF&F;F&F1*&\"$[\"F&F*F&F1F&)F(F0F&F&*&,(*&\"#'*F&F;
+F&F1*&FTF&F*F&F1*&\"$g\"F&F/F&F&F&F(F&F&\"#CF&*&FIF&F*F&F1*&\"#sF&F/F&
+F&*&\"#?F&F;F&F1" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 2 "  " }}{PARA 0 
+"" 0 "" {TEXT -1 76 "We will construct a lower bound for the constant \+
+coefficient (in x) of cy1f1" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 66 "lb := 15-30*a+40*a^2-10*a^3;
+\nplot([coeff(cy1f1,x,0),lb],a=0..0.4);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#lbG,*\"#:\"\"\"*&\"#IF'%\"aGF'!\"\"*&\"#SF')F*\"\"#F'F'*&\"#5
+F')F*\"\"$F'F+" }}{PARA 13 "" 1 "" {GLPLOT2D 476 476 476 {PLOTDATA 2 "
+6&-%'CURVESG6$7S7$$\"\"!F)$\"#:F)7$$\"3%fmmmmh)=()!#?$\"3I?UnN[=u9!#;7
+$$\"3YLLLe'40j\"!#>$\"3Gf]AGnF_9F27$$\"3#ommm6hO[#F6$\"3))H.].2DG9F27$
+$\"3gmmm;yYULF6$\"3#))[UT1;ZS\"F27$$\"3ALLLeF>(>%F6$\"31GF))pw$>Q\"F27
+$$\"3mmmm\">K'*)\\F6$\"3'*>!eM?!Rh8F27$$\"3l*****\\Kd,\"eF6$\"3P'4S!4-
+pS8F27$$\"3Immm\"fX(emF6$\"3j3si#*[*)>8F27$$\"3')*****\\U7Y](F6$\"3kmn
+'oh#y*H\"F27$$\"3UMLLL/pu$)F6$\"3'**=PB(Gtz7F27$$\"30nmm;c0T\"*F6$\"3g
+3A(*=ggi7F27$$\"34+++I,Q+5!#=$\"3W&*)y$Q!>RC\"F27$$\"3#*******\\*3q3\"
+Fco$\"3p:PN)R%yD7F27$$\"3++++q=\\q6Fco$\"3`!G')*46!*37F27$$\"3mmm;fBIY
+7Fco$\"3U13Rz02%>\"F27$$\"3ALLLj$[kL\"Fco$\"3'y&fa3F0x6F27$$\"3ULLL`Q
+\"GT\"Fco$\"3K\"z26udJ;\"F27$$\"3'*****\\s]k,:Fco$\"3%fM(RoDfZ6F27$$\"
+35LLL`dF!e\"Fco$\"3Z\"[8?6[V8\"F27$$\"3/++]sgam;Fco$\"3Kz%G]Y*Q?6F27$$
+\"3-++]<ep[<Fco$\"3oVcz?5l26F27$$\"3WLLLe/TM=Fco$\"35GT!ftJ\\4\"F27$$
+\"3JLL$eDBJ\">Fco$\"37'f;6uiP3\"F27$$\"3ommmTc-)*>Fco$\"3aQKLn2Es5F27$
+$\"3cmm;f`@'3#Fco$\"35G<=A)341\"F27$$\"3'*****\\nZ)H;#Fco$\"3kn+]yw^^5
+F27$$\"3ommmJy*eC#Fco$\"3[qe#=y%)=/\"F27$$\"3!)******R^bJBFco$\"3S\"G
+\"o(\\&[K5F27$$\"3#******\\5a`T#Fco$\"3T<2#R%)HQ-\"F27$$\"3%)****\\7RV
+'\\#Fco$\"3*pANwzff,\"F27$$\"3')*****\\@fke#Fco$\"3#[()Q@7*z25F27$$\"3
+#GLLL&4NnEFco$\"3+Yj/*R\")4+\"F27$$\"3E+++],s`FFco$\"3LQgsZUOU**!#<7$$
+\"3[mm;zM)>$GFco$\"35`Jk&[zf))*F_v7$$\"3/+++qfa<HFco$\"3SYx,B>XH)*F_v7
+$$\"3!HLLeg`!)*HFco$\"3/G3f336\"y*F_v7$$\"3?++]#G2A3$Fco$\"3ihF!o=pbt*
+F_v7$$\"3GLLL$)G[kJFco$\"3o9-4>*Rfp*F_v7$$\"3g****\\7yh]KFco$\"3gL2Fz<
+gf'*F_v7$$\"3*pmmm)fdLLFco$\"3!oE$zl([&H'*F_v7$$\"3bmmm,FT=MFco$\"37Hm
+Lcrz.'*F_v7$$\"3gLL$e#pa-NFco$\"3;*zA9G)>$e*F_v7$$\"3))******Rv&)zNFco
+$\"3+kLcNgdo&*F_v7$$\"3_LLLGUYoOFco$\"3slvb(Q_ob*F_v7$$\"3Smmm1^rZPFco
+$\"3'p?$\\;,*3b*F_v7$$\"3K++]sI@KQFco$\"3/M\"RV6.#\\&*F_v7$$\"3)*****
+\\2%)38RFco$\"3%\\H'4q)p?b*F_v7$$\"3A+++++++SFco$\"3]++++++g&*F_v-%'CO
+LOURG6&%$RGBG$\"#5!\"\"F(F(-F$6$7SF'7$F-$\"3CR)*REo9u9F27$F4$\"3Sjx8+Q
+9_9F27$F:$\"3$z?t[FUzU\"F27$F?$\"37;sefu:/9F27$FD$\"3#y>I&[o0\"Q\"F27$
+FI$\"3;9w)>QX,O\"F27$FN$\"3wLIj7B+R8F27$FS$\"3h\"[%)z%zn<8F27$FX$\"3_$
+H%[cm'pH\"F27$Fgn$\"3m\"[W.5EiF\"F27$F\\o$\"3%*eG3u!G%e7F27$Fao$\"3Q,k
+NO_\"*Q7F27$Fgo$\"33:o1ck()>7F27$F\\p$\"36+w*Q&30-7F27$Fap$\"3Q%[Q:B/j
+=\"F27$Ffp$\"3;wmSPA7o6F27$F[q$\"3GQp=Ev<`6F27$F`q$\"3PG&y(yyJO6F27$Fe
+q$\"3D:1ta<'=7\"F27$Fjq$\"3Z`'pfe-l5\"F27$F_r$\"3)Q$\\[N8O#4\"F27$Fdr$
+\"3S9fDFk5y5F27$Fir$\"3OWl:QDYl5F27$F^s$\"3)4X4]B+B0\"F27$Fcs$\"3h8wb
+\\t9R5F27$Fhs$\"3d#)y(H;D\"G5F27$F]t$\"3IXWZ'\\km,\"F27$Fbt$\"3Pzp#3v/
+`+\"F27$Fgt$\"3wb,em;gY**F_v7$F\\u$\"3Un#yB')))z%)*F_v7$Fau$\"3.Fe%yl-
+Nu*F_v7$Ffu$\"3y[50Nf2a'*F_v7$F[v$\"3aP-]9b@j&*F_v7$Fav$\"3w2&HV'H(\\[
+*F_v7$Ffv$\"3W$ek')>[QS*F_v7$F[w$\"3n;$=u`%pJ$*F_v7$F`w$\"3afz=+\"p0E*
+F_v7$Few$\"3mKZ9BBC&>*F_v7$Fjw$\"36@O7rfFJ\"*F_v7$F_x$\"3KN#\\GK7R2*F_
+v7$Fdx$\"3pJ3R'))>&>!*F_v7$Fix$\"3wr&RI`1)p*)F_v7$F^y$\"3S@'G_.2y#*)F_
+v7$Fcy$\"3)G]Hy*3(R)))F_v7$Fhy$\"3'*HjX!p@'[))F_v7$F]z$\"3tSroi-\"\\\"
+))F_v7$Fbz$\"3s]2&e#oX'y)F_v7$Fgz$\"3c,+++++g()F_v-F\\[l6&F^[lF(F_[lF(
+-%+AXESLABELSG6$Q\"a6\"Q!F[el-%%VIEWG6$;F($\"\"%Fa[l%(DEFAULTG" 1 2 0 
+1 10 0 2 9 1 4 2 1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve 2" 
+}}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 90 "ss := sturmseq(coeff(cy1
+f1,x,0)-lb,a):\nsturm(ss,a,0,2/5);\nsubs(a=1/4,coeff(cy1f1,x,0)-lb);" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6##\"\"&\"#;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "
+" 0 "" {TEXT -1 123 "By the above (Sturm sequence argument)  coeff(cy1
+f1,x,0)-lb  has no zeros; therefore, coeff(cy1f1,x,0)-lb has constant \+
+sign" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 19 "S
+ince the value at " }{TEXT 348 1 "a" }{TEXT -1 78 " = 1/4 of coeff(cy1
+f1,x,0)-lb is positive, coeff(cy1f1,x,0)-lb is positive.  \n" }}{PARA 
+0 "" 0 "" {TEXT -1 24 "=> coeff(cy1f1,x,0) > lb" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "cy1g1 := cy
+1f1 - coeff(cy1f1,x,0) + lb;" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%&cy1
+g1G,J\"#:\"\"\"*&\"#IF'%\"aGF'!\"\"*&F)F')%\"xG\"\"#F'F'*&\"#NF')F.\"
+\"%F'F'*&\"#SF')F*F/F'F'*(\"#?F')F.\"\"'F'F*F'F'*(\"#]F'F6F'F-F'F'*(F&
+F'F2F'F6F'F+*(\"#gF'F*F'F.F'F+*(\"#!)F'F-F'F*F'F+*(\"#qF'F*F'F2F'F+*(
+\"$?\"F'F6F')F.\"\"$F'F'*(FAF'F6F'F.F'F'*&\"#5F')F*FGF'F+*(F5F')F.\"\"
+&F'F6F'F+*(F?F'FKF'F.F'F+*(F8F'FKF'FFF'F+*(F8F'FFF'F*F'F+*(F8F'FKF'F-F
+'F+*(F)F'F2F'FKF'F'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 29 "By construction cy1f1 > cy1g1" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 76 "We will show cy1g1, cy1
+f2 are positive which will imply that cy1 is positive" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "plot3d(c
+y1f2,x=0..0.3,a=0..0.4,axes=boxed):" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "We will show that cy1g1, cy1f2 \+
+are decreasing in " }{TEXT 323 1 "a" }{TEXT -1 41 " and that the minim
+um values are positive" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 63 "d1 := collect(diff(cy1g1,a),a);\nd2
+ := collect(diff(cy1f2,a),a);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#d1
+G,2*&,,*&\"$!=\"\"\"%\"xGF*!\"\"*&\"#gF*)F+\"\"$F*F,\"#IF,*&F.F*)F+\"
+\"#F*F,*&\"#!*F*)F+\"\"%F*F*F*)%\"aGF4F*F**&,.*&F1F*F7F*F,*&\"$+\"F*F3
+F*F**&\"$S#F*F/F*F**&\"$g\"F*F+F*F*\"#!)F**&FDF*)F+\"\"&F*F,F*F:F*F*F1
+F,*&\"#?F*F/F*F,*&FIF*)F+\"\"'F*F**&\"#qF*F7F*F,*&F.F*F+F*F,*&FDF*F3F*
+F," }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#d2G,2*&,,*&\"$)G\"\"\"%\"xGF*
+!\"\"*&\"$#>F*)F+\"\"$F*F,\"#gF,*&\"#%)F*)F+\"\"#F*F,*&\"$W\"F*)F+\"\"
+%F*F*F*)%\"aGF5F*F**&,.*&\"#CF*F8F*F,*&\"$+#F*F4F*F**&\"$%QF*F/F*F**&
+\"$?$F*F+F*F*F7F**&\"#kF*)F+\"\"&F*F,F*F;F*F*F1F,*&FGF*F/F*F,*&\"#;F*)
+F+\"\"'F*F**&\"$G\"F*F8F*F,*&\"#'*F*F+F*F,*&\"$[\"F*F4F*F," }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 169 "tf := d1:\ncf2 := coeff(tf,a,2):\n
+ss := sturmseq(cf2,x):\nsturm(ss,x,0,3/10);\nsubs(x=0,cf2);\ncf1 := co
+eff(tf,a,1):\nss := sturmseq(cf1,x):\nsturm(ss,x,0,3/10);\nsubs(x=0,cf
+1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#!#I" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"#!)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 37 "We will show that d1, d2 are negativ
+e" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 97 "    \+
+First, Sturm sequence arguments (above) imply that the quadratic coeff
+icients of d1, d2  (in " }{TEXT 324 1 "a" }{TEXT -1 37 ") are negative
+ => d1, d2 concave down" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 
+0 "" {TEXT -1 102 "    Second, Sturm sequence arguments (above) imply \+
+that the linear coefficients of d1, d2 are positive" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 114 "    Third, we will sho
+w that the vertex occurs past 2/5, i.e., we show that  4*coeff(dj,a,2)
+ + 5*coeff(dj,a,1) > 0" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 81 "v1 := 4*coeff(d1,a,2) + 5*coeff(d1,
+a,1);\nv2 := 4*coeff(d2,a,2) + 5*coeff(d2,a,1);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#v1G,.*&\"#!)\"\"\"%\"xGF(F(*&\"$g*F()F)\"\"$F(F(\"$!
+GF(*&\"$g#F()F)\"\"#F(F(*&\"$5#F()F)\"\"%F(F(*&\"$+%F()F)\"\"&F(!\"\"
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#v2G,.*&\"$[%\"\"\"%\"xGF(F(*&\"
+%_6F()F)\"\"$F(F(\"$![F(*&\"$k'F()F)\"\"#F(F(*&\"$c%F()F)\"\"%F(F(*&\"
+$?$F()F)\"\"&F(!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 128 "pl
+ot(v1,x=0..0.3):\nss := sturmseq(v1,x):\nsturm(ss,x,0,0.3);\nsubs(x=0,
+v1);\nss := sturmseq(v2,x):\nsturm(ss,x,0,0.3);\nsubs(x=0,v2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#\"$!G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"$![" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 253 "By the above (Sturm sequence argument) each of
+ the terms v1 and v2 has no zeros.  Therefore, each of the terms v1 an
+d v2 has constant sign.\n\nSince the value at x = 0 of each of the ter
+ms v1 and v2 is positive, each of the terms v1 and v2 is positive.  \n
+" }}{PARA 0 "" 0 "" {TEXT -1 53 "Hence, the vertices of d1 and d2 lie \+
+to the right of " }{TEXT 349 1 "a" }{TEXT -1 6 " = 2/5" }}{PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 51 "Therefore, the maxim
+um values of  d1, d2 occurs at " }{TEXT 325 1 "a" }{TEXT -1 6 " = 2/5
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 45 "d1s := subs(a=2/5,d1);\nd2s := subs(a=2/5,d2);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$d1sG,0*&#\"$C\"\"\"&\"\"\"%\"xGF*!
+\"\"*&#\"$K$F)F**$)F+\"\"$F*F*F*#\"#9F)F,*&#\"$[#F)F**$)F+\"\"#F*F*F,*
+&#\"$Q$F)F**$)F+\"\"%F*F*F,*&\"#KF*)F+F)F*F,*&\"#?F*)F+\"\"'F*F*" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$d2sG,0*&#\"$_$\"#D\"\"\"%\"xGF*!\"
+\"*&#\"%s9F)F**$)F+\"\"$F*F*F*\"#7F,*&#\"%O?F)F**$)F+\"\"#F*F*F,*&#\"%
+kGF)F**$)F+\"\"%F*F*F,*&#\"$G\"\"\"&F**$)F+FCF*F*F,*&\"#;F*)F+\"\"'F*F
+*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 134 "plot(d1s,x=0..0.3):\n
+ss := sturmseq(d1s,x):\nsturm(ss,x,0,0.3);\nsubs(x=0,d1s);\nss := stur
+mseq(d2s,x):\nsturm(ss,x,0,0.3);\nsubs(x=0,d2s);\n" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##!#9\"\"&" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#!#7" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 256 "By the above (Sturm sequence argument) each of the terms
+ d1s and d2s has no zeros.  Therefore, each of the terms d1s and d2s h
+as constant sign.\n\nSince the value at x = 0 each of the terms d1s an
+d d2s is negative, each of the terms d1s and d2s is negative.\n" }}
+{PARA 0 "" 0 "" {TEXT -1 49 "Therefore, the derivatives d1 and d2 are \+
+negative" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 50 "Therefore, we have cy1g1,
+ cy1f2 are decreasing in " }{TEXT 326 1 "a" }{TEXT -1 1 " " }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 38 "Hence,  their min
+imum values occur at " }{TEXT 350 1 "a" }{TEXT -1 6 " = 2/5" }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "c
+y1g1s := subs(a=2/5,cy1g1);\ncy1f2s := subs(a=2/5,cy1f2);" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%'cy1g1sG,0#\"$>#\"#D\"\"\"*&#\"$=\"F(F)*$)%\"
+xG\"\"#F)F)F)*&#\"$j\"F(F)*$)F/\"\"%F)F)F)*&\"\")F))F/\"\"'F)F)*&#\"$w
+$F(F)F/F)!\"\"*&#\"$[#F(F)*$)F/\"\"$F)F)F)*&#\"#K\"\"&F)*$)F/FHF)F)F>
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'cy1f2sG,0#\"$c#\"#D\"\"\"*&#\"%
+w=\"$D\"F)*$)%\"xG\"\"#F)F)F)*&#\"%WKF-F)*$)F0\"\"%F)F)F)*&#\"#K\"\"&F
+)*$)F0\"\"'F)F)F)*&#\"%oBF-F)F0F)!\"\"*&#\"$G\"F-F)*$)F0\"\"$F)F)F)*&#
+FEF(F)*$)F0F;F)F)FB" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 126 "ss \+
+:= sturmseq(cy1g1s,x):\nsturm(ss,x,0,0.3);\nsubs(x=0,cy1g1s);\nss := s
+turmseq(cy1f2s,x):\nsturm(ss,x,0,0.3);\nsubs(x=0,cy1f2s);\n" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"
+$>#\"#D" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6##\"$c#\"#D" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 286 "By the above (Sturm sequence arguments) \+
+each of the terms cy1g1s and cy1f2s has no zeros.  Therefore, each of \+
+the terms cy1g1s and cy1f2s has constant sign.\n\nSince the value at x
+ = 0 of each of the terms cy1g1s and cy1f2s is positive, each of the t
+erms cy1g1s and cy1f2s is positive.  \n" }}{PARA 0 "" 0 "" {TEXT -1 
+58 "Hence, the mininum values of cy1g1 and cy1f2  are positive" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 27 "Therefore
+, cy1 is positive." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 134 "Since cy2 and cy
+1 are positive (ng1 as a quadratic in y is concave up and increasing),
+ we have that the maximum of ng1 occurs at y = 1" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "cys := subs
+(y=1,ng1);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$cysG,^r**\"#m\"\"\")%
+\"aG\"\"%F()%\"xG\"\"#F(%&alphaGF(F(*&\"#=F(F*F(!\"\"*&\"#7F()F*F.F(F(
+**F'F()F-F+F(F5F(F/F(F(**\"$q\"F(F*F(F7F(F/F(F2*(\"#sF()F-\"\"'F(F*F(F
+(*(\"#OF(F5F(F,F(F(*(F?F(F7F(F5F(F2*(F4F(F*F(F-F(F(*(F4F(F<F()F*\"\"$F
+(F2*(F?F()F-\"\"&F(FCF(F2*(\"#CF(FFF(F)F(F(*(F;F(F,F(F*F(F(*(\"$?\"F(F
+*F(F7F(F2*(FIF(F5F()F-FDF(F2**\"#?F(F)F(F-F(F/F(F2**\"##)F(FFF(F*F(F/F
+(F(**\"$;\"F(FFF(F5F(F/F(F2**\"$+\"F(FCF(FNF(F/F(F(**\"#;F(F)F(FNF(F/F
+(F2*&F1F(FCF(F(*(FIF(FFF(F5F(F2*(F?F(FCF(F-F(F(**F=F(FFF(FCF(F/F(F(**
+\"\")F()F-\"\"(F(F5F(F/F(F2**F?F(FFF(F)F(F/F(F(**F1F(F*F(F-F(F/F(F(*(F
+4F(FFF(F*F(F2**\"#gF(FNF(F*F(F/F(F(**F_oF(F5F(F-F(F/F(F2**\"#aF(FCF(F-
+F(F/F(F(**\"$O\"F(F5F(FNF(F/F(F2*(F4F(F<F(F5F(F2*(\"#%)F(FCF(F,F(F2*(F
+_oF(F7F(FCF(F(*(FIF(F7F(F)F(F2*(FIF(F)F(F,F(F(*(F1F()F-FhnF(FCF(F(*(F=
+F(F*F(F\\pF(F2*(FIF(F)F(FNF(F2*(FPF(F,F(F/F(F2*(FVF(F7F(F/F(F(*(\"#8F(
+FCF(F/F(F2*(FjnF(F*F(F/F(F2**FhnF(F<F(F5F(F/F(F2**\"#IF(F<F(F)F(F/F(F(
+**\"#SF(F7F(FCF(F/F(F(**FDF(F\\pF(FCF(F/F(F2*(F*F(F\\pF(F/F(F(**\"$Y\"
+F(FCF(F,F(F/F(F2**FhnF(F,F(F*F(F/F(F(**FgoF(F5F(F,F(F/F(F(**\"#QF(F<F(
+FCF(F/F(F2**FXF(F7F(F)F(F/F(F2**FhnF(F<F(F*F(F/F(F(*(F1F(F5F(F/F(F(*(
+\"#[F(FinF(F5F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "collec
+t(cys,alpha);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#,V*&\"#=\"\"\"%\"aGF&
+!\"\"*&\"#7F&)F'\"\"#F&F&*(\"#sF&)%\"xG\"\"'F&F'F&F&*(\"#OF&F+F&)F0F,F
+&F&*(F3F&)F0\"\"%F&F+F&F(*(F*F&F'F&F0F&F&*(F*F&F/F&)F'\"\"$F&F(*(F3F&)
+F0\"\"&F&F:F&F(*(\"#CF&F=F&)F'F7F&F&*(F.F&F4F&F'F&F&*&,\\o*&\"\"(F&F'F
+&F(*&\"#?F&F4F&F(*&\"$+\"F&F6F&F&*&F%F&F+F&F&*(\"\")F&F/F&F'F&F&*(\"#%
+)F&F+F&F4F&F&*(\"#mF&F6F&F+F&F&*(F%F&F'F&F0F&F&*(\"#QF&F/F&F:F&F(*(F1F
+&F=F&F:F&F&*(F3F&F=F&FAF&F&*(FMF&F4F&F'F&F&*(\"$q\"F&F'F&F6F&F(*(\"$O
+\"F&F+F&)F0F;F&F(*(\"#gF&F+F&F0F&F(*&\"#8F&F:F&F(*(\"$;\"F&F=F&F+F&F(*
+(\"#aF&F:F&F0F&F&*(FJF&F:F&FfnF&F&*(FHF&FAF&F0F&F(*(FhnF&FfnF&F'F&F&*(
+\"##)F&F=F&F'F&F&*(\"#IF&F/F&FAF&F&*(FMF&F/F&F+F&F(*(\"$Y\"F&F:F&F4F&F
+(*(\"#SF&F6F&F:F&F&*(\"#;F&F6F&FAF&F(*(FQF&FAF&F4F&F&*(F;F&)F0FMF&F:F&
+F(*&F'F&F_pF&F&*(F\\pF&FAF&FfnF&F(*(FMF&)F0FFF&F+F&F(F&%&alphaGF&F&*(
+\"$?\"F&F'F&F6F&F(*(F@F&F+F&FfnF&F(*&F%F&F:F&F&*(F@F&F=F&F+F&F(*(F3F&F
+:F&F0F&F&*(F*F&F=F&F'F&F(*(F*F&F/F&F+F&F(*(FOF&F:F&F4F&F(*(FhnF&F6F&F:
+F&F&*(F@F&F6F&FAF&F(*(F@F&FAF&F4F&F&*(F%F&F_pF&F:F&F&*(F1F&F'F&F_pF&F(
+*(F@F&FAF&FfnF&F(*(\"#[F&FcpF&F+F&F&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 37 "We see that cys is linear in al
+pha.  " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 
+134 "Hence, we can obtain lower and upper bounds for cys by replacing \+
+alpha by lower and upper bounds for alpha, which are  1 <= alpha <= 2
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 71 "cys_1 := factor(subs(alpha=1,cys));\ncys_2 := factor(
+subs(alpha=2,cys));" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%&cys_1G,\\o*&
+\"#D\"\"\"%\"aGF(!\"\"*&\"#?F()%\"xG\"\"#F(F**&\"$+\"F()F.\"\"%F(F(*&
+\"#IF()F)F/F(F(*(\"#!)F()F.\"\"'F(F)F(F(*(\"$?\"F(F6F(F-F(F(*(F5F(F2F(
+F6F(F(*(F5F(F)F(F.F(F(*(\"#]F(F9F()F)\"\"$F(F**(F5F()F.\"\"&F(FAF(F**(
+\"#gF(FDF()F)F3F(F(*(F8F(F-F(F)F(F(*(\"$!HF(F)F(F2F(F**(\"$g\"F(F6F()F
+.FBF(F**(FGF(F6F(F.F(F**&FEF(FAF(F(*(\"$S\"F(FDF(F6F(F**(\"#!*F(FAF(F.
+F(F(*(F1F(FAF(FNF(F(*(F,F(FHF(F.F(F**(FGF(FNF(F)F(F(*(\"#qF(FDF(F)F(F(
+*(F5F(F9F(FHF(F(*(F,F(F9F(F6F(F**(\"$I#F(FAF(F-F(F**(F1F(F2F(FAF(F(*(
+\"#SF(F2F(FHF(F**(FTF(FHF(F-F(F(*(\"#:F()F.\"\")F(FAF(F(*(FEF(F)F(F^oF
+(F**(FjnF(FHF(FNF(F**(FjnF()F.\"\"(F(F6F(F(" }}{PARA 12 "" 1 "" 
+{XPPMATH 20 "6#>%&cys_2G,\\o*&\"#K\"\"\"%\"aGF(!\"\"*&\"#SF()%\"xG\"\"
+#F(F**&\"$+#F()F.\"\"%F(F(*&\"#[F()F)F/F(F(*(\"#))F()F.\"\"'F(F)F(F(*(
+\"$/#F(F6F(F-F(F(*(\"#'*F(F2F(F6F(F(*(F5F(F)F(F.F(F(*(F8F(F9F()F)\"\"$
+F(F**(\"#CF()F.\"\"&F(FAF(F**(F>F(FEF()F)F3F(F(*(F8F(F-F(F)F(F(*(\"$g%
+F(F)F(F2F(F**(\"$'HF(F6F()F.FBF(F**(\"$?\"F(F6F(F.F(F**&\"\")F(FAF(F**
+(\"$c#F(FEF(F6F(F**(\"$W\"F(FAF(F.F(F(*(F1F(FAF(FNF(F(*(F,F(FHF(F.F(F*
+*(FPF(FNF(F)F(F(*(\"$_\"F(FEF(F)F(F(*(\"#gF(F9F(FHF(F(*(\"#GF(F9F(F6F(
+F**(\"$w$F(FAF(F-F(F**(\"$S\"F(F2F(FAF(F(*(\"#cF(F2F(FHF(F**(\"$c\"F(F
+HF(F-F(F(*(\"#7F()F.FRF(FAF(F(*(F3F(F)F(FdoF(F**(F_oF(FHF(FNF(F**(F'F(
+)F.\"\"(F(F6F(F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 43 "plot3d(
+cys_1,a=0..0.4,x=0..0.3,axes=boxed):" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 35 "collect(cys_1,a);\ncollect(cys_2,a);" }}{PARA 12 "" 
+1 "" {XPPMATH 20 "6#,.*&,.*&\"#I\"\"\")%\"xG\"\"'F(F(*&\"#?F(F*F(!\"\"
+*&\"#SF()F*\"\"%F(F.*&\"#gF()F*\"\"&F(F(*&F0F()F*\"\"$F(F.*&\"#!*F()F*
+\"\"#F(F(F()%\"aGF2F(F(*&,2F6F(*&F'F(F5F(F.*&\"$+\"F(F8F(F(*&F;F(F*F(F
+(*&\"$I#F(F<F(F.*&\"#]F(F)F(F.*&\"#:F()F*\"\")F(F(*&FDF(F1F(F(F()F?F9F
+(F(*&,2*&\"$?\"F(F<F(F(*&F'F(F1F(F(*&\"$g\"F(F8F(F.*&F-F(F)F(F.*&\"$S
+\"F(F5F(F.*&F4F(F*F(F.*&F0F()F*\"\"(F(F(F'F(F()F?F=F(F(*&,2\"#DF.*&F6F
+(FLF(F.*&\"#!)F(F)F(F(*&F'F(F*F(F(*&\"#qF(F5F(F(*&F^oF(F<F(F(*&\"$!HF(
+F1F(F.*&F4F(F8F(F(F(F?F(F(*&F-F(F<F(F.*&FDF(F1F(F(" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#,.*&,.*&\"#g\"\"\")%\"xG\"\"'F(F(*&\"#SF(F*F(!\"\"*&
+\"#cF()F*\"\"%F(F.*&\"#'*F()F*\"\"&F(F(*&F0F()F*\"\"$F(F.*&\"$c\"F()F*
+\"\"#F(F(F()%\"aGF2F(F(*&,2\"\")F.*&\"#CF(F5F(F.*&\"$+#F(F8F(F(*&\"$W
+\"F(F*F(F(*&\"$w$F(F<F(F.*&\"#))F(F)F(F.*&\"#7F()F*FBF(F(*&\"$S\"F(F1F
+(F(F()F?F9F(F(*&,2*&\"$/#F(F<F(F(*&F4F(F1F(F(*&\"$'HF(F8F(F.*&\"#GF(F)
+F(F.*&\"$c#F(F5F(F.*&\"$?\"F(F*F(F.*&\"#KF()F*\"\"(F(F(\"#[F(F()F?F=F(
+F(*&,2F[oF.*&F2F(FOF(F.*&FLF(F)F(F(*&F^oF(F*F(F(*&\"$_\"F(F5F(F(*&FLF(
+F<F(F(*&\"$g%F(F1F(F.*&FinF(F8F(F(F(F?F(F(*&F-F(F<F(F.*&FFF(F1F(F(" }}
+}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 41 "*
+****************************************" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 36 "We will show that cys_1 is negative " }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 59 "More specifically, we will show
+ that p = -cys_1 is positive" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "p := collect(-cys_1,a);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%\"pG,.*&,.*&\"#I\"\"\")%\"xG\"\"'F*!
+\"\"*&\"#?F*F,F*F**&\"#SF*)F,\"\"%F*F**&\"#gF*)F,\"\"&F*F.*&F2F*)F,\"
+\"$F*F**&\"#!*F*)F,\"\"#F*F.F*)%\"aGF4F*F**&,2F8F.*&F)F*F7F*F**&\"$+\"
+F*F:F*F.*&F=F*F,F*F.*&\"$I#F*F>F*F**&\"#]F*F+F*F**&\"#:F*)F,\"\")F*F.*
+&FFF*F3F*F.F*)FAF;F*F**&,2*&\"$?\"F*F>F*F.*&F)F*F3F*F.*&\"$g\"F*F:F*F*
+*&F0F*F+F*F**&\"$S\"F*F7F*F**&F6F*F,F*F**&F2F*)F,\"\"(F*F.F)F.F*)FAF?F
+*F**&,2\"#DF**&F8F*FNF*F**&\"#!)F*F+F*F.*&F)F*F,F*F.*&\"#qF*F7F*F.*&F`
+oF*F>F*F.*&\"$!HF*F3F*F**&F6F*F:F*F.F*FAF*F**&F0F*F>F*F**&FFF*F3F*F." 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "plot3d(p,a=0..0.4,x=0..0.
+3,axes=boxed):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "for j fro
+m 0 to 4 do pp[j] := coeff(p,a,j) od;" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>&%#ppG6#\"\"!,&*&\"#?\"\"\")%\"xG\"\"#F+F+*&\"$+\"F+)F-\"\"%F+!\"
+\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#ppG6#\"\"\",2\"#DF'*&\"\"&F'
+)%\"xG\"\")F'F'*&\"#!)F')F-\"\"'F'!\"\"*&\"#IF'F-F'F3*&\"#qF')F-F+F'F3
+*&F0F')F-\"\"#F'F3*&\"$!HF')F-\"\"%F'F'*&\"#gF')F-\"\"$F'F3" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>&%#ppG6#\"\"#,2*&\"$?\"\"\"\")%\"xGF'F+!\"
+\"*&\"#IF+)F-\"\"%F+F.*&\"$g\"F+)F-\"\"$F+F+*&\"#?F+)F-\"\"'F+F+*&\"$S
+\"F+)F-\"\"&F+F+*&\"#gF+F-F+F+*&\"#SF+)F-\"\"(F+F.F0F." }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>&%#ppG6#\"\"$,2\"\"&!\"\"*&\"#I\"\"\")%\"xGF)F-F-
+*&\"$+\"F-)F/F'F-F**&\"#!*F-F/F-F**&\"$I#F-)F/\"\"#F-F-*&\"#]F-)F/\"\"
+'F-F-*&\"#:F-)F/\"\")F-F**&F1F-)F/\"\"%F-F*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>&%#ppG6#\"\"%,.*&\"#I\"\"\")%\"xG\"\"'F+!\"\"*&\"#?F+F
+-F+F+*&\"#SF+)F-F'F+F+*&\"#gF+)F-\"\"&F+F/*&F3F+)F-\"\"$F+F+*&\"#!*F+)
+F-\"\"#F+F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 81 "plot([pp[4],
+pp[3],pp[2],pp[1],pp[0]],x=0..0.3,color=[red,green,blue,black,cyan]):
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "ss := sturmseq(pp[0],x)
+:\nsturm(ss,x,0,0.3);\nsubs(x=1/4,pp[0]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#b\"#k" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 273 "B
+y the above (Sturm sequence argument) the constant coefficient, pp[0],
+ has no zeros.  Therefore, the constant coefficient, pp[0], has consta
+nt sign.\n\nSince the value at x=1/4 of the constant coefficient, pp[0
+], is positive, the constant coefficient, pp[0], is positive.  \n" }}
+{PARA 0 "" 0 "" {TEXT -1 59 "Therefore, dropping this term will give a
+ lower bound for p" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 
+"> " 0 "" {MPLTEXT 1 0 39 "p1 := collect(normal((p - pp[0])/a),a);" }}
+{PARA 12 "" 1 "" {XPPMATH 20 "6#>%#p1G,8*&,.*&\"#I\"\"\")%\"xG\"\"'F*!
+\"\"*&\"#?F*F,F*F**&\"#SF*)F,\"\"%F*F**&\"#gF*)F,\"\"&F*F.*&F2F*)F,\"
+\"$F*F**&\"#!*F*)F,\"\"#F*F.F*)%\"aGF;F*F**&,2F8F.*&F)F*F7F*F**&\"$+\"
+F*F:F*F.*&F=F*F,F*F.*&\"$I#F*F>F*F**&\"#]F*F+F*F**&\"#:F*)F,\"\")F*F.*
+&FFF*F3F*F.F*)FAF?F*F**&,2*&\"$?\"F*F>F*F.*&F)F*F3F*F.*&\"$g\"F*F:F*F*
+*&F0F*F+F*F**&\"$S\"F*F7F*F**&F6F*F,F*F**&F2F*)F,\"\"(F*F.F)F.F*FAF*F*
+\"#DF**&F8F*FNF*F**&\"#!)F*F+F*F.*&F)F*F,F*F.*&\"#qF*F7F*F.*&F]oF*F>F*
+F.*&\"$!HF*F3F*F**&F6F*F:F*F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 40 "plot3d(p1,a=0..0.4,x=0..0.3,axes=boxed):" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 44 "We will show that th
+e derivative of p1 (wrt " }{TEXT 327 1 "a" }{TEXT -1 37 ") is negative
+ => p1 is decreasing in " }{TEXT 328 1 "a" }{TEXT -1 38 " => the minim
+um value of p1 occurs at " }{TEXT 329 1 "a" }{TEXT -1 5 "= 2/5" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 18 "p1a := diff(p1,a);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$p1aG,6*
+(\"\"$\"\"\",.*&\"#IF()%\"xG\"\"'F(!\"\"*&\"#?F(F-F(F(*&\"#SF()F-\"\"%
+F(F(*&\"#gF()F-\"\"&F(F/*&F3F()F-F'F(F(*&\"#!*F()F-\"\"#F(F/F()%\"aGF?
+F(F(*(F?F(,2F9F/*&F+F(F8F(F(*&\"$+\"F(F;F(F/*&F=F(F-F(F/*&\"$I#F(F>F(F
+(*&\"#]F(F,F(F(*&\"#:F()F-\"\")F(F/*&FFF(F4F(F/F(FAF(F(*&\"$?\"F(F>F(F
+/*&F+F(F4F(F/*&\"$g\"F(F;F(F(*&F1F(F,F(F(*&\"$S\"F(F8F(F(*&F7F(F-F(F(*
+&F3F()F-\"\"(F(F/F+F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 108 "p
+lot3d(p1a,x=0..0.3,a=0..0.4,axes=boxed):\nss = sturmseq(coeff(p1a,a,0)
+,x):\nsturm(ss,x,0,3/10);\nsubs(x=0,tf);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,(*&\"#I\"\"\")%\"aG\"
+\"#F&!\"\"*&\"#!)F&F(F&F&F%F*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 199 "By the above (Sturm sequence argumen
+t) coeff(p1a,a,0) has no zeros.  Therefore, coeff(p1a,a,0) has constan
+t sign.\n\nSince the value at x = 0 of coeff(p1a,a,0) is negative, coe
+ff(p1a,a,0) is negative.\n" }}{PARA 0 "" 0 "" {TEXT -1 63 "Therefore, \+
+dropping this term will given an upper bound for p1a" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 41 "p1ad := n
+ormal((p1a - coeff(p1a,a,0))/a);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%
+%p1adG,>*(\"#!*\"\"\")%\"xG\"\"'F(%\"aGF(!\"\"*(\"#gF(F,F(F*F(F(*(\"$?
+\"F(F,F()F*\"\"%F(F(*(\"$!=F()F*\"\"&F(F,F(F-*(F1F()F*\"\"$F(F,F(F(*(
+\"$q#F()F*\"\"#F(F,F(F-\"#5F-*&F/F(F6F(F(*&\"$+#F(F9F(F-*&F5F(F*F(F-*&
+\"$g%F(F=F(F(*&\"$+\"F(F)F(F(*&\"#IF()F*\"\")F(F-*&FBF(F2F(F-" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "collect(p1ad,a);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,4*&,.*&\"#g\"\"\"%\"xGF(F(*&\"$q#F()F)\"\"#
+F(!\"\"*&\"$?\"F()F)\"\"%F(F(*&\"$!=F()F)\"\"&F(F.*&F0F()F)\"\"$F(F(*&
+\"#!*F()F)\"\"'F(F.F(%\"aGF(F(*&\"$+#F(F1F(F.*&F4F(F)F(F.\"#5F.*&F'F(F
+5F(F(*&F@F(F8F(F.*&\"$g%F(F,F(F(*&\"$+\"F(F<F(F(*&\"#IF()F)\"\")F(F." 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 30 
+"The factor p1ad is linear in a" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 66 "Hence, we can obtain lower and upper boun
+ds for p1ad by replacing " }{TEXT 330 1 "a" }{TEXT -1 31 " by lower an
+d upper bounds for " }{TEXT 331 1 "a" }{TEXT -1 17 ", which are  0 < \+
+" }{TEXT 332 1 "a" }{TEXT -1 6 " < 2/5" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "p1ad_0 := subs(a=0,p1ad
+);\np1ad_1 := subs(a=2/5,p1ad);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'
+p1ad_0G,2*&\"$+#\"\"\")%\"xG\"\"%F(!\"\"*&\"$!=F(F*F(F,\"#5F,*&\"#gF()
+F*\"\"&F(F(*&F'F()F*\"\"$F(F,*&\"$g%F()F*\"\"#F(F(*&\"$+\"F()F*\"\"'F(
+F(*&\"#IF()F*\"\")F(F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%'p1ad_1G,2
+*&\"#k\"\"\")%\"xG\"\"'F(F(*&\"$c\"F(F*F(!\"\"*&\"$_\"F()F*\"\"%F(F.*&
+\"#7F()F*\"\"&F(F.*&F0F()F*\"\"$F(F.*&\"$_$F()F*\"\"#F(F(\"#5F.*&\"#IF
+()F*\"\")F(F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 149 "plot(p1ad
+_0,x=0..0.3):\nss := sturmseq(p1ad_0,x):\nsturm(ss,x,0,0.3);\nsubs(x=0
+,p1ad_0);\nss := sturmseq(p1ad_1,x):\nsturm(ss,x,0,0.3);\nsubs(x=0,p1a
+d_1);\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#!#5" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#!#5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 122 "By the above (Sturm sequence argumen
+ts) p1ad_0 and p1ad_1 have no zeros.  Therefore, p1ad_0 and p1ad_1 hav
+e constant sign." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 107 "Since the values at x = 0 of p1ad_0 and p1ad_1 are negat
+ive, therefore, p1ad_0 and p1ad_1 are both negative" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 23 "Hence,  p1a is negative
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 31 "There
+fore, p1 is decreasing in " }{TEXT 333 1 "a" }{TEXT -1 45 " => the min
+imum value of p1 occurs at a = 2/5" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "p2 := subs(a=2/5,p1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#p2G,4*&#\"$y%\"#D\"\"\"%\"xGF*!\"\"
+*&#\"%CCF)F**$)F+\"\"#F*F*F,*&#\"$O#F)F**$)F+\"\"$F*F*F,*&#\"%9mF)F**$
+)F+\"\"%F*F*F*#\"#h\"\"&F**&\"#;F*)F+\"\"(F*F,*&#\"$E$F)F**$)F+FAF*F*F
+,*&#\"%[;F)F**$)F+\"\"'F*F*F,*&#\"#8FAF**$)F+\"\")F*F*F*" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "plot(p2,x=0..0.28):" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "ss := sturmseq(p2,x):\nsturm(ss,x,0
+,0.28);\nsubs(x=0,p2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#h\"\"&" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 179 "By the above (Sturm sequ
+ence argument) p2 has no zeros.  Therefore, p2 has constant sign.\n\nS
+ince the value at x = 0 of p2 is positive, p2 is positive.  \n\nTheref
+ore, p1 is positive" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 47 "Since p > p1, we have, therefore, p is positive" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 28 "Therefore
+, cys_1 is negative" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 27 "***************
+************" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 36 "We will show that cys_2
+ is negative " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 59 "More specifically, we will show that q = -cys_2 is positi
+ve" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 23 "q := collect(-cys_2,a);" }}{PARA 12 "" 1 "" {XPPMATH 
+20 "6#>%\"qG,.*&,.*&\"#g\"\"\")%\"xG\"\"'F*!\"\"*&\"#SF*F,F*F**&\"#cF*
+)F,\"\"%F*F**&\"#'*F*)F,\"\"&F*F.*&F2F*)F,\"\"$F*F**&\"$c\"F*)F,\"\"#F
+*F.F*)%\"aGF4F*F**&,2\"\")F**&\"#CF*F7F*F**&\"$+#F*F:F*F.*&\"$W\"F*F,F
+*F.*&\"$w$F*F>F*F**&\"#))F*F+F*F**&\"#7F*)F,FDF*F.*&\"$S\"F*F3F*F.F*)F
+AF;F*F**&,2*&\"$/#F*F>F*F.*&F6F*F3F*F.*&\"$'HF*F:F*F**&\"#GF*F+F*F**&
+\"$c#F*F7F*F**&\"$?\"F*F,F*F**&\"#KF*)F,\"\"(F*F.\"#[F.F*)FAF?F*F**&,2
+F]oF**&F4F*FQF*F**&FNF*F+F*F.*&F`oF*F,F*F.*&\"$_\"F*F7F*F.*&FNF*F>F*F.
+*&\"$g%F*F3F*F**&F[oF*F:F*F.F*FAF*F**&F0F*F>F*F**&FHF*F3F*F." }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "plot3d(q,a=0..0.4,x=0..0.3,a
+xes=boxed):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 46 "for j from 0
+ to 4 do qq[j] := coeff(q,a,j) od;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+>&%#qqG6#\"\"!,&*&\"#S\"\"\")%\"xG\"\"#F+F+*&\"$+#F+)F-\"\"%F+!\"\"" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>&%#qqG6#\"\"\",2\"#KF'*&\"\"%F')%\"x
+G\"\")F'F'*&\"#))F')F-\"\"'F'!\"\"*&\"#[F'F-F'F3*&\"$_\"F')F-\"\"&F'F3
+*&F0F')F-\"\"#F'F3*&\"$g%F')F-F+F'F'*&\"$?\"F')F-\"\"$F'F3" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>&%#qqG6#\"\"#,2*&\"$/#\"\"\")%\"xGF'F+!\"\"
+*&\"#'*F+)F-\"\"%F+F.*&\"$'HF+)F-\"\"$F+F+*&\"#GF+)F-\"\"'F+F+*&\"$c#F
++)F-\"\"&F+F+*&\"$?\"F+F-F+F+*&\"#KF+)F-\"\"(F+F.\"#[F." }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>&%#qqG6#\"\"$,2\"\")\"\"\"*&\"#CF*)%\"xG\"\"&F*
+F**&\"$+#F*)F.F'F*!\"\"*&\"$W\"F*F.F*F3*&\"$w$F*)F.\"\"#F*F**&\"#))F*)
+F.\"\"'F*F**&\"#7F*)F.F)F*F3*&\"$S\"F*)F.\"\"%F*F3" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>&%#qqG6#\"\"%,.*&\"#g\"\"\")%\"xG\"\"'F+!\"\"*&\"#SF
++F-F+F+*&\"#cF+)F-F'F+F+*&\"#'*F+)F-\"\"&F+F/*&F3F+)F-\"\"$F+F+*&\"$c
+\"F+)F-\"\"#F+F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 81 "plot([q
+q[4],qq[3],qq[2],qq[1],qq[0]],x=0..0.3,color=[red,green,blue,black,cya
+n]):" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 62 "ss := sturmseq(qq[0
+],x):\nsturm(ss,x,0,0.3);\nsubs(x=1/4,qq[0]);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"#b\"#K" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 335 "B
+y the above (Sturm sequence argument) the constant coefficient, qq[0],
+ has no zeros.  Therefore, the constant coefficient, qq[0], has consta
+nt sign.\n\nSince the value at x = 1/4 of the constant coefficient, qq
+[0], is positive, the constant coefficient, qq[0], is positive.  \n\nT
+herefore, dropping this term will give a lower bound for q" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 39 "q1 \+
+:= collect(normal((q - qq[0])/a),a);" }}{PARA 12 "" 1 "" {XPPMATH 20 "
+6#>%#q1G,8*&,.*&\"#g\"\"\")%\"xG\"\"'F*!\"\"*&\"#SF*F,F*F**&\"#cF*)F,
+\"\"%F*F**&\"#'*F*)F,\"\"&F*F.*&F2F*)F,\"\"$F*F**&\"$c\"F*)F,\"\"#F*F.
+F*)%\"aGF;F*F**&,2\"\")F**&\"#CF*F7F*F**&\"$+#F*F:F*F.*&\"$W\"F*F,F*F.
+*&\"$w$F*F>F*F**&\"#))F*F+F*F**&\"#7F*)F,FDF*F.*&\"$S\"F*F3F*F.F*)FAF?
+F*F**&,2*&\"$/#F*F>F*F.*&F6F*F3F*F.*&\"$'HF*F:F*F**&\"#GF*F+F*F**&\"$c
+#F*F7F*F**&\"$?\"F*F,F*F**&\"#KF*)F,\"\"(F*F.\"#[F.F*FAF*F*F]oF**&F4F*
+FQF*F**&FNF*F+F*F.*&F`oF*F,F*F.*&\"$_\"F*F7F*F.*&FNF*F>F*F.*&\"$g%F*F3
+F*F**&F[oF*F:F*F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "plot3d
+(q1,a=0..0.4,x=0..0.3,axes=boxed):" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 44 "We will show that the derivativ
+e of q1 (wrt " }{TEXT 334 1 "a" }{TEXT -1 37 ") is negative => q1 is d
+ecreasing in " }{TEXT 335 1 "a" }{TEXT -1 38 " => the minimum value of
+ q1 occurs at " }{TEXT 336 1 "a" }{TEXT -1 5 "= 2/5" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "q1a := di
+ff(q1,a);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#>%$q1aG,6*(\"\"$\"\"\",.*
+&\"#gF()%\"xG\"\"'F(!\"\"*&\"#SF(F-F(F(*&\"#cF()F-\"\"%F(F(*&\"#'*F()F
+-\"\"&F(F/*&F3F()F-F'F(F(*&\"$c\"F()F-\"\"#F(F/F()%\"aGF?F(F(*(F?F(,2
+\"\")F(*&\"#CF(F8F(F(*&\"$+#F(F;F(F/*&\"$W\"F(F-F(F/*&\"$w$F(F>F(F(*&
+\"#))F(F,F(F(*&\"#7F()F-FDF(F/*&\"$S\"F(F4F(F/F(FAF(F(*&\"$/#F(F>F(F/*
+&F7F(F4F(F/*&\"$'HF(F;F(F(*&\"#GF(F,F(F(*&\"$c#F(F8F(F(*&\"$?\"F(F-F(F
+(*&\"#KF()F-\"\"(F(F/\"#[F/" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 
+41 "plot3d(q1a,x=0..0.3,a=0..0.4,axes=boxed):" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 112 "plot(coeff(q1a,a,2),x=0..0.27):\nss = sturmseq(
+coeff(q1a,a,2),x):\nsturm(ss,x,0,0.27);\nsubs(x=1/4,coeff(q1a,a,2));" 
+}}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6##\"%&z$\"%C5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 275 "By the above (Sturm sequence argument) the quadr
+atic coefficient of q1a has no zeros.  Therefore, the quadratic coeffi
+cient of q1a has constant sign.\n\nSince the value at x = 1/4 of the q
+uadratic coefficient of q1a is positive, the quadratic coefficient of \+
+q1a is positive.  \n" }}{PARA 0 "" 0 "" {TEXT -1 70 "Since the quadrat
+ic coefficient of q1a is positive, q1a is concave up." }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 57 "Therefore, the maximum
+ value of q1a will occur at either " }{TEXT 351 1 "a" }{TEXT -1 8 " = \+
+0 or " }{TEXT 352 1 "a" }{TEXT -1 6 " = 2/5" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "q1a_0 := subs(a=0
+,q1a);\nq1a_1 := subs(a=2/5,q1a);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%&q1a_0G,2*&\"$/#\"\"\")%\"xG\"\"#F(!\"\"*&\"#'*F()F*\"\"%F(F,*&\"$'HF
+()F*\"\"$F(F(*&\"#GF()F*\"\"'F(F(*&\"$c#F()F*\"\"&F(F(*&\"$?\"F(F*F(F(
+*&\"#KF()F*\"\"(F(F,\"#[F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&q1a_1
+G,4*&#\"$[$\"\"&\"\"\"*$)%\"xG\"\"'F*F*F**&\"#CF*F-F*F**&#\"%GX\"#DF**
+$)F-\"\"%F*F*!\"\"*&#\"%GdF4F**$)F-F)F*F*F**&#\"%sSF4F**$)F-\"\"$F*F*F
+**&#\"$[&F4F**$)F-\"\"#F*F*F*#\"$3#F)F8*&#\"#[F)F**$)F-\"\")F*F*F8*&\"
+#KF*)F-\"\"(F*F8" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 144 "plot(q
+1a_0,x=0..0.3):\nss := sturmseq(q1a_0,x):\nsturm(ss,x,0,0.3);\nsubs(x=
+0,q1a_0);\nss := sturmseq(q1a_1,x):\nsturm(ss,x,0,0.3);\nsubs(x=0,q1a_
+1);\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#!#[" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6##!$3#\"\"&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 118 "By the above (Sturm sequence a
+rguments) q1a_0 and q1a_1 have no zeros.  Therefore, q1a_0 and q1a_1 h
+ave constant sign." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 103 "Since the values at x = 0 of q1a_0 and q1a_1 are negativ
+e, therefore, q1a_0 and q1a_1 are both negative" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 23 "Hence,  q1a is negative" 
+}}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 31 "Therefo
+re, q1 is decreasing in " }{TEXT 353 1 "a" }{TEXT -1 45 " => the minim
+um value of q1 occurs at a = 2/5" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "q2 := subs(a=2/5,q1);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#q2G,4*&#\"$7&\"#D\"\"\"%\"xGF*!\"\"
+*&#\"&G\\\"\"$D\"F**$)F+\"\"#F*F*F,*&#\"%_PF0F**$)F+\"\"$F*F*F,*&#\"&[
+.&F0F**$)F+\"\"%F*F*F**&#\"#k\"\"&F**$)F+\"\"(F*F*F,*&#\"%)['F0F**$)F+
+FCF*F*F,*&#\"%k;F)F**$)F+\"\"'F*F*F,#\"$_$F)F**&#\"#_F)F**$)F+\"\")F*F
+*F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "plot(q2,x=0..0.28):
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "ss := sturmseq(q2,x):\n
+sturm(ss,x,0,0.28);\nsubs(x=0,q2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#
+\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6##\"$_$\"#D" }}}{EXCHG {PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 179 "By the above (
+Sturm sequence argument) q2 has no zeros.  Therefore, q2 has constant \+
+sign.\n\nSince the value at x = 0 of q2 is positive, q2 is positive.  \+
+\n\nTherefore, q1 is positive" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 47 "Since q > q1, we have, therefore, q is po
+sitive" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 28 
+"Therefore, cys_2 is negative" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 26 "Th
+erefore, ng1 is negative" }}{PARA 11 "" 1 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "1 0 0" 8 }{VIEWOPTS 1 
+1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

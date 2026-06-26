@@ -1,0 +1,155 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" 18 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 274 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 275 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 276 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal
+" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 
+1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" 
+-1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 
+2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 68 "file:  campbell-maple-substep4a.mws --  verify substep4 on set \+
+E(x)+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 7 "Define " }{XPPEDIT 256 0 "m = m(alpha);" "
+6#/%\"mG-F$6#%&alphaG" }{TEXT -1 84 "  which is the bound on the radiu
+s of majorization specified in Campbell's Theorem 2" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "m := alph
+a+1 - sqrt(alpha^2+2*alpha);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"mG
+,(%&alphaG\"\"\"F'F'*$,&*$)F&\"\"#F'F'*&F,F'F&F'F'#F'F,!\"\"" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "De
+fine the left " }{XPPEDIT 18 0 "l[1] = l[1](alpha);" "6#/&%\"lG6#\"\"
+\"-&F%6#F'6#%&alphaG" }{TEXT -1 11 " and right " }{XPPEDIT 18 0 "l[2] \+
+= l[2](alpha);" "6#/&%\"lG6#\"\"#-&F%6#F'6#%&alphaG" }{TEXT -1 33 " si
+des of the critical trapezoid " }{TEXT 257 1 "T" }{TEXT -1 1 " " }}
+{PARA 0 "" 0 "" {TEXT -1 5 "     " }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 41 "l1 := (alpha-1)/5;\nl2 := (2-alpha)/(5/2);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#l1G,&*&\"\"&!\"\"%&alphaG\"\"\"F*#F*F'F(
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#l2G,&#\"\"%\"\"&\"\"\"*(\"\"#F)
+F(!\"\"%&alphaGF)F," }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 30 "We define below the functions " }{TEXT 258 17 "
+F, E, D, C, B, H " }{TEXT -1 16 " (functions of  " }{TEXT 259 7 "c, x,
+ a" }{TEXT -1 69 " ) which arise in the formulation of the basic inequ
+ality in line (4)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 102 "Note, for convenience in this worksheet each such functi
+on is represented as a (capital) DOUBLE letter" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 33 "The set E(x)+  is defined
+ as the " }{XPPEDIT 18 0 "theta" "6#%&thetaG" }{TEXT -1 27 "=0 boundar
+y of the region \{" }{XPPEDIT 18 0 "c = xe^(i*theta);" "6#/%\"cG)%#xeG
+*&%\"iG\"\"\"%&thetaGF)" }{TEXT -1 19 " :  0 < x < m, 0 < " }{XPPEDIT 
+18 0 "theta" "6#%&thetaG" }{TEXT -1 8 " < pi\}, " }}{PARA 0 "" 0 "" 
+{TEXT -1 31 "i.e., on this boundary we have " }{TEXT 260 1 "c" }{TEXT 
+-1 3 " = " }{TEXT -1 27 "x  in all of the functions " }{TEXT 261 17 "F
+, E, D, C, B, H " }{TEXT -1 14 " defined below" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "c := x;\nr \+
+:= x;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"cG%\"xG" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%\"rG%\"xG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 52 "FF := (a + 2*c + a*c^2); \nfff := (x^2-r^2)*(1-a^2);\n" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#FFG,(%\"aG\"\"\"*&\"\"#F'%\"xGF'F'*&F&F')
+F*F)F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$fffG\"\"!" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "EE := 1-c;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#EEG,&\"\"\"F&%\"xG!\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 26 "DD := 1 + a*c - x^2*(a+c);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#DDG,(\"\"\"F&*&%\"aGF&%\"xGF&F&*&)F)\"\"#F&,&F(F&F)F
+&F&!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 52 "CC := (FF)*(1-x
+^2) + fff;\nBB := (DD) - x*(1-a)*(EE);" }{TEXT -1 0 "" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%#CCG*&,(%\"aG\"\"\"*&\"\"#F(%\"xGF(F(*&F'F()F+F*
+F(F(F(,&F(F(*$F-F(!\"\"F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#BBG,*
+\"\"\"F&*&%\"aGF&%\"xGF&F&*&)F)\"\"#F&,&F(F&F)F&F&!\"\"*(F)F&,&F&F&F(F
+.F&,&F&F&F)F.F&F." }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "HH := \+
+(1-x^2)*CC/BB^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#HHG*(,&\"\"\"F'
+*$)%\"xG\"\"#F'!\"\"F+,(%\"aGF'*&F+F'F*F'F'*&F.F'F)F'F'F',*F'F'*&F.F'F
+*F'F'*&F)F',&F.F'F*F'F'F,*(F*F',&F'F'F.F,F',&F'F'F*F,F'F,!\"#" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 39 "Gr
+aphical view for specific values of  " }{XPPEDIT 18 0 "alpha;" "6#%&al
+phaG" }{TEXT -1 3 " , " }{TEXT 262 1 "x" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 35 "Note the output has been suppressed
+" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 71 "alpha := 1.0: \nplot3d(HH,a=l1..l2,x=0..m,axes=boxed)
+:\nalpha := 'alpha':" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 71 "First, we will construct the partial derivative
+s of HH with respect to " }{TEXT 263 1 "a" }{TEXT -1 22 "  and with re
+spect to " }{TEXT 270 1 "x" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 
+"" 0 "" {TEXT -1 135 "We will show that each of the above partial deri
+vatives of HH are positive which will imply that HH is increasing with
+ respect to both " }{TEXT 264 1 "a" }{TEXT -1 5 " and " }{TEXT 269 1 "
+x" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 53 "HHa := normal(diff(HH,a));\nHHx := normal(diff(HH,x))
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$HHaG*(,&%\"xG\"\"\"F(F(\"\"#,,
+*$)F'\"\"%F(F(*(F)F()F'\"\"$F(%\"aGF(!\"\"*&\"\"'F()F'F)F(F2*(F)F(F1F(
+F'F(F2F(F(F(,(*$F5F(F(*(F)F(F1F(F'F(F(F(F(!\"$" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$HHxG,$**\"\"#\"\"\",&%\"xGF(F(F(F(,6*$)F*\"\"$F(!\"
+\"*&F-F(%\"aGF(F/*(F'F()F1F'F(F-F(F(*&F.F()F*F'F(F/*(F.F(F1F(F5F(F(*&F
+.F(F*F(F(*(F.F(F1F(F*F(F/F(F(*&F'F(F3F(F/F1F(F(,(*$F5F(F(*(F'F(F1F(F*F
+(F(F(F(!\"$F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 123 "Since the denominators of the above partial derivativ
+es are positive, we will pick off the numerators to determine the sign
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 35 "na := numer(HHa);\nnx := numer(HHx);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%#naG*&),&%\"xG\"\"\"F)F)\"\"#F),,*$)F(\"\"%F)F)*
+(F*F))F(\"\"$F)%\"aGF)!\"\"*&\"\"'F))F(F*F)F3*(F*F)F2F)F(F)F3F)F)F)" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#nxG,$*(\"\"#\"\"\",&%\"xGF(F(F(F(,
+6*$)F*\"\"$F(!\"\"*&F-F(%\"aGF(F/*(F'F()F1F'F(F-F(F(*&F.F()F*F'F(F/*(F
+.F(F1F(F5F(F(*&F.F(F*F(F(*(F.F(F1F(F*F(F/F(F(*&F'F(F3F(F/F1F(F(F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "factor(na);\nfactor(nx);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#*&),&%\"xG\"\"\"F'F'\"\"#F',,*$)F&\"\"
+%F'F'*(F(F')F&\"\"$F'%\"aGF'!\"\"*&\"\"'F')F&F(F'F1*(F(F'F0F'F&F'F1F'F
+'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*,\"\"#\"\"\",&%\"xGF&F&F&F&,
+&F&!\"\"%\"aGF&F&,&F&F*F(F&F&,.*(F%F&F+F&)F(F%F&F&*$F/F&F&*&\"\"%F&F(F
+&F&*(F%F&F+F&F(F&F&*&F%F&F+F&F&F&F&F&F&" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 10 "The terms " }{TEXT 265 3 
+"nna" }{TEXT -1 5 " and " }{TEXT 266 3 "nnx" }{TEXT -1 19 " are obtain
+ed from " }{TEXT 267 2 "na" }{TEXT -1 5 " and " }{TEXT 268 2 "nx" }
+{TEXT -1 51 ", resp., by removing the leading (positive) factors" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 73 "nna := normal(na/(1+x)^2);\nnnx := normal(nx/( 2*(x+1)*(-1+a)*(-
+1+x) ) ); " }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$nnaG,,*$)%\"xG\"\"%\"
+\"\"F**(\"\"#F*)F(\"\"$F*%\"aGF*!\"\"*&\"\"'F*)F(F,F*F0*(F,F*F/F*F(F*F
+0F*F*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$nnxG,.*(\"\"#\"\"\"%\"aGF(
+)%\"xGF'F(F(*$F*F(F(*&\"\"%F(F+F(F(*(F'F(F)F(F+F(F(*&F'F(F)F(F(F(F(" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 49 "
+Note nnx is non-negative => HH is increasing in x" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 15 "collect(nna
+,a);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,**&,&*&\"\"#\"\"\")%\"xG\"\"$
+F(!\"\"*&F'F(F*F(F,F(%\"aGF(F(*$)F*\"\"%F(F(*&\"\"'F()F*F'F(F,F(F(" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 49 "nna_0 := subs(a=0,nna);\nnn
+a_1 := subs(a=2/5,nna);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&nna_0G,(
+*$)%\"xG\"\"%\"\"\"F**&\"\"'F*)F(\"\"#F*!\"\"F*F*" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%&nna_1G,,*$)%\"xG\"\"%\"\"\"F**&#F)\"\"&F**$)F(\"\"$F
+*F*!\"\"*&\"\"'F*)F(\"\"#F*F1*&#F)F-F*F(F*F1F*F*" }}}{EXCHG {PARA 0 ">
+ " 0 "" {MPLTEXT 1 0 122 "ss := sturmseq(nna_0,x):\nsturm(ss,x,0,0.3);
+\nsubs(x=0,nna_0);\nss := sturmseq(nna_1,x):\nsturm(ss,x,0,0.3);\nsubs
+(x=0,nna_1);\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"!
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#\"\"\"" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 228 "By the above (Sturm sequ
+ence arguments) each of the two terms has no zeros.  Therefore, each o
+f the two terms has constant sign.\n\nSince the value at x = 0 of each
+ of the two terms is positive, each of the two terms is positive.\n" }
+}{PARA 0 "" 0 "" {TEXT -1 53 "Hence,  the partial derivative of HH wit
+h respect to " }{TEXT 271 1 "a" }{TEXT -1 48 "  is positive which impl
+ies HH is increasing in " }{TEXT 273 1 "a" }{TEXT -1 1 " " }{TEXT 272 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 31 "Therefore, HH is increasing in \+
+" }{TEXT 274 1 "a" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 24 "Hence maximum occurs at " }{TEXT 275 3 "x=m" }{TEXT -1 5 
+" and " }{TEXT 276 1 "a" }{TEXT -1 3 "=l2" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "1 0 0" 
+8 }{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

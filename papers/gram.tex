@@ -1,0 +1,957 @@
+\documentstyle[10pt,amssymbols]{siamltex}
+\newcommand{\dis}{\displaystyle}
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end {equation}}
+%\renewcommand{\theequation}{{\arabic{equation}}}
+\newcommand{\R}{\rm I\kern-.19emR}
+\newcommand{\M}{\rm I\kern-.19emM}
+\newcommand{\N}{\makebox[.80em]{\rm N\kern-.70emN}}
+\newtheorem{example}[theorem]{Example}{\rm}
+%\newtheorem{proposition}[theorem]{Proposition}{\rm}
+\newcommand{\arw}{\mbox{$\rightarrow$}}
+\newcommand{\vs}{\vspace{.15in}}
+\newcommand{\vb}{\vspace{.4in}}
+\newcommand{\vbb}{\vspace{1in}}
+\newcommand{\mc}{\multicolumn}
+
+
+\title{Gram polynomials and the Kummer function}
+
+
+\author{R.W. Barnard\thanks{Department of Mathematics, Texas Tech
+University, Lubbock, TX 79409}
+\and
+G. Dahlquist\thanks{Department of Computing Science, Royal Institute
+of Technology, 10044 Stockholm, Sweden}
+\and
+K. Pearce\thanks{Department of Mathematics, Texas Tech University,
+Lubbock, TX 79409}
+\and
+L. Reichel\thanks{Department of Mathematics and Computer Science,
+Kent State University, Kent, OH 44242. Research supported in part by
+NSF grants DMS-9205531 and DMS-9404706}
+\and
+K.C. Richards\thanks{Department of Mathematics, Southwestern
+University, Georgetown, TX 78626}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Let $\left\{\phi_{k}\right\}^{n}_{k=0}$, $n<m$, be a family of polynomials
+orthogonal with respect to the positive semi-definite bilinear form
+$$
+(g,h)_{d}:=\frac{1}{m}\sum^{m}_{j=1}g(x_{j})h(x_{j}),\qquad
+x_{j}:=-1+(2j-1)/m.
+$$
+These polynomials are known as Gram polynomials. The present paper
+investigates the growth of $|\phi_{k}(x)|$ as a function of $k$ and $m$
+for fixed $x\in [-1,1]$. We show that when $n\leq 2.5m^{1/2}$, the
+polynomials in the family $\left\{\phi_{k} \right\}^{n}_{k=0}$ are of
+modest size on $[-1,1]$, and they are therefore well suited for the
+approximation of functions on this interval. We also demonstrate
+that if the degree $k$ is close to $m$, and $m \geq 10$, then $\phi_{k}(x)$
+oscillates with large amplitude for values of $x$ near the endpoints of
+$[-1,1]$, and this behavior makes $\phi_k$ poorly suited for the
+approximation of functions on $[-1,1]$. We study the growth properties
+of $|\phi_{k}(x)|$ by deriving a second order differential equation,
+one solution of which exposes the growth. The
+connection between Gram polynomials and this solution to the differential
+equation suggested what became a long-standing conjectured inequality for
+the confluent hypergeometric function ${}_1F_1$, also known as Kummer's
+function, i.e., that
+${}_1F_1((1-a)/2,1,t^2)\leq {}_1F_1(1/2,1,t^2)$ for all $a\geq 0$.
+In this paper we completely resolve this conjecture by verifying a
+generalization of the conjectured inequality with sharp constants.
+\end{abstract}
+
+\keywords
+Confluent hypergeometric function, polynomial approximation
+\endkeywords
+
+%\AMS
+%  xxxxxx
+%\endAMS
+
+
+\section{Introduction}
+
+Let $f$ be a smooth function defined on the closed interval $[-1,1]$
+and assume that $f$ is explicitly known only at the $m$ equidistant
+points
+\be\label{nodes}
+x_{k} := -1 + (2k-1)/m,\qquad 1 \leq k \leq m.
+\ee
+We wish to approximate $f$ on $[-1,1]$ by a polynomial of degree $n$,
+where $n < m$. Introduce the positive semi-definite bilinear form
+\be \label{1.2}
+(g,h)_{d} := \frac{1}{m} \dis\sum^{m}_{k=1} g(x_{k}) h(x_{k})
+\ee
+for functions $f,g$ continuous on $[-1,1]$, and define the associated discrete
+semi-norm
+\be \label{1.1}
+\|g\|_{d} := (g,g)^{\frac{1}{2}}_{d}.
+\ee
+Let $\left\{\phi_{k} \right\}^{m-1}_{k=0}$ be the family of polynomials
+that are orthogonal with respect to the bilinear form (\ref{1.2}), have
+positive leading coefficient and are normalized so that
+$\|\phi_{k}\|_d=1$. The $\phi_{k}$ are known as {\em Gram polynomials}.
+These polynomials are discussed, e.g., by Dahlquist and Bj\"{o}rck
+\cite[Section 4.4.4]{5}, Hildebrand \cite[Sections 7.13 and 7.16]{Hi} and
+Szeg\"{o} \cite[Section 2.8]{14}.
+
+Let $\Pi_n$ denote the set of all polynomials of degree at most $n$. The
+polynomial $\Phi_n\in\Pi_n$, that solves the discrete least-squares
+approximation problem
+\be\label{least2}
+\|f-\Phi_n\|_d=\min_{\Phi\in\Pi_n}\|f-\Phi\|_d,
+\ee
+is given by
+\be \label{1.4}
+\Phi_{n} (x) := \dis\sum^{n}_{k=0} \beta_{k} \phi_{k} (x),
+\qquad \beta_{k} := ( \phi_{k}, f)_{d}
+\ee
+and is therefore simple to compute. It is the purpose of the present
+paper to investigate the conditions on $n$ under which the solution
+$\Phi_{n}$ of (\ref{least2}) also approximates $f$ well with respect
+to the uniform norm
+\[
+\|g\|_{\infty} := \dis\sup_{x \in [-1,1]} |g(x)|.
+\]
+In order to gain some insight into the behavior of
+$\|f-\Phi_{n}\|_{\infty}$,
+we first review two special cases: $n \ll m$ and $n=m-1$. We begin with the
+former. Let $\{p_{k}\}^{n}_{k=0}$ denote the {\em Legendre polynomials}
+normalized so that $\|p_{k}\| =1$, where we define
+\begin{eqnarray} \label{1.5}
+<g,h> &:=& \frac{1}{2} \dis\int^{1}_{-1} g(x)h(x)dx, \\
+\|g\| &:=& <g,g>^{1/2}
+\end{eqnarray}
+for all square integrable functions on $[-1,1]$. Analogously to (\ref{1.4}),
+the solution $P_n\in\Pi_n$ of the (continuous) least-squares problem
+\[
+\|f-P_n\|=\min_{P\in\Pi_n}\|f-P\|
+\]
+can be written as
+\[
+P_{n} (x) = \dis\sum^{n}_{k=0} <p_{k}, f>p_{k}(x).
+\]
+In \cite[p. 345]{4} Brass proved the following result.
+
+\begin{theorem}
+Let $d\sigma$ be a distribution on $[-1,1]$, and let $\{q_k\}_{k=0}^{n+1}$
+be a family of orthogonal polynomials with respect to $d\sigma$. Assume the
+normalization $\int_{-1}^1 q_k^2(x) d\sigma(x)=1$. Let $d\sigma$ be such that\\
+
+(i) $\int_{-1}^1 f(x) d\sigma(x) = \int_{-1}^1 f(-x) d\sigma(x)$ for any
+$f\in C [-1,1]$,\\
+
+(ii) $\|q_k\|_\infty=q_k(1)$, \quad $k=0,1,\dots,n+1$.\\
+
+\noindent Assume that $f\in C^{n+1} [-1,1]$, and let
+$\eta_k:=\int_{-1}^1 f(x)q_k(x)d\sigma(x)$. Then
+$$
+\|f-\sum^{n}_{k=0} \eta_k q_k \|_\infty\leq
+\frac{\|q_{n+1}\|_\infty}{\|q^{(n+1)}_{n+1}\|_\infty}
+\|f^{(n+1)}\|_\infty.
+$$
+Sharpness follows by letting $f=q_{n+1}$.
+\end{theorem}
+
+We apply this result and use the known properties of the Legendre
+polynomials, including the fact that $\|p_k\|_\infty = p_k (1)$,
+to obtain,
+\be \label{1.8}
+\|f-P_{n}\|_{\infty} \leq \dis\frac{\|f^{(n+1)}\|_{\infty}}{(n+1)!}
+\|p_{n+1}\|_{\infty} \dis\lim_{x \rightarrow \infty} (x^{n+1}/p_{n+1}(x)).
+\ee
+This inequality is used in the proof of the following bound.
+
+\begin{proposition}
+Assume that $m>n$, and let $\Phi_n$ be given by (\ref{1.4}). Then, for
+$f\in C^{n+1} [-1,1]$,
+\be \label{1.11}
+\|f-\Phi_{n}\|_{\infty} \leq \dis\frac{\|f^{(n+1)}\|_{\infty}}{2^{n}(n+1)!}
+\cdot \dis\frac{\pi^{\frac{1}{2}}}{2} n^{\frac{1}{2}} (1+O(n^{-1})) +
+\hat{c}_{n}O(m^{-2}),
+\ee
+where the $O(n^{-1})$-term is independent of $m$ and the $O(m^{-2})$-term
+is independent of $n$. The constant $\hat{c}_{n}$ is independent of $f$ and
+$m$.
+\end{proposition}
+
+\begin{proof}
+The bilinear form (\ref{1.2}) corresponds to a discretization by the
+rectangle rule of (\ref{1.5}), which has a discretization error
+$O(m^{-2})$. Therefore, there are constants $c_{k}$, such that for each $k$,
+\be \label{1.6}
+\phi_{k}(x)=p_{k}(x) + c_{k} O(m^{-2}), \quad m \rightarrow \infty,
+\ee
+uniformly for $x \in [-1,1]$; see Wilson \cite{15} for details. It follows from
+(\ref{1.6}) that there are constants $\hat{c}_{n}$, such that for each $n$,
+\be \label{1.7}
+\|f-\Phi_{n}\|_{\infty} \leq \|f-P_{n}\|_{\infty}+\|P_{n}-\Phi_{n}\|_{\infty}=
+\|f-P_{n}\|_{\infty}+ \hat{c}_{n}O(m^{-2}), \qquad m \rightarrow \infty.
+\ee
+Substitute (\ref{1.8}) into (\ref{1.7}) and use the following
+equalities that follow from results in \cite[Section 4.7]{14},
+\begin{eqnarray}
+\label{pnorm}
+\|p_{n+1}\|_{\infty} &=& (2n+3)^{\frac{1}{2}}, \\
+\label{1.10}
+\dis\lim_{x \rightarrow \infty} (x^{n+1}/p_{n+1}(x))&=&2^{n}
+{2n+1 \choose n}^{-1} (2n+3)^{-\frac{1}{2}},
+\end{eqnarray}
+and apply Stirling's formula to bound the binomial coefficient in (\ref{1.10}).
+This shows the proposition.
+\end{proof}
+
+Let $Q_{n}\in\Pi_n$ solve the uniform-norm approximation problem
+\[
+\|f-Q_{n}\|_{\infty} = \min_{Q\in\Pi_n} \|f-Q\|_{\infty}.
+\]
+Then, for $f\in C^{n+1} [-1,1]$,
+\be \label{1.12}
+\|f-Q_{n}\|_{\infty} \leq \dis\frac{\|f^{(n+1)}\|_{\infty}}{2^{n}(n+1)!},
+\ee
+see Meinardus \cite[Theorem 60]{10}. The bound (\ref{1.12}) is sharp.
+The closeness of the bounds (\ref{1.11}) and (\ref{1.12}) for large $m$,
+suggests that for $m$ sufficiently large the polynomial $\Phi_n$,
+given by (\ref{1.4}), is a good approximation of $f$ also when the
+error is measured in the uniform norm.
+
+We turn to the case when $n=m-1$. Then $\Phi_n$ interpolates $f$ at
+the nodes (\ref{nodes}). A well-known difficulty arises: even for a
+function $f$ analytic on $[-1,1]$, the approximant $\Phi_n$ may oscillate
+with large amplitude near the endpoints of $[-1,1]$, and the amplitude may
+increase with $n$. An analysis of this behavior, known as the {\em
+Runge phenomenon}, is presented by Runge \cite{13}, and more recently
+by Rivlin \cite{12} and Li and Saff \cite{LS}. The difficulty is
+caused by the exponential growth with $n$ of the norm of the
+interpolation operator; see \cite[p.\ 99]{12}.
+
+A bound analogous to (\ref{1.8}) for Gram polynomials is shown to be
+valid in Section 2. This suggests that $\Phi_n$, given by
+(\ref{1.4}), approximates analytic functions $f$ well on $[-1,1]$ if the
+degree $n$ is small enough in relation to $m$, so that
+$\|\phi_{n+1}\|_{\infty}$ stays bounded as $n$ and $m$ increase. We
+therefore need to study the growth of $\phi_{n}(x)$ as a function of
+$m$, $n$ and $x$. In Section 3 we derive a family of second order
+ordinary differential equations from the three-term recurrence
+relation for the $\phi_{n}$. For each fixed value of $x\in [-1,1]$, we
+obtain a differential equation that describes the behavior of
+$\phi_{n}(x)$ for large values of $m$ and $n$. The differential
+equation as well as the initial conditions on the solution depend on
+the parameter $x\in [-1,1]$. The solution of each initial value problem
+can be expressed in terms of the confluent hypergeometric function
+\be\label{conhyp}
+F(a,c,z):={ }_{1}F_{1}(a;c;z):=\sum_{n=0}^{\infty}\frac{(a)_{n}}
+{(c)_{n}n!}z^{n},
+\ee
+where $(a)_n:=\Gamma(a+n)/\Gamma(a)$ is the Pochhammer symbol and
+$\Gamma$ denotes the $\Gamma$-function. Different values of $x$
+correspond to different values of the parameter $a$. The function
+(\ref{conhyp}) is also known as Kummer's function.
+
+Section 4 shows that the solution of the initial value problem corresponding
+to $x=1$ dominates the solutions corresponding to $-1\leq x <1$. Therefore,
+it suffices to consider only the former solution when studying the growth
+of $\|\phi_n\|_{\infty}$ as $m$ and $n$ increase. The fact that the
+solution corresponding to $x=1$ dominates solutions associated with the
+other values of $x$ is equivalent to the inequality
+\be\label{ineq}
+F\left(\frac{1-\zeta}{2},1,z\right)\leq F(1/2,1,z)\;\;
+\mbox{for all}\;\; \zeta\geq 0\;\; \mbox{and}\;\; z\geq 0.
+\ee
+The proof of (16) given in Section 4 is believed to be new.
+
+Our study of solutions to the differential equation shows that for
+large values of $m$ and $n$, the norm $\|\phi_{n}\|_{\infty}$ is
+nearly invariant under changes in $n$ and $m$, whenever the ratio
+$n/m^{\frac{1}{2}}$ is kept constant. Moreover, $\Phi_{n}$ defined by
+(\ref{1.4}) is a good approximant of $f$ in the uniform norm,
+provided that $n$ is not larger than a small multiple of
+$m^{\frac{1}{2}}$, say $n \leq 2.5 m^{\frac{1}{2}}$.  Numerical
+examples that illustrate the behavior of the Gram polynomials are
+presented in Section 5.
+
+The relevance of the ratio $n/m^{\frac{1}{2}}$ has previously been
+noted by Bj\"{o}rk \cite{3} and Zaremba \cite{16} in their
+investigation of Gram polynomials. Closely related problems are also
+considered in \cite{6,7,8,Re,12}. Our method of investigation also can be used
+to analyze classes of orthogonal polynomials other than Gram polynomials.
+
+
+\section{Gram Polynomials}
+
+The Gram polynomials introduced in Section 1 satisfy the
+three-term recurrence relation, for $1\leq n < m$,
+\begin{eqnarray} \label{2.1}
+\phi_{n}(x) &=& 2 \alpha_{n-1} x \phi_{n-1}(x)-
+\dis\frac{\alpha_{n-1}}{\alpha_{n-2}}\phi_{n-2} (x),  \\
+\label{2.2}
+\alpha_{n-1} &:=& \dis\frac{m}{n} \left(
+\dis\frac{n^{2}- \frac{1}{4}}{m^{2}-n^{2}} \right)^{\frac{1}{2}},
+\end{eqnarray}
+with $\phi_{0}(x) := 1, \phi_{-1}(x) := 0$ and
+$\alpha_{-1} := 1$; see, e.g., \cite[(4.4.24)-(4.4.26)]{5}.
+
+\begin{theorem} \label{th1}
+Each Gram polynomial $\phi_{n}$, $0 \leq n < m$, can be written as
+a non-negative linear combination of Legendre polynomials $p_{j}$,
+$0 \leq j \leq n$.  In particular,
+\be \label{2.3}
+\|\phi_{n} \|_{\infty} = \phi_{n}(1), \qquad 0 \leq n < m.
+\ee
+\end{theorem}
+
+\begin{proof}
+The theorem can be shown directly by induction.  It follows also from
+a more general result by Askey \cite[Theorem 1]{2}. Here we verify
+that the conditions of Theorem 1 in \cite{2} are satisfied.  Let
+$\left\{ \phi^{\ast}_{n} \right\}^{m-1}_{n=0}$ be monic Gram
+polynomials associated with the bilinear form (\ref{1.2}), and let
+$\left\{p^{\ast}_{n} \right\}^{\infty}_{n=0}$ be monic Legendre
+polynomials.  Then
+\begin{eqnarray*}
+\phi^{\ast}_{n+1}(x) &=& x \phi^{\ast}_{n}(x)-\lambda_{n}\phi^{\ast}_{n-1}(x),
+\qquad 0 \leq n \leq m-2, \\
+p^{\ast}_{n+1}(x) &=& x p^{\ast}_{n}(x) - \delta_{n} p^{\ast}_{n-1} (x),
+\qquad n=0,1,\ldots~,
+\end{eqnarray*}
+where
+\begin{eqnarray*}
+\lambda_{n} &:=& \dis\frac{n^{2}}{4n^{2}-1}
+( 1- \dis\frac{n^{2}}{m^{2}} ), \\
+\delta_{n} &:=& \dis\frac{n^{2}}{4n^{2}-1}
+\end{eqnarray*}
+and $\phi^*_{0} (x) := p^{\ast}_{0} (x) := 1$,
+$\phi^*_{-1} (x):=p^{\ast}_{-1}(x) := 0$. We have to show that
+$\delta_k\geq\lambda_n>0$ for $1\leq k\leq n$ and $0\leq n\leq m-2$. But
+$\delta_k$ decreases as $k\geq 1$ increases, and $\delta_n\geq\lambda_n>0$.
+Thus, the conditions of \cite[Theorem 1]{2} are satisfied, and, therefore,
+\be\label{expan}
+\phi^{\ast}_{n} (x) = \dis\sum^{n}_{j=0} a_{nj} p^{\ast}_{j}(x)
+\ee
+with $a_{nj} \geq 0$ for all $0 \leq j \leq n$ and $0\leq n <m$. The inequality
+(\ref{2.3}) now follows from the representation (\ref{expan}) and the
+fact that $\|p^*_j\|_\infty = p^*_j(1)$.
+\end{proof}
+
+It follows from (\ref{2.3}) and Theorem 1.1 that the error bound
+\be\label{bound}
+\|f- \Phi_{n}\|_{\infty} \leq \dis\frac{\|f^{(n+1)}\|_{\infty}}{(n+1)!}
+\left\| \phi_{n+1} \right\|_{\infty} \dis\lim_{x \rightarrow \infty} (x^{n+1}/
+\phi_{n+1} (x)),
+\ee
+which is analogous to (\ref{1.8}), is valid. Substitution of
+$f := \phi_{n+1}$ into (\ref{bound}) shows the sharpness of the bound.
+
+
+\section{A Differential Equation Model}
+
+A differential equation is derived that approximates the three-term
+recurrence relation for $\phi_{n}(x)$.  The solution of the differential
+equation is a function of $(n- \frac{1}{2})/m^{\frac{1}{2}}$. In order
+to derive the differential equation, we first introduce
+$\tau :=n/m^{\frac{1}{2}}$. Then (\ref{2.2}) can be written as
+\be \label{3.1a}
+\alpha_{n-1} = (1- \dis\frac{1}{4} \tau^{-2} m^{-1})^{\frac{1}{2}}
+(1- \tau^{2} m^{-1})^{-\frac{1}{2}}.
+\ee
+Let $\tau_0$ and $\tau_1$ be constants, such that
+$0 < \tau_{0} < \tau_1 < \infty$, and consider $n$ as a function of $\tau$.
+We obtain from (\ref{3.1a}) that
+\be\label{3.1}
+\alpha_{n-1} = 1 + \dis\frac{1}{2}(\tau^{2}- \dis\frac{1}{4}\tau^{-2}) m^{-1}
++ O(m^{-2}), \qquad m \rightarrow \infty,
+\ee
+where the convergence in (\ref{3.1}) is uniform for $\tau_0\leq\tau\leq\tau_1$.
+Note that the bound $n\geq \tau_0 m^{1/2}$ implies that $n\rightarrow\infty$
+as $m\rightarrow\infty$. From (\ref{3.1a}), we also obtain
+\be \label{3.2}
+\dis\frac{\alpha_{n-1}}{\alpha_{n-2}} =1+ ( \tau + \dis\frac{1}{4}
+\tau^{-3} ) m^{-\frac{3}{2}} + O (m^{-2}),\qquad m \rightarrow \infty,
+\ee
+uniformly for $\tau_{0} \leq \tau \leq \tau_{1}$. Let $x := 1-\zeta/m$. Then
+(\ref{2.1}) can be written in the form
+\begin{eqnarray}
+\nonumber
+ & &\dis\frac{\phi_{n}(x)-2 \phi_{n-1}(x) + \phi_{n-2}(x)}{m^{-1}} \\
+\label{3.3}
+ &-& 2m( \alpha_{n-1}-1)\phi_{n-1}(x)
+     -m ( 1- \dis\frac{\alpha_{n-1}}{\alpha_{n-2}} ) \phi_{n-2} (x) \\
+\nonumber
+ &+& 2 \zeta \alpha_{n-1} \phi_{n-1} (x) =0.
+\end{eqnarray}
+Substituting (\ref{3.1}) and (\ref{3.2}) into (\ref{3.3}) yields
+\begin{eqnarray}
+\nonumber
+ & &\dis\frac{\phi_{n}(x)-2 \phi_{n-1}(x) + \phi_{n-2}(x)}{m^{-1}} \\
+ \label{3.4}
+ &=& (\tau^{2}- \frac{1}{4} \tau^{-2} -2 \zeta) \phi_{n-1} (x) -
+    ( \tau + \dis\frac{1}{4} \tau^{-3}) m^{-\frac{1}{2}} \phi_{n-2}(x) \\
+\nonumber
+ &+& \phi_{n-1}(x) O(m^{-1}) + \phi_{n-2}(x) O(m^{-1}),
+\qquad m \rightarrow \infty,
+\end{eqnarray}
+where the convergence is uniform for $\tau_{0} \leq \tau \leq \tau_{1}$.
+Introduce $t := \tau - \frac{1}{2} \Delta \tau$,
+$\Delta \tau := \Delta t := m^{-\frac{1}{2}}$ and substitute
+\be \label{3.5}
+\phi (t) := \phi_{n-1}(x)/ \sqrt{2m^{\frac{1}{2}}}
+\ee
+into (\ref{3.4}).  The change of variables from
+$\tau$ to $t$ makes the $O(m^{-\frac{1}{2}})$-term vanish.  We
+obtain
+\[
+\dis\frac{\phi(t+ \Delta t)-2 \phi(t) +\phi(t- \Delta t)}{(\Delta t)^{2}}
+= ( t^{2} - \dis\frac{1}{4}t^{-2} - 2 \zeta)
+\phi (t) + O (\Delta t^{2}), \qquad \Delta t \rightarrow 0,
+\]
+and, hence,
+\be \label{3.6}
+\frac{d^2}{dt^2}\phi(t) = (t^{2} - \dis\frac{1}{4} t^{-2} -2 \zeta)
+\phi(t) + O (\Delta t^{2}), \qquad \Delta t \rightarrow 0,
+\ee
+The convergence in (\ref{3.6}) is
+uniform for $t_{0} \leq t \leq t_{1}$, where $t_{0}, t_{1}$ are
+arbitrary but fixed constants, such that $0 < t_{0} < t_1 < \infty$.  From
+(\ref{3.6}) we obtain the differential equation
+\be \label{3.7}
+\frac{d^2}{dt^2}\phi(t) = (t^{2} - \dis\frac{1}{4} t^{-2} -2 \zeta) \phi (t).
+\ee
+The general solution of (\ref{3.7}) is given by
+\be \label{3.8}
+\phi(t) = t^{\frac{1}{2}} e^{-t^{2}/2}
+(A\,\, {}_1F_1 ( \frac{1}{2} (1- \zeta), 1, t^{2} ) +
+B\, U( \frac{1}{2}(1 - \zeta ), 1, t^{2})),
+\ee
+where $A,B$ are arbitrary constants, $F={}_1F_1$ is Kummer's function
+(\ref{conhyp}), and $U$ is a linearly independent logarithmic solution to
+Kummer's equation; see \cite[p. 504]{1} for the definition of $U$. The
+differential equation model (\ref{3.6}), the solution (\ref{3.8}) with
+$A=1$ and $B=0$, and equation (\ref{lagu}) below were first suggested in
+\cite{DR}.
+
+We are interested in studying $\|\phi_{n}\|_{\infty} = \phi_{n}(1)$,
+and therefore choose $\zeta = 0$ in (\ref{3.7}) and (\ref{3.8}). This
+value of $\zeta$ corresponds to $x=1$. Other choices
+of $\zeta$ are discussed below. For $\zeta = 0$, the solution (\ref{3.8})
+simplifies to, see \cite [(13.6)]{1},
+\[
+\phi(t) = t^{\frac{1}{2}} (A I_{0}(t^{2}/2) + B \pi^{-\frac{1}{2}} K_{0}
+(t^{2}/2)),
+\]
+where $I_{0}$ and $K_{0}$ are modified Bessel functions of zeroth
+order of the first and second kind, respectively.  We note that, see
+\cite[Chapter 9]{1},
+
+
+
+\[
+\begin{array}{rl}
+t^{\frac{1}{2}}I_{0}(t^{2}/2) = \pi^{-\frac{1}{2}} t^{-\frac{1}{2}}
+e^{t^{2}/2} (1 + O (t^{-2})), &  t \rightarrow \infty,\\
+t^{\frac{1}{2}} K_{0} (t^{2}/2)= \pi^{\frac{1}{2}} t^{-\frac{1}{2}}
+e^{-t^{2}/2} (1 + O (t^{-2})), & t \rightarrow \infty,
+\end{array}
+\]
+which shows that $t^{\frac{1}{2}} I_{0} (t^{2}/2)$ is a dominating solution
+of (\ref{3.7}) as $t$ increases. Moreover,
+\be \label{3.10}
+\begin{array}{ll}
+t^{\frac{1}{2}}I_{0}(t^{2}/2) = t^{\frac{1}{2}}
+(1 + O (t^{4})), &  t \rightarrow 0,\\
+t^{\frac{1}{2}} K_{0} (t^{2}/2)= t^{\frac{1}{2}} ((-2 \ln (t/2) +
+\gamma) I_{0} (t) + O(t^{4}) ), & t \rightarrow 0,
+\end{array}
+\ee
+where $\gamma \approx 0.577$ denotes Euler's constant.
+
+We turn to the initial conditions.  Since $\|p_{n-1}\|=p_{n-1}(1)$,
+we obtain from (\ref{1.6}) and (\ref{pnorm}), that for fixed $n$,
+\be \label{3.11}
+\phi_{n-1}(1) = (2n+1)^{\frac{1}{2}} + c_{n-1} O(m^{-2}) =
+\sqrt{2m^{\frac{1}{2}}} t^{\frac{1}{2}} +c_{n-1} O(m^{-2}),
+\qquad m \rightarrow \infty.
+\ee
+Substituting (\ref{3.11}) into (\ref{3.5}) yields
+\[
+\phi(t) = t^{\frac{1}{2}} (1 + O (t^{4})),\qquad t \rightarrow 0,
+\]
+and in view of (\ref{3.10}), we obtain
+\be \label{3.12}
+\phi(t) - t^{\frac{1}{2}} I_{0} (t^{2}/2) =
+t^{\frac{1}{2}} O (t^{4}), \qquad t \rightarrow 0,
+\ee
+where the power of $t$ in the $O(t^{4})$-factor cannot be increased. Thus,
+the function
+\be\label{phi0}
+\phi^{(0)}(t):=t^{\frac{1}{2}} I_{0}(t^{2}/2)
+\ee
+can be used to approximate $\phi_{n}(1)/\sqrt{2m^{\frac{1}{2}}}$ in the
+following way. Let $\phi(t)$ be defined by (\ref{3.5}) with $x=1$, and
+select $t_{0} > 0$ sufficiently small so that the right-hand side of
+(\ref{3.12}) is small for $0 \leq t \leq t_{0}$. Analogously to (\ref{3.5}),
+define
+\[
+\hat{\phi}_{n-1}(x):=\sqrt{2m^\frac{1}{2}} \phi^{(0)}(t),\qquad
+t:=(n-\dis{\frac{1}{2}})/m^\frac{1}{2},\qquad t_0\leq t\leq t_1,
+\]
+and choose $m$ large enough so that $\hat{\phi}_{n-1}(1)$ is a good approximate
+solution of the difference equation (\ref{3.3}) for $t_{0} \leq t \leq t_{1}$.
+Since $\phi^{(0)}$ is a dominating solution of (\ref{3.7}),
+it models the behavior of the scaled polynomials $\phi_{n}(x)/
+\sqrt{2m^{\frac{1}{2}}}$ at $x=1$ fairly well already for modest
+values of $m$. This is illustrated by numerical examples in Section 5.
+
+We next determine initial conditions for $\zeta > 0$.  For bounded
+$\zeta > 0$ and fixed $n$, we obtain, by (\ref{1.6}), that
+\begin{eqnarray*}
+\phi_{n-1}(1- \zeta/m) & = & p_{n-1}(1-\zeta/m) + c_{n-1} O (m^{-2})  \\
+ & = &  p_{n-1}(1) + \tilde{c}_{n-1} O (m^{-1}), \qquad m \rightarrow \infty,
+\end{eqnarray*}
+where the constant $\tilde{c}_{n-1}$ is independent of $m$. For $\phi(t)$
+defined by (\ref{3.5}), with $x=1-\zeta/m$, we have
+$\phi(t) = t^{\frac{1}{2}} (1 + O(t^{2}))$, $t \rightarrow 0$.
+Analogously to (\ref{3.12}), we find that
+\[
+\phi(t) -t^{\frac{1}{2}} e^{-t^{2}/2}F
+( \dis\frac{1}{2} (1-\zeta), 1, t^{2}) = t^{\frac{1}{2}} O(t^{2}),
+\qquad t \rightarrow 0.
+\]
+The solution of (\ref{3.7}) that models the behavior of
+$\phi_{n-1} (1-\zeta/m) / \sqrt{2m^{\frac{1}{2}}}$ for $\zeta>0$ is therefore
+\be \label{phizeta}
+\phi^{(\zeta)} (t) := t^{\frac{1}{2}}
+e^{-t^{2}/2} F( \dis\frac{1}{2} (1-\zeta), 1, t^{2}).
+\ee
+Note that $\phi^{(\zeta)}(t)\rightarrow\phi^{(0)}(t)$ as $\zeta\rightarrow 0$.
+The fact that $\|\phi_n\|_\infty=\phi_n(1)$ suggests the inequality
+\be\label{polineq}
+\phi^{(\zeta)}(t)\leq \phi^{(0)}(t)\ \ \mbox{for~all}\ \ \zeta\geq 0,\ \
+t\geq 0,
+\ee
+which is equivalent with (\ref{ineq}). We will show (\ref{polineq}) in
+Section 4.
+
+Let $\zeta := 2k+1$ for some integer $0\leq k < m$. Then
+$x:=1-\zeta/m$ is the node $x_{m-k}$ defined by (\ref{nodes}), and we
+obtain from (\ref{phizeta}) that the solution
+\be\label{lagu}
+\phi^{(\zeta)}(t) = t^{\frac{1}{2}} e^{-t^{2}/2} F(-k, 1, t^{2}) =
+t^{\frac{1}{2}} e^{-t^{2}/2} L_{k} (t^{2})
+\ee
+of (\ref{3.7}) models the behavior of
+$\phi_{n-1} (1-\zeta/m) / \sqrt{2m^{\frac{1}{2}}}$. Here $L_{k}(x)$ denotes
+a Laguerre polynomial of degree $k$; see \cite[(22.5.54)]{1}. The
+fact that $\phi^{(\zeta)}(t) \rightarrow 0$ as $t \rightarrow \infty$
+agrees well with the observed behavior of the polynomials $\phi_{n-1}$
+at the nodes; see Table 3 of Section 5.
+
+
+\section{An Inequality for Kummer's function}
+
+Inequality (\ref{2.3}), the connection between Gram polynomials and
+the confluent hypergeometric function exposed in Section 3, and
+numerical evidence suggested the stronger inequality (\ref{ineq}). The
+latter inequality was first presented as a conjecture in 1985 \cite{Ba0},
+and is also discussed in \cite[p.\ 21]{Ba}. For completeness, and because of
+its independent interest, we verify a generalization of this conjecture with
+sharp constants.
+
+\begin{theorem}\label{theo1} For all $\zeta\geq 0$, $x\geq 0$, and
+$c\geq 1/2$
+\begin{equation}\label{4x2}
+F\left(\frac{1-\zeta}{2},c,x\right)\leq F(1/2,c,x).
+\end{equation}
+Moreover, $c\geq 1/2$ is sharp, i.e., for $c<1/2$ and $x>0$, there is a
+$\zeta>0$ such that inequality (\ref{4x2}) fails.
+\end{theorem}
+
+\begin{proof}
+Suppose that $x>0$ and $\zeta>0$, and consider the special case $c=1/2$.
+We will make use of the following classical identity, see
+\cite[p. 1085, \#9.211-3]{GR},
+\begin{equation}\label{35}
+F(-\nu,\alpha+1,x)=\frac{\Gamma(\alpha+1)}{\Gamma(\alpha+\nu+1)}
+e^x x^{-\frac{\alpha}{2}} \int_0^\infty e^{-t}
+t^{\nu+\frac{\alpha}{2}} J_\alpha (2\sqrt{xt}) dt,
+\end{equation}
+for $\alpha+\nu+1>0$, where $J_\alpha$ is the Bessel function of order
+$\alpha$.  Using identity (\ref{35}) with $\nu=\frac{\zeta-1}{2}$ and
+$\alpha=-1/2$, it follows that $\alpha+\nu+1=\zeta/2>0$, and
+$$
+J_\alpha(z)=J_{-\frac{1}{2}}(z)=\sqrt{\frac{2}{\pi z}}\cos(z),\;\;
+$$
+see \cite[p.\ 977, \#8.464-2]{GR}. Therefore,
+\begin{eqnarray*}
+F\left(\frac{1-\zeta}{2},1/2,x\right) & = &
+e^x\frac{\Gamma(1/2)}{\Gamma(\zeta/2)} x^{\frac{1}{4}}
+\int_0^\infty e^{-t}t^{\frac{\zeta}{2}-\frac{3}{4}}
+J_{-1/2}(2\sqrt{xt}) dt \\[1ex]
+& = & e^x\frac{\Gamma(1/2)}{\Gamma(\zeta/2)} x^{\frac{1}{4}}
+\int_0^\infty e^{-t}t^{\frac{\zeta}{2}-\frac{3}{4}}
+\sqrt{\frac{2}{2\pi\sqrt{xt}}}\cos(2\sqrt{xt}) dt \\[1ex]
+%% & = & e^x\frac{\sqrt{\pi}}{\Gamma(\zeta/2)}x^{\frac{1}{4}}
+%% \int_0^\infty e^{-t}t^{\frac{\zeta}{2}-\frac{3}{4}}
+%% \frac{\cos(2\sqrt{xt})}x^{\frac{1}{4}}t^{\frac{1}{4}}\sqrt{\pi}
+%% dt \\[1ex]
+& = & e^x\frac{1}{\Gamma(\zeta/2)}\int_0^\infty e^{-t}
+t^{\frac{\zeta}{2}-1}\cos(2\sqrt{xt}) dt \\[1ex]
+& \leq & e^x\frac{1}{\Gamma(\zeta/2)}\int_0^\infty e^{-t}
+t^{\frac{\zeta}{2}-1} dt \\[1ex]
+& = & e^x = F(1/2,1/2,x),
+\end{eqnarray*}
+which implies that
+\begin{equation} \label{36}
+F\left(\frac{1-\zeta}{2},c,x\right)\leq F(1/2,c,x)\;\;
+\mbox{for}\;\; c=1/2\;\; \mbox{and for all}\;\; x\geq 0\;\;
+\mbox{and}\;\; \zeta\geq 0.
+\end{equation}
+
+Now suppose that $c>1/2$. We wish to relate $F(a,c,x)$ to $F(a,1/2,x)$.
+The identity, see \cite[p. 863, \#7.613-1]{GR},
+\[
+F(a,c,x)=\frac{\Gamma(c)x^{1-c}}{\Gamma(\gamma)\Gamma(c-\gamma)}
+\int_0^x t^{\gamma-1}(x-t)^{c-\gamma-1} F(a,\gamma,t)\,dt\;\;
+\mbox{for}\;\; c>\gamma>0,
+\]
+with $x>0$, $\zeta>0$ and $c>\gamma=1/2$, yields
+\begin{eqnarray}
+\nonumber
+F\left(\frac{1-\zeta}{2},c,x\right)
+& = & \frac{\Gamma(c)x^{1-c}}{\Gamma(1/2)\Gamma(c-1/2)}
+\int_0^x t^{-\frac{1}{2}}(x-t)^{c-\frac{3}{2}}
+F\left(\frac{1-\zeta}{2},1/2,t\right) dt \\[1ex]
+\label{6}
+& \leq & \frac{\Gamma(c)x^{1-c}}{\Gamma(1/2)\Gamma(c-1/2)}
+\int_0^x t^{-\frac{1}{2}}(x-t)^{c-\frac{3}{2}}
+F(1/2,1/2,t) dt \\[1ex]
+\nonumber
+& = & F(1/2,c,x),
+\end{eqnarray}
+where the inequality in (\ref{6}) follows from (\ref{36}) and the fact that
+$$
+\frac{\Gamma(c)x^{1-c}}{\Gamma(1/2)\Gamma(c-1/2)} t^{-\frac{1}{2}}
+(x-t)^{c-\frac{3}{2}}>0
+$$
+for $x>t\geq 0$ and $c>1/2$. This establishes that
+\begin{equation}\label{39}
+F\left(\frac{1-\zeta}{2},c,x\right)\leq F(1/2,c,x)\;\; \mbox{for
+all}\;\; \zeta\geq 0,x\geq 0,\;\; \mbox{and}\;\; c\geq 1/2.
+\end{equation}
+The sharpness of $c=1/2$ will follow from (the proof of) Theorem~\ref{theo2}.
+\end{proof}
+
+Another concise version of inequality (\ref{39}) is revealed when
+it is expressed in terms of the Whittaker functions $M_{\lambda,\mu}$,
+which are given by, see \cite[p.\ 1087, \#9.220-2]{GR},
+\[
+M_{\lambda,\mu}(x):=x^{\mu+\frac{1}{2}} e^{-x/2} F
+\left(\mu-\lambda+\frac{1}{2},1+2\mu,x\right).
+\]
+
+\begin{theorem}\label{theo2} Suppose that $\lambda\geq\mu\geq-1/4$.
+Then for all $x\geq 0$,
+\begin{equation}\label{whit}
+M_{\lambda,\mu}(x)\leq M_{\mu,\mu}(x).
+\end{equation}
+Moreover, $\mu=-1/4$ is sharp, i.e., for any $\mu<-1/4$ and $x>0$,
+there is a $\lambda>\mu$ such that inequality (\ref{whit}) is invalid.
+\end{theorem}
+
+\begin{proof} Suppose that $-1/4\leq\mu<\lambda$ and $x>0$.  For
+$c=1+2\mu$ and $\frac{1-\zeta}{2}=\mu-\lambda+\frac{1}{2}$ it follows
+that $c\geq 1/2$ and $\zeta=2(\lambda-\mu)>0$. We have
+\begin{eqnarray}
+\nonumber
+M_{\lambda,\mu}(x) & = & x^{\mu+\frac{1}{2}} e^{-x/2} F
+\left(\mu-\lambda+\frac{1}{2},1+2\mu,x\right) \\[1ex]
+\nonumber
+& = & x^{\frac{c}{2}} e^{-x/2} F
+\left(\frac{1-\zeta}{2},c,x\right) \\[1ex]
+\label{10}
+& \leq & x^{\frac{c}{2}} e^{-x/2} F (1/2,c,x)\\[1ex]
+\nonumber
+& = & M_{\mu,\mu}(x),
+\end{eqnarray}
+where the inequality (\ref{10}) follows from (\ref{39}). Therefore,
+inequality (\ref{whit}) holds for all $\lambda\geq\mu\geq-1/4$ and $x\geq 0$.
+
+In order to demonstrate the sharpness of $\mu=-1/4$, we note the
+asymptotic relationship for large $\lambda>0$ given by, see
+\cite[p. 1089, \#9.228]{GR},
+\[
+M_{\lambda,\mu}(x)\sim\frac{\Gamma(1+2\mu)}{\sqrt{\pi}}
+\lambda^{-\mu-\frac{1}{4}}x^{\frac{1}{4}}
+\cos(2\sqrt{\lambda x}-\mu\pi-\frac{\pi}{4}).
+\]
+Now let $x_0>0$ and $\mu_0\in(-1/2,-1/4)$ both be fixed.
+For each positive integer $n$, let $\lambda_n$ satisfy
+$$
+2\sqrt{\lambda_nx_0}-\mu_0\pi-\pi/4=2n\pi,\;\; \mbox{i.e.,}\;\;
+\lambda_n=(2n\pi+\mu_0\pi+\frac{\pi}{4})^2/(4x_0).
+$$
+Since $-\mu_0-\frac{1}{4}>0$, it follows that
+$\lambda_n^{-\mu_0-\frac{1}{4}}\rightarrow \infty$ as
+$n\rightarrow \infty$. Thus, the expression
+$\frac{\Gamma(1+2\mu_0)}{\sqrt{\pi}}\lambda_n^{-\mu_0-\frac{1}{4}}
+x_0^{\frac{1}{4}}$ can be made arbitrarily large by choosing a
+sufficiently large positive integer $n$. In particular, there is a
+$\lambda_n$ sufficiently large, such that
+\begin{eqnarray*}
+M_{\lambda_n,\mu_0}(x_0) & \sim & \frac{\Gamma(1+2\mu_0)}
+{\sqrt{\pi}}\lambda_n^{-\mu_0-\frac{1}{4}}x_0^{\frac{1}{4}}\cos
+\left(2\sqrt{\lambda_nx_0}-\mu_0\pi-\frac{\pi}{4}\right)\\[1ex]
+& = & \frac{\Gamma(1+2\mu_0)}{\sqrt{\pi}}\lambda_n^{-\mu_0-\frac{1}
+{4}}x_0^{\frac{1}{4}}\cos(2n\pi)\\[1ex]
+& = & \frac{\Gamma(1+2\mu_0)}{\sqrt{\pi}}\lambda_n^{-\mu_0-\frac{1}
+{4}}x_0^{\frac{1}{4}}\cdot 1\\[1ex]
+& > & M_{\mu_0,\mu_0}(x_0).
+\end{eqnarray*}
+
+Therefore, for each $x>0$ and $\mu\in(-1/2,-1/4)$, there is a
+$\lambda>\mu$, such that $M_{\lambda,\mu}(x)>M_{\mu,\mu}(x)$.  This
+proves the sharpness of $\mu=-1/4$, and, hence, the sharpness of
+$c=1+2\mu=1/2$ in Theorem~\ref{theo1}.
+\end{proof}
+
+
+\section{Numerical Examples}
+
+The behavior of the Gram polynomials $\phi_{n}$ is displayed in three
+tables. The tables compare $\phi_n(x)$, for several values of $x$, with
+the function
+$\phi^{(\zeta)}(t)$, which is given by either (\ref{phi0}), (\ref{phizeta}) or
+(\ref{lagu}) depending on the value of $\zeta$. Throughout this section
+$x:=1-\zeta/m$ and $t:=(n-\frac{1}{2})/m^\frac{1}{2}$. We use the
+notation $M (E)$ for the number $M\cdot 10^E$ in the tables.
+All computations were carried out on a VAX 11/780 computer in double
+precision arithmetic, i.e., with about $15$ significant digits.
+
+Table 1 shows the error
+$(\phi_{n-1}(x)/\sqrt{2m^{\frac{1}{2}}} - \phi^{(\zeta)}(t))/\sqrt{t}$ for
+$\zeta=0$ and $\zeta=1/2$. Columns 4 and 5 show that
+$\phi_{n-1}(1)>\phi_{n-1}(1-\frac{1}{2}m)$, in agreement with our analysis.
+Columns 6 and 7 illustrate the convergence of the error
+$(\phi_{n-1}(x)/\sqrt{2m^{\frac{1}{2}}} - \phi(t))/\sqrt{t}$ as $m$
+increases and $t$ is in a fixed interval. Note that the error is positive.
+
+Table 2 displays the rapid growth of $\phi^{(0)}(t)$ with $t$. Recall that
+$\sqrt{2m^{1/2}}\phi^{(0)}(t)$ approximates $\phi_n(1)$ for
+$t=(n-\frac{1}{2})/m^{1/2}$. The fast growth of $\phi^{(0)}(t)$ with $t$
+indicates that $\phi_n(1)$ grows rapidly with
+$t=(n-\frac{1}{2})/m^{\frac{1}{2}}$.
+The table suggests that the choice of $m$ and $n$ should be such that
+$t=(n-\frac{1}{2})/m^{\frac{1}{2}} \leq 2.5$ in order to keep the norm
+$\|\phi_n\|_\infty$ modest. The norm $\|\phi_{n-1}\|=\phi_{n-1}(1)$
+can be determined from Table 1 for such values of $m$ and $n$.
+
+Table 3 shows the behavior of $\phi_{n-1}(x_m)/\sqrt{2m^{\frac{1}{2}}}$,
+where the node $x_m$ is defined by (\ref{nodes}). Thus, $\zeta=1$. The
+table shows that both $\phi^{(1)} (t)$ and
+$\phi_{n-1} (x_m) / \sqrt{2m^{\frac{1}{2}}}$ are small for large values of $t$.
+
+\vskip10pt
+\noindent
+{\bf Acknowledgement}. L.R. would like to thank Bill Gragg for helpful
+discussions.
+
+\newpage
+\begin{thebibliography}{18}
+\bibitem{1}
+{\sc M. Abramowitz and I. A. Stegun}, {\em Handbook of Mathematical
+Functions}, NBS Applied Mathematics Series, 55, 1968.
+
+\bibitem{2}
+{\sc R. Askey}, {\em Orthogonal expansions with positive coefficients II},
+SIAM J. Math. Anal., 2 (1971), 340-346.
+
+\bibitem{Ba0}
+{\sc R. W. Barnard}, {\em Survey of open problems and conjectures in
+complex analysis and special functions}. Talk presented at the
+Symposium on the Proof of the Bieberbach Conjecture, Purdue
+University, West Lafayette, 1985.
+
+\bibitem{Ba}
+{\sc R. W. Barnard}, {\em Open problems and conjectures in complex
+analysis}, Computational Methods and Function Theory, eds. S.
+Ruscheweyh, E. B. Saff, L. C. Salinas, R. S. Varga, Lecture Notes in
+Mathematics \# 1435, Springer, New York, 1990.
+
+\bibitem{3}
+{\sc H. Bj\"{o}rk}, {\em Contribution to the problem of least squares
+approximation}, Report Na 71.37, Dept. of Numerical Analysis, Royal
+Institute of Technology, Stockholm, 1971.
+
+\bibitem{4}
+{\sc H. Brass}, {\em Error estimates for least squares approximation
+by polynomials}, J. Approx. Theory, 41 (1984), 345-349.
+
+\bibitem{5}
+{\sc G. Dahlquist and \AA. Bj\"{o}rck}, {\em Numerical Methods}, Prentice Hall,
+Englewood Cliffs, 1974.
+
+\bibitem{DR}
+{\sc G. Dahlquist and L. Reichel}, {\em Polynomial approximation studied by
+a differential equation model}, Unpublished lecture notes, Stockholm and
+Moscow, Aug. 1984.
+
+\bibitem{6}
+{\sc H. Ehlich}, {\em Polynome zwischen Gitterpunkten}, Math. Z.,
+93 (1966), 144-153.
+
+\bibitem{7}
+{\sc H. Ehlich and K. Zeller}, {\em Schwankung von Polynomen zwischen
+Gitterpunkten}, Math. Z., 86 (1964), 41-44.
+
+\bibitem{GR} {\sc I. S. Gradshteyn and I. M. Ryzhik}, {\em Tables of
+Integrals, Series, and Products}, 5th ed., Academic Press, Orlando,
+1994.
+
+\bibitem{Hi} {\sc F. B. Hildebrand}, {\em Introduction to Numerical Analysis},
+Dover, New York, 1987.
+
+\bibitem{8}
+{\sc A. Kro\'{o}}, {\em A comparison of uniform and discrete polynomial
+approximation}, Analysis Mathematica, 5 (1979), 35-49.
+
+\bibitem{LS}
+{\sc X. Li and E. B. Saff}, {\em Local convergence of Lagrange interpolation
+associated with equidistant nodes}, J. Approx. Theory, 78 (1994), 213-225.
+
+\bibitem{10}
+{\sc G. Meinardus}, {\em Approximation of Functions:  Theory and
+Numerical Methods}, Springer, New York, 1967.
+
+\bibitem{Re}
+{\sc L. Reichel}, {\em On polynomial approximation in the uniform norm by
+the discrete least squares method}, BIT, 26 (1986), 349-368.
+
+\bibitem{11}
+{\sc T. J. Rivlin}, {\em An Introduction to the Approximation of Functions},
+Blaisdell, Waltham, 1966.
+
+\bibitem{12}
+{\sc T. J. Rivlin and E. W. Cheney}, {\em A comparison of uniform
+approximation on an interval and a finite subset thereof}, SIAM J.
+Numer. Anal., 3 (1966), 311-320.
+
+\bibitem{13}
+{\sc C. Runge}, {\em \"{U}ber empirische Funktionen und die Interpolation
+zwischen \"{a}quidistanten Ordinaten}, Z. f. Math., 46 (1901), 224-243.
+
+\bibitem{14}
+{\sc G. Szeg\H{o}}, {\em Orthogonal Polynomials}, 4th ed., Amer. Math.
+Soc., Providence, RI, 1975.
+
+\bibitem{15}
+{\sc M. W. Wilson}, {\em Convergence properties of discrete analogs
+of orthogonal polynomials}, Computing 5 (1970), 1-5.
+
+\bibitem{16}
+{\sc S. K. Zaremba}, {\em Some properties of polynomials orthogonal over
+the set $< 1, 2, \ldots, N>$}, Annali Matem., Ser. 4, 105
+(1975), 333-345.
+\end{thebibliography}
+
+\newpage
+
+\begin{table}
+\caption{Accuracy for increasing $m$ for $t$ in a fixed interval; $x=1-\zeta/m$}
+\begin{center}
+\begin{tabular}{|ccc|cc|cc|}
+\hline
+& & & & & & \\
+& & & \mc{2}{|c|}{$\phi_{n-1}(x)/\sqrt{2m^{\frac{1}{2}}}$} &
+\mc{2}{c|}{$\left(\dis\frac{\phi_{n-1} (x)}{\sqrt{2m^{\frac{1}{2}}}}
+- \phi^{(\zeta)} (t) \right) / \sqrt{t}$} \\
+& & & & & & \\
+$m$ & $n-1$ & $t$ & $\zeta=0$ & $\zeta=\frac{1}{2}$ & $\zeta=0$ &
+$\zeta=\frac{1}{2}$ \\
+& & & & & & \\
+\hline
+$20$ & $\phantom{1}1$  & $0.34$ & $5.80 (-1)$ & $5.65 (-1)$ & $4.61 (-4)$ &
+$3.37 (-3)$\\
+$20$ & $\phantom{1}5$ & $1.23$ & $1.29\phantom{(-1)}$ & $8.67 (-1)$ &
+$1.22 (-2)$ & $6.53 (-3)$ \\
+$20$ & $10$ & $2.35$ & $7.08\phantom{(-1)}$ &$2.48\phantom{(-1)}$ &
+$6.05 (-1)$ & $1.99 (-1)$ \\
+\hline
+$40$ & $\phantom{1}1$  & $0.24$ & $4.87 (-1)$ & $4.81 (-1)$ & $1.15 (-4)$ &
+$1.62 (-3)$ \\
+$40$ & $\phantom{1}5$ & $0.87$ & $9.68 (-1)$ & $7.97 (-1)$ & $2.06 (-3)$ &
+$2.53 (-3)$ \\
+$40$ & $10$ & $1.66$ & $2.01\phantom{(-1)}$ & $1.02\phantom{(-1)}$ &
+$2.42 (-2)$ & $8.98 (-3)$ \\
+$40$ & $15$ & $2.45$ & $8.29\phantom{(-1)}$ & $2.81\phantom{(-1)}$ &
+$4.02 (-1)$ & $1.30 (-1)$ \\
+\hline
+$80$ & $\phantom{1}1$  & $0.12$ & $4.10 (-1)$ & $4.07 (-1)$ & $2.87 (-5)$ &
+$7.97 (-4)$ \\
+$80$ & $\phantom{1}5$ & $0.61$ & $7.92 (-1)$ &  $7.19 (-1)$ & $4.57 (-4)$ &
+$9.77 (-4)$ \\
+$80$ & $10$ & $1.17$ & $1.22\phantom{(-1)}$ & $8.50 (-1)$ & $2.53 (-3)$ &
+$1.48 (-3)$ \\
+$80$ & $15$ & $1.73$ & $2.19\phantom{(-1)}$ & $1.06\phantom{(-1)}$ &
+$1.52 (-2)$ & $5.51 (-3)$ \\
+$80$ & $20$ & $2.29$ & $5.65\phantom{(-1)}$ & $2.04\phantom{(-1)}$ &
+$1.07 (-1)$ & $3.53 (-2)$ \\
+$80$ & $21$ & $2.41$ & $7.17\phantom{(-1)}$  & $2.48\phantom{(-1)}$ &
+$1.60 (-1)$ & $5.21 (-2)$ \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}
+\caption{Growth of $\phi^{(0)}(t):=t^\frac{1}{2} I_{0}(t^{2}/2)$}
+\begin{center}
+\begin{tabular}{|cc|}
+\hline
+ & \\
+$t$ & $\phi^{(0)}(t)$\\
+ & \\
+\hline
+$2.0$ & $3.22\phantom{(2)}$ \\
+$2.5$ & $8.57\phantom{(2)}$ \\
+$3.0$ & $3.03 (1)$ \\
+$3.5$ & $1.41 (2)$ \\
+$4.0$ & $8.55 (2)$ \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}
+\caption{$m = 81$ and $\zeta=1$}
+\begin{center}
+\begin{tabular}{|cccc|}
+\hline
+& & & \\
+$t$ & $\phi^{(1)}(t)$ & $n-1$ & $\phi_{n-1}(x_{m})/\sqrt{2m^{\frac{1}{2}}}$\\
+& & & \\
+\hline
+$0.5$ & $6.24 (-1)$ & $\phantom{1}4$ & $6.25 (-1)$ \\
+$1.5$ & $3.98 (-1)$ & $13$ & $3.96 (-1)$ \\
+$2.5$ & $6.95 (-2)$ & $22$ & $6.68 (-2)$ \\
+$3.5$ & $4.09 (-3)$ & $31$ & $3.48 (-3)$ \\
+$4.5$ & $8.50 (-5)$ & $40$ & $5.32 (-5)$ \\
+$5.5$ & $1.33 (-7)$ & $49$ & $2.07 (-7)$ \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\end{document}
+
+
+
+
+
+
+

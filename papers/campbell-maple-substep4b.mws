@@ -1,0 +1,280 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Comment" 2 18 "" 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{CSTYLE "" 18 256 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+257 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 258 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 259 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 260 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 261 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+262 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 263 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 264 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 265 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 266 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+267 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 268 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 269 "" 0 1 0 0 0 0 1 0 0 0 0 0 
+0 0 0 0 }{CSTYLE "" -1 270 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }
+{CSTYLE "" -1 271 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 
+272 "" 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 }{CSTYLE "" -1 273 "" 0 1 0 0 
+0 0 1 0 0 0 0 0 0 0 0 0 }{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Tim
+es" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }
+{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 
+2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Plot
+" -1 13 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }
+3 1 0 0 0 0 1 0 1 0 2 2 0 1 }}
+{SECT 0 {EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 68 "file:  campbell-maple-substep4b.mws --  verify substep4 on set \+
+E(x)-" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 8 "restart;" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 7 "Define " }{XPPEDIT 256 0 "m = m(alpha);" "
+6#/%\"mG-F$6#%&alphaG" }{TEXT -1 84 "  which is the bound on the radiu
+s of majorization specified in Campbell's Theorem 2" }}{PARA 0 "" 0 "
+" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 37 "m := alph
+a+1 - sqrt(alpha^2+2*alpha);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"mG
+,(%&alphaG\"\"\"F'F'*$,&*$)F&\"\"#F'F'*&F,F'F&F'F'#F'F,!\"\"" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 16 "De
+fine the left " }{XPPEDIT 18 0 "l[1] = l[1](alpha);" "6#/&%\"lG6#\"\"
+\"-&F%6#F'6#%&alphaG" }{TEXT -1 11 " and right " }{XPPEDIT 18 0 "l[2] \+
+= l[2](alpha);" "6#/&%\"lG6#\"\"#-&F%6#F'6#%&alphaG" }{TEXT -1 33 " si
+des of the critical trapezoid " }{TEXT 257 1 "T" }{TEXT -1 1 " " }}
+{PARA 0 "" 0 "" {TEXT -1 5 "     " }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 41 "l1 := (alpha-1)/5;\nl2 := (2-alpha)/(5/2);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#l1G,&*&\"\"&!\"\"%&alphaG\"\"\"F*#F*F'F(
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#l2G,&#\"\"%\"\"&\"\"\"*(\"\"#F)
+F(!\"\"%&alphaGF)F," }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 30 "We define below the functions " }{TEXT 258 17 "
+F, E, D, C, B, H " }{TEXT -1 16 " (functions of  " }{TEXT 259 7 "c, x,
+ a" }{TEXT -1 69 " ) which arise in the formulation of the basic inequ
+ality in line (4)" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 102 "Note, for convenience in this worksheet each such functi
+on is represented as a (capital) DOUBLE letter" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 33 "The set E(x)-  is defined
+ as the " }{XPPEDIT 18 0 "theta" "6#%&thetaG" }{TEXT -1 28 "=pi bounda
+ry of the region \{" }{XPPEDIT 18 0 "c = xe^(i*theta);" "6#/%\"cG)%#xe
+G*&%\"iG\"\"\"%&thetaGF)" }{TEXT -1 19 " :  0 < x < m, 0 < " }
+{XPPEDIT 18 0 "theta" "6#%&thetaG" }{TEXT -1 8 " < pi\}, " }}{PARA 0 "
+" 0 "" {TEXT -1 31 "i.e., on this boundary we have " }{TEXT 260 1 "c" 
+}{TEXT -1 31 " = -x  in all of the functions " }{TEXT 261 17 "F, E, D,
+ C, B, H " }{TEXT -1 14 " defined below" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "c := -x;\nr := x;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"cG,$%\"xG!\"\"" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"rG%\"xG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 51 "FF := (a + 2*c + a*c^2); \nfff := (x^2-r^2)*(1-a^2);" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#FFG,(%\"aG\"\"\"*&\"\"#F'%\"xGF'!\"\"*&F&
+F')F*F)F'F'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$fffG\"\"!" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 10 "EE := 1-c;" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#>%#EEG,&\"\"\"F&%\"xGF&" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 26 "DD := 1 + a*c - x^2*(a+c);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#DDG,(\"\"\"F&*&%\"aGF&%\"xGF&!\"\"*&)F)\"\"#F&,&F(F&
+F)F*F&F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 55 "CC := abs(FF)*(
+1-x^2) + fff;\nBB := (DD) - x*(1-a)*(EE);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#CCG*&-%$absG6#,(%\"aG\"\"\"*&\"\"#F+%\"xGF+!\"\"*&F*
+F+)F.F-F+F+F+,&F+F+*$F1F+F/F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#BB
+G,*\"\"\"F&*&%\"aGF&%\"xGF&!\"\"*&)F)\"\"#F&,&F(F&F)F*F&F**(F)F&,&F&F&
+F(F*F&,&F&F&F)F&F&F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "HH \+
+:= (1-x^2)*CC/BB^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#HHG*(,&\"\"
+\"F'*$)%\"xG\"\"#F'!\"\"F+-%$absG6#,(%\"aGF'*&F+F'F*F'F,*&F1F'F)F'F'F'
+,*F'F'*&F1F'F*F'F,*&F)F',&F1F'F*F,F'F,*(F*F',&F'F'F1F,F',&F'F'F*F'F'F,
+!\"#" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 39 "Graphical view for specific values of  " }{XPPEDIT 18 0 "alpha;
+" "6#%&alphaG" }{TEXT -1 3 " , " }{TEXT 262 1 "x" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "Note the output has been \+
+suppressed" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 72 "alpha := 1.4: \nplot3d(HH,x=0..m,a=l1..l2,axes=b
+oxed):\nalpha := 'alpha': " }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 101 "We will divide the domain \{(x,a)\} into
+ two subsets on which the sign of  FF= a -2x + ax^2 is constant" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 96 "Let S1 = \+
+\{(x,a) |  0 < x <  (1-sqrt(1-a^2))/a, l1 < a < l2\}\nHere | a -2x + a
+x^2| = a - 2x + ax^2" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 99 "Let S2 = \{(x,a) |  (1-sqrt(1-a^2))/a < x < m, l1 < a <
+ l2\}\nHere  | a -2x + ax^2| = -(a - 2x + ax^2)" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 22 "On S1 we have HH = HH1" }}{PARA 13 "" 1 "" {TEXT -1 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 44 "HH1 := (1-x^2)*((FF)*(1
+-x^2) + fff) / BB^2 ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$HH1G*(,&\"
+\"\"F'*$)%\"xG\"\"#F'!\"\"F+,(%\"aGF'*&F+F'F*F'F,*&F.F'F)F'F'F',*F'F'*
+&F.F'F*F'F,*&F)F',&F.F'F*F,F'F,*(F*F',&F'F'F.F,F',&F'F'F*F'F'F,!\"#" }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 39 "
+Graphical view for specific values of  " }{XPPEDIT 18 0 "alpha;" "6#%&
+alphaG" }{TEXT -1 3 " , " }{TEXT 263 1 "x" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "Note the output has been suppresse
+d" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 89 "alpha := 1.0: \nplot3d(HH1,x=0..(1-sqrt(1-a^2))/a,a=l
+1..l2,axes=boxed):\nalpha := 'alpha': " }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 64 "The function HH1 is defin
+ed on on S1 relative to computing HH.  " }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 116 "We consdier the extended function (
+for which we will use the same name HH1) defined by relaxing the restr
+iction on x" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 78 "We will show that the extended function is increasing in a and \+
+decreasing in x" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 73 "alpha := 1.2: \nplot3d(HH1,x=0..m,a=l1..l2,axe
+s=boxed):\nalpha := 'alpha': " }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 72 "First, we will construct the partial \+
+derivatives of HH1 with respect to " }{TEXT 264 1 "a" }{TEXT -1 23 "  \+
+and with respect to x" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 
+"" {TEXT -1 60 "We will show that partial derivative of HH1 with respe
+ct to " }{TEXT 265 1 "a" }{TEXT -1 69 " is positive which will imply t
+hat HH1 is increasing with respect to " }{TEXT 266 2 "a." }}{PARA 0 "
+" 0 "" {TEXT -1 130 "We will show that partial derivative of HH1 with \+
+respect to x is negative which will imply that HH1 is decreasing with \+
+respect to " }{TEXT 267 2 "x." }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 57 "HH1a := normal(diff(HH1,a));\nHH1x := normal(diff(HH1,x));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%HH1aG*&,&\"\"\"F'*$)%\"xG\"\"#F'F'F
+',&F*F'F'!\"\"!\"#" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%HH1xG,$**\"\"
+#\"\"\",*%\"xG!\"\"*&%\"aGF(F*F(F(F(F+F-F(F(,(*$)F*F'F(F(*&F'F(F*F(F+F
+(F(F+,&F*F(F(F+F+F+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 46 "Clearly HH1a > 0, hence HH1 is increasing in a
+" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 112 "Sinc
+e the denominator of HH1x is  negative, we will pick off the negative \+
+of the numerator to determine the sign" }}{PARA 0 "" 0 "" {TEXT -1 1 "
+ " }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 20 "nhx := -numer(HH1x);" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%$nhxG,**&\"\"#\"\"\"%\"xGF(!\"\"*(F'F(%\"aGF(F)F(F(F'F**&F'F(F,F(
+F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "factor(nhx);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*(\"\"#\"\"\",&F&!\"\"%\"aGF&F&,&F&F
+&%\"xGF&F&F&" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 52 "Since nhx is negative we have HH1 is decreasing in x" }
+}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 53 "Therefor
+e the maximum of HH1 occurs at x=0 and a = l2" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "
+" {TEXT -1 22 "On S2 we have HH = HH2" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 45 "HH2 := (1-x^2)*(-(FF)*(
+1-x^2) + fff) / BB^2 ;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$HH2G,$*(,
+&\"\"\"F(*$)%\"xG\"\"#F(!\"\"F,,(%\"aGF(*&F,F(F+F(F-*&F/F(F*F(F(F(,*F(
+F(*&F/F(F+F(F-*&F*F(,&F/F(F+F-F(F-*(F+F(,&F(F(F/F-F(,&F(F(F+F(F(F-!\"#
+F-" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 39 "Graphical view for specific values of  " }{XPPEDIT 18 0 "alpha;
+" "6#%&alphaG" }{TEXT -1 3 " , " }{TEXT 268 1 "x" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 35 "Note the output has been \+
+suppressed" }}{PARA 0 "" 0 "" {TEXT -1 2 "  " }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 89 "alpha := 1.0: \nplot3d(HH2,x=(1-sqrt(1-a^2))/a..
+m,a=l1..l2,axes=boxed):\nalpha := 'alpha': " }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 64 "The function HH2 is def
+ined on on S2 relative to computing HH.  " }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}{PARA 0 "" 0 "" {TEXT -1 116 "We consdier the extended function
+ (for which we will use the same name HH2) defined by relaxing the res
+triction on x" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 57 "We will show that the extended function is decreasing in \+
+" }{TEXT 269 1 "a" }{TEXT -1 20 " and increasing in x" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 73 "alpha :=
+ 1.4: \nplot3d(HH2,x=0..m,a=l1..l2,axes=boxed):\nalpha := 'alpha': " }
+}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 72 "
+First, we will construct the partial derivatives of HH2 with respect t
+o " }{TEXT 270 1 "a" }{TEXT -1 23 "  and with respect to x" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 60 "We will show that
+ partial derivative of HH2 with respect to " }{TEXT 271 1 "a" }{TEXT 
+-1 69 " is negative which will imply that HH2 is decreasing with respe
+ct to " }{TEXT 272 2 "a." }}{PARA 0 "" 0 "" {TEXT -1 130 "We will show
+ that partial derivative of HH2 with respect to x is positive which wi
+ll imply that HH2 is increasing with respect to " }{TEXT 273 2 "x." }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "HH2a := normal(diff(HH2,a));
+\nHH2x := normal(diff(HH2,x));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%H
+H2aG,$*&,&\"\"\"F(*$)%\"xG\"\"#F(F(F(,&F+F(F(!\"\"!\"#F." }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%%HH2xG,$**\"\"#\"\"\",*%\"xG!\"\"*&%\"aGF(F*F(
+F(F(F+F-F(F(,(*$)F*F'F(F(*&F'F(F*F(F+F(F(F+,&F*F(F(F+F+F(" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 46 "Clearly H
+H2a < 0, hence HH2 is decreasing in a" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}{PARA 0 "" 0 "" {TEXT -1 111 "Since the denominator of HH2x is neg
+ative, we will pick off the negative of the numerator to determine the
+ sign" }}{PARA 0 "" 0 "" {TEXT -1 1 " " }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 20 "nhx := -numer(HH2x);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$nhxG,**&\"\"#\"\"\"%\"xGF(F(*(F'F(
+%\"aGF(F)F(!\"\"F'F(*&F'F(F+F(F," }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "factor(nhx);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*(
+\"\"#\"\"\",&F&!\"\"%\"aGF&F&,&F&F&%\"xGF&F&F(" }}}{EXCHG {PARA 0 "" 
+0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 52 "Since nhx is positiv
+e we have HH2 is increasing in x" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 53 "Therefore the maximum of HH2 occurs at x=
+m and a = l1" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 81 "Finally, we will show t
+hat the overall maximum of HH occurs at the maximum of HH2" }}{PARA 0 
+"" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 
+0 "" 0 "" {TEXT -1 57 "First, compute the maximum value of HH1 at x=0 \+
+and a = l2" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 4 "HH1;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*(,&\"\"\"F%
+*$)%\"xG\"\"#F%!\"\"F),(%\"aGF%*&F)F%F(F%F**&F,F%F'F%F%F%,*F%F%*&F,F%F
+(F%F**&F'F%,&F,F%F(F*F%F**(F(F%,&F%F%F,F*F%,&F%F%F(F%F%F*!\"#" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 "HH1s := subs(x=0,a=l2,HH1);
+\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%HH1sG,&#\"\"%\"\"&\"\"\"*(\"
+\"#F)F(!\"\"%&alphaGF)F," }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}
+{PARA 0 "" 0 "" {TEXT -1 65 "Before substituting the maximum value we \+
+note that HH2 simplifies" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 4 "HH2;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,$*(,&\"\"\"F&*$)%\"xG\"\"#F&!\"\"F*,(%\"aGF&*&F*F&F)F&F+*&F-F&F
+(F&F&F&,*F&F&*&F-F&F)F&F+*&F(F&,&F-F&F)F+F&F+*(F)F&,&F&F&F-F+F&,&F&F&F
+)F&F&F+!\"#F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 19 "factor(den
+om(HH2));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*&),&\"\"\"F&%\"xGF&\"\"#
+F&),&F'F&F&!\"\"\"\"%F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 32 "
+HH2t1 := -(a-2*x+a*x^2)/(1-x)^2;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+&HH2t1G,$*&,(%\"aG\"\"\"*&\"\"#F)%\"xGF)!\"\"*&F(F))F,F+F)F)F),&F)F)F,
+F-!\"#F-" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" 
+{TEXT -1 46 "Substitute for x the maximum value x=m(alpha) " }}{PARA 
+0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 72 "Use the relatio
+nship 2(alpha+1)m = 1 + m^2 to simplify the substitution " }}{PARA 0 "
+" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 53 "HH2t
+2 := normal(-(a*2*(alpha+1)*x -2*x)/(2*alpha*x));" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%&HH2t2G,$*&,(*&%\"aG\"\"\"%&alphaGF*F*F)F*F*!\"\"F*F+
+F,F," }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 "" }}{PARA 0 "" 0 "" {TEXT 
+-1 33 "Substitute for a the value a = l1" }}{PARA 0 "" 0 "" {TEXT -1 
+0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 33 "HH2s := normal(subs(
+a=l1,HH2t2));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%HH2sG,$*(\"\"&!\"
+\",&*$)%&alphaG\"\"#\"\"\"F.\"\"'F(F.F,F(F(" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 32 "plot([HH1s,HH2s],alpha=1..1.65);" }}{PARA 13 "" 1 
+"" {GLPLOT2D 454 454 454 {PLOTDATA 2 "6&-%'CURVESG6$7S7$$\"\"\"\"\"!$
+\"3A+++++++S!#=7$$\"3HL$3-:oT,\"!#<$\"3Inm;*RFL%RF-7$$\"3e;z%>y&\\E5F1
+$\"3/M$3A(o,%*QF-7$$\"3JLe9$\\f./\"F1$\"33nmTF?cQQF-7$$\"3AL3--^Ja5F1$
+\"3Inm\">fRFy$F-7$$\"3g;HK#Q/#o5F1$\"3(RL32Z#=FPF-7$$\"3Q$e9J_\"3\"3\"
+F1$\"3om;a2RnvOF-7$$\"3/]7`c]T%4\"F1$\"3<+](QxRBi$F-7$$\"3I$ekeh/#36F1
+$\"3-n;aO:=nNF-7$$\"3\"*\\i!>&*\\>7\"F1$\"3q+]P#>+A^$F-7$$\"3om;a>()3O
+6F1$\"3QLL$=7XcX$F-7$$\"3OL3x`@a[6F1$\"3fmm\"\\QJeS$F-7$$\"3-+]7r<ci6F
+1$\"3)*****\\:Hv\\LF-7$$\"3)***\\Pa*Qm<\"F1$\"3[++]#=WMH$F-7$$\"31+]()
+G\\?!>\"F1$\"31++]%G!=RKF-7$$\"3I$ekL8CD?\"F1$\"3-n;amM!**=$F-7$$\"3hm
+;/fG<<7F1$\"3yLL$Qc388$F-7$$\"3vmm;^AeH7F1$\"3ALLL&*4n\"3$F-7$$\"3,]7G
+Ct,W7F1$\"35+](GqIR-$F-7$$\"3gmm\"*4[zc7F1$\"3ULLLg2#G(HF-7$$\"3)*\\7y
+OP\"3F\"F1$\"3_+](G0Xn\"HF-7$$\"3))\\PMqI;%G\"F1$\"3;,]i=xMjGF-7$$\"3o
+m\"z%*p\"4)H\"F1$\"3*QL$3-Kj2GF-7$$\"3p;H2HD)3J\"F1$\"3YL$3P))pkv#F-7$
+$\"3JL3xm\"zYK\"F1$\"3Xnm\"HL$G,FF-7$$\"3N$eke**4!R8F1$\"3dm;a;+'Rk#F-
+7$$\"3)*\\(=Z-&[^8F1$\"3%)**\\7,*fSf#F-7$$\"3ELek(Re\\O\"F1$\"3gnmT4k;
+SDF-7$$\"3#)***\\-rx)y8F1$\"3m+++f\"*[%[#F-7$$\"3'**\\i?/&\\#R\"F1$\"3
+#****\\<$)>+V#F-7$$\"3%*\\7y50n09F1$\"3E+](o&zJxBF-7$$\"3'**\\PCi*H?9F
+1$\"3O++D5:!)=BF-7$$\"3rmm\"*HXWL9F1$\"3QLLL!)=AmAF-7$$\"3/+]PC&zuW\"F
+1$\"3e****\\->35AF-7$$\"3I$ek`J(>g9F1$\"3+n;aQ2@f@F-7$$\"37+]7?75u9F1$
+\"3A++]>^f.@F-7$$\"3Y;z%4r$=([\"F1$\"3%RL3i:l70#F-7$$\"3%)\\iS$oe3]\"F
+1$\"33,]Pm_c'*>F-7$$\"3[m;ao%GU^\"F1$\"3HML$e7'3V>F-7$$\"3%)\\7`%RD#G:
+F1$\"3)3+v=U)4()=F-7$$\"3XLL$y41<a\"F1$\"3=mmm3c<L=F-7$$\"3=L3-k?\\b:F
+1$\"33nm\"RuJ!y<F-7$$\"3o;zWvQ;p:F1$\"3YL$3#)\\WLs\"F-7$$\"3#****\\-&o
+s\"e\"F1$\"33+++*f#4t;F-7$$\"3kmT5Pa7'f\"F1$\"3#QL$e^#)\\:;F-7$$\"3WLL
+$[q.!4;F1$\"3/mmm!=&)Rc\"F-7$$\"3$*\\7GCYtA;F1$\"3&)**\\(G]h!4:F-7$$\"
+3&*\\(=i'o(ej\"F1$\"3?+]7ND\\c9F-7$$\"3#*************\\;F1$\"39+++++++
+9F--%'COLOURG6&%$RGBG$\"#5!\"\"$F*F*F`[l-F$6$7S7$F(F(7$F/$\"3*GTeG3@S!
+)*F-7$F5$\"3\\:6#G#fEP'*F-7$F:$\"3%3.74ZbPX*F-7$F?$\"3%>V!paj;t#*F-7$F
+D$\"3)y#y-(['R(4*F-7$FI$\"331P>:C$y$*)F-7$FN$\"3G^_p;8$fx)F-7$FS$\"3u_
+T\\'*f\">h)F-7$FX$\"3i6ZIaVw^%)F-7$Fgn$\"3/97<EzP!H)F-7$F\\o$\"3[7B#f=
+V4:)F-7$Fao$\"3u&R[ni3p*zF-7$Ffo$\"3yJKplDEXyF-7$F[p$\"3i;J&>\\()=q(F-
+7$F`p$\"31w7[S9'Rd(F-7$Fep$\"3[EPw%>mXU(F-7$Fjp$\"3^'Q5!zwC+tF-7$F_q$
+\"3Ox=4nK8erF-7$Fdq$\"3WvNVr$3X.(F-7$Fiq$\"3-pH*p3T6!pF-7$F^r$\"39t@hp
+9GwnF-7$Fcr$\"3W>nP9e:[mF-7$Fhr$\"3\\\\![wEtB`'F-7$F]s$\"3DC`o@*Q%4kF-
+7$Fbs$\"3sdZ4\")\\#QG'F-7$Fgs$\"3!GL6Ik^h<'F-7$F\\t$\"3Ix!*zT*f:1'F-7$
+Fat$\"3HQcHyU(\\%fF-7$Fft$\"3Et@]`[jKeF-7$F[u$\"3TR6&y=5bs&F-7$F`u$\"3
+9o+aVAK3cF-7$Feu$\"3qQS5:Xb/bF-7$Fju$\"3A&)ezhOJ&R&F-7$F_v$\"3O<C6+Gn(
+H&F-7$Fdv$\"3)=n[O;^B>&F-7$Fiv$\"3qs!z&y^d%4&F-7$F^w$\"3E-w\\3cq$*\\F-
+7$Fcw$\"3%f[eL&4P'*[F-7$Fhw$\"3+Hr]rSz&z%F-7$F]x$\"3;G:e2D<+ZF-7$Fbx$
+\"3^X&y_Y;Og%F-7$Fgx$\"3uOSMoq04XF-7$F\\y$\"3ew\\RO7>BWF-7$Fay$\"3(eB%
+HF_&fK%F-7$Ffy$\"3n@w,&*Q-SUF-7$F[z$\"3A37*GBb%\\TF-7$F`z$\"3+AnR,<wjS
+F-7$Fez$\"3KtssssssRF--Fjz6&F\\[lF`[lF][lF`[l-%+AXESLABELSG6$Q&alpha6
+\"Q!F[el-%%VIEWG6$;F($\"$l\"!\"#%(DEFAULTG" 1 2 0 1 10 0 2 9 1 4 2 
+1.000000 45.000000 45.000000 0 0 "Curve 1" "Curve 2" }}}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 27 "hDiff := normal(HH2s-HH1s);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6#>%&hDiffG,$*(\"\"&!\"\",(*$)%&alphaG\"\"#\"\"\"F
+.\"\"'F.*&\"\"%F.F,F.F(F.F,F(F." }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 0 
+"" }}{PARA 0 "" 0 "" {TEXT -1 80 "clearly numer(hDiff) = (alpha^2 - al
+pha) + (6 -3*alpha) > 0 for 1 < alpha < 1.65" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}{PARA 0 "" 0 "" {TEXT -1 51 "Hence, maximum of HH occurs at \+
+HH2 at x = m, a = l1" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "1 0 0" 8 }{VIEWOPTS 1 1 0 1 
+1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

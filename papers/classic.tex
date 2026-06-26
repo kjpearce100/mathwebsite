@@ -1,0 +1,1458 @@
+% AFT, epub/pagination, 7/10/00
+% DXR PRETEX 3/1/00
+%%%APT-TXCX(janet)04/26/00
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% ADG FINALS 7.5.00 %%%%%%%%%%%
+\documentclass[final,oneeqnum]{siamltex}
+\usepackage{amsfonts}
+
+%\oddsidemargin=-.35in
+%\evensidemargin=-.35in
+%\topmargin=.25in
+%\textwidth=7.2in
+%\textheight=8.3in
+%\headsep=.3in
+%\advance\textheight by 1.3in
+%\advance\topmargin by -.9in
+%\def\baselinestretch{1.5}
+%\advance\textwidth by 2.2in
+%\pagestyle{headings}
+%\setcounter{secnumdepth}{-2}
+
+\title{A Monotonicity Property Involving
+\protect\boldmath$\,_{3}F_{2}$ and Comparisons of the Classical Approximations
+of Elliptical Arc Length\thanks{Received by the editors January 15, 1999;
+accepted for publication (in revised form) December 8, 1999; published
+electronically July 11, 2000.
+\URL sima/32-2/35050.html}}  
+
+\author{Roger W.\ Barnard\thanks{Department of 
+Mathematics, Texas Tech University, 
+Lubbock, TX  79409 
+(barnard@\break math.ttu.edu, pearce@math.ttu.edu)} 
+\and Kent Pearce\footnotemark[2]
+\and Kendall C.\ Richards\thanks {Department of 
+Mathematics, Southwestern University, 
+Georgetown, TX 78626 (richards@\break southwestern.edu) }}
+
+\begin{document}
+
+\maketitle
+\vspace{-1.35in}
+\slugger{sima} {2000}{32}{2}{403--419}
+\vspace{1.05in}
+
+\setcounter{page}{403}
+
+\begin{abstract}
+Conditions are determined under which
+$  \,_{3}F_{2}\left(-n,a,b;a+b+2,\varepsilon -n+1;1\right)$
+is a monotone  function of $n$ satisfying
+$a b\cdot\,_{3}F_{2}\left(-n,a,b;a+b+2,\varepsilon -n+1;1\right)
+ \geq a b\cdot\,_{2}F_{1}\left(a,b;a+b+2;1\right).$ Motivated by
+ a conjecture of Vuorinen [{\it Proceedings of Special Functions and
+Differential Equations}, K. S. Rao, R. Jagannathan, G. Vanden Berghe, J. Van der Jeugt, eds., 
+Allied Publishers, New Delhi, 1998], the corollary that
+$\,_{3}F_{2}(-n,-\frac{1}{2},-\frac{1}{2};1,\varepsilon -n+1;1)
+\geq \frac{4}{\pi},$  for $1>\epsilon
+\geq\frac{1}{4}$ and $n\geq 2,$ is used to determine surprising
+hierarchical relationships among the 13 known historical approximations
+ of the  arc length of an ellipse.\ This
+ complete list of inequalities  compares
+  the  Maclaurin series coefficients of  $\,_{2}F_{1}\,$
+  with the coefficients of each of the  known approximations,
+ for which maximum errors
+ can then be established.\ These approximations range over
+four centuries from Kepler's in 1609 to Almkvist's in 1985
+and include two from Ramanujan.
+\end{abstract}
+
+\begin{keywords} 
+hypergeometric, approximations, elliptical arc length 
+\end{keywords}
+
+\begin{AMS}
+33C, 41A
+\end{AMS}
+
+\begin{PII}
+S003614109935050X
+\end{PII}
+
+\pagestyle{myheadings}
+\thispagestyle{plain}
+\markboth{ROGER W.\ BARNARD, KENT PEARCE, AND KENDALL C.\ RICHARDS}
+{A MONOTONICITY PROPERTY INVOLVING $\,_{3}F_{2}$}
+
+\section{Introduction}
+\noindent Let $L(x,y)$ be the arc length of an ellipse with
+\label{`semiaxes'} semiaxes of  length $x$ and $y$ (with $x \geq  y > 0$)
+and let $\displaystyle  \lambda \equiv \frac{x-y}{x+y}.$
+In 1742, Maclaurin  \cite{MC} determined that
+\begin{eqnarray}  L(x,y) =
+\pi
+(x+y)\,\cdot\,_{2}F_{1}\left(-\frac{1}{2},-\frac{1}{2};1;\lambda^2\right),
+\label{AX}
+\end{eqnarray} where  ${\,}_{2}F_{1}$ is the   hypergeometric function
+defined by
+\[
+ {\,}_{2}F_{1}\left(a,b;c;z\right)\equiv 1+\sum_{n=1}^{
+\infty }\frac{(a)_{n} (b)_{n}z^{n}}{ (c)_{n}n!}
+\]
+ with the Appell (or Pochhammer) symbol $(a)_{n}\equiv
+a(a+1)\cdots(a+n-1)$ for $n\geq 1$ and $(a)_{0}\equiv 1,$ $a\neq 0$.\  
+(For more background  information,
+ see \cite{AB}, \cite{R},  \cite{BPR}, and the recent
+ survey
+article  \cite{BARN} by the first author.)
+ In \cite{AB}, Almkvist and Berndt
+ compiled and presented  the
+ list
+ of  the approximations in Table \ref{Approximations} for
+ \[
+ G(\lambda) \equiv
+\,_{2}F_{1}\left(-\frac{1}{2},-\frac{1}{2};1;\lambda^2\right)=\frac{L(x,y)}{
+\pi(x+y)}.
+\]
+%%%%%%%Table 1.1
+
+ \noindent These approximations and their historical and recent connections
+to the
+approximations of $\pi$ can be found in the Borweins' book \cite{BB}.\ Another
+excellent source for historical and current studies of these
+topics is the  book \cite{AVV} by Anderson, Vamanamurthy, and Vuorinen.
+
+Recently, several
+inequalities between various mean values and the hypergeometric
+function were proved in \cite{BB}, \cite{VV}, and the dependence
+of the hypergeometric function
+$\,_{2}F_{1}(a,b;c;z)$  on its parameters was studied in \cite{ABRVV},
+\cite{AQV}.\ These results led to a conjecture of Vuorinen
+ (see \cite{MV}) concerning Muir's  approximation $A_{5}$.
+ Vuorinen conjectured
+(see \cite{MV}) that
+\begin{table}
+%%%{\scriptsize %%%%%% TOO BIG --ADG
+{\tiny
+\caption{\rm{Approximations of $G(\lambda)\equiv\,_{2}F_{1}(-\frac{1}{2},-\frac{1}{2};
+1;\lambda^2)$ (see [2]).}}
+\label{Approximations} 
+\begin{tabular}{||l|l|c||} \hline
+ \hspace*{.4in  }Discoverer(s)                  &\hspace*{.6in}
+Approximation   & {$\delta_{p} =$ first nonzero term} \\
+  \hspace*{.1in} and year of discovery&    \hspace*{.9in} $A_{p}(\lambda)$
+&  in the Maclaurin series for \\
+\hspace*{.0in}    &  & $\Delta_{p}(\lambda) \equiv A_{p}(\lambda)-G(\lambda)$
+\\\hline\hline &&\\[-.05in] Kepler, 1609 &
+$\displaystyle A_{1}(\lambda) \equiv (1-\lambda^2)^{1/2}$ & $\displaystyle
+\delta_{1}=-\frac{3}{4}\lambda^2$\\[-.05in] &&\\\hline
+&&\\[-.05in] Euler, 1773 &$\displaystyle A_{2}(\lambda)
+\equiv(1+\lambda^2)^{1/2}$& $\displaystyle
+\delta_{2}=\frac{1}{4}\lambda^2$\\[-.05in] &&\\\hline &&\\[-.05in] Sipos,
+1792&$ \displaystyle A_{3}(\lambda)
+\equiv\frac{2}{1+\sqrt{1-\lambda^2}}$ &$\displaystyle
+\delta_{3}=\frac{7}{64}\lambda^4$\\[-.1in]
+ Ekwall, 1973&&\\\hline &&\\[-.05in] Peano, 1889     & $\displaystyle
+A_{4}(\lambda)
+\equiv\frac{3}{2}-\frac{1}{2}(1-\lambda^2)^{1/2}$ &$\displaystyle
+\delta_{4}=\frac{3}{64}\lambda^4$\\[-.05in] &&\\\hline &&\\[-.05in]
+Muir, 1883& $\displaystyle A_{5}(\lambda) \equiv \left(\frac{(1+\lambda)^{3/2}
++(1-\lambda)^{3/2}}{2}\right)^{2/3}
+$&$\displaystyle\delta_{5}= -\frac{1}{64}\lambda^{4}$\\[-.05in] &&\\\hline
+&&\\[-.05in] Lindner, 1904-1920      &
+$\displaystyle A_{6}(\lambda) \equiv \left(1+\frac{\lambda^2}{8}\right)^2
+$&$\displaystyle\delta_{6}=
+-\frac{1}{2^8}\lambda^{6}$\\[-.05in] Nyvoll, 1978&&\\\hline &&\\[-.05in]
+Selmer, 1975     & $\displaystyle A_{7}(\lambda)
+\equiv 1+\frac{\lambda^2/4}{1-\lambda^2/16} $&$\displaystyle\delta_{7}=
+-\frac{3}{2^{10}}\lambda^{6}$\\[-.05in] &&\\\hline
+&&\\[-.05in] Ramanujan, 1914     & $\displaystyle A_{8}(\lambda)
+\equiv 3-\sqrt{4-\lambda^2}  $&$\displaystyle
+\delta_{8}=-\frac{1}{2^9}\lambda^{6}$\\[-.05in] Fergestad, 1951 &&\\\hline
+&&\\[-.05in] Almkvist, 1978 &$\displaystyle
+A_{9}(\lambda) \equiv  2\frac{\left(1+\sqrt{1-\lambda^2}\right)^2
++\lambda^2\sqrt{1-\lambda^2}}{\left(1+\sqrt{1-\lambda^2}\right)\left(1+\sqrt[4]{1-\lambda^2}
+\right)^2}$&$\displaystyle
+\delta_{9}=\frac{15}{2^{14}}\lambda^{8}$\\[-.05in] &&\\\hline &&\\[-.05in]
+Bronshtein $\mbox{and}$ Semendyayev, 1964     &
+$\displaystyle A_{10}(\lambda) \equiv\frac{64-3\lambda^4}{64-16\lambda^2}
+$&$\displaystyle\delta_{10}=
+-\frac{9}{2^{14}}\lambda^{8}$\\[-.05in]
+ Selmer, 1975&&\\ \hline &&\\[-.05in] Selmer, 1975    & $\displaystyle
+A_{11}(\lambda)
+\equiv
+\frac{3}{2}+\frac{\lambda^2}{8}-\frac{1}{2}\left(1-\frac{\lambda^2}{2}\right)^{1
+/2}
+$&$\displaystyle\delta_{11}=
+-\frac{5}{2^{14}}\lambda^{8}$\\[-.05in] &&\\\hline &&\\[-.05in] Jacobsen
+$\mbox{and}$
+Waadeland, 1985     & $\displaystyle
+A_{12}(\lambda) \equiv \frac{256-48\lambda^2 -21\lambda^4}{256-112\lambda^2
++3\lambda^4}  $&$\displaystyle\delta_{12}=
+-\frac{33}{2^{18}}\lambda^{10}$\\[-.05in] &&\\\hline &&\\[-.05in]
+ Ramanujan, 1914    & $\displaystyle A_{13}(\lambda) \equiv 1+\frac{3\lambda^2
+}{10+\sqrt{4-3\lambda^2}}  $&$\displaystyle
+\delta_{13}=-\frac{3}{2^{17}}\lambda^{10}$\\[-.05in] &&\\\hline
+\end{tabular}
+\\[0.05in]
+%\label{Approximations}
+%\caption{\rm{(see [2]) Approximations of }
+%$G(\lambda)\equiv\,_{2}F_{1}\left(-\frac{1}{2},-\frac{1}{2};1;\lambda^2\right)$.
+}
+\end{table}
+\begin{eqnarray} 
+A_{5}(\lambda) \leq G(\lambda)\quad
+ \mbox{for all}\,\lambda \,\in \,[0,1] \label{eq1}.
+\end{eqnarray} 
+That is, Vuorinen conjectured that $A_{5}$
+is a {\em lower bound} for $G$.
+This conjecture was recently proved by the authors in \cite{BPR}
+which has become
+ the genesis of
+  the present article.\  Moreover, the results here attest to the adage that
+a single
+conjecture may have many ramifications.
+Also, note that $A_5$ is one of the
+mean values studied in \cite{VV}.\ More approximations for
+hypergeometric functions  in terms of such mean values are actively being
+sought.
+For example, let $\nu \,\in \,{\bf R}\backslash\{0\}$  and
+define 
+\[
+M_{\nu}(\lambda) \equiv
+\left[\frac{(1+\lambda)^\nu +(1-\lambda)^\nu}{2}\right ]^{1/\nu}.
+\]
+H.\ Alzer \cite{ALZER} originally made  the following conjecture.
+
+{\sc Conjecture}.\ {\em
+The inequalities \begin{eqnarray} M_{\alpha}(\lambda) \leq
+G(\lambda) \leq
+M_{\beta}(\lambda) \ \ \mbox{hold  for all $\lambda \,\in\, (0,1)$}
+\label{MALZ}
+\end{eqnarray}
+if and only if} 
+\[
+\alpha \leq 3/2\quad \mbox{{\em and}}\quad \beta \geq (\ln 2)/ \left(\ln
+\frac{\pi}{2}\right) \approx 1.53.
+\]
+As noted by Alzer \cite{ALZER}, it follows from our results
+(see the set of inequalities in  expression
+(\ref{eqzz}))
+that  (\ref{MALZ}) holds with
+$\alpha = 3/2$ and $\beta =2$.
+Moreover,  for a fixed $\lambda,$  $M_{\nu}(\lambda)$ is an increasing function
+of $\nu$.\ Thus  it
+follows  that (\ref{MALZ}) holds for all $\alpha \leq 3/2$
+and $\beta \geq 2$.\ It can be shown that $\alpha = 3/2$ is
+sharp.%  while the sharpness of
+%$\beta = (\ln 2)/(\ln \frac{\pi}{2})$ was recently verified by Alzer and Qiu \cite{ALZER}.
+
+\section{Main results}
+
+\noindent  In an earlier paper (see \cite{BPR}),  the authors
+were able to verify  inequality (\ref{eq1}) by
+working with the original version of  Vuorinen's
+conjecture   in  terms of the eccentricity
+(see (\ref{eqzx}) and (\ref{eqVz})).\ In this direction,
+a generating function argument (motivated by \cite{AG}) was used  to
+obtain the following general result (which will also  be applied in
+this paper to obtain Theorem \ref{thm2}).
+
+\begin{theorem}[see \cite{BPR}]
+\label{thm1}%\noindent{\bf Theorem 1.}
+Suppose $a,b>0$.\ Then for any
+$\varepsilon $ satisfying $1>\varepsilon \geq\frac{ab}{a+b+1},$ it
+follows that
+\[
+\,_{3}F_{2}\left(-n,a,b;a+b+1,\varepsilon -n +1;1\right)\geq 0, 
+\] 
+for all
+integers $n
+\geq 1,$ where $\,_{3}F_{2}$ is the generalized hypergeometric function.\end{theorem}
+
+In light of the conjecture in (\ref{eq1}), the following
+question naturally arises:
+\begin{quote} {\em  Which  of the remaining  approximations given in Table {\rm\ref{Approximations}}
+are  upper bounds or  lower bounds  for $G$}?
+\end{quote}
+
+ \noindent An attempt to compare an approximation $A_{p}$ with $G$
+ motivates  an  analysis of  the term $\delta_{p}$  (the
+first nonzero term in the Maclaurin series representation for the error
+function
+$\Delta_{p}(\lambda)\equiv A_{p}(\lambda)-G(\lambda)$).
+ What information does $\delta_{p}$
+ provide? Certainly the leading term can be viewed as a measure of
+ accuracy of the given approximation, and the error
+function $\Delta_{p}(\lambda)$  will have the same sign as
+ $\delta_{p}$
+ for {\em sufficiently small} $\lambda$.\ For example, $\delta_{1} <0$ and
+  it follows directly that $A_{1}$ is   a lower bound for
+ $G,$ as  Kepler intended  (see \cite[p. 599]{AB}).\ In this case,
+ the sign of
+$\delta_{1}$ is indicative of the sign of  $\Delta_{1}(\lambda)$
+{\em for all}  $\lambda \, \in \,[0,1]$.\ Almkvist and
+Berndt  proved (see \cite[p. 603]{AB}) that Ramanujan's first
+estimate $A_{8}$ is a lower bound for $G$ by proving the
+significantly
+ stronger result that  the nonzero Maclaurin series coefficients of
+ $\Delta_{8}$ all have the same (negative) sign.\ A
+numerical investigation suggests that a similar  trait might be
+shared by other   approximations given in Table \ref{Approximations}.\  In this
+article, it will be shown that all of the approximations  given
+in Table \ref{Approximations} satisfy the following property:
+\begin{quote} {\em The sign of the error function $\Delta_{p}(\lambda)$
+coincides with the sign of the leading term
+$\delta_{p}$ \underline{for all  $\lambda\, \in \,[0,1]$}.}
+\end{quote} Moreover,  for all but two of the approximations, it will
+be established
+ that the nonzero Maclaurin series coefficients of $\Delta_{p}$ all have the
+ same  sign as $\delta_{p}$.\ (Only  Euler's approximation and Muir's
+ approximation fail to satisfy this condition.)
+ As a consequence of the forthcoming results,
+ each  function
+$|\Delta_{p}|$ is  a strictly increasing function of
+ $\lambda,$ for $p=1,\ldots,13$.\ Therefore,
+$0=|\Delta_{p}(0)| < |\Delta_{p}(\lambda)|< |\Delta_{p}(1)|$  for
+all $\lambda \, \in \,(0,1)$.
+ For example, the maximum error for Ramanujan's second  estimate
+ is $|\Delta_{13}(1)| = |\frac{14}{11} - \frac{4}{\pi}|
+\approx 0.000512 $ and satisfies
+ $|\Delta_{13}(1)|< |\Delta_{p}(1)|$
+ for $p=1,\ldots,12$.\  In this direction, we will prove the following
+ three propositions.
+
+%\pagebreak
+\begin{proposition}
+\label{prop1}%\noindent{\bf Proposition 1.}
+\ Let $G(\lambda)
+\equiv \sum_{n=0}^{\infty}\alpha_{n}\lambda^{2n} $ and
+ $A_{p}(\lambda) \equiv 
+\sum_{n=0}^{\infty}\beta^{(p)}_{n}\lambda^{2n}$
+ where
+$\alpha_{n} \equiv   (\frac{(-1/2)_{n}}{n!})^2$ and each
+$A_{p}$ is
+defined as in Table {\rm\ref{Approximations}}.\ Then
+\begin{eqnarray}
+ \beta^{(12)}_{n}\leq \alpha_{n} \leq \beta^{(9)}_{n}\quad \mbox{ for all
+integers $n
+\geq 0$.}  \nonumber
+\end{eqnarray} Therefore, the error functions $|\Delta_{9}|$  and
+$|\Delta_{12}|$ are
+strictly increasing and
+\end{proposition}
+\[
+ A_{12}(\lambda) \leq G(\lambda)\leq A_{9}(\lambda) \quad \mbox{for all
+$\lambda$}
+ \,\in \,[0,1].
+\]
+
+\begin{proposition}
+\label{prop2}%\noindent{\bf Proposition 2.}
+\ Let $G(\lambda) \equiv
+\sum_{n=0}^{\infty}\alpha_{n}\lambda^{2n} $ and
+ $A_{p}(\lambda) \equiv
+\sum_{n=0}^{\infty}\beta^{(p)}_{n}\lambda^{2n}$
+ where
+$\alpha_{n} \equiv (\frac{(-1/2)_{n}}{n!})^2$ and each
+$A_{p}$ is
+defined as in Table {\rm\ref{Approximations}}.\ Then
+\begin{eqnarray}
+ \beta^{(1)}_{n}\leq \beta^{(6)}_{n}\leq \beta^{(7)}_{n}\leq
+\beta^{(8)}_{n}\leq
+\beta^{(10)}_{n} \leq \beta^{(11)}_{n}\leq \beta^{(13)}_{n}\leq \alpha_{n}
+\leq\beta^{(4)}_{n}\leq\beta^{(3)}_{n}  \nonumber
+\end{eqnarray} 
+\noindent for all integers $n \geq 0$. 
+Therefore, the corresponding error functions $|\Delta_{p}|$ are
+strictly increasing and
+\[
+ A_{1}(\lambda) \leq A_{6}(\lambda) \leq A_{7}(\lambda) \leq A_{8}(\lambda)
+ \leq A_{10}(\lambda) \leq A_{11}(\lambda) \leq
+A_{13}(\lambda) \leq G(\lambda)\leq  A_{4}(\lambda) \leq  A_{3}(\lambda) 
+\]
+
+\noindent {for all $\lambda$}   \, $\in$ \,$[0,1]$.
+\end{proposition}
+
+The next proposition addresses the two remaining estimates: Euler's
+approximation $A_{2}$ and  Muir's approximation
+$A_{5}$.
+ The claim will be made that
+\begin{eqnarray}
+ A_{5}(\lambda) \equiv \left(\frac{(1+\lambda)^{3/2} +
+ (1-\lambda)^{3/2}}{2}\right)^{2/3}\leq G(\lambda)\leq
+(1+\lambda^2)^{1/2}\equiv A_{2}(\lambda) 
+\label{eqzz}
+\end{eqnarray} 
+\noindent {for all}\ $\lambda$ \, $\in$ \,[0,1].\ As we have noted, the
+ nonzero Maclaurin series coefficients of
+$\Delta_{2}$ and $\Delta_{5}$ (as functions of $\lambda$) do
+not have   constant sign.\   In order to verify the inequalities
+in (\ref{eqzz}), we make use of the known fact due to Landen and Ivory
+(e.g., see \cite[p. 598]{AB}) that
+\begin{eqnarray}
+G(\lambda)\equiv\,_{2}F_{1}\left(-\frac{1}{2},-\frac{1}{2};1;\lambda^2\right)
+ =\frac{2x}{x+y}
+\cdot\,_{2}F_{1}\left(\frac{1}{2},-\frac{1}{2};1;\xi^2\right), \label{eqzx}
+\end{eqnarray} 
+where  $\lambda \equiv (x-y)/(x+y)$ and
+ $\xi\equiv (1/x){\textstyle\sqrt{x^2-y^2}}$
+is the \label{`eccentricity'}
+eccentricity of the original ellipse (see (\ref{AX})).
+ Without loss of generality,  assume that $1=x\geq y\geq 0$.\ A change of
+variable
+ from $\lambda$ to $\xi$  can be
+accomplished in (\ref{eqzz}) by using 
+(\ref{eqzx}) and
+ the substitutions  $\lambda =(1-y)/(1+y)$ and $y=\textstyle\sqrt{1-\xi^2}$.
+ Multiplying through by $(1+y)/2$
+ and
+ simplifying, we see that the inequalities in (\ref{eqzz}) are equivalent to
+\begin{eqnarray}
+\left( \frac{1+(1-\xi^2)^{3/4}}{2}\right) ^{2/3} \leq
+\,_{2}F_{1}\left(\frac{1}{2},-\frac{1}{2};1;\xi^{2}\right)\leq
+ (1-\xi^2/2)^{1/2} 
+\label{eqVz}
+\end{eqnarray}
+\noindent {for all}\ $\xi$ \, $\in$ \,[0,1]. (The first inequality in (\ref{eqVz}) is the original version of Vuorinen's
+conjecture \cite{MV}.)
+
+It is interesting to note that one can show that the  functions
+in (\ref{eqVz}) can
+be shown to satisfy the stated inequalities  by
+establishing that the  coefficients of their respective Maclaurin series,
+{\em expanded in powers of $\xi$}, satisfy the
+corresponding inequality relationships.
+\noindent In view of the preceding discussion, we now state the following proposition.
+\vfil
+
+\begin{proposition}[see \cite{BPR}]
+\label{prop3}%\noindent{\bf Proposition 3.} (see \cite{BPR})
+\  Let $G$ and $A_{p}$
+be as defined in Table {\rm\ref{Approximations}} and let
+\begin{eqnarray}
+1+\sum_{n=1}^{\infty}b_{n}\xi^{2n} &\equiv& \left(
+\frac{1+(1-\xi^2)^{3/4}}{2}\right) ^{2/3}
+\quad \mbox{and} \label{eqRR}\\
+ 1+\sum_{n=1}^{\infty}c_{n}\xi^{2n} &\equiv& (1-\xi^2/2)^{1/2}.\ \label{eqRR3}
+\end{eqnarray} 
+It follows that
+\begin{eqnarray}
+ b_{n}\leq \frac{(1/2)_{n}(-1/2)_{n}}{n!\cdot n!} \leq c_{n} \quad
+ \mbox{for all integers $n\geq 1$.}   \nonumber
+\end{eqnarray} 
+Therefore, $(\ref{eqVz})$ holds and is equivalent to 
+$A_{5}(\lambda) \leq G(\lambda)\leq A_{2}(\lambda)\ 
+\mbox{for all $\lambda$}   \,\in \,[0,1].\ $\end{proposition}
+%\vspace{.1in}
+
+{\it Remark.} If we apply the identity in
+(\ref{eqzx}) with $\lambda = (1-\textstyle\sqrt{1-\xi^2})/(1+\textstyle\sqrt{1-\xi^2}),$
+ the definition of $A_2,$ and simplify, we obtain
+$\Delta_{2}(\lambda) =
+2[(1-\xi^2/2)^{1/2}
+-\,_{2}F_{1}(\frac{1}{2},-\frac{1}{2};1;\xi^{2})]/(1\break +\textstyle\sqrt{1-\xi^2})$.
+Proposition \ref{prop3} implies that $(1-\xi^2/2)^{1/2}
+-\,_{2}F_{1}(\frac{1}{2},-\frac{1}{2};1;\xi^{2})$
+is a strictly increasing
+function of $\displaystyle \xi$.\ Therefore  $\Delta_{2}(\lambda)$ is a
+strictly increasing function of $\displaystyle \xi$.
+Since $\xi =
+\frac{2\sqrt{\lambda}}{1+\lambda}$
+is a strictly increasing
+function of $\lambda$ on [0,1],  it follows that $|\Delta_{2}|$ is  a strictly
+increasing
+function of $\lambda$.
+A similar argument can be
+applied to $|\Delta_{5}|$.
+
+Although some of the inequalities in the above
+propositions are straightforward, several proved to be surprisingly
+challenging to verify.\  In particular, the effort  involving Almkvist's
+approximation
+$A_{9}$ precipitated the discovery of  some deeper results involving the
+generalized hypergeometric function $\,_{3}F_{2}\,,$
+which are also of independent interest.\   In this direction, our main
+general results are as follows.
+%\vspace{.1in}
+
+\begin{theorem}
+\label{thm2}%\noindent{\bf Theorem  2.}
+Let  $1>a\geq b>-1$ and
+$1>\varepsilon\geq\,\frac{(a+1)(b+2)}{a+b+4}$.\  Then
+$\displaystyle T_{n}\equiv\,_{3}F_{2}\left(-n,a,b;a+b+2,\varepsilon
+-n+1;1\right)$ satisfies
+\end{theorem}
+\[ 
+a b (T_{n}- T_{n+1})\geq 0  \quad  \mbox{for all integers $n
+\geq 2$.} 
+\]
+
+\begin{corollary}
+\label{cor1}%\noindent{\bf  Corollary   1.}
+\ Let  $1>a\geq b>-1$ and
+$1>\varepsilon\geq\,\frac{(a+1)(b+2)}{a+b+4}$.\ Then
+$\displaystyle T_{n}\equiv \\ \,_{3}F_{2}\left(-n,a,b;a+b+2,\varepsilon
+-n+1;1\right)$ satisfies
+\end{corollary}
+\[
+a b T_{n} \geq a b T_{n+1} \geq a b\cdot\,_{2}F_{1}\left(a,b;a+b+2;1\right)
+\quad \mbox{for all integers $n
+\geq 2$.} 
+\]
+\begin{corollary}
+\label{cor2}%\noindent{\bf  Corollary 2.}
+\  Let  $1>\varepsilon\geq\frac{1}{4}$.
+Then $
+T_{n}\equiv\,_{3}F_{2}\left(-n,-\frac{1}{2},-\frac{1}{2};1,\varepsilon
+-n+1;1\right)$ satisfies
+\end{corollary}
+\[
+T_{n} \geq T_{n+1}\geq
+\frac{4}{\pi} \quad \mbox{for all integers $n
+\geq 2$.} 
+\]
+
+\section{Verification of coefficient inequalities} 
+\mbox{}
+
+{\it Proof of Proposition {\rm\ref{prop1}}}.\ {\em Part {\rm I:} Almkvist's
+Approximation $A_{9}$.} \
+Let $s\equiv   (1-\lambda^2)^{1/2}$ and
+$\beta_{n}\equiv   \beta^{(9)}_{n}$.\  It follows  that
+\begin{eqnarray}
+ A_{9}(\lambda) = 2\left[\frac{(1+s) +(1-s)s}{(1+\sqrt{s})^2}\right] =
+ \sum_{n=0}^{\infty}\beta_{n}\lambda^{2n},  \nonumber
+\end{eqnarray} 
+which implies that
+\begin{eqnarray}
+ 2(1+2s-s^2) = (1 + 2\sqrt{s} +
+s)\sum_{n=0}^{\infty}\beta_{n}\lambda^{2n}.
+\label{eq8}
+\end{eqnarray} 
+By replacing $s$  by $(1-\lambda^2)^{1/2}$ and applying
+$ (1-\lambda^2)^{q} = \sum_{n=0}^{\infty}\frac{(-q)_{n}}{n!}\lambda^{2n}, $
+we may change (\ref{eq8}) to the form
+\begin{eqnarray} 
+2\lambda^2 &+&
+4\sum_{n=0}^{\infty}\frac{(-1/2)_{n}}{n!}\lambda^{2n} \nonumber \\
+&&=\sum_{n=0}^{\infty}\beta_{n}\lambda^{2n}+
+2\sum_{n=0}^{\infty}\sum_{k=0}^{n}\frac{(-1/4)_{n-k}}{(n-k)!}\beta_{k}\lambda^{2
+n}+
+\sum_{n=0}^{\infty}\sum_{k=0}^{n}\frac{(-1/2)_{n-k}}{(n-k)!}\beta_{k}\lambda
+^{2n}.\  \nonumber
+\end{eqnarray} 
+Equating the coefficients of $\lambda^{2n},$ we obtain
+ $\beta_{0}=1,$ $\beta_{1}=1/4,$ and
+\begin{eqnarray} 
+4\frac{(-1/2)_{n}}{n!}= \beta_{n} +
+2\sum_{k=0}^{n}\frac{(-1/4)_{n-k}}{(n-k)!}\beta_{k}
++\sum_{k=0}^{n}\frac{(-1/2)_{n-k}}{(n-k)!}\beta_{k}\quad
+\mbox{for $n\geq 2$}.\ \nonumber
+\end{eqnarray} 
+Solving for $\beta_{n},$ we have the recursive relationship
+\begin{eqnarray}
+\beta_{n} = \frac{(-1/2)_{n}}{n!} -
+\frac{1}{2}\sum_{k=0}^{n-1}\frac{(-1/4)_{n-k}}{(n-k)!}\beta_{k}-
+\frac{1}{4}\sum_{k=0}^{n-1}\frac{(-1/2)_{n-k}}{(n-k)!}\beta_{k} \quad
+\mbox{for $n\geq 2$}.\ 
+\label{eq9}
+\end{eqnarray}
+
+\noindent We will use (\ref{eq9}) and induction to
+show that 
+\begin{eqnarray}
+\beta_{n} \geq \alpha_{n} \quad \mbox{for all $n\geq 0$}.\ 
+\label{eq10}
+\end{eqnarray} 
+First note that $\beta_{n} = \alpha_{n}$ for $n=0,1,2$.
+Now let $n\geq 2$ and suppose that
+$\beta_{k} \geq \alpha_{k}$ for all $k=0,\ldots, n-1$.\ Since the
+coefficients of
+$\beta_{k}$ in (\ref{eq9}) are all
+positive, it follows that
+\begin{eqnarray}
+\beta_{n} \geq \frac{(-1/2)_{n}}{n!} -
+\frac{1}{2}\sum_{k=0}^{n-1}\frac{(-1/4)_{n-k}}{(n-k)!}\alpha_{k}-
+\frac{1}{4}\sum_{k=0}^{n-1}\frac{(-1/2)_{n-k}}{(n-k)!}\alpha_{k}.\ \nonumber
+\end{eqnarray} 
+Thus (\ref{eq10}) will be established if we can verify that
+\begin{eqnarray}
+\quad \frac{(-1/2)_{n}}{n!} -
+\frac{1}{2}\sum_{k=0}^{n-1}\frac{(-1/4)_{n-k}}{(n-k)!}\alpha_{k}-
+\frac{1}{4}\sum_{k=0}^{n-1}
+\frac{(-1/2)_{n-k}}{(n-k)!}\alpha_{k}\geq \alpha_{n} \quad \mbox{for
+$n\geq 2$}.\ 
+\label{eq12}
+\end{eqnarray}
+Next we use the identities
+$(c)_{n-k} = \frac{(-1)^{k}(c)_{n}}{(1-c-n)_{k}}$ and
+$(1)_{n} = n!$ and add the corresponding $n$th term of each
+summation to both sides.\ Then (\ref{eq12}) becomes
+\begin{eqnarray}
+\quad \frac{(-1/2)_{n}}{n!} -
+\frac{(-1/4)_{n}}{2\cdot
+n!}\sum_{k=0}^{n}\frac{(-n)_{k}}{(5/4-n)_{k}}\alpha_{k}-
+\frac{(-1/2)_{n}}{4\cdot
+n!}\sum_{k=0}^{n}\frac{(-n)_{k}}{(3/2-n)_{k}}\alpha_{k}\geq
+\frac{\alpha_{n}}{4}.
+\label{eq13}
+\end{eqnarray} 
+Now we apply
+$\alpha_{k} \equiv \big(\frac{(-1/2)_{k}}{k!}\big)^2$
+ and the definition of  $\,_{3}F_{2},$ then divide both
+sides of  (\ref{eq13}) by $\frac{-(-1/2)_{n}}{4\cdot n!},$
+ and simplify.\ Then inequality (\ref{eq13})
+ becomes
+\begin{eqnarray}
+ P(n)\cdot\,_{3}&F&_{2}\left(-n,-\frac{1}{2},-\frac{1}{2};1,\frac{5}{4}
+-n;1\right) \nonumber \\&+&
+\,_{3}F_{2}\left(-n,-\frac{1}{2},-\frac{1}{2};1,\frac{3}{2} -n;1\right)
+\geq Q(n), \label{eq16}
+\end{eqnarray} 
+where $P(n) \equiv 2\frac{(-1/4)_{n}}{(-1/2)_{n}}$
+ and $Q(n) \equiv 4-\frac{(-1/2)_{n}}{n!}$.
+For $n\geq 2,$ these can be shown to satisfy
+\begin{eqnarray} 
+P(n) &\leq& P(n+1) \quad \mbox{and} \label{eq16.1}\\ Q(n)
+&\geq& Q(n+1).
+\label{eq16.2}
+\end{eqnarray}  
+We first note that inequality (\ref{eq16}) can be
+confirmed directly for $n=2,\ldots,6$.\  An application of
+Corollary \ref{cor2} (to be proved in the following section), with  the respective
+values of
+$\varepsilon = 1/4$ and $\varepsilon =
+1/2,$
+ yields
+\begin{eqnarray}
+\,_{3}F_{2}\left(-n,-\frac{1}{2},-\frac{1}{2};1,\frac{5}{4} -n;1\right)
+&\geq& \frac{4}{\pi}
+ \quad \mbox{and} \label{eq16.3}\\
+\,_{3}F_{2}\left(-n,-\frac{1}{2},-\frac{1}{2};1,\frac{3}{2} -n;1\right)
+&\geq& \frac{4}{\pi}
+ \label{eq16.4}
+\end{eqnarray}
+for all $n\geq 2$.\ From inequalities
+(\ref{eq16.1})--(\ref{eq16.4}) with
+$n\geq 6,$
+it follows  that
+\begin{eqnarray}
+ P(n)\cdot\,_{3}F_{2}\left(-n,-\frac{1}{2},-\frac{1}{2};1,\frac{5}{4}
+-n;1\right) &+&
+\,_{3}F_{2}\left(-n,-\frac{1}{2},-\frac{1}{2};1,\frac{3}{2} -n;1\right) \nonumber \\
+&\geq&  P(6)\frac{4}{\pi}
+ + \frac{4}{\pi} \geq Q(6)
+\geq Q(n).\  \nonumber
+\end{eqnarray} 
+Therefore, inequality (\ref{eq16}) holds for all $n\geq 2$
+and hence
+$\beta^{(9)}_{n}\equiv \beta_{n}\geq
+\alpha_{n}$ for all  $n\geq 0$.\ That is, Almkvist's approximation
+satisfies the
+property that all of the nonzero Maclaurin
+series coefficients of
+$\Delta_{9}$ are positive.\ This concludes the proof of Part I of
+Proposition \ref{prop1}.
+
+{\it Proof of Proposition} \ref{prop1}.
+{\em Part {\rm II:}  Jacobsen $\mbox{and}$ Waadeland's  Approximation
+$A_{12}$.} \  Now
+we seek to show that the approximation
+$A_{12}$ satisfies the property that all of the nonzero Maclaurin series
+coefficients of
+$\Delta_{12}$ are negative.\  Let $a=3,$ $b=-112,$ $c=256,$ and
+$D=\sqrt{b^2-4ac}$.\ It follows that
+\[
+\frac{1}{au^2 + bu + c}=\frac{2a}{D}\left[\frac{1}{2au + b-D} -\frac{1}{2au
++ b+D}\right] = \sum_{n=0}^{\infty}d_{n}u^n
+\quad \mbox{for}  \quad |u| < \left|\frac{D+b}{2a}\right|,
+\]  
+where
+\begin{eqnarray}
+d_{n}\equiv
+\frac{2a}{D}\left[\frac{(-1)^n(2a)^n}{(b-D)^{n+1}}-\frac{(-1)^n(2a)^n}
+{(b+D)^{n+1}}\right]=
+ \frac{1}{D}\left(\frac{2a}{D-b}\right)^{n+1}\left[\left(\frac{b-D}{b+D}\right)^
+{n+1}-1\right].\ \nonumber
+\end{eqnarray} 
+It follows that $d_{n} >0$ for all $n\geq 0$ and
+\begin{eqnarray} 
+A_{12}(\lambda) &\equiv& \frac{256-48\lambda^2
+-21\lambda^4}{256-112\lambda^2 +3\lambda^4}\nonumber\\ &=&-7
++\frac{2048 - 832\lambda^2}{256-112\lambda^2 +3\lambda^4}  \nonumber \\ &=&
+-7 +(2048 - 832\lambda^2)
+\sum_{n=0}^{\infty}d_{n}\lambda^{2n}.\  \nonumber
+\end{eqnarray} 
+Now let $\beta_{n} \equiv \beta^{(12)}_{n}$.\ Then the nonzero
+Maclaurin series
+coefficients for $A_{12}$ are given by
+$\beta_{0} = 1$ and
+\begin{eqnarray}
+\beta_{n} = 2048d_{n} - 832d_{n-1} \quad \mbox{for all  $n\geq 1$.}  \nonumber
+\end{eqnarray}
+Since $(x^{n+1}-1)/(x-1) > x$ for
+$x\equiv (b-D)/(b+D)> 1,$ it follows easily that
+$(2048d_{n})/(832d_{n-1})>1$
+for all $n\geq 1$.\ Thus
+\begin{equation}
+\beta_{n} >0
+\quad \mbox{for all  $n\geq 0$.} \label{eq21}
+\end{equation}
+Direct calculation reveals that $\beta_{n} = \alpha_{n}$ for $n=0,\ldots,4$.
+Also note that
+\begin{eqnarray} 
+(256 - 112\lambda^2 + 3\lambda^4)
+\sum_{n=0}^{\infty}\beta_{n}\lambda^{2n}
+= 256 - 48\lambda^2
+-21\lambda^4.\  \nonumber
+\end{eqnarray} 
+Hence
+\begin{eqnarray}
+\sum_{n=3}^{\infty}(256\beta_{n} - 112\beta_{n-1} +
+3\beta_{n-2})\lambda^{2n} = 0.\label{eq22}
+\end{eqnarray} 
+Thus the coefficients of $\lambda^{2n}$ in (\ref{eq22})
+are  zero for all $n\geq 3$.\ Solving for
+$\beta_{n}$ and using (\ref{eq21}), we have
+\begin{eqnarray}
+\beta_{n} = (112\beta_{n-1} - 3\beta_{n-2})/256 < \frac{112}{256}\beta_{n-1}
+\quad \mbox{for all  $n\geq 3$.}  \nonumber
+\end{eqnarray}
+Now suppose that $\beta_{n} \leq \alpha_{n}$ for some integer $n\geq4,$  where
+${\textstyle \alpha_{n} \equiv (\frac{(-1/2)_{n}}{n!})^2}$.\ Then
+\begin{eqnarray}
+\beta_{n+1} < \frac{112}{256}\beta_{n}\leq \frac{112}{256}\alpha_{n}=
+\frac{112}{256}\frac{\alpha_{n}}{\alpha_{n+1}}\alpha_{n+1}=
+\frac{112}{256}\left(\frac{n+1}{n-\frac{1}{2}}\right)^{2}\alpha_{n+1}
+\leq\alpha_{n+1}.\  \nonumber
+\end{eqnarray} 
+Thus $\beta^{(12)}_{n}\equiv
+\beta_{n}\leq \alpha_{n}$ for all integers $n\geq 0$.
+This concludes the proof of Part II of Proposition \ref{prop1}.\,
+\qquad\endproof%\rule{2.4mm}{2.4mm}
+
+Before proving Proposition \ref{prop2}, we first observe that the
+nine approximations involved  have the following respective
+Maclaurin series  representations (recursive relationships satisfied
+by $\beta^{(13)}_{n}$ and $\beta^{(3)}_{n}$ are
+developed in the appendix):
+\begin{eqnarray}
+  A_{1}(\lambda) &\equiv&(1-\lambda^2)^{1/2}=1 +
+\sum_{n=1}^{\infty}\frac{(-1/2)_{n}}{n!}\lambda^{2n}, \label{eqA1}\\
+\vspace*{-.2in}\nonumber\\   A_{6}(\lambda)
+&\equiv&\left(1+\frac{\lambda^2}{8}\right)^2 = 1 + \frac{\lambda^2}{4}+
+\frac{\lambda^4}{64},\label{eqA6}\\
+\vspace*{-.2in}\nonumber\\
+  A_{7}(\lambda) &\equiv&1+\frac{\lambda^2/4}{1-\lambda^2/16} = 1 +
+\frac{\lambda^2}{4} +
+\sum_{n=2}^{\infty}\frac{1}{2^{4n-2}}\lambda^{2n},\label{eqA7}\\
+\vspace*{-.2in}\nonumber\\
+  A_{8}(\lambda) &\equiv&3-\sqrt{4-\lambda^2}=1 + \frac{\lambda^2}{4} -
+\sum_{n=2}^{\infty}\frac{(-1/2)_{n}}{n!2^{2n-1}}\lambda^{2n},\label{eqA8}\\
+\vspace*{-.2in}\nonumber\\
+  A_{10}(\lambda) &\equiv&\frac{64-3\lambda^4}{64-16\lambda^2}=1 +
+\frac{\lambda^2}{4} +
+\sum_{n=2}^{\infty}\frac{1}{2^{2n+2}}\lambda^{2n},\label{eqA10}\\
+\vspace*{-.2in}\nonumber\\
+  A_{11}(\lambda)
+&\equiv&\frac{3}{2}+\frac{\lambda^2}{8}-\frac{1}{2}\left(1-\frac{\lambda^2}{2}\right)^{1/2}=1 +
+\frac{\lambda^2}{4} -
+\sum_{n=2}^{\infty}\frac{(-1/2)_{n}}{n!2^{n+1}}\lambda^{2n},\label{eqA11}\\
+\vspace*{-.2in}\nonumber\\
+  A_{13}(\lambda) &\equiv&1+\frac{3\lambda^2 }{10+\sqrt{4-3\lambda^2}}=1 +
+\frac{\lambda^2}{4} +
+\sum_{n=2}^{\infty}\beta^{(13)}_{n}\lambda^{2n},\label{eqA13}\\
+\vspace*{-.2in}\nonumber\\
+  A_{4}(\lambda) &\equiv&\frac{3}{2}-\frac{1}{2}(1-\lambda^2)^{1/2}=1 +
+\frac{\lambda^2}{4} -
+\frac{1}{2}\sum_{n=2}^{\infty}\frac{(-1/2)_{n}}{n!}\lambda^{2n},\label{eqA4}\\
+\vspace*{-.2in}\nonumber\\
+  A_{3}(\lambda) &\equiv&\frac{2}{1+\sqrt{1-\lambda^2}}=1 +
+\frac{\lambda^2}{4} +
+\sum_{n=2}^{\infty}\beta^{(3)}_{n}\lambda^{2n}.\label{eqA3}
+\end{eqnarray}
+
+{\it Proof of Proposition {\rm\ref{prop2}}}.\ We seek to establish
+the following inequalities  regarding the specified Maclaurin
+series coefficients:
+\begin{eqnarray}
+ \beta^{(1)}_{n}\leq \beta^{(6)}_{n}\leq \beta^{(7)}_{n}\leq
+\beta^{(8)}_{n}\leq
+\beta^{(10)}_{n} \leq \beta^{(11)}_{n}\leq \beta^{(13)}_{n}\leq
+\alpha_{n}\leq\beta^{(4)}_{n}\leq\beta^{(3)}_{n}
+ \label{eqBB1}
+\end{eqnarray}
+for all $n\geq 0$.
+Referring to (\ref{eqA1})--(\ref{eqA3}), we note
+that the inequalities in (\ref{eqBB1}) are trivial for $n=0$
+and $n=1$.\  Thus   we must verify (\ref{eqBB1})
+ for all  $n\geq 2$.\ The first two inequalities are immediate while the
+ next three inequalities follow directly by induction.\  We
+ now proceed to prove the remaining inequalities in
+(\ref{eqBB1}).
+
+\noindent$\bullet$ Claim I. {\em
+ $\displaystyle \beta^{(11)}_{n} \leq  \beta^{(13)}_{n}\leq \alpha_{n}$
+for all $n\geq 2$.}
+%\vspace{.15in}
+
+\noindent Let $\beta_{n}\equiv  \beta^{(13)}_{n}$ and
+ $\gamma_{n} \equiv  \beta^{(11)}_{n},$ where
+ $\beta^{(11)}_{n}  \equiv \frac{-(-1/2)_{n}}{n!2^{n+1}}$  for
+$n\geq 2$ (see (\ref{eqA11})) and recall that
+$\alpha_{n}\equiv (\frac{(-1/2)_{n}}{n!})^{2}$.
+The nonzero Maclaurin series coefficients of Ramanujan's
+second estimate $A_{13}$ can be shown to satisfy
+ (see the appendix)
+ $\beta_{0}=1,$ $\beta_{1}=1/4,$  $\beta_{2}=1/64,$ and
+\begin{eqnarray}
+\beta_{n}   = \phi_{n-1} - 2^{-5}\beta_{n-1} \quad  \mbox{for all}
+\ n\geq 3, \quad \mbox{where} \quad \phi_{n} \equiv -
+\frac{(-1/2)_{n}(3/4)^n}{16\cdot n!}.\label{eqR}
+\end{eqnarray} 
+Applying (\ref{eqR}) twice,  we have
+\begin{eqnarray}
+\beta_{n} &=&\phi_{n-1} - 2^{-5}\phi_{n-2} + 2^{-10}\beta_{n-2} \quad
+\mbox{for all} \ n\geq 4.\ \label{eqR2}
+\end{eqnarray} 
+Direct calculation reveals that Claim I holds for
+$n=2,3, 4$.\ That is,
+$\gamma_{n} \leq  \beta_{n} \leq \alpha_{n}$ for $n=2,3, 4$.\ Now let
+$n\geq 5$ and suppose that
+\begin{eqnarray}
+\gamma_{k} \leq  \beta_{k}\leq \alpha_{k} \quad \mbox{for all
+$k=2,\ldots,n-1.$} \label{eqih}
+\end{eqnarray} 
+Then (\ref{eqR2}) and (\ref{eqih}) together imply that
+\begin{eqnarray}
+\phi_{n-1} &-& 2^{-5}\phi_{n-2} + 2^{-10}\gamma_{n-2} \nonumber \\ &\leq& 
+\overbrace{\phi_{n-1} - 2^{-5}\phi_{n-2} + 2^{-10}\beta_{n-2}}^{\beta_{n}} 
+\leq \phi_{n-1} - 2^{-5}\phi_{n-2} + 2^{-10}\alpha_{n-2}.\ \label{eqw3}
+\end{eqnarray} 
+It  can be shown (see the appendix) that
+\begin{eqnarray}
+\gamma_{n}&\leq& \phi_{n-1} - 2^{-5}\phi_{n-2} + 2^{-10}\gamma_{n-2}
+ \quad  \mbox{and} \label{eqw3.1}\\
+ \alpha_{n}&\geq& \phi_{n-1} - 2^{-5}\phi_{n-2} + 2^{-10}\alpha_{n-2}
+\label{eqw3.2}
+\end{eqnarray} 
+for all  $n\geq 5$.\ Therefore, using inequalities
+ (\ref{eqw3})--(\ref{eqw3.2}) and induction, we have
+$\gamma_{n} \leq \beta_{n} \leq \alpha_{n}$ for all $n\geq 2$.
+This completes the proof of  Claim I.
+
+\noindent$\bullet$  Claim II. {\em $\displaystyle   \alpha_{n}\leq
+\beta^{(4)}_{n} \leq
+ \beta^{(3)}_{n}$ for all $n\geq 2$}.
+\vspace{.15in}
+
+\noindent If we now apply (\ref{eqA4}),  the first inequality in
+Claim II
+becomes
+\begin{eqnarray}
+\alpha_{n}\equiv \left(\frac{(-1/2)_{n}}{n!}\right)^{2}\leq
+\frac{-(-1/2)_{n}}{2\cdot n!}\equiv \beta^{(4)}_{n}\quad \mbox{for all $n\geq
+2$.} \nonumber
+\end{eqnarray} 
+This is equivalent to
+\begin{eqnarray}
+\frac{-2(-1/2)_{n}}{n!}\leq  1\quad \mbox{for all $n\geq 2$}  \nonumber
+\end{eqnarray} 
+which follows by induction.\ The second inequality in Claim
+II involves the
+ Maclaurin series coefficients of Sipos and Ekwall's approximation $A_{3}$
+ which can be shown to satisfy the following
+recursive relationship (see the appendix):
+$\beta^{(3)}_{0}=1,$ $\beta^{(3)}_{1}=1/4,$ $\beta^{(3)}_{2}=1/8,$ and
+\begin{eqnarray}
+\beta^{(3)}_{n} =
+-\frac{1}{2}\sum_{k=0}^{n-1}\frac{(-1/2)_{n-k}}{(n-k)!}\beta^{(3)}_{k}
+ \quad  \mbox{for all} \ n\geq 2.
+\label{eqSE}
+\end{eqnarray} 
+Note that
+\begin{eqnarray}
+ -\frac{1}{2}\sum_{k=0}^{n-1}\frac{(-1/2)_{n-k}}{(n-k)!}\beta^{(3)}_{k} =
+ \frac{-(-1/2)_{n}}{2\cdot
+n!}-\frac{1}{2}\sum_{k=1}^{n-1}\frac{(-1/2)_{n-k}}{(n-k)!}\beta^{(3)}_{k}
+  \label{eqDD}
+\end{eqnarray} 
+\noindent{for all} \ $n \geq$ 2, and
+\begin{eqnarray}
+\frac{-(-1/2)_{n-k}}{2\cdot(n-k)!}\beta^{(3)}_{k} > 0 \quad
+\mbox{for} \ k=1,\ldots,n-1.\ \label{eqD2}
+\end{eqnarray} 
+Therefore, (\ref{eqSE})--(\ref{eqD2}) together yield
+\begin{eqnarray}
+\beta^{(4)}_{n}\equiv\frac{-(-1/2)_{n}}{2\cdot n!}\leq  \beta^{(3)}_{n}
+\quad \mbox{for all} \ n\geq 2.\ \nonumber
+\end{eqnarray}
+\noindent This concludes the proof of Claim II and Proposition \ref{prop2}.\,
+\qquad\endproof%\rule{2.4mm}{2.4mm}
+
+{\it Remarks on the Proof of Proposition {\rm\ref{prop3}}}.\ From  
+(\ref{eqRR3}),
+we have that
+$\displaystyle c_{n} \equiv \frac{(1/2)^{n}(-1/2)_{n}}{n!}$ for all
+$n\geq 1$.
+By induction, it can be shown that
+\begin{eqnarray}
+ \frac{(1/2)_{n}(-1/2)_{n}}{n!\cdot n!} \leq c_{n} \quad \mbox{for all
+$n\geq 1$.}  \nonumber
+\end{eqnarray} 
+In an earlier  paper (see \cite{BPR}), the authors use
+ the logarithmic derivative  and  Cauchy products to obtain
+ the recursive relationship for $b_{n}$
+ (with $b_n$ as defined in (\ref{eqRR})) given by
+\begin{equation}
+b_{n+1}=\frac{1}{2(n+1)}\left[ \left( \frac{5}{4}n-\frac{1}{2}\right)
+b_{n}-\sum\limits_{k=0}^{n-2}(k+1)b_{k+1}\frac{\left( -\frac{1}{4}\right)
+_{n-k}}{(n-k)!}\right].\ \label{eq4}
+\end{equation}  
+Theorem \ref{thm1}, together with (\ref{eq4}), was then used
+ (see \cite{BPR}) to
+ establish that
+\begin{eqnarray}
+ b_{n} \leq \frac{(1/2)_{n}(-1/2)_{n}}{n!\cdot n!} \quad
+\mbox{for all }  n\geq 1.\  \nonumber \, \qquad\endproof%$\rule{2.4mm}{2.4mm}$}
+\end{eqnarray}
+
+\section{Proofs of general results involving \protect\boldmath$\,_{3}F_{2}$}
+
+\noindent We will make use of the following classical
+ identities which we include for the reader's convenience
+($F\,\equiv{\,}_{3}F_{2}$).
+
+\noindent {\sc Identity 1} \{see \cite[p. 440, eq. (33)]{Pr}\}.
+\[ 
+\hspace{-15pc} F\left(\rho,a,b;c,\sigma;1\right)-F\left(\rho+1,a,b;c,\sigma+1;1\right) 
+\]
+\vspace{-2pc}
+\[
+= \frac{-ab(\sigma-\rho)}{c\sigma(\sigma+1)}
+\cdot F\left(\rho+1,a+1,b+1;c+1,\sigma+2;1\right).
+\]
+\noindent {\sc Identity 2} \{see \cite[p. 59, eq. (3.1.1)]{GR}\}.
+\[ 
+F(-n,a,b;c,d;1)=\frac{(d-b)_{n}}{(d)_{n}}\cdot F(-n,c-a,b;c,1+b-d-n;1).
+\]
+\noindent {\sc Identity 3} \{see \cite[p. 440, eq. (26)]{Pr}\}.
+\[
+\sigma\cdot F\left(\rho,a,b;c,\sigma;1\right) =
+\rho\cdot F\left(\rho+1,a,b;c,\sigma+1;1\right) + (\sigma -\rho)\cdot
+F\left(\rho,a,b;c,\sigma+1;1\right).
+\]
+\noindent {\sc Identity 4} \{see \cite[p. 82, eq.\ (14)]{R}\}.
+\[ 
+(a_{1}-a_{2})\cdot F(a_{1},a_{2},a_{3};b_{1},b_{2};z)=
+a_{1}\cdot F(a_{1}+1,a_{2},a_{3};b_{1},b_{2};z)-a_{2}\cdot
+F(a_{1},a_{2}+1,a_{3};b_{1},b_{2};z).
+\]
+\noindent {\sc Identity 5} \{see \cite[p. 440, eq. (30)]{Pr}\}.
+\[ 
+F\left(\sigma,a,b;c,d;1\right)-F\left(\sigma+1,a,b;c,d;1\right)  =
+\frac{-ab}{cd}\cdot
+F\left(\sigma+1,a+1,b+1;c+1,d+1;1\right).
+\]
+
+{\it Proof of Theorem {\rm\ref{thm2}}}.\ Define
+$T_{n}\equiv  F\left(-n,a,b;a+b+2,\varepsilon -n +1;1\right),$ where $F\equiv
+\,_{3}F_{2}$.\ Let  $1>a\geq b>-1$ and
+$1>\varepsilon\geq\,\frac{(a+1)(b+2)}{a+b+4}$.\ For $n\geq2,$
+ it follows that
+\begin{eqnarray}  
+T_{n+1} - T_{n} &=&
+ F\left(-n-1,a,b;a+b+2,\varepsilon
+-n;1\right)-F\left(-n,a,b;a+b+2,\varepsilon -n +1;1\right)   \nonumber\\
+\ &=& \frac{-a b(\varepsilon+1)}{(\varepsilon-n)
+(\varepsilon-n+1)(a+b+2)}F\left(-n,a+1,b+1;a+b+3,\varepsilon -n+2;1\right) \nonumber \\ 
+&\ & \quad \{ \mbox{using Identity 1
+with $\rho = -n-1,$ $\sigma=\varepsilon -n$}\} \nonumber\\
+\ &=& \frac{-a b
+(\varepsilon+1)}{(n-\varepsilon)(n-\varepsilon-1)(a+b+2)}
+\frac{(\varepsilon-n-b+1)_{n}}{(\varepsilon-n+2)_{n}} \nonumber \\ 
+&\ & \quad \times F\left(-n,b+2,b+1;a+b+3,b-\varepsilon ;1\right) \nonumber \\ 
+&\ & \quad \{ \mbox{using Identity 2}\}\nonumber\\
+\ &=& \frac{-a b
+(\varepsilon+1)(b-\varepsilon)_{n}}{(n-\varepsilon)
+(n-\varepsilon-1)(a+b+2)(-1-\varepsilon)_{n}(b-\varepsilon)} \nonumber \\ 
+&\ & \quad \times [(b+1)F\left(-n,b+2,b+2;a+b+3,b+1-\varepsilon;1\right)\nonumber \\
+\  &+&(-\varepsilon
+-1)F\left(-n,b+2,b+1;a+b+3,b+1-\varepsilon;1\right)],  \label{eqT4} 
+\end{eqnarray} 
+where (\ref{eqT4}) follows from Identity 3
+ (with $\rho = b+1,$ $\sigma=b-\varepsilon$) and the identity
+$(1-\alpha-n)_{n} = (-1)^n(\alpha)_{n}$.
+
+\noindent Identity 4 (with $a_{1} = -n$ and $a_{2} = b+1$)
+implies that
+\begin{eqnarray}
+&F&\left(-n,b+2,b+2;a+b+3,b+1-\varepsilon;1\right) \nonumber \\
+&\ & \quad \quad =\frac{1}{b+1}[(n+b+1)F\left(-n,b+2,b+1;a+b+3,b+1-\varepsilon;1 \right) \nonumber \\ 
+&\ & \quad \quad + (-n)F\left(-n+1,b+2,b+1;a+b+3,b+1-\varepsilon;1\right)].\  \label{eqT5}
+\end{eqnarray} 
+Now let $G_{n} = F\left(-n,b+2,b+1;a+b+3,b+1-\varepsilon;1\right)$
+ and use (\ref{eqT4}) and (\ref{eqT5}).\ Then we
+have that
+\begin{eqnarray} 
+T_{n+1} - T_{n} &=& \frac{-a b
+(\varepsilon+1)(b-\varepsilon)_{n}}{(n-\varepsilon)(n-\varepsilon-
+1)(a+b+2)(-1-\varepsilon)_{n}(b-\varepsilon)}\nonumber \\
+&\ & \quad \times [(n+b+1)G_{n}
+- nG_{n-1} +(-\varepsilon-1)G_{n}]\nonumber \\
+\ &=&  \frac{-a b
+(\varepsilon+1)(b-\varepsilon)_{n}}{(n-\varepsilon)(n-\varepsilon-1)(a+b+2)(-1
+-\varepsilon)_{n}(b-\varepsilon)}\nonumber \\
+&\ & \quad \times [n(G_{n}
+- G_{n-1})   +(b-\varepsilon)G_{n}].\label{eqT6}
+\end{eqnarray}
+
+\noindent Applications of Identity 5 (with  $\sigma=-n$) followed by
+Identity 2 yield
+\begin{eqnarray} 
+G_{n} - G_{n-1} &=& F\left(-n,b+2,b+1;a+b+3,b+1-\varepsilon;1\right) \nonumber \\
+&-& F\left(-n+1,b+2,b+1;a+b+3,b+1-\varepsilon;1\right) \nonumber \\
+&=& \frac{-(b+2)(b+1)}{(a+b+3)(b+1-\varepsilon)}F\left(-n+1,b+3,b+2;a+b+4,b+2-\varepsilon;1\right)\nonumber \\
+&=& \frac{-(b+2)(b+1)}{(a+b+3)(b+1-\varepsilon)}\cdot\frac{(-\varepsilon)_{n-1}}
+{(b+2-\varepsilon)_{n-1}}\nonumber \\
+&\ & \quad \times F\left(-n+1,a+1,b+2;a+b+4,\varepsilon-n+2;1\right).\  \label{eqT9}
+\end{eqnarray}
+Identity 2 also implies that
+\begin{eqnarray} 
+G_{n} = \frac{(-\varepsilon)_{n}}{(b+1-
+\varepsilon)_{n}}F\left(-n,a+1,b+1;a+b+3,\varepsilon-n+1;1\right).
+\label{eqT10}
+\end{eqnarray}
+
+\noindent Combining (\ref{eqT6})--(\ref{eqT10}),  we have
+\begin{eqnarray} 
+T_{n+1} - T_{n}  = \frac{-a b
+(\varepsilon+1)(b-\varepsilon)_{n}}{(n-\varepsilon)(n-\varepsilon-1)(a+b+2)(-1
+-\varepsilon)_{n}(b-\varepsilon)}\hspace*{1.5in} 
+\nonumber\\ 
+\times\left[\frac{-n(b+2)(b+1)(-\varepsilon)_{n-1}}{(a+b+3)(b+1-\varepsilon)(b+2
+-\varepsilon)_{n-1}}
+F\left(-n+1,a+1,b+2;a+b+4,\varepsilon-n+2 ;1\right) \right.\nonumber \\ \left.
++(b-\varepsilon)\frac{(-\varepsilon)_{n}}{(b+1-\varepsilon)_{n}}F\left(-n,a+1,b+
+1;a+b+3,\varepsilon-n+1;1\right)\right].
+\label{eqT11}
+\end{eqnarray}
+
+\noindent Now make use of
+$\frac{(b-\varepsilon)_{n}}{(b+1-\varepsilon)_{n}}=
+\frac{(b-\varepsilon)}{(n+ b-\varepsilon)},$ \
+$\frac{(-\varepsilon)_{n}}{(-1-\varepsilon)_{n}}=
+\frac{(-1-\varepsilon+n)}{(-1-\varepsilon)},$ \
+$\frac{(-\varepsilon)_{n-1}}{(-1-\varepsilon)_{n}}=
+\frac{1}{(-1-\varepsilon)},$ \ and multiply both sides by
+$-ab$.\ Then (\ref{eqT11}) becomes
+ \begin{eqnarray} 
+\hspace*{-1.1in}a b (T_{n} - T_{n+1})  = \frac{(a
+b)^2(\varepsilon+1)}{(n-\varepsilon)(n-\varepsilon-1)(a+b+2)(b-\varepsilon)}
+\hspace*{1.5in} \nonumber\\  
+\times\left[\frac{-n(b+2)(b+1)(b-\varepsilon)}{(a+b+3)(-1-\varepsilon)(n+
+b-\varepsilon)}
+F\left(-n+1,a+1,b+2;a+b+4,\varepsilon-n+2 ;1\right) \right.\nonumber\\ 
+\left.\ +(b-\varepsilon)\frac{(n-1-\varepsilon)(b-\varepsilon)}{(-1-\varepsilon)(n+b-
+\varepsilon)}F\left(-n,a+1,b+1;a+b+3,\varepsilon-n+1;1\right)\right]
+\nonumber \\
+= \frac{(ab)^2}{(n-\varepsilon)(n-\varepsilon-1)(a+b+2)(n+ b-\varepsilon)}\hspace*{2.0in} 
+\nonumber\\  
+\times\left[\frac{n(b+2)(b+1)}{(a+b+3)}
+F\left(-(n-1),a+1,b+2;a+b+4,\varepsilon-(n-1)+1 ;1\right) 
+\right.\nonumber\\ 
+\left.\ \frac{}{}+(\varepsilon-b)(n-\varepsilon-1)F\left(-n,a+1,b+1;a+b+3,\varepsilon-n+
+1;1\right)\right],
+\label{eqT13}
+\end{eqnarray} 
+where  $n+ b-\varepsilon > n-\varepsilon-1>n-2 \geq 0,$
+$n-\varepsilon >0,$ and $\varepsilon-b>
+\varepsilon-\frac{(a+1)(b+2)}{a+b+4} \geq 0$.
+ Since $1> \varepsilon \geq
+\frac{(a+1)(b+2)}{a+b+4}>\frac{(a+1)(b+1)}{a+b+3},$
+Theorem \ref{thm1} implies that
+\begin{eqnarray}
+ F\left(-(n-1),a+1,b+2;a+b+4,\varepsilon-(n-1)+1 ;1\right)
+&\geq& 0 \quad \mbox{and}  \nonumber \\
+F\left(-n,a+1,b+1;a+b+3,\varepsilon-n+1;1\right) &\geq& 0.\  \nonumber
+\end{eqnarray}  
+Therefore, (\ref{eqT13}) is the product and sum of
+nonnegative quantities and thus
+\begin{eqnarray} 
+a b (T_{n} - T_{n+1}) \geq 0 \quad \mbox{for all integers }
+n\geq 2.\ \nonumber \, \qquad\endproof %\rule{2.4mm}{2.4mm}} \nonumber
+\end{eqnarray}
+
+\noindent In order to prove Corollary \ref{cor1}, we will make use of the following
+two lemmas.
+
+\begin{lemma}\label{lem1}%\noindent{\bf Lemma 1.}
+\ Let $n$ be a positive integer and $0 <
+\varepsilon <1$.\ Then
+\[ 
+\frac{(-n)_{k}}{(\varepsilon-n+1)_{k}} \geq 1 \quad \mbox{for all
+$k=0,\dots, n-1$.}
+\]
+\end{lemma}
+
+{\it Proof of Lemma {\rm\ref{lem1}}}.\ Note that the desired inequality holds at
+$k=0$.\ Now
+ let $n \geq 2$ and  suppose that
+\[ 
+\frac{(-n)_{k}}{(\varepsilon-n+1)_{k}} \geq 1 \quad \mbox{for some $k$ with
+$0\le k\leq n-2$.}\]
+ Then
+\[
+\frac{(-n)_{k+1}}{(\varepsilon-n+1)_{k+1}}=\frac{(-n)_{k}(-n+k)}{(\varepsilon-
+n+1)_{k}(\varepsilon-n+1+k)}\geq
+\frac{(-n)_{k}}{(\varepsilon-n+1)_{k}} \geq 1.
+\qquad\endproof\]%\mbox{\, \rule{2.4mm}{2.4mm}}\]
+%\vspace{.1in}
+
+\begin{lemma}
+\label{lem2}%\noindent{\bf Lemma 2.}
+\ Define
+$\psi_{n}(a,b,c,\varepsilon)\equiv
+\frac{(a)_{n}(b)_{n}(-n)_{n}}{n!(c)_{n}(\varepsilon-n+1)_{n}}$.\ Let
+$(a,b,c,\varepsilon)$ be in the  domain of $\psi_{n}$ for all $n \geq 2$
+with  $\varepsilon <c-a-b$.\ Then
+ \[\lim_{n\rightarrow\infty}\psi_{n}(a,b,c,\varepsilon) = 0.\]
+\end{lemma}
+
+{\it Proof of Lemma {\rm\ref{lem2}}}.\ Since $(1-c-n)_{n} = (-1)^{n}(c)_{n},$ it
+follows that
+\[
+\psi_{n} = \frac{(a)_{n}(b)_{n}(1)_{n}}{n!(c)_{n}(-\varepsilon)_{n}} =
+\frac{\Gamma(a+n)\Gamma(b+n)\Gamma(c)\Gamma(-\varepsilon)}{\Gamma(a)\Gamma(b
+)\Gamma(c+n)\Gamma(-\varepsilon+n)}n^{c-a-b-\varepsilon}n^{a+b+\varepsilon-c}.
+\]
+It is known that  (see \cite[p. 257, eq.\ (6.1.46)]{A})
+\[
+\lim_{n\rightarrow\infty} \frac{\Gamma(r+n)}{\Gamma(s+n)}n^{s-r}= 1.
+\] 
+If
+$a+b+\varepsilon -c<0,$ then
+\[
+\lim_{n\rightarrow\infty} \psi_{n} =
+\lim_{n\rightarrow\infty}\frac{\Gamma(a+n)\Gamma(b+n)\Gamma(c)\Gamma(-\varepsilon)}
+{\Gamma(a)\Gamma(b)\Gamma(c+n)\Gamma(-\varepsilon+n)}n^{c-a-b-\varepsilon}\cdot
+\lim_{n\rightarrow\infty}n^{a+b+\varepsilon-c}=
+0.
+\qquad\endproof
+\]
+%\mbox{\, \rule{2.4mm}{2.4mm}} \]
+
+{\it Proof of Corollary {\rm\ref{cor1}}}.
+Let  $1>a\geq b>-1$ and $1>\varepsilon\geq\,\frac{(a+1)(b+2)}{a+b+4}$ and
+define
+\[
+T_{n}\equiv  \,_{3}F_{2}\left(-n,a,b;a+b+2,\varepsilon -n +1;1\right).
+\]
+Theorem \ref{thm2} implies that the sequence $\{a b T_{n}\}_{n=2}^{\infty}$
+is a monotone (nonincreasing) sequence.\ Now define
+\[S_{n} \equiv    1+
+\frac{(a)_{n}(b)_{n}(-n)_{n}}{n!(a+b+2)_{n}(\varepsilon -n +1)_{n}}+
+\sum_{k=1}^{n-1}\frac{(a)_{k}(b)_{k}}{k!(a+b+2)_{k}}.\]
+ Using the definition of $\,_{3}F_{2},$ Lemma \ref{lem1}, and the fact that
+$\displaystyle \frac{a b (a)_{k}(b)_{k}}{k!(a+b+2)_{k}} \geq 0$ for
+$k=1,\ldots,n-1,$ we obtain
+ \begin{eqnarray} 
+a b T_{n} =
+ a b + \frac{a b (a)_{n}(b)_{n}(-n)_{n}}{n!(a+b+2)_{n}(\varepsilon -n +1)_{n}}+
+\sum_{k=1}^{n-1}\frac{a b
+(a)_{k}(b)_{k}(-n)_{k}}{k!(a+b+2)_{k}(\varepsilon -n +1)_{k}}
+ \geq a b S_{n}  \nonumber
+\end{eqnarray}
+\noindent {for all $n\geq 2$.} 
+
+\noindent  Applying Lemma \ref{lem2} with $c=a+b+2,$ we have
+\[
+\lim_{n\rightarrow\infty} S_{n} = \,_{2}F_{1}\left(a,b;a+b+2;1\right).
+\]
+Since $a b T_{n} \geq a b S_{n}$ for all $n\geq
+2,$ it follows that  $\{a b T_{n}\}_{n=2}^{\infty}$ is a bounded monotone
+ sequence.\  Thus
+\[
+a b T_{n}\geq \lim_{n\rightarrow\infty} abT_{n} \geq
+\lim_{n\rightarrow\infty} a b S_{n} = a
+b\cdot\,_{2}F_{1}\left(a,b;a+b+2;1\right)
+\quad \mbox{for all } n\geq 2.\, \qquad\endproof\]%\rule{2.4mm}{2.4mm}}\]
+
+{\it Proof of Corollary {\rm\ref{cor2}}}.\ Choose $a=b=-1/2$ and $1>\varepsilon
+\geq 1/4$
+ and  define
+\[
+T_{n}\equiv  \,_{3}F_{2}\left(-n,-\frac{1}{2},-\frac{1}{2};1,\varepsilon
+-n +1;1\right).
+\]
+It is known   that (see
+\cite[p. 49]{R})
+ \[
+\,_{2}F_{1}\left(-\frac{1}{2},-\frac{1}{2};1;1\right) = \frac{4}{\pi}.
+\]
+Corollary \ref{cor1} implies that
+\[
+T_{n} \geq  T_{n+1} \geq \frac{4}{\pi} \quad \mbox{for all } n\geq 2.\,\qquad\endproof\]
+%\rule{2.4mm}{2.4mm}}\]
+
+\section{Appendix}
+
+\subsection{Recursive relationship for  Maclaurin series
+coefficients of Ramanujan's second estimate \protect\boldmath$A_{13}$}
+Writing $\beta_{n}\equiv \beta^{(13)}_{n} ,$  we have
+\begin{eqnarray} 
+3\lambda^2(10-\sqrt{4-3\lambda^2})=(A_{13}(\lambda) -
+1)(10^2 -(\sqrt{4-3\lambda^2})^2)=
+ (96+3\lambda^2)\sum_{n=1}^{\infty}\beta_{n}\lambda^{2n} \nonumber
+\end{eqnarray} 
+which implies that
+\begin{eqnarray} 
+10-2\left(1-\frac{3}{4}\lambda^2\right)^{1/2}= (32
++\lambda^2)\sum_{n=1}^{\infty}\beta_{n}\lambda^{2n-2}.\ \nonumber
+\end{eqnarray}
+ Applying
+$(1-x)^{q} = \sum_{n=0}^{\infty}\frac{(-q)_{n}}{n!}x^{n}$
+and simplifying yields
+\begin{eqnarray} 8
+-2\sum_{n=1}^{\infty}\frac{(-1/2)_{n}(3/4)^n}{n!}\lambda^{2n} = 32\beta_{1}
++
+\sum_{n=1}^{\infty}(32\beta_{n+1}+\beta{n})\lambda^{2n}.\  \nonumber
+\end{eqnarray} 
+Thus  $\beta_{0}=1,$ $\beta_{1}=1/4,$ $\beta_{2}=1/64,$ and
+\begin{eqnarray}
+\beta_{n+1} =   \frac{-(-1/2)_{n}(3/4)^n}{16\cdot n!}
+-\frac{\beta_{n}}{32} \quad \mbox{for all} \ n\geq 1.\ \nonumber
+\end{eqnarray} 
+Letting $\displaystyle \phi_{n} \equiv   -
+\frac{(-1/2)_{n}(3/4)^n}{16\cdot n!},$ we obtain
+\begin{eqnarray}
+\beta_{n+1} = \phi_{n} - 2^{-5}\beta_{n} \quad \mbox{for all } n\geq 2.\ \nonumber \,\qquad\endproof
+%$\rule{2.4mm}{2.4mm}$}   \nonumber
+\end{eqnarray}
+
+\subsection{Recursive relationship for  Maclaurin series
+coefficients of Sipos $\mbox{and}$ Ekwall's estimate \protect\boldmath$A_{3}$}
+Writing $\beta_{n}\equiv \beta^{(3)}_{n} $ and using the Cauchy product, we
+have
+\begin{eqnarray}
+2=A_{3}(\lambda)(1+\sqrt{1-\lambda^2})=\sum_{n=0}^{\infty}\beta_{n}\lambda^{
+2n} +
+\sum_{n=0}^{\infty}\sum_{k=0}^{n}\frac{(-1/2)_{n-k}}{(n-k)!}\beta_{k}\lambda
+^{2n}.\ \nonumber
+\end{eqnarray} 
+Thus $\beta^{(3)}_{0}=1, \ \beta^{(3)}_{1}=1/4, \
+\beta^{(3)}_{2}=1/8, \quad \mbox{and} $
+\begin{eqnarray}
+\beta^{(3)}_{n} =
+\frac{-1}{2}\sum_{k=0}^{n-1}\frac{(-1/2)_{n-k}}{(n-k)!}\beta^{(3)}_{k}
+\quad
+ \mbox{for all } n\geq 2.\, \nonumber \qquad\endproof%$\rule{2.4mm}{2.4mm}$}  \nonumber
+\end{eqnarray}
+
+\subsection{Establishing inequality (\ref{eqw3.1})} Let
+$\phi_{n} \equiv  \frac{-(-1/2)_{n}(3/4)^n}{16\cdot n!},$
+$\gamma_{n} \equiv  \beta^{(11)}_{n} =
+\frac{-(-1/2)_{n}}{n!2^{n+1}},$ and  $n\geq 4$.
+Inequality (\ref{eqw3.1}) claims that $\displaystyle
+\gamma_{n}\leq \phi_{n-1} - 2^{-5}\phi_{n-2} + 2^{-10}\gamma_{n-2}$.
+
+Direct calculation reveals that the desired inequality holds for
+$n=4,\dots,7$.
+ Now suppose that $n \geq 7$.\ Since $\gamma_{n-2}>0,$ we have
+\begin{eqnarray*} 
+\gamma_{n}&-& \phi_{n-1} +
+2^{-5}\phi_{n-2} -  2^{-10}\gamma_{n-2} < \gamma_{n}- \phi_{n-1}
++ 2^{-5}\phi_{n-2} \nonumber \\
+ &=& \frac{-(-1/2)_{n}}{n!2^{n+1}} +\frac{(-1/2)_{n-1}(3/4)^{n-1}}{16\cdot
+(n-1)!}
+-2^{-9}\frac{(-1/2)_{n-2}(3/4)^{n-2}}{ (n-2)!} \nonumber \\
+ &=& -2^{-9}\frac{(-1/2)_{n-2}(3/4)^{n-2}}{(n-2)!}\cdot\left[
+\frac{2^9(4/3)^{n-2}(n-3/2)(n-5/2)}{n(n-1)2^{n+1}} -
+\frac{2^5(3/4)(n-5/2)}{(n-1)}+1\right] \nonumber \\
+ &=& -2^{-9}\frac{(-1/2)_{n-2}(3/4)^{n-2}}{(n-2)!}\cdot\left[
+\frac{2^{n+4}(n-3/2)(n-5/2)}{3^{n-2}n(n-1)} -
+\frac{24(n-5/2)}{(n-1)}+1\right].
+\end{eqnarray*} 
+Since $\frac{(n-5/2)}{(n-1)} \geq \frac{1}{2},$ it follows that
+\begin{eqnarray}
+\frac{2^{n+4}(n-3/2)(n-5/2)}{3^{n-2}n(n-1)} -
+\frac{24(n-5/2)}{(n-1)}+1 \leq
+\frac{2^{n+4}(n-3/2)(n-5/2)}{3^{n-2}n(n-1)} - 11.\ \nonumber
+\end{eqnarray} 
+Thus
+\begin{eqnarray} 
+\gamma_{n}&-& \phi_{n-1} +
+2^{-5}\phi_{n-2} -  2^{-10}\gamma_{n-2}\nonumber \\
+ &<& -2^{-5}\cdot9\frac{(-1/2)_{n-2}(3/4)^{n-2}}{(n-2)!}\cdot\left[
+\frac{2^{n}(n-3/2)(n-5/2)}{3^{n}n(n-1)} - \frac{11\cdot2^{-4}}{3^2}\right] \nonumber \\
+&\leq& \frac{-9(-1/2)_{n-2}(3/4)^{n-2}}{32(n-2)!}\cdot\left[
+\left(\frac{2}{3}\right)^{n} - \frac{11}{144}\right]  \nonumber \\
+&\leq&
+\frac{-9(-1/2)_{n-2}(3/4)^{n-2}}{32(n-2)!}\cdot\left[\left(\frac{2}{3}\right
+)^{7} - \frac{11}{144}\right] <0.\ \nonumber
+\end{eqnarray} 
+Hence the  claim in (\ref{eqw3.1}) is established.\,
+\qquad\endproof%$\rule{2.4mm}{2.4mm}$
+
+\subsection{Establishing inequality (\ref{eqw3.2})}  
+Let $\textstyle \phi_{n} \equiv - \frac{(-1/2)_{n}(3/4)^n}{16\cdot n!},$
+$\textstyle \alpha_{n} \equiv (\frac{(-1/2)_{n}}{n!})^2,$ and
+$n\geq 4$.
+
+Inequality (\ref{eqw3.2}) claims that $\displaystyle
+\phi_{n} - 2^{-5}\phi_{n-1} + 2^{-10}\alpha_{n-1} \leq \alpha_{n+1}$.\  Note
+that
+\begin{eqnarray*} 
+&\phi&_{n} - 2^{-5}\phi_{n-1} +
+2^{-10}\alpha_{n-1} - \alpha_{n+1}\nonumber\\
+&=& -\frac{(-1/2)_{n}(3/4)^n}{16\cdot
+n!}+2^{-5}\frac{(-1/2)_{n-1}(3/4)^{n-1}}{16\cdot (n-1)!}
+ + 2^{-10}\left(\frac{(-1/2)_{n-1}}{(n-1)!}\right)^2 -
+\left(\frac{(-1/2)_{n+1}}{(n+1)!}\right)^2  \\
+&=& \frac{(-1/2)_{n-1}}{(n-1)!}\left\{
+\frac{-(n-3/2)3^n}{n2^{2n+4}} + \frac{3^{n-1}}{2^{2n+7}}
++\frac{(-1/2)_{n-1}}{2^{10}(n-1)!}-
+\frac{(n-3/2)(n-1/2)(-1/2)_{n+1}}{n(n+1)\cdot(n+1)!}\right\} \\
+&=& \frac{(-1/2)_{n-1}}{(n-1)!}\left\{
+\frac{3^{n-1}}{2^{2n+4}}\left[\frac{3(3/2-n)}{n}+ \frac{1}{2^3}\right] +
+\frac{(-1/2)_{n-1}}{(n-1)!}\left[
+\frac{1}{2^{10}}-\frac{(n-3/2)^2(n-1/2)^2}{n^2(n+1)^2}\right] \right\} \\
+&=& \frac{(-1/2)_{n-1}}{(n-1)!}\left\{\frac{U(n)}{V(n)} +1\right\}V(n) ,
+\end{eqnarray*} 
+where  $$\displaystyle  U(n) \equiv
+\frac{3^{n-1}}{2^{2n+4}}\left[\frac{3(3/2-n)}{n}+
+\frac{1}{2^3}\right]$$  and 
+$$
+\displaystyle V(n) \equiv
+\frac{(-1/2)_{n-1}}{(n-1)!}\left[\frac{1}{2^{10}}-\frac{(n-3/2)^2(n-1/2)^2}{
+n^2(n+1)^2}\right].
+$$
+
+\noindent It follows that $V(n) > 0$.\ Now let $W(n) \equiv U(n)/V(n)$.\ Since
+$(-1/2)_{n-1} < 0,$ we will be finished if we can
+show that $W(n)+1 > 0$ for all $n\geq 4$.\ Direct calculation again yields
+$W(4) +1>0$.\ For $n\geq4,$ it is easy to check that
+\begin{eqnarray} 
+W(n+1) -W(n)  &=&
+\frac{
+\frac{3^{n}}{2^{2n+6}}\left[\frac{3(1/2-n)}{n+1}+
+\frac{1}{2^3}\right]}{
+\frac{(-1/2)_{n}}{n!}\left[
+\frac{1}{2^{10}}-\frac{(n-1/2)^2(n+1/2)^2}{(n+1)^2(n+2)^2}\right]} \nonumber \\
+&-&\frac{
+\frac{3^{n-1}}{2^{2n+4}}\left[\frac{3(3/2-n)}{n}+
+\frac{1}{2^3}\right]}{
+\frac{(-1/2)_{n-1}}{(n-1)!}\left[
+\frac{1}{2^{10}}-\frac{(n-3/2)^2(n-1/2)^2}{n^2(n+1)^2}\right]
+} \nonumber \\
+ &=& \left\{\frac{\frac{3^{n-1}}{2^{2n+4}}}{\frac{(-1/2)_{n-1}}{(n-1)
+!}}\right\}
+\left\{\frac{3n}{4(n-3/2)}Z(n+1) - Z(n)
+\right\}, \label{eq77}
+\end{eqnarray} 
+where $Z(n) \equiv
+[\frac{3(3/2-n)}{n}+ \frac{1}{2^3}]/
+        [\frac{1}{2^{10}}-\frac{(n-3/2)^2(n-1/2)^2}{n^2(n+1)^2}].$
+ Direct calculation reveals that the expression in
+(\ref{eq77}) is nonnegative for $n=4$ and $n=5$.
+For $n\geq 6,$ it can be shown by a straightforward calculation that
+$0<Z(n+1)\leq Z(n)$.\ Hence
+$
+\frac{3n}{4(n-3/2)}Z(n+1) - Z(n) \leq Z(n+1) - Z(n) \leq 0$ for all $n\geq 6$.
+ Thus $W(n+1) - W(n) \geq 0$  for all $n\geq 4$ since
+$(-1/2)_{n-1} < 0$.\ Therefore,
+ $W(n) + 1 \geq W(4) + 1 >0$  for all $n\geq 4$.\ This establishes the claim in
+(\ref{eqw3.2}).\, \qquad\endproof%$\rule{2.4mm}{2.4mm}$
+
+\subsection*{Acknowledgments}
+\noindent
+ The authors wish to acknowledge
+ the referees for
+ their helpful suggestions regarding the revision of
+this paper.\ The authors also wish to thank H.\ Alzer for useful correspondence.
+
+\begin{thebibliography}{9}
+
+\bibitem{A}  {\sc M.\ Abramowitz and I.A.\ Stegun}, {\em Handbook of Mathematical
+Functions},  Dover, New York, 1972.
+
+\bibitem{AB}  {\sc G.\ Almkvist and B.\ Berndt}, {\em Gauss, Landen, Ramanujan, the
+arithmetic-geometric mean, ellipses, $\pi,$ and the
+Ladies Diary},  Amer.\ Math.\ Monthly, 95 (1988), pp.\ 585--608.
+
+\bibitem{ALZER} {\sc H.\ Alzer},~% Inequalities for the Complete Elliptic Integrals, preprint, 1998.
+{\it private communication}, 1998.
+
+\bibitem{ABRVV} {\sc G.D.\ Anderson, R.W.\ Barnard, K.C.\ Richards, M.K.\ Vamanamurthy,
+and M.\ Vuorinen}, {\em Inequalities for zero-balanced hypergeometric functions},
+Trans.\ Amer.\ Math.\ Soc., 347 (1995), pp.\ 1713--1723.
+
+\bibitem{AVV} {\sc G.D.\ Anderson, M.K.\ Vamanamurthy, and M.\ Vuorinen}, 
+{\em Conformal Invariants, Inequalities, and Quasiconformal Mappings},
+ John Wiley \& Sons, New York, 1997.
+
+\bibitem{AQV} {\sc G.D.\ Anderson, S.-L.\ Qiu, and M.\ Vuorinen}, {\em Precise estimates
+for differences of the Gaussian hypergeometric function},
+J.\ Math.\ Anal.\ Appl., 215 (1997), pp.\ 212--234.
+
+\bibitem{AG}  {\sc R.\ Askey,  G.\ Gasper, and M.\ Ismail}, {\em A positive sum from
+summability theory},  J.\  Approx.\ Theory, 13
+(1975), pp.\ 413--420.
+
+\bibitem{BARN} {\sc R.W.\ Barnard},
+{\em On applications of hypergeometric functions}, J.\ Comput.\ Appl.\ Math.,
+105 (1999), pp.\ 1--8.
+
+\bibitem{BPR} {\sc R.W.\ Barnard, K.\ Pearce, and K.C.\ Richards}, {\em An inequality
+involving the generalized hypergeometric function and the arc length of an
+ellipse},
+SIAM J.\ Math.\ Anal., 31(2000), pp. 693--699.
+
+\bibitem{BB} {\sc J.M.\ Borwein and P.B.\ Borwein}, {\em Inequalities
+ for compound mean iterations with logarithmic asymptotes}, J.\ Math.\ Anal.
+Appl.,
+177 (1993), pp.\ 572--582.
+
+\bibitem{GR}  {\sc G.\ Gasper and M.\ Rahman},  {\em Basic Hypergeometric Series},
+Cambridge University Press, Cambridge, UK, 1990.
+
+\bibitem{MC}  {\sc C.\ Maclaurin}, {\em A Treatise of Fluxions in Two Books}, Vol.
+2, {\rm T.W.\ and T.\ Ruddimans}, Edinburgh, 1742.
+
+\bibitem{Pr}  {\sc A.P.\ Prudnikov, Yu.\ A.\ Brychkov, and O.I.\ Marichev}, {\em
+Integrals and Series, Vol. {\rm 3:}  More Special Functions},
+Gordon and Breach Science Publishers, New York, 1990.
+
+\bibitem{R}  {\sc E.D.\ Rainville}, {\em Special Functions},  Macmillan, New York, 1960.
+
+\bibitem{VV} {\sc M.K.\ Vamanamurthy and M.\ Vuorinen}, {\em Inequalities for means},
+J.\ Math.\ Anal.\ Appl., 183 (1994), pp.\ 155--166.
+
+\bibitem{MV}  {\sc M.\ Vuorinen}, {\em Hypergeometric functions in geometric function
+theory}, in Proceedings\ of Special Functions and
+Differential Equations, {\rm K.S. Rao, R. Jagannathan, G. Vanden Berghe, and  J. Van der Jeugt}, 
+eds., Allied Publishers, New Delhi, 1998.
+
+\end{thebibliography}
+
+%{\small{\sc Department of Mathematics, Texas Tech University, Lubbock,
+%Texas, 79409}
+
+%{\em E-mail address}: {\tt barnard@math.ttu.edu }
+
+%\vspace{.1in}
+
+%{\sc Department of Mathematics, Texas Tech University, Lubbock, Texas, 79409}
+
+%{\em E-mail address}: {\tt pearce@math.ttu.edu }
+
+%\vspace{.1in}
+
+%{\sc Department of Mathematics, Southwestern University, Georgetown, Texas,
+%78626}
+
+%{\em E-mail address}: {\tt richards@southwestern.edu }
+%}
+
+\end{document}
