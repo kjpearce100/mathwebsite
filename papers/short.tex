@@ -1,0 +1,206 @@
+\documentstyle[11pt,newsymb]{article}
+\begin{document}
+
+\title{A Short Proof of a Conjecture on the Integral Means of the
+Derivative of a Convex Function}
+
+\author{Roger W.\ Barnard\thanks{Research supported in part by
+Texas Advanced Research Program grant \#003644-125.} and Kent
+Pearce\\
+Department of Mathematics, Texas Tech University}
+
+\date{}
+
+\maketitle
+
+For $d>0$ let $D_d=\{z:|z|<d\}$ with $D_1=D$ and let $\partial D_d$ denote
+the boundary of $D_d$.  Let $S$ be the standard class of analytic,
+univalent functions $f$ on $D$, normalized by $f(0)=0$ and $f'(0)=1$
+and let $K$ denote the well-known class of convex functions in $S$.
+For $0\leq\alpha<1$ let $S^\ast(\alpha)$ denote the subclass of $S$
+of starlike functions of order $\alpha$, i.e., a function $f\in
+S^\ast(\alpha)$ if and only if $f$ satisfies the condition ${Re}\:
+zf'(z)/f(z)>\alpha$ on $D$.  It is well known that $K\subset S^\ast
+(1/2)$.
+
+For $F\subset S$ and for $1/4\leq d\leq 1$ let
+$$F_d=\{f\in F:\min_{z\in D}\left|\frac{f(z)}{z}\right|=d\}.$$
+Note, that $K_d=\emptyset$ for $1/4\leq d<1/2$.
+
+A general problem which arose out the authors' work in the early 80's
+on omitted value problems for convex functions, see \cite{Ba} and
+\cite{BaPe1}, is the following: Given $F\subset S$ and $1/4\leq d\leq
+1$ determine the sharp constant $A=A(F_d)$ such that for any $f\in F_d$
+\begin{equation}
+\label{eq:1}
+I_{-1}(f')=\frac{1}{2\pi}\int^{2\pi}_0
+\left|\frac{1}{f'(e^{i\theta})}\right|d\theta\leq\frac{A}{d}.
+\end{equation}
+Further, determine the sharp constant $A=A(F)=\displaystyle{\sup_d}
+A(F_d)$.
+
+It follows fairly easily from subordination theory that
+$A(S^\ast(1/2))\leq 4/\pi$.  Furthermore, this estimate is sharp for
+$S^\ast(1/2)$ since the functions $f_n(z)=z/(1-z^n)^{1/n}$ belong to
+$S^\ast(1/2)$ for each $n>0$.  However, this estimate is not sharp
+for the class $K$ of convex functions which is a proper subset of
+$S^\ast(1/2)$.  Considerable numerical evidence suggested to the
+authors to make the following conjecture.
+
+{\bf Conjecture.} For each $d,\: 1/2\leq d\leq 1,\: A=A(K_d)=1$ in
+(1) with equality holding for all domains which are bounded by
+regular polygons centered at the origin.
+
+This conjecture was announced in March 1985 at the Symposium on the
+Occasion of the Proof of the Bieberbach Conjecture at Purdue
+University.  It also appeared as Conjecture 8 in the first author's
+``Open Problems and Conjectures in Complex Analysis'' in \cite{Ba}.  It
+was thought, by many function theorists, that the conjecture would be
+easily settled, given the vast literature on convex functions and the
+large research base for determining integral mean estimates, see
+\cite{Du}.
+
+An initial difficulty was the non-applicability of Baerenstein's
+circular symmetrization methods, since convexity, unlike univalence
+and starlikeness, is not preserved under circular symmetrization.
+Although Steiner symmetrization does preserve convexity, see \cite{Va}, it
+did not appear to be helpful for the problem and, indeed, we found
+that extremal domains need possess no standard symmetry.
+
+A confusing issue, which also arises, is that the integral means of
+the standard approximating functions $f_n$ in $K$ defined by
+$$f'_n(z)=\prod^n_{k=1}(1-ze^{i\theta_k})^{-2\alpha_k},0<\alpha_k\leq
+1,\sum^n_{k=1}\alpha_k=1$$ 
+decrease when the arbitrarily distributed $\theta_k$ are replaced by
+uniformly distributed $t_k=k\pi/n$, as was shown in \cite{Zh}.  The
+conjecture suggests that multiplication by the minimum modulus $d$
+must overcome this decrease.
+
+We make the following definition.
+
+{\bf Definition.}  Let $\Gamma$ be a curve in $\Bbb C$ such that the
+left- and right-hand tangents to the curve $\Gamma$ exist at each
+point on $\Gamma$.  The curve $\Gamma$ will be said to {\em
+circumscribe a circle} $C$ if the left- and right-hand tangents to
+the curve $\Gamma$ at each point on $\Gamma$ lie on tangent lines to
+the circle $C$.
+
+We will employ the following notation.
+
+{\bf Notation.} Let $f\in S$ and suppose that $\gamma$ is a subarc of
+$\partial D$ on which $f$ is smooth.  For $z=e^{i\theta}\in\gamma$
+let $d_{\theta}=<f(z)$, $\frac{zf'(z)}{|zf'(z)|}>$, i.e, $d_\theta$
+is the directed length of the projection of $f(z)$ onto the outward
+unit normal to $\partial f(D)$ at $f(z)$.
+
+In 1993 \cite{BaPe2}, we proved the following theorem which verified the
+conjecture.
+
+{\bf Theorem A.} Let $f\in K$, $d=\displaystyle{\min_\theta}
+|f(e^{i\theta})|$ and $d^\ast=\displaystyle{\sup_\theta}\; d_\theta$.
+Then,
+\begin{equation}
+\label{eq:2}
+\frac{1}{d^\ast}\leq\frac{1}{2\pi}\int^{2\pi}_{0}\frac{1}
+{|f'(e^{i\theta})|}d\theta\leq\frac{1}{d}
+\end{equation}
+with equality holding if $\partial f(D)$ circumscribes $\partial
+D_d$.
+
+The original proof, which was lengthy, was based on the Julia
+variational formula and depended heavily on the convexity of $f$.  We
+obtained, arising out of the proof, the rather unexpected sufficient
+condition for equality to occur in (2) for the classes $K_d$.
+However, because the proof used a scheme to approximate convex
+functions by polygonally convex functions, we did not obtain a
+necessary condition for equality.
+
+We have devised a new, simpler proof for the conjecture which extends
+Theorem A.  The proof releases the convexity requirement and
+validates the necessity of the sufficient condition.
+
+{\bf Theorem B.} Let $f\in S^\ast(\alpha)$ for some $\alpha>0$.
+Suppose $f$ is smooth on $X\subset\partial D$ where $X$ is a
+countable union of pairwise disjoint subarcs of $\partial D$ such
+that the complement of $X$ in $\partial D$ has measure zero.  Let
+$d_\ast=\displaystyle{\inf_{\theta\in X}}\:\: d_\theta$,
+$d^\ast=\displaystyle{\sup_{\theta\in X}}\:\: d_\theta$.  Then,
+\begin{equation}
+\label{eq:3}
+\frac{1}{d^\ast}\leq\frac{1}{2\pi}\int^{2\pi}_0
+\frac{1}{|f'(e^{i\theta})|}d\theta\leq\frac{1}{d_\ast}
+\end{equation}
+with equality holding if and only if $\partial f(D)$ circumscribes
+$\partial D_{d_\ast}$.
+
+{\bf Remark.} In general $d_\ast\leq d=\displaystyle{\min_{z\in
+D}|\frac{f(z)}{z}|}$ with equality if $f\in K$.
+
+{\bf Proof.} Let $X=\bigcup^\infty_{k=1}\gamma_k$, where each
+$\gamma_k$ is a subarc of $\partial D$.  We have from the Cauchy
+Integral Formula, with $z=e^{i\theta}$, that
+\begin{eqnarray}
+\nonumber
+& 1 & =\lim_{r\rightarrow 1}\frac{1}{2\pi}\int^{2\pi}_0  
+\frac{f(rz)}{rzf'(rz)}d\theta\\[2ex]
+\nonumber
+&& =\frac{1}{2\pi}\int^{2\pi}_0{Re}\frac{f(z)}{zf'(z)}
+d\theta\\[2ex]
+\label{eq:4}
+&& =\frac{1}{2\pi}\int^{2\pi}_0\frac{|f(z)|\cos
+(\arg\frac{f(z)}{zf'(z)})}{|zf'(z)|}d\theta\\[2ex]
+\nonumber
+&& =\frac{1}{2\pi}\sum^\infty_{k=1}\int_{\gamma_k}
+\frac{<f(z),\:\frac{zf'(z)}{|zf'(z)|}>}{|f'(z)|}d\theta\\[2ex]
+\nonumber
+&& =\frac{1}{2\pi}\sum^\infty_{k=1}\int_{\gamma_k}
+\frac{d_\theta}{|f'(z)|}d\theta
+\end{eqnarray}
+The restriction of $f$ to $S^\ast(\alpha)$ with $\alpha>0$ assures
+the passage of the limit in (4).  Replacing $d_\theta$ by $d^\ast$ and
+$d_\ast$ in this last integral gives the left- and right-hand
+inequalities in (3), respectively.  Equality clearly occurs if
+$\partial f(D)$ circumscribes $\partial D_{d_\ast}$, for in this case
+$d_\ast=d_\theta=d^\ast$ on $X$.  Conversely, if $\partial f(D)$ does not
+circumscribe $\partial D_{d_\ast}$, then there must exist a subarc $I$,
+which must lie in one of the $\gamma_k$, of positive (linear) measure
+on which 
+\begin{equation}
+\label{eq:5}
+d_\ast<d_\theta<d^\ast.
+\end{equation} 
+The strictness of (5) on $I$ implies that strict inequality holds in
+both the left- and right-hand inequalities in (3).  $\blacksquare$
+
+The authors would like to thank Al Baerenstein for his helpful
+suggestion which led to their shorten proof.
+
+
+\begin{thebibliography}{9}
+
+\bibitem[Ba]{Ba}  Barnard, R.W.\ ``Open problems and conjectures in
+complex analysis'', in {\em Computational Methods and Function
+Theory}, Lecture Notes in Math.\ No.\ 1435 (Springer-Verlag, 1990),
+1--26.
+
+\bibitem[BaPe1]{BaPe1}  Barnard, R.W.\ and Pearce, K.\ ``Rounding corners of
+gearlike domains and the omitted area problem'', {\em J.\ Comput.\
+Appl.\ Math.} {\bf 14} (1986), 217--226.
+
+\bibitem[BaPe2]{BaPe2}  Barnard, R.W.\ and Pearce, K.\ ``Sharp bounds on the
+$H_p$ means of the derivative of a convex function for $p=-1$'', {\em
+Complex Analysis} {\bf 21} (1993), 149--158.
+
+\bibitem[Du]{Du}  Duren, P.\ {\em Univalent Functions}, Springer-Verlag,
+New York, 1980.
+
+\bibitem[Va]{Va}  Valentine, F.A.\ {\em Convex Sets}, McGraw-Hill, New
+York, 1964.
+
+\bibitem[Zh]{Zh}  Zheng, J.\ ``Some extremal problems involving $n$ points
+on the unit circle'', Dissertation, Washington University (St.\
+Louis), 1991.
+
+\end{thebibliography}
+
+ \end{document}

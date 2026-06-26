@@ -1,0 +1,667 @@
+\documentclass[final]{siamltex}
+\usepackage{amsfonts}
+
+
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{proposition}{Proposition}
+%\newtheorem{lemma}{Lemma}
+%\newtheorem{corollary}{Corollary}
+
+
+\title{\large Zeros of Ces\`{a}ro Sum Approximations}
+
+\author{Roger W. Barnard, Kent Pearce\thanks{Department of 
+Mathematics and Statistics,  Texas Tech University, 
+Lubbock, Texas  79409 
+({\tt barnard@math.ttu.edu, pearce@math.ttu.edu}) }
+\and William Wheeler\thanks {SAS Institute, 
+Cary, NC  27513
+({\tt bill.wheeler@sas.com})}}
+
+
+
+\begin{document}
+
+\maketitle 
+
+\begin{abstract}
+
+Let ${\Bbb D}$ denote the open unit disk and let $f(z) = \sum_{n=0}^{\infty} a_{n} z^{n}$  be analytic on ${\Bbb D}$ with positive monotone decreasing coefficients  $a_{n}$.  We answer several questions posed by J. Cima on the location of the zeros of polynomial approximants which he originally posed about outer functions.  In particular, we show that the zeros of Ces\`{a}ro approximants to $f$ are well-behaved in the following sense:  (1) if $\frac{a_{n}}{a_{n+1}} \rightarrow 1,$ and  $\frac{a_{0}}{a_{m}} \leq am^{b}$, then $\partial{\Bbb D}$ is the only accumulation set for the zeros of the Ces\`{a}ro sums of $f$; and (2) if $f$ has a representation $ f(z) = \sum_{n=0}^{\infty} g \left( \frac{1}{n+c} \right) z^{n}$  where $g(x) = \sum_{n=0}^{\infty}b_{n}x^{n} \not\equiv 0,$ $b_{n} \geq 0,$ then we give sufficient conditions so that the convex hull of the zeros of the Ces\`{a}ro sums of $f$ will contain ${\Bbb D}$.
+\end{abstract}
+
+
+\begin{keywords} 
+outer functions, polynomial approximations, zeros, Ces\`{a}ro sums, convex hulls
+\end{keywords}
+
+\begin{AMS}
+30C15 
+\end{AMS}
+
+\pagestyle{myheadings}
+\thispagestyle{plain}
+\markboth{R.W. Barnard, K. Pearce, W. Wheeler}{Zeros of Ces\`{a}ro Sum Approximations}
+
+
+
+
+\section{Introduction}
+   
+
+
+Let ${\Bbb D}$ denote the open unit disk.  An outer function (see \cite{dur:hp}, p. 25) is a function that has the representation
+\begin{eqnarray*}
+f(z) = e^{i \gamma} e^{ \frac{1}{2 \pi} \int_{0}^{2 \pi} \frac{ e^{it}+z }{e^{it}-z} \log \psi(t)dt }
+\end{eqnarray*} 
+for $z \in {\Bbb D},$ where $\gamma$ is a real number, $\psi(t) \geq 0,$ and $\log \psi(t) \in {L}^{1}.$ It is easy to show that if $ \psi \in {L}^{p},$ then $f \in {H}^{p}.$  It is not obvious, from this definition,  which functions are outer functions. One way of producing outer functions is to consider functions in the class ${H}^{\infty}.$ It can be shown that an ${H}^{\infty}$ function that is continuous and non-vanishing on the closed unit disk is an outer function (see \cite{har}, p. 105).  Another way of generating outer functions is by considering Smirnov domains (see \cite{pom}, p. 155).  It also can be shown that if the conformal map $f$ maps $\partial {\Bbb D}$ onto a rectifiable starlike curve which bounds a Smirnov domain and if $\log \left| f'(e^{it}) \right| \in {L}^{1},$ then $f'$ is an outer function. 
+
+ A series of problems was recently posed by J. Cima \cite{ci} involving the location of the zeros of polynomial approximants to outer functions.   The problems arose from discussions with numerical analysts who were investigating stability criteria for non-linear systems of differential-difference equations.  The characteristic equations for those systems typically involved fractions whose denominators included outer functions.   One of Cima's problems was to determine which polynomial approximants to outer functions inherit their non-vanishing property on ${\Bbb D}.$  Since outer functions are non-vanishing on ${\Bbb D},$ it is desirable to have the approximants also non-vanishing on ${\Bbb D}.$      
+
+Taylor approximants, or partial sums, are natural choices one could think of selecting to approximate outer functions.  It was shown in \cite{bp} that the Taylor approximating polynomials to outer functions in general  can vanish on ${\Bbb D},$ even if fairly restrictive geometric conditions are put on the outer functions.   A second type of approximating polynomials that one could consider would be the function's Ces\`{a}ro sums.  Along this line, it was also shown in \cite{bp} that if $f$ is a bounded convex function, then the Ces\`{a}ro sums of the outer function $f'$  are non-vanishing on ${\Bbb D}.$ 
+
+Cima's problems about polynomial approximants to outer functions motivated our original interest in the zeros of Ces\`{a}ro approximants.  However, the results which we have obtained do not require the source functions to be outer functions. The results  extend to fairly general classes of functions with certain properties and can undoubtably extend to other approximants (See Section 7).
+
+Let M be the set of functions analytic in ${\Bbb D}$ with positive monotonically decreasing coefficients in their series expansion.  Let W be the set of functions of the form $g(x) = \sum_{n=0}^{\infty}b_{n}x^{n} \not\equiv 0,$ $b_{n} \geq 0,$ $g(x) < \infty$ for $x \in [0, \frac{1}{c}],$ where $c > 0.$  Let V be the set of functions that have the representation $ f(z) = \sum_{n=0}^{\infty} g \left( \frac{1}{n+c} \right) z^{n},$ where $g \in {W}.$  Then, $V \subset M$.  We note that $V$ contains various outer functions since $f(z) = \sum_{n=0}^{\infty} \frac{z^{n}}{(n+c)^{m}} \in V$ with $g(x) = x^{m},$ $m \geq 2,$ $c \in (0,1]$ and these $f$ belong to  ${H}^{\infty}$ and are continuous and non-vanishing on $\overline{{\Bbb D}}$. 
+ 
+
+ The Ces\`{a}ro sums (see \cite{rus}, p. 142) of order $\gamma \in {\Bbb N} \cup \{0\}$ of a series $\sum_{n=0}^{\infty}a_{n}z^{n}$ can be  defined as  
+  \begin{eqnarray*} C_{n}^{(\gamma)}(z) = \sum_{k=0}^{n} \frac{ \left( \begin{array}{c} n - k + \gamma \\ n - k \end{array} \right) } { \left( \begin{array}{c} n + \gamma \\ n \end{array} \right) } a_{k}z^{k},
+ \end{eqnarray*}
+ where $ \left( \begin{array}{c} a \\ b \end{array} \right) = \displaystyle{\frac{a!}{b!(a-b)!}}.$  We will let $C_n$ denote first order Ces\`{a}ro sums $C_n^{(1)}$.
+
+\section{Statement of Theorems}
+
+  In some cases, the zeros of the Ces\`{a}ro sums $C_{n}$ of $\sum_{n=0}^{\infty} a_{n}z^{n}$ behave like the zeros of the partial sums $S_{n}$ of $\sum_{n=0}^{\infty} a_{n}z^{n}.$ For example, we know by Jentzsch's Theorem (see \cite{die}, p. 352), that every point on the circle of convergence of $\sum_{n=0}^{\infty} a_{n}z^{n}$ is a limit point of the set of zeros of $ \{S_{n} \}.$ 
+Observing that $S_{n} = (n+1)C_{n} -  nC_{n-1},$ it was shown in [2] that Jentzsch's Theorem can be extended to the first order Ces\`{a}ro sums $C_{n}$. 
+ So we know that some of the zeros of $C_{n}$ will accumulate around the circle of convergence as $n$ gets large. It is interesting to note that the limit set to the zeros of $S_{n}$ and possibly $C_{n}^{(\gamma)}$ can contain much more than the circle of convergence; X. Qian and L. Rubel \cite{rub} have shown the following: 
+
+\vspace{4 pt}
+
+\noindent {\bf Theorem A}.  {\em If $F$ is a finite set of points in ${\Bbb D}$ and $K$ is any closed set outside ${\Bbb D},$ then there is a power series with radius of convergence $1$ such that the set of limit points to the zeros of its partial sums is $F$ inside ${\Bbb D}$ and $K \cup  \partial \Bbb D$ outside ${\Bbb D}.$ }
+
+
+ In some cases however, the circle of convergence is the complete limit set to zeros of $S_{n}$ and $C_{n}^{(\gamma)}.$ J. Cima and G. Csordas \cite{cim} have corrected and  modified a proof by S. Izumi \cite{izu} to show that the maximum of the moduli of the zeros of $S_{n}(z) = \sum_{k=0}^{n}a_{k}z^{k}$ approaches 1 as $n \rightarrow \infty,$ where $\{a_{n} \}$ is a monotonically decreasing sequence such that $\frac{a_{n}}{a_{n+1}} \rightarrow 1$ and $\lim_{m \rightarrow \infty} \frac{r^{m}}{a_{m}} = 0,$ for any $r \in (0,1).$ We considerably extend the results of Cima and Csordas to Ces\`{a}ro sums of all orders in the following theorem.
+
+
+ \begin{theorem} 
+\label{Theorem1}
+Let $C_{n}^{(\gamma)}$ be the Ces\`{a}ro sums of order $\gamma$ of $f(z) = \sum_{n=0}^{\infty} a_{n}z^{n},$ $|z| < 1,$ where $\{a_{n} \}$ is a positive monotonically decreasing sequence such that $\frac{a_{n}}{a_{n+1}} \rightarrow 1,$ and  $\frac{a_{0}}{a_{m}} \leq am^{b}$ for some $a,b \in {\Bbb R}.$ 
+ Then \[ \lim_{n \rightarrow \infty} \frac{ C_{n}^{(\gamma)}(z)}{\frac{n! \gamma !}{(n+ \gamma )!} a_{n}z^{n}} = \frac{1}{(1 - \frac{1}{z})^{\gamma + 1}} \] 
+  uniformly for $|z| \geq 1 + \delta,$  $\delta > 0.$ 
+
+Furthermore, let $r_{n}$ denote the maximum of the moduli of the zeros of $C_{n}^{(\gamma)}.$ Then, $\lim_{n \rightarrow \infty} r_{n} = 1.$ 
+
+\end{theorem}
+
+ 
+Cima considered the outer function $f_{0}(z) = \sum_{k=0}^{\infty} \frac{z^{k}}{(k+1)^{3}}$, which belongs to $V$ and conjectured \cite{ci}  that the convex hull of the zeros of the first order Ces\`{a}ro sums  $C_n$ would contain the disk ${\Bbb D}$ for all $n \geq 6$.  Various examples in $M$ and $V$ can be given to show that unless some additional conditions are imposed that this property will not hold generally.  E.g., consider $g(x) = 1 + x/10$ and $f(x) =  \sum_{k=0}^{\infty} g( \frac{1}{k+1}){z^{k}}.$  Then, $f \in V$, but the first order Ces\`{a}ro sums $C_n$ do not contain the disk ${\Bbb D}$ unless $n \geq 13$.
+
+We verify Cima's conjecture by finding conditions under which a fairly general class of functions in $V$ satisfy Cima's conjecture.  The conditions which we find control the distributions of the zeros of the first order Ces\`{a}ro approximants $C_n$ by controlling the moduli of the zeros of $C_n$ and the distribution of the arguments of the zeros of $C_n$.  
+
+We can obtain a lower bound to the moduli of the zeros of $C_{n}$ by applying a generalization of the Enestr\"{o}m-Kakeya Theorem  due to Anderson, Saff, and Varga \cite{asv}. 
+
+\vspace{ 4 pt}
+
+\noindent {\bf Theorem B}. {\em Let $p(z) = \sum_{k=0}^{n} a_{k} z^{k},$ $a_{k} > 0,$ for $0 \leq k \leq n.$ Then, all the zeros of $p$ are contained in the annulus
+  \begin{eqnarray*}  \min_{0 \leq k < n} \frac{a_{k}}{a_{k+1}} \leq \left| z \right| \leq \max_{0 \leq k < n} \frac{a_{k}}{a_{k+1}}. 
+ \end{eqnarray*} }
+
+
+ Notice that for each $f \in$ V, $f$ has positive monotonically decreasing coefficients. It is easy to show that the Ces\`{a}ro sums of $f$ will then have positive decreasing coefficients, so that the lower bound to the zeros of $C_{n}$ will be greater than 1 for all $n.$
+
+
+  To study the distribution of the arguments of zeros of $C_{n}$, we first look at some results on the arguments of the zeros of polynomials. For instance, P. C. Rosenbloom \cite{ros} has shown the following: 
+
+\vspace {4 pt}
+
+\noindent {\bf Theorem C}. {\em Let $p_{n}(z) = \sum_{m=0}^{n} a_{nm} z^{m}$ be a sequence of polynomials uniformly bounded in $ \left\{ z: |z| \leq 1 \right\}.$ If $\lim_{n \rightarrow \infty} |a_{nn}|^{\frac{1}{n}} = 1$ and $|a_{n0}| \geq a > 0$ for all $n,$ then the arguments of the zeros of the polynomials are equidistributed, that is, if $n( \alpha, \beta)$ is the number of zeros of $p_{n}(z)$ in the sector $\alpha \leq \mbox{arg}(z) \leq \beta,$ $ 0 \leq \alpha < \beta \leq 2 \pi,$ then 
+ \begin{eqnarray*} \lim_{n \rightarrow \infty} \frac{ n(\alpha, \beta)}{n} = \frac{ \beta - \alpha}{2 \pi}. 
+ \end{eqnarray*}}
+
+More recently, Erd\"{o}s and Tur\'{a}n (see \cite{mil}, pp. 278-279) proved the following:
+
+\vspace {4 pt}
+
+
+\noindent {\bf Theorem D}.  {\em Let the zeros of the polynomial $p(z) = \sum_{k=0}^{n} a_{k} z^{k}$ be denoted by $z_{v} = r_{v}e^{i \theta_{v}},$ $v = 1, \ldots, n,$ where $n^{-\lambda} \leq |a_{k} | \leq n^{\lambda},$ $k = 0,1, \ldots, n.$ Then, for every $0 \leq \alpha < \beta \leq 2 \pi$ we have
+  \begin{eqnarray} 
+\label{l3.1}
+\left| \sum_{v \in I( \alpha, \beta)} 1 - \frac{ \beta - \alpha}{2 \pi} n \right| < 16 \sqrt{2 \lambda +1} \sqrt{n \log(n+1) }
+  \end{eqnarray} 
+  where $I(\alpha, \beta) = \left\{ v \in \{1, \ldots, n\} | \alpha \leq \theta_{v} \leq \beta \right\}.$  }
+
+  We see that a lower bound to the number of zeros of a polynomial in a given sector can found by (\ref{l3.1}). However, in many cases, the lower bound is a negative number rendering it useless.  We will give conditions on functions in $V$, so that the zeros of the first order Ces\`{a}ro sum approximants $C_n$ are `uniformly' distributed in the following sense: $C_{n}$ has exactly one zero in each of the sectors
+  \begin{eqnarray*} \frac{ (2j+1) \pi}{n+1} < \mbox{arg}(z) < \frac{(2j+3) \pi}{n+1} 
+  \end{eqnarray*}
+  for $j = 0, 1, \ldots, \lfloor \frac{n}{2} \rfloor -1,$  and exactly one zero in each of the sectors 
+  \begin{eqnarray*} -\frac{ (2j+3) \pi}{n+1} < \mbox{arg}(z) < -\frac{(2j+1) \pi}{n+1} 
+  \end{eqnarray*}
+  for $j = 0, 1, \ldots, \lfloor \frac{n}{2} \rfloor -1.$ The idea to show this is to compare $C_{n}$ to a function whose zeros are precisely equally distributed, namely $h(z) = z^{n+1} -1,$ and use Rouch\'{e}'s Theorem (see \cite{con}, p. 125).  
+
+  Now, we can state our second result . 
+
+ \begin{theorem} 
+\label{Theorem2}
+Let $f(z) = \sum_{n=0}^{\infty} g \left( \frac{1}{n+c} \right) z^{n}$ where $g \in W,$ and let $C_{n}$ $(n \geq 6)$ denote the first order Ces\`{a}ro sums of the function $f.$  If
+ \begin{eqnarray*}
+  (n-k+1)\cos \left( \frac{3\pi}{n+1} \right) g \left( \frac{1}{k+c} \right) - (n-k)g \left( \frac{1}{k+c+1} \right) \geq 0
+ \end{eqnarray*} for $k = 0,1, \ldots, n-1,$ then the convex hull of the zeros of $C_{n}$ contains the unit disk $\Bbb D.$ 
+\end{theorem}
+
+Theorem \ref{Theorem2} can be applied explicitly to functions related to Cima's inquiry to show the following:
+
+\begin{corollary} For each $m \geq 1$ the convex hull of the zeros of $\sum_{k=0}^{n} \frac{n-k+1}{n+1} \frac{z^{k}}{(k+1)^{m}}$ contains the unit disk,  $n \geq 6.$
+\end{corollary}
+
+ \section{Remarks}
+  
+ We would like to make some comments on when Theorem \ref{Theorem2} holds.
+
+ 1. Condition (\ref{l3.5}), which comes out of the proof of Theorem \ref{Theorem2},  is equivalent to, for $g(x) = \sum_{j=0}^{\infty}b_{j}x^{j},$   \begin{eqnarray*} \sum_{j=0}^{\infty} b_{j} \left[ \frac{ (n-k+1) \cos \left( \frac{3 \pi}{n+1} \right) }{ (k+c)^{j} } - \frac{n-k}{(k+c+1)^{j}} \right] \geq 0 
+  \end{eqnarray*} 
+  for  $ k = 0, 1, \ldots, n-1,$ $ c > 0.$ It can be shown (see Appendix) that 
+ \begin{eqnarray*} \frac{ (n-k+1) \cos \left( \frac{3 \pi}{n+1} \right) }{ (k+c)^{j} } - \frac{n-k}{(k+c+1)^{j}} > 0, 
+ \end{eqnarray*}
+ for $n \geq 44,$ $k = 0, \ldots, n-1,$ $j \geq 0,$ and also for $n \geq 14,$ $k = 0, \ldots, n-1,$ $j \geq 1,$ $c \in (0,1].$
+ 
+
+Thus, the convex hull of the zeros of $C_{n}(z) = \sum_{k=0}^{n} \frac{n-k+1}{n+1} g \left( \frac{1}{k+c} \right) z^{k}$ will always contain the unit disk if $n \geq 44$ -  a result not true for the partial sums $S_{n}(z) = \sum_{k=0}^{n} g \left( \frac{1}{k+c} \right) z^{k}.$ (Consider, $g(x) = 1$ and $f(x) = \sum_{k=0}^{\infty}x^{k}$.)  In addition, if $g(0) = 0$ and $c \in (0,1],$ then the result is always true for $n \geq 14.$  
+ 
+ \vspace {4 pt}
+
+ 2. Examples of functions such that Theorem \ref{Theorem2} holds for all $n \geq 6$ are $g(x) = bx^{m},$ where $b > 0,$ $m \geq 7,$ $c \in (0,1].$ 
+
+
+\section{Proof of Theorem \ref{Theorem1}}
+
+\noindent {\bf Proof of Theorem \ref{Theorem1}}. Fix $\delta > 0$ and let $|z| \geq 1 + \delta.$ Then, 
+ \begin{eqnarray} \left| \frac{ C_{n}^{(\gamma)}(z)}{ \frac{n! \gamma !}{(n+ \gamma)!} a_{n}z^{n} } - \frac{1}{(1 - \frac{1}{z})^{ \gamma + 1}} \right|  & = & \left| \frac{ (n+ \gamma)!}{n! \gamma ! a_{n} z^{n} } \sum_{k=0}^{n} \frac{ (n-k+ \gamma)!n!}{ (n-k)!(n+ \gamma)!} a_{k} z^{k} - \sum_{k=0}^{\infty} \frac{ (k + \gamma)!}{ \gamma! k!} z^{-k} \right| \nonumber \\
+  & = &  \left| \sum_{k=0}^{n} \frac{ (n-k+ \gamma)!}{ (n-k)!\gamma!} \frac{a_{k}}{a_{n}} z^{k-n} - \sum_{k=0}^{\infty} \frac{ (k + \gamma)!}{ \gamma! k!} z^{-k} \right| \nonumber \\
+  & = &  \left| \sum_{k=0}^{n} \frac{ (k+ \gamma)!}{ \gamma! k!}  \frac{  a_{n-k}}{a_{n}}  z^{-k} - \sum_{k=0}^{\infty} \frac{ (k + \gamma)!}{ \gamma! k!} z^{-k} \right| \nonumber \\
+  & = & \left| \sum_{k=0}^{n} \frac{ (k+ \gamma)!}{ \gamma! k!} \left[ \frac{a_{n-k}}{a_{n}} - 1 \right] z^{-k} - \sum_{k=n+1}^{\infty} \frac{ (k + \gamma)!}{ \gamma! k!} z^{-k} \right| \nonumber \\
+\label{l2.1}
+  & \leq & \sum_{k=0}^{m} \frac{ (k+ \gamma)!}{ \gamma! k!} \left| \frac{a_{n-k}}{a_{n}} - 1 \right| \frac{1}{(1+\delta)^{k}} \nonumber \\ & &  + \sum_{k=m+1}^{n} \frac{(k+\gamma)!}{\gamma!k!} \left| \frac{a_{n-k}}{a_{n}} - 1 \right| \frac{1}{(1+\delta)^{k}} \nonumber \\ & &  + \sum_{k=n+1}^{\infty} \frac{(k+\gamma)!}{\gamma!k!}\frac{1}{(1+\delta)^{k}} 
+  \end{eqnarray} 
+
+  Now, we will estimate each sum above. 
+  Let $\epsilon > 0,$ $ \epsilon < \frac{\delta}{2}.$ 
+
+First, consider the sum 
+ $ \sum_{k=n+1}^{\infty} \frac{(k+ \gamma)!}{\gamma! k!} \frac{1}{(1+\delta)^{k}}.$ By applying the ratio test, we see that the series converges for $\delta > 0.$ Thus, there exists an integer $N_{1}$ such that for all $n \geq N_{1},$ 
+ \begin{eqnarray*} \sum_{k=n+1}^{\infty} \frac{(k+ \gamma)!}{\gamma! k!} \frac{1}{(1+\delta)^{k}} < \frac{\epsilon}{3}. 
+ \end{eqnarray*}
+
+Second, consider the sum $\sum_{k=m+1}^{n} \frac{(k+\gamma)!}{\gamma!k!} \left| \frac{a_{n-k}}{a_{n}} - 1 \right| \frac{1}{(1+ \delta)^{k}}.$
+  Since $\frac{a_{n}}{a_{n+1}} \rightarrow 1,$ there exists an integer $N_{2} \geq N_{1}$ such that for all $n \geq N_{2},$ 
+ \begin{equation} 
+\label{l2.2}
+0 < \frac{a_{n-1}}{a_{n}} < 1 + \epsilon. 
+ \end{equation} 
+ Let $K_{m} = \mbox{max} \left\{ \frac{a_{0}}{a_{m}}, \frac{a_{1}}{a_{m}}, \ldots , \frac{a_{m-1}}{a_{m}} \right\} = \frac{a_{0}}{a_{m}}.$ \newline
+ 
+ Claim: For $n \geq m \geq N_{2},$
+  \begin{eqnarray*} 0 < \frac{a_{n-j}}{a_{n}} \leq K_{m}(1+ \epsilon)^{j}, \hspace{1in} 0 \leq j \leq n.
+  \end{eqnarray*}
+ 
+Proof of Claim: If $n-j \geq m \geq N_{2},$ then
+  \begin{eqnarray*} 0 < \frac{a_{n-j}}{a_{n}} & = & \frac{a_{n-j}}{a_{n-j+1}} \frac{a_{n-j+1}}{a_{n-j+2}} \cdots \frac{a_{n-1}}{a_{n}} \\
+  & \leq & (1 + \epsilon)^{j} 
+  \end{eqnarray*} by (\ref{l2.2}).
+ If $n-j < m,$ then similarly
+  \begin{eqnarray*} 0 < \frac{a_{n-j}}{a_{n}} & \leq & K_{m}(1 + \epsilon)^{j}. 
+  \end{eqnarray*}
+ Therefore, the claim is proved. 
+
+  Now, $\frac{(k+\gamma)!}{\gamma!k!}$ is a polynomial in $k.$  
+ Let $\frac{(k+\gamma)!}{\gamma!k!} = b_{\gamma}k^{\gamma} + b_{\gamma-1}k^{\gamma-1} + \cdots +  b_{1}k + b_{0},$ and $c_{\gamma} = \mbox{max} \left\{ |b_{\gamma}|, |b_{\gamma-1}|, \ldots, |b_{0}|,1 \right\}.$
+Then, $\frac{(k+\gamma)!}{\gamma!k!} \leq (\gamma + 1)c_{\gamma}k^{\gamma}$ and for $n > m \geq N_{2},$
+ \begin{eqnarray*}  \sum_{k=m+1}^{n} \frac{(k+\gamma)!}{\gamma!k!} \left| \frac{a_{n-k}}{a_{n}} - 1 \right| \frac{1}{(1+ \delta)^{k}} & \leq & \sum_{k=m+1}^{n}(\gamma+1)c_{\gamma}k^{\gamma}\left( \left| \frac{a_{n-k}}{a_{n}} \right| +1 \right) \frac{1}{(1+\delta)^{k}} \\
+  & \leq & \sum_{k=m+1}^{n}(\gamma+1)c_{\gamma}k^{\gamma}\left( K_{m}(1+\epsilon)^{k} + 1  \right) \frac{1}{(1+\delta)^{k}} \\
+  & \leq & (\gamma+1)c_{\gamma}\sum_{k=m+1}^{n}k^{\gamma}\left( am^{b}(1+\epsilon)^{k} + 1  \right) \frac{1}{(1+\delta)^{k}} \\
+  & \leq & a(\gamma+1)c_{\gamma}\sum_{k=m+1}^{\infty} k^{\gamma+b} \left( \frac{1+\epsilon}{1+\delta} \right)^{k} \\
+  & & + a(\gamma+1)c_{\gamma}\sum_{k=m+1}^{\infty} k^{\gamma} \frac{1}{(1+\delta)^{k}}.
+ \end{eqnarray*}
+  Since $\gamma$ is fixed, each series converges by the ratio test. Thus, there exists an integer $N_{3} \geq N_{2}$ such that for all $n > m \geq N_{3},$ \begin{eqnarray*}
+  \sum_{k=m+1}^{n} \frac{(k+\gamma)!}{\gamma!k!} \left| \frac{a_{n-k}}{a_{n}} - 1 \right| \frac{1}{(1+\delta)^{k}} < \frac{\epsilon}{3}.
+  \end{eqnarray*}
+ 
+ Finally, consider the sum $\sum_{k=0}^{m} \frac{(k+\gamma)!}{\gamma!k!} \left| \frac{a_{n-k}}{a_{n}} - 1 \right| \frac{1}{(1+\delta)^{k}}.$ 
+  Since $(1+\beta)^{ N_{3}} - 1 \rightarrow 0$ as $\beta \rightarrow 0,$    there exists $\beta_{0} > 0,$ $\beta_{0} < \epsilon$ such that
+  \begin{equation} 
+\label{l2.3}
+0 < (1+\beta_{0})^{ N_{3}} - 1 < \frac{ \delta (1+\delta)^{ N_{3}} }{ 3\left[ (1+\delta)^{ N_{3} +1} -1 \right] } \frac{ \gamma!}{( N_{3} + \gamma)!} \epsilon.
+  \end{equation}
+  Since $\frac{a_{n-1}}{a_{n}} \rightarrow 1,$ there exists an integer $N_{4}$ such that for all $n \geq N_{4}$ 
+  \begin{eqnarray*} 0 < \frac{a_{n-1}}{a_{n}} < 1 + \beta_{0}. 
+  \end{eqnarray*}
+ Let $N_{5} = N_{4} + N_{3}.$ Then, as before, we can show  for $n-i \geq N_4$
+\begin{equation}
+\label{l2.4}
+0 < \frac{a_{n-i}}{a_{n}} < (1+\beta_{0})^{i} 
+\end{equation}  
+for $n \geq N_{5},$ $ 0 \leq i \leq N_{3}.$
+For $n \geq N_{5},$ $i = 0, \ldots, N_{3}$
+ \begin{eqnarray*} \left| \frac{a_{n-i}}{a_{n}} - 1 \right| & = & \frac{a_{n-i}}{a_{n}} - 1 \\
+ & < & (1 + \beta_{0})^{i} - 1   
+ \end{eqnarray*}
+  by (\ref{l2.4}). By (\ref{l2.3}) we have
+  \begin{eqnarray*}
+  (1+\beta_{0})^{i}-1 & \leq & (1+ \beta_{0})^{N_{3}} -1  \\
+  & < & \frac{ \delta (1+\delta)^{ N_{3}} }{ 3\left[ (1+\delta)^{ N_{3} +1} -1 \right] }\frac{ \gamma!}{ (N_{3} + \gamma)!} \epsilon  
+  \end{eqnarray*}
+  Now, taking $m = N_{3},$ we have 
+ \begin{eqnarray*} \sum_{k=0}^{m} \frac{(k+\gamma)!}{k!\gamma!} \left| \frac{a_{n-k}}{a_{n}} -1 \right| \frac{1}{(1+\delta)^{k}} & = & \sum_{k=0}^{N_{3}} \frac{(k+\gamma)!}{k!\gamma!} \left| \frac{a_{n-k}}{a_{n}} -1 \right| \frac{1}{(1+\delta)^{k}} \\
+  & \leq & \frac{ (N_{3}+\gamma)!}{\gamma!} \sum_{k=0}^{N_{3}} \frac{\gamma!}{(N_{3}+\gamma)!} \frac{\delta (1+\delta)^{N_{3}}}{3\left[ (1+\delta)^{N_{3}+1} -1 \right]} \epsilon \frac{1}{(1+\delta)^{k}} \\
+  & = & \frac{\delta (1+\delta)^{N_{3}}}{3\left[ (1+\delta)^{N_{3}+1} -1 \right] }\epsilon  \sum_{k=0}^{N_{3}} \left( \frac{1}{1+\delta} \right) ^{k} =  \frac{\epsilon}{3}.
+  \end{eqnarray*}
+ Therefore, each sum in (\ref{l2.1}) is less than $\frac{\epsilon}{3}.$ Thus,
+ \begin{eqnarray*} \left| \frac{ C_{n}^{(\gamma)}(z) }{ \frac{n!\gamma!}{(n+\gamma)!} a_{n}z^{n} } - \frac{1}{(1 - \frac{1}{z})^{\gamma+1} } \right| < \epsilon 
+ \end{eqnarray*}
+  for $|z| \geq 1 + \delta,$ $\delta > 0.$  
+ 
+\vspace { 4 pt}
+
+Since $\{a_{n}\}$ is a monotonically decreasing sequence, we have that $r_{n} \geq 1$ by the Enestr\"{o}m-Kakeya Theorem. 
+ This implies that $\liminf_{n \rightarrow \infty} r_{n} \geq 1.$ 
+ Suppose $\limsup_{n \rightarrow \infty} r_{n} > 1.$ Let $R = \limsup_{n \rightarrow \infty} r_{n}.$ 
+ Let $1 < 1 + \delta < R$ for some $\delta > 0.$ Then, for any integer $N_{1}$ there exist infinitely many integers $n$ greater than $N_{1}$ such that, 
+  \begin{equation} 
+\label{l2.5}
+  1 < 1 + \delta < r_{n}.  
+ \end{equation}
+ Choose $\epsilon > 0$ such that $\epsilon < \left( \frac{1+\delta}{2+\delta} \right)^{\gamma +1}.$ Then, by the above there is an integer $N_{2}$ such that for all $n \geq N_{2},$
+ \begin{eqnarray*} \left| \frac{ C_{n}^{(\gamma)}(z) }{ \frac{n!\gamma!}{(n+\gamma)!} a_{n}z^{n} } - \frac{1}{(1 - \frac{1}{z})^{\gamma+1} } \right| < \epsilon 
+ \end{eqnarray*} for $ |z| \geq 1+\delta.$
+ This implies 
+ \begin{eqnarray*} \left| \frac{ C_{n}^{(\gamma)}(z) }{ \frac{n!\gamma!}{(n+\gamma)!} a_{n}z^{n} } \right| & > & \frac{1}{ \left| 1 - \frac{1}{z} \right| ^{\gamma + 1} } - \epsilon \\
+ & \geq & \left( \frac{1+\delta}{2 + \delta } \right)^{\gamma + 1} - \epsilon  >  0. 
+ \end{eqnarray*}
+ Thus, $\left| C_{n}^{(\gamma)}(z) \right| > 0$ for $n \geq N_{2},$ $|z| \geq 1 + \delta.$ But this contradicts (\ref{l2.5}).
+  Therefore,
+  \begin{eqnarray*} 1 \leq \liminf_{n \rightarrow \infty} r_{n} \leq \limsup_{n \rightarrow \infty} r_{n} \leq 1,
+ \end{eqnarray*}
+ which implies $\lim_{n \rightarrow \infty} r_{n} =1 .$ 
+
+
+\section{Statements and Proofs of Auxiliary Lemmas}
+
+We need the following lemmas to prove Theorem \ref{Theorem2}. In these lemmas, $C_{n}$ denotes the first order Ces\`{a}ro sums of $f(z) =  \sum_{n=0}^{\infty} g \left( \frac{1}{n+c} \right) z^{n},$ where $g \in W$. 
+  
+ \begin{lemma} 
+\label{Lemma1}
+$C_{n}(z) \left( \overline{ z^{n+1} -1} \right) \neq i\lambda$ for $\lambda > 0,$ $z = Re^{i\theta},$ $\theta \in (0, \pi),$ $R$ is sufficiently large. 
+\end{lemma}
+
+\begin{lemma} 
+\label{Lemma2}
+If $\sum_{k=1}^{n}(n-k+1)x^{k}\sin(ky) > 0$ for $x > 0,$ $y \in {\Bbb R},$ then \newline 
+   $\sum_{k=1}^{n}(n-k+1)g \left( \frac{1}{k+c} \right)x^{k}\sin(ky) > 0$ for $g \in$ W, $x > 0.$  \newline
+\end{lemma}
+
+
+ 
+\begin{lemma} 
+\label{Lemma3}
+$ \sum_{k=1}^{n}(n-k+1)x^{k}\sin(w_{j}k) = \frac{x\sin(w_{j})}{ \left| 1 - xe^{iw_{j}} \right| ^{4} } p_{j}(x),$ where $w_{j} = \frac{(2j+1)\pi}{n+1},$ \newline $p_{j}(x) = (x^{2}-1)(n+2+x^{n+1}) + 2(n+1)(1-x\cos(w_{j})).$ 
+\end{lemma}
+
+\begin{lemma} 
+\label{Lemma4}
+$C_{n}(z) \overline{ \left( z^{n+1}-1 \right) } \neq i \lambda,$ $\lambda > 0$ for $z = xe^{iw_{j}},$ where $x > 0,$ $w_{j} = \frac{(2j+1)\pi}{n+1},$ $j = 0,1, \ldots, \lfloor \frac{n+1}{2} \rfloor -1,$ $n \geq 2.$ 
+\end{lemma}
+
+
+\begin{lemma} 
+\label{Lemma5}
+For $n$ even,  $\sum_{k=0}^{n} (n-k+1)g \left( \frac{1}{k+c} \right){(-x)}^{k} > 0$ for $g \in$ W, $x \geq 0.$  \newline
+\end{lemma}
+
+
+\vspace {4 pt}
+
+\noindent {\bf Proof of Lemma \ref{Lemma1}}. Expanding $C_{n}(z) \left( \overline{z^{n+1} -1} \right)$ and letting $z = Re^{i\theta}$ gives \begin{eqnarray*}
+  C_{n}(z) \left( \overline{z^{n+1} -1} \right) & = &   \sum_{k=0}^{n} \frac{n-k+1}{n+1} g \left(\frac{1}{k+c}\right)z^{k}\overline{z}^{n+1} - \sum_{k=0}^{n} \frac{n-k+1}{n+1} g \left(\frac{1}{k+c} \right)z^{k} \\    
+ & = & \sum_{k=0}^{n} \frac{n-k+1}{n+1} g \left(\frac{1}{k+c} \right)R^{k} \left[ R^{n+1} e^{i(k-n-1)\theta} - e^{ik\theta} \right].
+  \end{eqnarray*}
+ Let $S(\theta) = \sum_{k=0}^{n} \frac{n-k+1}{n+1} g \left(\frac{1}{k+c} \right)R^{k} \left[ R^{n+1} e^{i(k-n-1)\theta} - e^{ik\theta} \right].$
+ We will show that $\mbox{Re}(S(\theta)) > 0$ for $\theta \in (0, \frac{\pi}{4}],$ $\mbox{Im}(S(\theta)) < 0$ for $\theta \in [\frac{\pi}{4}, \frac{3\pi}{4}],$ and $\mbox{Re} (S(\theta)) < 0$ for $\theta \in [\frac{3\pi}{4}, \pi),$ where $R$ is sufficiently large. This will imply that $C_{n}(z) \left( \overline{ z^{n+1} -1} \right) \neq i \lambda,$ $ \lambda > 0.$ Now,
+ \begin{eqnarray*} 
+  \frac{1}{R^{2n+1}} \mbox{Re}(S(\theta)) = \sum_{k=0}^{n} \frac{n-k+1}{n+1} g \left(\frac{1}{k+c} \right)R^{k-n} \left[  \cos((k-n-1)\theta) - \frac{\cos(k\theta)}{R^{n+1}} \right].
+ \end{eqnarray*}
+Notice that as $R \rightarrow \infty,$ $\frac{1}{R^{2n+1}}\mbox{Re}(S(\theta)) \rightarrow 0.$ 
+  The dominant term of $\frac{1}{R^{2n+1}}\mbox{Re}(S(\theta))$ is, when $k=n,$ 
+ \begin{eqnarray*}  \frac{1}{n+1}g \left( \frac{1}{n+c} \right)  \left[ \cos(-\theta) - \frac{ \cos(n\theta)}{R^{n+1}} \right] & \geq & \frac{g \left( \frac{1}{n+c}\right) }{(n+1)} \left[ \frac{1}{\sqrt{2}} - \frac{1}{R^{n+1}} \right] \\
+  & > & 0 
+  \end{eqnarray*}
+ for $\theta \in (0, \frac{\pi}{4}],$ and $R$ sufficiently large. Now considering the imaginary part we have
+  \begin{eqnarray*} \frac{1}{R^{2n+1}} \mbox{Im}(S(\theta)) = \sum_{k=0}^{n} \frac{n-k+1}{n+1} g \left(\frac{1}{k+c} \right)R^{k-n} \left[  \sin((k-n-1)\theta) - \frac{\sin(k\theta)}{R^{n+1}} \right].
+ \end{eqnarray*} 
+  Again, the dominant term of $\frac{1}{R^{2n+1}}\mbox{Im}(S(\theta))$ is, when $k=n,$ 
+ \begin{eqnarray*}  \frac{1}{n+1}g \left( \frac{1}{n+c} \right)  \left[ \sin(-\theta) - \frac{ \sin(n\theta)}{R^{n+1}} \right] & = & -\frac{g \left( \frac{1}{n+c}\right) }{(n+1)} \left[ \sin(\theta) + \frac{ \sin(n\theta)}{R^{n+1}} \right] \\
+  & < & 0 
+  \end{eqnarray*}
+ for $\theta \in [\frac{\pi}{4}, \frac{3\pi}{4}],$ and $R$ sufficiently large. 
+ The proof of $\mbox{Re} (S(\theta)) < 0$ for $\theta \in [\frac{3\pi}{4}, \pi),$ with $R$ sufficiently large is similar.
+  
+\vspace {4 pt}
+
+
+\noindent {\bf Proof of Lemma \ref{Lemma2}}.  Assume $\sum_{k=1}^{n}(n-k+1)x^{k}\sin(ky) > 0.$ Then, multiplying by $x^{c-1} > 0$ and integrating gives
+ \begin{eqnarray*}
+   \sum_{k=1}^{n}(n-k+1)\frac{x^{k+c}}{k+c}\sin(ky) > 0. 
+ \end{eqnarray*} 
+ Repeating this process we obtain
+ \begin{eqnarray*}   \sum_{k=1}^{n}(n-k+1)\frac{x^{k+c}}{(k+c)^{m}}\sin(ky) > 0 
+  \end{eqnarray*}  for $x > 0,$ $m \in {\Bbb N}.$ Now, multiplying by $a_{m}x^{-c} \geq 0$ and summing over $m$ gives
+ \begin{eqnarray*} 
+    \sum_{m=0}^{\infty} \sum_{k=1}^{n}(n-k+1)x^{k}\frac{a_{m}}{(k+c)^{m}}\sin(ky) > 0.
+ \end{eqnarray*}
+ Note that the double sum is positive since $a_{m} \geq 0$ and $g(x) = \sum_{m=0}^{\infty} a_{m} x^{m} \not\equiv 0.$ Since $g(x) < \infty$ for $x \in [0, \frac{1}{c}],$ we can interchange the summations and apply the definition of $g$ to obtain
+ \begin{eqnarray*}
+  \sum_{k=1}^{n}(n-k+1)g \left( \frac{1}{k+c} \right)x^{k}\sin(ky) > 0. 
+ \end{eqnarray*}
+
+\vspace {4 pt}
+
+
+\noindent {\bf Proof of Lemma \ref{Lemma3}}. Since $\sin(0) = 0$  and $\sin \theta = \mbox{Im}\  e^{i \theta}$ we have  
+ \begin{equation} 
+\label{l3.2}
+\sum_{k=1}^{n}(n-k+1)x^{k}\sin(w_{j}k)  =  \mbox{Im} \left[ (n+1)\sum_{k=0}^{n} \left( xe^{iw_{j}} \right)^{k} - \sum_{k=0}^{n}kx^{k}e^{iw_{j}k} \right]. 
+ \end{equation}  
+  By applying the identity $\sum_{k=0}^{m} y^{k} = \frac{1-y^{m+1}}{1-y}$ and simplifying, the right-hand side of (\ref{l3.2}) becomes
+ \begin{eqnarray}
+ &  &  \mbox{Im} \left[ (n+1) \frac{1 - x^{n+1}e^{iw_{j}(n+1)}}{1-xe^{iw_{j}}} - x \frac{d}{dx} \sum_{k=0}^{n} \left( xe^{iw_{j}} \right)^{k} \right] \nonumber \\
+\label{l3.3} 
+& = &  \mbox{Im} \left[ \frac{ (n+1)(1-xe^{iw_{j}})-x(1+x^{n+1})e^{iw_{j}} }{ (1-xe^{iw_{j}})^{2} } \right]. 
+ \end{eqnarray}
+  Multiplying out the numerator in (\ref{l3.3}) and using $\mbox{Im} \left(\frac{a}{b} \right) = \mbox{Im}  \left( \frac{ \overline{b} a}{ |b|^{2}} \right)$ gives us 
+  \begin{eqnarray}
+ \label{l3.4} 
+&  & \mbox{Im} \left[ \frac{ (n+1)(1-xe^{iw_{j}})-x(1+x^{n+1})e^{iw_{j}} }{ (1-xe^{iw_{j}})^{2} } \right] \nonumber \\
+& = & \mbox{Im} \left[ \frac{1}{ \left| 1-xe^{iw_{j}} \right| ^{4} } \left\{ n+1 - x(n+2+x^{n+1})e^{iw_{j}} - 2(n+1)xe^{-iw_{j}} \right. \right. \nonumber \\ & & + 2x^{2}(n+2+x^{n+1})  \left. \left. + (n+1)x^{2}e^{-2iw_{j}} - x^{3}(n+2+x^{n+1})e^{-iw_{j}} \right\} \right] 
+ \end{eqnarray} 
+  Now, taking the imaginary part and applying the trigonometric identity $\sin(2y) = 2 \sin(y) \cos(y),$ (\ref{l3.4}) becomes
+ \begin{eqnarray*}
+ &  & \frac{1}{ \left| 1-xe^{iw_{j}} \right| ^{4} } \left\{-x(n+2+x^{n+1})\sin(w_{j}) + 2(n+1)x\sin(w_{j})
+ \right. \\ & & \left. - (n+1)x^{2}\sin(2w_{j}) + x^{3}(n+2+x^{n+1})\sin(w_{j}) \right\} \\
+& = & \frac{ x\sin(w_{j}) }{\left| 1-xe^{iw_{j}} \right| ^{4} } \left\{ (x^{2}-1)(n+2+x^{n+1}) + 2(n+1)(1-x\cos(w_{j})) \right\}. 
+ \end{eqnarray*} 
+
+\vspace {4 pt}
+
+
+\noindent {\bf Proof of Lemma \ref{Lemma4}}. For $z = xe^{iw_{j}},$ 
+ \begin{eqnarray*} C_{n}(z) \overline{ \left( z^{n+1}-1 \right) } & = & \sum_{k=0}^{n} \frac{n-k+1}{n+1} g \left(\frac{1}{k+c}\right)x^{k}e^{iw_{j}k}x^{n+1}e^{-i(n+1)w_{j}} \\ & & - \sum_{k=0}^{n} \frac{n-k+1}{n+1} g \left(\frac{1}{k+c} \right)x^{k}e^{iw_{j}k} \\ 
+ & = & -\sum_{k=0}^{n} \frac{n-k+1}{n+1} g \left(\frac{1}{k+c}\right)x^{k}(x^{n+1}+1)e^{iw_{j}k} \\
+ & \equiv & T(x). 
+ \end{eqnarray*}
+ Taking the imaginary part of $T$ gives us
+ \begin{eqnarray*}
+ \mbox{Im}(T(x)) & = & 
+  -\sum_{k=0}^{n} \frac{n-k+1}{n+1} g \left(\frac{1}{k+c}\right)x^{k}(x^{n+1}+1)\sin(w_{j}k).
+ \end{eqnarray*}
+ It suffices to show that $\mbox{Im}(T(x)) < 0$ for $x > 0,$ $j = 0, 1 ,\ldots, \lfloor \frac{n+1}{2} \rfloor -1.$ 
+ $\mbox{Im}(T(x)) < 0$ if and only if $\sum_{k=1}^{n} (n-k+1)
+ g \left(\frac{1}{k+c}\right)x^{k}\sin(w_{j}k) > 0.$ 
+  By Lemma \ref{Lemma2}, it suffices to show that $ \sum_{k=1}^{n} (n-k+1) x^{k}\sin(w_{j}k) > 0$ for $x > 0.$ 
+ First, we will show that  $ \sum_{k=1}^{n} (n-k+1) x^{k}\sin(w_{j}k) > 0$ for $x \geq 1,$ $n \geq 2.$ 
+ By Lemma \ref{Lemma3}, 
+ \begin{eqnarray*} 
+  \sum_{k=1}^{n} (n-k+1) x^{k}\sin(w_{j}k)  =  \frac{x\sin(w_{j})}{ \left| 1 - xe^{iw_{j}} \right| ^{4} } p_{j}(x), 
+ \end{eqnarray*} where  
+ \begin{eqnarray*}
+  p_{j}(x) = (x^{2}-1)(n+2+x^{n+1}) + 2(n+1)(1-x\cos(w_{j})). 
+ \end{eqnarray*}
+  Since $\sin(w_{j}) > 0$ for $j = 0, 1, \ldots, \lfloor \frac{n+1}{2} \rfloor -1,$ we need to show that $p_{j}(x) > 0$ for $x > 0.$ 
+  First, for $x = 1,$ 
+ \begin{eqnarray*} p_{j}(1)
+ & > & 0, \hspace{.5in}  0 \leq j \leq \left\lfloor \frac{n+1}{2} \right\rfloor -1, \;\;\; n \geq 2.
+ \end{eqnarray*}
+ For $x > 1,$ 
+ \begin{eqnarray*} p_{j}(x) & > & (x^{2}-1)(n+2+x^{n+1}) + 2(n+1)(1-x) \\
+ & > & (x-1) \left[ 2(n+3) - 2(n+1) \right]\\
+ & > & 0.
+ \end{eqnarray*}
+ 
+ For $x \in (0,1),$ first consider $ \frac{n-1}{4} \leq j \leq \lfloor \frac{n+1}{2} \rfloor -1 .$ So that $w_{j} \in \left[ \frac{\pi}{2}, \pi \right)$ and $\cos(w_{j}) \leq 0.$  Then,
+ \begin{eqnarray*} p_{j}(x) & \geq & (x^{2}-1)(n+2+x^{n+1}) + 2(n+1) \\
+ & > & n - x^{n+1} \\
+ & > & 0,  \hspace{1in} n \geq 2.
+ \end{eqnarray*}
+
+ For $x \in (0,1)$ and $ 0 \leq j \leq \frac{n-1}{4}-1,$ we have that $w_{j} \in (0, \frac{\pi}{2})$ and $\cos(w_{0}) \geq \cos(w_{j}).$ So that
+  \begin{eqnarray*}  -2(n+1)x\cos(w_{0}) & \leq & -2(n+1)x\cos(w_{j}) 
+ \end{eqnarray*} 
+  which implies 
+  \begin{eqnarray*}
+     p_{0}(x) & \leq & p_{j}(x). 
+  \end{eqnarray*}
+ Now, $p_{0}(x) = \frac{ \left| 1-xe^{iw_{0}} \right|^{4} }{ x\sin(w_{0}) } \sum_{k=1}^{n} (n-k+1)x^{k}\sin(w_{0}k) > 0$ for $x > 0,$ since $\sin(w_{0}k) > 0$ for $k =1, \ldots, n.$
+ Therefore, $p_{j}(x) > 0$ for $x \in (0,1),$ $w_{j} \in \left( 0, \frac{\pi}{2} \right).$ 
+
+
+\noindent {\bf Proof of Lemma \ref{Lemma5}}.  It is sufficient to show that 
+\begin{equation}
+\label{l5.1}
+\sum_{k=0}^{n} (n-k+1){(-x)}^{k} > 0
+\end{equation}
+for $x > 0$, because (\ref{l5.1}) implies
+\begin{eqnarray*}
+\sum_{k=0}^{n} (n-k+1) {y}^k {(-x)}^{k} > 0
+\end{eqnarray*}
+for $x > 0, y > 0$, which in turn implies, adapting the argument in the proof of Lemma \ref{Lemma2}, 
+the conclusion of the lemma.  However, we can write
+\begin{eqnarray*}
+\sum_{k=0}^{n} (n-k+1){(-x)}^{k}  = \frac{1 + 2x + n + nx + {(-x)}^n x^2}{(1+x)^2}
+\end{eqnarray*}
+which implies the positivity of (\ref{l5.1}).
+
+
+\section{Proofs of Theorem \ref{Theorem2} and Corollary 1}
+
+\noindent {\bf Proof of Theorem \ref{Theorem2}}.   We first apply Rouch\'{e}'s Theorem to show that $C_{n}$ has exactly one zero in each of the sectors: $\frac{ (2j+1)\pi}{n+1} < \mbox{arg(z)} < \frac{ (2j+3)\pi}{n+1},$ $j = 0, 1, \ldots, \lfloor \frac{n}{2} \rfloor -1,$ $n \geq 5.$  
+
+ 
+ Let $h(z) = i(z^{n+1}-1)$ and let $\Gamma$ be the following contour: $\Gamma$ is the line segment $z = xe^{iw_{j}},$ $0 \leq x \leq R,$ followed by the arc $z = Re^{i \theta},$ $w_{j} \leq \theta \leq w_{j+1},$ followed by the line segment $z = xe^{i w_{j+1}},$ $0 \leq x \leq R,$ where $w_{j} = \frac{(2j+1) \pi}{n+1}.$     
+ The zeros of $h$ are $z = e^{i \frac{2\pi k}{n+1}},$ $k = 0,1, \ldots, n.$ 
+ Then, $h$ has exactly one zero in each of the sectors $\frac{ (2j+1)\pi}{n+1} < \mbox{arg(z)} < \frac{ (2j+3)\pi}{n+1},$ $-\frac{ (2j+3)\pi}{n+1} < \mbox{arg(z)} < -\frac{ (2j+1)\pi}{n+1},$  $j = 0, 1, \ldots, \lfloor \frac{n}{2} \rfloor -1,$ $n \geq 5.$  \newline
+Now, it is clear that the following statements are equivalent
+ \begin{eqnarray*} \left| C_{n}+h \right| & < & \left| C_{n} \right| + \left| h \right|  \\ 
+   C_{n} \overline{h} & \neq & \lambda \geq 0.
+ \end{eqnarray*}
+ Hence, we need to show that $C_{n}(z) \left( \overline{ i(z^{n+1}-1)} \right) \neq \lambda$ on $\Gamma,$ where $\lambda \geq 0,$ or equivalently, $C_{n}(z) \left( \overline{z^{n+1}-1} \right) \neq i \lambda,$ $\lambda \geq 0.$ 
+ Fix $n \geq 5.$ 
+ Choose $R > 1$ so that the zeros of $C_{n}$ are contained in $|z| < R$ and such that $C_{n}(z) \left( \overline{z^{n+1}-1} \right) \neq i \lambda,$ $\lambda > 0,$ by Lemma \ref{Lemma1}. 
+ Then, $C_{n}(z) \left( \overline{z^{n+1}-1} \right) \neq i \lambda,$  for $\lambda \geq 0,$ $z = Re^{i\theta},$ $\theta \in (0, \pi).$ 
+ 
+Now we need to show for  $n \geq 5$ that for $z = xe^{iw_{j}},$ $0 \leq x \leq R,$ $w_{j} = \frac{ (2j+1) \pi} {n+1},$ $j = 0, 1, \ldots, \lfloor \frac{n+1}{2} \rfloor -1,$
+ \begin{eqnarray*} C_{n}(z) \left( \overline{z^{n+1}-1} \right) \neq i \lambda \hspace{.5in} \lambda \geq 0,
+ \end{eqnarray*}
+and in the case that $n$ is even, that for $z = -x$, $0 \leq x \leq R$, 
+ \begin{eqnarray*} C_{n}(z) \left( \overline{z^{n+1}-1} \right) \neq i \lambda \hspace{.5in} \lambda \geq 0.
+ \end{eqnarray*} 
+  For $x=0,$ 
+ \begin{eqnarray*}  C_{n}(0) \left( \overline{0^{n+1}-1} \right)  =  -g \left( \frac{1}{c} \right) \neq i \lambda, \hspace{.5in} \lambda \geq 0.
+ \end{eqnarray*}
+ For $x > 0,$ we have by Lemma \ref{Lemma4} that
+ \begin{eqnarray*} C_{n}(z) \left( \overline{z^{n+1}-1} \right) \neq i \lambda \
+  \end{eqnarray*} 
+ for $\lambda > 0,$ $z = xe^{iw_{j}}.$ 
+  For $\lambda = 0,$ suppose that $C_{n}(z_{0}) \left( \overline{z_{0}^{n+1}-1} \right) = 0,$ for some $z_{0} = x_{0}e^{iw_{j}},$ $x_{0} > 0.$ 
+  Then, $C_{n}(z_{0}) = 0$ or $z_{0}^{n+1} -1 = 0.$ 
+  But, $z^{n+1}-1 \neq 0$ on the rays $z = xe^{iw_{j}},$ $x \geq 0.$ 
+  If $C_{n}(z_{0}) = 0,$ then $\mbox{Im} \left( C_{n}(z_{0} ) \right) = 0.$ 
+ But for $z = xe^{iw_{j}},$ 
+  \begin{eqnarray*} \mbox{Im} \left( C_{n}(z) \right)  = \sum_{k=0}^{n} \frac{n-k+1}{n+1} g \left( \frac{1}{k+c} \right) x^{k} \sin(w_{j}k) > 0 
+ \end{eqnarray*} 
+  for $x > 0,$ by the proof of Lemma \ref{Lemma4}. 
+  
+ Thus,  $C_{n}(z) \left( \overline{z^{n+1}-1} \right) \neq i \lambda$ for $\lambda \geq 0,$ $z = xe^{iw_{j}},$ $0 \leq x \leq R,$ $w_{j} = \frac{ (2j+1) \pi}{n+1},$ $ j = 0, 1, \ldots, \lfloor \frac{n+1}{2} \rfloor -1,$ $n \geq 5.$ 
+
+In the case that $n$ is even, Lemma \ref{Lemma5} implies that $C_{n}(z) \neq 0$ for $z = -x$,  $x \geq 0$.  Hence,  
+ \begin{eqnarray*} C_{n}(z) \left( \overline{z^{n+1}-1} \right) \neq i \lambda 
+ \end{eqnarray*} 
+for $\lambda \geq 0$, $z = -x$, $x \geq 0.$ 
+
+
+
+This gives us that $C_{n}$ has $\lfloor \frac{n}{2} \rfloor$ zeros in the upper half plane, and $\lfloor \frac{n}{2} \rfloor$ zeros in the lower half plane, since $C_{n}$ has real coefficients. 
+ This also tells us that the maximum angle between two ``consecutive" zeros in the upper half plane or two ``consecutive" zeros in the lower half plane is $\frac{4 \pi}{n+1}.$ Also, the maximum angle between two ``consecutive" zeros where one zero is in the upper half plane and the other zero is in the lower half plane is $\frac{6 \pi}{n+1}.$ 
+
+  To show that the convex hull of the zeros of $C_{n}$ contains the unit disk, consider the points $r_{j}e^{i \alpha_{j}},$ $r_{j} > 1,$ $j = 1, \ldots, n$ that are distributed around the unit circle in the sectors $\frac{ (2j+1) \pi}{n+1} < \mbox{arg}(z) < \frac{ (2j+3) \pi}{n+1}$ and in the sectors $-\frac{(2j+3)\pi}{n+1} < \mbox{arg}(z) < -\frac{(2j+1)\pi}{n+1},$ $j = 0, \ldots, \lfloor \frac{n}{2} \rfloor.$ Let $r = \mbox{min} \left\{ r_{1}, r_{2}, \ldots, r_{n} \right\},$ $H_{1}$ be the convex hull of $\left\{ re^{i \alpha_{1}}, \ldots, re^{i \alpha_{n}} \right\},$ and $H_{2}$ be the convex hull of $\left\{ r_{1}e^{i \alpha_{1}}, \ldots, r_{n}e^{i\alpha_{n}} \right\}.$ 
+
+
+ Claim: $H_{1} \subseteq H_{2}.$ 
+
+ Proof of Claim: By the definition of convex hull, it suffices to show that $re^{i \alpha_{j}} \in H_{2}$ for $j = 1, \ldots, n.$ For $n \geq 5,$ $0 \in H_{2}.$ This implies that the line segment connecting $0$ and $r_{j}e^{i \alpha_{j}}$ is in $H_{2}.$ Since $r \leq r_{j},$ $re^{i \alpha_{j}} \in H_{2}.$ Thus, $H_{1} \subseteq H_{2}.$
+
+
+
+  For $n \geq 6,$ let $r_{j}e^{i \alpha_{j}},$ $0 < \alpha_{1} < \alpha_{2} < \cdots < \alpha_{n} < 2 \pi$ be the zeros of $C_{n}.$ Let $r = \mbox{min} \left\{ r_{1}, \ldots, r_{n} \right\}$ and consider the points $re^{i \alpha_{j}}$ $j = 1, \ldots, n.$ For the convex hull of $\left\{ re^{i \alpha_{1}}, \ldots, re^{i \alpha_{n}} \right\}$ to contain the unit disk, the line segment connecting two ``consecutive" points $re^{i \alpha_{j}}$ and $re^{i \alpha_{j+1}}$ must not intersect the unit circle. For the line segment not to intersect the unit circle, we need 
+ \begin{eqnarray*} r \geq \frac{1}{ \cos \left[ \frac{1}{2} \left( \alpha_{j+1} - \alpha_{j} \right) \right] }, \hspace{.5in} 0 < \alpha_{j+1} - \alpha_{j} < \frac{\pi}{2}. 
+ \end{eqnarray*}
+  Since the maximum angle between two ``consecutive" zeros of $C_{n}(z)$ is $\frac{ 6 \pi}{n+1},$ it suffices to show that 
+ \begin{eqnarray*} r \geq \frac{1}{ \cos \left( \frac{3 \pi}{n+1} \right) }, \hspace{.5 in} n \geq 6.
+ \end{eqnarray*}
+ From the result of Anderson, Saff, and Varga, we have 
+ \begin{eqnarray*} r \geq \min_{0 \leq k < n} \frac{  \frac{ (n-k+1)g \left( \frac{1}{k+c} \right) }{n+1} }{ \frac{ (n-k) g \left( \frac{1}{k+c+1} \right) }{n+1} } \geq \frac{1}{ \cos \left( \frac{3 \pi}{n+1} \right) }
+ \end{eqnarray*}
+  if and only if 
+  \begin{eqnarray}
+\label{l3.5}
+(n-k+1)g \left( \frac{1}{k+c} \right) \cos \left( \frac{3 \pi}{n+1} \right) - (n-k)g \left( \frac{1}{k+c+1} \right) \geq 0 
+  \end{eqnarray}
+  for $ k = 0, 1, \ldots, n-1.$ Thus, Theorem \ref{Theorem2} is proved. 
+
+\vspace {4 pt}
+
+
+\noindent {\bf Proof of Corollary 1}.  Fix $m \geq 7$ and take $g(x) = x^{m}.$ Let $H_{n}^{m}$ denote the convex hull of the zeros of $\sum_{k=0}^{n} \frac{n-k+1}{n+1} \frac{z^{k}}{(k+1)^{m}}$ and $\tilde{H}_{n}^{m}$ denote the convex hull of the zeros of $\sum_{k=0}^{n} \frac{n-k+1}{n+1} \frac{z^{k+1}}{(k+1)^{m}}.$ By the proof of Remark 1, we have that $H_{m}$ contains the unit disk for $n \geq 14.$ As in the proof of Theorem \ref{Theorem2}, we have that $0 \in H_{n}^{m}$ for $n \geq 5.$ Therefore, $H_{n}^{m} = \tilde{H}_{n}^{m},$ for $n \geq 5.$ By successively applying Lucas' Theorem (see \cite{mar}, p. 22), we get 
+ \begin{eqnarray*}
+  H_{n}^{m} = \tilde{H}_{n}^{m} \supseteq H_{n}^{m-1} = \tilde{H}_{n}^{m-1} \supseteq \cdots \supseteq H_{n}^{7}.
+  \end{eqnarray*}
+ For $n = 6, \ldots, 13,$ the condition
+ \begin{eqnarray}
+\label{c1.1}  
+  (n-k+1)\cos \left( \frac{3\pi}{n+1} \right) \frac{1}{(k+1)^{7}} - (n-k) \frac{1}{(k+2)^{7}} \geq 0 
+  \end{eqnarray}
+ $k = 0,1,\ldots,n-1$ can be verified directly. Thus, $H_{n}^{m}$ contains the unit disk for $n \geq 6,$ $m \geq 7.$
+
+A similar argument can be made to show for the cases $2 \leq m < 7$ that condition (\ref{c1.1})  can be verified directly with $m=7$ reduced to $m=2$ for $n = 9, \ldots, 13.$   For the remaining cases, it can be explicitly shown that the convex hull of the zeros of  $\sum_{k=0}^{n} \frac{n-k+1}{n+1} \frac{z^{k}}{(k+1)^{m}}$ contain the unit disk.
+
+\section{Extentions to Polynomial Approximations Generated by Convolutions with Positive Coefficient Operators}
+
+Let $p_{n}(z) =\sum_{k=0}^{n} d_{nk} z^{k}$ be a sequence of polynomial operators with non-negative coefficents $d_{nk}$ such that for $f \in V$ we have that $p_{n} * f \rightarrow f$ as $n \rightarrow \infty$ where $p_{n} * f$ denotes the usual Hadamard convolution.  The parital sum operators, $S_{n}(z) = \sum_{k=0}^{n} z^{k}$, and the Ces\`{a}ro sum operators of order $\gamma$, $C_{n}^{\gamma} = \sum_{k=0}^{n} \frac{ \left( \begin{array}{c} n - k + \gamma \\ n - k \end{array} \right) } { \left( \begin{array}{c} n + \gamma \\ n \end{array} \right) } z^{k}$ are examples of such polynomial operator sequences.  
+
+The results in Theorem \ref{Theorem2} can be extended to polynomial approximations via other operator sequences than just the first order Ces\`{a}ro sum operators.   The proofs of the auxiliary lemmas which lead to Theorem \ref{Theorem2} required only the non-negativity of the coefficients $d_{nk}$  and the non-negativity of the closed forms for the sums 
+
+$$\sum_{k=1}^{n} d_{nk} x^{k} \sin( \omega_{j} k)$$
+in Lemma \ref{Lemma3} and 
+
+$$\sum_{k=0}^{n} d_{nk} {(-x)}^{k} > 0$$
+ in Lemma \ref{Lemma5}.  
+
+In Theorem \ref{Theorem2}, the proof for controlling the distribution of the arguments of the zeros of $p_n * f$ depended directly on the validity of the auxiliary lemmas.  The analogous condition which would arise for controlling moduli of the zeros of $p_n * f$ would be that
+
+  \begin{eqnarray*}
+d_{nk}g \left( \frac{1}{k+c} \right) \cos \left( \frac{3 \pi}{n+1} \right) - d_{n,k+1}g \left( \frac{1}{k+c+1} \right) \geq 0 
+  \end{eqnarray*}
+  for $ k = 0, 1, \ldots, n-1.$ 
+
+The specific numerical conclusions in Corollary 1 and in the Remarks depended heavily on the polynomial operators  $p_n$ being  the  first order Ces\`{a}ro sum operators.   Analogous numerical conclusions would arise for other choices of polynomial operators with non-negative coefficents.
+
+
+
+\section{Appendix -- Proofs of Remarks}
+
+
+Remark 1.  First, $\frac{ (n-k+1) \cos \left( \frac{3 \pi}{n+1} \right) }{ (k+c)^{j} } - \frac{n-k}{(k+c+1)^{j}} \geq 0$ if and only if 
+  \begin{eqnarray} 
+\label{l4.1}
+(k+c+1)^{j}(n-k+1) \cos \left( \frac{3 \pi}{n+1} \right) - (n-k)(k+c)^{j} \geq 0.
+ \end{eqnarray}
+ Let $q_{j} = (k+c+1)^{j}(n-k+1) \cos \left( \frac{3 \pi}{n+1} \right) - (n-k)(k+c)^{j}.$  
+ For $j = 0,$ 
+  \begin{eqnarray*}
+   q_{0} & = & (n-k+1)\cos \left( \frac{3 \pi}{n+1} \right) - (n-k) \\
+   & \geq & (n+1)\cos \left( \frac{3 \pi}{n+1} \right) - n   >  0  
+ \end{eqnarray*}
+ for $n \geq 44.$ 
+ For $j = 1,$
+  \begin{eqnarray*} q_{1} & = & \left[ 1 -  \cos \left( \frac{3 \pi}{n+1} \right) \right] k^{2} + (n-c) \left[ \cos \left( \frac{3 \pi}{n+1} \right) - 1 \right] k \\
+ & &  + (c+1)(n+1) \cos \left( \frac{3 \pi}{n+1} \right) - nc.
+ \end{eqnarray*}
+ Since $q_{1}$ is a quadratic function in $k,$ its minimum  occurs at $k = \frac{n-c}{2}.$ 
+ The minimum value of $q_{1}$ is 
+ \begin{eqnarray*} q_{1} \left(\frac{n-c}{2} \right) & = & \left( \frac{n+c+2}{2} \right)^{2} \cos \left( \frac{3 \pi}{n+1} \right) - \left( \frac{n+c}{2} \right)^{2}. 
+ \end{eqnarray*}
+ Since $\cos(x) > 1 - \frac{x^{2}}{2}$ for $x > 0,$ we have 
+ \begin{eqnarray*}
+ q_{1} \left( \frac{n-c}{2} \right) & > & 
+   \frac{ (n+c+2)^{2}}{4} \left[ 1- \frac{1}{2} \frac{9 \pi^{2}}{(n+1)^{2}} \right]  - \frac{(n+c)^{2}}{4} \\ 
+   & > & 4(n+1) \left[ 1 - \frac{1}{2} \frac{9 \pi^{2}}{(n+1)^{2}} \right] - \frac{9 \pi^{2}}{2}  >  0
+  \end{eqnarray*}
+ for $n \geq 14.$
+  
+ 
+ Now, we will show that $q_{j} < q_{j+1}$ for $j \geq 0.$ Simplifying the difference $q_{j+1}-q_{j}$ gives
+  \begin{eqnarray*} q_{j+1} - q_{j} & > &  (k+c+1)^{j} \left[ (n-k+1) \cos \left( \frac{3 \pi}{n+1} \right) (k+c) - (n-k)(k+c-1) \right]. 
+  \end{eqnarray*}
+ Now, let 
+ \begin{eqnarray*} l(k) & = & (n-k+1) \cos \left( \frac{3 \pi}{n+1} \right) (k+c) - (n-k)(k+c-1) \\
+  & = & \left[ 1 - \cos \left( \frac{3 \pi}{n+1} \right) \right]k^{2} + \left[ (n+1)\cos \left( \frac{3 \pi}{n+1} \right) - c \cos \left( \frac{3 \pi}{n+1} \right) -n + c -1 \right] k  \\ & &  + (n+1)\cos \left( \frac{3 \pi}{n+1} \right)c -n(c-1). 
+ \end{eqnarray*}
+ Now $l'(k) = 0,$ implies $k = \frac{n+1-c}{2}.$ Hence,
+ \begin{eqnarray*} l \left( \frac{n+1-c}{2} \right) & = & \frac{ (n+c+1)^{2}}{4} \cos \left( \frac{3 \pi}{n+1} \right) - \frac{ (n+c-1)^{2}}{4}.
+  \end{eqnarray*}
+ Thus, $l \left( \frac{n+1-c}{2} \right) > 0$ if and only if $ (n+c+1)^{2} \cos \left( \frac{3 \pi}{n+1} \right) - (n+c-1)^{2} > 0.$ Now,
+ \begin{eqnarray*} (n+c+1)^{2} \cos \left( \frac{3 \pi}{n+1} \right) - (n+c-1)^{2} & > & 4n - \frac{9 \pi^{2}}{2} \left( \frac{n+2}{n+1} \right)^{2} \\
+  & \geq & 4n - \frac{9 \pi^{2}}{2} \left( \frac{14}{13} \right)^{2}  >  0   
+ \end{eqnarray*} 
+  for $n \geq 12,$ $c \in (0,1].$ 
+
+
+\begin{thebibliography}{99}
+
+\bibitem{asv} N. Anderson, E. B. Saff, and R. S. Varga, ``On the Enestr\"{o}m-Kakeya Theorem and Its Sharpness'', {\em Linear Algebra Appl.} 28 (1979).
+
+\bibitem{bp} R. Barnard, J. Cima, and K. Pearce, ``Ces\`{a}ro Sum Approximations of Outer Functions'', preprint, 1998.
+
+\bibitem{ci} J. Cima, Private Communication, 1996.
+
+\bibitem{cim} J. Cima and G. Csordas, preprint, 1998.
+
+\bibitem{con} J. B. Conway, \underline{Functions of One Complex Variable}, Springer-Verlag, New York, 1986.
+
+\bibitem{non} W. J. Cunningham, \underline{Introduction to Nonlinear Analysis}, McGraw-Hill Book Company, New York, 1958.
+
+\bibitem{die} P. Dienes, \underline{The Taylor Series}, Oxford University Press, London, 1931.
+
+\bibitem{dur:hp} P. L. Duren, \underline{Theory of ${H}^{p}$ Spaces}, Academic Press, New York, 1970.
+
+\bibitem{izu} S. Izumi, ``On the Distribution of the Zero Points of Sections of a Power Series'', {\em Japanese Math.} 4, pp. 29-32 (1927).
+
+\bibitem{mar} M. Marden, \underline{Geometry of Polynomials}, American Mathematical Society, Providence, Rhode Island, 1966.
+  
+\bibitem{mil} G. V. Milovanovi\'{c}, D. S. Mitrinovi\'{c}, and Th. M. Rassias,  \underline{Topics in Polynomials: Extremal Problems, Inequalities, Zeros}, World Scientific, River Edge, New Jersey, 1994.
+
+\bibitem{pol} G. P\'{o}lya and G. Szeg\"{o}, \underline{Problems and Theorems in Analysis}, Springer-Verlag, New York, 1972.
+
+
+\bibitem{pom} C. Pommerenke, \underline{Boundary Behaviour of Conformal Maps}, Springer-Verlag, New York, 1992.
+
+
+\bibitem{rub}  X. Qian and L. Rubel, ``On the Set of Limit Points of Zeros of Partial Sums of Power Series in One Complex Variable'', preprint.
+
+\bibitem{ros} P. C. Rosenbloom, {\em Sequences of Polynomials, Especially Sections of Power Series}, Ph.D. Dissertation, Stanford University, 1943.
+
+\bibitem{rus} S. Ruscheweyh, \underline{Convolutions in Geometric Function Theory}, Les Presses de l'Universit\'{e} de Montr\'{e}al, 1982.
+
+\bibitem{har} B. Sz.-Nagy and C. Foias, \underline{Harmonic Analysis of Operators on Hilbert Space}, North-Holland Publishing Company, Amsterdam, 1970.
+
+\end{thebibliography}
+
+
+
+ \end{document}

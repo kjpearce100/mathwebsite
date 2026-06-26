@@ -1,0 +1,767 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath,amssymb,latexsym}
+%\input picmacs
+%\input BoxedEPS
+%\HideDisplacementBoxes
+%\SetTexturesEPSFSpecial
+
+\topmargin=-.25in
+ \textheight=8.2in
+
+\begin{document}
+
+\begin{center} {\bf  \Large{ Inequalities for the Perimeter of an Ellipse}} 
+\end{center}
+
+\vspace{24pt}
+
+
+
+\begin{center}{Roger W. Barnard, Kent Pearce, Lawrence Schovanec\\ 
+Department of Mathematics and Statistics\\ Texas Tech University }
+\end{center}
+
+
+%\footnote{ Supported
+%by NSF grant ECS-9720357  and  Texas Advanced Research Program Grant No.\
+%003644-123.}
+
+\vspace{18pt} 
+\noindent{\bf{1. Introduction}}
+\vspace{6pt}
+
+Let $a,b$ denote the lengths of the  semi-major and -minor axes of an ellipse 
+with
+eccentricity $e=(1/a)\sqrt{a^2 - b^2}$  and whose perimeter is $L(a,b)$ . 
+The
+problem of approximating  $L(a,b)$ is an ancient one.  An excellent 
+account of this
+problem is found in a  {\sc monthly} article   by
+G. Almkvist and B.  Berndt \cite{AB}. In the article \cite{AB},
+several  approximations that have been proposed over a period of nearly 4 
+centuries
+are presented. The  approximation for $L(a,b)/(\pi (a+b))$
+$$
+A(a,b)=\frac{2}{a+b}\left(\frac{a^{3/2}+b^{3/2}}{2}\right)^{2/3}
+$$ 
+was given by Muir
+in 1883.    In 1996,   Matti Vuorinen in the paper ``Hypergeometric 
+Functions in
+Geometric Function Theory'' \cite{MV}, raised the question, 
+
+$$
+\begin{array}{llr}
+\hspace{0.1in}& \mbox{Is it true that } A(a,b) \mbox{ is an approximation to }
+L(a,b)/(\pi (a+b)) & \mbox{(Q1)} \\
+&\mbox{from {\em below} throughout the entire range of eccentricity } e \mbox{?}   
+\end{array}
+$$
+
+As is often the case for a mathematical conjecture, the insights  gained 
+in the course of its
+resolution  and   extended ramifications of the result supersede the 
+original question. In this paper
+we develop a technique to answer  question  (Q1) that readily extends 
+to a broader class of
+inequalities, all of which are motivated by the problem of approximating 
+elliptical perimeter.  The
+verification of each inequality is accomplished  by showing the 
+positivity of an infinite  series.  
+The proof of the positivity of the  infinite series is achieved by 
+utilizing a computer algebra system
+to execute a Sturm sequence argument.  
+ 
+
+In verifying (Q1) it will be shown that $A(a,b)$ exhibits a monotonic 
+dependence on eccentricity. As a
+consequence of this  property,  bounds on the error, $E=L(a,b)/(\pi (a+b))-A(a,b)$, 
+are readily
+established.  As pointed out in \cite{AB}, a primary motivation for  
+calculating  elliptical
+perimeter arose from astronomical considerations. This
+article will illustrate how
+ bounds on the error $E$ may be utilized to determine the accuracy of  
+ approximations to elliptical perimeter in calculating planetary orbits.
+
+\vspace{18pt} 
+\noindent{\bf{2. Approximations of Elliptic Perimeter}}
+\vspace{12pt}
+  
+Recall that  if an ellipse is described by the parametric equations
+$x=a\cos\phi$ and $y=b\sin \phi, \; 0 \leq \phi \leq 2 \pi$, then  the 
+perimeter $L$
+of the ellipse  is given by
+$$ 
+ L=L(a,b)=\int_0^{2\pi} \sqrt{(a^2 \sin^2 \phi + b^2 \cos^2 \phi)} \; 
+d\phi. 
+$$  
+The perimeter of the ellipse can be expressed exactly in terms of Gauss's 
+ordinary hypergeometric series
+$$ 
+F(a,b; c: x) =\sum_{k=0}^{\infty} \frac {(a)_k (b)_k}{(c)_k k!} x^k, \;\; 
+|x|<1
+$$ 
+where $a,b,$ and $c$ denote arbitrary complex numbers and $(\alpha)_k$ is
+defined  by
+$$
+ (\alpha)_k= \alpha (\alpha +1) (\alpha +2) \cdots (\alpha +k-1).
+$$
+The following  expressions for the elliptical perimeter are due, respectively,  to
+Maclaurin (1742), Euler (1773),  and Ivory (1796) (see \cite {AB} and 
+references
+therein) and  illustrate the  connection between elliptical perimeter and the 
+hypergeometric functions.
+ 
+\vspace{12pt}
+\noindent {\em Proposition.  Let $x=a\cos\phi$ and $y=b\sin \phi, \;\; 
+0\leq
+\phi \leq 2 \pi$ and let $e=(1/a)\sqrt{a^2 - b^2}$ be the eccentricity of 
+the ellipse. 
+Then
+$$
+\begin{array}{rcl} L(a,b) &=&2\pi a F\left(\frac{1}{2}, -\frac{1}{2}; 1: 
+e^2\right)\\
+[2ex] & = & \pi \sqrt{2(a^2 + b^2) }\; F\left(-\frac{1}{4}, \frac{1}{4}; 
+1: 
+\left (\frac{  a^2 -b^2}{a^2 + b^2} \right)^2\right) \\ [2ex] 
+ &=& \pi (a+b) F(-\frac{1}{2},- \frac{1}{2}; 1: \lambda^2)
+\end{array}
+$$ 
+where}
+$$
+\lambda=\frac{a-b}{a+b}.
+$$ 
+
+
+The approximations presented in \cite{AB} are reproduced in the list 
+below.  In the second column
+of the table the approximation $ A(\lambda)$ to  the  `normalized' length 
+$ L(a,b)/[\pi (a+b)]$ is
+given.  The third column provides the first nonzero term in the power 
+series for the difference 
+$L(a,b)/[\pi (a+b)] - A(\lambda)$.
+
+\noindent Table 1.
+\footnotesize
+$$
+\begin{array}{llr}
+ & \hspace{.5in} A(\lambda) &  \displaystyle{\frac{L(a,b)}{ \pi
+(a+b)} - A(\lambda)}
+\\    \hline  \hline \\
+\mbox{Kepler (1609)} \hspace{.5in}  &
+ \displaystyle{\frac{2\sqrt{ab}}{a+b}=\sqrt{1-\lambda^2}} &  
+\displaystyle{\frac{3}{4}\lambda^2} 
+\\ [4ex] 
+\mbox{Euler (1773)} \hspace{.5in}  &
+\displaystyle{\frac{\sqrt{2(a^2+b^2)}}{a+b}= \sqrt{1+\lambda^2} } & 
+\displaystyle{-\frac{1}{4}\lambda^2} 
+\\ [4ex] 
+\mbox{Sipos (1792)} \hspace{.5in}   &
+\displaystyle{\frac{2(a+b)}{(\sqrt{a}+\sqrt{b})^2}= \frac{2}{1 + 
+\sqrt{1-\lambda^2}
+}} & 
+\displaystyle{-\frac{7}{64}\lambda^4} 
+\\ [4ex] 
+\mbox{Peano (1889)} \hspace{.5in}   &
+\displaystyle{ \frac{3}{2}-\frac{\sqrt{ab}}{a+b}=
+\frac{3}{2}-\frac{1}{2}\sqrt{1-\lambda^2} } & 
+\displaystyle{-\frac{3}{64}\lambda^4}\\ [4ex]
+ \mbox{Muir (1883)}  &
+\displaystyle{\frac{2}{a+b}\left(\frac{a^{3/2}+b^{3/2}}{2}\right)^{2/3}} 
+& 
+\displaystyle{\frac{1}{64}\lambda^4}
+\\ [3ex] &
+\displaystyle{=\frac{1}{2^{2/3}}((1+\lambda)^{\frac{3}{2}}+(1-\lambda)^{\frac{3}{2}}})^{\frac{2}{3}}
+&
+\\ [4ex] 
+\mbox{Lindner (1904)}  & 
+\displaystyle{\left\{ 1+\frac{1}{8} 
+\left(\frac{a-b}{a+b}\right)^2\right\}^2} &
+\displaystyle{ \frac{1}{2^8}\lambda^6}
+\\ [3ex]
+ & \displaystyle{=\left(1+\frac{1}{8}\lambda^2\right)^2}  & \\
+ & & \\  \mbox{Ramanujan  (1914 a)} &
+\displaystyle{\frac{3-\sqrt{(a+3b)(3a+b)}}{a+b}} & 
+\displaystyle{ \frac{1}{2^9}\lambda^6}
+\\  [2ex] &
+\displaystyle{=3-\sqrt{4-\lambda^2}}  &
+\\ [2ex] 
+ \mbox{Ramanujan (1914 b)}  &  
+\displaystyle{1 +\frac{3 \left((a-b)(a+b)\right) ^2}{10 +
+\sqrt{4-3\left((a-b)/(a+b)\right) ^2}}} & 
+\displaystyle{\frac{3}{2^{17}}\lambda^{10}}
+\\ [4ex]
+ & \displaystyle{=1+\frac{3\lambda^2}{10+\sqrt{4-3\lambda^2}}}  &
+\\ [4ex] 
+& \displaystyle{=2 \frac{ ( 1 +  \sqrt{1-\lambda^2})^2 + \lambda^2
+\sqrt{1-\lambda^2}}  {( 1 +  \sqrt{1-\lambda^2}) 
+(1+\sqrt[4]{1-\lambda^2})^2}}  &
+\\ [4ex]
+ \mbox{Bronshtein (1964)} &
+\displaystyle{\frac{1}{16}\frac{64(a+b)^4-3(a-b)^4}{(a+b)^2(3a+b)(a+3b)}} 
+& 
+\displaystyle{\frac{9}{2^{14}}\lambda^{8}}
+\\ [3ex] 
+& \displaystyle{=\frac{ 64-3\lambda^4}  {64-16\lambda^2}}  &
+\\ [2ex] \hline
+\end{array}
+$$
+
+% *** Table continued
+\noindent Table 1. (continued)
+$$
+\begin{array}{llr}
+ & \hspace{.5in} A(\lambda) &  \displaystyle{\frac{L(a,b)}{ \pi
+(a+b)} - A(\lambda)}\\
+  \hline  \hline \\
+ \mbox{Selmer  (1975,a)} &
+\displaystyle{1+\frac{4(a-b)^2}{(5a+3b)(3a+5b)}} & 
+\displaystyle{\frac{3}{2^{10}}\lambda^{6}}
+\\ [3ex] &
+\displaystyle{=1 + \frac{\lambda^2}{4}\frac{16}{16-\lambda^2}}  &
+\\ [4ex]  
+ \mbox{Selmer  (1975,b)} & 
+\displaystyle{\frac{1}{8}\left(12+\left(\frac{a-b}{a+b}
+\right)^2-\frac{2\sqrt{2(a^2+6ab+b^2)}}{a+b}\right)}  & 
+\displaystyle{\frac{5}{2^{14}} \lambda^{8}}
+\\  [3ex]
+& \displaystyle =\frac{3}{2} + \frac{1}{8}
+\lambda^2-\frac{1}{2}\sqrt{1-\frac{1}{2}\lambda^2} &
+\\  [4ex]
+\mbox{Almkvist (1978)} &
+\displaystyle{2\frac{2(a+b)^2-(\sqrt{a}-\sqrt{b})^4}{(a+b)[(\sqrt{a}+\sqrt{
+b})^2 +
+2\sqrt{2}\sqrt{a+b}\sqrt[4]{ab}]}} & 
+\displaystyle{ -\frac{15}{2^{14}}\lambda^{8}}
+\\ [4ex]  
+\mbox{Jacobsen (1985)} &
+\displaystyle{ 
+\frac{256-48\lambda^2-21\lambda^4}{256-112\lambda^2+3\lambda^4}} & 
+\displaystyle{\frac{33}{2^{18}}\lambda^{10}} 
+\\ [2ex] \hline
+\end{array}
+$$
+
+\normalsize
+
+\vspace{12pt}
+Let us now reconsider question (Q1). If we utilize Maclaurin's exact 
+expression for elliptical perimeter given
+in  the {\em Proposition},  then  Muir's approximation  amounts to the 
+statement that 
+$$  
+2\pi a F\left(\frac{1}{2}, -\frac{1}{2}; 1: e^2\right) \approx 2\pi
+\left(\frac{a^{3/2}+b^{3/2}}{2} \right)^{2/3}.
+$$
+Without loss of generality  we may assume that the semi-major axis $a=1$ and 
+then set
+$x=1-b^2$, so that the entire range of eccentricity is represented by $0< 
+x<1$.  The explicit
+statement of (Q1) as  posed by M. Vuorinen  is given by the problem: 
+
+\vspace{6pt}
+{\em Is it true for  $0<x<1$ that we have}
+$$
+ F\left(\frac{1}{2}, -\frac{1}{2};1:x \right) - 
+\left(\frac{1+(1-x)^{3/4}}{2}
+\right)^{2/3} >0?
+$$
+
+Let us  denote the error between the normalized elliptical perimeter and the 
+algebraic approximation  by
+\begin{equation} {\cal E}(x)= F\left(\frac{1}{2},-\frac{1}{2};1:x\right) 
+- A(x)
+\end{equation} 
+where for Muir's approximation, 
+$$
+ A(x)=\left(\frac{1+(1-x)^{\frac{3}{4}}}{2}  \right)^{2/3}.
+$$ 
+In the course of answering  (Q1) we will in fact show the stronger result 
+that
+\begin{equation} .00006 < \frac{{\cal E}(x)}{x^4} < {\cal E}(1) <  
+.00666, \hspace{.25in}  0< x
+< 1.
+\end{equation}
+This bound on the error illustrates the surprising  accuracy of Muir's 
+approximation.
+
+It is natural to ask whether an estimate of this type  can be obtained 
+for each
+of the approximations in Table 1. The positivity of the first term in the 
+Taylor expansion  of
+$L(a,b)/ (\pi (a+b) ) - A(\lambda)$ is consistent with the conjecture 
+that Muir's approximation
+to $L(a,b)$ could indeed be an approximation from below. Furthermore, the 
+power of the first
+nonzero term in the Taylor expansion suggests that one consider ${\cal 
+E}(x)/ x^4$ in proving the 
+result in (2).   For those approximations in Table 1 for which the first 
+term in the Taylor expansion
+is positive, i.e., for the  approximations of Kepler, Lindner, 
+Ramanujan(a,b), Bronshtein, Selmer(a,b)
+and Jacobsen, it is natural to ask whether they  are approximations from 
+below and if a result
+analogous to (2) can be obtained. What we will show in this article  is 
+that this is indeed the case. 
+
+An obvious analogy would suggest that the results due to Euler, Sipos, 
+Peano,  and Almkvist
+are approximations from above.  Somewhat surprisingly, the techniques 
+developed in this article are not
+directly applicable to these approximations.  However, using  deeper 
+methods, it has been
+shown  by Barnard, Pearce,and Richards, \cite{KD}, that even stronger 
+results can be obtained which
+imply that  inequalities analogous to (2) hold, and hence the 
+approximations of Euler, Sipos, Peano, 
+and Almkvist are indeed from above.
+
+The verification of (2) is obtained by showing the positivity of an 
+infinite series in the form 
+$$ 
+{\cal E}(x)=\sum_{n=0}^{\infty}  b_n(x). 
+$$
+We first verify that there exists an $N$ for which $b_n(x)>0, n\geq N$. 
+Consequently, the proof of
+(2), and hence the resolution of (Q1), is reduced  to examining the 
+positivity of the polynomial 
+$$  
+p(x)=\sum_{n=0}^{N}  b_n(x). 
+$$  
+Because the coefficients of the polynomial $p$ are integers, the 
+positivity of $p$ may be verified
+by a Sturm sequence argument that involves only exact arithmetic.  In a 
+subsequent section, we will
+elaborate on the details of this approach but it should be emphasized at 
+this point that  these 
+calculations, though computationally formidable, are readily carried out 
+using a computer algebra
+system.  Nevertheless, care must be exercised to ensure that only  exact 
+arithmetic and algebra are
+performed. 
+
+\vspace{18pt} 
+\noindent{\bf{3. Muir's Approximation and Verification of 
+Vuorinen's Conjecture}}
+\vspace{12pt} 
+
+In this section we will verify (2) and hence answer (Q1). The arguments 
+needed for Muir's
+approximation turn out to be exceptional among the list of approximations 
+in Table 1.  Nevertheless,
+the arguments used in this case suggest a more general approach to the  
+verification of inequalities
+of the type (2) that are relevant to the other approximations.
+
+In order to avoid the complications associated with a choice of a branch 
+cut, we first make the
+substitution $x \rightarrow 1-x^4$  and define
+\begin{equation} 
+{\cal G}(x)= \displaystyle{\frac{{\cal E}(1-x^4)}{(1-x^4) ^4}}
+\end{equation}
+The result is established by showing that $G'(x)$ does not change sign 
+and so $G$ is monotone. More
+precisely, we will show
+$G'(x)<0, \; 0<x<1$.  It is convenient to calculate
+$G'$ using a computer algebra system (CAS) such as Mathematica or Maple.  
+Using Maple,  we obtain 
+$$ 
+{\cal G}'(x)= \frac{N1+ N2+P}{D} 
+$$ 
+where
+$$
+ N1 = -4\,x \; \sqrt[3]{\frac{1}{2}+\frac{1}{2}{x}^{3}} \; {\it 
+K}(\sqrt{1-{x}^{4}})
+$$
+$$
+N2= -28\, x\; \sqrt[3]{\frac{1}{2}+\frac{1}{2}{x}^{3}}\; {\it 
+E}(\sqrt{1-{x}^{4}})
+$$
+$$ 
+P= \pi(1+ 7{x}^{4}+8x)
+$$
+$$
+ D =\frac{ \pi \,\left 
+(-1+{x}^{4}\right)^{5}\sqrt[3]{\frac{1}{2}+\frac{1}{2}{x}^{3}}}{x^2}
+$$ 
+and ${\it K}, {\it E}$ denote elliptical integrals of the first and 
+second
+kind respectively.  It should be noted that the the
+above expression for ${\cal G}'(x)$ can be  checked by recalling the  
+definitions
+of $ F\left(\frac{1}{2},-\frac{1}{2};1:x\right), {\it K}$ and  ${\it 
+E}$.
+
+Since  $D<0$, to verify that $ \mathcal{ G}'(x) < 0 $ it suffices to show 
+$$ 
+ {\cal H}(x)= \frac{-N1-N2}{P} \leq 1.
+$$  
+ Since ${\cal H}(1)=1$, we need only verify that
+${\cal H}'(x) \geq 0 $.  After converting the elliptical integrals  to  
+hypergeometric
+functions and simplifying,  the problem is reduced to showing
+\begin{equation}
+p_1(x)\, F\left(\frac{1}{2},\frac{1}{2};1:1-x^4\right) + p_2(x)\, 
+F\left(\frac{1}{2},
+-\frac{1}{2};1:1-x^4\right)  \geq 0
+\end{equation}
+where
+\begin{align*}
+\begin{split}  p_1(x) & =
+252{x}^{9} -504{x}^{8} + 756{x}^{7} -502{x}^{6}+ 
+248{x}^{5}+6{x}^{4}-4{x}^{3}+6{x}^{2} - 4x+2,\\[1ex]
+ p_2(x) &= -238{x}^{6} +196{x}^{5}-154{x}^{4}-112{x}^{3}+94{x}^{2} 
+-52x+10.
+\end{split}
+\end{align*} 
+A crucial manipulation involves the  conversion of the above expression 
+to  series form. One may then
+express the left hand side of (4) as
+$$ 
+p_1(x) \sum_{k=0}^{\infty} \left(\frac{(  \frac{1}{2}) _k }{ k!}\right)^2
+(1-x^4)^k  
+ \; + \;  p_2(x)  \sum_{k=0}^{\infty} \frac{ ( -\frac{1}{2}) _k ( 
+\frac{1}{2})_k}{k!
+k!} (1-x^4)^k.
+$$ 
+These series may be combined as
+\begin{equation}
+p_1(x) + p_2(x) + \sum_{k=1}^{\infty} \left(\frac{(  \frac{1}{2}) _k }{
+k!}\right)^2 \left [ p_1(x)-p_2(x)/(2k-1) \right ] (1-x^4)^k.  
+\end{equation}
+
+It is at this point that a Sturm sequence argument is applied in order to 
+verify the needed
+positivity. More precisely, we shall use this terminology to refer to a 
+generalized form of Descartes'
+rule of signs which gives the precise number of zeros of a polynomial in 
+an interval.  This is
+achieved by  utilizing the Euclidean algorithm and a notion of {\em Sturm 
+sequences} (\cite{PH},
+\cite{G}).   In particular, given a polynomial $P(x)$, and  a real number 
+$a$, define the function
+$V(a)$ as  the number of sign variations in the numbers $\{ p_0(a), 
+p_1(a), \cdots, p_n(a)\}$.  The
+{\em Sturm} polynomials $\{ p_0, p_1, \cdots, p_n\}$ are defined by 
+$$
+\left\{
+\begin{array}{l} p_0(x)=P(x)\\ p_1(x)=P'(x)
+\end{array}
+\right.
+$$ 
+and for each $ k\geq 2$, $p_k(x)$ is the unique polynomial of degree less 
+than that of $ p_{k-1}(x)$
+such that 
+$$ 
+p_{k-2}(x) =q_k(x)p_{k-1}(x)-p_k(x)\
+$$  
+where $q_k(x)$ is a polynomial.  Sturm's Theorem states that if $P(a) 
+\neq 0$ and $P(b) \neq 0$,  then
+the number of distinct roots of $P(x)=0$ in the interval $[a,b]$ is 
+exactly $V(a)-V(b)$.  In applying
+Sturm's theorem to an arbitrary polynomial,  rounding error may affect 
+the sign of $p_i(a)$ and
+$p_i(b)$  and  hence limit  the usefulness of the procedure.  However, 
+for our purposes, the
+polynomials to which the method is always applied have integer 
+coefficients and with the exact
+arithmetic provided by a computer algebra system, accuracy is never 
+compromised.  The method is
+implemented by calling the procedure {\em sturm} within Maple. This 
+procedure  uses Sturm's theorem to
+return the number of real roots in the interval (a,b] of a  polynomial 
+$P(x)$.
+
+For the series given in (5), a Sturm sequence argument applied to 
+$p_1(x)-p_2(x)/(2k-1) $ shows 
+that when $k=4$ this polynomial has no zeros.  It then follows that
+\begin{equation}
+\displaystyle{ p_1(x) -\frac{p_2(x)}{2k-1}   > 0, \;\;\;  k >4} 
+\end{equation} 
+The positivity of the infinite series will be confirmed if the  
+$61^{st}$ degree polynomial with rational coefficients, 
+\begin{equation}
+\displaystyle{ p_1(x) +p_2(x) +  \sum_{k=1}^{13} \left(\frac{( 
+\frac{1}{2}) _k }{ k!}\right)^2 \left [
+p_1(x)-\frac{p_2(x)}{2k-1} \right ] (1-x^4)^k  }
+\end{equation} 
+is positive.  This is readily verified by  another Sturm
+sequence argument.
+
+Because of the topic in Vuorinen's article \cite{MV}, the question  he 
+posed regarding Muir's
+approximation was  expressed in terms of the eccentricity and hence 
+inequality (2) was given as a
+function of $e$. If the notation of \cite{AB} is adopted, it is  more 
+natural  to express the error in
+terms of $\lambda= (a-b)/(a+b)$.   What we shall show in the next section 
+is that the methods that
+have been utilized in verifying (2) can be generalized to obtain 
+analogous results. As argued above,
+the proof will ultimately reduce to verifying the positivity of an 
+infinite series as in (5), and
+subsequently,  the positivity of a polynomial analogous to (7).  
+
+
+\vspace{18pt} 
+\noindent{\bf{4. Approximations of Elliptical Perimeter From Below}}
+\vspace{12pt} 
+
+
+With the exception of Muir's,   the algebraic
+approximations from below given in Table 1 may be denoted as 
+$A(\lambda^2)$.  There is  a polynomial
+$\phi(x)$ so that with the change of variable $\lambda^2=\phi(x)$, we 
+obtain a rational function 
+$f(x)=A( \phi(x))$. In particular,  for  the approximation  of Kepler,
+$\phi(x)=1-x^2$, for those of Lindner, Selmer(a), Bronshstein, and 
+Jacobsen, $\phi(x)=x$,  for
+Ramanujan(a,b), 
+$\phi(x)=(4-x^2)$  and  $\phi(x)=(4-x^2)/3$ respectively,  while for 
+Selmer(b), $\phi(x)=2(1-x^2)$. Let
+$N$ denote the power of the first nonzero term in the Taylor series for 
+the difference
+$L(a,b)/( \pi (a+b) ) - A(\lambda^2)$.
+
+The result,  analogous to (3), that will be verified  is   
+\begin{equation}
+\frac{d}{dx} \left(\frac{F(-\frac{1}{2}, -\frac{1}{2}; 
+1:\phi(x))-f(x)}{[\phi(x)]^M}\right) \neq 0.
+\end{equation}
+Here  $M=N/2$,
+and the interval on which   (8)  will hold,  is determined by  the change 
+of variable 
+$\lambda^2=\phi(x)$. 
+
+ 
+We begin by computing
+\begin{align*}
+\begin{split}
+& 
+\frac{d}{dx} (\frac{F(-\frac{1}{2}, -\frac{1}{2}; 
+1:\phi(x))-f(x)}{[\phi(x)]^M}) = 
+\frac{1}{[\phi(x)]^{M+1}} [Mf(x)\phi'(x)-\phi(x)f'(x)] +  \\[4ex]
+&  
+\frac{1}{[\phi(x)]^{M+1}}\left[\frac{\phi(x) \phi'(x)}{4} 
+\sum_{k=0}^{\infty}
+\frac{(( \frac{1}{2})_k)^2 }{(2)_k} \frac{\phi^k(x)}{k!} \right.  \left.-
+M\phi'(x)\sum_{k=0}^{\infty}
+\left(\frac{(  -\frac{1}{2}) _k }{k!}\right)^2 \phi^k(x)\right]  \\[4ex]
+& = D1  + D2. 
+\end{split}
+\end{align*} 
+For  $D2$ we have
+\begin{align*}
+\begin{split}
+&  D2 =\frac{1}{[\phi(x)]^{M+1}}\left[\frac{\phi(x)\phi'(x) 
+}{4}-M\phi'(x)\right] + \\[3ex]
+& \hspace{.5in} \frac{1}{[\phi(x)]^{M+1}} \sum_{k=1}^{\infty} 
+\left(\frac{(
+\frac{1}{2})_k}{k!}\right)^2 
+\left[\frac{\phi(x)\phi'(x)}{4(k+1)}-\frac{M\phi'(x)}{(2k-1)^2} \right]
+\phi(x)^k\\[4ex] 
+& \hspace{.25in} =D21+D22
+\end{split}
+\end{align*} 
+A further computation shows that
+\begin{align*}
+\begin{split}
+&  D22 =   \\[3ex] 
+& \frac{\phi'(x)}{[\phi(x)]^{M+1}}\left[\frac{\phi(x)  }{4} \left(-1 + 
+  \sum_{k=0}^{\infty} \left(\frac{(\frac{1}{2})_k}{k!}\right)^2 
+\frac{\phi^k(x) }{(k+1)} \right) \right. 
+\left.- \sum_{k=1}^{\infty} \left(\frac{(\frac{1}{2})_k}{k!}\right)^2 
+\frac{M\phi^k(x)}{(2k-1)^2}  \right]
+\end{split}
+\end{align*} 
+\begin{align*}
+\begin{split}
+&\hspace{-6in}\\  
+= \frac{\phi'(x)}{[\phi(x)]^{M+1}} \left[ \frac{\phi(x) }{4} \left( -1+ 
+   \sum_{k=1}^{\infty} \left( \frac{(\frac{1}{2})_{k-1}}{(k-1)!}\right)^2 
+\frac{\phi^{(k-1)}(x) }{k} \right) \right. 
+\left. - \sum_{k=1}^{\infty} \left(\frac{(\frac{1}{2})_k}{k!}\right)^2 
+\frac{M \phi^k(x)}{(2k-1)^2}  \right]&
+\end{split}
+\end{align*}
+\begin{align*}
+\begin{split}
+&\hspace{-6in}\\  
+= \frac{\phi'(x)}{[\phi(x)]^{M+1}}\left [\frac{-\phi(x) }{4}+ 
+   \sum_{k=1}^{\infty} \left(\frac{(\frac{1}{2})_{k}}{k!}\right)^2 
+\frac{k[\phi(x)]^{k} }{(2k-1)^2}  \right. 
+\left.- \sum_{k=1}^{\infty} \left(\frac{(\frac{1}{2})_k}{k!}\right)^2 
+\frac{M\phi^k(x)}{(2k-1)^2}  \right]&
+\end{split}
+\end{align*} \\
+
+ \noindent  Combining these results gives us 
+\begin{align*}
+\begin{split} 
+&  \frac{d}{dx} (\frac{F(-\frac{1}{2}, -\frac{1}{2}; 
+1:\phi(x))-f(x)}{[\phi(x)]^M}) = 
+\\[4ex] 
+ &  \frac{1}{[\phi(x)]^{M+1}} \left[ M\phi'(x)(f(x)-1)- f'(x)\phi(x) 
+  + 
+\phi'(x) \sum_{k=1}^{\infty} \left(\frac{(\frac{1}{2})_k}{k!}\right)^2 
+\frac{(k-M)\phi^k(x)}{(2k-1)^2}  \right]
+\end{split}
+\end{align*} 
+
+The  necessary inequality that is analogous to (6) is trivially met if 
+$k>M$. To verify (8), one 
+need only determine $K \geq M$ and apply a Sturm sequence argument to 
+show that the polynomial 
+$$
+Mf(x)\phi'(x)-f'(x)\phi(x) -M\phi'(x) + \phi'(x) \sum_{k=1}^{K}
+\left(\frac{(\frac{1}{2})_k}{k!}\right)^2 
+\frac{(k-M)\phi^k(x)}{(2k-1)^2} 
+$$
+has the same sign as 
+$$
+\phi'(x) \sum_{k=1}^{\infty} \left(\frac{(\frac{1}{2})_k}{k!}\right)^2 
+\frac{(k-M)\phi^k(x)}{(2k-1)^2}.  
+$$  
+
+From the monotonicity of  $  \left[ 
+F\left(-\frac{1}{2},-\frac{1}{2};1:\phi(x)\right)
+-  A(\phi(x))\right]/[\phi(x)]^M$, one readily obtains, analogous to 
+inequality (2),  bounds
+$(\alpha, \beta)$ on 
+$$ 
+\frac{{\cal E}(\lambda)}{\lambda^N}= 
+\frac{F\left(-\frac{1}{2},-\frac{1}{2};1:\lambda^2\right)
+-  A(\lambda^2)}{\lambda^N}. 
+$$ 
+In particular, $\alpha$ is obtained as the limit of ${\cal 
+E}(\lambda)/\lambda^N$
+as $\lambda \rightarrow 0$, while
+$\beta$ is determined by evaluation at $\lambda=1$.
+The following table illustrates the accuracy of the  approximations from 
+below by specify $\alpha,
+\beta$ where
+\begin{equation}
+\alpha < \frac{{\cal E}(\lambda)}{\lambda^N} < {\cal E}(1) <  \beta, 
+\;\;\; 0<\lambda<1.
+\end{equation}
+
+\vspace {12pt} 
+\noindent Table 2.
+$$
+\begin{array}{lc}
+& \hspace{.75in} (\alpha,\beta) \\ [1ex]
+\hline \hline
+\mbox{Kepler (1609)} & \hspace{.96in} \mbox{ (.75,\;1.2732) } \\[1ex]
+\mbox{Lindner (1904)} & \hspace{.75in}\mbox{ (.003906,\;.007614) } \\[1ex]
+\mbox{Ramanujan (1914 a)} & \hspace{.75in}\mbox{ (.001953,\;.005290) } 
+\\[1ex]
+\mbox{Ramanujan (1914 b)} & \hspace{.75in}\mbox{ (.000022,\;.000512) } 
+\\[1ex]
+\mbox{Bronshtein (1964)} & \hspace{.75in}\mbox{ (.002929,\;.006572) 
+}\\[1ex]
+\mbox{Selmer (1975 a)} & \hspace{.75in}\mbox{ (.000549,\;.002406) } 
+\\[1ex]
+\mbox{Selmer (1975 b)} &\hspace{.75in} \mbox{ (.000305,\;.001792) } 
+\\[1ex]
+\mbox{Jacobsen (1978)} & \hspace{.75in}\mbox{ (.000125,\;.001130) }\\[1ex]
+\end{array}
+$$
+
+ 
+
+
+To illustrate the use of these bounds in obtaining error approximations 
+first note that 
+$$
+\frac{a-b}{a+b}=\frac{1-\sqrt{1-e^2}}{1+\sqrt{1-e^2}}=\lambda(e).
+$$
+It follows that the error in elliptical perimeter approximation 
+$$
+\tilde{E}(\lambda):= L(a,b) - \pi (a+b) F(\frac{-1}{2}, \frac{-1}{2}; 1:\lambda^2)
+$$
+satisfies
+\begin{equation} 
+a \pi \alpha   (1 + \sqrt{1-e^2}) [\lambda(e)]^N < \tilde{E}(\lambda)<a \pi \beta 
+  (1 + \sqrt{1-e^2})
+[\lambda(e)]^N
+\end{equation} 
+
+
+
+                            
+
+\vspace{18pt} 
+\noindent{\bf{5. Implications and Further Directions }}
+\vspace{12pt} 
+
+
+It can be shown that the remaining approximations
+in Table 1 are from above.   To verify this requires considerably more 
+sophisticated methods. In fact,
+what has been shown by  Barnard, Pearce and Richards \cite{KD} is that, 
+with the exception of
+Euler's,  the  coefficients of the Taylor expansions of
+${\cal E}(x)$ are all of the same sign.  As a consequence of their 
+results one can deduce not only that
+(8) holds, but more generally,  for every integer $n \geq 0$, 
+$$
+\frac{d^n{\cal E}(x)}{dx^n} \neq0.
+$$ 
+
+Of course, the results of this
+paper are trivial consequences of this more general result,  but the 
+methods that are presented
+here  are of interest in their own right.  For instance,  the results presented here, and in particular
+equation (10),  provides a relatively simple derivation of estimates that historically appeared in the context
+of  astronomical considerations  and the application of Landen's transformation
+ \cite{AB}. 
+
+
+
+
+In addition, there is an obvious intriguing issue associated with  the study of these 
+inequalities.
+Is there a geometrical significance to these algebraic approximations that
+accounts for the monotone properties that these approximations possess?  
+It has been suggested by
+Berndt \cite{B} that Ramanujan's formulas have their origins  in the 
+representation of analytic
+functions as continued fractions.  As for the other approximations, 
+little is known as to
+their motivation.  
+
+
+\begin{thebibliography}{99}
+
+\bibitem{AB}  Almkvist, G., Berndt, B., ``Gauss,Landen, Ramanujan, the
+arithmetic-geometric mean, ellipses, $\pi$, and the {\em Ladies Diary},'' 
+ {\em The
+American Mathematical Monthly}, 95,1988 (585-608).
+\bibitem{B} Berndt, B., {\em Ramanujan's Notebooks, Part III}, Springer Verlag 
+(1985). 
+\bibitem{KD}  Barnard, R.W., Pearce, K. and Richards, K., ``An inequality 
+involving
+the generalized hypergeometric function and the arc length of an 
+ellipse,'' 
+preprint. 
+\bibitem{KD}  Devlin, K., ``The logical structure of computer-aided 
+mathematical
+reasoning,''  {\em The American Mathematical Monthly},104,1997 (632-646). 
+\bibitem{PH}  Henrici, P., {\em Applied and Computational Complex Analysis}, 
+John Wiley \&
+Sons,  New York (1974)
+\bibitem{MV}  Vuorinen, M., ``Hypergeometric functions in geometric  
+function
+theory,''  {\em Proceedings of Special Functions and Differential 
+Equations}, Eds.: K.
+Srinivasa Roa, R Jagannthan, G. Van der Jeugy, Allied Publishers (1998)
+\bibitem{G}  Young, D. and Gregory, R., {\em A Survey of Numerical 
+Mathematics}, Dover, 
+New York (1973)
+
+
+\end{thebibliography}
+
+
+\end{document}
+

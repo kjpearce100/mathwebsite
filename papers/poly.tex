@@ -1,0 +1,569 @@
+\documentstyle[12pt,newsymb]{article}%[11pt]{block}
+%\def\thesection{\Roman{section}}
+%\textwidth=6in
+%\advance\hoffset -2.5truein
+%\renewcommand{\theequation}{\thesection.\arabic{equation}} %set counter at
+%beginning of each section`\setcounter{equation}{0}'
+%\textheight %text height in inches
+%\topmargin % 0 is the default which gives a one inch margin
+%\headheight % about 1/4 in is the default, 0 removes
+%\headsep % the distance between the head and the body of the text the
+%default is about 1/4 in
+%\pagestyle{normal} %{empty}
+\def\negate#1{\mbox{$\;$\begin{picture}(10,12)
+\put(0,-2){\line(1,1){10}}
+\put(6,0){\makebox(0,0)[b]{#1}}
+\end{picture}$\;$}}
+%\advance\hoffset by .5truein\relax%controls horizontal position on the page
+\input bigc
+\newtheorem{example}{Example}[section]
+\newtheorem{corollary}{Corollary}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{notations}{Notations}[section]
+\newtheorem{assumption}{Assumption}[section]
+\newtheorem{remark}{Remark}
+\newtheorem{problem}{Problem}[section]
+\begin{document}
+%\baselineskip=18pt
+
+\title{Polynomials with non-negative coefficients}
+
+\author{R. W. Barnard \and W. Dayawansa \thanks{Formerly at Texas Tech
+ University,\newline Currently in the Department of Electrical Engineering, University of Maryland,College Park, Md 20742.} \and K. Pearce \and D.Weinberg}
+\date{}
+\maketitle
+\begin{center}{Department of Mathematics, Texas Tech University,
+Lubbock, TX 79409}\end{center}
+
+\section{Introduction}
+{\em Can a conjugate pair of zeros be factored from a polynomial
+with nonnegative coefficients so that the resulting polynomial still
+has nonnegative coefficients?}
+
+This question has attracted considerable attention during the last
+few years because of its seemingly elementary nature and its
+potential for applications in number theory and control theory.  A
+proposed answer to this question arose as a conjecture out of the
+work in \cite{5}, where explicit bounds were determined for the
+constants occurring in the Beauzamy-Enflo generalization \cite{1},
+\cite{2} of Jensen's Inequality.  An affirmative answer to this
+question was conjectured, independently, by B. Conrey in connection
+with some of his work in number theory.  Conrey announced the
+conjecture at the annual West Coast Number Theory Conference held in
+December 1987.
+
+The main theorem in this note gives a positive answer to the
+question.  This will be proved in section 2.  The principle
+ingredients of the proof are an idea from index theory, classical
+properties of polynomials and a significant lemma (Lemma 2.1) which
+we prove in section 3.  This lemma states some strong consequences
+for the case of equality holding in Descartes' Rule of Signs (see
+\cite{4}).  We also prove a corollary of the main theorem which
+describes the region into which certain zeros can be moved while
+preserving the nonnegativity of the coefficients.
+
+
+Consider the polynomial defined by $P_N(z) = 1 + z^N$.  We note that
+
+
+\begin{equation} P_N(z) = \prod_{l=0}^{N-1}\left(1 -
+\frac{z}{e^{i\left(\frac{\pi}{N} +\frac{2\pi l}{N}\right)}}\right) =
+(1 - 2\cos\theta_0z +z^2)\sum_{k=0}^{N-2} b_kz^k\label{eq:1}\end{equation} has
+$b_{k} >0, 0\leq k\leq N-2$, if $\theta_0 = \pi/N$, while any
+other choice for $\theta_0$ produces a factor with some negative
+$b_k$ coefficients.
+
+Thus, one initial suggestion for the general question of factoring
+out a conjugate pair of zeros was to factor out a pair of zeros with
+greatest real part.  The authors have used fairly straightforward
+arguments to show that if the degree of the polynomial is less than
+or equal to 5, then a conjugate pair of zeros of greatest real part
+can be factored out and the resulting polynomial will still have
+nonnegative coefficients.  However, if $$p(z) = 140 + 20z + z^2 +
+1000z^3 + 950z^4 + 5z^5 + 20z^6$$ with $z_0, \overline{z}_0$
+approximately equal to $0.392 + 6.390i, 0.392 - 6.392i$, resp., as
+the conjugate pair of zeros of greatest real part, then the resulting
+factors are $(z - z_0)(z - \overline{z}_0)$ and $(140.1 + 22.3z -
+1.53z^2 + 1000z^3 + 966.7z^4)$.
+
+The other choice, for which zeros to factor out, suggested by the
+example $P_N$ in (1), is the pair determined by the zero in the
+upper half-plane with smallest positive argument.  Indeed, in this
+paper we prove the following:\vspace{12pt}
+
+\begin{theorem} Let $p$ be a polynomial of degree $N$, $p(0) =1 $,
+with nonnegative coefficients and with zeros $z_1, z_2,\dots, z_N$.
+For $t\geq 0$ write $$p_{t} (z) = \prod_{1\leq j \leq N \atop{ |Arg
+z_{j} | > t}} \left( 1 - \frac{z}{z_{j}} \right)$$ Then, if $p_t\neq
+p$, all of the coefficients of $p_t$ are positive.
+\end{theorem}
+
+\begin{remark} We note that a slightly sharper version
+of the Theorem 1.1 is true.  Suppose that the given polynomial $p$
+has nonnegative coefficients and that we divide it by a single quadratic
+factor corresponding to any conjugate pair of zeros of smallest
+argument in magnitude.  Then the quotient polynomial has nonnegative
+coefficients.  Furthermore, if the conjugate pair of zeros is unique
+ and simple or if $p$ has strictly positive coefficients
+then the quotient polynomial will have strictly positive
+coefficients.  The example $p(z) = (1 + z^{2})^{2}$ shows the
+necessity of these conditions.  The sharpened version of the theorem
+under the uniqueness hypothesis follows from the main theorem.  Now
+let us consider the case when several complex conjugate pairs of
+zeros of $p$, say $\{ z_{i} , \bar{z}_{i} \}_{i=1, \ldots, k},$ have
+the smallest argument in magnitude and assume that all
+coefficients of $p$ are strictly positive.  A local
+perturbation can be made of $z_{1}$ and $\bar{z}_{1}$ to $w_{1}$ and
+$\bar{w}_{1}$ such that the argument of $w_{1}$ is less than that of
+$z_1 $.  Under the local perturbation the polynomial $p$ changes to
+$q$ which also has strictly positive coefficients. By Theorem 1.1, $q
+/{(z-w_{1})(z-\bar{w}_{1})} $ has strictly positive coefficients.
+Since $p/{(z-z_{1})(z-\bar{z}_{1})} = q/{(z-w_{1})(z-\bar{w}_{1})}$
+the desired conclusion follows.  \end{remark}
+
+\begin{corollary} Let $$p(z) = \sum^{N}_{k=0} a_{k} (z_{0}) z^{k} =
+(z-z_{0})(z-\bar{z}_{0}) \sum^{N-2}_{k=0} b_{k} z^{k}$$ be a real
+polynomial with $a_{k} (z_{0}) \geq 0.$ Let $z_{0}$ be a zero of $p$
+in the upper half plane with smallest argument.  If $z_{1}$ is any
+complex number such that $$|z_{1}| \geq |z_{0}| \mbox{ and } Re \{
+z_{1} \} \leq Re \{ z_{0} \} \ \ \ \ \ \ \ \ \ \ \ $$ then
+$$\sum^{N}_{k=0} a_{k} (z_{1} ) z^{k} = (z-z_{1}) (z-\bar{z}_{1})
+\sum^{N-2}_{k=0} b_{k} z^{k} $$ has $a_{k} (z_{1}) \geq a_{k}
+(z_{0})$. \end{corollary}
+
+\noindent {\bf Proof:} The proof follows directly by noting, for $ z_0  =  r e^{i\theta}=x + iy $,
+
+\begin{eqnarray*}
+ \sum^N_{k=0}
+a_k(z_0)z^k & = & (r^2-2{r}z\cos{\theta} +z^2)\sum^N_{k=0} b_kz^k \\ &  = & (x^2+y^2 -2xz+z^2)\sum^N_{k=0} b_kz^k\end{eqnarray*}
+and comparing coefficients.
+
+
+It has been recently shown by R. Evans and P. Montgomery\cite{6} that in
+the special case when $p$ is the polynomial $P_N$ defined in (1) that
+the corresponding reduced $p_t$ polynomials are all strictly unimodal
+(in their coefficients).  Also, R. Evans and J. Greene \cite{3} have
+shown for polynomials $p$ of the form $p(z)=(z^{Mk}-1)/(z^k-1)$ that
+the corresponding reduced $p_t$ polynomials all have positive coefficients.
+
+\section{Proof of theorem 1.1}
+
+We note to prove Theorem 1.1 it suffices, by a successive reduction
+argument, to show that if we remove from $p$ a conjugate pair of
+zeros of smallest argument in the absolute value, then the resulting
+polynomial still has nonnegative coefficients.  
+
+
+\noindent {\bf Proof.}  
+
+Let
+
+\begin{equation} p(z) = \sum^N_{k=0} a_k z^k = (1 -\frac{2\cos
+\theta_0 z}{r_0} + \frac{z^2}{r{_0^2}})\sum^{N-2}_{k=0} b_k
+z^k\label{eq:2}\end{equation} 
+
+\noindent with $a_k \geq 0, 0\leq k\leq N$.  We may assume $a_N > 0$.
+Let $\{r_\ell e^{i\theta_\ell}\}$ be the zero set of $p$ with $0 <
+\theta_0 \leq |\theta_\ell|$ for each $\ell$. We may assume $ r_0 =1$
+ in (\ref{eq:2}) by using  $ p(r_{0}z)$. Since the coefficients of $p$ depend
+continuously on the zeros of $p$, we may assume that $p$ has only one
+zero, say $z_0 = e^{i \theta_0}$, on the ray $\{r e^{i\theta_0}: 0
+< r < \infty\}$ and that this zero is simple.  Otherwise, a
+sequence of polynomials with this property can be chosen to converge
+to the desired polynomial with the appropriate inequalities holding.
+ We will prove that $b_k > 0$ for $ 0 \leq k
+ \leq {N-2}$. 
+
+Now 
+\begin{eqnarray*} \sum^{N-2}_{k=0} b_k z^k &=& \frac{p(z)}{1 -
+2\cos \theta_0 z+ z^2}\\ &=& \sum^{\infty}_{k=0} \frac{\sin
+(k+1)\theta_0}{\sin \theta_0} z^k \sum^N_{k=0} a_k z^k =
+\sum^{N-2}_{k=0} \left(\sum^k_{\ell=0} \frac{\sin (\ell +1)
+\theta_0}{\sin \theta_0} a_{k -\ell}\right) z^k.\end{eqnarray*} 
+
+\noindent This gives \begin{equation} b_k = \sum^k_{\ell =0}
+\frac{\sin (\ell +1)\theta_0}{\sin \theta_0} a_{k -
+\ell}.\label{eq:3}\end{equation} 
+
+\noindent Noting that $$z^N p(1/z) = \sum^N_{k=0} a_{N-k} z^k =
+\left(z^2 -2\cos \theta_0 z+1\right) \sum^{N-2}_{k=0} b_{N-2-k} z^k$$ 
+
+\noindent it will suffice to show that $b_k >  0$ for $0\leq k \leq
+[\frac{N-2}{2}]$.  From (\ref{eq:3}) if \linebreak $\sin (\ell +1)
+\theta_0 > 0$ for $\ell = 0, 1, \cdots, k$, i.e., when $0 \leq
+\theta_0 < \pi/(k+1)$ it 
+
+\begin{figure}\vspace{3in}\caption{}\end{figure} 
+
+
+follows that $b_k > 0$.  Also, if all
+the zeros of $p$ are in the closure of the left half plane then the
+result is clear since $p$ can be put into the form: $p(z) = \prod
+(1 - \frac{2\cos \theta_\ell}{r_\ell} z + \frac{z^2}{r^2_{\ell}}) \prod(1 + \frac{z}{r_m})$.  Thus,
+we may assume
+\begin{equation} \pi/\left(\left[\frac{N-2}{2}\right] +1\right) =
+\pi/\left(\left[\frac{N}{2}\right]\right) \leq \theta_0 <
+\pi/2.\label{eq:4}\end{equation}
+
+We will assume that there is a $k$ with
+
+\begin{equation} b_k \leq 0\label{eq:5}\end{equation} 
+
+\noindent to reach a contradiction.  Consider the function defined by
+$$F(z) = {z}^{-k-1} p(z) = \sum^N_{\ell =0} a_\ell z^{\ell- k-1}$$
+having the same zeros as $p$.
+
+We observe from the hypothesis that $F$ has no zeros between the rays
+defined by $\{te^{i\theta_0}: 0 < t < \infty\}$ and $\{te^{-i
+\theta_0}: 0 < t < \infty\}$.  Motivated by this, let $\Gamma =
+\Gamma ^+\bigcup\overline\Gamma ^+$ be the curve shown in Figure 1,
+which is symmetric about the reals with $\Gamma^+ =
+\bigcup^{5}_{\ell=1} \Gamma_\ell$ where $\Gamma_1 = \{Re^{i\theta}:0
+\leq \theta \leq \theta_0\},\ \Gamma_2 = \{te^{i\theta_0}: 1 + s \leq
+t \leq R\},\ \Gamma_3 = \{z_0 + se^{i\theta}: \theta_0 - \pi \leq
+\theta \leq \theta_0\},\ \Gamma_4 = \{t e^{i\theta_0}: r \leq t \leq
+1 -s\}$ and $\Gamma_5 = \{re^{i\theta}: 0 \leq \theta \leq
+\theta_0\}$ and $r, s$, and $1/R$ will be chosen sufficiently small.
+We will show that under the assumption (\ref{eq:5}) the index of $F$
+with respect to $\Gamma$ about any interior point is positive,
+implying the existence of a zero of $F$ inside $\Gamma$.  This would
+contradict that $\theta_0$ is the smallest positive argument of the
+zeros of $p$ in the upper half plane.
+
+The function $F$ has the form \begin{equation} F(z) = a_0 z^{-k-1} +
+\cdots + a_{k+1} + a_{k+2} z + \cdots a_N
+z^{N-k-1}.\label{eq:6}\end{equation} From symmetry we can examine
+$\Delta \arg F(z)$, the change in the argument of $F$, as $z$
+traverses $\Gamma^+$.  Let $\Delta_\ell$ equal $\Delta \arg F(z)$ as
+$z$ traverses $\Gamma_\ell$.  For $R$ sufficiently large the term
+$a_N z^{N-k-1}$ in (\ref{eq:6}) dominates so that $\Delta_1 = (N-k-1)
+\theta_0 +O (\frac{1}{R})$.  For $r$ sufficiently small and positive
+the term $a_0 z^{-k-1}$ in (\ref{eq:6}) dominates so that $\Delta_5 =
+-(-k-1) \theta_0 + O(r) = (k+1) \theta_0 + O(r)$, noting the
+clockwise transversal of $\Gamma_5$.  Hence, \begin{equation}
+\Delta_1 + \Delta_5 = N\theta_0 + O \left(\frac{1}{R}\right) +
+O(r)\label{eq:7}\end{equation} for $1/R$ and $r$ sufficiently small.
+Let $\Gamma_6 = \{t e^{i\theta_0}: r \leq t \leq R\}$, noting that
+$\Gamma_2 \cup \Gamma_3 \cup \Gamma_4$ approaches $\Gamma_6$ as $s
+\rightarrow O$.  For notational convenience let $\hat{\Delta}_6$
+denote $\Delta_2+\Delta_4 +\lim \Delta_3$ as $s\rightarrow0$.  We observe that as $t$ crosses $1$ the change in
+argument of $-\pi$ accounts for the change in argument determined by
+traversing $\Gamma_3$ for $s$ sufficiently small, i.e., $\Delta_3 =
+-\pi + O(s)$.  
+
+Since a bound for $\hat{\Delta}_6$ can be determined by the
+maximum number of times the image of $\Gamma_6$ crosses the real axis
+we consider $\alpha(f_0)$, the number of real positive zeros of $f_0$
+defined by \begin{eqnarray} f_0 (t) & = & Im \left[t^{k+1} F (te^{i
+\theta_{0}}) \right]\label{eq:8}\\[2ex] & = & -\sum^k_{\ell=0}
+a_\ell \left[\sin (k+1-\ell) \theta_0\right] t^\ell + \sum^N_{\ell =
+k+2} a_\ell \left[\sin (\ell -k-1)\theta_0\right]
+t^\ell\nonumber.\end{eqnarray} Descartes' Rule of Signs says that
+$\alpha (f_0)$ is bounded above by $\gamma (f_0)$, the number of sign
+changes in the coefficients of $f_0$.  Since, $a_\ell \geq 0$ for
+each $\ell,\gamma(f_0)$ is determined by the number of sign changes
+in $\sin \ell\theta_0$ as $\ell$ goes from $-k-1$ to $N-k-1$, i.e.,
+over a range of $N$.  It is clear that there exists an $m$ such that
+\begin{equation} \frac{m\pi}{N} < \theta_0 \leq \frac{(m+1)\pi}{N}.\label{eq:9}\end{equation} Since the number of sign changes as
+$\ell\theta_0$ varies over an $N \theta_0$ range is determined by
+$N\theta_0 /\pi$, it follows that $\gamma (f_0) \leq m+1$.  In
+counting $\alpha(f_0)$ and  $\gamma(f_0)$ if $a_0 \sin(k+1)\theta_0 = 0$, then we factor out the leading power of $t^\ell$ in $f_0$.  So,
+we are only considering positive zeros of $f_0$.
+
+In the case when $\alpha(f_0)$ is strictly less than $m$, say $m_1$
+with $0\leq m_1 <m$, it follows that $\hat{\Delta}_6 <m_1\pi +\pi
+\leq m\pi$.  Thus, by using (7), (8) and (9) we obtain
+$$\Delta\arg F(z)\geq 2\sum^5_{\ell=1}>2(N\theta_0-(m_1+1)\pi)\geq
+0.$$  This would imply that $\Gamma$ encloses a zero of $F$,
+contradicting the construction of $\Gamma$.
+
+Now we consider the remaining cases, i.e., when $\gamma(f_0)=m$ or
+$m+1$ and $\alpha(f_0) \geq m$.  If $\gamma(f_0)-\alpha (f_0)=1$,
+then one of  the positive zeros of $f_0$ occurs with even
+multiplicity.  This can be easily seen by observing that the sign of
+$f_0(t)$ for large $t$ can be determined by  multiplying the sign of
+the constant term of $f_0$ by $(-1)^{\gamma(f_0)}$ and, alternatively,
+by multiplying the sign of the constant term of $f_0$ by
+$(-1)^{\alpha(f_0)}$ if all of the positive zeros of $f_0$ have odd
+multiplicity.  But, a positive zero of $f_0$ with even multiplicity
+does not correspond to a proper crossing of the real axis by
+$f(te^{i\theta_0})$ and, hence, $\hat{\Delta}_6\leq m\pi$ in this
+case, which is impossible.
+
+The only remaining case is when $\alpha(f_0) = \gamma(f_0)=m$ or
+$m+1$.   We shall need an involved technical lemma, which we state and prove asLemmas 3.3 and 3.4 in the next section. To complete the proof we
+state Lemma 3.3 as Lemma 2.1 in the following form:
+
+\begin{lemma}  Let $g$ and $h$ be two real polynomials with $h(z) =
+a_{\ell} z^{\ell} + \cdots + a_{n} z^{n} $ where $a_{\ell} > 0$ and
+the degree of $g$ is less than $\ell$ with the last coefficient of
+$g$ being negative.  If $p$ is the polynomial defined by $p = g + h$
+and the number of sign charges in the coefficients of $p$ equals
+the number of real positive zeros of $p$ then $h (z_{j})$ is positive
+at each of the zeros, $z_{j},$ of $p$.
+
+\end{lemma}
+
+ We observe that the function $f_0$ defined in (\ref{eq:8}) satisfies
+the hypothesis of Lemma 2.1 with $f_0 = g + h$ where $g(t) = -
+\displaystyle{\sum^{k}_{l=1}} a_{\ell} \left[ \mbox{ sin } (k + 1 -
+\ell ) \theta_{0} \right] t^{\ell}$ and $h(t) =
+\displaystyle{\sum^{N}_{l = k+2}} a_{\ell} \left[\mbox{ sin } ( l -
+ k- 1 ) \theta_{0} \right] t^{\ell}.$  Since $\alpha (f_0) = \gamma
+(f_0)=m$ or $m+1$, it  follows, from a partitioning argument, that
+the last nonzero term of $g(t)$ is negative and that the first term
+of $h(t)$ is positive, for otherwise we would have $\gamma(f_0)\leq
+m-1$, which would reduce to the previous case.  Now, since
+$f_0(1)=0$, Lemma 2.1 gives that $h(1) > 0$, which
+implies that $g(1) < 0$.  But, using (\ref{eq:3}) it follows that
+$g(1) = -b_k \sin \theta_0$, which contradicts the assumption in
+(\ref{eq:5}).  Our main theorem follows.
+
+\section{Lemmas on Zeros, Critical Points, and Sign Changes} Let
+$f(x)$ denote a polynomial with real coefficients.  Write $$f(x) =
+\pm \left(p_0 (x) - p_1 (x) + p_2 (x) - p_3 (x) + \cdots \right)$$
+where \begin{eqnarray*} p_i (x) & = & c_{i0} x^{n_{i-1}} + c_{i1}
+x^{n_{i-1}+1} + \cdots + c_{i,m_i} x^{n_{i-1} +m_i}\\[2ex] n_{-1} & =
+& 0,\ n_i = n_{i-1} + m_i +1,\\[2ex] c_{ij} & \geq & 0\ , i \geq 0 ,
+j \geq 0.\end{eqnarray*}\vspace{12pt}
+
+\noindent {\bf Notation}  {\em $\alpha (f)$ denotes the number of strictly
+positive real zeros, $\gamma (f)$ denotes the number of sign changes,
+$\tilde{\beta}(f)$ denotes the number of strictly positive critical
+points,
+$$\beta(f) = \left\{\begin{array}{cll}
+0 & {\rm if} & f \equiv c_{00}\\[2ex]
+\tilde{\beta} (f) + 1 & {\rm if} & p_0 (x) \equiv c_{00}\\[2ex]
+\tilde{\beta} (f) & {\em otherwise}. &\end{array}\right.$$
+Let $0 < x_1 (f) < x_2 (f) < x_3 (f) < \cdots $ denote the
+distinct positive real zeros of $f$.  Let $y_i (f)$ denote the
+critical point between $x_i(f)$ and $x_{i+1} (f)$ (in the case where
+$\alpha(f) = \gamma(f)$).}
+
+\begin{lemma}  \begin{itemize}
+\item[(i)] $\alpha(f) \leq \beta (f) \leq \gamma (f)$.
+\item[(ii)] If $\alpha (f) = \gamma(f)$, then $\alpha(f^{(k)}) =
+\gamma(f^{(k)})$ for all $k$ such that $f^{(k)} \not\equiv 0$.
+\end{itemize}
+\end{lemma}
+
+\noindent {\bf Proof.} 
+
+\begin{itemize} 
+
+\item[(i)] This is an immediate consequence of Rolle's Theorem and
+Descartes' Rule of Signs.
+
+\item[(ii)] It needs only to be shown that $\alpha (f^{'} ) = \gamma
+(f^{'})$
+
+\end{itemize}
+
+Case 1: $p_0(x) \neq c_{00}$.  Then $\alpha (f^\prime) =
+\tilde{\beta}(f) = \beta(f) = \gamma (f) = \gamma (f^{'})$. 
+
+Case 2: $p_0 (x) = c_{00}$.  Then, $\alpha (f^{'}) = \tilde{\beta}
+(f) = \beta(f) - 1 = \gamma (f) - 1 = \gamma (f^{'})$ $\Box$
+
+
+\begin{remark}  The remaining lemmas will each contain
+the hypothesis that $\alpha (f) = \gamma (f)$.  It follows from Lemma
+3.1(i) that $\alpha (f) = \beta (f)$.  Therefore, the positive real
+zeros and critical points of $f$ must strictly interlace. We
+emphasize again that all coefficients of each of the polynomials
+$p_{i} (x)$ appearing below are nonnegative. It will be useful to
+the reader at this stage to note that the essentially different
+cases are,
+
+\begin{enumerate}
+
+\item[(i)] $p_{0} \not\equiv c_{00} > 0$
+
+\item[(ii)] $p_{0} \equiv c_{00} > 0 $
+
+\item[(iii)] $c_{00} = 0$
+
+\end{enumerate} It also may be beneficial to draw rough sketches for
+each of the cases.  \end{remark}
+
+\begin{lemma}  Let $f(x) = p_0 (x) - p_1 (x) + h(x)$, where $h(x) =
+p_2(x) - p_3 (x) + \cdots$.  Suppose that $\alpha (f) = \gamma (f)$,
+then $h(x_i (f)) > 0$ for all $i$.\end{lemma}
+
+\noindent {\bf Proof.}  Let $p_1 (x) = c_n x^n + c_{n+1} x^{n+1} +
+\cdots + c_r x^r$, where $c_r > 0$ and $n=0$ is allowed.  (If $n=0$,
+then $p_0 (x) \equiv 0$.)
+
+Since the lemma is trivial if $\alpha (h) = 0$, let us assume that
+$\alpha (h) > 0$.  Observe that $x_1 (h^{(j)})$ is defined for $0
+\leq j \leq r+1$, since $h^{(j)} (0) =0$ for $0 \leq j \leq r$.  Now
+$f^{(r)} (x) = -r! c_r + h^{(r)}$ has a critical point at $x_1
+(h^{(r+1)})$.  Since $\alpha (f^{(r)}) = \gamma (f^{(r)})$ (Lemma
+3.1(ii)), it follows that $x_1 (f^{(r)}) < x_1 (h^{(r+1)})) < x_1
+(h^{(r)})$, and $f^{(r)} (x_1 (h^{(r+1)})) > 0$.  Furthermore, since
+$f^{(r)} < h^{(r)}$ it follows that $x_1 (f^{(r)}) < x_1 (h^{(r+1)}) <
+x_2 (f^{(r)}) < x_1 (h^{(r)})$.  Now $f^{(r-1)}$ has critical points
+at $x_1(f^{(r)})$ and $x_2(f^{(r)})$ and since $\alpha (f^{(r-1)}) =
+\gamma(f^{(r-1)})$ it follows that $x_1 (f^{(r)}) < x_1 (f^{(r-1)}) <
+x_2(f^{(r)})$.  Therefore, $f^{(r-1)} (x_2(f^{(r)})) > 0$, and since
+$f^{(r-1)} < h^{(r-1)},$ it now follows that $x_2(f^{(r)}) <
+x_2(f^{(r-1)}) < x_1(h^{(r-1)}).$ Thus, $x_{1} ( f^{(r-1)} ) < x_{2}
+( f^{(r)} ) < x_{2} ( f^{(r-1)} ) < x_{1} ( h^{(r-1)}).$  An easy
+induction then shows that $$x_1(f^{(j)}) < x_2(f^{(j)}) <
+x_1(h^{(j)}), n\leq j \leq r-1.$$ 
+
+Now let $p_0 (x) = d_0 + d_1 x + \cdots + d_{n-1} x^{n-1}$. Since it
+suffices to prove the lemma in the generic case, we assume that
+$d_{i} > 0 ; \ 0 \leq i \leq n-1.$ Since $f^{(n-1)}$ has critical
+points at $x_1 (f^{(n)})$ and $x_2 (f^{(n)})$ and $\alpha (f^{(n-1)})
+= \gamma (f^{(n-1)})$, it follows that $f^{(n-1)} (x_1 (f^{(n)})) <
+0$ and $f^{(n-1)} (x_2 (f^{(n)})) > 0$.  Since $f^{(n)} (x) < h^{(n)}
+(x)$ for $x > 0$, it now follows that for all $x \geq x_1 (f^{(n)})$,
+\begin{eqnarray*} f^{(n-1)} (x) &=& f^{(n-1)} \left(x_1
+\left(f^{(n)}\right)\right) + \int^x_{x_1 \left(f^{(n)}\right)}
+f^{(n)} (t) dt\\[2ex] &<& \int^x_{x_1 \left(f^{(n)}\right)} h^{(n)}
+(t) dt < h^{(n-1)} (x).\end{eqnarray*}
+
+By a previous argument, we have that $x_1 (f^{(n)}) < x_2 (f^{(n)}) <
+x_1 (h^{(n)}) < x_1 (h^{(n-1)})$.  Then, since $f^{(n-1)}  (x) <
+h^{(n-1)} (x)$ for $x \geq x_1 (f^{(n)})$ and since $f^{(n-1)} (x_2
+(f^{(n)})) > 0$, we have that $x_3 (f^{(n-1)}) < x_1 (h^{(n-1)})$.  Therefore,
+$$\begin{array}{c}
+\displaystyle{x_1 \left(f^{(n-1)}\right) < x_1
+\left(f^{(n)}\right) < x_2 \left(f^{(n-1)}\right) < x_2
+\left(f^{(n)}\right)}\\[2ex]
+\displaystyle{< x_3 \left(f^{(n-1)}\right) < x_1
+\left(h^{(n-1)}\right).}\end{array}$$\vspace{12pt}
+
+Now suppose that for some $j$ with $0 < j \leq n-1$, $$x_1 (f^{(j)})
+< x_2 (f^{(j)}) < x_3 (f^{(j)}) < x_1 (h^{(j)})$$ and $f^{(j)} (x) <
+h^{(j)} (x) \mbox{ for all } x > y_1 (f^{(j)})$.
+
+Then, exactly the same reasoning as above applies and it follows that
+$$x_1 \left(f^{(j-1)}\right) < x_2 \left(f^{(j-1)}\right) < x_3
+\left(f^{(j-1)}\right) < x_1 \left(h^{(j-1)}\right) \ \ \ \ \ \ \ \
+(*^{j}) $$ and $f^{(j-1)} (x) < h^{(j-1)} (x)$ for all $x > y_1
+(f^{(j-1)})$.  Therefore, $(\ast^j)$ is true for $0 \leq j \leq n-1$.
+
+
+In particular, $(\ast^0)$ shows that $x_1 (f) < x_1 (h)$.  Thus,
+$-p_0 (x_1 (f)) + p_1 (x_1(f)) = h(x_1(f)) > 0$.  By Lemma 3.1 $p_1 - 
+p_0$ has only one zero. Therefore, $(p_1 - p_0)(x)$ is monotone
+increasing for all $x > x_1 (p_1 - p_0)$.  Since $(p_1 - p_0) (x_1
+(f)) > 0,$ we have $x_1 (f) > x_1 (p_1 - p_0)$ and it follows that $h(x_j
+(f)) > 0$ for all $j$. $\Box$
+
+\begin{lemma} Let $f = (p_0 - p_1) + (p_2 - p_3) + \cdots + (p_{2k+2}
+- p_{2k+3}) + (p_{2k+4} - p_{2k+5}) + (p_{2k+6} - \cdots )$, where
+$g_0 = p_0 - p_1,\ g_1 = p_2 - p_3, \cdots, g_{k+1} = p_{2k+2} -
+p_{2k+3},\ h = p_{2k+4} - p_{2k+5} + p_{2k+6} - \cdots$.  Suppose
+that $\alpha (f) = \gamma (f)$, then $h(x_i (f)) > 0$ for all
+$i$.\end{lemma}
+
+\noindent {\bf Proof.}  We may assume that $\gamma (h) \neq 0$, for
+otherwise the result is trivial.  Hence, $\gamma (h^{(j)}) \neq 0$
+for $0 \leq j \leq \deg (p_{2k+3})$.  Let $n_j = \deg (g_j)$
+and $m_j = n_j +1$ for $0 \leq j \leq k+1$.  Let $m_{-1} =0$.
+
+We now regard $k$ as fixed and proceed by induction on $\ell$, where
+$-1 \leq \ell \leq k$.  From the previous lemma it follows that 
+$$x_1 (f^{(m_k)}) < x_2 (f^{(m_k)}) < x_3 (f^{(m_k)}) < x_1 (h^{(m_k)})$$
+and $(h^{(m_k)} - f^{(m_k)})(x)$ is positive and
+monotone increasing for $x \geq y_1
+(f^{(m_k)})$
+
+We now make the following induction hypothesis: For some $\ell$ with
+$0 \leq \ell \leq k$, $$x_1 (f^{(m_\ell)}) < \cdots < x_{2(k-\ell)
++3} (f^{(m_\ell)}) < x_1 (h^{(m_\ell)})$$ and $(h^{(m_\ell)} -
+f^{(m_\ell)}) (x)$ is positive and monotone increasing for $x \geq
+y_{2(k-\ell)+1} (f^{(m_\ell)})$.
+
+Let $p_{2\ell+1} (x) = a_0 x^s + a_1 x^{s+1} + \cdots + a_r x^r$,
+where $r = n_\ell = m_\ell -1$.  Now $f^{(r)} (x) = {\int^x_0}
+f^{(m_\ell)} (t) dt - c$, where $c$ is a nonnegative constant.
+Observe that $f^{(r)} (x)$ is positive for \begin{equation}
+x_{2(k-\ell)+3} (f^{(r)}) < x < x_{2(k-\ell)+4}
+(f^{(r)}).\label{eq:10}\end{equation} Therefore, for $x$ satisfying (10)
+\begin{eqnarray*} 0 \leq f^{(r)} (x) & = & \int^x_{x_{2(k-\ell)+3}}
+f^{(m_\ell)} (t) dt\\[2ex] & \leq & \int^x_{x_{2(k-\ell) +3}}
+h^{(m_\ell)} (t) dt\end{eqnarray*} (by the induction hypothesis since
+$x_{2(k-\ell)+3} (f^{(r)}) > y_{2(k-\ell)+1}(f^{(m_\ell)}))$ $$<
+h^{(r)}(x_{2(k-\ell)+3}(f^{(r)})) + \int^x_{x_{2(k-\ell)+3}}
+h^{(m_\ell)} (t) dt.$$
+
+Therefore, 
+$x_{2(k-\ell)+4} (f^{(r)}) < x_1
+(h^{(r)})$ 
+and since 
+$\alpha (f^{(r)}) = \gamma (f^{(r)}),$
+it follows that
+\begin{equation}\begin{array}{llll}x_1(f^{(r)}) &<
+x_1(f^{(m_\ell)}) &< x_2(f^{(r)}) &< \cdots \\[2ex]
+&< x_{2(k-\ell)+3}(f^{(m_\ell)}) &< x_{2(k-\ell)+4} (f^{(r)}) &< x_1 (h^{(r)})
+\end{array}
+\label{eq:11}\end{equation}
+
+and $(h^{(r)} - f^{(r)}) {(x)}$ is positive and monotone increasing
+for $x > y_{2(k-\ell)+2} (f^{(r)})$.
+
+
+A repetition of the above argument shows that $(11)$ remains true
+when $r$ is replaced by $j$ and $m_\ell$ by $(j+1)$ for $s \leq j
+\leq r$ and also shows that $x_{2(k-\ell)+5} (f^{(m_{\ell-1})}) < x_1
+(h^{(m_\ell-1)})$.  This verifies the induction hypothesis for $(\ell
+-1)$.
+
+In particular, when $\ell = -1$ we have $x_1 (f) < x_2 (f) < \cdots <
+x_{2k+5} (f) < x_1 (h)$ and $(h-f) (x) > 0$ for $x \geq y_{2k+3}
+(f)$.  Since $h(x) > 0$ for $0 < x < x_1 (h)$ and since
+$\sum^{k+1}_{j=0} g_j (x) <0$ for $x \geq y_{2k+3} (f)$ and $y_{2k+3}
+(f) < x_1 (h)$, we finally have $h(x_i (f)) > 0$ for all $i$.
+$\Box$\vspace{12pt}
+
+The same argument establishes
+
+\begin{lemma} Let $f = -p_0 + (p_1 - p_2) + \cdots + (p_{2k-1} -
+p_{2k}) + (p_{2k+1} - p_{2k+2}) + \cdots$  Let $h = p_{2k+1} -
+p_{2k+2} + \cdots$.  Suppose that $\alpha (f) = \gamma (f)$, then
+$h(x_i (f)) > 0$ for all $i$.
+\end{lemma}
+
+\vspace{12pt}
+
+\noindent{\bf \Large Acknowledgements}
+
+\vspace{12pt}
+
+  We wish to thank the mathematics department at the University of California at San Diego and the Math Sciences Research Institute at Berkeley for supporting the first and last authors respectively as visiting scholars during some of the preparation time of this paper.  We also wish to thank the number theorist
+R. Evans of the University of San Diego for many helpful discussions.
+\begin{thebibliography}{99}
+
+\bibitem{1} Beauzamy, B. {\em Jensen's inequality for polynomials
+with concentration at low degrees.}  Numer. Math. No. 49 (1986) pp.
+221-225.
+
+\bibitem{2} Beauzamy, B. and Enflo, P.  {\em Estimations de produits
+de polyn\^{o}mes.} J. Number Theory. No. 21 (1985) pp. 390-412.
+
+\bibitem{3} Evans, R. and Greene, J. {\em Polynomials with positive
+coefficients whose zeros have modulus one.} preprint.
+
+\bibitem{6} Evans, R. and Montgomery, P.  {\em Elementary Problem
+Proposal for American Mathematical Monthly}.  Amer. Math. Mon. to appear.
+
+\bibitem{4} Polya, G. and Szego, G. {\em Problems and theorems in
+analysis II.} Springer-Verlag, 1976.
+
+\bibitem{5} Rigler, A.K., Trimble, S.Y., and Varga, R.S. {\em Sharp
+lower bounds for a generalized Jensen inequality.}  preprint.
+
+
+\end{thebibliography}
+
+\end{document}
+
+
+

@@ -1,0 +1,657 @@
+\documentstyle[12pt,newsymb,tabular]{article}
+\newtheorem{conjecture}{Conjecture}%[section]
+\newtheorem{example}{Example}%[section]
+\newtheorem{corollary}{Corollary}%[section]
+\newtheorem{lemma}{Lemma}%[section]
+\newtheorem{theorem}{Theorem}%[section]
+\newtheorem{proposition}{Proposition}%[section]
+\newtheorem{definition}{Definition}%[section]
+\newtheorem{notations}{Notations}%[section]
+\newtheorem{assumption}{Assumption}%[section]
+\newtheorem{remark}{Remark}%[section]
+\newtheorem{problem}{Problem}%[section]
+
+\begin{document}
+
+
+
+
+\title{Sharp bounds on the $H_p$ means of the derivative of a convex
+function for $p=-1$.}
+\author{Roger W.\ Barnard\\ and\\  Kent Pearce\\
+Texas Tech University\\[2ex]
+Dedicated to the memory of our friend Glenn Schober.}
+
+\date{}
+\maketitle
+
+\section{Introduction}
+
+For $d>0$ let $D_d=\{z:|z|<d\}$ with $D_1=D$ and let $\partial D_d$
+denote the boundary of $D_d$.  Let $S$ be the standard class of
+analytic, univalent functions $f$ on $D$, normalized by $f(0)=0$ and
+$f'(0)=1$.  Let $K$ denote the well known class of convex functions
+in $S$ and let 
+\begin{equation}
+\label{eq:1}
+K_d=\{f\in K: \min_{z\in D} \left|\frac{f(z)}{z}\right|=d\}.
+\end{equation}
+
+We will frequently (verbally) identify an analytic, univalent
+function $f$ on $D$ with normalization
+\renewcommand{\theequation}{\fnsymbol{equation}}
+\setcounter{equation}{0}
+\begin{equation}
+\label{eq:*}
+f(0)=0\ {\rm and}\ f'(0)>0
+\end{equation}
+\renewcommand{\theequation}{\arabic{equation}}
+\setcounter{equation}{1}
+
+\noindent with its range $f(D)$ and conversely, since the Riemann mapping
+theorem guarantees that we can do so without ambiguity.
+Specifically, we will refer to convex domains which contain the
+origin and mean the convex functions $f$ which map onto those domains
+and satisfy (\ref{eq:*}).
+
+A problem which arose out the authors' work in the early 80's on
+omitted value problems for univalent functions, see \cite{2} and
+\cite{4}, is the following:  Given $d, \frac{1}{2}, \leq d\leq 1$,
+determine a sharp constant $A=A(d)$ such that for any $f\in K_d$
+\begin{equation}
+\label{eq:2}
+I_{-1}(f') =\frac{1}{2\pi} \int\limits^{2\pi}_{0}
+\left|\frac{1}{f'(e^{i\theta})}\right| d\theta \leq \frac{A}{d}.
+\end{equation}
+It follows fairly easily from subordination theory that $A\leq
+4/\pi$, but this is not sharp for convex functions.  For $0\leq
+\alpha < 1$ let $S^\ast(\alpha)$ denote the usual subclass of $S$ of
+starlike functions of order $\alpha$, i.e., a function $f\in S^\ast
+(\alpha)$ if and only if $f$ satisfies Re $zf'(z)/f(z)>\alpha$ on
+$D$, see \cite{9}.  We will show that $4/\pi$ is sharp for the class
+$S^\ast (\frac{1}{2})$ which strictly contains $K$.  In Theorem 3 we
+determine for each $\alpha, 0\leq \alpha <1, A=A(\alpha)$ in
+(\ref{eq:2}) for the class $S^\ast (\alpha)$ and show that it is
+sharp.
+
+Considerable numerical evidence suggested to the authors to make the
+following conjecture:
+
+\begin{conjecture}
+For each $d, \frac{1}{2} \leq d\leq 1,
+A=A(d)=1$ in {\rm (\ref{eq:2})} for the class $K_d$ with equality holding
+for all domains which are bounded by regular polygons centered at the
+origin.
+\end{conjecture}
+
+This conjecture was announced at several talks and conferences over
+the last decade including the first author's talk on ``Open problems
+in complex analysis'' given at the Symposium on the Occasion of the
+Proof of the Bieberbach Conjecture at Purdue University in March
+1985.  It also appeared as Conjecture 8 in the first author's ``Open
+Problems and Conjectures in Complex Analysis'' in \cite{2}.  It was
+thought, by many function theorists, that the conjecture would be
+easily settled, given the vast literature on convex functions and the
+large research base for determining integral mean estimates, see
+\cite{6}.
+
+An initial difficulty was the non-applicability of Baernstein's
+general circular symmetrization methods.  The non-convexity of the
+circularly symmetrized square shows that convexity, unlike univalence
+and starlikeness, is not preserved under circular symmetrization.
+Although Steiner symmetrization does preserve convexity, see \cite{10},
+it did not appear to be helpful for the problem and, indeed, we will
+show that an extremal domain need posses no standard symmetry.
+
+A confusing issue, which also arises, is that the integral means
+$I_{-1}(f'_n)$ for the standard approximating functions $f_n$ in $K$,
+which map $D$ onto $n$-sided convex polygons and which are defined by
+$f'_n (z)=\prod^n_{k=1} (1-ze^{i\theta_k})^{-2\alpha_k}$, $0<\alpha
+\leq 1, \sum^n_{k=1}\alpha_k=1$, decrease, as was recently shown in
+\cite{1}, when the arbitrarily distributed $\theta_k$ are replaced by
+uniformly distributed $t_k=k\pi/n$.  The regular polygons, produced by
+the uniformly distributed $t_k$, are the conjectured extremal domains.
+ The conjecture suggests that multiplication by the minimum modulus
+$d$ must overcome this decrease.
+
+We shall verify the conjecture in Theorem 1.  We also obtain, arising
+out of the proof, a rather unexpected sufficient condition for
+equality to occur in (\ref{eq:2}) for the classes $K_d$.
+Additionally, modifying the proof of Theorem 1, we obtain in Theorem
+\ref{th:1*} and its corollary sharp upper and lower bounds for the
+integrals means $I_{-1} (f')$.
+
+\section{Statements of the Main Theorems}
+
+Let $K_d$ be defined as in (\ref{eq:1}).  We will say that a convex
+curve $\Gamma$ {\em circumscribes} a circle $C$ if the left- and right-hand
+tangents at each point of $\Gamma$ are tangent to $C$.
+
+\begin{theorem}\label{th:1}
+ Let $d$ be given, $\frac{1}{2}\leq d\leq 1$, and let
+$f\in K_d$.  Then
+\begin{equation}
+\label{eq:3}
+\frac{1}{2\pi} \int\limits^{2\pi}_{0}
+\left|\frac{1}{f'(e^{i\theta})}\right|d\theta\leq \frac{1}{d}
+\end{equation}
+with equality holding in {\rm (\ref{eq:3})} if the boundary of $f(D)$
+circumscribes $\partial D_d$.
+\end{theorem}
+
+Using Theorem 1 and earlier work of the first author we also prove
+the following result, which gives a bound for the convex case
+of Brennan's conjecture \cite{5} for arbitrary univalent functions.
+Let $d$ be given, $\frac{1}{2} \leq d\leq 1$, and let $F_d$ be the
+uniquely defined function in $K_d$ which maps $D$ onto the convex
+domain having as its boundary an arc, $C_d$, on $\partial D_d$ which
+is symmetric about the positive real axis and also
+has as its boundary two lines, tangent to $\partial D_d$ at the
+endpoints of $C_d$.  Note that $F_1(z)=z$ and
+$F_{\frac{1}{2}}(z)=z/(1+z)$.  Note, also, the $\partial F_d(D)$
+circumscribes $\partial D_d$.
+
+
+\begin{theorem}\label{th:2}
+Let $d$ be given, $\frac{1}{2}\leq d\leq 1$, and let $f\in K_d$.
+Then
+\begin{equation}
+\label{eq:4}
+\displaystyle{\int\hspace{-6pt}\int\hspace{-18pt}\lower
+15pt\hbox{$\scriptstyle D$}\hspace{12pt}} |f'(z)|^{-1}dxdy \leq 2\pi\int^1_0
+\frac{r^2dr}{F_d(r)}.
+\end{equation}
+\end{theorem}
+
+Finally, we shall prove
+
+\begin{theorem}\label{th:3}
+Let $\alpha$ be given, $0\leq \alpha <1$.  If $f\in S^\ast (\alpha)$
+and $\displaystyle{\min_{z\in D} |f(z)/z|=d}$, then
+\begin{equation}
+\label{eq;5}
+\frac{1}{2\pi} \int\limits^{2\pi}_0 \left|\frac{1}{f'
+(e^{i\theta})}\right| d\theta \leq \frac{A(\alpha)}{d}
+\end{equation}
+where
+\begin{equation}
+\label{eq:6}
+A(\alpha)=\frac{4}{\pi} \frac{\arctan
+\sqrt{2\alpha-1}}{\sqrt{2\alpha-1}}
+\end{equation}
+and $A(\alpha)$ is sharp for the class $S^\ast(\alpha)$.
+\end{theorem}
+
+\section{Proofs of Main Theorems}
+
+{\bf Proof of Theorem 1.}
+\vspace{12pt}
+
+Let $d$ be given, $\frac{1}{2} \leq d \leq 1$, and let $f\in K_d$.
+The major idea in proving Theorem 1 is to produce, using the
+convexity of the domain $\Omega =f(D)$, two varied domains
+$\Omega^\ast$ and $\Omega^{\ast\ast}$ which will satisfy the
+inequality
+\begin{equation}
+\label{eq:7}
+\Omega^\ast \subseteq \Omega^{\ast\ast}.
+\end{equation}
+
+For any simply connected domain $\Lambda$ which contains the origin
+let $\mbox{m.r.}(\Lambda)$ denote the mapping radius of $\Lambda$.  Recall
+that if $\Lambda = g(D)$, where $g$ is analytic and univalent on $D$
+and $g$ satisfies the normalization (\ref{eq:*}), then
+$\mbox{m.r.}(\Lambda)=g'(0)$. Let $\Lambda^+$ be a varied domain of
+$\Lambda$ which contains $\Lambda$.  Denote the change in the mapping
+radius from the domain $\Lambda$ to $\Lambda^+$ by $\Delta\mbox{m.r.}
+(\Lambda^+, \Lambda)$.
+
+The domain containment in (\ref{eq:7}) and subordination will imply
+that 
+\begin{equation}
+\label{eq:8}
+\Delta\mbox{m.r.}(\Omega^\ast, \Omega)\leq
+\Delta\mbox{m.r.}(\Omega^{\ast\ast}, \Omega)
+\end{equation}
+from which the conclusion of Theorem \ref{th:1} will be obtained.
+
+The varied domain $\Omega^{\ast\ast}$ is constructed as follows: Let
+$\epsilon>0$ be given sufficiently small.  Define
+$f^{\ast\ast}_\epsilon$ by $f^{\ast\ast}_\epsilon(z)=(1+\epsilon)
+f(z)$ and set $\Omega^{\ast\ast}=f^{\ast\ast}_\epsilon (D)$.  This
+has the effect of radially projecting each point $\omega\in \partial
+f(D)$ to the point $\omega^{\ast\ast}=(1+\epsilon)\omega$.  This gives
+that 
+\begin{equation}
+\label{eq:9}
+[f^{\ast\ast}_\epsilon(z)]'|_{z=0} =\mbox{m.r.} (\Omega^{\ast\ast})
+=1+\epsilon\ \ \lower 15pt\hbox{.}
+\end{equation}
+$$\Delta\mbox{m.r.} (\Omega^{\ast\ast}, \Omega)=\epsilon$$
+
+To construct $\Omega^\ast$ we project each point $\omega\in
+\partial\Omega$ outward in the direction of the normal, where it
+exists, a distance $\epsilon d$.  Let the extension of $f$ to $\partial D$
+also be denoted by $f$.  It is well known that this extension maps
+$\partial D$ onto a Jordan curve (on the Riemann sphere if $f$ is
+unbounded), $\Gamma=f(\partial D)$, having one-sided tangents
+everywhere with the set of points having different one-sided tangents
+being at most countable, see \cite{8}.
+
+We define the curve $\Gamma^\ast$, which will be the boundary of
+$\Omega^\ast$, as follows: At each point where it exists, let
+$n(\omega)$ be the unit outward normal to $\Gamma$ at
+$\omega=f(e^{i\theta})$.  Since
+$n(\omega)=n[f(e^{i\theta})]=e^{i\theta}f'(e^{i\theta}) /|f'(e^{i\theta})|$,
+we will also define at each finite point where the left- and
+right-hand tangents differ two limiting normal vectors as
+$n^1[f(e^{i\theta})]=n[f(e^{i(\theta-0)})]$ and
+$n^2[f(e^{i\theta})]=n[f(e^{i(\theta+0)})]$. We associate with each
+point $\omega\in \Gamma$ the point $\omega^\ast =\omega+\epsilon
+d[n(\omega)]$ or, where appropriate, the limiting points
+$\omega^{\ast j}=\omega + \epsilon d [n^j (\omega)], j=1$ and 2.  To
+complete $\Gamma^\ast$ we extend the tangent line to $\Gamma^\ast$ at
+each $\omega^{\ast j}$.  Each such tangent line to $\Gamma^\ast$ at
+$\omega^{\ast j}$ is parallel to a one-sided tangent line to $\Gamma$
+at $\omega$, so that the resulting curve $\Gamma^\ast$ bounds a
+convex domain $\Omega^\ast$.  We let $f^\ast_\epsilon$ be the
+function which maps $D$ onto $\Omega^\ast $ normalized by
+(\ref{eq:*}).
+
+To determine the change in the mapping radius from $\Omega$ to
+$\Omega^\ast$ we apply the Hadamard variational formula as developed
+in \cite{3} and earlier in \cite{11}.  If $\Gamma$ is bounded, then we
+can apply the Hadamard variational formula, cast in the form of the
+Julia variation, to obtain
+\begin{equation}
+\label{eq:10}
+\Delta \mbox{m.r.} (\Omega^\ast,\Omega) =\frac{1}{2\pi}
+\int\limits^{2\pi}_0 \frac{\epsilon d}{|f'(e^{i\theta})|} d\theta
++o(\epsilon).
+\end{equation}
+
+However, if $\Gamma$ is unbounded, we need to show that we can obtain
+(\ref{eq:10}) as a limiting argument.  First, we define the varied
+domain $\Omega^\ast_0$ by identifying its boundary $\Gamma^\ast_0$.
+As in the definition of $\Gamma^\ast$, we associate with each point
+$\omega\in\Gamma$ the point $\omega^\ast=\omega+ \epsilon
+d[n(\omega)]$ or, where appropriate, the limiting points
+$\omega^{\ast j} =\omega + \epsilon d [n^j (\omega)], j=1$ and 2.  To
+complete $\Gamma^\ast_0$ we connect $\omega^\ast_1$ to
+$\omega^\ast_2$ by the positively oriented circular arc of radius
+$\epsilon$ and center $\omega$.  We identify $\Omega^\ast_0$ as the
+interior of $\Gamma^\ast_0$ and note that we have $\Omega\subsetneq
+\Omega^\ast_0 \subsetneq \Omega^\ast$. 
+
+Let $0<r <1$ and define $f_r$ by $f_r(z)=f((1-r)z)$.  Then, for each
+$r$ we have $f_r(D)$ is bounded.  Since $f_r$ is analytic on $\partial
+D$, there is for each $\omega_r=f_r(e^{i\theta})\in f_r(\partial D)
+=\Gamma_r$ a well-defined outward normal, say, $n(\omega_r)$.  Let
+$\omega^\ast_r=\omega_r +\epsilon d [n(\omega_r)]$.  Let
+$\Omega^\ast_r$ denote the interior of the curve
+$\Gamma^\ast_r=\cup_{\omega_r\epsilon \Gamma_r} \omega^\ast_r$.
+Since $\Gamma_r$ is bounded, we can apply the Julia variation to
+obtain
+$$\Delta \mbox{m.r.} (\Omega^\ast_r, \Omega_r) =\frac{1}{2\pi}
+\int\limits^{2\pi}_0 \frac{\epsilon d}{|f'_r (e^{i\theta})|}
+d\theta+o(\epsilon).$$
+As $r\rightarrow 0, \Omega_r\rightarrow \Omega$ and $\Omega^\ast_r
+\rightarrow \Omega^\ast_0$ in the sense of kernel convergence.
+Furthermore, $\displaystyle{\frac{1}{|f'_r(e^{i\theta})|} \rightarrow
+\frac{1}{|f'(e^{i\theta})|}}$ as $r\rightarrow 0$ except on a
+countable set, so we have from the dominated convergence theorem that
+$$\lim_{r\rightarrow 0} \int\limits^{2\pi}_0 \frac{1}{|f'_r
+(e^{i\theta})|} =\int\limits^{2\pi}_0 \frac{1}{|f'(e^{i\theta})|}
+d\theta.$$
+It follows then that 
+\begin{equation}
+\label{eq:11}
+\Delta\mbox{m.r.} (\Omega^\ast_0, \Omega) =\frac{1}{2\pi}
+\int\limits^{2\pi}_0 \frac{\epsilon d}{|f'(e^{i\theta})|} d\theta
++o(\epsilon).
+\end{equation}
+It follows from results of the first author in \cite{3} that
+$\Delta\mbox{m.r.} (\Omega^\ast, \Omega^\ast_0)=o(\epsilon)$; hence
+using (\ref{eq:11}) we have that (\ref{eq:10}) also holds in the case
+that $\Gamma$ is unbounded.
+
+To show that (\ref{eq:7}) holds, we will show that for each $\theta
+\in [0, 2\pi)$ the radial extension $\omega^{\ast\ast}=(1+\epsilon)
+f(e^{i\theta})$ of $\omega =f(e^{i\theta})$ is at least as far from
+the origin as the point $\omega_\ast$, the point of intersection of
+$\Gamma^\ast =\partial \Omega^\ast$ and the ray $R_t=t\omega: t\geq
+1\}$.  See Figure 1.
+\vspace*{6in}
+
+\centerline{Figure 1}
+\vspace{24pt}
+
+\noindent Let $T_j, j=1$ and 2, denote the left- and
+right-hand tangent lines to $\Gamma$ at $\omega$, possibly the same
+line, say $T_1$.  Let $z_j$ be the projection of the origin onto
+$T_j, l_j$ the line segment joining the origin to $z_j$, and $d_j$
+the length of $l_j$.  Let $\theta_j$ be the acute angle between the
+ray $R_t$ and the outward normal $n^j(\omega)$ to $\Gamma$ at
+$\omega$.  Note that the acute angle between $R_t$ and $l_j$ at the
+origin is also equal to $\theta_j$.  Let $t_j$ be the line parallel
+to $T_j$ which passes through $\omega^{\ast j} \in \Gamma^\ast$ and
+let $x_j$ be the intersection of $t_j$ with $R_t$.  From 
+convexity we have
+$$|\omega -\omega_\ast| \leq \min_j |\omega-x_j|.$$
+We note that when there is a corner at $\omega$, i.e., when $x_1\neq
+x_2$, or when $\Gamma$ continues along the tangent line through
+$\omega$, then $|\omega-\omega_\ast|=\min_j|\omega-x_j|$, while if
+$\Gamma$ does not continue along the tangent line through $\omega$,
+then $|\omega-\omega_\ast|<|\omega -x_1|$.
+
+From the similarity of the triangles $[\omega, \omega^{\ast j}, x_j]$
+and $[0,z_j,\omega]$ we have
+\begin{equation}
+\label{eq:12}
+\frac{\epsilon d}{|\omega-\omega_\ast|} \geq \max_j \frac{\epsilon
+d}{|\omega-x_j|} =\max_j \cos \theta_j =\max_j \frac{d_j}{|\omega|}
+\geq \min_j \frac{d_j}{|\omega|} \geq \frac{d}{|\omega|} 
+\end{equation}
+which gives
+\begin{equation}
+\label{eq:13}
+\frac{\epsilon d}{|\omega-\omega_\ast|} \geq \frac{d}{|\omega|}.
+\end{equation}
+Thus, $\epsilon|\omega|\geq |\omega-\omega_\ast|$.  Since this is
+true for all $\omega=f(e^{i\theta}), \theta \in [0, 2\pi)$, we have
+that (\ref{eq:7}) holds.  Combining (\ref{eq:8}), (\ref{eq:9}) and
+(\ref{eq:10}) yields
+\begin{equation}
+\label{eq:14}
+\epsilon \geq \frac{\epsilon d}{2\pi} \int\limits^{2\pi}_0
+\frac{1}{|f'(e^{i\theta})|} d\theta +o(\epsilon).
+\end{equation}
+Dividing (\ref{eq:14}) by $\epsilon d$ and letting $\epsilon
+\rightarrow 0$ yields the conclusion of the theorem.
+
+We observe that if $\Gamma$ circumscribes $\partial D_d$, then for
+each $\omega \in \Gamma$ we have $d=d_1 =d_2, \theta_1=\theta_2$ and
+$|\omega-\omega_\ast|=|\omega-x_1|=|\omega-x_2|$, so that equality holds in
+(\ref{eq:12}) and (\ref{eq:13}).  In fact, if $\Gamma$ circumscribes
+$\partial D_d$, then $\Gamma^\ast=\Gamma^{\ast\ast}$ and $\Omega^\ast
+=\Omega^{\ast\ast}$, so that equality holds in (\ref{eq:14}). \hfill
+$\blacksquare$
+\vspace{12pt}
+
+\noindent {\bf Proof of Theorem 2.}
+\vspace{12pt}
+
+Let $F_d$ be the particular convex function, described in the
+introduction, which circumscribes $\partial D_d$ and whose boundary
+consists of an arc $C_d$ of $\partial D_d$ symmetric about the
+positive reals and two lines tangent to $\partial D_d$ at the
+endpoints of $C_d$.  Applying Theorem \ref{th:1} in \cite{3}, with
+$\alpha =1$, to convex functions $f$ which contain the disk $D_d$
+gives the subordination 
+\begin{equation}
+\label{eq:15}
+\log \frac{f(z)}{z} \prec \log \frac{F_d(z)}{z},
+\end{equation}
+where the subordination in (\ref{eq:15}) means there exists an
+analytic function $w$ on $D$ with $|w(z)|\leq |z|$ such that 
+$$ \log \frac{f(z)}{z} =\log \frac{F_d (w(z))}{w(z)}.$$
+For $d_r=\displaystyle{\min_\theta} |f(r(e^{i\theta}))/r|$ this gives
+\begin{equation}
+\label{eq:16}
+\log d_r \geq \log \left| \frac{F_d(r)}{r}\right|.
+\end{equation}
+Since, for each $d, \frac{1}{2} \leq d \leq 1, F_d$ is circular
+symmetric about the positive reals, it takes is minimum modulus on
+$|z|=r$ at $z=r$, $ 0\leq r\leq 1$.  Thus, applying Theorem
+\ref{th:1} to $f(rz)/r$, using (\ref{eq:16}) and integrating gives
+\begin{equation}
+\label{eq:17}
+\frac{1}{2\pi} \int\limits^{2\pi}_0 \int\limits^1_0 \frac{r\ dr\
+d\theta}{|f' (re^{i\theta})|} \leq \int\limits^1_0 \frac{r\ dr}{d_r}
+\leq \int\limits^1_0 \frac{r^2dr}{F_d(r)}.
+\end{equation}
+From 
+(\ref{eq:17}) Theorem \ref{th:2} follows. \hfill $\blacksquare$
+\vspace{12pt}
+
+The functions $F_d$ have been shown to be extremal solutions for
+growth and subordination problems for the classes $K_d$, which were
+studied by Bogucki and Waniurski \cite{bog} and by Barnard and Lewis [2],
+respectively.  Also, in a paper related to the authors' earlier work
+[1] and [3], Waniurski \cite{wan} has conjectured that the functions $F_d$ are
+extremal solutions for an omitted values problem for the classes $K_d$.
+Although an explicit closed form for $F_d$ is not known, and appears
+to be difficult to obtain,  the recently
+developed conformal mapping package CONFPACK \cite{7} can be used to
+numerically approximate $F_d$ and, subsequently, the integral in the
+right-hand side of (\ref{eq:17}).  We include a table of values.
+
+\newpage
+
+\begin{center}
+Table 1\\[2ex]
+\begin{tabular}{ccc}
+$d$ & $\beta$ & Integral\\
+\hline
+\\
+0.500 & -0.50000 & 0.8333$\bar{3}$ \\
+0.525 & -0.47473 & 0.80669 \\
+0.550 & -0.44895 & 0.78113\\
+0.575 & -0.42268 & 0.75692 \\
+0.600 & -0.39589 & 0.73411\\
+0.625 & -0.36855 & 0.71263\\
+0.650 & -0.34059 & 0.69241\\
+0.675 & -0.31192 & 0.67336\\
+0.700 & -0.28243 & 0.65540\\
+0.725 & -0.25200 & 0.63845\\
+0.750 & -0.22046 & 0.62242\\
+0.775 & -0.18757 & 0.60724\\
+0.800 & -0.15308 & 0.59286\\
+0.825 & -0.11658 & 0.57921\\
+0.850 & -0.07757 & 0.56796\\
+0.875 & & \\
+0.900 & & \\
+0.925 & 0.06499 & \\
+0.950 & 0.12922 & 0.52013\\
+0.975 & 0.21574 & 0.50985\\
+1.000 & 0.50000 & 0.50000
+\end{tabular}
+\end{center}
+
+
+For $\partial F_d(D)$, let $\omega_d$ denote the endpoint of $C_d$ in
+the upper half-plane.  The variable $\beta, -\frac{1}{2} \leq \beta
+\leq \frac{1}{2}$, in Table 1 parameterizes the family of functions
+$F_d, d=d(\beta)$.  If $\beta$ is positive, then the domain
+$F_d(D)$ is bounded; otherwise $F_d(D)$ is unbounded.  The argument
+of $\omega_d$ is $\pi/2+\beta \pi$.  Also, if $\beta$ is positive,
+ then $2\beta\pi$ is
+the interior angle for $F_d(D)$ at the finite intersection point of
+the lines which bound $F_d(D)$, tangent to $\partial D_d$ at the
+endpoints of $C_d$; otherwise $2\beta\pi$ is the interior angle for
+$F_d(D)$ at the point of infinity.
+
+The conformal mapping package CONFPACK restricts its applications to
+bounded domains.  For $\beta >0$, the domains $F_{d(\beta)}(D)$
+were computed directly.  For $\beta<0$ the domains
+$F_{d(\beta)}(D)$ were computed by applying a bilinear
+transformation to $F_{d(-\beta)}$.  At $\beta=0$ the domain
+$F_{d(0)}(D), d(0)\approx 0.8941$, is unbounded and its boundary is
+composed of an arc $C_{d(0)}$ of the circle $\partial D_{d(0)}$ and two
+lines, parallel to the negative real axis and tangent to the circle
+$\partial D_{d(0)}$ at the points of $C_{d(0)}, \ \pm id(0)$. 
+The gap in Table 1 occurs because for $\beta$ near $0$ the elongation
+of $F_{d(\beta)}(D)$ causes crowding on $\partial D$ of the
+pre-images of endpoints of the boundary segments defining
+$F_{d(\beta)}(D)$, which causes CONFPACK to fail to converge.  
+\vspace{12pt}
+
+\noindent{\bf Proof of Theorem 3}
+\vspace{12pt}
+
+It is well known \cite{9} that $f\in S^\ast (\alpha)$ if and only if
+\begin{equation}
+\label{eq:18}
+\frac{zf'(z)}{f(z)} \prec \frac{1+(1-2\alpha)z}{1-z} .
+\end{equation}
+Thus, applying Littlewood's subordination theorem \cite{6}, we have
+for $z=e^{i\theta}$
+\begin{eqnarray*}
+\frac{1}{2\pi} \int\limits^{2\pi}_0 \frac{1}{|f'(z)|} d\theta
+&=&\frac{1}{2\pi} \int\limits_{|z|=1} \left|\frac{f(z)}{zf'(z)} \cdot
+\frac{z}{f(z)} \right| |dz| \leq \frac{1}{d} \frac{1}{2\pi}
+\int\limits^{2\pi}_0 \left| \frac{f(z)}{zf'(z)}\right| d\theta\\[2ex]
+&\leq& \frac{1}{d} \frac{1}{2\pi} \int\limits^{2\pi}_0 \left|
+\frac{1-z}{1+(1-2\alpha)z} \right| d\theta =\frac{1}{d} \frac{4}{\pi}
+\frac{\arctan \sqrt{2\alpha-1}}{\sqrt{2\alpha-1}}
+=\frac{A(\alpha)}{d}.
+\end{eqnarray*}
+Sharpness follows by using $f_n(z)=z(1-z^n)^{\frac{2(\alpha-1)}{n}}$
+and observing that for $d_n=\displaystyle{\min_\theta} |f_n (e^{i\theta})|
+=2^{\frac{2(\alpha-1)}{n}}$ we have
+$$\lim_{n\rightarrow \infty} \frac{d_n}{2\pi} \int\limits^{2\pi}_0
+\left| \frac{1}{f'_n(e^{i\theta})} \right| d\theta =A(\alpha)$$
+as claimed.  We note $A(\frac{1}{2}) =4/\pi$.\hfill $\blacksquare$
+
+\section{Note to Theorem 1}
+
+Alternately stated, Theorem \ref{th:1} gives an upper bound for the
+integral mean $I_{-1}(f')$ for $f\in K$ in terms of the minimum
+distance to the envelope of tangent lines to the boundary of $f(D)$.
+An analogous theorem can be proved which gives a lower bound for the
+integral mean $I_{-1}(f')$ for $f\in K$ in terms of the maximum
+distance to the envelope of tangent lines to the boundary of $f(D)$.
+More precisely, in the notation of the proof of Theorem \ref{th:1},
+for each $\omega \in \Gamma$, let $T_j, j=1$ and 2, denote the left-
+and right-hand tangent lines to $\Gamma$ at $\omega$, possibly the
+same line $T_1$.  Let $z_j$ be the projection of the origin on $T_j,
+l_j$ the line segment joining the origin to $z_j$, and $d_j$ the
+length of $l_j$.  Let $d^\ast
+=d^\ast(f)=\displaystyle{\sup_{\omega\in \Gamma} d_j}$.  
+
+We have
+
+
+\setcounter{section}{1}
+
+
+\renewcommand{\thetheorem}{{\arabic{section}}{\fnsymbol{theorem}}}
+\setcounter{theorem}{0}
+
+\begin{theorem}\label{th:1*}
+Let $f\in K$.  Then
+\begin{equation}
+\label{eq:19}
+\frac{1}{d^\ast} \leq \frac{1}{2\pi} \int\limits^{2\pi}_0 \left|
+\frac{1}{f'(e^{i\theta})} \right| d\theta
+\end{equation}
+with equality holding in {\rm (\ref{eq:19})} if the boundary of $f(D)$
+circumscribes $\partial D_{d^\ast}$. 
+\end{theorem}
+
+\noindent Proof.
+
+The major step in the proof is to show, using the convexity of the
+domain $\Omega=f(D)$, there exist two varied domains
+$\Omega^{\ast\ast}$ and $\Omega^{\ast\ast\ast}$  which satisfy the
+inequality
+\begin{equation}
+\label{eq:20}
+\Omega^{\ast\ast} \subseteq \Omega^{\ast\ast\ast}.
+\end{equation}
+The domain $\Omega^{\ast\ast}$ is constructed exactly the same as in
+Theorem \ref{th:1}, i.e., it is the $(1+\epsilon)$ radial expansion
+of $\Omega$.  The domain $\Omega^{\ast\ast\ast}$ is constructed as an
+outward normal expansion of $\Omega$, just as $\Omega^\ast$ was, only
+we take the constant normal distance to be $\epsilon d^\ast$ instead
+of $\epsilon d$.  An analogous argument can be given to show that an
+inequality similar to (\ref{eq:12}) holds, only the inequality senses
+are all reversed.  In this case, the first inequality in the analog
+of (\ref{eq:12}) is more delicate, but it can be verified by
+considering a sequence of convex polygonal domains which converge to
+$\Omega$ and verifying the inequality for the polygonal domains.
+Then, (\ref{eq:20}) holds and a comparison of the mapping radii of
+$\Omega^{\ast\ast}$ and $\Omega^{\ast\ast\ast}$ yields 
+$$\epsilon \leq \frac{\epsilon d^\ast}{2\pi} \int\limits^{2\pi}_0
+\frac{1}{|f' (e^{i\theta})|} d\theta+o (\epsilon)$$
+from which Theorem \ref{th:1*} follows. \hfill $\blacksquare$
+
+If we let $d_\ast=d_\ast(f)=\displaystyle{\min_{\omega \in \Gamma}}\ 
+d_j$,  then combining both (\ref{eq:3}) and (\ref{eq:19}) we have 
+\vspace{12pt}
+
+{\bf Corollary}. {\em  Let $f\in K$.  Then, 
+\begin{equation}
+\label{eq:21}
+\frac{1}{d^\ast} \leq \frac{1}{2\pi} \int\limits^{2\pi}_0 \left|
+\frac{1}{f' (e^{i\theta})} \right| d\theta \leq \frac{1}{d_\ast}.
+\end{equation}
+Equality holds across {\rm (\ref{eq:21})} if for some $d, \frac{1}{2} \leq
+d\leq 1, \partial f(D)$ circumscribes $\partial D_d$.}
+\vspace{12pt}
+
+{\bf Remark}.  For $f\in K$ let $L=$ length $\partial f(D)$ and let $F$ denote
+the inverse of $f$.  The isoperimetric inequaltiy states
+$$\frac{2\pi d_\ast}{L} \leq 1.$$
+Schwarz's inequality, applied to the integral means in (21) --
+rewritten in terms of $F$, yields
+\begin{equation}
+\label{eq:22}
+\frac{2\pi}{L}\leq \frac{1}{2\pi} \int^{2\pi}_0
+\left|\frac{1}{f'(e^{i\theta})} \right|d\theta.
+\end{equation}
+Thus, (21) combined with (\ref{eq:22}) gives an intermediate term to
+the isoperimetric inequality.
+
+
+\begin{thebibliography}{99}
+
+
+
+\bibitem{2} Barnard, R.W.\ ``Open problems and conjectures in complex
+analysis'', in {\em Computational Methods and Function Theory},  Lecture
+Notes in Math.\ No.\ 1435 (Springer-Verlag, 1990), 1-26.
+
+\bibitem{3} Barnard, R.W.\ and Lewis, J.L.\ ``Subordination theorems
+for some classes of starlike functions,'' {\em Pacific J.\
+Math.}, 56 (1975), 333-366.
+
+\bibitem{4} Barnard, R.W., and Pearce, K.\ ``Rounding corners of
+gearlike domains and the omitted area problem'', {\em J.\ Comput.\ Appl.\
+Math}. 14 (1986), 217-226.
+
+\bibitem{bog} Bogucki, Z., and Waniurski, J. ``On univalent functions
+whose values cover a fixed disk,'' {\em Ann.\ Univ.\ Mariae
+Curie-Sklodowska}, Sect.\ A 22 (1968), 39-43.
+
+\bibitem{5} Brennan, J.E. ``The integrability of the derivative in
+conformal mapping,'' {\em J.\ London Math.\ Soc.} (2) 18 (1978), 
+261-272.
+
+\bibitem{6} Duren, P.\ {\em Univalent Functions},  Springer-Verlag,
+New York, 1980.
+
+\bibitem{7} Hough, D.M. ``User's guide to CONFPACK,'' IPS, Research
+Report, No.\ 90-11; ETH-Zentrum, Zurich, Switzerland, 1990.
+
+\bibitem{8} Krzyz, J.\ Distortion theorems for bounded convex
+functions, II.  {\em Ann.\ Univ.\ Mariae Curie-Sklodowska}, Sect.\ A 14
+(1960), 7-18.
+
+\bibitem{9} Robertson, M.S.\ ``On the theory of univalent functions'',
+{\em Ann.\ of Math.} 37 (1936), 374-408.
+
+\bibitem{10} Valentine, F.A. {\em Convex Sets}, McGraw-Hill, New York, 1964.
+
+\bibitem{wan} Waniurski, J. ``On values omitted by convex univalent
+mappings'', {\em Complex Variables} 8 (1973), 173-180.
+
+\bibitem{11}  Warschawski, S.E. ``On Hadamard's variation formula for
+Green's function'' {\em J.\ Math.\ Mech.}\ 9 (1960), 497-512.
+
+\bibitem{1} Zheng, J.\ ``Some extremal problems
+involving $n$ points on the unit circle'', Dissertation, 
+Washington University (St.\ Louis), 1991.
+
+\end{thebibliography}
+\end{document}

@@ -1,0 +1,903 @@
+\documentclass[final]{siamltex}
+\usepackage{graphicx,amsmath,amssymb,latexsym}
+
+\title{A Survey of Applications of the Julia Variation}
+
+\author{Roger W. Barnard, Kent Pearce \thanks{Department of 
+Mathematics and Statistics,  Texas Tech University, 
+Lubbock, Texas  79409 
+({\tt barnard@math.ttu.edu, pearce@math.ttu.edu}) }
+\and Carolynn Campbell\thanks {Department of 
+Mathematics, Austin Community College, 
+Austin, Texas  }}
+
+\begin{document}
+
+\maketitle
+\begin{abstract}
+
+ \noindent This is an introductory survey on applications of the Julia variation to problems in geometric 
+function theory. A short exposition is given which develops a method for treating extremal problems
+over classes $F$ of analytic functions on the unit disk $D$ for which appropriate subsets $F_n$ can be 
+constructed so that (i) $F = \overline{\bigcup_n F_n}$ and 
+(ii) for each $f \in F_n$ a geometric constraint will hold that $\partial f(D)$ will have at most $n$ ``sides".
+Applications of this method which have been made to problems in the literature are reviewed, e.g., Netanyahu's 
+problems about the distortion theorems for starlike and convex functions constrained to contain a fixed disk; 
+Goodman's problems about omitted values for classes of univalent functions; integral means estimates 
+for derivatives of convex functions; maximization problems for functionals on linear fractional transforms 
+of convex and starlike functions.
+\end{abstract}
+
+
+\begin{keywords} 
+Julia variation, variational methods, geometric function theory 
+\end{keywords}
+
+\begin{AMS}
+30C
+\end{AMS}
+
+\pagestyle{myheadings}
+\thispagestyle{plain}
+\markboth{R.W. Barnard, C. Campbell, K. Pearce}{A Survey of Applications of the Julia Variation}
+
+
+
+
+This is a survey paper on the applications of a variational method introduced by J. Krzyz in \cite{Krzyz1}.
+It is based on Julia's modification of Hadamard's variation of the Green's function.  In the early
+1900's, in order to investigate the behavior of Green's function for slight deformations on the boundary 
+of its domain, Hadamard developed his variational formulas \cite{Haramard1}.  The validity of the formulas 
+relied on the domain having (at least) a continuously differentiable or smooth boundary.  In the 1930's 
+Julia, modifying Hadamard's procedure, derived a new variational formula in terms of the Riemann mapping
+function for the domain.  This also required the boundary of the domain to be smooth.  This requirement 
+proved to be too restrictive to solve most extremal problems since the corresponding extremal domains 
+have non-smooth, typically piece-wise smooth, boundaries.  In particular, Schiffer suggested in \cite{Schiffer1} that the requirement of
+a smooth boundary was too restrictive for extremal problems for the general class of univalent functions; he 
+then proceeded to develop his method of interior variations to circumvent the issue.
+
+
+The first author was introduced to the Hadamard and Julia variational formulas during his graduate studies 
+at the University of Maryland by J. Hummel.  Hummel had used results on the Julia variation, obtained in
+\cite{SchSchSp1}, to create in \cite{Hummel1} a general variational method for starlike functions.  He gave a
+discussion of the Hadamard and Julia formulas in his lecture notes in \cite{Hummel2}.  We note also that 
+Julia's formula was used by M.S. Robertson in \cite{Robertson1} to develop a variational method for analytic
+functions on the unit disk with positive real part.
+
+
+Aside from Schiffer's and Hummel's references, the Hadamard and Julia variational formulas remained generally 
+dormant until Krzyz in \cite{Krzyz1} 
+applied the Julia variational formula to convex polygons.  A rigorous proof that the formula is valid when 
+the boundary contains corners was provided by Barnard and Lewis in \cite{BarnardLewis1}.  It was found later that an 
+independent proof had been given earlier by Warshawski in \cite{Warshawski1}.  Consequently, the initial condition
+of smoothness on the boundary of the domain could be replaced by a piece-wise smooth condition.  This allowed 
+for the method to be applied to a fairly large class of functions; in particular, to any class of functions whose 
+image domains could be approximated by domains bounded by a finite number of arcs with explicit geometric conditions.
+The extremal domains with their piece-wise smooth boundaries are then among the approximating domains with a small
+number of sides. Since the approach of using dense subclasses does not usually give uniqueness of the extremal 
+functions other methods are needed to obtain uniqueness.
+
+For completeness, we will give a brief outline of the method.  Let $\Bbb  C$ denote the complex plane and let
+\begin{align*}
+D_r &= \{ z : |z| < r \}, \hspace{0.5in}D = \{ z : |z| < 1 \} = D_1, \\
+C_r &= \{ z : |z| = r \}, \hspace{0.5in}\gamma = \{ z : |z| = 1 \} = C_1, \\
+{\cal A} &= \{ f : f \mbox{ is analytic on } D, \ f(z) = z + . . . \ \}, \\
+S &= \{ f : f \in {\cal A}, f \mbox{ is 1-to-1 on } D \} \\
+S_X &= \{ f : f \in {\cal A}, f(D) \mbox{ is geometrically characterized by } X \}.
+\end{align*} 
+
+Two specific subclasses of $S$ to which we will make frequent reference are $S^*$ and $K$, the subclasses of starlike functions 
+(with respect to the origin) and convex functions, respectively. Recall that a function $f \in S$ is starlike if and only if 
+$${\rm Re} \  \{ \frac{z f'(z)}{f(z)} \} > 0 $$
+
+\noindent for $z \in D$. Also, a function $f \in S$ is convex if and only if 
+$${\rm Re} \  \{ 1 + \frac{z f''(z)}{f'(z)} \} > 0 $$
+
+\noindent for $z \in D$.
+
+Let $E$ be a domain in $\Bbb  C$.  Let $r_0$ be the {\em mapping radius} or {\em inner radius} of the domain $E$ at $z_0$.
+It is determined by the limit
+$$ \lim_{z \to z_0} g(z,z_0) + \log |z - z_0| = \log r_0$$
+
+\noindent where $g(z,z_0)$ is the Green's function of $E$ at $z_0$.  Alternately, the mapping radius is given as
+the first order coefficient of the univalent mapping function $f : D \rightarrow E$ such that $f(0) = z_0$, i.e., let 
+$f(z) = a_0 + a_1 z + a_2 z^2 + . . . $, then $r_0 = |a_1|$.
+Both the mapping radius and the Green's function depend on the
+domain (and $z_0$), and as was shown in \cite{Hayman1}, the mapping radius is monotonically, set theoretically and 
+continuously dependent on the size of the domain.
+
+Let $X_0$ be a specific geometric characterization.  We will suppose that there exist compact subclasses
+$$S_n = \{ f \in S_{X_0} : \partial f(D) \mbox{ has at most } n \mbox{ smooth ``sides"} \}$$
+
+\noindent such that for each $f \in S_n, \partial f(D)$ is a bounded Jordan curve and 
+$$\overline{\ \bigcup\limits_n S_n} = S_{X_0}.$$
+
+\noindent The definition of ``sides" will depend on the geometric characterization of $X_0$.
+
+For example, for the class of convex functions $K$ the subclass $K_n$ could be all of the functions for which $f(D)$ is a bounded
+convex polygon with at most $n$ sides.
+
+Let $X_0$ be a specific geometric characterization.  Suppose $L$ is a continuous linear functional, $L : {\cal A} \rightarrow {\Bbb C}$, and for the 
+class $S_{X_0}$ we want to find $\sup_{f \in S_{X_0}} {\rm Re} \  L(f)$.  Standard normal family arguments give the
+existence of an extremal function whenever $S_{X_0}$ is a normal family.  
+
+The following proposition will now be proven.
+
+\vspace{0.1in}
+
+{\bf Proposition 1.} {\em Let $z = re^{i \theta}, |z| = r < 1$, and let $T(\zeta) = L \left ( z f'(z) \frac{1+\zeta z}{1-\zeta z} \right )$, where
+$\zeta = e^{i \phi}$.  If ${\rm Re } \  T(\zeta) = c$ (for any constant $c$) has at most $m$ solutions on $|\zeta| = 1$, 
+then for $n \geq m$
+$$\sup \limits_{f \in S_{X_0}} {\rm Re} \  L(f) = \sup \limits_n \max \limits_{f \in S_n} {\rm Re} \  L(f) = \max \limits_{f \in S_m} {\rm Re} \  L(f).$$
+}
+
+{\bf Proof.}  The compactness of the subfamilies $S_n$ along with the density of $\bigcup_n S_n$ in $S_{X_0}$ 
+insures that, for $n \geq m$, 
+$$\sup \limits_{f \in S_{X_0}} {\rm Re} \  L(f) = \sup \limits_{n \geq m} \max \limits_{f \in S_n} {\rm Re} \  L(f).$$
+
+We will show that $\max_{f \in S_n} {\rm Re} \  L(f) = \max_{f \in S_m} {\rm Re} \  L(f)$ for $n \geq m$.
+
+Let $n$ be a fixed integer greater than $m$.  Consider any function $f$ in $S_n$ where $\partial f(D)$ has strictly more than $m$ ``sides".  By the 
+assumption that $\partial f(D)$ is a (bounded) Jordan curve (where $f(D)$ is a Jordan domain), we have, by applying Caratheodory's Extension
+Theorem \cite{Duren1}, that $f$ has a continuous extension to $\bar{D} = D \bigcup \gamma$.
+
+Let $\Omega = f(D)$ and $\Gamma = f(\gamma) = \partial \Omega$.  Then $\Gamma$ has $m+1$ or more ``sides."  Call these sides, $\Gamma_1, \Gamma_2, . . . $ and call the
+preimages $\gamma_1, \gamma_2, . . .$, where $f(\gamma_j) = \Gamma_j$.
+
+We will locally vary $\Gamma$ by moving one ``side" in the following manner (see Figure 1).  Pick a ``side" of $\Gamma$, say $\Gamma_j$.  
+For $w \in \Gamma_j, w = f(z)$ for some $z \in \gamma_j$.  Let $n(w) = \frac{zf'(z)}{|zf'(z)|}$ and let $p(w)$ be the distance
+along the unit normal from $w$ to a point $w^*$ on a new ``side" $\Gamma_j^*$.  The distance moved is controlled by $\epsilon p(w)$, which is 
+positive along the outward pointing normal and negative along the inward pointing normal.  That is, it is positive if the ``side" is moved out
+and negative if the ``side" is moved in.  (The variational distances at the corners are shown to be $o(\epsilon)$ in \cite{BarnardLewis1}.)  Form a new polygonal curve
+$\Gamma_\epsilon$ containing the ``side" $\Gamma_j^*$.  When the new curve $\Gamma_\epsilon$ can be chosen so that it still has $n$ or more ``sides,"
+the variation is allowable.  Details can be found in Barnard \cite{Barnard2}.
+
+$$\includegraphics[scale=0.5]{var-1a-n} \hspace{0.5in} \includegraphics[scale=0.5]{var-1b-n}$$
+
+\begin{center}Figure 1\end{center}
+
+\vspace{0.1in}
+
+We note here that our initial definition of ``sides" will require a geometric condition which allows the ``sides" to be moved
+both in and out in the manner described above.  
+
+For a given $z \in D \ (z = re^{i \theta})$, the varied function $f_\epsilon$  which maps $D$ onto the varied domain $\Omega_\epsilon$ for which 
+$\partial \Omega_\epsilon = \Gamma_\epsilon$ becomes by the Julia Variational Formula \cite{Barnard2},
+$$f_\epsilon(z) = f(z) + \epsilon z f'(z) \int_\Gamma \frac{1+\zeta z}{1 - \zeta z} d\Psi + o(\epsilon)$$
+
+\noindent where $\zeta = e^{i\phi}, o(\epsilon)$ is uniform for $z$ in compact subsets of $D$ and, for $w = f(\zeta)$,
+$$d\Psi = \frac{p(w)n(w)}{i[\zeta f'(\zeta)]^2}dw.$$
+
+A change in variable
+$$d\Psi(\phi) = \frac{p(w)}{|f'(\zeta)|}d\phi$$
+
+\noindent insures that $d\Psi(\phi)$ is real and gives
+$$f_\epsilon(z) = f(z) + \epsilon z f'(z) \int_\gamma \frac{1+\zeta z}{1 - \zeta z} d\Psi(\phi) + o(\epsilon).$$
+
+\noindent We note for future reference that the change in mapping radius from $f(D)$ to $f_\epsilon(D)$ is given by
+$$\epsilon \int_\gamma d\Psi(\phi) + o(\epsilon).$$
+
+\noindent If the varied side is $\Gamma_j$, the integral need only be taken over $\gamma_j$ since the value of 
+$d\Psi(\phi)$ is defined to be zero over the rest of $\gamma$ by construction.
+
+If two ``sides" of $\Gamma$ are locally varied, say $\Gamma_k$ was moved out and $\Gamma_l$ was moved in, the varied function
+becomes
+$$f_\epsilon(z) = f(z) + \epsilon \left [ z f'(z) \int_{\gamma_k} \frac{1+\zeta z}{1 - \zeta z} d\Psi
+- z f'(z) \int_{\gamma_l} \frac{1+\zeta z}{1 - \zeta z} d\Psi \right ] + o(\epsilon). $$
+
+
+Using the linearity of $L$, we have
+\begin{align*}
+{\rm Re} \  L(f_\epsilon) = {\rm Re} \  L(f) &+ \epsilon \int_{\gamma_k} {\rm Re} \  L \left ( z f'(z) \frac{1+\zeta z}{1 - \zeta z} \right ) d\Psi \\
+&- \epsilon \int_{\gamma_l} {\rm Re} \  L \left ( z f'(z) \frac{1+\zeta z}{1 - \zeta z} d\Psi \right ) + o(\epsilon).
+\end{align*}
+
+\noindent We have then
+\begin{align*}
+\frac{\partial}{\partial \epsilon}  {\rm Re} \  L(f_\epsilon)|_{\epsilon=0}  &= \int_{\gamma_k} {\rm Re} \  L \left ( z f'(z) \frac{1+\zeta z}{1 - \zeta z} \right ) d\Psi \\
+&- \int_{\gamma_l} {\rm Re} \  L \left ( z f'(z) \frac{1+\zeta z}{1 - \zeta z} d\Psi \right ).
+\end{align*}
+
+Let $T(\zeta) = L(z f'(z) \frac{1+\zeta z}{1- \zeta z})$.  Then,
+\begin{equation}
+\frac{\partial}{\partial \epsilon}  {\rm Re} \  L(f_\epsilon)|_{\epsilon=0}  = \int_{\gamma_k} {\rm Re} \  T(\zeta) d\Psi
+- \int_{\gamma_l} {\rm Re} \  T(\zeta) d\Psi. \label{eq1}
+\end{equation}
+
+The function $T(\zeta)$ maps $|\zeta| = 1$ onto a curve $\beta$.  On this curve $\beta$, there are $m+1$ arcs resulting from 
+$T(\gamma_1), T(\gamma_2), . . . , T(\gamma_{m+1})$ (see Figure 2).  The Mean Value Theorem for integrals allows us to conclude 
+that on each arc $\gamma_j$ there exists a $\zeta_j$ such that 
+\begin{equation}
+\int_{\gamma_j} {\rm Re} \  T(\zeta) d\Psi(\phi) = {\rm Re} \  T(\zeta_j) \int_{\gamma_j} d\Psi(\phi).  \label{eq2}
+\end{equation}
+
+$$\includegraphics[scale=0.5]{var-2-n}$$
+
+\begin{center}Figure 2\end{center}
+
+\vspace{0.1in}
+
+This implies that for $\gamma_k$ and $\gamma_l$ there are $\zeta_k$ and $\zeta_l$ satisfying (\ref{eq2}) which makes (\ref{eq1})
+become
+$$\frac{\partial}{\partial \epsilon}  {\rm Re} \  L(f_\epsilon)|_{\epsilon=0}  = {\rm Re} \  T(\zeta_k) \int_{\gamma_k}  d\Psi
+- {\rm Re} \  T(\zeta_l) \int_{\gamma_l}  d\Psi. $$
+
+By hypothesis , ${\rm Re} \  T(\zeta) = c$ (for any constant $c$) has at most $m$ solutions.  Thus, the most such points, $T(\zeta_j)$, 
+any vertical line (${\rm Re} \ T(\zeta) = c$) could intersect is $m$.  Since $\partial f(D)$ has strictly more than $m$ sides, there must exist two points
+$T(\zeta_k)$ and $T(\zeta_l)$ in $\beta$ such that the real part of one is greater than the real part of the other, say
+$${\rm Re} \  T(\zeta_k) > {\rm Re} \  T(\zeta_l).$$
+
+\noindent Thus, if the two sides that are initially varied are $\Gamma_k$ and $\Gamma_l$, then the partial in (\ref{eq1}) can
+be chosen so that 
+$$\frac{\partial}{\partial \epsilon} {\rm Re} \  L(f_\epsilon)|_{\epsilon=0} > {\rm Re} \  T(\zeta_l)
+\left [ \int_{\gamma_k} d\Psi(\phi) - \int_{\gamma_l} d\Psi(\phi) \right ].$$
+
+As noted earlier, $\int_{\gamma_k} d\Psi(\phi) - \int_{\gamma_l} d\Psi(\phi)$ represents the change in the mapping radius.  From
+continuity $\Gamma$ can be varied so that the resulting function $f_\epsilon$ is again in $S_n$, i.e., if $\Psi(\phi)$ is chosen on 
+$\gamma_k$ and $\gamma_l$ so that the resulting mapping radius of $f_\epsilon$ is 1, then $\int_{\gamma_k} d\Psi(\phi) - \int_{\gamma_l} d\Psi(\phi) = 0$.
+Hence, 
+$$\frac{\partial}{\partial \epsilon} {\rm Re} \  L(f_\epsilon)|_{\epsilon=0} > [{\rm Re} \  T(\zeta_l)](0) = 0.$$
+
+Recall that
+\begin{align*}
+\frac{\partial}{\partial \epsilon}  {\rm Re} \  L(f_\epsilon)|_{\epsilon=0}  &= \int_{\gamma_k} {\rm Re} \  L \left ( z f'(z) \frac{1+\zeta z}{1 - \zeta z} \right ) d\Psi \\
+&- \int_{\gamma_l} {\rm Re} \  L \left ( z f'(z) \frac{1+\zeta z}{1 - \zeta z} d\Psi \right ).
+\end{align*}
+
+\noindent We have
+$${\rm Re} \  L(f_\epsilon) = {\rm Re} \  L(f) + \epsilon \left [ \frac{\partial}{\partial \epsilon} 
+{\rm Re} \  L(f_\epsilon)|_{\epsilon=0} \right ] + o(\epsilon).$$
+
+\noindent Thus, for any function $f \in S_n$ such that $\partial f(D)$ has strictly more than $m$ ``sides,"
+each of which can be moved both in and out, a function can be found which increases the real part of the functional $L$.
+Therefore, we have that the function $f \in S_n$ which maximizes the real part of the functional $L$ is actually in $S_m$.
+Thus, for $n \geq m$, 
+$$\max \limits_{f \in S_n} {\rm Re} \  L(f) = \max \limits_{f \in S_m} {\rm Re} \  L(f).$$
+
+This proves Proposition 1.
+
+\vspace{0.1in}
+
+Remark.  In \cite{Barnard6} it is shown that by combining this method with Loewner theory on slit domains 
+that this method may be applied to domains where $\partial f(D)$ is not a Jordan curve (where $f(D)$ is a 
+slit domain) with slight variations.  Hence, this variational method involving Proposition 1 may be used 
+to solve extremal problems 
+over a much broader class of functions.
+
+It is this basic idea that the authors have been able to apply to a variety of extremal problems.  The first 
+arose in Barnard's dissertation and answered a question which arose out of Netanyahu's work in \cite{Netanyahu1}.  
+Netanyahu had asked to determine the extremal functions for the standard distortion theorems for the class 
+of starlike or convex functions whose image domains contain a fixed disk centered at the origin.  Netanyahu 
+had done this \cite{Netanyahu1} for the class $NS(d)$ of univalent functions in $S$ whose image domains contain 
+a fixed disk of radius $d$ centered at the origin, but his methods did not appear to work for the corresponding 
+classes $NS^*(d)$ or $NK(d)$.  The extremal functions for the classes $NS^*(d)$ and $NK(d)$ were found by 
+Barnard in \cite{Barnard2}, however, a more general result containing resolutions for Netanyahu's questions 
+as special cases was given in \cite{BarnardLewis1} by Barnard and Lewis.
+
+To obtain the more general result, we first answered M. Reade's question as to determining a geometric 
+characterization for the Mocanu class, $MS^*(\alpha)$, of $\alpha$-starlike functions.  $MS^*(\alpha)$ 
+was a continuously parametrized family of functions, $0 \leq \alpha \leq \infty$, defined analytically, 
+which contained the class $S^* = MS^*(0)$ and the class $K = MS^*(1)$.  In particular, Mocanu had defined 
+in \cite{Mocanu1} the class $MS^*(\alpha)$ as those functions in ${\cal A}$ for which 
+$${\rm Re} \  \left \{ (1-\alpha) \left (\frac{z f'(z)}{f(z)} \right ) + \alpha \left ( 1 + \frac{z f''(z)}{f'(z)} \right ) \right \} > 0.$$
+
+\noindent We determined in \cite{BarnardLewis1} that by defining an $\alpha$-arc for $\alpha > 0$, 
+loosely speaking, as a translate of an arc of the $\alpha^{\rm th}$ power of the line $x = 1$ (see \cite{BarnardLewis1} for details), 
+then a domain $f(D)$ is the image of an $\alpha$-starlike function $f$ if and only if any two 
+points in $f(D)$ can be connected by an $\alpha$-arc lying 
+in $f(D)$.  (Note $\alpha = 1$ gives $1$-arcs as straight line segments [hence, convexity], while the limiting case of 
+$\alpha=0$ gives starlikeness with respect to the origin.)  By using as a dense subclass those domains 
+bounded by a finite number of $\alpha$-arcs as ``sides", we proved the following result.
+
+For a given $d, 0 \leq d < 1$ and $1 < \rho \leq \infty$, let $MS^*(\alpha,d,\rho)$ be those functions in $MS^*(\alpha)$ for 
+which $d \leq |f(z)/z| \leq \rho$.  Let $F = F(\cdot,\alpha, d,\rho)$ be the function in $MS^*(\alpha,d,M)$ whose image is the symmetric domain bounded by an arc $\gamma_d \subset C_d$, which is symmetric about $-d$, an arc $\gamma_\rho \subset C_\rho$, which is symmetric about $\rho$ and two $\alpha$-arcs connecting the endpoints of $\gamma_d$ and $\gamma_\rho$. We proved the following main theorem and corollary.
+
+\vspace{0.1in}
+
+{\bf Theorem 1.} {\em Let $\alpha, d$ and $\rho$ be fixed nonnegative numbers satisfying $0 \leq \alpha \leq \infty$, $0 \leq d < 1$ and $1 < \rho \leq \infty$. Then, 
+
+(A) The function $g(z) = \log [F(z)/z], z \in D$ is univalent and convex in the direction of the imaginary axis.
+
+(B) If $f \in MS^*(\alpha,d,\rho)$, then $\log [f(z)/z]$ is subordinate to $g$.}
+
+\vspace{0.1in}
+
+{\bf Corollary 1.} {\em Let $\alpha, d$ and $\rho$ be as in Theorem 1.  Let $\Phi$ be a given nonconstant entire
+function.  If $f \in MS^*(\alpha,d,\rho)$, then
+
+(A) For given $z \in D \backslash \{0\}$ 
+$${\rm Re} \  \left \{ \Phi \left [ \log \frac{f(z)}{z} \right ] \right \} \leq 
+\max \limits_{0 < \theta \leq 2 \pi} {\rm Re} \  \left \{ \Phi \left [ \log \frac{F(z)}{z} \right ] \right \},$$
+
+(B) For given $r, 0 < r < 1$, and $\lambda > 0$,
+$$\int_{-\pi}^\pi |f(re^{i \theta})|^\lambda d \theta \leq \int_{-\pi}^\pi |F(re^{i \theta})|^\lambda d \theta,$$
+
+(C) For a given positive integer $N \geq 2$,
+$$\sum_{k=2}^N |a_k|^2 \leq \sum_{k=2}^N |A_k|^2,$$
+
+\vspace{0.1in}
+
+\noindent where $f(z) = z + \sum_{k=2}^\infty a_k z^k$ and $F(z) = z + \sum_{k=2}^\infty A_k z^k, z \in D$. }
+
+
+Another application of this variational method was to show in \cite{Barnard4} that any $f \in S$ for which $\partial f(D)$
+has an analytic slit which contains a point $f(e^{i \theta_1}) = f(e^{i \theta_2})$ where the opposing
+normals exist and are of unequal modulus, i.e., $|f'(e^{i \theta_1})| \neq |f'(e^{i \theta_2})|$, can always be varied 
+locally on the boundary to produce a domain of strictly larger mapping radius.  For consequences of this result, see 
+\cite{Barnard4}.
+
+
+General applications of the variational method were used in a series of papers on the omitted values problem of Goodman.  The problem of omitted values was first posed by Goodman \cite{Goodman1} in 1949, restated by MacGregor \cite{MacGregor1} in his survey article in 1972, then reposed in a more general setting by Brannan \cite{AndBarBran1} in 1977.  It also appears in Bernardi's survey article \cite{Bernardi1} and has 
+appeared in several open problem sets since then, including \cite{Barnard1}, \cite{BrannanClunie1}, \cite{Goodman2} and \cite{Miller1}.
+
+
+For a function $f \in S$, let $A(f)$ denote the Lebesgue measure of the set $D \backslash f(D)$ and for $0 < r < 1 $ let $L(f,r)$ denote
+the Lebesgue measure of the set $\{D \backslash f(D)\} \bigcap C_r$.  Two explicit problems posed by Goodman and by Brannan were to determine
+\begin{equation*}
+A = \sup_{f \in S} A(f) 
+\end{equation*} 
+
+\noindent and
+\begin{equation}
+L(r) = \sup_{f \in S} L(f,r). \label{eq4}
+\end{equation}
+
+Goodman \cite{Goodman1} showed that $0.22\pi < A < 0.50\pi$.  The lower bound which he obtained was generated by a domain
+of the type shown in Figure 3.
+
+$$\includegraphics[scale=0.75]{var-3-n}$$
+
+\begin{center}Figure 3\end{center}
+
+\vspace{0.1in}
+
+Later, Goodman and Reich \cite{GoodmanReich1} gave an improved upper bound of $0.38\pi$ for $A$.  Lewis had shown in \cite{Lewis1}
+by applying some deep results of Alt and Caffarelli \cite{AltCaffarelli1} in partial differential equations for free boundary
+problems that the extremal domains had to have piecewise analytic boundaries and that our methods developed in 
+\cite{BarnardLewis1} for these omitted value problems could be used to give a geometric description for the boundaries of the extremal domains as follows. There is 
+an $f_0$ in $S$ with $A = A(f_0)$ such that $f_0(D)$ is circularly symmetric with respect to the positive real axis, i.e., it has the
+property that for $0 < r < 1$,
+$$\frac{\partial}{\partial \theta} |f_0(re^{i \theta})| \leq 0 \mbox{ and } 
+\frac{\partial}{\partial \theta} |f_0(re^{-i \theta})| \leq 0, \mbox{ for } 0 < \theta < \pi$$
+
+\noindent (cf. Hayman \cite{Hayman1}).  Moreover, the $\partial f_0(D)$ consists of the negative real axis up to
+$-1$, and arc $\sigma$ of the unit circle that is symmetric about $-1$ and an arc $\lambda$ lying in $D$, except for its endpoints.
+The arc $\lambda$ is symmetric about the reals, connects to the endpoints of $\sigma$ and has monotonically decreasing modulus 
+in the closure of the upper half disc.  These results follow by standard symmetrization methods.  Much deeper methods are needed 
+to show (as in \cite{Barnard5} and \cite{Lewis1}) that $f_0$ has a piecewise analytic extension to $\lambda$ with $f_0'$ continuous
+on $f_0^{-1}(\lambda)$ and $|f_0' (f_0^{-1}(w))| \equiv c < 1$ for all $w \in \lambda \bigcap \{ D \backslash (-1,1) \}$.  Using these 
+properties of $f_0$ it was shown by the authors in \cite{BarnardPearce1} that by ``rounding the corners" of certain gearlike
+domains a close approximation for the extremal function could be obtained.  This gives the best known lower bound of
+$$0.24\pi < A.$$
+
+The upper bound is conceptually harder since it requires an estimate on the omitted area for each function in $S$.  Indeed, it appears
+difficult to use the geometric description of $f_0$ to calculate $A$ directly.  However, an indirect proof was used by Barnard and Lewis
+\cite{BarnardLewis2} to obtain the best known upper bound of 
+$$A < 0.31\pi.$$
+
+{\bf Open Problem.}  {\em Show that $f_0$ is unique and determine $A$ explicitly.}
+
+\vspace{0.1in}
+
+For the class $S^*$ of functions in $S$ whose images are starlike with respect to the origin, the problem of determining
+the corresponding
+$$A^* = \sup_{f \in S^*} A(f)$$
+
+\noindent has been completely solved by Lewis in \cite{Lewis1}.  The extremal function $f_1 \in S^*$ defined by 
+$$A^* = A(f_1) \approx 0.235 \pi$$
+
+\noindent is unique (up to rotation).  The extremal domain $\partial f(D)$ is a circularly symmetric domain whose boundary $\partial f_1(D)$ has two radial rays projecting into $D$ with their endpoints connected by an arc $\lambda_1$ that is symmetric about the reals and has $|f_1'(\zeta)| \equiv c_1 \mbox{ for all } \zeta \in f_1^{-1}(\lambda_1)$.
+
+The problem of determining $L(r)$ in (\ref{eq4}) was solved by Jenkins in \cite{Jenkins1} where he proved that for a fixed 
+$r, 1/4 \leq r < 1$,
+$$L(r) = 2\pi \arccos (8 \sqrt{r} - 8r -1).$$
+
+\noindent The extremal domain in this case is the circularly symmetric domain (unique up to rotation) having as its boundary the negative 
+reals up to $-r$ and a single arc of $C_r$ symmetric about the point $-r$.
+
+The corresponding problem for starlike functions of determining 
+$$L^*(r) = \sup_{f \in S^*} L(f,r)$$ 
+was solved by Lewandowski in \cite{Lewandowski1} and by Stankiewicz in \cite{Stankiewicz1}.  
+The extremal domain in that case is the circularly symmetric domain (unique up to rotation) having as its 
+boundary two radial rays and the single arc of $C_r$ connecting their endpoints.  An explicit
+formula for the mapping function in this case was first given by Suffridge in \cite{Suffridge1}.
+
+However, for the class $K$ of functions in $S$ whose images are convex domains the corresponding problems of determining
+\begin{equation*}
+A_K(r) = \sup_{f \in K} A(f,r) 
+\end{equation*}
+
+\noindent and
+\begin{equation*}
+L_K(r) = \sup_{f \in K} L(f,r), 
+\end{equation*}
+
+\noindent where $A(f,r)$ denotes the Lebesgue measure of $D_r \backslash f(D)$, presents some interesting difficulties.
+One particular difficulty is that the basic tool of circular symmetrization used in the solution of each of the previous
+determinations is no longer available.  The example of starting with the convex domain bounded by a square shows that 
+convexity is not alway preserved under circular symmetrization.  However, Steiner symmetrization (cf. Hayman \cite{Hayman1})
+can still be used in certain cases such as sectors.  Another difficulty is the introduction of distinctly different extremal
+domains for different ranges of $r$.  Since every function in $K$ covers a disk of radius 1/2 (cf. Duren \cite{Duren1})
+$r$ needs only to be considered in the interval $(1/2,1)$.  Waniurski has obtained some partial results in \cite{Waniurski1}.
+He defined $r_1$ and $r_2$ to be the unique solutions to certain transcendental equations where $r_1 \approx 0.594$ and $r_2 \approx 0.673$.
+If $F_{\pi/2}$ is the map of $D$ onto the half plane $\{ w : {\rm Re} \  w > -1/2 \}$ and $F_\alpha$ maps $D$ onto the sector
+$$\left \{ w : \left | arg \left ( w + \frac{\pi}{4\alpha} \right ) \right | < \alpha \right \}$$
+
+\noindent whose vertex, $v = - \pi/4\alpha$, is located inside $D$, then
+\begin{align*}
+A_K(r) &= A(F_{\pi/2},r) \mbox{ for } 1/2 < r < r_1, \\
+L_K(r) &= L(F_{\pi/2},r) \mbox{ for } 1/2 < r < r_1,
+\end{align*} 
+
+\noindent and
+$$L_K(r) = L(F_\alpha,r) \mbox { for } r_1 < r < r_2.$$
+
+Barnard had announced in his survey talk on open problems in complex analysis at the 1985 {\em Symposium on the Occasion of the 
+Proof of the Bieberbach Conjecture} the following conjecture.
+
+\vspace{0.1in}
+
+{\bf Conjecture 1.} {\em The extremal domains for determining $A_K(r)$ and $L_K(r)$ will be half planes, symmetric sectors and domains bounded by single arcs of $C_r$ along with tangent lines to the endpoints of these arcs; the different domains will depend on different ranges of $r$ in $(1/2,1)$.}
+
+\vspace{0.1in}
+
+
+This conjecture was also made later, independently, by Waniurski at the end of his paper in \cite{Waniurski1} in 1987.
+
+In trying to determine the extremal domains for $A_K(r)$ and $L_K(r)$ via our variational method developed in \cite{BarnardLewis1} the
+following problem was investigated.  For $F \subset S$ and $1/4 \leq d \leq 1$ let $F_d = \{ f \in F : \min_{z \in D} |f(z)/z| = d \}$.  Then,
+determine the sharp constant $A = A(F_d)$ such that for any $f \in F_d$
+\begin{equation}
+I_{-1}(f') = \lim_{r \rightarrow 1} \frac{1}{2\pi} \int_{-\pi}^{\pi} \left | \frac{1}{f'(re^{i \theta})} \right | d \theta  \leq \frac{A}{d}. \label{eq7}
+\end{equation}
+
+For $0 \leq \alpha < 1$ let $S^*(\alpha)$ denote the subclass of $S$ of starlike functions of order $\alpha$, i.e., a function $f \in S^*(\alpha)$
+if and only if $f$ satisfies the condition ${\rm Re} \  z f'(z)/f(z) > \alpha$ for $z \in D$.  It is well known that $K \subset S^*(1/2)$.
+It follows fairly easily from subordination theory that $A(S^*(1/2)) \leq 4/\pi$.  Furthermore, this estimate is sharp for $S^*(1/2)$ since the
+functions $f_n(z) = z/(1-z^n)^{1/n}$ belong to $S^*(1/2)$ for each $n > 0$.  However, this estimate is not sharp for the class $K$ of convex functions 
+which is a proper subset of $S^*(1/2)$.  Considerable numerical evidence suggested to the authors to make the following
+conjecture.
+
+\vspace{0.1in}
+
+{\bf Conjecture 2.} {\em For each $d, 1/2 \leq d \leq 1, A = A({K}_d) = 1$ in (\ref{eq7}) with equality holding
+for all domains which are bounded by regular polygons centered at the origin.}
+
+\vspace{0.1in}
+
+This conjecture was announced in March 1985 at the {\em Symposium on the Occasion of the 
+Proof of the Bieberbach Conjecture} at Purdue University.  It also appeared as Conjecture 8 in the first author's ``Open Problems and Conjectures in 
+Complex Analysis" in \cite{Barnard1}.  
+It was thought, by many function theorists, that the conjecture would be
+easily settled, given the vast literature on convex functions and the
+large research base for determining integral mean estimates, see
+\cite{Duren1}.
+
+An initial difficulty was the non-applicability of Baernstein's
+circular symmetrization methods, since convexity, unlike univalence
+and starlikeness, is not preserved under circular symmetrization as noted above.
+Although Steiner symmetrization does preserve convexity, see \cite{Valentine1}, it
+did not appear to be helpful for the problem and, indeed, we found
+that extremal domains need possess no standard symmetry.
+
+A confusing issue, which also arises, is that the integral means of
+the standard approximating functions $f_n$ in $K$ defined by
+$$f'_n(z)=\prod^n_{k=1}(1-ze^{i\theta_k})^{-2\alpha_k},0<\alpha_k\leq
+1,\sum^n_{k=1}\alpha_k=1$$ 
+
+\noindent decrease when the arbitrarily distributed $\theta_k$ are replaced by
+uniformly distributed $t_k=k\pi/n$, as was shown in \cite{Zheng1}.  The
+conjecture suggests that multiplication by the minimum modulus $d$
+must overcome this decrease.
+
+We make the following definition.
+
+\vspace{0.1in}
+
+{\bf Definition.}  Let $\Gamma$ be a curve in $\Bbb C$ such that the
+left- and right-hand tangents to the curve $\Gamma$ exist at each
+point on $\Gamma$.  The curve $\Gamma$ will be said to {\em
+circumscribe a circle} $C$ if the left- and right-hand tangents to
+the curve $\Gamma$ at each point on $\Gamma$ lie on tangent lines to
+the circle $C$.
+
+\vspace{0.1in}
+
+We will employ the following notation.
+
+\vspace{0.1in}
+
+{\bf Notation.} Let $f\in S$ and suppose that $\lambda$ is a subarc of
+$\gamma$ on which $f$ is smooth.  For $z=e^{i\theta}\in\lambda$
+let $d_{\theta} = \  <f(z)$, $\frac{zf'(z)}{|zf'(z)|}>$, i.e, $d_\theta$
+is the directed length of the projection of $f(z)$ onto the outward
+unit normal to the  $\partial f(D)$ at $f(z)$.
+
+\vspace{0.1in}
+
+In 1993 in \cite{BarnardPearce2}, we proved the following theorem which verified 
+Conjecture 2.
+
+\vspace{0.1in}
+
+{\bf Theorem 2.} {\em Let $f\in K$, $d={\min\limits_\theta}\ 
+|f(e^{i\theta})|$ and $d^*={\sup\limits_\theta} \  d_\theta$.
+Then,
+\begin{equation*}
+\frac{1}{d^\ast}\leq\frac{1}{2\pi}\int^{2\pi}_{0}\frac{1}
+{|f'(e^{i\theta})|}d\theta\leq\frac{1}{d} 
+\end{equation*}
+with equality holding if the  $\partial f(D)$ circumscribes $C_d$. }
+
+\vspace{0.1in}
+
+Our original proof which was quite lengthy used as a major step the following idea which has independent interest.
+For any domain $\Lambda$ which contains the origin, let the notation $m.r.(\Lambda)$ denote the inner radius 
+of $\Lambda$ at the origin.  Given a $d$ and a convex domain $\Omega = f(D)$ where $f \in {K}_d$, one can always construct
+two varied domains $\Omega^*$ and $\Omega^{**}$ which satisfy the containment relationship
+\begin{equation}
+\Omega^* \subseteq \Omega^{**}, \label{eq9}
+\end{equation}
+
+\noindent as follows.
+
+The domain $\Omega^{**}$ is constructed by multiplication by $1 + \epsilon$ for $\epsilon$ sufficiently small
+and positive.  This produces a radial enlargement $(1 + \epsilon)\Omega = \Omega^{**}$ of $\Omega$.  The domain $\Omega^*$
+is constructed by moving each smooth boundary point $w = f(e^{i \theta})$ a distance $\epsilon d$ in the direction of the
+outward pointing normal.  An adjustment is made at the non-smooth boundary points to produce the domain $\Omega^*$ so that 
+boundary of $\Omega^*$ has the same geometric restrictions as the boundary of $\Omega$, e.g., same number of sides.  Subordination
+then shows that (\ref{eq9}) implies that  $m.r.(\Omega^*) \leq m.r.(\Omega^{**})$.  The variational formulas can then be applied
+to yield that
+$$ \Delta m.r.(\Omega^*,\Omega) = \frac{\epsilon d}{2\pi} \int_{-\pi}^{\pi} \left | \frac{1}{f'(e^{i \theta})} \right | d \theta  + o(\epsilon) \leq
+\epsilon = \Delta m.r.(\Omega^{**},\Omega) $$
+
+\noindent which give the result.  Similar arguments are used for $d^*$.
+
+We obtained, arising out of the proof, the rather unexpected sufficient
+condition for equality to occur in (2) for the classes ${K}_d$.
+However, because the proof used a scheme to approximate convex
+functions by polygonally convex functions, we did not obtain a
+necessary condition for equality.
+
+We devised in \cite{BarnardPearce3} a new, simpler proof for the conjecture which extends
+Theorem 2.  The proof relaxes the convexity requirement and
+validates the necessity of the sufficient condition.
+
+\vspace{0.1in}
+
+{\bf Theorem 3.} {\em Let $f\in S^*(\alpha)$ for some $0 \leq \alpha < 1$.
+Suppose $f$ is smooth on $X\subset\partial D$ where $X$ is a
+countable union of pairwise disjoint subarcs of $\gamma$ such
+that the complement of $X$ in $\gamma$ has measure zero.  Let
+$d_*={\inf\limits_{\theta\in X}} \  d_\theta$, $d^*={\sup\limits_{\theta\in X}} \  d_\theta$.  Then,
+$$
+\frac{1}{d^*}\leq\frac{1}{2\pi}\int^{2\pi}_0
+\frac{1}{|f'(e^{i\theta})|}d\theta\leq\frac{1}{d_*}
+$$
+with equality holding if and only if $\partial f(D)$ circumscribes
+$C_{d_*}$. }
+
+\vspace{0.1in}
+
+Another application of the method originated from a question of Clunie and Sheil-Small.  If $f \in S$ and 
+$w \not\in f(D)$, then the function
+\begin{equation}
+\hat{f} = f / (1-f/w) \label{eq10}
+\end{equation}
+
+\noindent belongs again to $S$.  The transformation $f \rightarrow \hat{f}$ is an important tool in the study
+of geometric function theory.  If $F$ is a subset of $S$, let 
+$$\hat{F} = \{ \hat{f} : f \in F, w \in {\Bbb C}^* \backslash f(D) \}.$$
+
+\noindent Here, ${\Bbb C}^* = {\Bbb C} \bigcup \{ \infty \}$.  Since we admit $w = \infty$, it is clear that $F \subset
+\hat{F} \subset S$.
+
+
+If $F$ is compact in the topology of local uniform convergence, then so is $\hat{F}$.  If $F$ is rotationally invariant, that is,
+if $f_\alpha(z) = e^{-i \alpha}f(e^{i \alpha}z)$ belongs to $F$ whenever $f$ does, then $\hat{F}$ is also rotationally invariant.  It is 
+an interesting question to ask which properties of $F$ are inherited by $\hat{F}$.  Since $\hat{S} = S$, this question is
+trivial for $S$.
+
+In \cite{BarnardSchober1}, \cite{BarnardSchober2} and \cite{BarnardSchober3} Barnard and Schober considered transforms of the class $K$ of convex mappings (and the class $S^*$ of starlike mappings).  Simple examples 
+show that $\hat{K}$ is strictly larger than $K$.  Since the coefficients of functions in $K$ are uniformly bounded 
+[by one (in modulus)], Clunie and Sheil-Small had asked whether the coefficients of functions in $\hat{K}$ have a uniform
+bound.  The affirmative solution of this problem was given by Hall \cite{Hall1}.
+
+\vspace{0.1in}
+
+{\bf Open Question.}  {\em Find the best uniform coefficient bound as well as the individual coefficient bounds for functions
+in $\hat{K}$.}
+
+\vspace{0.1in}
+
+In \cite{BarnardSchober1} the variational procedure developed in \cite{BarnardLewis1} is applied to a class of extremal problems for 
+$\hat{K}$.  If $\lambda : \hat{K} \rightarrow {\Bbb R}$ is a continuous functional that satisfies certain admissibility
+criteria, it was shown that the problem
+$$\max_{\hat{K}} \lambda$$ 
+
+\noindent has a relatively elementary extremal function $\hat{f}_1$.  More specifically, it was shown that $\hat{f}_1$ is either
+a half-plane mapping $\hat{f}_1(z) = z/(1 - e^{i \alpha}z)$ or is generated through (\ref{eq10}) by a parallel strip mapping $f_1 \in K$.
+
+The class of functionals considered in \cite{BarnardSchober1} contain the second-coefficient functional $\lambda(\hat{f}) = {\rm Re} \  a_2$ and the functionals $\lambda(\hat{f}) = {\rm Re} \  \Phi (\log \hat{f}(z)/z)$ where $\Phi$ is entire and $z$ is fixed.  The latter functionals include the problems of maximum and minimum modulus $( \Phi(w) = \pm w)$.  In general, the extremal strip domains $f_1(D)$ need not be symmetric
+about the origin.  This adds a nontrivial and interesting character to the problem.  
+
+A sharp estimate for the second coefficient of functions in $\hat{K}$ is given explicitly in the following result.  Surprisingly,
+the answer is not an obvious one.
+
+\vspace{0.1in}
+
+{\bf Theorem 4.} {\em If $\hat{f}(z) = z + a_2 z^2 + . . . $ belongs to $\hat{K}$, then
+$$|a_2| \leq \frac{2}{x_0} \sin x_0 - \cos x_0 \approx 1.3270$$
+
+\noindent where $x_0 \approx 2.0816$ is the unique solution of the equation
+$$\cot x = \frac{1}{x} - \frac{1}{2}x$$
+
+\noindent in the interval $(0, \pi)$.  Equality occurs for the functions $e^{-i \alpha}\hat{f}_1(e^{i \alpha}z), \alpha \in {\Bbb R}$, where
+$\hat{f}_1(z) = f_1(z)/[1-f_1(z)/f_1(1)]$ and $f_1$ is the vertical strip mapping defined by
+\begin{equation}
+f_1(z) = \frac{1}{2i \sin x_0} \log \frac{1 + e^{i x_0} z}{1 - e^{i x_0} z}. \label{eq11}
+\end{equation}}
+
+We make the following conjecture.
+
+\vspace{0.1in}
+
+{\bf Conjecture 3.} {\em The extremal functions for maximizing $|a_n|$ over $\hat{K}$ are the vertical strip mappings defined 
+by (\ref{eq11}) where a different $x_0$ is needed for each $n$. }
+
+\vspace{0.1in}
+
+In \cite{BarnardSchober2} the Koebe disk, radius of convexity and sharp estimates for the coefficient functional$|t a_3 + a_2^2|$ were found for
+functions in the class $\hat{K}$.  Also, in \cite{Ali1} R.M. Ali found sharp upper and lower bounds for $|f(z)|$ for $\hat{f} \in \hat{K}$.
+
+
+A key lemma in the proofs of the above was the determination of the geometric characterization of the ``sides" to be varied in the 
+images of the functions in a dense subclass of the transformed convex domains.  The variations of the functions in ${K}_n$ whose 
+image domains are convex polygons with at most $n$ sides did not reduce the problem for $\hat{K}$ to examining domains with a sufficiently
+small enough number of sides.  We observed that functions $\hat{f}$ in $\hat{{K}_n}$ map $D$ onto curvilinear polygons with at most $n$
+sides and with interior angles at $\pi$.  Furthermore, if $\hat{f} = f / (1-f/w)$, then the sides of the  $\partial \hat{f}(D)$
+all lie on circles or lines through the point $w_1 = -w$ (see Figure 4).  In fact, these two properties characterize functions in
+$\widehat{{K}_n}$.  That is, if $g \in S$ and the  $\partial g(D)$ is a curvilinear $n$-gon with interior angles at most $\pi$ and if the
+sides of the  $\partial g(D)$ all lie on circles or lines through a point $-w \not\in g(D)$, then $f = g/(1-g/w)$ belongs
+to ${K}_n$ and so $\hat{f} = g$ belongs to $\widehat{{K}_n}$. 
+
+$$\includegraphics[scale=1.0]{var-4-n}$$
+
+\begin{center}Figure 4\end{center} 
+
+\vspace{0.1in}
+
+These observations thus produced the domains whose boundaries were characterized in a geometric fashion so that our methods
+could be applied.
+
+In a more recent application of the Julia variational method J. MA \cite{Ma1} has proved, in his dissertation
+under Ruscheweyh, the following results.
+
+Let points $z_j \in D$ with $z_j \neq 0, j = 1, 2, . . . , m$ and positive integers 
+$l_j, j = 0, 1, 2, . . . , m$ be given.  Define $N = l_0 + l_1 + l_2 + . . . + l_m$.  For
+$g \in {\cal A}$ consider the complex $N$ vector $v(g)$ with components
+$$a_k \ (k = 2, 3, . . . , l_0 + 1), \hspace{0.25in} g^{(k)}(z_j) \  (k = 0, 1, . . . , l_j - 1; j = 1, 2, . . . , m).$$
+Denote by $V_N(K)$ the set $\{ v(g) : g \in K \}$.  
+
+Let $\Lambda(v)$ be a real-valued function that is differentiable on some open neighborhood of $V_N(K)$.  Define a continuous
+functional $\Psi$ on $K$ by 
+\begin{align*}
+\Psi(g) := \Lambda(v(g)) = \Lambda ( a_2, a_3, . . . , a_{l_0+1}, &g(z_1), g'(z_1), . . . , g^{(l_1 -1)}(z_1), . . .,  \\
+ &g(z_m), g'(z_m), . . . , g^{(l_m -1)}(z_m) )
+\end{align*}
+
+\noindent A functional of this form will be called a functional of finite degree and the number $N$ is call the degree of the 
+functional.  
+
+Let us denote
+$$\Lambda_v := \left ( \frac{\partial \Lambda}{\partial w_1}, . . . , \frac{\partial \Lambda}{\partial w_N} \right ),$$
+
+\noindent where
+$$\frac{\partial \Lambda}{\partial w_k} = \frac{1}{2} \left ( \frac{\partial \Lambda}{\partial x_k} - i \frac{\partial \Lambda}{\partial y_k} \right ),
+\hspace{0.25in} k = 1, 2, 3, . . . , N.$$
+
+The main results are the following theorems.
+
+\vspace{0.1in}
+
+{\bf Theorem 5.} {\em Let $\Psi$ be a functional of degree $N$ on the class $K$ and for $f_0 \in K$ let 
+$$\Psi(f_0) = \max (\min) \{\Psi(g) : g \in K \}.$$
+
+\noindent Suppose that $\Lambda_v(v(f_0)) \neq 0$.  Then,
+\begin{equation}
+f_0 (z) = \int_0^z \frac{d \eta}{ \prod\limits_{k=1}^{N} (1 - z_k \eta)^{2 \lambda_k} }, \label{eq12}
+\end{equation}
+
+\noindent where $|x_k| = 1, \lambda_k >= 0, k = 1, . . . , N$ and $\sum_{k=1}^N \lambda_k = 1$. }
+
+\vspace{0.1in}
+
+{\bf Theorem 6.} {\em Let $H(w_1, w_2, . . . , w_N )$ be an analytic function on a neighborhood of the set $V_N(K)$.
+If for $f_0 \in K$,
+$${\rm Re}\  \{H(v(f_0)) \} = \max (\min) \{\Psi(g) : g \in K \}$$
+
+\noindent then $f_0$ has the form (\ref{eq12}).}
+
+\vspace{0.1in}
+
+We note that extremal functions with the form (\ref{eq12}) map $D$ onto convex polygons with at most $N$ sides.
+
+
+
+
+
+\newpage
+
+
+\begin{thebibliography}{99}
+
+\bibitem{Ali1} Ali, R. M. ``A distortion theorem for the class of M\"{o}bius 
+transformations of convex mappings.'' {\em Rocky Mountain J. Math.} {\bf 19}
+(1989) pp. 1083-1094.
+
+\bibitem{AltCaffarelli1} Alt, H., and Caffarelli, L.  ``Existence and
+regularity for a minimum problem with free boundary.''  {\em J. Reine
+Angew. Math.} {\bf 325} (1981) pp. 105-144.
+
+\bibitem{AndBarBran1} Anderson, J.M., Barth, K.E., and Brannan, D.A.
+``Research problems in complex analysis.''  {\em Bull. London Math
+Soc.}  {\bf 9} (1977) pp. 129-162.
+
+\bibitem{Barnard4} Barnard, R.W. ``Criteria for local variations for slit 
+mappings." {\em Ann. Univ. Mariae Curie-Sklodowska, Sect. A.} {\bf 35/36} (1982/3)
+pp. 19-23.
+
+\bibitem{Barnard5} Barnard, R.W.  ``The omitted area problem for
+univalent functions.''  {\em Contemporary Math.} {\bf 38} (1985) pp.
+53-60.
+
+\bibitem{Barnard2} Barnard, R.W. ``On bounded univalent functions whose ranges contain
+a fixed disk." {\em Trans. Amer. Math. Soc.} {\bf 225} (1977) pp 1-28.
+
+\bibitem{Barnard1} Barnard, R.W.\ ``Open problems and conjectures in
+complex analysis.'' in {\em Computational Methods and Function
+Theory}, Lecture Notes in Math.\ No.\ 1435 (Springer-Verlag, 1990),
+1-26.
+
+\bibitem{Barnard6} Barnard, R.W.  ``A variational technique for bounded
+starlike functions.''  {\em Canadian Math. J.}  {\bf 27} No. 2,
+(1975) pp. 337-347.
+
+\bibitem{BarnardLewis2} Barnard, R.W., and Lewis, J.L. ``On the omitted area problem."
+{\em Mich. Math. J.} {\bf 34} (1987) pp. 13-22.
+
+\bibitem{BarnardLewis1} Barnard, R.W., and Lewis, J.L.  ``Subordination
+theorems for some classes of starlike functions.''  {\em Pacific J.
+Math.}  {\bf 56} (1975) pp. 333-366.
+
+\bibitem{BarnardPearce1} Barnard, R.W., and Pearce, K.  ``Rounding corners of
+gearlike domains and the omitted area problem.''  {\em J.
+Comput. Appl. Math.}  {\bf 14} (1986) pp. 217-226.
+
+\bibitem{BarnardPearce2} Barnard, R.W. and Pearce, K. ``Sharp bounds on the
+$H_p$ means of the derivative of a convex function for $p=-1$'', {\em
+Complex Variables, Theory and Applications} {\bf 21} (1993), 149-158.
+
+\bibitem{BarnardPearce3} Barnard, R.W., and Pearce, K.  ``A short proof of a conjecture
+on the integral means of the derivative of a convex function" {\em Ann. Univ. Mariae
+Curie-Sklodowska, Sect. A.} {\bf 48} (1994) pp. 1-5.
+
+\bibitem{BarnardSchober1} Barnard, R.W., and Schober, G., ``M\"{o}bius
+transformations for convex mappings,'' {\em Complex Variables, Theory
+and Applications} {\bf 3} (1984) pp. 45-54.
+
+\bibitem{BarnardSchober2} Barnard, R.W., and Schober, G., ``M\"{o}bius
+transformations for convex mappings II,'' {\em Complex Variables,
+Theory and Applications} {\bf 7} (1986) pp. 205-214.
+
+\bibitem{BarnardSchober3} Barnard, R.W., and Schober, G., ``M\"{o}bius
+transformations of starlike mappings." {\em Complex Variables,
+Theory and Applications} {\bf 15} (1990) pp. 211-221.
+
+
+\bibitem{Bernardi1} Bernardi, S.D.  ``A survey of the development of the
+theory of schlicht functions.''  {\em Duke Math. J.}  {\bf 19} (1952) pp.
+263-287.
+
+\bibitem{BrannanClunie1} Brannan, D.A., and Clunie, J.G. (eds.).  {\em Aspects
+of contemporary complex analysis.}  (Durham, 1979), Academic
+Press, London, (1980).
+
+\bibitem{Duren1} Duren, P.  {\em Univalent Functions.}
+Spring-Verlag, Vol. 259, New York, (1980).
+
+\bibitem{Goodman1} Goodman, A.W.  ``Note on regions omitted by
+univalent functions.''  {\em Bull. Amer. Math. Soc.}  {\bf 55} (1949) pp.
+363-369.
+
+\bibitem{Goodman2} Goodman, A.W.  {\em Univalent Functions.}  Mariner
+(1982).
+
+\bibitem{GoodmanReich1} Goodman, A.W., and Reich, E.  ``On the regions
+omitted by univalent functions II.''  {\em Canad. J. Math.}  {\bf 7}
+(1955) pp. 83-88.
+
+\bibitem{Haramard1} Hadamard, J.``Le\c cons sur le calcul des variations."
+Paris, 1910. FM pp. 41-432.
+
+\bibitem{Hall1} Hall, R. R. ``On a conjecture of Clunie and
+Sheil-Small.''  {\em Bull, London Math. Soc.} {\bf 12} (1980) pp.
+25-28.
+
+\bibitem{Hayman1} Hayman, W.K.  {\em Multivalent functions.}  
+Cambridge Tracts in Math. and Math. Phys.,  No. 48, Cambridge
+University Press, Cambridge, MR21 \#7301 (1958).
+
+\bibitem{Hummel2} Hummel, J. {\em Lectures on variational methods in the
+theory of univalent functions.}  No. 8, University of Maryland, 1972.
+
+\bibitem{Hummel1} Hummel, J. ``A variational method for starlike functions."
+{\em Proc. Amer. Math. Soc.} {\bf 9} (1958) pp. 82-87.
+
+\bibitem{Jenkins1} Jenkins, J.A.  ``On values omitted by univalent
+functions.''  {\em Amer. J. Math.} {\bf 2} (1953) pp. 406-408.
+
+\bibitem{Krzyz1} Krzyz, J. ``Distortion theorems for bounded convex domains II."
+{\em Ann. Univ. Mariae Curie-Sklodowska, Sect. A.} {\bf 14} (1960) pp 1028-1030.
+
+\bibitem{Lewandowski1} Lewandowski, Z.  ``On circular symmetrization of
+starshaped domains.''  {\em Ann. Univ. Mariae Curie-Sklodowska, Sect.
+A.}  {\bf 17} (1963) pp. 35-38.
+
+\bibitem{Lewis1} Lewis, J.L.  ``On the minimum area problem.''  {\em
+Indiana Univ. Math. J.}  {\bf 34} (1985) pp. 631-661.
+
+\bibitem{Ma1} Ma, J. ``Julia variations for extremal problems of convex univalent functions."
+Ph.D. Dissertation.
+
+\bibitem{MacGregor1} MacGregor, T.H.  ``Geometric problems in complex
+analysis.''  {\em Amer. Math. Monthly.}  {\bf 79} (1972) pp.
+447-468.
+
+\bibitem{Miller1} Miller, S. (ed.).  {\em Complex analysis.}
+(Brockport, NY, 1976), Lecture Notes in Pure and Appl. Math., 
+36, Dekker, New York, (1978).
+
+\bibitem{Mocanu1} Mocanu, P.T. ``Une propri\'et\'e de convexit\'e ge\'en\'eralis\'ee
+la th\'eorie de la repr\'esentation conforme."  {\em Mathematica (Cluj)} {\bf 11}(34)
+(1969) pp. 127-133.
+
+\bibitem{Netanyahu1} Netanyahu, E. ``On univalent functions in the unit disk whose
+image contains a given disk."  {\em J. D'analyse Math.} {\bf 23} (1970) pp. 305-322.
+
+\bibitem{Robertson1} Robertson, M.S. ``Extremal problems for analytic functions with positive
+real part and applications." {\em Trans. Amer. Math. Soc.} {\bf 106} (1963) pp. 236-253.
+
+\bibitem{SchSchSp1} Schaeffer, A.C., Schiffer, M., and Spencer, D.C. ``The coefficient regions
+of schlicht functions." {\em Duke Math J.} {\bf 16} (1949) pp. 493-527.
+
+\bibitem{Schiffer1} Schiffer, M. ``Some recent developments in the theory of
+conformal mapping." Appendix in {\em Dirichlet's Principle}, R. Courant.  Interscience , New York (1967).
+
+\bibitem{Stankiewicz1} Stankiewicz, J.  ``On a family of starlike
+functions.''  {\em Ann. Univ. Mariae Curie-Sklodowska, Sect. A.}
+22-24, (1968-70) pp. 175-181.
+
+\bibitem{Suffridge1} Suffridge, T.  ``A coefficient problem for a class
+of univalent functions.''  {\em Mich. Math. J.}  {\bf 16} (1969) pp
+33-42.
+
+\bibitem{Valentine1} Valentine, F.A.\ {\em Convex Sets}, McGraw-Hill, New
+York, 1964.
+
+\bibitem{Waniurski1} Waniurski, J.  ``On values omitted by convex
+univalent mappings.''  {\em Complex Variables, Theory and Appl.}  
+{\bf 8} (1987) pp. 173-180.
+
+\bibitem{Warshawski1} Warshawski, S.E. ``On Hadamard's variation formula for 
+Green's function."  {\em J. Math. Mech.} {\bf 9} (1960) pp. 497-512.
+
+\bibitem{Zheng1} Zheng, J.\ ``Some extremal problems involving $n$ points
+on the unit circle'', Dissertation, Washington University (St.\
+Louis), 1991.
+
+
+\end{thebibliography}
+
+
+\end{document}
