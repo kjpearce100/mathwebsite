@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Curriculum Vitae: Specialization And Statement Of Research Interests</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Curriculum Vitae: Specialization And Statement Of Research Interests">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Curriculum Vitae Specialization Research Interests">
+
+
+<!--#include file="head.shtml"-->
+
+
+<center>
+<div class=text18red>Curriculum Vitae</div>
+<div class=text12blue>SPECIALIZATION AND STATEMENT OF RESEARCH INTERESTS</div>
+</center>
+
+<pre>
+
+</pre>
+
+<blockquote>
+		My primary research interests lie in problems in geometric function theory and in numerical techniques for constructing conformal mappings.  <p>
+
+		Typically, problems in geometric function theory arise in attempts to formulate analytic solutions for problems initiated via geometric constraints.  My early training was in applying extreme point theory and support theory techniques to maximization problems.  Such techniques proved to be very powerful for linear and convex maximization problems.  Their development in the 70's, of course, was aimed at attacking the Bieberbach conjecture.  While they did not resolve the Bieberbach conjecture (L. deBrange in the early 80's solved the conjecture using alternate techniques), they provided a powerful synthesis for resolving there-to-fore fragmented problems in the theory.  While much of the driving force within the field of geometric function theory was abated with deBrange's solution of the Bieberbach conjecture, two separate focuses have remained:  (1) extensions of old questions and problems to new function classes -- such as univalent harmonic functions and iterable univalent functions; (2) unresolved open problems in classical function theory for which standard techniques have not provided resolution -- such as A. Schild's 2/3 conjecture and the Krzy  conjecture.  <p>
+
+		Much of my recent exploration has shifted, influenced by my colleague Roger W. Barnard, to using variational arguments and techniques to address problems of the type (2).  Our joint explorations have focused on several open problems reviewed in a survey paper of Barnard's "Open problems and conjectures in complex analysis" (in Computational Methods and Function Theory).  We have resolved several of these long-standing, open problems which were targeted in the survey:  Conjecture 8, which was announced in 1985 at the Symposium on the Bieberbach Conjecture, on the integral means of the reciprocal of the derivative of a convex function; Conjecture 14, which was announced in 1978 at the AMS regional conference at Brockport (NY), on the coefficients of bounded starlike functions; and Conjecture 17 on an inequality for confluent hypergeometric functions.  We have made partial progress on others:  Conjecture 7, which was announced in 1985 at the Symposium on the Bieberbach Conjecture, on the extremal domains for omitted arcs from the range of a normalized convex function; Conjecture 15, which was made by A. Schild (2/3 conjecture) in 1953, on the amount of distortion which can occur in the range of a convex function; and Conjecture 16, which was made by D.A. Brannan in 1973, on the odd coefficients of ratios of powers of linear transformations.<p>
+
+		A second area of primary interest for me lies in the development of techniques for the numerical computation of conformal mappings for the forward mapping, i.e., the mapping from the standard domain to the problem domain.  There exists a fairly extensive database in the literature on numerical techniques for computing the inverse mapping (from which the forward mapping can be determined via inversion, if all goes well) and particularly about techniques for computing the boundary correspondence function for the inverse mapping.  (See Journal of Computational and Applied Mathematics, Volume 14.)  The CONFPACK package of D. Hough, etc. is a reasonably general and robust software package for solving the inverse mapping problem.  <p>
+
+		There are numerical methods for computing certain types of forward mappings.  L.N. Trefethen's mapping package SCPACK for numerically solving the parameter problems associated with the Schwarz-Christoffel formula is such an example.  Paper 6) is a modification of Trefethen's SCPACK to develop a software package for computing the forward mapping for functions defined by a gearlike domain.  Invited address 1) is a preliminary presentation on a modification of the techniques in SCPACK and in paper 6) to numerically compute the forward mapping for polygonal domains with rounding allowed at the corners.  (Sharp corners typically  correspond to unrealistic real-world behavior such as turbulence or unbounded electric potential.)  The programming algorithm and the software development for this package are substantially completed.  <p>
+
+		There are two distinct development areas in which I plan to broaden my training.  First, it is becoming increasingly clear from our recent work on the Krzy  conjecture, the Gram polynomials, the Szegö polynomials, etc. that fluency/literacy in the language/domain of Special Functions is a program area that I need to cultivate in order to address yet others of these unresolved open problems.  Second, in the late 80's and early 90's new techniques, stocastic in nature, for numerically computing conformal mappings have been developed by K. Stephenson at Tennessee and others which interest me in their development and implementation and which I intend to explore and investigate.
+
+</blockquote>
+
+<!--#include file="tail.shtml"-->
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="vita-int.shtml"-->
+</div>
+
+</body>
+</html> 

@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Curriculum Vitae: Education</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Curriculum Vitae: Education">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Curriculum Vitae Education">
+
+
+<!--#include file="head.shtml"-->
+
+
+<center>
+<div class=text18red>Curriculum Vitae</div>
+<div class=text12blue>EDUCATION</div>
+</center>
+
+<pre>
+
+</pre>
+
+
+<BLOCKQUOTE>
+<TABLE  width="90%" >
+<TR  valign="top">
+<TD>August 1975-May 1980</TD>
+<TD>State University of New York at Albany<br>
+Ph.D., Mathematics<br>
+Advisor: Louis Brickman</TD>
+</TR>
+<TR  valign="top">
+<TD>September 1972-April 1975</TD>
+<TD>Brigham Young University<br>
+M.S., Mathematics<br>
+Advisor: Douglas Campbell</TD>
+</TR>
+<TR  valign="top">
+<TD>July 1969-May 1972</TD>
+<TD>Brigham Young University<br>
+B.S., Mathematics</TD>
+</TR>
+<TR  valign="top">
+<TD>September 1966-March 1967</TD>
+<TD>Utah State University</TD>
+</TR>
+</TABLE>
+</BLOCKQUOTE>
+
+<!--#include file="tail.shtml"-->
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="vita-edu.shtml"-->
+</div>
+
+</body>
+</html> 

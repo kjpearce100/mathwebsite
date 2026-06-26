@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Curriculum Vitae: Service</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Curriculum Vitae: Service">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Curriculum Vitae Service">
+
+
+<!--#include file="head.shtml"-->
+
+
+<center>
+<div class=text18red>Curriculum Vitae</div>
+<div class=text12blue>SERVICE</div>
+</center>
+
+<pre>
+
+</pre>
+
+
+<ul>
+<li><H4>Departmental Service</h4></li>
+
+<li><H4>College and University Service</h4></li>
+
+<li><h4>Professional Service</h4></li>
+
+<li><h4>Community Service</h4></li>
+
+</ul> 
+
+<!--#include file="tail.shtml"-->
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="vita-srv.shtml"-->
+</div>
+
+</body>
+</html> 

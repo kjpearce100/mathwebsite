@@ -1,0 +1,47 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Curriculum Vitae: Research And/Or Creative Activity</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Curriculum Vitae: Research And/Or Creative Activity">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Curriculum Vitae Research Creative Activity">
+
+
+<!--#include file="head.shtml"-->
+
+
+<center>
+<div class=text18red>Curriculum Vitae</div>
+<div class=text12blue>RESEARCH AND/OR CREATIVE ACTIVITY</div>
+</center>
+
+
+<pre>
+
+</pre>
+
+<UL>
+
+<LI><H4>Software Development</h4></li>
+
+<OL>
+<LI>GLPACK:  a software package, modeled on Trefethen's SCPACK, for numerically computing the conformal mapping from the standard domain (the unit disk) to a "gearlike" domain.  The package GLPACK is publicly available at Email: <a href="mailto:netlib@research.att.com ">netlib@research.att.com</a> 
+</li>
+</ol>
+
+</UL>
+
+<!--#include file="tail.shtml"-->
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="vita-r-4.shtml"-->
+</div>
+
+</body>
+</html> 

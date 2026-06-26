@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN"> 
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Curriculum Vitae: Personal Information</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Curriculum Vitae: Personal Information">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Curriculum Vitae Personal Information">
+
+
+<!--#include file="head.shtml"-->
+
+
+<center>
+<div class=text18red>Curriculum Vitae</div>
+<div class=text12blue>PERSONAL INFORMATION</div>
+</center>
+
+<pre>
+
+</pre>
+
+<BLOCKQUOTE>
+<TABLE  width="90%" >
+<TR valign="top">
+   <TD>
+<EM>Home Address</em>: <br>
+4814 60th Street <br>
+Lubbock, Texas 79414 <br>
+(806) 793-0101 
+</TD>
+   <TD>
+<EM>Office Address</EM>::<br>
+Department of Mathematics<br>
+Texas Tech University<br>
+Lubbock, Texas 79409-1042<br>
+Voice:     (806) 742-2566<br>
+FAX:     (806) 742-1112<br>
+Email: <a href="mailto:pearce@math.ttu.edu ">pearce@math.ttu.edu</a>  
+</TD>
+</TR>
+</TABLE>
+</BLOCKQUOTE>
+
+<!--#include file="tail.shtml"-->
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="vita-per.shtml"-->
+</div>
+
+</body>
+</html> 
