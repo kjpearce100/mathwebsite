@@ -1,0 +1,52 @@
+## Description
+## This is a generic problem template
+## EndDescription
+##
+## KEYWORDS('Sample','Template')
+DOCUMENT();
+# Load whatever macros you need for the problem
+loadMacros("PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl",
+"PGgraphmacros.pl",
+# Uncomment the line below to include some locally-defined macros
+# "Dartmouthmacros.pl"
+);
+# HEADER_TEXT(...); # (optional) used only for inserting javaScript into problems.
+## Do NOT show partial correct answers
+$showPartialCorrectAnswers = 1;
+
+## Lots of set up goes here
+## Ok, we are ready to begin the problem...
+##
+TEXT(beginproblem());
+BEGIN_TEXT
+Problem 40, Section 2.3 page 79.
+$BR$BR
+
+For what value of the constants \( a \) and \( b \) is the function \( f \)
+continuous for all \( x \)
+\[ f( x ) = \begin{cases}
+\frac{(a x -4)}{(x-2)} & \text{ if }  x\neq 2  \quad \quad \\
+b & \text{ if } x=2  \quad \quad  
+ \end{cases}
+\]
+$BR $BR \( a = \) \{ans_rule(25) \}
+$BR $BR \( b = \) \{ans_rule(25) \}
+ 
+
+
+
+
+
+$PAR
+END_TEXT
+
+$ans1 = 2;
+&ANS(std_num_cmp($ans1));
+$ans2 = 2;
+&ANS(std_num_cmp($ans2));
+ 
+ENDDOCUMENT();

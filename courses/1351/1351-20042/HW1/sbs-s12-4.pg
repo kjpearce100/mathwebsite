@@ -1,0 +1,39 @@
+#
+# 12-30-01
+# Find the equation of the line passing through (a,b) and parallel to the
+# line passing through (c,d) and (e,f).
+#
+
+DOCUMENT();
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+ 
+
+
+TEXT(beginproblem());
+
+
+$a = -2;
+$b = -5;
+
+
+BEGIN_TEXT
+Section 1.2, problem 4 page 17. $BR $BR
+
+Find the equation of the horizontal line passing through the point  \( ($a, $b) \) . $BR $BR 
+
+\( y= \)\{ ans_rule(20) \}
+$PAR
+
+END_TEXT
+
+$ans = -5;
+ANS(std_num_cmp($ans));
+
+ENDDOCUMENT();

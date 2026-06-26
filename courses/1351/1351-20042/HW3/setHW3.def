@@ -1,0 +1,16 @@
+setNumber=6
+openDate = 2/2/04 at 6:00am
+dueDate = 2/9/04 at 11:00pm
+answerDate = 2/10/04 at 6:00pm
+paperHeaderFile = sec23/paperHeaderFile.pg
+screenHeaderFile = sec23/screenHeaderFile.pg
+problemList =
+sec23/sbs-s23-15.pg, 1
+sec23/sbs-s23-16.pg, 1
+sec23/sbs-s23-18.pg, 1
+sec23/sbs-s23-22.pg, 1
+sec23/sbs-s23-23.pg, 1
+sec23/sbs-s23-24.pg, 1
+sec23/sbs-s23-39.pg, 1
+sec23/sbs-s23-43.pg, 1
+sec23/sbs-s23-40.pg, 1

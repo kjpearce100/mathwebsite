@@ -1,0 +1,42 @@
+##DESCRIPTION
+##  Algebra problem: solve an absolute value equation
+##ENDDESCRIPTION
+
+##KEYWORDS('algebra', 'equations')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$a = 2;
+$b = 4;
+$c = 16;
+$r1 = 6;
+$r2 = -10;
+
+TEXT(EV2(<<EOT));
+This problem is  Problems 13 page 11 in Section 1.1. $BR $BR
+
+The equation \( |$a x+$b|=$c \) has two solutions.$BR
+$BR  The sum of those two solutions is \{ans_rule(20) \}.
+$BR
+
+$BR
+
+
+EOT
+
+$ans = $r1+$r2;
+&ANS(std_num_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+

@@ -1,0 +1,38 @@
+#
+# 12-30-01
+# Find the equation of the line passing through (a,b) and parallel to the
+# line passing through (c,d) and (e,f).
+#
+
+DOCUMENT();
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+$a = 4;
+$b = 5;
+$c = 2;
+$d = 1;
+$e = 5;
+$f = 9;
+$slope = ($f-$d)/($e-$c);
+$c1=$b-$slope*$a;
+$ans="$c1+x*$slope";
+
+TEXT(beginproblem());
+BEGIN_TEXT
+Section 1.2, problem 12 page 17.$BR$BR
+
+Find the equation of the line (in slope intercept form) passing through the point ($a,$b) and parallel 
+to the line passing through ($c,$d) and ($e,$f). $BR
+y=\{ ans_rule(20) \}
+$PAR
+END_TEXT
+
+ANS(fun_cmp($ans));
+
+ENDDOCUMENT();

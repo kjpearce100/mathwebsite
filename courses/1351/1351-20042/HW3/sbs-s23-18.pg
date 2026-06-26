@@ -1,0 +1,43 @@
+## Description
+## This is a generic problem template
+## EndDescription
+##
+## KEYWORDS('Sample','Template')
+DOCUMENT();
+# Load whatever macros you need for the problem
+loadMacros("PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl",
+"PGgraphmacros.pl",
+# Uncomment the line below to include some locally-defined macros
+# "Dartmouthmacros.pl"
+);
+# HEADER_TEXT(...); # (optional) used only for inserting javaScript into problems.
+## Do NOT show partial correct answers
+$showPartialCorrectAnswers = 1;
+
+## Lots of set up goes here
+## Ok, we are ready to begin the problem...
+##
+TEXT(beginproblem());
+BEGIN_TEXT
+Problem 18, Section 2.3 page 78.
+$BR$BR
+
+The given function is defined for \(x>0\) except for \(x=2\). Find the value to be assigned to \(f(2)\), if any, to guarantee that \(f\) is continuous at \(2\).
+$PAR
+ 
+\[ f( x ) =  \frac{\cos(\pi/x)}{x-2} 
+\]
+$BR $BR \(f(2) = \) \{ans_rule(25) \}
+ 
+
+END_TEXT
+$pi = 3.1416;
+$ans1 = $pi/4;
+&ANS(std_num_cmp($ans1));
+ 
+ 
+ENDDOCUMENT();

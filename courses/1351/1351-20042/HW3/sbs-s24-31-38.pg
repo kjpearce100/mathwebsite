@@ -1,0 +1,58 @@
+##DESCRIPTION
+##KEYWORDS('logarithms')
+##DIFFICULTY('easy')
+##  Evaluate simple expressions involving logs
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$e= 2.718281828;
+
+TEXT(EV2(<<EOT));
+
+These are exercises 31, 32  and 37, 38 on Section 2.4 on page 89.
+$PAR
+Solve the logarithmic and exponential equations.
+$PAR
+(a) \(  3^{x^2-x} =9  \) has two solutions whose sum is   \{ans_rule(10) \}
+EOT
+
+$ans = 1;
+&ANS(std_num_cmp($ans));
+
+TEXT(EV2(<<EOT));
+$PAR
+(b) \( 4^{x^2+x} = 16  \) has two solutions whose sum is   \{ans_rule(10) \}
+EOT
+
+$ans = -1;
+&ANS(std_num_cmp($ans));
+
+TEXT(EV2(<<EOT));
+$PAR
+(c) \(  e^{2x+3} = 1  \)   $BR \( x = \) \{ans_rule(10) \}
+EOT
+
+$ans =-3/2;
+&ANS(std_num_cmp($ans));
+
+TEXT(EV2(<<EOT));
+$PAR
+(d) \(\dfrac{e^{x^2}}{e^{x+6}} = 1  \) has two solutions whose sum is   \{ans_rule(10) \}
+EOT
+
+$ans = 1;
+&ANS(std_num_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.;

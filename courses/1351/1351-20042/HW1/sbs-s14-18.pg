@@ -1,0 +1,34 @@
+##DESCRIPTION
+##KEYWORDS('functions', 'inverse functions')
+##  Find the inverse of a function
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+ 
+$funct1 = "1/(x-2)";
+ 
+BEGIN_TEXT
+This is problem 18, Section 1.4 page 41.$BR$BR
+
+Find the inverse for the function
+$BR $BR
+\(h(x) =\dfrac{2x+1}{x},\  x \neq 0 \) $BR$BR 
+\( h^{-1}( x ) = \) \{ans_rule(40) \}
+ 
+END_TEXT
+
+&ANS(fun_cmp($funct1));
+ 
+ENDDOCUMENT();        # This should be the last executable line in the problem.

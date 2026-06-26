@@ -1,0 +1,42 @@
+## Description
+## This is a generic problem template
+## EndDescription
+##
+## KEYWORDS('Sample','Template')
+DOCUMENT();
+# Load whatever macros you need for the problem
+loadMacros("PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl",
+"PGgraphmacros.pl",
+# Uncomment the line below to include some locally-defined macros
+# "Dartmouthmacros.pl"
+);
+# HEADER_TEXT(...); # (optional) used only for inserting javaScript into problems.
+## Do NOT show partial correct answers
+$showPartialCorrectAnswers = 1;
+
+## Lots of set up goes here
+## Ok, we are ready to begin the problem...
+##
+TEXT(beginproblem());
+BEGIN_TEXT
+Problem 24, Section 2.3 page 78.
+$BR$BR
+
+Determine whether the given function is continuous (C) or not continuous (NC) on the given interval.  Note: your answer should be $BBOLD C $EBOLD or $BBOLD NC $EBOLD.
+$PAR
+ 
+\[f(x)  =  x\sin(x) \text{  on  }  (0,\pi)\]
+$BR $BR   \{ans_rule(25) \}
+ 
+
+END_TEXT
+ 
+$ans1 = "C";
+&ANS(std_str_cmp($ans1));
+ 
+ 
+ENDDOCUMENT();

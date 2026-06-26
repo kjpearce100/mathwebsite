@@ -1,0 +1,47 @@
+##DESCRIPTION
+##  Algebra problem: what is a function
+##ENDDESCRIPTION
+
+##KEYWORDS('algebra', 'definition of function', 'function evaluation')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+$a = 3;
+$b = 2;
+
+TEXT(EV2(<<EOT));
+This is a slightly restated version of problem 18, Section 1.3 page 31. $BR $BR
+
+Given the function \( f(x) = |x|  \), calculate the
+following values (Note: Assume that \(a>1\) and \(0<h<1\) ):$BR
+$BR 
+\(f(a)= \) \{ans_rule(20) \}
+$BR
+\(f(a+h)= \) \{ans_rule(20) \}
+$BR
+\( \displaystyle \frac{f(a+h)-f(a)}{h}= \) \{ans_rule(20) \}
+$BR
+EOT
+
+$ans1 = "a";
+$ans2 = "(a+h)";
+$ans3 = "1";
+
+&ANS(fun_cmp($ans1, var=>['a']));
+&ANS(fun_cmp($ans2, var=>['a','h']));
+&ANS(fun_cmp($ans3, var=>['a','h']));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+
+

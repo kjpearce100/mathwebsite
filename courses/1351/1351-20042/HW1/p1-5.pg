@@ -1,0 +1,39 @@
+#
+# 12-30-01
+#
+# Find the equation of the line which bisects the line segment from (0,0)
+# to (a,b) at a right angle.
+#
+#
+
+DOCUMENT();
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(beginproblem());
+
+$a=2*random(1,6,2);
+$b=2*random(1,6,2);
+
+
+$slope=(-1)*($a/$b);
+$c1=($b/2)-$slope*($a/2);
+
+$ans="$c1+x*$slope";
+
+
+BEGIN_TEXT
+Find the equation of the line which bisects the line segment from (0,0)
+to ($a,$b) at right angles. $BR
+y=\{ ans_rule(20) \}
+$PAR
+END_TEXT
+
+ANS(fun_cmp($ans));
+
+ENDDOCUMENT();

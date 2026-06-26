@@ -1,0 +1,70 @@
+##DESCRIPTION
+##  Algebra problem: domain of function 
+##ENDDESCRIPTION
+
+##KEYWORDS('algebra', 'domain of function')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl",
+"extraAnswerEvaluators.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+
+$a =  5;
+$b = 6;
+
+TEXT(EV2(<<EOT));
+Section 1.3 problem 8 page 31. $BR$BR
+
+The domain of the function
+\[ \sqrt{x^2 + $a x + $b} \]
+$BR
+is \{ans_rule(40)\}
+$BR
+Write the answer in interval notation. $BR 
+$BBOLD Note: $EBOLD
+If the answer includes more than one interval write the intervals separated by the union symbol, U. 
+If needed enter \(-\infty\) as $BITALIC - infinity $EITALIC and \( \infty \) as $BITALIC infinity $EITALIC.
+EOT
+
+
+&ANS(interval_cmp("(-infinity,-3]U[-2,infinity)"));
+
+TEXT(EV2(<<EOT));
+Given the function \( f(x)= \sqrt{x^2 + $a x + $b}\). Calculate the
+following values (Note: if \(x\) is not in the domain type $BITALIC UD $EITALIC  for undefined):
+$BR $BR
+\(f(0)= \) \{ans_rule(15) \}
+$BR 
+\(f(1)= \) \{ans_rule(15) \}
+$BR
+\(f(-2)= \) \{ans_rule(15) \}
+$BR
+EOT
+
+$x1 = 0;
+$x2 = 1;
+$x3 = -2;
+$ans1 = sqrt($x1**2+$a*$x1+$b);
+$ans2 = sqrt($x2**2+$a*$x2+$b);
+$ans3 = sqrt($x3**2+$a*$x3+$b);
+
+&ANS(std_num_cmp($ans1));
+&ANS(std_num_cmp($ans2));
+&ANS(std_num_cmp($ans3));
+
+
+
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+
+

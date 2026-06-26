@@ -1,0 +1,37 @@
+#
+# 12-30-01
+# Find the equation of the line passing through (a,b) and having slope c/d.
+#
+
+DOCUMENT();
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+$a = random(-10,10,1);
+$b = random(-10,10,1);
+$c = random(1,5,1);
+$d = random(1,5,1);
+$slope = $c/$d;
+
+if ($a==$b) {
+    $a=$a+1;
+}
+
+$c1=$b-$slope*$a;
+$ans="$c1+x*$slope";
+
+TEXT(beginproblem());
+BEGIN_TEXT
+Find the equation of the line passing through the point ($a,$b) with slope $c/$d. $BR
+y=\{ ans_rule(20) \}
+$PAR
+END_TEXT
+
+ANS(fun_cmp($ans));
+
+ENDDOCUMENT();

@@ -1,0 +1,40 @@
+##DESCRIPTION
+##  Algebra problem: combining functions
+##ENDDESCRIPTION
+
+##KEYWORDS('algebra', 'combining functions', 'domain')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+ 
+TEXT(EV2(<<EOT));
+This is problem 36, Section 1.3 page 31.$BR$BR
+
+Given that \(f(x)=\sin(x)\) and \(g(x)=1-x^2\), calculate 
+$BR
+(a) \(f\circ g(x)\)= \{ans_rule(15)\}
+$BR  
+(b) \(g\circ f(x)\)= \{ans_rule(15)\} 
+$BR  
+$BR  
+EOT
+
+$ans1 = "sin(1-x**2)";
+$ans2 = "1-sin(x)**2";
+&ANS(fun_cmp($ans1));
+&ANS(fun_cmp($ans2));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+
+

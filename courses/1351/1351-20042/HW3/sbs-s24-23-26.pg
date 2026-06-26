@@ -1,0 +1,59 @@
+##DESCRIPTION
+##KEYWORDS('logarithms')
+##DIFFICULTY('easy')
+##  Evaluate simple expressions involving logs
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+$e= 2.718281828;
+
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+TEXT(EV2(<<EOT));
+
+These are exercises 23 through 26 on Section 2.4 on page 89.
+$PAR
+Solve the logarithmic and exponential equations.
+$PAR
+(a) \(  \log_{x}(16) =2  \) $BR \( x = \) \{ans_rule(10) \}
+EOT
+
+$ans = 4;
+&ANS(std_num_cmp($ans));
+
+TEXT(EV2(<<EOT));
+$PAR
+(b) \( \log (x) = 5.1   \) $BR \( x = \) \{ans_rule(10) \}
+EOT
+
+$ans = 10**(5.1);
+&ANS(std_num_cmp($ans));
+
+TEXT(EV2(<<EOT));
+$PAR
+(c) \(  e^{-3 x} = 0.5  \)   $BR \( x = \) \{ans_rule(10) \}
+EOT
+
+$ans = -1/3*ln(0.5);
+&ANS(std_num_cmp($ans));
+
+TEXT(EV2(<<EOT));
+$PAR
+(d) \( \ln (x^2) = 9  \) $BR \( x = \) \{ans_rule(10) \}
+EOT
+
+$ans = sqrt($e**9);
+&ANS(std_num_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.;

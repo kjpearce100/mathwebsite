@@ -1,0 +1,41 @@
+##DESCRIPTION
+##KEYWORDS('trigonometry')
+##TYPE:  multiple numerical answers
+##  trigonometry, converting degrees to radians and vise versa;
+##ENDDESCRIPTION
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+"PG.pl",
+"PGbasicmacros.pl",
+"PGchoicemacros.pl",
+"PGanswermacros.pl",
+"PGauxiliaryFunctions.pl"
+);
+
+TEXT(&beginproblem);
+$showPartialCorrectAnswers = 1;
+
+
+$pi = 3.1416;
+$theta=165;
+ 
+TEXT(EV2(<<EOT));
+This is problem  46  in Section 1.1 page 11. $BR
+$PAR
+ Use sum and difference formulas from trig to find the exact value $BR
+$PAR
+   \( \sin \left( 165^\circ \right) = \) \{ ans_rule(30) \}
+ 
+
+  
+
+EOT
+$ans = -sqrt(2)/4+sqrt(6)/4;
+ 
+
+# record the answers
+&ANS(std_num_cmp($ans));
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
