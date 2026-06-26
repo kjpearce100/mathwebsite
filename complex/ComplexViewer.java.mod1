@@ -1,0 +1,606 @@
+/*
+	class ComplexViewer (Applet)
+
+	Authors: 
+		Keith Orpen, Math department, University of British Columbia.
+		Porting, interface, and extensions by Djun Kim, Mathematics UBC.
+
+	Revisions:
+	November, 1995
+		- First version -  Keith Orpen
+	December, 1995
+		- Ported to Beta API, cosine and Exp functions added,
+		  user interface improved. - Djun Kim
+	March, 1996
+		- Added Double buffering, cleaned up code. - Djun Kim
+
+	Copyright (c)1995 Keith Orpen.  Extensions copyright (c)1995 Djun Kim.
+	The authors reserve all rights.	  
+
+	December 1999
+		- Corrected sin function.  Added polar coordinates.  Added rect/polar option.  
+		Added adjustable grid sizing. Added adjustable scaling. - Kent Pearce 
+		(Texas Tech University)
+		
+	May 2000
+		- Changed function selection controls to a Choice box allow expanded
+		function selections - Kent Pearce
+
+*/
+
+import java.awt.*;
+import java.awt.event.*;
+import java.applet.*;
+
+public class ComplexViewer extends Applet {
+
+
+	public Image hiddenimagebuffer;
+	public Graphics hiddengraphics;
+
+	public void init() {
+		setLayout(new BorderLayout());
+		ViewPanel vp = new ViewPanel(this);
+
+		add("Center", vp);	 
+		add("North", new ControlsTop(vp));
+		add("South", new ControlsBase(vp));	 
+
+		hiddenimagebuffer = createImage(this.size().width, this.size().height);
+		hiddengraphics = hiddenimagebuffer.getGraphics();
+
+		repaint();
+	}
+
+
+	public boolean handleEvent(Event e) {
+		switch (e.id) {
+		case Event.WINDOW_DESTROY:
+			System.exit(0);
+			return true;
+		default:
+			return false;
+		}
+	}
+
+
+	public static void main(String args[]) {
+		Frame f = new Frame("ComplexViewer");
+		ComplexViewer view = new ComplexViewer();
+		view.init();
+		view.start();
+		f.add("Center", view);
+		f.show();
+	}
+
+}
+
+
+class ViewPanel extends Panel {
+
+	ComplexViewer parent;
+
+	public static final int Idn = 0;
+	public static final int Sin = 1;
+	public static final int Cos = 2;
+	public static final int Exp = 3;
+	public static final int SqF = 4;
+	public static final int BiL = 5;
+	public static final int KbF = 6;
+	public static final int Inv = 7;
+	public static final int Jkw = 8;
+	private int functionG = Sin;
+	 
+	public static final int Rect = 0;
+	public static final int Polar = 1;
+	private int coordtype = Rect;
+
+	public static final int Small = 0;
+	public static final int Large = 2;
+	public int scalevalue;
+
+	public static final int Smaller = 0;
+	public static final int Larger = 2;
+	public int grid;
+
+	public static final int Medium = 1;
+
+	private float scale = 0.015f;
+	private int gridspace = 4;
+	private int gridlines = 3;									/* lines on either side of the center */
+	private int gridsize  = 2 * gridlines + 1;
+	private int gridcircles = 3;								/* circles around the center */
+	private int gridrays = (int) 2 * (Math.round((gridcircles + 1)/2 + 1));
+	private float x1 = 1.0f + gridlines*gridspace;		/* coords of domain grid */
+	private float y1 = 1.0f + gridlines*gridspace;	/* coords of domain grid */
+
+	ViewPanel(ComplexViewer target) {
+		this.parent = target;
+	}
+
+
+	public void init() {
+		resize(450, 400);
+	}
+
+
+	public void start() {
+	}
+
+
+	public void stop() {
+	}
+
+
+	public void destroy() {
+	}
+
+
+	public void setfunctionG(int functionG) {
+		switch (functionG) {
+			case Idn:
+			case Sin: 
+			case Cos:
+			case Exp:
+			case SqF:
+			case BiL:
+			case KbF:
+			case Inv:
+			case Jkw:
+				this.functionG = functionG;
+				repaint();
+				break;
+			default:
+				throw new IllegalArgumentException();
+		}	
+	}
+
+
+	public void setCoordType(int coordtype) {
+		switch (coordtype) {
+			case Rect: 
+			case Polar:
+				this.coordtype = coordtype;
+				repaint();
+				break;
+			default:
+				throw new IllegalArgumentException();
+		}	
+	}
+
+
+	 public void setScaleValue(int scalevalue) {
+	 	float gtemp;
+		float sf = 0.75f; 
+		int gtemp2;
+
+		switch (scalevalue) {
+			case Small:
+				scale = sf*scale;
+				x1 = (x1/sf + (1.0f-1.0f/sf)*size().width/2);
+				y1 = (y1/sf + (1.0f-1.0f/sf)*size().height/2);
+				gridspace = (int) Math.round(gridspace/sf);
+				this.scalevalue = Medium;
+				repaint();
+				break;
+			case Large:
+				scale = scale/sf;
+				x1 = (x1*sf + (1.0f-1.0f*sf)*size().width/2);
+				y1 = (y1*sf + (1.0f-1.0f*sf)*size().height/2);
+				gridspace = (int) Math.round(gridspace*sf);
+				this.scalevalue = Medium;
+				repaint();
+				break;
+			default:
+				throw new IllegalArgumentException();
+		}	
+	}
+
+
+	public void setGridSize(int grid) {
+		switch (grid) {
+			case Smaller:
+				gridlines = gridlines - 1;
+				if (gridlines==0) {
+					gridlines = 1;
+				}
+				gridcircles = gridcircles - 1;
+				if (gridcircles==0) {
+					gridcircles = 1;
+				}
+				gridsize  = 2 * gridlines + 1;
+				gridrays = (int) 2 * (Math.round((gridcircles + 1)/2 + 1));
+				this.grid = Medium;
+				repaint();
+				break;
+			case Larger:
+				gridlines = gridlines + 1;
+				gridcircles = gridcircles + 1;
+				gridsize  = 2 * gridlines + 1;
+				gridrays = (int) 2 * (Math.round((gridcircles + 1)/2 + 1));
+				this.grid = Medium;
+				repaint();
+				break;
+			default:
+				throw new IllegalArgumentException();
+		}	
+	}
+
+
+	/* Re part of the complex function */
+	private double f_re( double re, double im )  {
+		switch (functionG) {
+			case Idn:
+				return re;
+			case Sin:
+				return Math.sin( re ) * (Math.exp( im ) + Math.exp( -im ) )/2;
+			case Cos:
+				return Math.cos( re ) * (Math.exp( im ) + Math.exp( -im ) )/2;
+			case Exp:
+				return Math.exp( re ) * Math.cos( im );
+			case SqF:
+				return re*re - im*im;
+			case BiL:
+				return (re - re*re - im*im)/( (1 - re)*(1- re) + im*im );
+			case KbF:
+				return (re + (-2 +re)*(re*re + im*im))/(((1-re)*(1-re) + im*im)*((1-re)*(1-re) + im*im));
+			case Inv:
+				return re/(re*re + im*im);
+			case Jkw:
+				return re + re/(re*re + im*im);
+			default:
+				throw new IllegalArgumentException();
+		}
+	}
+
+
+	/* do Im part of the complex function */
+	private double f_im( double re, double im )  {
+		switch (functionG) {
+			case Idn:
+				return im;
+			case Sin:
+				return Math.cos( re ) * (Math.exp( im ) - Math.exp( -im ) )/2;
+			case Cos:
+				return Math.sin( re ) * -(Math.exp( im ) - Math.exp( -im ) )/2;
+			case Exp:
+				return (Math.exp( re ) * (Math.sin( im )));
+			case SqF:
+				return 2*re*im;
+			case BiL:
+				return im/( (1-re)*(1-re) + im*im );
+			case KbF:
+				return (im - (im)*(re*re + im*im))/(((1-re)*(1-re) + im*im)*((1-re)*(1-re) + im*im));
+			case Inv:
+				return -im/(re*re+im*im);
+			case Jkw:
+				return im - im/(re*re + im*im);
+			default:
+				throw new IllegalArgumentException();
+		}
+	}
+
+
+	private long pointFValue_x( float x, float y )  {
+		return Math.round(f_re( (x-size().width/2)*scale, 
+				(y-size().height/2)*scale )/scale+size().width/2);
+	}
+
+
+	private long pointFValue_y( float x, float y )  {
+		return Math.round(f_im( (x-size().width/2)*scale,
+				 (y-size().height/2)*scale )/scale+size().height/2);
+	}
+	 
+	public void paint(Graphics g) {
+		int x, y, r;
+		int min_x, max_x, min_y, max_y;
+		double pi = 3.141592653589793;
+		int x2[][] = new int[gridsize][gridsize];
+		int y2[][] = new int[gridsize][gridsize];
+		int x3[][] = new int[gridcircles+1][gridcircles*gridrays];
+		int y3[][] = new int[gridcircles+1][gridcircles*gridrays];
+
+		int unitlen = Math.round(1/scale);
+		int max_r = gridspace * gridcircles;
+
+		int x1i, y1i;
+
+		x1i = (int) Math.round(x1); 
+		y1i = (int) Math.round(y1);
+
+		min_x = (x1i - gridspace * gridlines);
+		max_x = (x1i + gridspace * gridlines);
+		min_y = (y1i - gridspace * gridlines);
+		max_y = (y1i + gridspace * gridlines);
+
+		parent.hiddengraphics.setColor(Color.white);
+		parent.hiddengraphics.fillRect(0,0,size().width,size().height);
+		parent.hiddengraphics.setColor(Color.black);
+		parent.hiddengraphics.drawRect(0,0,size().width-1,size().height-1);
+		parent.hiddengraphics.drawArc(size().width/2-unitlen, size().height/2-unitlen, 
+		unitlen*2, unitlen*2, 0, 360);
+		parent.hiddengraphics.drawLine(size().width/2, 0, size().width/2, size().height-1);
+		parent.hiddengraphics.drawLine(0, size().height/2, size().width-1, size().height/2);
+
+		if (coordtype==Rect) {
+			// Draw the source grid
+			parent.hiddengraphics.setColor(Color.red);
+			for (int i = -gridlines; i <= gridlines; i++)  {
+				x = (x1i + i * gridspace);
+				parent.hiddengraphics.drawLine( x, min_y, x, max_y );
+			}
+
+			for (int i = -gridlines; i <= gridlines; i++)  {
+				y = (y1i + i * gridspace);
+				parent.hiddengraphics.drawLine( min_x, y, max_x, y );
+			}
+
+			// Draw the target (mapped) grid
+			for (int i = 0; i < gridsize; i++)  {
+				x = (x1i + (i - gridlines) * gridspace);
+				for (int j = 0; j < gridsize; j++)  {
+					y = (y1i + (j - gridlines) * gridspace);
+					x2[i][j] = (int) pointFValue_x( x, y );
+					y2[i][j] = (int) pointFValue_y( x, y );
+		 		}
+			}
+
+			parent.hiddengraphics.setColor(Color.blue);
+			for (int i = 0; i < gridsize; i++)  {
+				for (int j = 1; j < gridsize; j++)  {
+					parent.hiddengraphics.drawLine( x2[i][j-1], y2[i][j-1], x2[i][j], y2[i][j] );
+					parent.hiddengraphics.drawLine( x2[j-1][i], y2[j-1][i], x2[j][i], y2[j][i] );
+		 		}
+			}
+		}
+	
+		else {
+			// Draw the source grid
+			parent.hiddengraphics.setColor(Color.red);
+			for (int i = 0; i <= gridrays; i++)  {
+				x = (int) Math.round(x1 + max_r*Math.cos(2*pi*i/gridrays));
+				y = (int) Math.round(y1 + max_r*Math.sin(2*pi*i/gridrays));
+				parent.hiddengraphics.drawLine( x1i, y1i, x, y );
+			}
+
+			for (int i = 1; i <= gridcircles; i++)  {
+				r = i * gridspace;
+				parent.hiddengraphics.drawArc(x1i - r, y1i - r, 2*r, 2*r, 0, 360);
+			}
+
+
+			// Calculate the target (mapped) grid
+			x3[0][0] = (int) pointFValue_x( x1, y1 );
+			y3[0][0] = (int) pointFValue_y( x1, y1 );
+			for (int j = 1; j < gridrays; j++) {
+				x3[0][j] = x3[0][0];
+			 	y3[0][j] = y3[0][0];
+			}
+			for (int i = 1; i <= gridcircles; i++)  {
+				r = i * gridspace;
+		 		for (int j = 0; j < i*gridrays; j++)  {
+					x = (int) Math.round(x1 + r*Math.cos(2*pi*j/(i*gridrays)));
+					y = (int) Math.round(y1 + r*Math.sin(2*pi*j/(i*gridrays)));
+					x3[i][j] = (int) pointFValue_x( x, y );
+					y3[i][j] = (int) pointFValue_y( x, y );
+		 		}
+			}
+
+
+			// Draw the target (mapped) grid
+			parent.hiddengraphics.setColor(Color.blue);
+			for (int j = 0; j < gridrays; j++)  {
+				for (int i = 0; i < gridcircles; i++)  {
+					parent.hiddengraphics.drawLine( x3[i][i*j], y3[i][i*j], x3[i+1][(i+1)*j], y3[i+1][(i+1)*j] );
+		 		}
+			}
+			for (int i = 1; i <= gridcircles; i++)  {
+				for (int j = 0; j < i*gridrays-1; j++)  {
+					parent.hiddengraphics.drawLine( x3[i][j], y3[i][j], x3[i][j+1], y3[i][j+1] );
+		 		}
+			 	parent.hiddengraphics.drawLine( x3[i][i*gridrays-1], y3[i][i*gridrays-1], x3[i][0], y3[i][0] );
+			}
+		}
+
+
+		g.drawImage(parent.hiddenimagebuffer, 0,0, this);
+	}
+
+
+	public void update(Graphics g) {
+		paint(g);
+	}
+
+	 /*
+		Mouse methods
+	 */
+
+	public boolean mouseDown(java.awt.Event evt, int x, int y) {
+		if (inside(x,y)) {
+			x1 = (float) x;
+			y1 = (float) y;
+			repaint();
+		}
+		return true;
+	}
+
+
+	public boolean mouseDrag(java.awt.Event evt, int x, int y) {
+		if (inside(x,y)) {
+			x1 = (float) x;
+			y1 = (float) y;
+			repaint();
+		}
+		return true;
+	}
+}
+
+
+class ControlsTop extends Panel {
+
+	ViewPanel target;
+
+	String st_idn_label = "Idn";
+	String st_sin_label = "Sin";
+	String st_cos_label = "Cos";
+	String st_exp_label = "Exp";
+	String st_sqf_label = "SqF";
+	String st_bil_label = "BiL";
+	String st_kbf_label = "KbF";
+	String st_inv_label = "Inv";
+	String st_jkw_label = "Jkw";  
+
+	Checkbox cb_rect;  
+	Checkbox cb_polar;
+	String st_rect_label = "Rect";
+	String st_polar_label = "Polar";
+
+
+	public ControlsTop (ViewPanel target) {
+		this.target = target;
+		setLayout(new FlowLayout(FlowLayout.CENTER));
+		setBackground(Color.lightGray);
+
+		Choice c = new Choice();
+		c.addItem("Idn");
+		c.addItem("Sin");
+		c.addItem("Cos");
+		c.addItem("Exp");
+		c.addItem("SqF");
+		c.addItem("BiL");
+		c.addItem("KbF");
+		c.addItem("Inv");
+		c.addItem("Jkw");
+		c.addItemListener(item);
+		c.select(1);
+		add(c);
+		
+		add(new Label("     ", Label.RIGHT));
+		add(new Label("Grid Type:", Label.RIGHT));
+
+		CheckboxGroup coordtype_group = new CheckboxGroup();
+		add(cb_rect = new Checkbox(st_rect_label, coordtype_group, true));
+		add(cb_polar = new Checkbox(st_polar_label, coordtype_group, false));
+
+	}
+
+  	ItemListener item = new ItemListener () {
+
+		public void itemStateChanged(ItemEvent item) {
+			if (item.getItem().equals(st_idn_label)) {
+				target.setfunctionG(ViewPanel.Idn);
+			} 
+			else if (item.getItem().equals(st_sin_label)) {
+				target.setfunctionG(ViewPanel.Sin);
+			}
+			else if (item.getItem().equals(st_cos_label)) {
+				target.setfunctionG(ViewPanel.Cos);
+			}
+			else if (item.getItem().equals(st_exp_label)) {
+				target.setfunctionG(ViewPanel.Exp);
+			}
+			else if (item.getItem().equals(st_sqf_label)) {
+				target.setfunctionG(ViewPanel.SqF);
+			}
+			else if (item.getItem().equals(st_bil_label)) {
+				target.setfunctionG(ViewPanel.BiL);
+			}
+			else if (item.getItem().equals(st_kbf_label)) {
+				target.setfunctionG(ViewPanel.KbF);
+			}
+			else if (item.getItem().equals(st_inv_label)) {
+				target.setfunctionG(ViewPanel.Inv);
+			}
+			else if (item.getItem().equals(st_jkw_label)) {
+				target.setfunctionG(ViewPanel.Jkw);
+			}
+		}
+	
+	 };  
+
+
+
+	public void paint(Graphics g) {
+		Rectangle r = bounds();
+	  	g.setColor(Color.lightGray);
+	  	g.draw3DRect(0,0,r.width, r.height, false);
+	}
+
+
+	public boolean action(Event e, Object arg) {
+		if (e.target instanceof Checkbox) {
+			String cbox = ((Checkbox)(e.target)).getLabel();
+		 	if (cbox.equals(st_rect_label)) {
+				target.setCoordType(ViewPanel.Rect);
+			}
+			else if (cbox.equals(st_polar_label)) {
+				target.setCoordType(ViewPanel.Polar);
+			} 	  
+		}
+		return true;
+	}
+}
+
+
+class ControlsBase extends Panel {
+
+	ViewPanel target;
+
+	Checkbox cb_grid_smaller;
+	Checkbox cb_grid_larger;  
+	Checkbox cb_small;
+	Checkbox cb_large;  
+	String st_grid_smaller_label = "-";
+	String st_grid_larger_label = "+";
+	String st_small_label = "In";
+	String st_large_label = "Out";
+
+
+	public ControlsBase (ViewPanel target) {
+		this.target = target;
+		setLayout(new FlowLayout(FlowLayout.CENTER));
+		setBackground(Color.lightGray);
+
+		add(new Label("Grid Size:", Label.RIGHT));
+		CheckboxGroup grid_group = new CheckboxGroup();
+		add(cb_grid_smaller = new Checkbox(st_grid_smaller_label, grid_group, false));
+		add(cb_grid_larger = new Checkbox(st_grid_larger_label, grid_group, false));
+		add(new Label("     ", Label.RIGHT));
+
+		add(new Label("Zoom:", Label.RIGHT));
+		CheckboxGroup scale_group = new CheckboxGroup();
+		add(cb_small = new Checkbox(st_small_label, scale_group, false));
+		add(cb_large = new Checkbox(st_large_label, scale_group, false));
+	}
+
+
+	public void paint(Graphics g) {
+		Rectangle r = bounds();
+		g.setColor(Color.lightGray);
+		g.draw3DRect(0,0,r.width, r.height, false);
+	}
+
+
+	public boolean action(Event e, Object arg) {
+		if (e.target instanceof Checkbox) {
+			String cbox = ((Checkbox)(e.target)).getLabel();
+		 	if (cbox.equals(st_grid_smaller_label)) {
+				target.setGridSize(ViewPanel.Smaller);
+			 }
+			else if (cbox.equals(st_grid_larger_label)) {
+				target.setGridSize(ViewPanel.Larger);
+			 } 	  
+		}
+		if (e.target instanceof Checkbox) {
+			String cbox = ((Checkbox)(e.target)).getLabel();
+		 	if (cbox.equals(st_small_label)) {
+				target.setScaleValue(ViewPanel.Small);
+			}
+			else if (cbox.equals(st_large_label)) {
+				target.setScaleValue(ViewPanel.Large);
+			} 	  
+		}
+		return true;
+	}
+}

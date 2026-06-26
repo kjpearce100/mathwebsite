@@ -1,0 +1,34 @@
+<HTML> 
+
+<HEAD> 
+<TITLE> Complex Function Viewer </TITLE> 
+</HEAD> 
+
+<BODY BGCOLOR="#FFFFFF"> 
+
+<center><H2>Complex Mapping Viewer</h2></center> 
+<hr> 
+The mouse pointer moves a small domain grid (<font color=red>red</font>) around in
+the plane.  The twisted grid (<font color=blue>blue</font>) represents the image
+of the domain grid under the <b>composition</b> of selected mapping functions [ g(f(z)) ]:
+<p>
+
+<center>
+<table border=1 cellpadding=2>
+<tr align=center><td>Identity</td><td>Square</td><td>Cube</td><td>Cardiod</td><td>Sin</td><td>Cos</td><td>Exp</td><td>Invert</td><td>Poisson</td><td>Convex</td><td>Koebe</td><td>Airfoil</td></tr>
+<tr align=center><td><i>z</i></td><td><i>z</i><sup>2</sup></td><td><i>z</i><sup>3</sup></td><td><i>z</i> + (1/2)<i>z</i><sup>2</sup></td><td>sin&nbsp;<i>z</i></td><td>cos&nbsp;<i>z</i></td><td>e<sup><i>z</i></sup></td><td>1/<i>z</i></td><td>(1+<i>z</i>)/(1-<i>z</i>)</td><td><i>z</i>/(1-<i>z</i>)</td><td><i>z</i>/(1-<i>z</i>)<sup>2</sup></td><td><i>z</i> + 1/<i>z</i></td></tr>
+</table>
+</center>
+
+<p> The header menu allows the user to select either rectangular or polar coordinates for the domain grid.  <br>
+The baseline menu allows the user to decrease or increase the size of the domain grid.  Additionally, it allows the user zoom in or out of the viewing area.   
+
+<p> <center> <applet code="ComplexViewer.class" width=500 height=450> </applet> </center> 
+
+<p> <a href="ComplexViewer.java">Source Code</a> for applet.  Code in applet
+corrects and modifies code originally authored by Keith Orpen and Djun Kim
+(University Britsch Columbia).  
+
+</BODY> 
+
+</HTML>
