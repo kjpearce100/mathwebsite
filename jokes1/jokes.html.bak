@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC -//IETF//DTD HTML 3.0//EN>
+
+<HTML>
+
+<head>
+
+<link rel=stylesheet type="text/css" href="jokes.css">
+
+<TITLE>Jokes</TITLE>
+
+<head>
+
+<link rel=stylesheet type="text/css" href="jokes.css">
+<SCRIPT LANGUAGE="JavaScript">
+
+<!-- Begin
+var number = 305;
+var page = Math.floor(number*Math.random() + 1);
+if (page < 10)
+{window.location = "joke-00" + page + ".html";}
+else if (page < 100)
+{window.location = "joke-0" + page + ".html";}
+else
+{window.location = "joke-" + page + ".html";}
+
+// End -->
+</SCRIPT>
+
+
+</html>
