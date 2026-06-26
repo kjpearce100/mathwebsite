@@ -1,0 +1,224 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 3354-20132(001)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 3354-20132(001)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 3354">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 3354<br>
+Differential Equations I<br>
+Spring 2013</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Zill & Cullen<br>
+Differential Equations with Boundary Value Problems<br>
+Cole & Brooks</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam III</span>
+
+<p>
+You may bring a notecard to the exam with review information you have prepared for the exam.
+<p>
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Linear Dynamical Systems
+<li>Hooke's Law
+<li>Newton's Second Law
+<li>Spring/Mass
+<li>Equilibrium Position
+<li>Coordinate System Orientation
+<li>Free Undamped Motion
+<ul>
+	<li>mx" + kx = 0
+	<li>x" + &omega;<sup>2</sup>x = 0
+</ul>
+<li>Alternative Form of Solution
+<ul>
+	<li>Amplitude
+	<li>Phase Angle
+</ul>
+<li>Free Damped Motion
+<ul>
+	<li>mx" + &beta;x' + kx = 0
+	<li>x" + 2&lambda;x' + &omega;<sup>2</sup>x = 0
+</ul>
+<li>Overdamped, Critically Damped, Underdamped
+<li> Driven or Forced Motion
+<ul>
+	<li>mx" + &beta;x' + kx = f(t)
+	<li>x" + 2&lambda;x' + &omega;<sup>2</sup>x = F(t)
+</ul>
+<li>Transient vs Steady-State Solutions
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 6, 9, 10, 21, 22, 26, 29
+</td>
+</tr>
+
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.1.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Definition of Improper Integral
+<li>Basic Definition of Laplace Transform
+<li>Transforms of Basic Functions (Theorem 7.1)
+<li>Exponential Order
+<li>Theorem 7.1.2 Sufficient Condition for Existence
+<li>Laplace Transform of Piece-wise Continuous Function
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 5, 9, 13, 21, 24, 27, 31, 
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Inverse Transforms
+<li>Theorem 7.2.1
+<li>Partial Fraction Expansions and Linearity
+<li>Transforms of Derivatives
+<li>Solving linear initial-value problems
+<ul>
+	<li>Procedure Diagram
+</ul>
+<li>Solve First Order Linear IVPs
+<li>Solve Second Order Linear IVPs 
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 4, 8, 15, 17, 20, 23, 26, 27, 32, 34, 36
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Translation on the <i>s</i>-axis
+<ul>
+	<li>First translation/shifting theorem (Theorem 7.3.1)
+</ul>
+<li>Unit step function
+<li>Piece-wise Defined Functions
+<li>Translation on the <i>t</i>-axis
+<ul>
+	<li>Second translation/shifting theorem (Theorem 7.3.2)
+	<li>Alternative Version of Theorem 7.3.2
+</ul>
+<li>Solving linear initial-value problems
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 6, 9, 10, 11, 14, 16, 18, 19, 22, 24, 26, 29, 37, 41, 43, 44, 47, 63, 65, 68
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.4
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Derivatives of Transforms (Theorem 7.4.1)
+<li>Convolution Theorem (Theorem 7.4.2)
+<li>Transform of a Period Function (Theorem 7.4.3)
+<li>Solving linear initial-value problems
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 6, 9, 11, 13, 21, 23, 50, 51
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 7.5
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Unit Impulse Function
+<li>Dirac Delta Function
+<li>Solving linear initial-value problems
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 3, 6, 9
+</td>
+</tr>
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="3354-20132(001)-rvw3.shtml"-->
+</div>
+
+</body>
+</html> 

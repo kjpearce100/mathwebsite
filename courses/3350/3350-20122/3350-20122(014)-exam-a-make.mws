@@ -1,0 +1,223 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Error" -1 8 1 
+{CSTYLE "" -1 -1 "Courier" 1 10 255 0 255 1 2 2 2 2 2 1 1 1 3 1 }1 1 
+0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 11 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 23 "restart;with(inttran
+s);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7/%)addtableG%(fourierG%+fourie
+rcosG%+fouriersinG%'hankelG%(hilbertG%+invfourierG%+invhilbertG%+invla
+placeG%*invmellinG%(laplaceG%'mellinG%*savetableG" }}}{EXCHG {PARA 0 "
+" 0 "" {TEXT -1 9 "Problem 1" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 71 "restart;with(inttrans);\nf :
+= piecewise(t<3,t+1,t>3,-2);\nlaplace(f,t,s);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7/%)addtableG%(fourierG%+fouriercosG%+fouriersinG%'hank
+elG%(hilbertG%+invfourierG%+invhilbertG%+invlaplaceG%*invmellinG%(lapl
+aceG%'mellinG%*savetableG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG-%*
+PIECEWISEG6$7$,&%\"tG\"\"\"F+F+2F*\"\"$7$!\"#2F-F*" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#,&*&\"\"\"F%%\"sG!\"\"F%*&,&F%F%*&,&*&\"\"'F%F&F%F%F%
+F%F%-%$expG6#,$*&\"\"$F%F&F%F'F%F'F%F&!\"#F%" }}}{EXCHG {PARA 0 "" 0 "
+" {TEXT -1 9 "Problem 2" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 66 "restart;with(inttrans);\nf := (exp(
+-3*t)-5*t^2)^2;\nlaplace( f,t,s);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7
+/%)addtableG%(fourierG%+fouriercosG%+fouriersinG%'hankelG%(hilbertG%+i
+nvfourierG%+invhilbertG%+invlaplaceG%*invmellinG%(laplaceG%'mellinG%*s
+avetableG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG*$),&-%$expG6#,$*&
+\"\"$\"\"\"%\"tGF.!\"\"F.*&\"\"&F.)F/\"\"#F.F0F4F." }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#,(*&\"\"\"F%,&\"\"'F%%\"sGF%!\"\"F%*&\"#?F%,&F(F%\"\"
+$F%!\"$F)*&\"$+'F%F(!\"&F%" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "Prob
+lem 3" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 68 "restart;with(inttrans);\nf := t*exp(-4*t)*cos(5*t);\n
+laplace(f, t, s);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7/%)addtableG%(fo
+urierG%+fouriercosG%+fouriersinG%'hankelG%(hilbertG%+invfourierG%+invh
+ilbertG%+invlaplaceG%*invmellinG%(laplaceG%'mellinG%*savetableG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG*(%\"tG\"\"\"-%$expG6#,$*&\"\"%F
+'F&F'!\"\"F'-%$cosG6#,$*&\"\"&F'F&F'F'F'" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#*&,&*$),&%\"sG\"\"\"\"\"%F)\"\"#F)F)\"#DF)!\"#,(*$)F(F+F)F)*&\"
+\")F)F(F)F)\"\"*!\"\"F)" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "Problem
+ 4" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 70 "restart;with(inttrans);\nf := (t^2-5*t)*Heaviside(t-3
+);\nlaplace(f,t,s);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7/%)addtableG%(
+fourierG%+fouriercosG%+fouriersinG%'hankelG%(hilbertG%+invfourierG%+in
+vhilbertG%+invlaplaceG%*invmellinG%(laplaceG%'mellinG%*savetableG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG*&,&*$)%\"tG\"\"#\"\"\"F+*&\"\"&
+F+F)F+!\"\"F+-%*HeavisideG6#,&F)F+\"\"$F.F+" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#*&-%$expG6#,$*&\"\"$\"\"\"%\"sGF*!\"\"F*,(*&\"\"'F*F+F,
+F,*&F*F**$)F+\"\"#F*F,F**&F3F*F+!\"$F*F*" }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 9 "Problem 5" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 74 "restart;with(inttrans);\nF := (5/s^
+2 - 1/s^3)^2*(s+1);\ninvlaplace(F, s, t);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7/%)addtableG%(fourierG%+fouriercosG%+fouriersinG%'hank
+elG%(hilbertG%+invfourierG%+invhilbertG%+invlaplaceG%*invmellinG%(lapl
+aceG%'mellinG%*savetableG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"FG*&)
+,&*&\"\"&\"\"\"%\"sG!\"#F**&F*F**$)F+\"\"$F*!\"\"F1\"\"#F*,&F+F*F*F*F*
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,$*(\"$?\"!\"\"%\"tG\"\"#,*\"%+:\"
+\"\"*$)F'\"\"$F+F+*&\"#XF+)F'F(F+F&*&\"$+$F+F'F+F+F+F+" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 9 "Problem 6" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 66 "restart;with(inttrans);
+\nF := (5*s-9)/(s^2+2);\ninvlaplace(F, s, t);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#7/%)addtableG%(fourierG%+fouriercosG%+fouriersinG%'hank
+elG%(hilbertG%+invfourierG%+invhilbertG%+invlaplaceG%*invmellinG%(lapl
+aceG%'mellinG%*savetableG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"FG*&,
+&*&\"\"&\"\"\"%\"sGF)F)\"\"*!\"\"F),&*$)F*\"\"#F)F)F0F)F," }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#,&*&\"\"&\"\"\"-%$cosG6#*&\"\"##F&F+%\"tGF&F&F&
+*&#\"\"*F+F&*&F+F,-%$sinGF)F&F&!\"\"" }}}{EXCHG {PARA 0 "" 0 "" {TEXT 
+-1 9 "Problem 7" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 72 "restart;with(inttrans);\nF := (3*s+13)/(s^2+8*
+s+52);\ninvlaplace(F, s, t);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7/%)ad
+dtableG%(fourierG%+fouriercosG%+fouriersinG%'hankelG%(hilbertG%+invfou
+rierG%+invhilbertG%+invlaplaceG%*invmellinG%(laplaceG%'mellinG%*saveta
+bleG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"FG*&,&*&\"\"$\"\"\"%\"sGF)
+F)\"#8F)F),(*$)F*\"\"#F)F)*&\"\")F)F*F)F)\"#_F)!\"\"" }}{PARA 11 "" 1 
+"" {XPPMATH 20 "6#,$*&#\"\"\"\"\"'F&*&-%$expG6#,$*&\"\"%F&%\"tGF&!\"\"
+F&,&*&\"#=F&-%$cosG6#,$*&F'F&F/F&F&F&F&-%$sinGF6F&F&F&F&" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 9 "Problem 8" }}{PARA 0 "" 0 "" {TEXT -1 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 72 "restart;with(inttrans);
+\nF := exp(-5*s)/(s^2*(s+2));\ninvlaplace(F, s, t);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#7/%)addtableG%(fourierG%+fouriercosG%+fouriersinG%'ha
+nkelG%(hilbertG%+invfourierG%+invhilbertG%+invlaplaceG%*invmellinG%(la
+placeG%'mellinG%*savetableG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"FG*
+(-%$expG6#,$*&\"\"&\"\"\"%\"sGF,!\"\"F,F-!\"#,&F-F,\"\"#F,F." }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#,$*&#\"\"\"\"\"#F&*&-%*HeavisideG6#,&%\"tGF&
+\"\"&!\"\"F&,(F.F/F-F&*&-%$expG6#,&F.F&F-F/F&-%%sinhGF+F&F/F&F&F&" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 9 "Problem 9" }}{PARA 0 "" 0 "" {TEXT 
+-1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 223 "restart;with(int
+trans);\node := diff(y(t),t) +3*y(t)=5*t;\ny0 := -2;\nlode := laplace(
+ode, t, s);\nlodes := subs(laplace(y(t),t,s)=Y,y(0)=y0,lode);\nYs := s
+olve(lodes,Y);\nYsp := convert(Ys,parfrac,s);\ny := invlaplace(Ysp, s,
+ t);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7/%)addtableG%(fourierG%+fouri
+ercosG%+fouriersinG%'hankelG%(hilbertG%+invfourierG%+invhilbertG%+invl
+aplaceG%*invmellinG%(laplaceG%'mellinG%*savetableG" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%$odeG/,&-%%diffG6$-%\"yG6#%\"tGF-\"\"\"*&\"\"$F.F*F
+.F.,$*&\"\"&F.F-F.F." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#y0G!\"#" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%lodeG/,(*&%\"sG\"\"\"-%(laplaceG6%-
+%\"yG6#%\"tGF0F(F)F)-F.6#\"\"!!\"\"*&\"\"$F)F*F)F),$*&\"\"&F)F(!\"#F)
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&lodesG/,(*&%\"sG\"\"\"%\"YGF)F)
+\"\"#F)*&\"\"$F)F*F)F),$*&\"\"&F)F(!\"#F)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#YsG,$*(,&\"\"&!\"\"*&\"\"#\"\"\")%\"sGF+F,F,F,F.!\"#
+,&F.F,\"\"$F,F)F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$YspG,(*(\"#8\"
+\"\"\"\"*!\"\",&%\"sGF(\"\"$F(F*F**(\"\"&F(F-F*F,!\"#F(*(F/F(F)F*F,F*F
+*" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"yG,(*&#\"#8\"\"*\"\"\"-%$expG
+6#,$*&\"\"$F*%\"tGF*!\"\"F*F2*(\"\"&F*F0F2F1F*F*#F4F)F2" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 10 "Problem 10" }}{PARA 0 "" 0 "" {TEXT -1 0 
+"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 264 "restart;with(inttrans
+);\node := diff(y(t),t$2) - 3*diff(y(t),t) - 10*y(t)=0;\ny0 := 2; yp0 \+
+:= -1;\nlode := laplace(ode, t, s);\nlodes := subs(laplace(y(t),t,s)=Y
+,y(0)=y0,D(y)(0)=yp0,lode);\nYs := solve(lodes,Y);\nYsp := convert(Ys,
+parfrac,s);\ny := invlaplace(Ysp, s, t);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#7/%)addtableG%(fourierG%+fouriercosG%+fouriersinG%'hankelG%(hilb
+ertG%+invfourierG%+invhilbertG%+invlaplaceG%*invmellinG%(laplaceG%'mel
+linG%*savetableG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$odeG/,(-%%diffG
+6$-%\"yG6#%\"tG-%\"$G6$F-\"\"#\"\"\"*&\"\"$F2-F(6$F*F-F2!\"\"*&\"#5F2F
+*F2F7\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#y0G\"\"#" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%$yp0G!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%%lodeG/,.*&)%\"sG\"\"#\"\"\"-%(laplaceG6%-%\"yG6#%\"tGF2F)F+F+--%\"
+DG6#F06#\"\"!!\"\"*&F)F+-F0F7F+F9*(\"\"$F+F)F+F,F+F9*&F=F+F;F+F+*&\"#5
+F+F,F+F9F8" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&lodesG/,,*&)%\"sG\"\"
+#\"\"\"%\"YGF+F+\"\"(F+*&F*F+F)F+!\"\"*(\"\"$F+F)F+F,F+F/*&\"#5F+F,F+F
+/\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#YsG*&,&\"\"(!\"\"*&\"\"#
+\"\"\"%\"sGF+F+F+,(*$)F,F*F+F+*&\"\"$F+F,F+F(\"#5F(F(" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%$YspG,&*(\"#6\"\"\"\"\"(!\"\",&%\"sGF(\"\"#F(F*F
+(*(\"\"$F(F)F*,&F,F(\"\"&F*F*F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%
+\"yG,&*&#\"#6\"\"(\"\"\"-%$expG6#,$*&\"\"#F*%\"tGF*!\"\"F*F**&#\"\"$F)
+F*-F,6#,$*&\"\"&F*F1F*F*F*F*" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "P
+roblem 11" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 267 "restart;with(inttrans);\node := diff(y(t),t$2) - 1
+0*diff(y(t),t) + 25*y(t) = t;\ny0 := 0; yp0 := -3;\nlode := laplace(od
+e, t, s);\nlodes := subs(laplace(y(t),t,s)=Y,y(0)=y0,D(y)(0)=yp0,lode)
+;\nYs := solve(lodes,Y);\nYsp := convert(Ys,parfrac,s);\ny := invlapla
+ce(Ysp, s, t);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7/%)addtableG%(fouri
+erG%+fouriercosG%+fouriersinG%'hankelG%(hilbertG%+invfourierG%+invhilb
+ertG%+invlaplaceG%*invmellinG%(laplaceG%'mellinG%*savetableG" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%$odeG/,(-%%diffG6$-%\"yG6#%\"tG-%\"$G6$F-
+\"\"#\"\"\"*&\"#5F2-F(6$F*F-F2!\"\"*&\"#DF2F*F2F2F-" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%#y0G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$yp0
+G!\"$" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%lodeG/,.*&)%\"sG\"\"#\"\"
+\"-%(laplaceG6%-%\"yG6#%\"tGF2F)F+F+--%\"DG6#F06#\"\"!!\"\"*&F)F+-F0F7
+F+F9*(\"#5F+F)F+F,F+F9*&F=F+F;F+F+*&\"#DF+F,F+F+*&F+F+*$F(F+F9" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&lodesG/,**&)%\"sG\"\"#\"\"\"%\"YGF+
+F+\"\"$F+*(\"#5F+F)F+F,F+!\"\"*&\"#DF+F,F+F+*&F+F+*$F(F+F0" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#YsG,$*(,&\"\"\"!\"\"*&\"\"$F()%\"sG\"\"#F
+(F(F(F-!\"#,(*$F,F(F(*&\"#5F(F-F(F)\"#DF(F)F)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$YspG,**&\"\"\"F'*&\"#DF')%\"sG\"\"#F'!\"\"F'*(\"#uF'
+F)F-,&F+F'\"\"&F-!\"#F-*(F,F'\"$D\"F-F0F-F-*(F,F'F4F-F+F-F'" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%\"yG,(#\"\"#\"$D\"\"\"\"*&\"#D!\"\"%\"tGF)
+F)*&#F'F(F)*&-%$expG6#,$*&\"\"&F)F-F)F)F),&*&\"$&=F)F-F)F)F)F)F)F)F," 
+}}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "Problem 12" }}{PARA 0 "" 0 "" 
+{TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 305 "restart;wi
+th(inttrans);\node := diff(y(t),t$2) - 6*diff(y(t),t) + 8*y(t)=Heavisi
+de(t-2);\ny0 := 0; yp0 := -1;\nlode := laplace(ode, t, s);\nlodes := s
+ubs(laplace(y(t),t,s)=Y,y(0)=y0,D(y)(0)=yp0,lode);\nYs := solve(lodes,
+Y);\nYsp := convert(Ys,parfrac,s);\ny := invlaplace(Ysp, s, t);\ny := \+
+invlaplace(Ys, s, t);\n\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#7/%)addta
+bleG%(fourierG%+fouriercosG%+fouriersinG%'hankelG%(hilbertG%+invfourie
+rG%+invhilbertG%+invlaplaceG%*invmellinG%(laplaceG%'mellinG%*savetable
+G" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$odeG/,(-%%diffG6$-%\"yG6#%\"tG
+-%\"$G6$F-\"\"#\"\"\"*&\"\"'F2-F(6$F*F-F2!\"\"*&\"\")F2F*F2F2-%*Heavis
+ideG6#,&F-F2F1F7" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#y0G\"\"!" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$yp0G!\"\"" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%%lodeG/,.*&)%\"sG\"\"#\"\"\"-%(laplaceG6%-%\"yG6#%\"t
+GF2F)F+F+--%\"DG6#F06#\"\"!!\"\"*&F)F+-F0F7F+F9*(\"\"'F+F)F+F,F+F9*&F=
+F+F;F+F+*&\"\")F+F,F+F+*&-%$expG6#,$*&F*F+F)F+F9F+F)F9" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%&lodesG/,**&)%\"sG\"\"#\"\"\"%\"YGF+F+F+F+*(\"\"
+'F+F)F+F,F+!\"\"*&\"\")F+F,F+F+*&-%$expG6#,$*&F*F+F)F+F/F+F)F/" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#YsG*(,&-%$expG6#,$*&\"\"#\"\"\"%\"s
+GF-!\"\"F-F.F/F-F.F/,(*$)F.F,F-F-*&\"\"'F-F.F-F/\"\")F-F/" }}{PARA 8 "
+" 1 "" {TEXT -1 61 "Error, (in convert/parfrac) argument not a rationa
+l function\n" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"yG*&%$YspG\"\"\"-%
+&DiracG6#%\"tGF'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"yG,,*&#\"\"\"
+\"\")F(-%*HeavisideG6#,&%\"tGF(\"\"#!\"\"F(F(*&-%$expG6#,$*&\"\"$F(F.F
+(F(F(-%%sinhG6#F.F(F0*&F'F(-F36#,&*&\"\"%F(F.F(F(F)F0F(F(*&#F(F@F(-F36
+#,&*&F/F(F.F(F(F@F0F(F0*&F'F(*&,&F<F0*&F/F(FCF(F(F(-F+6#,&F/F(F.F0F(F(
+F(" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "Problem 13" }}{PARA 0 "" 0 
+"" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 271 "restart
+;with(inttrans);\node := diff(y(t),t$2) - 0*diff(y(t),t) + 16*y(t)=cos
+(3*t);\ny0 := 0; yp0 := -5;\nlode := laplace(ode, t, s);\nlodes := sub
+s(laplace(y(t),t,s)=Y,y(0)=y0,D(y)(0)=yp0,lode);\nYs := solve(lodes,Y)
+;\nYsp := convert(Ys,parfrac,s);\ny := invlaplace(Ysp, s, t);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#7/%)addtableG%(fourierG%+fouriercosG%+
+fouriersinG%'hankelG%(hilbertG%+invfourierG%+invhilbertG%+invlaplaceG%
+*invmellinG%(laplaceG%'mellinG%*savetableG" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$odeG/,&-%%diffG6$-%\"yG6#%\"tG-%\"$G6$F-\"\"#\"\"\"*
+&\"#;F2F*F2F2-%$cosG6#,$*&\"\"$F2F-F2F2" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#y0G\"\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$yp0G!\"&" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%lodeG/,**&)%\"sG\"\"#\"\"\"-%(lapla
+ceG6%-%\"yG6#%\"tGF2F)F+F+--%\"DG6#F06#\"\"!!\"\"*&F)F+-F0F7F+F9*&\"#;
+F+F,F+F+*&F)F+,&*$F(F+F+\"\"*F+F9" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>
+%&lodesG/,(*&)%\"sG\"\"#\"\"\"%\"YGF+F+\"\"&F+*&\"#;F+F,F+F+*&F)F+,&*$
+F(F+F+\"\"*F+!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#YsG,$*(,(%\"s
+G!\"\"*&\"\"&\"\"\")F(\"\"#F,F,\"#XF,F,,&*$F-F,F,\"\"*F,F),&F1F,\"#;F,
+F)F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$YspG,&*(\"\"(!\"\"%\"sG\"\"
+\",&*$)F)\"\"#F*F*\"\"*F*F(F**(F'F(,&\"#NF(F)F(F*,&F,F*\"#;F*F(F*" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"yG,(*&#\"\"\"\"\"(F(-%$cosG6#,$*&
+\"\"$F(%\"tGF(F(F(F(*&#F(F)F(-F+6#,$*&\"\"%F(F0F(F(F(!\"\"*&#\"\"&F7F(
+-%$sinGF4F(F8" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 10 "Problem 14" }}
+{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 300 "restart;with(inttrans);\node := diff(y(t),t$2) - 2*diff(y(t),t)
+ + 1*y(t)=Dirac(t-Pi);\ny0 := 1; yp0 := -1;\nlode := laplace(ode, t, s
+);\nlodes := subs(laplace(y(t),t,s)=Y,y(0)=y0,D(y)(0)=yp0,lode);\nYs :
+= solve(lodes,Y);\nYsp := convert(Ys,parfrac,s);\ny := invlaplace(Ysp,
+ s, t);\ny := invlaplace(Ys, s, t);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#7/%)addtableG%(fourierG%+fouriercosG%+fouriersinG%'hankelG%(hilbertG%
++invfourierG%+invhilbertG%+invlaplaceG%*invmellinG%(laplaceG%'mellinG%
+*savetableG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$odeG/,(-%%diffG6$-%
+\"yG6#%\"tG-%\"$G6$F-\"\"#\"\"\"*&F1F2-F(6$F*F-F2!\"\"F*F2-%&DiracG6#,
+&F-F2%#PiGF6" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#y0G\"\"\"" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%$yp0G!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%%lodeG/,.*&)%\"sG\"\"#\"\"\"-%(laplaceG6%-%\"yG6#%\"tGF2F)F+F+
+--%\"DG6#F06#\"\"!!\"\"*&F)F+-F0F7F+F9*(F*F+F)F+F,F+F9*&F*F+F;F+F+F,F+
+-%$expG6#,$*&F)F+%#PiGF+F9" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&lodes
+G/,,*&)%\"sG\"\"#\"\"\"%\"YGF+F+\"\"$F+F)!\"\"*(F*F+F)F+F,F+F.F,F+-%$e
+xpG6#,$*&F)F+%#PiGF+F." }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#YsG*&,(-%
+$expG6#,$*&%\"sG\"\"\"%#PiGF-!\"\"F-\"\"$F/F,F-F-,(*$)F,\"\"#F-F-*&F4F
+-F,F-F/F-F-F/" }}{PARA 8 "" 1 "" {TEXT -1 61 "Error, (in convert/parfr
+ac) argument not a rational function\n" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%\"yG*&%$YspG\"\"\"-%&DiracG6#%\"tGF'" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"yG,&*&-%$expG6#%\"tG\"\"\",&*&\"\"#F+F*F+F+F+!\"\"F
++F/*(,&F+F+-%*HeavisideG6#,&F*F/%#PiGF+F/F+-F(6#,&F*F+F6F/F+F9F+F+" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "0 0 0" 12 }
+{VIEWOPTS 1 1 0 1 1 1803 1 1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }

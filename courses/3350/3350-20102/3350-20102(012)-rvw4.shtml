@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 3350-20102(012)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 3350-20102(012)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 3350">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 3350<br>
+Higher Mathematics for Engineers and Scientists<br>
+Spring 2010</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Zill & Cullen<br>
+Advanced Engineering Mathematics<br>
+Jones & Bartlett</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Final Exam</span>
+
+<p>
+
+<a href=http://www.math.ttu.edu/~pearce/courses/3350-20102%28012%29-rvw1.shtml>Review from Exam I</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=http://www.math.ttu.edu/~pearce/courses/3350-20102%28012%29-rvw2.shtml>Review from Exam II</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href=http://www.math.ttu.edu/~pearce/courses/3350-20102%28012%29-rvw3.shtml>Review from Exam III</a><br>
+
+<p>
+
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Review of Sequences
+<ul>
+<li>Definition
+<li>Convergence of a Sequence (Limit)
+<li>Arithmetic of Convergence Sequences (of Limits)
+<li>Seven Important Examples
+</ul>
+<li>Infinite Series
+<ul>
+<li>Definition
+<li>Defintion of Convergence
+<li>Divergence Test
+<li>Geometric Series
+<li>Series with Non-Negative Terms (SNNT)
+<ul>
+<li>Comparison Test
+<li>Limit Comparison Test
+<li>Ratio Test
+<li>Root Test
+</ul>
+<li>General Series
+<li>Absolute Convergence
+<li>Generalized Ratio Test
+<li>Generalized Root Test
+<li>Power Series (centered at x<sub>0</sub>)
+<ul>
+<li>Radius of Convergence
+<li>Interval of Convergence
+<li>Term-by-Term Differentiation
+<li>Term-by_Term Integration
+<li>Uniqueness of Series
+<li>Taylor Series
+<li>Arithmetic of Power Series
+<li>Index Manipulation
+<li>Analytic at a Point x<sub>0</sub>
+</ul>
+</ul>
+<li>Second Order Linear Differential Equation
+<li>Ordinary Point vs Singular Point
+<li>Existence Theorem for Solutions at an Ordinary Point
+<li>Power Series Solution Method
+<ul>
+<li>Polynomial Coefficients
+<li>Recursion Relation
+<li>Non-Polynomial Coefficients
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+17, 19, 23, 26
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Regular vs Irregular Singular Points
+<li>Polynomial Coefficients
+<li>Frobenius' Theorem
+<li>Method of Frobenius
+<li>Indicial Equation
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 3, 4, 5, 15, 16, 18 
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 5.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Special Functions
+<li>Bessel Equation (of order &nu;)
+<li>Legendre Equation (or order <i>n</i>)
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+None
+</td>
+</tr>
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="3350-20102(012)-rvw4.shtml"-->
+</div>
+
+</body>
+</html> 

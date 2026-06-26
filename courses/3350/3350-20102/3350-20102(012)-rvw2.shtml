@@ -1,0 +1,243 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 3350-20102(012)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 3350-20102(012)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 3350">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 3350<br>
+Higher Mathematics for Engineers and Scientists<br>
+Spring 2010</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Zill & Cullen<br>
+Advanced Engineering Mathematics<br>
+Jones & Bartlett</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam II</span>
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Initial-Value and Boundary Value Problems
+<li>Existence and Uniqueness of IVP
+<li>Potential Non-Existence/Non-Uniqueness of BVP
+<li>Homogeneous Equations
+<li>Operator Notation
+<li>Vector Space of Solutions of Homogeneous Equation
+<li>Linear Independence of Solutions of Homogeneous Equation
+<li>Theorem 3.3 Wronskian Test for Linear Independence
+<li>Fundamental Set of Solutions
+<li>Superpostion Principle - Non-Homongenous Equations
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+&nbsp;
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Reduction of Order
+<li>Standard Form
+<li>y<sub>2</sub> = u(x)y<sub>1</sub>(x)
+<li><img src=roo.jpg>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+2, 6, 9 ,11
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Linear, Constant Coefficient, Homogeneous
+<li>Auxillary or Characteristic Equation
+<li>Case I:  Distinct Real Roots
+<li>Case II: Repeated Real Roots
+<li>Case III: Complex Conjuate Roots
+<li>Special Cases
+<ul>
+	<li> y" + k<sup>2</sup>y = 0
+	<li> y" - k<sup>2</sup>y = 0
+</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 5, 10, 13, 15, 18, 24, 31, 33, 34
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.4
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Method of Undetermined Coefficients
+<li>Particular Solution L(y) = f(x)
+<ul>
+	<li>f(x) = polynomial
+	<li>f(x) = exponential
+	<li>f(x) = cosine or sine
+</ul>
+<li>Glitch in the Method
+<li>Initial-Value Problem
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+4, 8, 12, 16, 19, 23, 28, 31
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.5
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Variation of Parameters
+<li>Standard Form
+<li>Construction Fundamental Set of Solutions for Homogeneous Problem
+<li>Solution for u<sub>1</sub>' and u<sub>2</sub>'
+<li><img src=vp.jpg>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 6, 8, 11
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.6
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Cauchy-Euler Equation
+<li>Auxillary or Characteristic Equation
+<li>Case I:  Distinct Real Roots
+<li>Case II: Repeated Real Roots
+<li>Case III: Complex Conjuate Roots
+<li>Non-Homogeneous Equations
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 4, 9, 11, 15, 19
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.8
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Linear Dynamical Systems
+<li>Hooke's Law
+<li>Newton's Second Law
+<li>Spring/Mass
+<li>Equilibrium Position
+<li>Coordinate System Orientation
+<li>Free Undamped Motion
+<ul>
+	<li>mx" + kx = 0
+	<li>x" + &omega;<sup>2</sup>x = 0
+</ul>
+<li>Alternative Form of Solution
+<ul>
+	<li>Amplitude
+	<li>Phase Angle
+</ul>
+<li>Free Damped Motion
+<ul>
+	<li>mx" + &beta;x' + kx = 0
+	<li>x" + 2&lambda;x' + &omega;<sup>2</sup>x = 0
+</ul>
+<li>Overdamped, Critically Damped, Underdamped
+<li> Driven or Forced Motion
+<ul>
+	<li>mx" + &beta;x' + kx = f(t)
+	<li>x" + 2&lambda;x' + &omega;<sup>2</sup>x = F(t)
+</ul>
+<li>Transient vs Steady-State Solutions
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 6, 9, 10, 21, 22, 26, 29
+</td>
+</tr>
+
+
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="3350-20102(012)-rvw2.shtml"-->
+</div>
+
+</body>
+</html> 

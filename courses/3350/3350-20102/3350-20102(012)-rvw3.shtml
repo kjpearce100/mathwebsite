@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 3350-20102(012)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 3350-20102(012)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 3350">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 3350<br>
+Higher Mathematics for Engineers and Scientists<br>
+Spring 2010</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Zill & Cullen<br>
+Advanced Engineering Mathematics<br>
+Jones & Bartlett</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam III</span>
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Definition of Improper Integral
+<li>Basic Definition of Laplace Transform
+<li>Transforms of Basic Functions (Theorem 4.1)
+<li>Exponential Order
+<li>Theorem 4.1 Sufficient Condition for Existence
+<li>Laplace Transform of Piece-wise Continuous Function
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 5, 9, 13, 21, 24, 27, 31, 
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Inverse Transforms
+<li>Theorem 4.3
+<li>Partial Fraction Expansions and Linearity
+<li>Transforms of Derivatives
+<li>Solving linear initial-value problems
+<ul>
+	<li>Procedure Diagram
+</ul>
+<li>Solve First Order Linear IVPs
+<li>Solve Second Order Linear IVPs 
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 4, 8, 15, 17, 20, 23, 26, 27, 32, 34, 36
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Translation on the <i>s</i>-axis
+<ul>
+	<li>First translation/shifting theorem (Theorem 4.6)
+</ul>
+<li>Unit step function
+<li>Piece-wise Defined Functions
+<li>Translation on the <i>t</i>-axis
+<ul>
+	<li>Second translation/shifting theorem (Theorem 4.7)
+	<li>Alternative Version of Theorem 4.7
+</ul>
+<li>Solving linear initial-value problems
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 6, 9, 10, 11, 14, 16, 18, 19, 22, 24, 26, 29, 37, 41, 43, 44, 47, 63, 65, 68
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.4
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Derivatives of Transforms (Theorem 4.8)
+<li>Transforms of Integrals
+<li>Convolution Theorem (Theorem 4.9)
+<li>Transform of a Period Function (Theorem 4.10)
+<li>Solving linear initial-value problems
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 6, 9, 11, 13, 21, 23, 50, 51
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.5
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Unit Impulse Function
+<li>Dirac Delta Function
+<li>Solving linear initial-value problems
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 3, 6, 9
+</td>
+</tr>
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="3350-20102(012)-rvw3.shtml"-->
+</div>
+
+</body>
+</html> 

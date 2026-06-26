@@ -1,0 +1,304 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 3350-20122(014)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 3350-20122(014)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 3350">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 3350<br>
+Higher Mathematics for Engineers and Scientists<br>
+Spring 2012</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Zill & Cullen<br>
+Advanced Engineering Mathematics<br>
+Jones & Bartlett</span>
+</td>
+</tr>
+</table>
+
+</center>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam I</span>
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 1.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>definition of a differential equation
+<li>classification
+	<ul>
+		<li>type
+		<li>order
+		<li>linearity
+	</ul>
+<li>notation:  Leibnitz vs. Newton
+<li>definition of a solution of an ODE
+<li>explicit vs implicit solutions
+<li>family of solutions
+	<ul>
+		<li>one-parameter family of solutions
+	</ul>
+
+</ul>
+
+</td>
+<td valign=top width=25% align=left class=text12>
+1-8
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 1.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>initial-value problem (IVP)
+<li>first and second order IVP
+<li>existence and uniqueness
+<li>Theorem 1.1
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+2, 4, 7, 11, 
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 2.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>direction fields
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+&nbsp;
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 2.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>definition of a separable equation
+<li>method of solution
+<li>initial-value problem
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+5, 5, 7, 8, 10, 12, 18, 24-26
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 2.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>definition of a linear equation
+	<ul>
+		<li>homogeneous
+	</ul>
+<li>standard form of a linear equation
+<li>linearity property of solutions of the homogeneous equation
+<li>method of solution
+	<ul>
+		<li>find integrating factor exp(int(p(x)dx))
+		<li>integrate the product of the integrating factor and f(x)
+		<li>formualte the general solution of the linear equation
+	</ul>
+<li>initial-value problem
+<li>functions defined by integration
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 5, 7, 10-12, 14, 16, 18, 25, 26, 29
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 2.4
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>definition of an exact equation
+	<ul>
+		<li>M(x,y)dx + N(x,y)dy = 0
+	</ul>
+<li>criterion for being exact
+<li>method of solution
+<li>initial value problem
+<li>integrating factors
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+2-5, 7-9, 11, 14, 16, 19, 21, 23
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 2.5
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>homogeneous functions
+	<ul>
+		<li>degree
+	</ul>
+<li>homogenous first-order ODE
+<li>method of solution
+	<ul>
+		<li>substitution y = ux
+		<li>substitution x = vy
+	</ul>
+<li>Bernoulli equations
+<li>method of solution
+	<ul>
+		<li>u=y<sup>1-n</sup>
+	</ul>
+<li>reduction to separable
+	<ul>
+		<li>substitution u = Ax + By + C
+	</ul>
+</ul>
+
+</td>
+<td valign=top width=25% align=left class=text12>
+3-4, 6-7, 10-12, 15-16, 21, 23-24, 27-28
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 2.6
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>tangent line approximation
+<li>slope from the direction field
+<li>Euler's Method
+	<ul>
+		<li>y<sub>n+1</sub> = y<sub>n</sub> + h f(x<sub>n</sub>,y<sub>n</sub>)
+	</ul>
+<li>error estimates
+<li>numerical solvers
+</ul>
+
+</td>
+<td valign=top width=25% align=left class=text12>
+None
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 2.7
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>growth/decay linear models
+	<ul>
+		<li>dP/dt = kP
+		<li>half-life
+	</ul>
+<li>Newton's Law of Cooling/Heating
+	<ul>
+		<li>dT/dt = k(T-T<sub>m</sub>)
+		<li>ambient temperature
+	</ul>
+<li>Mixtures
+	<ul>
+		<li>dx/dt = (input rate of salt) - (output rate of salt)
+		<li>inflow volume equals outflow volume
+		<li>inflow volume does not equal the outflow volume
+	</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 5, 11, 14-15, 21, 25
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 2.8
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>population dynamics
+<li>logistic equation
+<li>solution of logistic equation
+<li>modifications of the logistic equation
+</ul>
+
+</td>
+<td valign=top width=25% align=left class=text12>
+None
+</td>
+</tr>
+
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="3350-20122(012)-rvw1.shtml"-->
+</div>
+
+</body>
+</html> 

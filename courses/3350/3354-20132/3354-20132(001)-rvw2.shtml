@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 3.0//EN">
+
+<html> 
+
+<head>
+
+<title>Kent Pearce -- Review: Math 3354-20132(001)</title>
+
+<META HTTP-EQUIV="Description" NAME="Description" CONTENT="Kent Pearce -- Review: Math 3354-20132(001)">
+
+<META HTTP-EQUIV="Keywords" NAME="Keywords" CONTENT="Kent Pearce Homework Math 3354">
+
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="head.shtml"-->
+
+<!-- *********************************************************************************** -->
+
+
+
+<center>
+<table width=75%>
+<tr >
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Math 3354<br>
+Differential Equations I<br>
+Spring 2013</span>
+</td>
+<td valign=top width=25% align=left class=text12>
+<span class=text14blue>Zill & Cullen<br>
+Differential Equations with Boundary Value Problems<br>
+Cole & Brooks</span>
+</td>
+</tr>
+</table>
+<p>
+
+<center>
+
+<span class=text14red>Review Exam II</span>
+
+<p>
+You may bring a notecard to the exam with review information you have prepared for the exam.
+<p>
+
+<table width=75% border=1>
+<tr >
+<td valign=top width=15% align=left class=text12>
+<b>Section</b>
+</td>
+<td valign=top width=60% align=middle class=text12>
+<b>Content&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b>
+</td>
+<td valign=top width=25% align=left class=text12>
+<b>Suggested Problems</b>
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 3.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>growth/decay linear models
+	<ul>
+		<li>dP/dt = kP
+		<li>half-life
+	</ul>
+<li>Newton's Law of Cooling/Heating
+	<ul>
+		<li>dT/dt = k(T-T<sub>m</sub>)
+		<li>ambient temperature
+	</ul>
+<li>Mixtures
+	<ul>
+		<li>dx/dt = (input rate of salt) - (output rate of salt)
+		<li>inflow volume equals outflow volume
+		<li>inflow volume does not equal the outflow volume
+	</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 5, 11, 14-15, 21, 25
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.1
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Initial-Value and Boundary Value Problems
+<li>Existence and Uniqueness of IVP
+<li>Potential Non-Existence/Non-Uniqueness of BVP
+<li>Homogeneous Equations
+<li>Operator Notation
+<li>Vector Space of Solutions of Homogeneous Equation
+<li>Linear Independence of Solutions of Homogeneous Equation
+<li>Theorem 3.3 Wronskian Test for Linear Independence
+<li>Fundamental Set of Solutions
+<li>Superpostion Principle - Non-Homongenous Equations
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+&nbsp;
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.2
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Reduction of Order
+<li>Standard Form
+<li>y<sub>2</sub> = u(x)y<sub>1</sub>(x)
+<li><img src=roo.jpg>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+2, 6, 9 ,11
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.3
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Linear, Constant Coefficient, Homogeneous
+<li>Auxillary or Characteristic Equation
+<li>Case I:  Distinct Real Roots
+<li>Case II: Repeated Real Roots
+<li>Case III: Complex Conjuate Roots
+<li>Special Cases
+<ul>
+	<li> y" + k<sup>2</sup>y = 0
+	<li> y" - k<sup>2</sup>y = 0
+</ul>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+3, 5, 10, 13, 15, 18, 24, 31, 33, 34
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.4
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Method of Undetermined Coefficients
+<li>Particular Solution L(y) = f(x)
+<ul>
+	<li>f(x) = polynomial
+	<li>f(x) = exponential
+	<li>f(x) = cosine or sine
+</ul>
+<li>Glitch in the Method
+<li>Initial-Value Problem
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+4, 8, 12, 16, 19, 23, 28, 31
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.6
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Variation of Parameters
+<li>Standard Form
+<li>Construction Fundamental Set of Solutions for Homogeneous Problem
+<li>Solution for u<sub>1</sub>' and u<sub>2</sub>'
+<li><img src=vp.jpg>
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 2, 6, 8, 11
+</td>
+</tr>
+
+<tr>
+<td valign=top width=15% align=left class=text12>
+Section 4.7
+</td>
+<td valign=top width=60% align=left class=text12>
+<ul>
+<li>Cauchy-Euler Equation
+<li>Auxillary or Characteristic Equation
+<li>Case I:  Distinct Real Roots
+<li>Case II: Repeated Real Roots
+<li>Case III: Complex Conjuate Roots
+<li>Non-Homogeneous Equations
+</ul>
+</td>
+<td valign=top width=25% align=left class=text12>
+1, 4, 9, 11, 15, 19
+</td>
+</tr>
+
+</table>
+
+</center>
+
+<!-- *********************************************************************************** -->
+
+<!--#include file="tail.shtml"-->
+
+
+<!-- *********************************************************************************** -->
+
+
+<p>
+
+<div class=tailer>
+Last modified on: <!--#flastmod file="3354-20132(001)-rvw2.shtml"-->
+</div>
+
+</body>
+</html> 

@@ -1,0 +1,285 @@
+{VERSION 6 0 "IBM INTEL NT" "6.0" }
+{USTYLETAB {CSTYLE "Maple Input" -1 0 "Courier" 0 1 255 0 0 1 0 1 0 0 
+1 0 0 0 0 1 }{CSTYLE "2D Math" -1 2 "Times" 0 1 0 0 0 0 0 0 2 0 0 0 0 
+0 0 1 }{CSTYLE "2D Output" 2 20 "" 0 1 0 0 255 1 0 0 0 0 0 0 0 0 0 1 }
+{PSTYLE "Normal" -1 0 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 
+2 2 1 1 1 1 }1 1 0 0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 
+11 1 {CSTYLE "" -1 -1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }3 3 0 
+0 0 0 1 0 1 0 2 2 0 1 }{PSTYLE "Maple Output" -1 12 1 {CSTYLE "" -1 
+-1 "Times" 1 12 0 0 0 1 2 2 2 2 2 2 1 1 1 1 }1 3 0 0 0 0 1 0 1 0 2 2 
+0 1 }}
+{SECT 0 {EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 8 "restart;" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "with(VectorCalculus):with(linalg):
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 26 "Problem 1 Separable -- IVP" }
+{MPLTEXT 1 0 1 " " }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 76 "ode :=
+ (2*x^4+x^4*y(x)^2)*diff(y(x),x) = x*y(x) - 5*x^2*y(x);\nics := y(1)=2
+;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$odeG/*&,&*&\"\"#\"\"\")%\"xG\"
+\"%F*F**&F+F*)-%\"yG6#F,F)F*F*F*-%%diffG6$F0F,F*,&*&F,F*F0F*F**(\"\"&F
+*)F,F)F*F0F*!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$icsG/-%\"yG6#
+\"\"\"\"\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "factor(lhs(o
+de));factor(rhs(ode));" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#*()%\"xG\"\"
+%\"\"\",&\"\"#F'*$)-%\"yG6#F%F)F'F'F'-%%diffG6$F,F%F'" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#,$*(%\"xG\"\"\"-%\"yG6#F%F&,&F&!\"\"*&\"\"&F&F%F&F
+&F&F+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "int((2+y^2)/y^1,y)
+=int((x-5*x^2)/x^4,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/,&*&\"\"#!
+\"\"%\"yGF&\"\"\"*&F&F)-%#lnG6#F(F)F),&*&F)F)*&F&F))%\"xGF&F)F'F'*&\"
+\"&F)F2F'F)" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "dsolve(\{ode
+,ics\}):" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 16 "Problem 2 Linear" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "ode := x*diff(y(x),x) = -3*y
+(x)+ x^4 +5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$odeG/*&%\"xG\"\"\"-
+%%diffG6$-%\"yG6#F'F'F(,(*&\"\"$F(F,F(!\"\"*$)F'\"\"%F(F(\"\"&F(" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "dsolve(ode);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#/-%\"yG6#%\"xG,(*&\"\"(!\"\"F'\"\"%\"\"\"#\"\"&\"
+\"$F-*&F'!\"$%$_C1GF-F-" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 15 "Proble
+m 3 Exact" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 57 "ode := (x+y(x)
+)^2 + (2*x*y(x)+x^2-(y(x))^3)*diff(y(x),x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$odeG,&*$),&%\"xG\"\"\"-%\"yG6#F)F*\"\"#F*F**&,(*(F.F
+*F)F*F+F*F**$)F)F.F*F**$)F+\"\"$F*!\"\"F*-%%diffG6$F+F)F*F*" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 35 "M := (x+y)^2; N := (2*x*y+x^
+2-y^3);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"MG*$),&%\"xG\"\"\"%\"yG
+F)\"\"#F)" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"NG,(*(\"\"#\"\"\"%\"x
+GF(%\"yGF(F(*$)F)F'F(F(*$)F*\"\"$F(!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 21 "diff(M,y); diff(N,x);" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#,&*&\"\"#\"\"\"%\"xGF&F&*&F%F&%\"yGF&F&" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,&*&\"\"#\"\"\"%\"xGF&F&*&F%F&%\"yGF&F&" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 14 "f := int(N,y);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"fG,(*&)%\"yG\"\"#\"\"\"%\"xGF*F**&)F+F)F*F(F*F**&#F
+*\"\"%F**$)F(F0F*F*!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 28 
+"fpmN := expand(diff(f,x)-M);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%%fp
+mNG,$*$)%\"xG\"\"#\"\"\"!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 17 "g := int(fpmN,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"gG,$*&
+\"\"$!\"\"%\"xGF'F(" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 17 "sol \+
+:= f + g = c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$solG/,**&)%\"yG\"
+\"#\"\"\"%\"xGF+F+*&)F,F*F+F)F+F+*&#F+\"\"%F+*$)F)F1F+F+!\"\"*&#F+\"\"
+$F+*$)F,F7F+F+F4%\"cG" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "ds
+olve(ode):" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 22 "Problem 4 Exact -- \+
+IVP" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 63 "ode := diff(y(x),x) \+
+= 2*y(x)*(1+y(x))*exp(-3*x);\nics := y(0)=2;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$odeG/-%%diffG6$-%\"yG6#%\"xGF,,$**\"\"#\"\"\"F)F0,&F
+0F0F)F0F0-%$expG6#,$*&\"\"$F0F,F0!\"\"F0F0" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$icsG/-%\"yG6#\"\"!\"\"#" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 34 "factor(lhs(ode));factor(rhs(ode));" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#-%%diffG6$-%\"yG6#%\"xGF)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#,$**\"\"#\"\"\"-%\"yG6#%\"xGF&,&F&F&F'F&F&-%$expG6#,$*&
+\"\"$F&F*F&!\"\"F&F&" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 38 "int
+(1/(y*(1+y)),y)=int(2*exp(-3*x),x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#/,&-%#lnG6#%\"yG\"\"\"-F&6#,&F(F)F)F)!\"\",$*&#\"\"#\"\"$F)-%$expG6#,
+$*&F2F)%\"xGF)F-F)F-" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "dso
+lve(\{ode,ics\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\"yG6#%\"xG,$*
+(\"\"#\"\"\"-%$expG6##F*\"\"$F+,&*&F*F+F,F+!\"\"*&F0F+-F-6#,$*&F/F+-F-
+6#,$*&F0F+F'F+F3F+F+F+F+F3F+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 22 "P
+roblem 5 Linear - IVP" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 58 "od
+e := diff(y(x),x)=-2*y(x)+x*exp(-4*x);\nics := y(0) = -1;" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%$odeG/-%%diffG6$-%\"yG6#%\"xGF,,&*&\"\"#\"\"
+\"F)F0!\"\"*&F,F0-%$expG6#,$*&\"\"%F0F,F0F1F0F0" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$icsG/-%\"yG6#\"\"!!\"\"" }}}{EXCHG {PARA 0 "> " 0 "
+" {MPLTEXT 1 0 14 "dsolve(\{ode\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#<#/-%\"yG6#%\"xG*&,&*&#\"\"\"\"\"%F-*&,&F-F-*&\"\"#F-F(F-F-F--%$expG6
+#,$*&F2F-F(F-!\"\"F-F-F8%$_C1GF-F-F3F-" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 18 "dsolve(\{ode,ics\});" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#/-%\"yG6#%\"xG*&,&*&#\"\"\"\"\"%F,*&,&F,F,*&\"\"#F,F'F,F,F,-%$expG6
+#,$*&F1F,F'F,!\"\"F,F,F7#\"\"$F-F7F,F2F," }}}{EXCHG {PARA 0 "" 0 "" 
+{TEXT -1 42 "Problem 6 Constant Coefficient Homogeneous" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 77 "a := 1: b := 10: c := -7:\node := a
+*diff(y(x),x$2) + b*diff(y(x),x)+ c*y(x)=0;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$odeG/,(-%%diffG6$-%\"yG6#%\"xG-%\"$G6$F-\"\"#\"\"\"*
+&\"#5F2-F(6$F*F-F2F2*&\"\"(F2F*F2!\"\"\"\"!" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 21 "p := a*m^2 + b*m + c;" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"pG,(*$)%\"mG\"\"#\"\"\"F**&\"#5F*F(F*F*\"\"(!\"\"" 
+}}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "solve(p,m);" }}{PARA 11 "
+" 1 "" {XPPMATH 20 "6$,&\"\"&!\"\"*&\"\"%\"\"\"\"\"##F(F)F(,&F$F%*&F'F
+(F)F*F%" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "dsolve(ode);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\"yG6#%\"xG,&*&%$_C1G\"\"\"-%$expG6
+#*&,&\"\"&!\"\"*&\"\"%F+\"\"##F+F5F+F+F'F+F+F+*&%$_C2GF+-F-6#,$*&,&F1F
++*&F4F+F5F6F+F+F'F+F2F+F+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 49 "Prob
+lem 7 Constant Coefficient Homogeneous -- IVP" }}}{EXCHG {PARA 0 "> " 
+0 "" {MPLTEXT 1 0 104 "a := 1: b := 10: c := 34:\node := a*diff(y(x),x
+$2) + b*diff(y(x),x)+ c*y(x)=0;\nics := y(0)=2, D(y)(0)=-5;" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%$odeG/,(-%%diffG6$-%\"yG6#%\"xG-%\"$G6$F-
+\"\"#\"\"\"*&\"#5F2-F(6$F*F-F2F2*&\"#MF2F*F2F2\"\"!" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%$icsG6$/-%\"yG6#\"\"!\"\"#/--%\"DG6#F(F)!\"&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "p := a*m^2 + b*m + c;" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,(*$)%\"mG\"\"#\"\"\"F**&\"#5F*F
+(F*F*\"#MF*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "solve(p,m);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$^$!\"&\"\"$^$F$!\"$" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "dsolve(ode);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/-%\"yG6#%\"xG,&*(%$_C1G\"\"\"-%$expG6#,$*&\"\"&F+F'F+!
+\"\"F+-%$sinG6#,$*&\"\"$F+F'F+F+F+F+*(%$_C2GF+F,F+-%$cosGF5F+F+" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "dsolve(\{ode,ics\});" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\"yG6#%\"xG,&*&#\"\"&\"\"$\"\"\"*&-
+%$expG6#,$*&F+F-F'F-!\"\"F--%$sinG6#,$*&F,F-F'F-F-F-F-F-*(\"\"#F-F/F--
+%$cosGF7F-F-" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 75 "Problem 8 Constan
+t Coefficient Non-Homogeneous -- Undetermined Coefficients" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 88 "a := 1: b := -2: c := -8:\node := a
+*diff(y(x),x$2) + b*diff(y(x),x)+ c*y(x) = 4*x-24*x^2;" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%$odeG/,(-%%diffG6$-%\"yG6#%\"xG-%\"$G6$F-\"\"#\"
+\"\"*&F1F2-F(6$F*F-F2!\"\"*&\"\")F2F*F2F6,&*&\"\"%F2F-F2F2*&\"#CF2)F-F
+1F2F6" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 21 "p := a*m^2 + b*m +
+ c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,(*$)%\"mG\"\"#\"\"\"F**&
+F)F*F(F*!\"\"\"\")F," }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "sol
+ve(p,m);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$\"\"%!\"#" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "dsolve(ode);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/-%\"yG6#%\"xG,,*&-%$expG6#,$*&\"\"%\"\"\"F'F0F0F0%$_C2
+GF0F0*&-F+6#,$*&\"\"#F0F'F0!\"\"F0%$_C1GF0F0#\"\"&F/F0*&F7F0F'F0F8*&\"
+\"$F0)F'F7F0F0" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 75 "Problem 9 Const
+ant Coefficient Non-Homogeneous -- Undetermined Coefficients" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 93 "a := 1: b := -6: c := -16:\n
+ode := a*diff(y(x),x$2) + b*diff(y(x),x)+ c*y(x) = 3-20*exp(-2*x);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$odeG/,(-%%diffG6$-%\"yG6#%\"xG-%\"$
+G6$F-\"\"#\"\"\"*&\"\"'F2-F(6$F*F-F2!\"\"*&\"#;F2F*F2F7,&\"\"$F2*&\"#?
+F2-%$expG6#,$*&F1F2F-F2F7F2F7" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 21 "p := a*m^2 + b*m + c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,
+(*$)%\"mG\"\"#\"\"\"F**&\"\"'F*F(F*!\"\"\"#;F-" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 11 "solve(p,m);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+$\"\")!\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "dsolve(ode);
+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\"yG6#%\"xG,(*&-%$expG6#,$*&\"
+\")\"\"\"F'F0F0F0%$_C2GF0F0*&-F+6#,$*&\"\"#F0F'F0!\"\"F0%$_C1GF0F0*&#F
+0\"#!)F0*&,(*&\"#:F0-F+6#,$*&F7F0F'F0F0F0F0\"#;F8*&\"$g\"F0F'F0F8F0F3F
+0F0F8" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 75 "Problem 10  Constant Coe
+fficient Non-Homogeneous -- Variation of Parameters" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 44 "ode := diff(y(x),x$2)+3*diff(y(x),x)+2*y(
+x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$odeG,(-%%diffG6$-%\"yG6#%\"x
+G-%\"$G6$F,\"\"#\"\"\"*&\"\"$F1-F'6$F)F,F1F1*&F0F1F)F1F1" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 12 "dsolve(ode);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/-%\"yG6#%\"xG,&*&%$_C1G\"\"\"-%$expG6#,$F'!\"\"F+F+*&%
+$_C2GF+-F-6#,$*&\"\"#F+F'F+F0F+F+" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 29 "y1 := exp(x); y2 := x*exp(x);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%#y1G-%$expG6#%\"xG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%#y2G*&%\"xG\"\"\"-%$expG6#F&F'" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 33 "y1 := exp(-2*x); y2 := exp(-1*x);" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%#y1G-%$expG6#,$*&\"\"#\"\"\"%\"xGF+!\"\"" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#y2G-%$expG6#,$%\"xG!\"\"" }}}{EXCHG 
+{PARA 0 "> " 0 "" {MPLTEXT 1 0 26 "w := Wronskian([y1,y2],x);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"wGK%'matrixG6#7$7$-%$expG6#,$*&\"
+\"#\"\"\"%\"xGF0!\"\"-F+6#,$F1F27$,$*&F/F0F*F0F2,$F3F2Q(pprint06\"" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 22 "W := simplify(det(w));" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"WG-%$expG6#,$*&\"\"$\"\"\"%\"xGF+!
+\"\"" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 16 "f := 1+exp(1*x);" }
+}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"fG,&\"\"\"F&-%$expG6#%\"xGF&" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 40 "W1 := expand(-y2*f); W2 := e
+xpand(f*y1);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#W1G,&*&%\"xG\"\"\"-
+%$expG6#F'F(!\"\"*&F'F()F)\"\"#F(F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6
+#>%#W2G,&-%$expG6#%\"xG\"\"\"*$)F&\"\"#F*F*" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 45 "u1p := expand(-y2*f/W);u2p := expand(y1*f/W);" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$u1pG,&*&%\"xG\"\"\"-%$expG6#F'!\"\"
+F,F'F," }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$u2pG,&*&\"\"\"F'-%$expG6#
+%\"xG!\"\"F'F'F'" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 34 "u1 := i
+nt(u1p,x);u2 := int(u2p,x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#u1G,
+(*&%\"xG\"\"\"-%$expG6#F'!\"\"F(*&F(F(F)F,F(*&\"\"#F,F'F/F," }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#u2G,&*&\"\"\"F'-%$expG6#%\"xG!\"\"F,F+F'
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 30 "yp := simplify(y1*u1 + \+
+y2*u2);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#ypG,&#\"\"\"\"\"#F'*&#F'
+\"\"'F'-%$expG6#%\"xGF'F'" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 25 "Prob
+lem 11 Euler Equation" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 81 "a \+
+:= 1: b := -5: c := 6:\node := a*x^2*diff(y(x),x$2) + b*x*diff(y(x),x)
+ + c*y(x);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$odeG,(*&)%\"xG\"\"#\"
+\"\"-%%diffG6$-%\"yG6#F(-%\"$G6$F(F)F*F**(\"\"&F*F(F*-F,6$F.F(F*!\"\"*
+&\"\"'F*F.F*F*" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 25 "p := a*m*
+(m-1) + b*m + c;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"pG,(*&%\"mG\"
+\"\",&F'F(F(!\"\"F(F(*&\"\"&F(F'F(F*\"\"'F(" }}}{EXCHG {PARA 0 "> " 0 
+"" {MPLTEXT 1 0 11 "solve(p,m);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6$,&
+\"\"$\"\"\"*$F$#F%\"\"#F%,&F$F%F&!\"\"" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 12 "dsolve(ode);" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\"
+yG6#%\"xG,&*&%$_C1G\"\"\")F',&\"\"$F+*$F.#F+\"\"#F+F+F+*&%$_C2GF+)F',&
+F.F+F/!\"\"F+F+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 32 "Problem 12 Eul
+er Equation -- IVP" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 110 "a :=
+ 1: b := -1: c := -8:\node := a*x^2*diff(y(x),x$2) + b*x*diff(y(x),x) \+
++ c*y(x);\nics := y(1)=-3, D(y)(1)=-4;" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%$odeG,(*&)%\"xG\"\"#\"\"\"-%%diffG6$-%\"yG6#F(-%\"$G6$F(F)F*F*
+*&F(F*-F,6$F.F(F*!\"\"*&\"\")F*F.F*F7" }}{PARA 11 "" 1 "" {XPPMATH 20 
+"6#>%$icsG6$/-%\"yG6#\"\"\"!\"$/--%\"DG6#F(F)!\"%" }}}{EXCHG {PARA 0 "
+> " 0 "" {MPLTEXT 1 0 25 "p := a*m*(m-1) + b*m + c;" }}{PARA 11 "" 1 "
+" {XPPMATH 20 "6#>%\"pG,(*&%\"mG\"\"\",&F'F(F(!\"\"F(F(F'F*\"\")F*" }}
+}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 11 "solve(p,m);" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6$\"\"%!\"#" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 
+0 18 "dsolve(\{ode,ics\});" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\"yG6
+#%\"xG,&*(\"\"%\"\"\"\"\"$!\"\"F'!\"#F-*(\"\"&F+F,F-F'F*F-" }}}{EXCHG 
+{PARA 0 "" 0 "" {TEXT -1 34 "Problem 13 Linear Dynamical System" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 105 "k := 4; m := 6.4/32; b := 1
+.6;\node := m*diff(y(x),x$2)+b*diff(y(x),x)+ k*y(x);\nics := y(0)=-2, \+
+D(y)(0)=5;" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"kG\"\"%" }}{PARA 11 
+"" 1 "" {XPPMATH 20 "6#>%\"mG$\"+++++?!#5" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"bG$\"#;!\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$
+odeG,(*&$\"+++++?!#5\"\"\"-%%diffG6$-%\"yG6#%\"xG-%\"$G6$F1\"\"#F*F**&
+$\"#;!\"\"F*-F,6$F.F1F*F**&\"\"%F*F.F*F*" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%$icsG6$/-%\"yG6#\"\"!!\"#/--%\"DG6#F(F)\"\"&" }}}{EXCHG {PARA 
+0 "> " 0 "" {MPLTEXT 1 0 12 "dsolve(ode);" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#/-%\"yG6#%\"xG,&*(%$_C1G\"\"\"-%$expG6#,$*&\"\"%F+F'F+!
+\"\"F+-%$sinG6#,$*&\"\"#F+F'F+F+F+F+*(%$_C2GF+F,F+-%$cosGF5F+F+" }}}
+{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 18 "dsolve(\{ode,ics\});" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#/-%\"yG6#%\"xG,&*&#\"\"$\"\"#\"\"\"*&-
+%$expG6#,$*&\"\"%F-F'F-!\"\"F--%$sinG6#,$*&F,F-F'F-F-F-F-F5*(F,F-F/F--
+%$cosGF8F-F5" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 36 "Problem 14 Invers
+e Laplace Transform" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 123 "res
+tart;with(inttrans);\nYs := (3*s^2 - 4*s + 8)/( (s+1)^2 * (s^2+4) );\n
+Ysp := convert(Ys,parfrac,s);\ninvlaplace(Ysp, s, t);" }}{PARA 12 "" 
+1 "" {XPPMATH 20 "6#7/%)addtableG%(fourierG%+fouriercosG%+fouriersinG%
+'hankelG%(hilbertG%+invfourierG%+invhilbertG%+invlaplaceG%*invmellinG%
+(laplaceG%'mellinG%*savetableG" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#Y
+sG*(,(*&\"\"$\"\"\")%\"sG\"\"#F)F)*&\"\"%F)F+F)!\"\"\"\")F)F),&F+F)F)F
+)!\"#,&*$F*F)F)F.F)F/" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$YspG,(*&\"
+\"$\"\"\",&%\"sGF(F(F(!\"#F(*(\"\"%F(\"\"&!\"\"F)F/F/*(F.F/,&*&F-F(F*F
+(F(F-F/F(,&*$)F*\"\"#F(F(F-F(F/F(" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#,
+(*&#\"\"%\"\"&\"\"\"-%$cosG6#,$*&\"\"#F(%\"tGF(F(F(F(*&#F.F'F(-%$sinGF
++F(!\"\"*&#F(F'F(*&-%$expG6#,$F/F4F(,&*&\"#:F(F/F(F(F&F4F(F(F(" }}}
+{EXCHG {PARA 0 "" 0 "" {TEXT -1 35 "Problem 15 Laplace Transform -- IV
+P" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 273 "restart;with(inttrans);\node := diff(y(t),t$2) - 7*d
+iff(y(t),t) + 10*y(t)=4*exp(3*t);\ny0 := 0; yp0 := -1;\nlode := laplac
+e(ode, t, s);\nlodes := subs(laplace(y(t),t,s)=Y,y(0)=y0,D(y)(0)=yp0,l
+ode);\nYs := solve(lodes,Y);\nYsp := convert(Ys,parfrac,s);\ny := invl
+aplace(Ysp, s, t);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7/%)addtableG%(f
+ourierG%+fouriercosG%+fouriersinG%'hankelG%(hilbertG%+invfourierG%+inv
+hilbertG%+invlaplaceG%*invmellinG%(laplaceG%'mellinG%*savetableG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$odeG/,(-%%diffG6$-%\"yG6#%\"tG-%\"$
+G6$F-\"\"#\"\"\"*&\"\"(F2-F(6$F*F-F2!\"\"*&\"#5F2F*F2F2,$*&\"\"%F2-%$e
+xpG6#,$*&\"\"$F2F-F2F2F2F2" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#y0G\"
+\"!" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$yp0G!\"\"" }}{PARA 12 "" 1 "
+" {XPPMATH 20 "6#>%%lodeG/,.*&)%\"sG\"\"#\"\"\"-%(laplaceG6%-%\"yG6#%
+\"tGF2F)F+F+--%\"DG6#F06#\"\"!!\"\"*&F)F+-F0F7F+F9*(\"\"(F+F)F+F,F+F9*
+&F=F+F;F+F+*&\"#5F+F,F+F+,$*&\"\"%F+,&F)F+\"\"$F9F9F+" }}{PARA 11 "" 
+1 "" {XPPMATH 20 "6#>%&lodesG/,**&)%\"sG\"\"#\"\"\"%\"YGF+F+F+F+*(\"\"
+(F+F)F+F,F+!\"\"*&\"#5F+F,F+F+,$*&\"\"%F+,&F)F+\"\"$F/F/F+" }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%#YsG,$*(,&\"\"(!\"\"%\"sG\"\"\"F+,&F*F+\"
+\"$F)F),(*$)F*\"\"#F+F+*&F(F+F*F+F)\"#5F+F)F)" }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%$YspG,(*&\"\"\"F'*&\"\"$F',&\"\"&!\"\"%\"sGF'F'F,F'*(
+F+F'F)F,,&F-F'\"\"#F,F,F'*&F0F',&F-F'F)F,F,F," }}{PARA 11 "" 1 "" 
+{XPPMATH 20 "6#>%\"yG,(*&#\"\"\"\"\"$F(-%$expG6#,$*&\"\"&F(%\"tGF(F(F(
+F(*&#F/F)F(-F+6#,$*&\"\"#F(F0F(F(F(F(*&F7F(-F+6#,$*&F)F(F0F(F(F(!\"\"
+" }}}{EXCHG {PARA 0 "" 0 "" {TEXT -1 35 "Problem 16 Laplace Transform \+
+-- IVP" }}{PARA 0 "" 0 "" {TEXT -1 0 "" }}}{EXCHG {PARA 0 "> " 0 "" 
+{MPLTEXT 1 0 275 "restart;with(inttrans);\node := diff(y(t),t$2) - 8*d
+iff(y(t),t) + 12*y(t)=2+4*exp(2*t);\ny0 := 1; yp0 := -2;\nlode := lapl
+ace(ode, t, s);\nlodes := subs(laplace(y(t),t,s)=Y,y(0)=y0,D(y)(0)=yp0
+,lode);\nYs := solve(lodes,Y);\nYsp := convert(Ys,parfrac,s);\ny := in
+vlaplace(Ysp, s, t);" }}{PARA 12 "" 1 "" {XPPMATH 20 "6#7/%)addtableG%
+(fourierG%+fouriercosG%+fouriersinG%'hankelG%(hilbertG%+invfourierG%+i
+nvhilbertG%+invlaplaceG%*invmellinG%(laplaceG%'mellinG%*savetableG" }}
+{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$odeG/,(-%%diffG6$-%\"yG6#%\"tG-%\"$
+G6$F-\"\"#\"\"\"*&\"\")F2-F(6$F*F-F2!\"\"*&\"#7F2F*F2F2,&F1F2*&\"\"%F2
+-%$expG6#,$*&F1F2F-F2F2F2F2" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%#y0G
+\"\"\"" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%$yp0G!\"#" }}{PARA 12 "" 
+1 "" {XPPMATH 20 "6#>%%lodeG/,.*&)%\"sG\"\"#\"\"\"-%(laplaceG6%-%\"yG6
+#%\"tGF2F)F+F+--%\"DG6#F06#\"\"!!\"\"*&F)F+-F0F7F+F9*(\"\")F+F)F+F,F+F
+9*&F=F+F;F+F+*&\"#7F+F,F+F+,$**F*F+,&*&\"\"$F+F)F+F+F*F9F+F)F9,&F)F+F*
+F9F9F+" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%&lodesG/,,*&)%\"sG\"\"#\"
+\"\"%\"YGF+F+\"#5F+F)!\"\"*(\"\")F+F)F+F,F+F.*&\"#7F+F,F+F+,$**F*F+,&*
+&\"\"$F+F)F+F+F*F.F+F)F.,&F)F+F*F.F.F+" }}{PARA 11 "" 1 "" {XPPMATH 
+20 "6#>%#YsG**,**&\"#E\"\"\"%\"sGF)F)\"\"%!\"\"*&\"#7F))F*\"\"#F)F,*$)
+F*\"\"$F)F)F)F*F,,&F*F)F0F,F,,(*$F/F)F)*&\"\")F)F*F)F,F.F)F," }}{PARA 
+11 "" 1 "" {XPPMATH 20 "6#>%$YspG,**&\"\"\"F'*&\"\"'F'%\"sGF'!\"\"F'*(
+\"\"#F'\"\"$F+,&F*F'F)F+F+F+*&F'F'*$),&F*F'F-F+F-F'F+F+*(F.F'F-F+F3F+F
+'" }}{PARA 11 "" 1 "" {XPPMATH 20 "6#>%\"yG,(#\"\"\"\"\"'F'*&#\"\"#\"
+\"$F'-%$expG6#,$*&F(F'%\"tGF'F'F'!\"\"*&#F'F+F'*&-F.6#,$*&F+F'F2F'F'F'
+,&*&F+F'F2F'F'F,F3F'F'F3" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "
+" }}}{EXCHG {PARA 0 "> " 0 "" {MPLTEXT 1 0 0 "" }}}{EXCHG {PARA 0 "> \+
+" 0 "" {MPLTEXT 1 0 0 "" }}}}{MARK "53" 0 }{VIEWOPTS 1 1 0 1 1 1803 1 
+1 1 1 }{PAGENUMBERS 0 1 2 33 1 1 }
