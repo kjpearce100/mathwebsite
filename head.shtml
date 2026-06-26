@@ -3,8 +3,8 @@
 <META http-equiv="PICS-Label" content='(PICS-1.1 "http://www.rsac.org/ratingsv01.html" l gen false comment "RSACi North America Server" r (n 0 s 0 v 0 l 0))'> 
 
 
-<link rel=stylesheet type="text/css" href="http://www.math.ttu.edu/~pearce/includes/basic.css">
-<link rel=stylesheet type="text/css" href="http://www.math.ttu.edu/~pearce/includes/fonts.css">
+<link rel=stylesheet type="text/css" href="includes/basic.css">
+<link rel=stylesheet type="text/css" href="includes/fonts.css">
 
 
 
@@ -21,16 +21,16 @@
 
 </head>
 
-<body background="/~pearce/images/watermark.gif" onLoad="earthquake()"> 
+<body background="images/watermark.gif" onLoad="earthquake()"> 
 
 <layer id="quakenotice_ns" width=300 height=55 bgColor=lightyellow visibility=hide></layer>
 
 
-<script language="JavaScript" src="/~pearce/includes/quake1.js"></script>
+<script language="JavaScript" src="includes/quake1.js"></script>
 
-<!-- <script language="JavaScript" src="/~pearce/includes/snow1.js"></script> -->
+<!-- <script language="JavaScript" src="includes/snow1.js"></script> -->
 
-<script type="text/javascript" src="/~pearce/includes/collapsibletext.js"></script> 
+<script type="text/javascript" src="includes/collapsibletext.js"></script> 
 
 
 <script language="JavaScript">
@@ -55,10 +55,10 @@ function HighLight(url, names)
 
 	<a class=text16bluenone href="http://www.ttu.edu/">Texas Tech University</a><br>
    </center></td>
-   <td><a href="http://www.ttu.edu"><img align=middle src="/~pearce/images/double-t.gif" alt="" border=0></a></td>
+   <td><a href="http://www.ttu.edu"><img align=middle src="images/double-t.gif" alt="" border=0></a></td>
    <td><span class=text><center>
 
-      <a class=mainlink href="/~pearce/home.shtml">Kent Pearce</a> <br>
+      <a class=mainlink href="index.html">Kent Pearce</a> <br>
 
       <hr width="10%"> 
 
