@@ -1,0 +1,254 @@
+body {
+       font-family:      Verdana, Arial;
+       font-size:        10pt;
+       color:            black;
+     }
+
+div {
+       font-family:      Verdana, Arial;
+       font-size:        9pt;
+       color:            black;
+     }
+
+.text36red {
+       font-family:      Times, Times New Roman;
+       font-size:        36pt;
+       color:            red;
+     }
+
+.text30red {
+       font-family:      Times, Times New Roman;
+       font-size:        30pt;
+       color:            red;
+     }
+
+.text26red {
+       font-family:      Times, Times New Roman;
+       font-size:        26pt;
+       color:            red;
+     }
+
+.text22red {
+       font-family:      Times, Times New Roman;
+       font-size:        22pt;
+       color:            red;
+     }
+
+.text18red {
+       font-family:      Times, Times New Roman;
+       font-size:        18pt;
+       color:            red;
+     }
+
+.text18rednone{
+       font-family:      Times, Times New Roman;
+       font-size:        18pt;
+       color:            red;
+       text-decoration:  none;
+     }
+
+.text16red {
+       font-family:      Times, Times New Roman;
+       font-size:        16pt;
+       color:            red;
+     }
+
+.text14red {
+       font-family:      Times, Times New Roman;
+       font-size:        14pt;
+       color:            red;
+     }
+
+.text12red {
+       font-family:      Times, Times New Roman;
+       font-size:        12pt;
+       color:            red;
+     }
+
+.text36blue {
+       font-family:      Times, Times New Roman;
+       font-size:        36pt;
+       color:            midnightblue;
+     }
+
+.text30blue {
+       font-family:      Times, Times New Roman;
+       font-size:        30pt;
+       color:            midnightblue;
+     }
+
+.text26blue {
+       font-family:      Times, Times New Roman;
+       font-size:        26pt;
+       color:            midnightblue;
+     }
+
+.text22blue {
+       font-family:      Times, Times New Roman;
+       font-size:        22pt;
+       color:            midnightblue;
+     }
+
+.text18blue {
+       font-family:      Times, Times New Roman;
+       font-size:        18pt;
+       color:            midnightblue;
+     }
+
+.text16blue {
+       font-family:      Times, Times New Roman;
+       font-size:        16pt;
+       color:            midnightblue;
+     }
+
+.text16bluenone {
+       font-family:      Times, Times New Roman;
+       font-size:        16pt;
+       color:            midnightblue;
+       text-decoration:  none;
+     }
+
+.text14blue {
+       font-family:      Times, Times New Roman;
+       font-size:        14pt;
+       color:            midnightblue;
+     }
+
+.text12blue {
+       font-family:      Times, Times New Roman;
+       font-size:        12pt;
+       color:            midnightblue;
+     }
+
+.text11blue {
+       font-family:      Times, Times New Roman;
+       font-size:        11pt;
+       color:            midnightblue;
+     }
+
+.text10blue {
+       font-family:      Times, Times New Roman;
+       font-size:        10pt;
+       color:            midnightblue;
+     }
+
+.text36 {
+       font-family:      Times, Times New Roman;
+       font-size:        36pt;
+       color:            black;
+     }
+
+.text30 {
+       font-family:      Times, Times New Roman;
+       font-size:        30pt;
+       color:            black;
+     }
+
+.text26 {
+       font-family:      Times, Times New Roman;
+       font-size:        26pt;
+       color:            black;
+     }
+
+.text22 {
+       font-family:      Times, Times New Roman;
+       font-size:        22pt;
+       color:            black;
+     }
+
+.text18 {
+       font-family:      Times, Times New Roman;
+       font-size:        18pt;
+       color:            black;
+     }
+
+.text16 {
+       font-family:      Times, Times New Roman;
+       font-size:        16pt;
+       color:            black;
+     }
+
+.text14 {
+       font-family:      Times, Times New Roman;
+       font-size:        14pt;
+       color:            black;
+     }
+
+.text12 {
+       font-family:      Times, Times New Roman;
+       font-size:        12pt;
+       color:            black;
+     }
+
+.text12a {
+       font-family:      Verdana, Arial;
+       font-size:        12pt;
+       color:            black;
+     }
+
+.text11 {
+       font-family:      Times, Times New Roman;
+       font-size:        11pt;
+       color:            black;
+     }
+
+.text11a {
+       font-family:      Verdana, Arial;
+       font-size:        11pt;
+       color:            black;
+     }
+
+.text10 {
+       font-family:      Times, Times New Roman;
+       font-size:        10pt;
+       color:            black;
+     }
+
+.text10a {
+       font-family:      Verdana, Arial;
+       font-size:        10pt;
+       color:            black;
+     }
+
+.text9 {
+       font-family:      Times, Times New Roman;
+       font-size:        9pt;
+       color:            black;
+     }
+
+.text9a {
+       font-family:      Verdana, Arial;
+       font-size:        9pt;
+       color:            black;
+     }
+
+.text8 {
+       font-family:      Times, Times New Roman;
+       font-size:        8pt;
+       color:            black;
+     }
+
+.text6 {
+       font-family:      Times, Times New Roman;
+       font-size:        6pt;
+       color:            black;
+     }
+
+.fixed12 
+      {
+       font-family:     Courier;
+       font-size:       12pt;
+      }
+
+.fixed10 
+      {
+       font-family:     Courier;
+       font-size:       10pt;
+      }
+
+.fixed09 
+      {
+       font-family:     Courier;
+       font-size:       9pt;
+      }
+
