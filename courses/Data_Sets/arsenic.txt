@@ -1,0 +1,45 @@
+A correlation between toenail and well-water arsenic was 0.67 (p=0.009), and among those with detectable well water levels of arsenic, the Spearman correlation was 0.83 (p=0.0001).  Based on regression analysis of those who had detectable water levels of arsenic, a ten-fold increase in well-water concentrations of arsenic was reflected in about a two-fold increase in toenail concentrations  These results indicate that concentrations of arsenic in toenails reflect use of arsenic-containing drinking water.
+
+Authorization: Contact Authors
+
+Reference:
+Karagas MR, Morris JS, Weiss JE, Spate V, Baskett C, Greenberg ER. Toenail Samples as an Indicator of Drinking Water Arsenic Exposure. Cancer Epidemiology, Biomarkers and Prevention 1996;5:849-852.
+
+Description:  This datafile contains measurements of drinking water and toenail levels of arsenic, as well as related covariates, for 21 individuals with private wells in N.H. This data set can be used to demonstrate regression diagnostics and transformations.
+
+Variable names in order from left to right: 
+        AGE: Age (years).
+        SEX: Sex of person ( 1=Male, 2=Female).
+        DRINKUSE: Household well used for drinking (1=<1/4  2=1/4  3=1/2  4=3/4  5=>3/4).
+        COOKUSE: Household well used for cooking (1=<1/4  2=1/4  3=1/2  4=3/4  5=>3/4).
+        ARSWATER: Arsenic in water (ppm).
+        ARSNAILS: Arsenic in toenails (ppm).
+
+       44          2          5          5     .00087       .119  
+       45          2          4          5     .00021       .118  
+       44          1          5          5          0       .099  
+       66          2          3          5     .00115       .118  
+       37          1          2          5          0       .277  
+       45          2          5          5          0       .358  
+       47          1          5          5     .00013        .08  
+       38          2          4          5     .00069       .158  
+       41          2          3          2     .00039        .31  
+       49          2          4          5          0       .105  
+       72          2          5          5          0       .073  
+       45          2          1          5       .046       .832  
+       53          1          5          5      .0194       .517  
+       86          2          5          5       .137      2.252  
+        8          2          5          5      .0214       .851  
+       32          2          5          5      .0175       .269  
+       44          1          5          5      .0764       .433  
+       63          2          5          5          0       .141  
+       42          1          5          5      .0165       .275  
+       62          1          5          5     .00012       .135  
+       36          1          5          5      .0041       .175  
+
+
+Therese Stukel
+Dartmouth Hitchcock Medical Center
+One Medical Center Dr.
+Lebanon, NH 03756
+e-mail: stukel@dartmouth.edu
