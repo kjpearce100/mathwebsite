@@ -1,0 +1,168 @@
+---
+---
+
+<!DOCTYPE HTML PUBLIC -//IETF//DTD HTML 3.0//EN>
+<HTML>
+
+<head>
+<title>Kent Pearce Web Site</title>
+
+<!-- ****************  Start of Jekyll Include Relative head-iris.shtml ******************* -->
+
+{% include_relative head-iris.shtml %}
+
+<!-- ********* *******  End of Jekyll Include Relative head-irs.shtml ********************* -->
+
+
+
+<!-- Main Section :  Unique to current page : Main Section  -->
+
+<table width=675>
+
+<tr><td colspan=3 align=center><br>Irises which can be suitably grown in Lubbock<br></td></tr>
+
+<tr valign=top>
+<td width=70%>
+
+<table>
+
+<tr valign=top>
+<td><img src="Slide_Show/lacedcotton-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/ladyjean-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/licoricestick-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Laced Cotton</span></td>
+<td align=center><span class=text12><b>Lady Jean</span></td>
+<td align=center><span class=text12><b>Licorice Stick</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/lifeofriley-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/lilreddevil-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/lineup-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Life of Riley</span></td>
+<td align=center><span class=text12><b>Lil' Red Devil</span></td>
+<td align=center><span class=text12><b>Line Up</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/loisrainer-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/lovelydiane-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/lullabyofspring-kp-2.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Lois Rainer</span></td>
+<td align=center><span class=text12><b>Lovely Diane</span></td>
+<td align=center><span class=text12><b>Lullaby of Spring</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/luxurylace-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/madeira-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/margarita-kp-2.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Luxury Lace</span></td>
+<td align=center><span class=text12><b>Madeira</span></td>
+<td align=center><span class=text12><b>Margarita</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><<img src="Slide_Show/maryfrances-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/mirrorimage-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/mobygrape-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Mary Frances</span></td>
+<td align=center><span class=text12><b>Mirror Image</span></td>
+<td align=center><span class=text12><b>Moby Grape</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/monaco-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/moutaninshadows-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/naturalbeauty-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Monaco</span></td>
+<td align=center><span class=text12><b>Mountain in Shadows</span></td>
+<td align=center><span class=text12><b>Natural Beauty</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/nightflame-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/obsession-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/olympiad-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Night Flame</span></td>
+<td align=center><span class=text12><b>Obsession</span></td>
+<td align=center><span class=text12><b>Olympiad</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/opportunity-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/orangeparade-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/orchidcloud-kp-3.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Opportunity</span></td>
+<td align=center><span class=text12><b>Orange Parade</span></td>
+<td align=center><span class=text12><b>Orchid Cloud</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/paradise-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/parislights-kp.jpg" width=225 height=225</td>
+<td></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Paradise</span></td>
+<td align=center><span class=text12><b>Paris Lights</span></td>
+<td align=center><span class=text12></span></td>
+</tr>
+
+</td></tr>
+
+
+</table>
+
+<!-- End Section :  Common to all page : End Section  -->
+
+
+<!-- ****************  Start of Jekyll Include Relative tail-iris.shtml ******************* -->
+
+{% include_relative tail-iris.shtml %}
+
+<!-- *****************  End of Jekyll Include Relative tail-irs.shtml ********************* -->
+
+
+
+</td></tr>
+</table>
+
+</center>
+
+</body>
+
+</html>
+

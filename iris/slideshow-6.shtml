@@ -1,0 +1,156 @@
+---
+---
+
+<!DOCTYPE HTML PUBLIC -//IETF//DTD HTML 3.0//EN>
+<HTML>
+
+<head>
+<title>Kent Pearce Web Site</title>
+
+<!-- ****************  Start of Jekyll Include Relative head-iris.shtml ******************* -->
+
+{% include_relative head-iris.shtml %}
+
+<!-- ********* *******  End of Jekyll Include Relative head-irs.shtml ********************* -->
+
+
+
+<!-- Main Section :  Unique to current page : Main Section  -->
+
+<table width=675>
+
+<tr><td colspan=3 align=center><br>Irises which can be suitably grown in Lubbock<br></td></tr>
+
+<tr valign=top>
+<td width=70%>
+
+<table>
+
+<tr valign=top>
+<td><img src="Slide_Show/steppingout-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/stitchintime-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/stopthemusic-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Stepping Out</span></td>
+<td align=center><span class=text12><b>Stitch in Time</span></td>
+<td align=center><span class=text12><b>Stop the Music</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/strawberrysensation-kp-2.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/streettalk-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/sundaychimes-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Strawberry Sensation</span></td>
+<td align=center><span class=text12><b>Street Talk</span></td>
+<td align=center><span class=text12><b>Sunday Chimes</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/symphonette-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/theatre-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/thickandcreamy-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Symphonette</span></td>
+<td align=center><span class=text12><b>Theatre</span></td>
+<td align=center><span class=text12><b>Thick and Creamy</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/thornbird-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/thunderspirit-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/titansglory-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Thorn Bird</span></td>
+<td align=center><span class=text12><b>Thunder Spirit</span></td>
+<td align=center><span class=text12><b>Titan's Glory</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><<img src="Slide_Show/trevifountain-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/twiceblessed-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/valentinesday-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Trevi Fountain</span></td>
+<td align=center><span class=text12><b>Twice Blessed</span></td>
+<td align=center><span class=text12><b>Valentine's Day</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/vibrant-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/victoriafalls-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/visualarts-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Vibrant</span></td>
+<td align=center><span class=text12><b>Victoria Falls</span></td>
+<td align=center><span class=text12><b>Visual Arts</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/voodoochild-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/wildapache-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/wildginger-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Voodoo Child</span></td>
+<td align=center><span class=text12><b>Wild Apache</span></td>
+<td align=center><span class=text12><b>Wild Ginger</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/winemaster-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/wingsofblue-kp.jpg" width=225 height=225</td>
+<td></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Wine Master</span></td>
+<td align=center><span class=text12><b>Wings of Blue</span></td>
+<td align=center><span class=text12></span></td>
+</tr>
+
+
+</td></tr>
+
+
+</table>
+
+<!-- End Section :  Common to all page : End Section  -->
+
+
+<!-- ****************  Start of Jekyll Include Relative tail-iris.shtml ******************* -->
+
+{% include_relative tail-iris.shtml %}
+
+<!-- *****************  End of Jekyll Include Relative tail-irs.shtml ********************* -->
+
+
+
+</td></tr>
+</table>
+
+</center>
+
+</body>
+
+</html>
+
