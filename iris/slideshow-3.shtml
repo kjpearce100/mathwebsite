@@ -1,0 +1,170 @@
+---
+---
+
+<!DOCTYPE HTML PUBLIC -//IETF//DTD HTML 3.0//EN>
+<HTML>
+
+<head>
+<title>Kent Pearce Web Site</title>
+
+<!-- ****************  Start of Jekyll Include Relative head-iris.shtml ******************* -->
+
+{% include_relative head-iris.shtml %}
+
+<!-- ********* *******  End of Jekyll Include Relative head-irs.shtml ********************* -->
+
+
+
+<!-- Main Section :  Unique to current page : Main Section  -->
+
+<table width=675>
+
+<tr><td colspan=3 align=center><br>Irises which can be suitably grown in Lubbock<br></td></tr>
+
+<tr valign=top>
+<td width=70%>
+
+<table>
+
+<tr valign=top>
+<td><img src="Slide_Show/firesideglow-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/firstimpression-kp-2.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/followthefleet-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Fireside Glow</span></td>
+<td align=center><span class=text12><b>First Impression</span></td>
+<td align=center><span class=text12><b>Follow the Fleet</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/foolishfancy-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/fringebenefits-kp-2.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/fundamental-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Foolish Fancy</span></td>
+<td align=center><span class=text12><b>Fringe Benefits</span></td>
+<td align=center><span class=text12><b>Fundamental</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/gallanttheme-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/georgiagirl-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/grandwaltz-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Gallant Theme</span></td>
+<td align=center><span class=text12><b>Georgia Girl</span></td>
+<td align=center><span class=text12><b>Grand Waltz</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/grecianskies-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/green-eyedlady-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/halloffame-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Grecian Skies</span></td>
+<td align=center><span class=text12><b>Green-eyed Lady</span></td>
+<td align=center><span class=text12><b>Hall of Fame</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><<img src="Slide_Show/handiwork-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/hellsfire-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/hiddenriches-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Handiwork</span></td>
+<td align=center><span class=text12><b>Hell's Fire</span></td>
+<td align=center><span class=text12><b>Hidden Riches</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/hindenburg-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/honeyglazed-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/hottotrot-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Hindenburg</span></td>
+<td align=center><span class=text12><b>Honey Glazed</span></td>
+<td align=center><span class=text12><b>Hot to Trot</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/i.pallida-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/ilovelace-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/immortality-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>i.pallida</span></td>
+<td align=center><span class=text12><b>I Love Lace</span></td>
+<td align=center><span class=text12><b>Immortality</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/intothenight-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/jacaranda-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/joyceterry-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Into the Night</span></td>
+<td align=center><span class=text12><b>Jacaranda</span></td>
+<td align=center><span class=text12><b>Joyce Terry</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/kevin'stheme-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/kissofpeace-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/knock'emdead-kp.jpg" width=225 height=225</td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Kevin's Theme</span></td>
+<td align=center><span class=text12><b>Kiss of Peace</span></td>
+<td align=center><span class=text12><b>Knock 'em Dead</span></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+</td></tr>
+
+
+</table>
+
+<!-- End Section :  Common to all page : End Section  -->
+
+
+<!-- ****************  Start of Jekyll Include Relative tail-iris.shtml ******************* -->
+
+{% include_relative tail-iris.shtml %}
+
+<!-- *****************  End of Jekyll Include Relative tail-irs.shtml ********************* -->
+
+
+
+</td></tr>
+</table>
+
+</center>
+
+</body>
+
+</html>
+
