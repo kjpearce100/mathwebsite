@@ -17,7 +17,7 @@
 
 <!-- Main Section :  Unique to current page : Main Section  -->
 
-<table width=600>
+<table width=675>
 
 <tr valign=top>
 <td width=70%>
@@ -25,9 +25,9 @@
 <table>
 
 <tr valign=top>
-<td><img src="Slide_show\acclamation-kp.jpg" width=200 height=250</a></td>
-<td><img src="Slide_show\alteredstates-kp.jpg" width=200 height=250</a></td>
-<td><img src="Slide_show\armswideopen-kp.jpg" width=200 height=250</a></td>
+<td><img src="Slide_show\acclamation-kp.jpg" width=225 height=225</a></td>
+<td><img src="Slide_show\alteredstates-kp.jpg" width=225 height=225</a></td>
+<td><img src="Slide_show\armswideopen-kp.jpg" width=225 height=225</a></td>
 </tr>
 <tr valign=top>
 <td align=center><span class=text12><b>Acclamation</span></td>
