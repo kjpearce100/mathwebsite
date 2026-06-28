@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE HTML PUBLIC -//IETF//DTD HTML 3.0//EN>
 <HTML>
 
@@ -456,11 +459,6 @@ document.write(date + " " + lmonth + " " + year);
 
 </td></tr>
 
-<tr><td colspan=2><span class=text08>
-<p>&nbsp;
-Last modified on: <!--#flastmod file="quilts.html"-->
-
-</span></td></tr>
 </table>
 
 <!-- End Section :  Common to all page : End Section  -->
@@ -470,7 +468,13 @@ Last modified on: <!--#flastmod file="quilts.html"-->
 
 </center>
 
-</body>
+<div class=tailer>
+Last modified on: {{ site.time | date: "%Y-%m-%d" }}
+</div>
 
-</html>
+<p>
+
+</body> 
+
+</html> 
 
