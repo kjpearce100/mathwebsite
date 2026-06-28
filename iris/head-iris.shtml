@@ -60,15 +60,9 @@ document.write(date + " " + lmonth + " " + year);
 </table>
 
 
-
-<table cellspacing=5>
-<tr valign=top>
-
 <!-- Control Section :  Common to all pages : Control Section  -->
 
-<td><span class=text10a>
-<p>
-
-</span>
-</td><td>
+<table cellspacing=5>
+<tr valign=top><td><span class=text10a><p></span></td>
+<td>
 
