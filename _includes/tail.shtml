@@ -31,7 +31,6 @@ Comments maybe be mailed to: <a class=taillink href=mailto:pearce@math.ttu.edu>k
 </div>
 <p>
 
-<br><br>
 
 <div class=tailer>
 Last modified on: {{ site.time | date: "%Y-%m-%d" }}
