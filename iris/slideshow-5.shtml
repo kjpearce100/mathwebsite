@@ -23,9 +23,9 @@
 <a class=link href="slideshow-1.shtml">Images A-Ca</a> &nbsp;| &nbsp;
 <a class=link href="slideshow-2.shtml">Images Ce-E</a> &nbsp;| &nbsp;
 <a class=link href="slideshow-3.shtml">Images F-K</a> &nbsp;| &nbsp;
-<a class=link HREF="slideshow-4.shtml">Images L-Pa</a> &nbsp;| &nbsp;
-<span class=text10a>Images Pe-Sp</span> &nbsp;|&nbsp;
-<a class=link href="slideshow-6.shtml">Images St-W</a><p>&nbsp;
+<a class=link HREF="slideshow-4.shtml">Images L-Pe</a> &nbsp;| &nbsp;
+<span class=text10a>Images Pi-Sn</span> &nbsp;|&nbsp;
+<a class=link href="slideshow-6.shtml">Images So-Z</a><p>&nbsp;
 </td></tr>
 
 
@@ -35,118 +35,157 @@
 <table>
 
 <tr valign=top>
-<td><img src="Slide_Show/peachandquiet-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/pebblefresh-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/pillowtalk-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/pillowtalk-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/pinballwizard-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/pinkconfetti-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Peach and Quiet</span></td>
-<td align=center><span class=text12><b>Pebble Fresh</span></td>
-<td align=center><span class=text12><b>Pillow Talk</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/pinkconfetti-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/pinkkitten-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/pipinghot-kp.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Pink Confetti</span></td>
-<td align=center><span class=text12><b>Pink Kitten</span></td>
-<td align=center><span class=text12><b>Piping Hot</span></td>
+<td align=center><span class=text12><b>Pillow Talk</span></b></td>
+<td align=center><span class=text12><b>Pinball Wizard</span></b></td>
+<td align=center><span class=text12><b>Pink Confetti</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/playgirl-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/pledgeallegiance-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/prettieprint-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/pinkkitten-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/pipinghot-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/playgirl-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Play Girl</span></td>
-<td align=center><span class=text12><b>Pledge Allegiance</span></td>
-<td align=center><span class=text12><b>Prettie Print</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/rainbowtrail-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/raspberriesandcream-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/returntosender-kp.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Rainbow Trail</span></td>
-<td align=center><span class=text12><b>Raspberries and Cream</span></td>
-<td align=center><span class=text12><b>Return to Sender</span></td>
+<td align=center><span class=text12><b>Pink Kitten</span></b></td>
+<td align=center><span class=text12><b>Piping Hot</span></b></td>
+<td align=center><span class=text12><b>Play Girl</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><<img src="Slide_Show/rollingthunder-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/ron-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/rosanova-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/pledgeallegiance-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/prettieprint-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/princessbride-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Rolling Thunder</span></td>
-<td align=center><span class=text12><b>Ron</span></td>
-<td align=center><span class=text12><b>Rosa Nova</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/royalsatin-kp-3.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/sacramentomountains-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/scentedbubbles-kp.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Royal Satin</span></td>
-<td align=center><span class=text12><b>Sacramento Mountains</span></td>
-<td align=center><span class=text12><b>Scented Bubbles</span></td>
+<td align=center><span class=text12><b>Pledge Allegiance</span></b></td>
+<td align=center><span class=text12><b>Prettie Print</span></b></td>
+<td align=center><span class=text12><b>Princess Bride</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/shineonthru-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/silverado-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/skyhooks-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/pulsar-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/purepizzaza-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/quietreflections-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Shine on Thru</span></td>
-<td align=center><span class=text12><b>Silverado</span></td>
-<td align=center><span class=text12><b>Sky Hooks</span></td>
+<td align=center><span class=text12><b>Pulsar</span></b></td>
+<td align=center><span class=text12><b>Pure Pizzaza</span></b></td>
+<td align=center><span class=text12><b>Quiet Reflections</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/rainbowtrail-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/raspberriesandcream-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/returntosender-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Rainbow Trail</span></b></td>
+<td align=center><span class=text12><b>Raspberries and Cream</span></b></td>
+<td align=center><span class=text12><b>Return to Sender</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/skyking-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/smokerings-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/songofnorway-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/rollingthunder-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/romanticevening-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/ron-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Sky King</span></td>
-<td align=center><span class=text12><b>Smoke Rings</span></td>
-<td align=center><span class=text12><b>Song of Norway</span></td>
+<td align=center><span class=text12><b>Rolling Thunder</span></b></td>
+<td align=center><span class=text12><b>Romantic Evening</span></b></td>
+<td align=center><span class=text12><b>Ron</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/rosanova-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/royalsatin-kp-3.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/sacramentomountains-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Rosa Nova</span></b></td>
+<td align=center><span class=text12><b>Royal Satin</span></b></td>
+<td align=center><span class=text12><b>Sacramento Mountains</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/sailorswarning-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/scentedbubbles-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/scentednutmet-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Sailor's Warning</span></b></td>
+<td align=center><span class=text12><b>Scented Bubbles</span></b></td>
+<td align=center><span class=text12><b>Scented Nutmet</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/scentedwonder-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/scoonchee-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/seakist-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Scented Wonder</span></b></td>
+<td align=center><span class=text12><b>Scoonchee</span></b></td>
+<td align=center><span class=text12><b>Seakist</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/secondhelping-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/shineonthru-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/silverado-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Second Helping</span></b></td>
+<td align=center><span class=text12><b>Shine on Thru</span></b></td>
+<td align=center><span class=text12><b>Silverado</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/silverskates.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/skyhooks-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/skyking-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Silver Skates.jpg</span></b></td>
+<td align=center><span class=text12><b>Sky Hooks</span></b></td>
+<td align=center><span class=text12><b>Sky King</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 
 <tr valign=top>
-<td><img src="Slide_Show/spoontime-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/springromance-kp-2.jpg" width=225 height=225</td>
-<td></td>
+<td><img src="Slide_Show/smokerings-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/snowedin-kp.jpg" width=225 height=225></td>
+<td align=center><span class=text12></span></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Spoon Time</span></td>
-<td align=center><span class=text12><b>Spring Romance</span></td>
+<td align=center><span class=text12><b>Smoke Rings</span></b></td>
+<td align=center><span class=text12><b>Snowed In</span></b></td>
 <td align=center><span class=text12></span></td>
 </tr>
 

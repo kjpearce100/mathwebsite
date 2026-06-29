@@ -23,9 +23,9 @@
 <a class=link href="slideshow-1.shtml">Images A-Ca</a> &nbsp;| &nbsp;
 <span class=text10a>Images Ce-E</span> &nbsp;| &nbsp;
 <a class=link href="slideshow-3.shtml">Images F-K</a> &nbsp;| &nbsp;
-<a class=link HREF="slideshow-4.shtml">Images L-Pa</a> &nbsp;| &nbsp;
-<a class=link href="slideshow-5.shtml">Images Pe-Sp</a> &nbsp;|&nbsp;
-<a class=link href="slideshow-6.shtml">Images St-W</a><p>&nbsp;
+<a class=link HREF="slideshow-4.shtml">Images L-Pe</a> &nbsp;| &nbsp;
+<a class=link href="slideshow-5.shtml">Images Pi-Sn</a> &nbsp;|&nbsp;
+<a class=link href="slideshow-6.shtml">Images So-Z</a><p>&nbsp;
 </td></tr>
 
 
@@ -35,118 +35,157 @@
 <table>
 
 <tr valign=top>
-<td><img src="Slide_Show/celestialchoir-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/celestialsnow-kp-2.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/centrecourt-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/celestialchoir-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/celestialsnow-kp-2.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/centerline-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Celestial Choir</span></td>
-<td align=center><span class=text12><b>Celestial Snow</span></td>
-<td align=center><span class=text12><b>Centre Court</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/chargedup-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/cheers-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/cherrysmoke-kp-2.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Charged Up</span></td>
-<td align=center><span class=text12><b>Cheers</span></td>
-<td align=center><span class=text12><b>Cherry Smoke</span></td>
+<td align=center><span class=text12><b>Celestial Choir</span></b></td>
+<td align=center><span class=text12><b>Celestial Snow</span></b></td>
+<td align=center><span class=text12><b>Center Line</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/chicomaid-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/citylights-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/conjuration-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/centrecourt-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/chargedup-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/cheers-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Chico Maid</span></td>
-<td align=center><span class=text12><b>City Lights</span></td>
-<td align=center><span class=text12><b>Conjuration</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/copperclassic-kp-2.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/coralpoint-kp-2.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/dayglow-kp.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Copper Classic</span></td>
-<td align=center><span class=text12><b>Coral Point</span></td>
-<td align=center><span class=text12><b>Day Glow</span></td>
+<td align=center><span class=text12><b>Centre Court</span></b></td>
+<td align=center><span class=text12><b>Charged Up</span></b></td>
+<td align=center><span class=text12><b>Cheers</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><<img src="Slide_Show/deepdarksecret-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/defttouch-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/discretion-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/cherrysmoke-kp-2.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/chicomaid-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/chinookwinds-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Deep Dark Secret</span></td>
-<td align=center><span class=text12><b>Deft Touch</span></td>
-<td align=center><span class=text12><b>Discretion</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/divinelight-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/divinity-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/doubledribble-kp-2.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Divine Light</span></td>
-<td align=center><span class=text12><b>Divinity</span></td>
-<td align=center><span class=text12><b>Double Dribble</span></td>
+<td align=center><span class=text12><b>Cherry Smoke</span></b></td>
+<td align=center><span class=text12><b>Chico Maid</span></b></td>
+<td align=center><span class=text12><b>Chinook Winds</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/dreamlord-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/dreamoflove-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/duskychallenger-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/citylights-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/cityslicker-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/conjuration-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Dream Lord</span></td>
-<td align=center><span class=text12><b>Dream of Love</span></td>
-<td align=center><span class=text12><b>Dusky Challenger</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/eaglesflight-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/eastertime-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/echodefrance-kp-2.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Eagles Flight</span></td>
-<td align=center><span class=text12><b>Easter Time</span></td>
-<td align=center><span class=text12><b>Echo de France</span></td>
+<td align=center><span class=text12><b>City Lights</span></b></td>
+<td align=center><span class=text12><b>City Slicker</span></b></td>
+<td align=center><span class=text12><b>Conjuration</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/exoticisle-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/eyeopener-kp.jpg" width=225 height=225</td>
-<td></td>
+<td><img src="Slide_Show/copperclassic-kp-2.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/coralflush-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/coralpoint-kp-2.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Exotic Isle</span></td>
-<td align=center><span class=text12><b>Eye Opener</span></td>
-<td align=center><span class=text12></span></td>
+<td align=center><span class=text12><b>Copper Classic</span></b></td>
+<td align=center><span class=text12><b>Coral Flush</span></b></td>
+<td align=center><span class=text12><b>Coral Point</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/coralsatin-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/crystalfountain-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/dayglow-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Coral Satin</span></b></td>
+<td align=center><span class=text12><b>Crystal Fountain</span></b></td>
+<td align=center><span class=text12><b>Day Glow</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/deepdarksecret-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/defttouch-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/discretion-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Deep Dark Secret</span></b></td>
+<td align=center><span class=text12><b>Deft Touch</span></b></td>
+<td align=center><span class=text12><b>Discretion</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/divinelight-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/divinity-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/doubledribble-kp-2.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Divine Light</span></b></td>
+<td align=center><span class=text12><b>Divinity</span></b></td>
+<td align=center><span class=text12><b>Double Dribble</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/doubleovertime-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/dreamlord-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/dreamoflove-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Double Overtime</span></b></td>
+<td align=center><span class=text12><b>Dream Lord</span></b></td>
+<td align=center><span class=text12><b>Dream of Love</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/duskychallenger-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/duskyskies-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/eaglesflight-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Dusky Challenger</span></b></td>
+<td align=center><span class=text12><b>Dusky Skies</span></b></td>
+<td align=center><span class=text12><b>Eagles Flight</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/eastertime-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/echodefrance-kp-2.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/elmohr-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Easter Time</span></b></td>
+<td align=center><span class=text12><b>Echo de France</span></b></td>
+<td align=center><span class=text12><b>El Mohr</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/englishcottage-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/exoticisle-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/eyeopener-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>English Cottage</span></b></td>
+<td align=center><span class=text12><b>Exotic Isle</span></b></td>
+<td align=center><span class=text12><b>Eye Opener</span></b></td>
 </tr>
 
 </table>

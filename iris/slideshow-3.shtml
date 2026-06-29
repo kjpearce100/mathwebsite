@@ -23,9 +23,9 @@
 <a class=link href="slideshow-1.shtml">Images A-Ca</a> &nbsp;| &nbsp;
 <a class=link href="slideshow-2.shtml">Images Ce-E</a> &nbsp;| &nbsp;
 <span class=text10a>Images F-K</span> &nbsp;| &nbsp;
-<a class=link HREF="slideshow-4.shtml">Images L-Pa</a> &nbsp;| &nbsp;
-<a class=link href="slideshow-5.shtml">Images Pe-Sp</a> &nbsp;|&nbsp;
-<a class=link href="slideshow-6.shtml">Images St-W</a><p>&nbsp;
+<a class=link HREF="slideshow-4.shtml">Images L-Pe</a> &nbsp;| &nbsp;
+<a class=link href="slideshow-5.shtml">Images Pi-Sn</a> &nbsp;|&nbsp;
+<a class=link href="slideshow-6.shtml">Images So-Z</a><p>&nbsp;
 </td></tr>
 
 
@@ -35,118 +35,183 @@
 <table>
 
 <tr valign=top>
-<td><img src="Slide_Show/firesideglow-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/firstimpression-kp-2.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/followthefleet-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/falconeer-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/fallrerun-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/fancylady-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Fireside Glow</span></td>
-<td align=center><span class=text12><b>First Impression</span></td>
-<td align=center><span class=text12><b>Follow the Fleet</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/foolishfancy-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/fringebenefits-kp-2.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/fundamental-kp.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Foolish Fancy</span></td>
-<td align=center><span class=text12><b>Fringe Benefits</span></td>
-<td align=center><span class=text12><b>Fundamental</span></td>
+<td align=center><span class=text12><b>Falconeer</span></b></td>
+<td align=center><span class=text12><b>Fall Rerun</span></b></td>
+<td align=center><span class=text12><b>Fancy Lady</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/gallanttheme-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/georgiagirl-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/grandwaltz-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/fantasylace-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/firesideglow-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/firstimpression-kp-2.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Gallant Theme</span></td>
-<td align=center><span class=text12><b>Georgia Girl</span></td>
-<td align=center><span class=text12><b>Grand Waltz</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/grecianskies-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/green-eyedlady-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/halloffame-kp.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Grecian Skies</span></td>
-<td align=center><span class=text12><b>Green-eyed Lady</span></td>
-<td align=center><span class=text12><b>Hall of Fame</span></td>
+<td align=center><span class=text12><b>Fantasy Lace</span></b></td>
+<td align=center><span class=text12><b>Fireside Glow</span></b></td>
+<td align=center><span class=text12><b>First Impression</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><<img src="Slide_Show/handiwork-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/hellsfire-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/hiddenriches-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/followthefleet-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/fondationvangogh-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/foolishfancy-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Handiwork</span></td>
-<td align=center><span class=text12><b>Hell's Fire</span></td>
-<td align=center><span class=text12><b>Hidden Riches</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/hindenburg-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/honeyglazed-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/hottotrot-kp.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Hindenburg</span></td>
-<td align=center><span class=text12><b>Honey Glazed</span></td>
-<td align=center><span class=text12><b>Hot to Trot</span></td>
+<td align=center><span class=text12><b>Follow the Fleet</span></b></td>
+<td align=center><span class=text12><b>Fondation Van Gogh</span></b></td>
+<td align=center><span class=text12><b>Foolish Fancy</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/i.pallida-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/ilovelace-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/immortality-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/freeride-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/fringebenefits-kp-2.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/fundamental-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>i.pallida</span></td>
-<td align=center><span class=text12><b>I Love Lace</span></td>
-<td align=center><span class=text12><b>Immortality</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/intothenight-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/jacaranda-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/joyceterry-kp.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Into the Night</span></td>
-<td align=center><span class=text12><b>Jacaranda</span></td>
-<td align=center><span class=text12><b>Joyce Terry</span></td>
+<td align=center><span class=text12><b>Free Ride</span></b></td>
+<td align=center><span class=text12><b>Fringe Benefits</span></b></td>
+<td align=center><span class=text12><b>Fundamental</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/kevin'stheme-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/kissofpeace-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/knock'emdead-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/gallanttheme-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/georgiagirl-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/glendale-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Kevin's Theme</span></td>
-<td align=center><span class=text12><b>Kiss of Peace</span></td>
-<td align=center><span class=text12><b>Knock 'em Dead</span></td>
+<td align=center><span class=text12><b>Gallant Theme</span></b></td>
+<td align=center><span class=text12><b>Georgia Girl</span></b></td>
+<td align=center><span class=text12><b>Glendale</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/gotmilk-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/grandwaltz-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/grecianskies-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Got Milk</span></b></td>
+<td align=center><span class=text12><b>Grand Waltz</span></b></td>
+<td align=center><span class=text12><b>Grecian Skies</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/green-eyedlady-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/halloffame-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/handiwork-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Green-eyed Lady</span></b></td>
+<td align=center><span class=text12><b>Hall of Fame</span></b></td>
+<td align=center><span class=text12><b>Handiwork</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/hellsfire-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/hiddenriches-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/hindenburg-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Hell's Fire</span></b></td>
+<td align=center><span class=text12><b>Hidden Riches</span></b></td>
+<td align=center><span class=text12><b>Hindenburg</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/honeyglazed-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/hottotrot-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/i.pallida-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Honey Glazed</span></b></td>
+<td align=center><span class=text12><b>Hot to Trot</span></b></td>
+<td align=center><span class=text12><b>i.pallida</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/ilovelace-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/immortality-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/inyourdreams-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>I Love Lace</span></b></td>
+<td align=center><span class=text12><b>Immortality</span></b></td>
+<td align=center><span class=text12><b>In Your Dreams</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/inkpatterns-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/intothenight-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/jacaranda-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Ink Patterns</span></b></td>
+<td align=center><span class=text12><b>Into the Night</span></b></td>
+<td align=center><span class=text12><b>Jacaranda</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/jessessong-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/joanmoritz-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/joyceterry-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Jesse;s Song</span></b></td>
+<td align=center><span class=text12><b>Joan Moritz</span></b></td>
+<td align=center><span class=text12><b>Joyce Terry</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/kevin'stheme-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/kissofpeace-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/knock'emdead-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Kevin's Theme</span></b></td>
+<td align=center><span class=text12><b>Kiss of Peace</span></b></td>
+<td align=center><span class=text12><b>Knock 'em Dead</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/kuniko-kp.jpg" width=225 height=225></td>
+<td align=center><span class=text12></span></td>
+<td align=center><span class=text12></span></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Kuniko</span></b></td>
+<td align=center><span class=text12></span></td>
+<td align=center><span class=text12></span></td>
 </tr>
 
 

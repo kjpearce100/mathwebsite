@@ -23,9 +23,9 @@
 <a class=link href="slideshow-1.shtml">Images A-Ca</a> &nbsp;| &nbsp;
 <a class=link href="slideshow-2.shtml">Images Ce-E</a> &nbsp;| &nbsp;
 <a class=link href="slideshow-3.shtml">Images F-K</a> &nbsp;| &nbsp;
-<span class=text10a>Images L-Pa</span> &nbsp;| &nbsp;
-<a class=link href="slideshow-5.shtml">Images Pe-Sp</a> &nbsp;|&nbsp;
-<a class=link href="slideshow-6.shtml">Images St-W</a><p>&nbsp;
+<span class=text10a>Images L-Pe</span> &nbsp;| &nbsp;
+<a class=link href="slideshow-5.shtml">Images Pi-Sn</a> &nbsp;|&nbsp;
+<a class=link href="slideshow-6.shtml">Images So-Z</a><p>&nbsp;
 </td></tr>
 
 
@@ -35,118 +35,157 @@
 <table>
 
 <tr valign=top>
-<td><img src="Slide_Show/lacedcotton-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/ladyjean-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/licoricestick-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/lacedcotton-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/ladyjean-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/leapoffaith-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Laced Cotton</span></td>
-<td align=center><span class=text12><b>Lady Jean</span></td>
-<td align=center><span class=text12><b>Licorice Stick</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/lifeofriley-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/lilreddevil-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/lineup-kp.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Life of Riley</span></td>
-<td align=center><span class=text12><b>Lil' Red Devil</span></td>
-<td align=center><span class=text12><b>Line Up</span></td>
+<td align=center><span class=text12><b>Laced Cotton</span></b></td>
+<td align=center><span class=text12><b>Lady Jean</span></b></td>
+<td align=center><span class=text12><b>Leap of Faith</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/loisrainer-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/lovelydiane-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/lullabyofspring-kp-2.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/lemontower-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/licoricestick-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/lifeofriley-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Lois Rainer</span></td>
-<td align=center><span class=text12><b>Lovely Diane</span></td>
-<td align=center><span class=text12><b>Lullaby of Spring</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/luxurylace-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/madeira-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/margarita-kp-2.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Luxury Lace</span></td>
-<td align=center><span class=text12><b>Madeira</span></td>
-<td align=center><span class=text12><b>Margarita</span></td>
+<td align=center><span class=text12><b>Lemon Tower</span></b></td>
+<td align=center><span class=text12><b>Licorice Stick</span></b></td>
+<td align=center><span class=text12><b>Life of Riley</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><<img src="Slide_Show/maryfrances-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/mirrorimage-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/mobygrape-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/lilreddevil-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/lineup-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/loisrainer-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Mary Frances</span></td>
-<td align=center><span class=text12><b>Mirror Image</span></td>
-<td align=center><span class=text12><b>Moby Grape</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/monaco-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/moutaninshadows-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/naturalbeauty-kp.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Monaco</span></td>
-<td align=center><span class=text12><b>Mountain in Shadows</span></td>
-<td align=center><span class=text12><b>Natural Beauty</span></td>
+<td align=center><span class=text12><b>Lil' Red Devil</span></b></td>
+<td align=center><span class=text12><b>Line Up</span></b></td>
+<td align=center><span class=text12><b>Lois Rainer</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/nightflame-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/obsession-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/olympiad-kp.jpg" width=225 height=225</td>
+<td><img src="Slide_Show/lorettaheights-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/lovelydiane-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/lullabyofspring-kp-2.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Night Flame</span></td>
-<td align=center><span class=text12><b>Obsession</span></td>
-<td align=center><span class=text12><b>Olympiad</span></td>
-</tr>
-
-<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
-
-<tr valign=top>
-<td><img src="Slide_Show/opportunity-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/orangeparade-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/orchidcloud-kp-3.jpg" width=225 height=225</td>
-</tr>
-<tr valign=top>
-<td align=center><span class=text12><b>Opportunity</span></td>
-<td align=center><span class=text12><b>Orange Parade</span></td>
-<td align=center><span class=text12><b>Orchid Cloud</span></td>
+<td align=center><span class=text12><b>Loretta Heights</span></b></td>
+<td align=center><span class=text12><b>Lovely Diane</span></b></td>
+<td align=center><span class=text12><b>Lullaby of Spring</span></b></td>
 </tr>
 
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/paradise-kp.jpg" width=225 height=225</td>
-<td><img src="Slide_Show/parislights-kp.jpg" width=225 height=225</td>
-<td></td>
+<td><img src="Slide_Show/luxurylace-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/madeira-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/margarita-kp-2.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
-<td align=center><span class=text12><b>Paradise</span></td>
-<td align=center><span class=text12><b>Paris Lights</span></td>
-<td align=center><span class=text12></span></td>
+<td align=center><span class=text12><b>Luxury Lace</span></b></td>
+<td align=center><span class=text12><b>Madeira</span></b></td>
+<td align=center><span class=text12><b>Margarita</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/maryfrances-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/mirrorimage-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/mobygrape-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Mary Frances</span></b></td>
+<td align=center><span class=text12><b>Mirror Image</span></b></td>
+<td align=center><span class=text12><b>Moby Grape</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/monaco-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/moutaninshadows-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/mrbigun-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Monaco</span></b></td>
+<td align=center><span class=text12><b>Mountain in Shadows</span></b></td>
+<td align=center><span class=text12><b>Mr Bigun</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/naturalbeauty-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/nightflame-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/obsession-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Natural Beauty</span></b></td>
+<td align=center><span class=text12><b>Night Flame</span></b></td>
+<td align=center><span class=text12><b>Obsession</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/oktoberfest-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/olympiad-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/opportunity-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Oktober Fest</span></b></td>
+<td align=center><span class=text12><b>Olympiad</span></b></td>
+<td align=center><span class=text12><b>Opportunity</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/orangeparade-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/orchidcloud-kp-3.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/oregoncream-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Orange Parade</span></b></td>
+<td align=center><span class=text12><b>Orchid Cloud</span></b></td>
+<td align=center><span class=text12><b>Oregon Cream</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/paradise-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/parislights-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/peachandquiet-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Paradise</span></b></td>
+<td align=center><span class=text12><b>Paris Lights</span></b></td>
+<td align=center><span class=text12><b>Peach and Quiet</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/pebblefresh-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/peggysue-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/persiangown-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Pebble Fresh</span></b></td>
+<td align=center><span class=text12><b>Peggy Sue</span></b></td>
+<td align=center><span class=text12><b>Persian Gown</span></b></td>
 </tr>
 
 </table>
