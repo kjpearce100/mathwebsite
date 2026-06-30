@@ -24,11 +24,8 @@
 </center>
 
 <UL>
-				<li><a href="http://www.falstad.com/complexviewer/" > Javascript adaption of "Complex Mapping Viewer"</a> -- <a href="http://www.falstad.com/mathphysics.html">Paul Falstad</a> used <a href="https://sourceforge.net/projects/swingjs/">SwingJS</a> to convert the Java-based applet "Complex Function Viewer" into Javascript.
-<p>					
-        <li><A HREF="http://www.math.ttu.edu/~pearce/complex/complexviewer.html" >Complex Mapping Viewer</a> -- Kent Pearce (modificaiton of Java applet <a href="http://www.sunsite.ubc.ca/LivingMathematics/V001N01/UBCExamples/ComplexViewer/complex.html">Complex Function Viewer</A> by by Keith Orpen and Djun M. Kim)
-<p>
-        <li><A HREF="http://www.math.ttu.edu/~pearce/julia/julia.html" >Julia and Mandelbrot Explorer </a> -- Julia Thrower, Clarke Scholar, Texas Tech University, 2001.
+		<li><a href="http://www.falstad.com/complexviewer/" > Javascript adaption of "Complex Mapping Viewer"</a> -- <a href="http://www.falstad.com/mathphysics.html">Paul Falstad</a> used <a href="https://sourceforge.net/projects/swingjs/">SwingJS</a> to convert the Java-based applet "Complex Function Viewer" into Javascript.
+
 <p>
         <li><A HREF="http://www.ima.umn.edu/~arnold/complex-g.html" >Graphics for complex analysis </A> -- Douglas N. Arnold
 <p>
