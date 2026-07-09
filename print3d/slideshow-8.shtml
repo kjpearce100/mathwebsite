@@ -22,10 +22,10 @@
 <tr><td colspan=3 align=center><p>&nbsp;<p>
 <a class=link href="slideshow-1.shtml">Animal Figure Prints</a> &nbsp;| &nbsp;
 <a class=link href="slideshow-2.shtml">Gift Prints</a> &nbsp;| &nbsp;
-<a class=link href="slideshow-3.shtml">Puzzle Prints</a> &nbsp;| &nbsp;
-<a class=link HREF="slideshow-4.shtml">Printer Related Prints</a> &nbsp;| &nbsp;
-<a class=link href="slideshow-5.shtml">Project/Construct Prints</a> &nbsp;| &nbsp;
-<a class=link href="slideshow-6.shtml">Temple Prints</a>&nbsp;| &nbsp;
+<a class=link HREF="slideshow-3.shtml">Printer Related Prints</a> &nbsp;| &nbsp;
+<a class=link href="slideshow-4.shtml">Project/Construct Prints</a> &nbsp;| &nbsp;
+<a class=link href="slideshow-5.shtml">Puzzle Prints</a> &nbsp;| &nbsp;
+<a class=link href="slideshow-6.shtml">Temple Prints</a> &nbsp;| &nbsp;
 <a class=link href="slideshow-7.shtml">Tool Prints</a> &nbsp;| &nbsp;
 <span class=text10a>Toy Prints</span> <p> &nbsp;
 </td></tr>
@@ -37,9 +37,9 @@
 <table>
 
 <tr valign=top>
-<td><img src="Slide_Show/Tool/acclamation-kp.jpg" width=225 height=225></td>
-<td><img src="Slide_Show/Tool/alabasterunicorn-kp.jpg" width=225 height=225></td>
-<td><img src="Slide_Show/Tool/alteredstates-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/Toy/acclamation-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/Toy/alabasterunicorn-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/Toy/alteredstates-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
 <td align=center><span class=text12><b>Acclamation</span></b></td>
@@ -50,9 +50,9 @@
 <tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
 
 <tr valign=top>
-<td><img src="Slide_Show/Tool/amazonprincess-kp.jpg" width=225 height=225></td>
-<td><img src="Slide_Show/Tool/armswideopen-kp.jpg" width=225 height=225></td>
-<td><img src="Slide_Show/Tool/aroundmidnight-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/Toy/amazonprincess-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/Toy/armswideopen-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/Toy/aroundmidnight-kp.jpg" width=225 height=225></td>
 </tr>
 <tr valign=top>
 <td align=center><span class=text12><b>Amazon princess</span></b></td>
