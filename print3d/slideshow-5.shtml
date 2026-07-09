@@ -1,0 +1,84 @@
+---
+---
+
+<!DOCTYPE HTML PUBLIC -//IETF//DTD HTML 3.0//EN>
+<HTML>
+
+<head>
+<title>Kent Pearce Web Site</title>
+
+<!-- ****************  Start of Jekyll Include Relative head-print3d.shtml ******************* -->
+
+{% include_relative head-print3d.shtml %}
+
+<!-- ********* *******  End of Jekyll Include Relative head-print3d.shtml ********************* -->
+
+
+
+<!-- Main Section :  Unique to current page : Main Section  -->
+
+<table width=675>
+
+<tr><td colspan=3 align=center><p>&nbsp;<p>
+<a class=link href="slideshow-1.shtml">Animal Figure Prints</a> &nbsp;| &nbsp;
+<a class=link href="slideshow-2.shtml">Gift Prints</a> &nbsp;| &nbsp;
+<a class=link href="slideshow-3.shtml">Puzzle Prints</a> &nbsp;| &nbsp;
+<a class=link href="slideshow-4.shtml">Printer Related Prints</a> &nbsp;| &nbsp;
+<span class=text10a>Project/Construct Prints</span> &nbsp;| &nbsp;
+<a class=link href="slideshow-6.shtml">Temple Prints</a> &nbsp;| &nbsp;
+<a class=link href="slideshow-7.shtml">Tool Prints</a><p> &nbsp;
+</td></tr>
+
+
+<tr valign=top>
+<td width=70%>
+
+<table>
+
+<tr valign=top>
+<td><img src="Slide_Show/acclamation-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/alabasterunicorn-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/alteredstates-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Acclamation</span></b></td>
+<td align=center><span class=text12><b>Alabaster Unicorn</span></b></td>
+<td align=center><span class=text12><b>Altered States</span></b></td>
+</tr>
+
+<tr><td colspan=3 align=center><hr size=2 width=75%></td></tr>
+
+<tr valign=top>
+<td><img src="Slide_Show/amazonprincess-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/armswideopen-kp.jpg" width=225 height=225></td>
+<td><img src="Slide_Show/aroundmidnight-kp.jpg" width=225 height=225></td>
+</tr>
+<tr valign=top>
+<td align=center><span class=text12><b>Amazon princess</span></b></td>
+<td align=center><span class=text12><b>Arms Wide Open</span></b></td>
+<td align=center><span class=text12><b>Around Midnight</span></b></td>
+</tr>
+
+</table>
+
+
+</td></tr>
+</table>
+
+
+</center>
+
+<!-- End Section :  Common to all page : End Section  -->
+
+
+<!-- ****************  Start of Jekyll Include Relative tail-print3d.shtml ******************* -->
+
+{% include_relative tail-print3d.shtml %}
+
+<!-- *****************  End of Jekyll Include Relative tail-print3d.shtml ********************* -->
+
+
+</body>
+
+</html>
+
