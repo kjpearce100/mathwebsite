@@ -47,7 +47,7 @@ document.write(date + " " + lmonth + " " + year);
 </td>
 
 <td align=middle width=300>
-<span class=text16red>Print3D Projects</span>
+<span class=text16red>Print3D Print Projects</span>
 </td>
 
 <td align="right" width=150>
